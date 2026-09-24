@@ -261,8 +261,7 @@ select {
   margin: 0;
   letter-spacing: 0;
 }
-.section-heading > a,
-.section-count {
+.section-heading > a {
   font-size: 13px;
   color: #527064;
   font-weight: 650;
@@ -457,72 +456,6 @@ select {
   font-size: 12px;
   line-height: 1.6;
 }
-.source-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-}
-.source-card {
-  background: #fff;
-  border: 1px solid #dce4dd;
-  padding: 17px 18px;
-  border-radius: 5px;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.source-card .source-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  color: #177558;
-  font-size: 11px;
-  font-weight: 700;
-}
-.source-card .source-top span:last-child {
-  color: #809087;
-}
-.source-card h3 {
-  font-size: 15px;
-  line-height: 1.45;
-  margin: 0;
-}
-.source-card p {
-  font-size: 12px;
-  color: #5d6a61;
-  line-height: 1.55;
-  margin: 0;
-  flex: 1;
-}
-.source-card .tags {
-  font-size: 11px;
-  color: #7a887e;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.source-card a {
-  color: #0b7355;
-  font-size: 12px;
-  font-weight: 700;
-  align-self: flex-start;
-}
-.more {
-  display: block;
-  margin: 27px auto 0;
-  padding: 10px 27px;
-  border: 1px solid #9bb9a6;
-  border-radius: 5px;
-  background: #fff;
-  color: #176e53;
-  font-weight: 700;
-  font-size: 13px;
-}
-.more[hidden] {
-  display: none;
-}
 footer {
   border-top: 1px solid #dce4dc;
   padding: 28px 0;
@@ -665,9 +598,6 @@ dialog::backdrop {
   .image-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  .source-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
   .template-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -698,8 +628,7 @@ dialog::backdrop {
     gap: 12px;
     font-size: 12px;
   }
-  .site-header nav a:first-child,
-  .site-header nav a:nth-child(3) {
+  .site-header nav a:first-child {
     display: none;
   }
   .github-link {
@@ -758,8 +687,7 @@ dialog::backdrop {
     font-size: 12px;
   }
   .image-grid,
-  .video-grid,
-  .source-grid {
+  .video-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
   }
@@ -793,15 +721,6 @@ dialog::backdrop {
   .video-card p {
     font-size: 11px;
   }
-  .source-card {
-    padding: 13px;
-  }
-  .source-card h3 {
-    font-size: 13px;
-  }
-  .source-card p {
-    font-size: 11px;
-  }
   .detail-layout {
     grid-template-columns: 1fr;
   }
@@ -823,7 +742,6 @@ dialog::backdrop {
   }
 }
 @media (max-width: 410px) {
-  .source-grid,
   .video-grid {
     grid-template-columns: 1fr;
   }

@@ -1,7 +1,6 @@
 const $ = (selector) => document.querySelector(selector);
-const state = { type: "all", category: "all", query: "", visible: 18 };
+const state = { type: "all", category: "all", query: "" };
 const detail = $("#detail");
-let catalog = [];
 let images = [];
 let videos = [];
 let templates = [];
@@ -20,8 +19,6 @@ function match(entry, type) {
     entry.title,
     entry.summary,
     entry.category,
-    ...(entry.tags ?? []),
-    entry.source?.label,
     entry.input,
     ...(entry.inputs ?? []),
   ]
@@ -29,9 +26,7 @@ function match(entry, type) {
     .join(" ")
     .toLocaleLowerCase();
   return (
-    (state.category === "all" ||
-      entry.category === state.category ||
-      entry.tags?.includes(state.category)) &&
+    (state.category === "all" || entry.category === state.category) &&
     terms.includes(state.query)
   );
 }
@@ -185,49 +180,17 @@ function renderTemplates() {
   }
 }
 
-function renderSources() {
-  const grid = $("#source-grid");
-  grid.replaceChildren();
-  const filtered = catalog.filter((entry) => match(entry, entry.kind));
-  $("#sources").hidden = filtered.length === 0;
-  $("#source-count").textContent = `${filtered.length} 条`;
-  for (const entry of filtered.slice(0, state.visible)) {
-    const card = el("article", "source-card");
-    const top = el("div", "source-top");
-    top.append(
-      el("span", "", entry.kind === "image" ? "生图" : "生视频"),
-      el("span", "", "来源案例"),
-    );
-    const link = el("a", "", `${entry.source.label} ↗`);
-    link.href = entry.source.url;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    card.append(
-      top,
-      el("h3", "", entry.title),
-      el("p", "", entry.summary),
-      el("div", "tags", entry.tags.join(" · ")),
-      link,
-    );
-    grid.append(card);
-  }
-  $("#more").hidden = filtered.length <= state.visible;
-}
-
 function render() {
   renderImages();
   renderVideos();
   renderTemplates();
-  renderSources();
   const nothing =
     !images.some((entry) => match(entry, "image")) &&
     !videos.some((entry) => match(entry, "video")) &&
-    !templates.some((entry) => match(entry, entry.kind)) &&
-    !catalog.some((entry) => match(entry, entry.kind));
-  $("#sources").hidden = nothing ? false : $("#sources").hidden;
+    !templates.some((entry) => match(entry, entry.kind));
   if (nothing) {
-    $("#source-count").textContent = "";
-    $("#source-grid").append(el("p", "empty", "没有找到匹配的案例。"));
+    $("#templates").hidden = false;
+    $("#template-grid").append(el("p", "empty", "没有找到匹配的 Prompt。"));
   }
 }
 
@@ -235,8 +198,6 @@ function populateCategories() {
   const categories = new Set(
     [...images, ...videos, ...templates].map((entry) => entry.category),
   );
-  for (const entry of catalog)
-    for (const tag of entry.tags) categories.add(tag);
   const select = $("#category");
   for (const category of [...categories].sort((a, b) =>
     a.localeCompare(b, "zh-CN"),
@@ -249,21 +210,17 @@ function populateCategories() {
 
 async function start() {
   try {
-    const [showcaseResponse, templatesResponse, catalogResponse] =
-      await Promise.all([
-        fetch("data/showcase.json"),
-        fetch("data/templates.json"),
-        fetch("data/catalog.json"),
-      ]);
-    if (!showcaseResponse.ok || !templatesResponse.ok || !catalogResponse.ok)
+    const [showcaseResponse, templatesResponse] = await Promise.all([
+      fetch("data/showcase.json"),
+      fetch("data/templates.json"),
+    ]);
+    if (!showcaseResponse.ok || !templatesResponse.ok)
       throw new Error("Data unavailable");
     const showcase = await showcaseResponse.json();
     const templateLibrary = await templatesResponse.json();
-    const sources = await catalogResponse.json();
     images = showcase.images;
     videos = showcase.videos;
     templates = templateLibrary.entries;
-    catalog = sources.entries;
     $("#count-images").textContent = String(images.length).padStart(2, "0");
     $("#count-videos").textContent = String(videos.length).padStart(2, "0");
     $("#count-templates").textContent = String(templates.length);
@@ -280,7 +237,6 @@ async function start() {
       );
       button.addEventListener("click", () => {
         state.type = button.dataset.type;
-        state.visible = 18;
         document
           .querySelectorAll(".segments button")
           .forEach((item) =>
@@ -292,22 +248,16 @@ async function start() {
     populateCategories();
     $("#search").addEventListener("input", (event) => {
       state.query = event.target.value.trim().toLocaleLowerCase();
-      state.visible = 18;
       render();
     });
     $("#category").addEventListener("change", (event) => {
       state.category = event.target.value;
-      state.visible = 18;
       render();
-    });
-    $("#more").addEventListener("click", () => {
-      state.visible += 18;
-      renderSources();
     });
     render();
   } catch {
-    $("#source-grid").append(
-      el("p", "empty", "内容暂时无法加载。请在 GitHub 仓库中浏览案例。"),
+    $("#template-grid").append(
+      el("p", "empty", "内容暂时无法加载。请在 GitHub 仓库中浏览 Prompt。"),
     );
   }
 }

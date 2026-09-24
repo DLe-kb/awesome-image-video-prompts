@@ -71,7 +71,7 @@ validate();
 const readme = readFileSync(resolve(root, 'README.md'), 'utf8');
 for (const kind of Object.keys(kinds)) {
   const count = data.entries.filter(entry => entry.kind === kind).length;
-  const line = `| [${kinds[kind]}案例](catalog/${kind}.md) | ${count} |`;
+  const line = `[${kinds[kind]}参考链接](catalog/${kind}.md) · ${count} 条`;
   if (!readme.includes(line)) throw new Error(`README count is out of date: ${kind}`);
 }
 if (!readme.includes(`${data.entries.length} 条公开案例线索`)) throw new Error('README total is out of date');

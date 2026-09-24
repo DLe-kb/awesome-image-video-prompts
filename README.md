@@ -38,26 +38,24 @@
 | [人像灯光对照](templates/image.md#portrait-lighting-sheet) · [角色多视角板](templates/image.md#character-turnaround) | [角色连续动作](templates/video.md#character-continuity) · [前后状态揭示](templates/video.md#before-after-reveal) |
 | [室内空间材质板](templates/image.md#interior-material-board) · [创作者视频封面](templates/image.md#creator-cover) | [地点氛围短片](templates/video.md#travel-mini-film) · [物体匹配转场](templates/video.md#object-match-cut) |
 
-## 来源案例索引
-
-另有 114 条公开案例线索，供查找原作者、作品与创作方向。外部作品与第三方提示词请在来源页面查看。
-
-| 浏览方向 | 条目 | 适合查找 |
-| --- | ---: | --- |
-| [生图案例](catalog/image.md) | 68 | 广告视觉、海报、信息图、摄影、产品展示与插画 |
-| [生视频案例](catalog/video.md) | 46 | 运镜、动画、短片、产品广告与多镜头创作 |
-
 ## 如何使用
 
 1. 打开[交互画廊](https://dle-kb.github.io/awesome-image-video-prompts/)，按生图或生视频筛选，也可以搜索题材和用途。
 2. 在[生图模板](templates/image.md)或[生视频模板](templates/video.md)中选择任务，填写变量并复制完整 Prompt；视频模板根据所用模型补充参考素材与参数。
-3. 在[生成案例](showcase/image.md)中查看提示词与实际画面；需要更多灵感时再打开来源索引。
+3. 在[生成案例](showcase/image.md)中查看提示词与实际画面。
 
 ## 贡献与许可
 
 欢迎提供新案例、可复用 Prompt、修正来源链接，或贡献有权公开的生成结果。请阅读[贡献指南](CONTRIBUTING.md)。
 
 本仓库原创文字、提示词、生成预览与代码使用 [MIT License](LICENSE)。外部链接指向的作品归各自权利人所有，不包含在本仓库许可范围内。
+
+## 补充参考
+
+另外保留 114 条公开案例线索，方便追溯原作者和作品；链接所指内容不属于本仓库的 Prompt 模板。
+
+- [生图参考链接](catalog/image.md) · 68 条
+- [生视频参考链接](catalog/video.md) · 46 条
 
 ---
 
