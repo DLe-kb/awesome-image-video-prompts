@@ -1,75 +1,182 @@
 <!doctype html>
 <html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f6f7f5">
-  <meta name="description" content="生图案例、生视频工作流与创作灵感库。浏览预览、复制提示词、查找创作者来源。">
-  <title>Awesome Image & Video Prompts</title>
-  <link rel="stylesheet" href="assets/site.css">
-  <script type="module" src="assets/site.js"></script>
-</head>
-<body>
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="./" aria-label="Awesome Image & Video Prompts 首页"><span class="brand-mark" aria-hidden="true">✳</span><span>Image / Video <small>Prompts</small></span></a>
-      <nav aria-label="导航">
-        <a href="#showcase">案例</a>
-        <a href="#sources">来源索引</a>
-        <a class="github-link" href="https://github.com/DLe-kb/awesome-image-video-prompts" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section class="intro container" aria-labelledby="page-title">
-      <div class="intro-copy">
-        <p class="eyebrow">CURATED PROMPT LIBRARY · 生图 / 生视频</p>
-        <h1 id="page-title">从画面出发，<br>找到下一个创作方向。</h1>
-        <p class="intro-desc">精选图像案例、可复制的提示词和视频工作流，按题材、用途和来源整理。</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f7f5" />
+    <meta
+      name="description"
+      content="生图案例、生视频工作流与创作灵感库。浏览预览、复制提示词、查找创作者来源。"
+    />
+    <title>Awesome Image & Video Prompts</title>
+    <link rel="stylesheet" href="assets/site.css" />
+    <script type="module" src="assets/site.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a
+          class="brand"
+          href="./"
+          aria-label="Awesome Image & Video Prompts 首页"
+          ><span class="brand-mark" aria-hidden="true">✳</span
+          ><span>Image / Video <small>Prompts</small></span></a
+        >
+        <nav aria-label="导航">
+          <a href="#showcase">案例</a>
+          <a href="#sources">来源索引</a>
+          <a
+            class="github-link"
+            href="https://github.com/DLe-kb/awesome-image-video-prompts"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub ↗</a
+          >
+        </nav>
       </div>
-      <div class="intro-aside" aria-label="内容概览">
-        <div><strong id="count-images">04</strong><span>原创生图案例</span></div>
-        <div><strong id="count-videos">02</strong><span>视频工作流</span></div>
-        <div><strong id="count-sources">114</strong><span>来源案例</span></div>
-      </div>
-    </section>
-
-    <div class="toolbar-wrap" id="showcase">
-      <div class="toolbar container">
-        <div class="segments" role="group" aria-label="内容类型">
-          <button type="button" data-type="all" aria-pressed="true">全部</button>
-          <button type="button" data-type="image" aria-pressed="false">生图</button>
-          <button type="button" data-type="video" aria-pressed="false">生视频</button>
+    </header>
+    <main>
+      <section class="intro container" aria-labelledby="page-title">
+        <div class="intro-copy">
+          <p class="eyebrow">CURATED PROMPT LIBRARY · 生图 / 生视频</p>
+          <h1 id="page-title">从画面出发，<br />找到下一个创作方向。</h1>
+          <p class="intro-desc">
+            精选图像案例、可复制的提示词和视频工作流，按题材、用途和来源整理。
+          </p>
         </div>
-        <div class="tools">
-          <label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">搜索案例</span><input id="search" type="search" placeholder="搜索题材、用途、标签…" autocomplete="off"></label>
-          <label class="sr-only" for="category">分类</label>
-          <select id="category"><option value="all">所有分类</option></select>
+        <div class="intro-aside" aria-label="内容概览">
+          <div>
+            <strong id="count-images">04</strong><span>原创生图案例</span>
+          </div>
+          <div>
+            <strong id="count-videos">02</strong><span>视频工作流</span>
+          </div>
+          <div>
+            <strong id="count-sources">114</strong><span>来源案例</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="toolbar-wrap" id="showcase">
+        <div class="toolbar container">
+          <div class="segments" role="group" aria-label="内容类型">
+            <button type="button" data-type="all" aria-pressed="true">
+              全部
+            </button>
+            <button type="button" data-type="image" aria-pressed="false">
+              生图
+            </button>
+            <button type="button" data-type="video" aria-pressed="false">
+              生视频
+            </button>
+          </div>
+          <div class="tools">
+            <label class="search"
+              ><span aria-hidden="true">⌕</span
+              ><span class="sr-only">搜索案例</span
+              ><input
+                id="search"
+                type="search"
+                placeholder="搜索题材、用途、标签…"
+                autocomplete="off"
+            /></label>
+            <label class="sr-only" for="category">分类</label>
+            <select id="category">
+              <option value="all">所有分类</option>
+            </select>
+          </div>
         </div>
       </div>
-    </div>
 
-    <section class="content-section container" id="image-section" aria-labelledby="image-heading">
-      <div class="section-heading"><div><p class="eyebrow">ORIGINAL CASES</p><h2 id="image-heading">生图精选</h2></div><a href="https://github.com/DLe-kb/awesome-image-video-prompts/blob/main/showcase/image.md">完整提示词 ↗</a></div>
-      <div id="image-grid" class="image-grid" aria-live="polite"></div>
-    </section>
+      <section
+        class="content-section container"
+        id="image-section"
+        aria-labelledby="image-heading"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">ORIGINAL CASES</p>
+            <h2 id="image-heading">生图精选</h2>
+          </div>
+          <a
+            href="https://github.com/DLe-kb/awesome-image-video-prompts/blob/main/showcase/image.md"
+            >完整提示词 ↗</a
+          >
+        </div>
+        <div id="image-grid" class="image-grid" aria-live="polite"></div>
+      </section>
 
-    <section class="content-section video-band" id="video-section" aria-labelledby="video-heading">
-      <div class="container">
-        <div class="section-heading"><div><p class="eyebrow">VIDEO WORKFLOWS</p><h2 id="video-heading">生视频工作流</h2></div><a href="https://github.com/DLe-kb/awesome-image-video-prompts/blob/main/showcase/video.md">全部模板 ↗</a></div>
-        <div id="video-grid" class="video-grid"></div>
+      <section
+        class="content-section video-band"
+        id="video-section"
+        aria-labelledby="video-heading"
+      >
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">VIDEO WORKFLOWS</p>
+              <h2 id="video-heading">生视频工作流</h2>
+            </div>
+            <a
+              href="https://github.com/DLe-kb/awesome-image-video-prompts/blob/main/showcase/video.md"
+              >全部模板 ↗</a
+            >
+          </div>
+          <div id="video-grid" class="video-grid"></div>
+        </div>
+      </section>
+
+      <section
+        class="content-section container source-section"
+        id="sources"
+        aria-labelledby="source-heading"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SOURCE DIRECTORY</p>
+            <h2 id="source-heading">发现更多案例</h2>
+          </div>
+          <span class="section-count" id="source-count"></span>
+        </div>
+        <div id="source-grid" class="source-grid"></div>
+        <button type="button" id="more" class="more" hidden>加载更多</button>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-inner">
+        <span>Awesome Image & Video Prompts</span>
+        <div>
+          <a
+            href="https://github.com/DLe-kb/awesome-image-video-prompts/blob/main/CONTRIBUTING.md"
+            >贡献</a
+          ><a
+            href="https://github.com/DLe-kb/awesome-image-video-prompts/blob/main/LICENSE"
+            >许可</a
+          ><a href="https://github.com/DLe-kb/awesome-image-video-prompts"
+            >GitHub ↗</a
+          >
+        </div>
       </div>
-    </section>
-
-    <section class="content-section container source-section" id="sources" aria-labelledby="source-heading">
-      <div class="section-heading"><div><p class="eyebrow">SOURCE DIRECTORY</p><h2 id="source-heading">发现更多案例</h2></div><span class="section-count" id="source-count"></span></div>
-      <div id="source-grid" class="source-grid"></div>
-      <button type="button" id="more" class="more" hidden>加载更多</button>
-    </section>
-  </main>
-  <footer><div class="container footer-inner"><span>Awesome Image & Video Prompts</span><div><a href="https://github.com/DLe-kb/awesome-image-video-prompts/blob/main/CONTRIBUTING.md">贡献</a><a href="https://github.com/DLe-kb/awesome-image-video-prompts/blob/main/LICENSE">许可</a><a href="https://github.com/DLe-kb/awesome-image-video-prompts">GitHub ↗</a></div></div></footer>
-  <dialog id="detail" aria-labelledby="detail-title"><div class="dialog-content"><button type="button" class="close" id="close" aria-label="关闭案例" title="关闭">×</button><div id="detail-body"></div></div></dialog>
-  <div id="toast" role="status" aria-live="polite" class="toast" hidden></div>
-  <noscript><p class="container">可在 <a href="README.md">README</a> 浏览全部案例与提示词。</p></noscript>
-</body>
+    </footer>
+    <dialog id="detail" aria-labelledby="detail-title">
+      <div class="dialog-content">
+        <button
+          type="button"
+          class="close"
+          id="close"
+          aria-label="关闭案例"
+          title="关闭"
+        >
+          ×
+        </button>
+        <div id="detail-body"></div>
+      </div>
+    </dialog>
+    <div id="toast" role="status" aria-live="polite" class="toast" hidden></div>
+    <noscript
+      ><p class="container">
+        可在 <a href="README.md">README</a> 浏览全部案例与提示词。
+      </p></noscript
+    >
+  </body>
 </html>
