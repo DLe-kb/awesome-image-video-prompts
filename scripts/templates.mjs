@@ -65,6 +65,12 @@ for (const [kind, title] of Object.entries(pages)) {
       "",
       entry.summary,
       "",
+      ...(entry.example
+        ? [
+            `<a href="../showcase/image.md#${entry.example}"><img src="../${showcase.images.find((item) => item.id === entry.example).image}" alt="${entry.title}案例预览" width="320"></a>`,
+            "",
+          ]
+        : []),
       `**需要填写：** ${entry.inputs.map((input) => `\`[${input}]\``).join(" · ")}`,
       "",
       "```text",
@@ -73,12 +79,6 @@ for (const [kind, title] of Object.entries(pages)) {
       "",
       `**使用检查：** ${entry.tip}`,
       "",
-      ...(entry.example
-        ? [
-            `[查看生成案例](../showcase/image.md#${showcase.images.find((item) => item.id === entry.example)?.title ?? ""})`,
-            "",
-          ]
-        : []),
     ]),
   ];
   const path = resolve(root, `templates/${kind}.md`);

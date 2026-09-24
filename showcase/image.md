@@ -2,11 +2,99 @@
 
 [返回首页](../README.md) · [浏览画廊](../index.html)
 
-先浏览原创案例，再按来源与题材查找公开收录的案例。来源预览与提示词归原作者所有。
+按画面浏览案例，下方对应完整提示词与来源。
+
+## 精选预览
+
+<table>
+<tr><td width="33%" valign="top" align="center"><a href="../assets/previews/botanical.webp"><img src="../assets/previews/botanical.webp" alt="虚构植物科学图版预览" width="220"></a><br><a href="#botanical-plate">虚构植物科学图版</a></td><td width="33%" valign="top" align="center"><a href="../assets/previews/beverage.webp"><img src="../assets/previews/beverage.webp" alt="植物汽水商业静物预览" width="220"></a><br><a href="#botanical-soda">植物汽水商业静物</a></td><td width="33%" valign="top" align="center"><a href="../assets/previews/travel.webp"><img src="../assets/previews/travel.webp" alt="虚构海岸城市旅行海报预览" width="220"></a><br><a href="#coastal-poster">虚构海岸城市旅行海报</a></td></tr>
+<tr><td width="33%" valign="top" align="center"><a href="../assets/previews/storyboard.webp"><img src="../assets/previews/storyboard.webp" alt="梨挞广告四镜头分镜预览" width="220"></a><br><a href="#pear-tart-storyboard">梨挞广告四镜头分镜</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/image-828d8ade3e.jpg"><img src="../assets/cases/image-828d8ade3e.jpg" alt="杯内鱼眼夏日冰饮广告预览" width="220"></a><br><a href="#image-828d8ade3e">杯内鱼眼夏日冰饮广告</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/image-5b85051bd1.jpg"><img src="../assets/cases/image-5b85051bd1.jpg" alt="便当化食品包装创意预览" width="220"></a><br><a href="#image-5b85051bd1">便当化食品包装创意</a></td></tr>
+<tr><td width="33%" valign="top" align="center"><a href="../assets/cases/image-5573ad414d.jpg"><img src="../assets/cases/image-5573ad414d.jpg" alt="丙烯手绘风格海报设计预览" width="220"></a><br><a href="#image-5573ad414d">丙烯手绘风格海报设计</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/image-6f7c8e1479.jpg"><img src="../assets/cases/image-6f7c8e1479.jpg" alt="城市地图微缩旅行海报预览" width="220"></a><br><a href="#image-6f7c8e1479">城市地图微缩旅行海报</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/image-91099d2e69.jpg"><img src="../assets/cases/image-91099d2e69.jpg" alt="城市巨幕三维广告摄影预览" width="220"></a><br><a href="#image-91099d2e69">城市巨幕三维广告摄影</a></td></tr>
+<tr><td width="33%" valign="top" align="center"><a href="../assets/cases/image-797a09fdbc.jpg"><img src="../assets/cases/image-797a09fdbc.jpg" alt="等轴测微缩厨房预览" width="220"></a><br><a href="#image-797a09fdbc">等轴测微缩厨房</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/image-5ad5dba080.jpg"><img src="../assets/cases/image-5ad5dba080.jpg" alt="电影级动作角色扮演游戏截图预览" width="220"></a><br><a href="#image-5ad5dba080">电影级动作角色扮演游戏截图</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/image-3c7b07b9df.jpg"><img src="../assets/cases/image-3c7b07b9df.jpg" alt="动画校园世界观参考面板预览" width="220"></a><br><a href="#image-3c7b07b9df">动画校园世界观参考面板</a></td></tr>
+</table>
+
+## 全部案例
+
+- [虚构植物科学图版](#botanical-plate)
+- [植物汽水商业静物](#botanical-soda)
+- [虚构海岸城市旅行海报](#coastal-poster)
+- [梨挞广告四镜头分镜](#pear-tart-storyboard)
+- [杯内鱼眼夏日冰饮广告](#image-828d8ade3e)
+- [便当化食品包装创意](#image-5b85051bd1)
+- [丙烯手绘风格海报设计](#image-5573ad414d)
+- [城市地图微缩旅行海报](#image-6f7c8e1479)
+- [城市巨幕三维广告摄影](#image-91099d2e69)
+- [等轴测微缩厨房](#image-797a09fdbc)
+- [电影级动作角色扮演游戏截图](#image-5ad5dba080)
+- [动画校园世界观参考面板](#image-3c7b07b9df)
+- [二十四节气编辑视觉设计](#image-2d9c1779c7)
+- [法新浪潮撕纸电影海报](#image-617c5d786a)
+- [反射式滑雪装备落地页](#image-ed61eb227d)
+- [分割画布编辑艺术海报](#image-aa535c1f0d)
+- [分级英语杂志阅读页](#image-5efc7ec9c3)
+- [复古科学植物学海报](#image-9dc00fd4c2)
+- [复古手账海报排版](#image-909ac5b599)
+- [复古网点插画转绘](#image-0cac842543)
+- [概念沙发研发板](#image-36c0a55d6b)
+- [高定时尚杂志封面](#image-e60a5d30a1)
+- [高端食品商业广告分镜](#image-7ebb9401a5)
+- [格林童话木刻版画海报](#image-f1b82a90e6)
+- [极简抽象几何解构海报](#image-ae6e4d57d6)
+- [极简概念线条艺术海报](#image-0b30d56a9e)
+- [建筑照片概念草图双联海报](#image-05bd56fd6f)
+- [浆果冰沙商业摄影](#image-25ed063581)
+- [街头卷轴背景时尚大片](#image-89fc3234ea)
+- [界面交互设计图](#image-efcccbca0c)
+- [精品电商产品平铺网格](#image-6b83c7fc5b)
+- [科技产品评测缩略图](#image-908d8579d8)
+- [可颂烘焙流程分镜板](#image-dd9bf06fe9)
+- [老照片人像保真修复](#image-326b2a7f37)
+- [里约旅行票据纸雕立体海报](#image-611724620e)
+- [六宫格饮料微缩广告](#image-a9d112ca87)
+- [旅行纪念珐琅徽章](#image-540528c039)
+- [烹饪速写插画叙事](#image-05e87c8c9f)
+- [千禧街头服饰移动落地页](#image-d3a00a1ea9)
+- [千禧虚拟试衣游戏界面](#image-1587ef7030)
+- [青花敦煌刺绣四拼海报](#image-90154ddf7b)
+- [趣味陶瓷电商首页主视觉](#image-d0024a7f32)
+- [人像摄影灯光方案网格](#image-626facaf10)
+- [沙漠洗车电影感纪实摄影](#image-97796819d8)
+- [奢华机械腕表技术图鉴](#image-d4e3564190)
+- [社交媒体赠礼活动横幅](#image-7c53920b6a)
+- [深海自由潜水探险摄影](#image-c352a86ebd)
+- [十五步写实食谱信息图](#image-231adaeba9)
+- [食物爆炸拆解信息图](#image-2be108496e)
+- [手工撕纸海报风格](#image-fda124aba7)
+- [双色调摄影棚商业肖像](#image-60806a74e0)
+- [水彩风格编辑插画海报](#image-9457327362)
+- [水墨双重曝光人物海报](#image-2b779f2991)
+- [四城极简旅行海报系列](#image-966a4fde71)
+- [四格奶昔食谱过程拼图](#image-de6feddf44)
+- [同一人脸十二款发型图鉴](#image-8c99b1b29f)
+- [未来亲生物中庭空间](#image-f932193426)
+- [五格咖啡馆人物拼贴](#image-0d498d4702)
+- [五五分混合媒介回忆卡](#image-2a8d580cf7)
+- [武汉复古地图海报](#image-f466b7610c)
+- [武汉过早美食地图信息图](#image-bf146d83bb)
+- [现代艺术活动传单](#image-de94c8b709)
+- [箱内仰视农场广告海报](#image-6160fd8cca)
+- [橡皮章旅行田野笔记](#image-8e8bcb2b18)
+- [羊毛毡国家微缩世界](#image-c7200c726a)
+- [一致性室内空间多视角网格](#image-89e8a705fc)
+- [一周穿搭信息图](#image-054cd4752d)
+- [饮料食品营销主视觉](#image-ee84e012bf)
+- [真人切模贴纸海报](#image-81c5c8e11d)
+- [纸雕浮雕街区网格](#image-24c5febb05)
+- [中文奢华美妆海报](#image-ed6e569904)
+- [足球球员数据涂鸦海报](#image-3ed96383d6)
+
+## 完整案例
+
+<a id="botanical-plate"></a>
 
 ## 虚构植物科学图版
 
-![虚构植物科学图版](../assets/previews/botanical.webp)
+<a href="../assets/previews/botanical.webp"><img src="../assets/previews/botanical.webp" alt="虚构植物科学图版" width="320"></a>
 
 以标本主图和局部放大图组织清晰的植物学图版。 · 科普与出版
 
@@ -22,9 +110,11 @@ Create a finished editorial scientific botanical plate for an original imaginary
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="botanical-soda"></a>
+
 ## 植物汽水商业静物
 
-![植物汽水商业静物](../assets/previews/beverage.webp)
+<a href="../assets/previews/beverage.webp"><img src="../assets/previews/beverage.webp" alt="植物汽水商业静物" width="320"></a>
 
 用光线、冷凝水和水果切片突出饮品材质。 · 产品与广告
 
@@ -40,9 +130,11 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="coastal-poster"></a>
+
 ## 虚构海岸城市旅行海报
 
-![虚构海岸城市旅行海报](../assets/previews/travel.webp)
+<a href="../assets/previews/travel.webp"><img src="../assets/previews/travel.webp" alt="虚构海岸城市旅行海报" width="320"></a>
 
 以大色块、几何建筑和丝网印刷肌理构成旅行海报。 · 海报与编辑
 
@@ -58,9 +150,11 @@ An original editorial travel poster for a fictional coastal city named SOLA. A s
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="pear-tart-storyboard"></a>
+
 ## 梨挞广告四镜头分镜
 
-![梨挞广告四镜头分镜](../assets/previews/storyboard.webp)
+<a href="../assets/previews/storyboard.webp"><img src="../assets/previews/storyboard.webp" alt="梨挞广告四镜头分镜" width="320"></a>
 
 四格镜头从原料、制作、烘烤过渡到成品。 · 分镜与叙事
 
@@ -78,9 +172,11 @@ A premium four-panel storyboard image for an original bakery campaign about a ha
 
 ## 来源案例
 
+<a id="image-828d8ade3e"></a>
+
 ### 杯内鱼眼夏日冰饮广告
 
-![杯内鱼眼夏日冰饮广告](../assets/cases/image-828d8ade3e.jpg)
+<a href="../assets/cases/image-828d8ade3e.jpg"><img src="../assets/cases/image-828d8ade3e.jpg" alt="杯内鱼眼夏日冰饮广告" width="320"></a>
 
 从透明饮料杯内部使用鱼眼视角拍摄人物饮用冰饮的夏日商业广告。 · 商业广告
 
@@ -118,9 +214,11 @@ A premium four-panel storyboard image for an original bakery campaign about a ha
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-5b85051bd1"></a>
+
 ### 便当化食品包装创意
 
-![便当化食品包装创意](../assets/cases/image-5b85051bd1.jpg)
+<a href="../assets/cases/image-5b85051bd1.jpg"><img src="../assets/cases/image-5b85051bd1.jpg" alt="便当化食品包装创意" width="320"></a>
 
 把食品或包装商品重新设计为便当式分区陈列创意图。 · 产品视觉
 
@@ -136,9 +234,11 @@ A premium four-panel storyboard image for an original bakery campaign about a ha
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-5573ad414d"></a>
+
 ### 丙烯手绘风格海报设计
 
-![丙烯手绘风格海报设计](../assets/cases/image-5573ad414d.jpg)
+<a href="../assets/cases/image-5573ad414d.jpg"><img src="../assets/cases/image-5573ad414d.jpg" alt="丙烯手绘风格海报设计" width="320"></a>
 
 将上传照片制作成上半部真实摄影、下半部极简丙烯手绘插画的 3:4 高级设计海报。 · 海报设计
 
@@ -154,9 +254,11 @@ A premium four-panel storyboard image for an original bakery campaign about a ha
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-6f7c8e1479"></a>
+
 ### 城市地图微缩旅行海报
 
-![城市地图微缩旅行海报](../assets/cases/image-6f7c8e1479.jpg)
+<a href="../assets/cases/image-6f7c8e1479.jpg"><img src="../assets/cases/image-6f7c8e1479.jpg" alt="城市地图微缩旅行海报" width="320"></a>
 
 把城市地图、弯曲道路、交通工具和地标融合成写实微缩旅行海报。 · 海报设计
 
@@ -178,9 +280,11 @@ Aspect ratio 1:1.
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-91099d2e69"></a>
+
 ### 城市巨幕三维广告摄影
 
-![城市巨幕三维广告摄影](../assets/cases/image-91099d2e69.jpg)
+<a href="../assets/cases/image-91099d2e69.jpg"><img src="../assets/cases/image-91099d2e69.jpg" alt="城市巨幕三维广告摄影" width="320"></a>
 
 生成蓝调时刻城市街头摄影，核心是一块包裹建筑转角、具有裸眼三维错觉的巨型户外广告屏。 · 商业广告
 
@@ -200,9 +304,11 @@ Aspect ratio 1:1.
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-797a09fdbc"></a>
+
 ### 等轴测微缩厨房
 
-![等轴测微缩厨房](../assets/cases/image-797a09fdbc.jpg)
+<a href="../assets/cases/image-797a09fdbc.jpg"><img src="../assets/cases/image-797a09fdbc.jpg" alt="等轴测微缩厨房" width="320"></a>
 
 生成等轴测视角的完整微缩厨房空间。 · 建筑空间
 
@@ -218,9 +324,11 @@ Aspect ratio 1:1.
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-5ad5dba080"></a>
+
 ### 电影级动作角色扮演游戏截图
 
-![电影级动作角色扮演游戏截图](../assets/cases/image-5ad5dba080.jpg)
+<a href="../assets/cases/image-5ad5dba080.jpg"><img src="../assets/cases/image-5ad5dba080.jpg" alt="电影级动作角色扮演游戏截图" width="320"></a>
 
 生成一张包含玩家角色、巨型首领、战斗瞬间、环境叙事和完整 HUD 的电影级第三人称动作角色扮演游戏截图。 · 游戏视觉
 
@@ -242,9 +350,11 @@ Aspect ratio 1:1.
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-3c7b07b9df"></a>
+
 ### 动画校园世界观参考面板
 
-![动画校园世界观参考面板](../assets/cases/image-3c7b07b9df.jpg)
+<a href="../assets/cases/image-3c7b07b9df.jpg"><img src="../assets/cases/image-3c7b07b9df.jpg" alt="动画校园世界观参考面板" width="320"></a>
 
 生成角色、校园外观和教室场景保持统一的四格世界观参考板。 · 影视叙事
 
@@ -260,9 +370,11 @@ Aspect ratio 1:1.
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-2d9c1779c7"></a>
+
 ### 二十四节气编辑视觉设计
 
-![二十四节气编辑视觉设计](../assets/cases/image-2d9c1779c7.jpg)
+<a href="../assets/cases/image-2d9c1779c7.jpg"><img src="../assets/cases/image-2d9c1779c7.jpg" alt="二十四节气编辑视觉设计" width="320"></a>
 
 生成具有三层平面空间、跨界核心形态和现代纸印质感的二十四节气竖版编辑视觉。 · 海报设计
 
@@ -278,9 +390,11 @@ Aspect ratio 1:1.
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-617c5d786a"></a>
+
 ### 法新浪潮撕纸电影海报
 
-![法新浪潮撕纸电影海报](../assets/cases/image-617c5d786a.jpg)
+<a href="../assets/cases/image-617c5d786a.jpg"><img src="../assets/cases/image-617c5d786a.jpg" alt="法新浪潮撕纸电影海报" width="320"></a>
 
 生成具有撕纸、复印颗粒、网点和手工拼贴质感的法国新浪潮电影海报。 · 影视叙事
 
@@ -300,9 +414,11 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-ed61eb227d"></a>
+
 ### 反射式滑雪装备落地页
 
-![反射式滑雪装备落地页](../assets/cases/image-ed61eb227d.jpg)
+<a href="../assets/cases/image-ed61eb227d.jpg"><img src="../assets/cases/image-ed61eb227d.jpg" alt="反射式滑雪装备落地页" width="320"></a>
 
 生成高端滑雪装备品牌的横版网页主视觉，以护目镜特写和镜片内动作反射讲述产品场景。 · 网页界面
 
@@ -324,9 +440,11 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-aa535c1f0d"></a>
+
 ### 分割画布编辑艺术海报
 
-![分割画布编辑艺术海报](../assets/cases/image-aa535c1f0d.jpg)
+<a href="../assets/cases/image-aa535c1f0d.jpg"><img src="../assets/cases/image-aa535c1f0d.jpg" alt="分割画布编辑艺术海报" width="320"></a>
 
 生成具有分割画布、人物与编辑排版关系的艺术海报。 · 海报设计
 
@@ -342,9 +460,11 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-5efc7ec9c3"></a>
+
 ### 分级英语杂志阅读页
 
-![分级英语杂志阅读页](../assets/cases/image-5efc7ec9c3.jpg)
+<a href="../assets/cases/image-5efc7ec9c3.jpg"><img src="../assets/cases/image-5efc7ec9c3.jpg" alt="分级英语杂志阅读页" width="320"></a>
 
 根据指定主题、CEFR（欧洲语言共同参考框架）英语等级和正文词数，生成一张高级黑白报刊社论风英文杂志阅读页。适合作为不同英语水平的分级阅读材料。 · 教育科普
 
@@ -417,9 +537,11 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-9dc00fd4c2"></a>
+
 ### 复古科学植物学海报
 
-![复古科学植物学海报](../assets/cases/image-9dc00fd4c2.jpg)
+<a href="../assets/cases/image-9dc00fd4c2.jpg"><img src="../assets/cases/image-9dc00fd4c2.jpg" alt="复古科学植物学海报" width="320"></a>
 
 生成带解剖编号、手写注记和科学图版排版的植物学海报。 · 教育科普
 
@@ -435,9 +557,11 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-909ac5b599"></a>
+
 ### 复古手账海报排版
 
-![复古手账海报排版](../assets/cases/image-909ac5b599.jpg)
+<a href="../assets/cases/image-909ac5b599.jpg"><img src="../assets/cases/image-909ac5b599.jpg" alt="复古手账海报排版" width="320"></a>
 
 以一张排版参考图和一张主体插画，设计主题一致的复古手账海报。 · 海报设计
 
@@ -459,9 +583,11 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-0cac842543"></a>
+
 ### 复古网点插画转绘
 
-![复古网点插画转绘](../assets/cases/image-0cac842543.jpg)
+<a href="../assets/cases/image-0cac842543.jpg"><img src="../assets/cases/image-0cac842543.jpg" alt="复古网点插画转绘" width="320"></a>
 
 上传原照片，将主体转绘为粗黑轮廓、半色调网点与有限配色的复古插画。 · 图片转绘
 
@@ -483,9 +609,11 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-36c0a55d6b"></a>
+
 ### 概念沙发研发板
 
-![概念沙发研发板](../assets/cases/image-36c0a55d6b.jpg)
+<a href="../assets/cases/image-36c0a55d6b.jpg"><img src="../assets/cases/image-36c0a55d6b.jpg" alt="概念沙发研发板" width="320"></a>
 
 生成从形态观察、结构推导到成品展示的概念家具研发视觉板。 · 设计参考
 
@@ -511,9 +639,11 @@ Stage 5: Final Prototyping & Material Finish Textural Replication: Apply a matte
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-e60a5d30a1"></a>
+
 ### 高定时尚杂志封面
 
-![高定时尚杂志封面](../assets/cases/image-e60a5d30a1.jpg)
+<a href="../assets/cases/image-e60a5d30a1.jpg"><img src="../assets/cases/image-e60a5d30a1.jpg" alt="高定时尚杂志封面" width="320"></a>
 
 生成带高定人像、夏日金色光线和奢侈时尚排版的杂志封面。 · 海报设计
 
@@ -541,9 +671,11 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-7ebb9401a5"></a>
+
 ### 高端食品商业广告分镜
 
-![高端食品商业广告分镜](../assets/cases/image-7ebb9401a5.jpg)
+<a href="../assets/cases/image-7ebb9401a5.jpg"><img src="../assets/cases/image-7ebb9401a5.jpg" alt="高端食品商业广告分镜" width="320"></a>
 
 生成单页高端食品广告分镜与镜头项目板。 · 影视叙事
 
@@ -559,9 +691,11 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-f1b82a90e6"></a>
+
 ### 格林童话木刻版画海报
 
-![格林童话木刻版画海报](../assets/cases/image-f1b82a90e6.jpg)
+<a href="../assets/cases/image-f1b82a90e6.jpg"><img src="../assets/cases/image-f1b82a90e6.jpg" alt="格林童话木刻版画海报" width="320"></a>
 
 将人物、动物、建筑或场景照片转化为具有童话叙事、木刻版画和手工印刷质感的海报。 · 海报设计
 
@@ -577,9 +711,11 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-ae6e4d57d6"></a>
+
 ### 极简抽象几何解构海报
 
-![极简抽象几何解构海报](../assets/cases/image-ae6e4d57d6.jpg)
+<a href="../assets/cases/image-ae6e4d57d6.jpg"><img src="../assets/cases/image-ae6e4d57d6.jpg" alt="极简抽象几何解构海报" width="320"></a>
 
 把照片中的结构、色彩和记忆点解构为极简几何形体，并结合艺术出版物式微排版生成海报。 · 海报设计
 
@@ -607,9 +743,11 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-0b30d56a9e"></a>
+
 ### 极简概念线条艺术海报
 
-![极简概念线条艺术海报](../assets/cases/image-0b30d56a9e.jpg)
+<a href="../assets/cases/image-0b30d56a9e.jpg"><img src="../assets/cases/image-0b30d56a9e.jpg" alt="极简概念线条艺术海报" width="320"></a>
 
 把照片重构为带有公共议题气质、强调张力与留白的极简概念线条艺术海报。 · 海报设计
 
@@ -625,9 +763,11 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-05bd56fd6f"></a>
+
 ### 建筑照片概念草图双联海报
 
-![建筑照片概念草图双联海报](../assets/cases/image-05bd56fd6f.jpg)
+<a href="../assets/cases/image-05bd56fd6f.jpg"><img src="../assets/cases/image-05bd56fd6f.jpg" alt="建筑照片概念草图双联海报" width="320"></a>
 
 把上传照片转化为上方实景、下方建筑概念草图的双联海报。 · 设计参考
 
@@ -643,9 +783,11 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-25ed063581"></a>
+
 ### 浆果冰沙商业摄影
 
-![浆果冰沙商业摄影](../assets/cases/image-25ed063581.jpg)
+<a href="../assets/cases/image-25ed063581.jpg"><img src="../assets/cases/image-25ed063581.jpg" alt="浆果冰沙商业摄影" width="320"></a>
 
 生成具有广告质感的饮品产品摄影。 · 商业广告
 
@@ -661,9 +803,11 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-89fc3234ea"></a>
+
 ### 街头卷轴背景时尚大片
 
-![街头卷轴背景时尚大片](../assets/cases/image-89fc3234ea.jpg)
+<a href="../assets/cases/image-89fc3234ea.jpg"><img src="../assets/cases/image-89fc3234ea.jpg" alt="街头卷轴背景时尚大片" width="320"></a>
 
 生成把手工卷轴摄影背景放入真实街道的时尚广告大片，以棚拍秩序和户外环境形成视觉对照。 · 商业广告
 
@@ -683,9 +827,11 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-efcccbca0c"></a>
+
 ### 界面交互设计图
 
-![界面交互设计图](../assets/cases/image-efcccbca0c.jpg)
+<a href="../assets/cases/image-efcccbca0c.jpg"><img src="../assets/cases/image-efcccbca0c.jpg" alt="界面交互设计图" width="320"></a>
 
 生成带产品部件分层、功能标注和科技视觉效果的 VR 头显爆炸拆解展示图。 · 信息图表
 
@@ -735,9 +881,11 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-6b83c7fc5b"></a>
+
 ### 精品电商产品平铺网格
 
-![精品电商产品平铺网格](../assets/cases/image-6b83c7fc5b.jpg)
+<a href="../assets/cases/image-6b83c7fc5b.jpg"><img src="../assets/cases/image-6b83c7fc5b.jpg" alt="精品电商产品平铺网格" width="320"></a>
 
 生成精品服饰、配件和生活方式商品的平铺电商展示网格。 · 电商视觉
 
@@ -753,9 +901,11 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-908d8579d8"></a>
+
 ### 科技产品评测缩略图
 
-![科技产品评测缩略图](../assets/cases/image-908d8579d8.jpg)
+<a href="../assets/cases/image-908d8579d8.jpg"><img src="../assets/cases/image-908d8579d8.jpg" alt="科技产品评测缩略图" width="320"></a>
 
 生成科技产品评测视频使用的高点击率横版缩略图。 · 视频缩略图
 
@@ -771,9 +921,11 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-dd9bf06fe9"></a>
+
 ### 可颂烘焙流程分镜板
 
-![可颂烘焙流程分镜板](../assets/cases/image-dd9bf06fe9.jpg)
+<a href="../assets/cases/image-dd9bf06fe9.jpg"><img src="../assets/cases/image-dd9bf06fe9.jpg" alt="可颂烘焙流程分镜板" width="320"></a>
 
 生成展示可颂制作过程、镜头顺序和成品诱惑力的食品商业分镜板。 · 影视叙事
 
@@ -815,9 +967,11 @@ BAKER NOTES: one baker, one perfect croissant, one irresistible tear. The lamina
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-326b2a7f37"></a>
+
 ### 老照片人像保真修复
 
-![老照片人像保真修复](../assets/cases/image-326b2a7f37.jpg)
+<a href="../assets/cases/image-326b2a7f37.jpg"><img src="../assets/cases/image-326b2a7f37.jpg" alt="老照片人像保真修复" width="320"></a>
 
 以一张有人物的旧照或低清照片作为参考图，提升人像画质，同时要求保留人物身份、表情、脸型和背景。适合以人物为主体、需要尽量忠于原图的照片修复场景。 · 人像摄影
 
@@ -833,9 +987,11 @@ Enhance the portrait while strictly preserving the subject's identity with accur
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-611724620e"></a>
+
 ### 里约旅行票据纸雕立体海报
 
-![里约旅行票据纸雕立体海报](../assets/cases/image-611724620e.jpg)
+<a href="../assets/cases/image-611724620e.jpg"><img src="../assets/cases/image-611724620e.jpg" alt="里约旅行票据纸雕立体海报" width="320"></a>
 
 把旅行票据、城市地标与纸雕场景组合成具有收藏感的立体旅行海报。 · 旅行城市
 
@@ -861,9 +1017,11 @@ The final image should feel like a premium collectible Rio de Janeiro travel pos
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-a9d112ca87"></a>
+
 ### 六宫格饮料微缩广告
 
-![六宫格饮料微缩广告](../assets/cases/image-a9d112ca87.jpg)
+<a href="../assets/cases/image-a9d112ca87.jpg"><img src="../assets/cases/image-a9d112ca87.jpg" alt="六宫格饮料微缩广告" width="320"></a>
 
 使用严格六宫格与微缩人物，生成围绕同一饮料品牌展开的完整商业广告系列。 · 商业广告
 
@@ -924,9 +1082,11 @@ copied text, Chinese text, existing brand names, cartoon style, toy-like figure,
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-540528c039"></a>
+
 ### 旅行纪念珐琅徽章
 
-![旅行纪念珐琅徽章](../assets/cases/image-540528c039.jpg)
+<a href="../assets/cases/image-540528c039.jpg"><img src="../assets/cases/image-540528c039.jpg" alt="旅行纪念珐琅徽章" width="320"></a>
 
 将旅行照片中的地形、地标和人物比例转化为场景式珐琅纪念徽章。 · 产品视觉
 
@@ -952,9 +1112,11 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-05e87c8c9f"></a>
+
 ### 烹饪速写插画叙事
 
-![烹饪速写插画叙事](../assets/cases/image-05e87c8c9f.jpg)
+<a href="../assets/cases/image-05e87c8c9f.jpg"><img src="../assets/cases/image-05e87c8c9f.jpg" alt="烹饪速写插画叙事" width="320"></a>
 
 将食物或烹饪主题转化为包含食材、准备过程、质地和成品的 4 至 6 格怀旧手绘速写故事。 · 影视叙事
 
@@ -970,9 +1132,11 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-d3a00a1ea9"></a>
+
 ### 千禧街头服饰移动落地页
 
-![千禧街头服饰移动落地页](../assets/cases/image-d3a00a1ea9.jpg)
+<a href="../assets/cases/image-d3a00a1ea9.jpg"><img src="../assets/cases/image-d3a00a1ea9.jpg" alt="千禧街头服饰移动落地页" width="320"></a>
 
 生成一张海报式 9:16 移动端街头服饰品牌落地页，融合人物主视觉、夸张字标、贴纸拼贴、商品文案和购买按钮。 · 网页界面
 
@@ -996,9 +1160,11 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-1587ef7030"></a>
+
 ### 千禧虚拟试衣游戏界面
 
-![千禧虚拟试衣游戏界面](../assets/cases/image-1587ef7030.jpg)
+<a href="../assets/cases/image-1587ef7030.jpg"><img src="../assets/cases/image-1587ef7030.jpg" alt="千禧虚拟试衣游戏界面" width="320"></a>
 
 生成一张把虚拟试衣服务设计成千禧年主机游戏角色选择界面的横版网页视觉。 · 网页界面
 
@@ -1020,9 +1186,11 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-90154ddf7b"></a>
+
 ### 青花敦煌刺绣四拼海报
 
-![青花敦煌刺绣四拼海报](../assets/cases/image-90154ddf7b.jpg)
+<a href="../assets/cases/image-90154ddf7b.jpg"><img src="../assets/cases/image-90154ddf7b.jpg" alt="青花敦煌刺绣四拼海报" width="320"></a>
 
 将同一主体转译为青花瓷、敦煌、刺绣等中国传统视觉语言的四拼风格海报。 · 传统文化
 
@@ -1048,9 +1216,11 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-d0024a7f32"></a>
+
 ### 趣味陶瓷电商首页主视觉
 
-![趣味陶瓷电商首页主视觉](../assets/cases/image-d0024a7f32.jpg)
+<a href="../assets/cases/image-d0024a7f32.jpg"><img src="../assets/cases/image-d0024a7f32.jpg" alt="趣味陶瓷电商首页主视觉" width="320"></a>
 
 生成横版电商首页主视觉，用悬浮陶瓷产品、超大字标和克制网页信息结构展示一组具有统一角色语言的商品。 · 网页界面
 
@@ -1072,9 +1242,11 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-626facaf10"></a>
+
 ### 人像摄影灯光方案网格
 
-![人像摄影灯光方案网格](../assets/cases/image-626facaf10.jpg)
+<a href="../assets/cases/image-626facaf10.jpg"><img src="../assets/cases/image-626facaf10.jpg" alt="人像摄影灯光方案网格" width="320"></a>
 
 生成同一人物在多种专业摄影灯光方案下的对比网格。 · 设计参考
 
@@ -1090,9 +1262,11 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-97796819d8"></a>
+
 ### 沙漠洗车电影感纪实摄影
 
-![沙漠洗车电影感纪实摄影](../assets/cases/image-97796819d8.jpg)
+<a href="../assets/cases/image-97796819d8.jpg"><img src="../assets/cases/image-97796819d8.jpg" alt="沙漠洗车电影感纪实摄影" width="320"></a>
 
 生成沙漠露天洗车场的电影感纪实画面，通过车尾备胎、水柱、泡沫玻璃和车内人物形成多层叙事。 · 商业广告
 
@@ -1114,9 +1288,11 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-d4e3564190"></a>
+
 ### 奢华机械腕表技术图鉴
 
-![奢华机械腕表技术图鉴](../assets/cases/image-d4e3564190.jpg)
+<a href="../assets/cases/image-d4e3564190.jpg"><img src="../assets/cases/image-d4e3564190.jpg" alt="奢华机械腕表技术图鉴" width="320"></a>
 
 生成多款高级机械腕表的透明结构、零件拆解和材质说明图鉴。 · 信息图表
 
@@ -1163,9 +1339,11 @@ class Haute_Horlogerie_DNA:
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-7c53920b6a"></a>
+
 ### 社交媒体赠礼活动横幅
 
-![社交媒体赠礼活动横幅](../assets/cases/image-7c53920b6a.jpg)
+<a href="../assets/cases/image-7c53920b6a.jpg"><img src="../assets/cases/image-7c53920b6a.jpg" alt="社交媒体赠礼活动横幅" width="320"></a>
 
 生成适合赠品、抽奖和活动发布的社交媒体宣传横幅。 · 社交媒体
 
@@ -1181,9 +1359,11 @@ class Haute_Horlogerie_DNA:
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-c352a86ebd"></a>
+
 ### 深海自由潜水探险摄影
 
-![深海自由潜水探险摄影](../assets/cases/image-c352a86ebd.jpg)
+<a href="../assets/cases/image-c352a86ebd.jpg"><img src="../assets/cases/image-c352a86ebd.jpg" alt="深海自由潜水探险摄影" width="320"></a>
 
 生成从水下仰拍自由潜水者的电影感探险摄影，通过水面纹理、深蓝渐变和大面积负空间表现孤独与尺度。 · 体育视觉
 
@@ -1203,9 +1383,11 @@ class Haute_Horlogerie_DNA:
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-231adaeba9"></a>
+
 ### 十五步写实食谱信息图
 
-![十五步写实食谱信息图](../assets/cases/image-231adaeba9.jpg)
+<a href="../assets/cases/image-231adaeba9.jpg"><img src="../assets/cases/image-231adaeba9.jpg" alt="十五步写实食谱信息图" width="320"></a>
 
 把一道菜的食材、15 个连续制作步骤和成品主视觉整理成竖版写实食谱信息图，也可作为后续图生视频的视觉分镜参考。 · 信息图表
 
@@ -1257,9 +1439,11 @@ class Haute_Horlogerie_DNA:
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-2be108496e"></a>
+
 ### 食物爆炸拆解信息图
 
-![食物爆炸拆解信息图](../assets/cases/image-2be108496e.jpg)
+<a href="../assets/cases/image-2be108496e.jpg"><img src="../assets/cases/image-2be108496e.jpg" alt="食物爆炸拆解信息图" width="320"></a>
 
 把食物的不同组成部分按垂直顺序悬浮排列，生成写实爆炸拆解信息图。 · 信息图表
 
@@ -1291,9 +1475,11 @@ Ultra-detailed food textures, premium commercial aesthetic, 8K.
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-fda124aba7"></a>
+
 ### 手工撕纸海报风格
 
-![手工撕纸海报风格](../assets/cases/image-fda124aba7.jpg)
+<a href="../assets/cases/image-fda124aba7.jpg"><img src="../assets/cases/image-fda124aba7.jpg" alt="手工撕纸海报风格" width="320"></a>
 
 生成以荧光撕纸标题、手绘贴纸徽章和陈旧纸张为核心的城市文化活动海报。 · 活动物料
 
@@ -1309,9 +1495,11 @@ Ultra-detailed food textures, premium commercial aesthetic, 8K.
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-60806a74e0"></a>
+
 ### 双色调摄影棚商业肖像
 
-![双色调摄影棚商业肖像](../assets/cases/image-60806a74e0.jpg)
+<a href="../assets/cases/image-60806a74e0.jpg"><img src="../assets/cases/image-60806a74e0.jpg" alt="双色调摄影棚商业肖像" width="320"></a>
 
 生成具有品红与电光蓝双色布光的高端商业肖像。 · 商业广告
 
@@ -1327,9 +1515,11 @@ Ultra-detailed food textures, premium commercial aesthetic, 8K.
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-9457327362"></a>
+
 ### 水彩风格编辑插画海报
 
-![水彩风格编辑插画海报](../assets/cases/image-9457327362.jpg)
+<a href="../assets/cases/image-9457327362.jpg"><img src="../assets/cases/image-9457327362.jpg" alt="水彩风格编辑插画海报" width="320"></a>
 
 将照片转化为上半部真实摄影、下半部复古水彩编辑插画的 3:4 分屏海报。 · 海报设计
 
@@ -1345,9 +1535,11 @@ Ultra-detailed food textures, premium commercial aesthetic, 8K.
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-2b779f2991"></a>
+
 ### 水墨双重曝光人物海报
 
-![水墨双重曝光人物海报](../assets/cases/image-2b779f2991.jpg)
+<a href="../assets/cases/image-2b779f2991.jpg"><img src="../assets/cases/image-2b779f2991.jpg" alt="水墨双重曝光人物海报" width="320"></a>
 
 生成融合人物轮廓、东方水墨、叙事场景和留白的双重曝光竖版海报。 · 海报设计
 
@@ -1400,9 +1592,11 @@ OUTPUT:
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-966a4fde71"></a>
+
 ### 四城极简旅行海报系列
 
-![四城极简旅行海报系列](../assets/cases/image-966a4fde71.jpg)
+<a href="../assets/cases/image-966a4fde71.jpg"><img src="../assets/cases/image-966a4fde71.jpg" alt="四城极简旅行海报系列" width="320"></a>
 
 以统一的极简矢量风格生成多个城市或目的地的系列旅行海报。 · 海报设计
 
@@ -1418,9 +1612,11 @@ Minimalist flat travel poster illustration series of iconic destinations around 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-de6feddf44"></a>
+
 ### 四格奶昔食谱过程拼图
 
-![四格奶昔食谱过程拼图](../assets/cases/image-de6feddf44.jpg)
+<a href="../assets/cases/image-de6feddf44.jpg"><img src="../assets/cases/image-de6feddf44.jpg" alt="四格奶昔食谱过程拼图" width="320"></a>
 
 生成用四个连续画面展示食材、处理、混合和成品的写实食谱过程拼图。 · 食品饮料
 
@@ -1446,9 +1642,11 @@ Minimalist flat travel poster illustration series of iconic destinations around 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-8c99b1b29f"></a>
+
 ### 同一人脸十二款发型图鉴
 
-![同一人脸十二款发型图鉴](../assets/cases/image-8c99b1b29f.jpg)
+<a href="../assets/cases/image-8c99b1b29f.jpg"><img src="../assets/cases/image-8c99b1b29f.jpg" alt="同一人脸十二款发型图鉴" width="320"></a>
 
 保持参考人物身份、服装和光线一致，仅更换十二种发型并生成对照图鉴。 · 设计参考
 
@@ -1492,9 +1690,11 @@ Each panel clearly numbered 1 to 12 in the top-left corner. Overall output aspec
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-f932193426"></a>
+
 ### 未来亲生物中庭空间
 
-![未来亲生物中庭空间](../assets/cases/image-f932193426.jpg)
+<a href="../assets/cases/image-f932193426.jpg"><img src="../assets/cases/image-f932193426.jpg" alt="未来亲生物中庭空间" width="320"></a>
 
 生成融合自然植被、采光和未来建筑语言的中庭休息空间。 · 设计参考
 
@@ -1510,9 +1710,11 @@ Each panel clearly numbered 1 to 12 in the top-left corner. Overall output aspec
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-0d498d4702"></a>
+
 ### 五格咖啡馆人物拼贴
 
-![五格咖啡馆人物拼贴](../assets/cases/image-0d498d4702.jpg)
+<a href="../assets/cases/image-0d498d4702.jpg"><img src="../assets/cases/image-0d498d4702.jpg" alt="五格咖啡馆人物拼贴" width="320"></a>
 
 生成适合社交媒体发布的五格咖啡馆人物生活方式拼贴。 · 社交媒体
 
@@ -1528,9 +1730,11 @@ Each panel clearly numbered 1 to 12 in the top-left corner. Overall output aspec
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-2a8d580cf7"></a>
+
 ### 五五分混合媒介回忆卡
 
-![五五分混合媒介回忆卡](../assets/cases/image-2a8d580cf7.jpg)
+<a href="../assets/cases/image-2a8d580cf7.jpg"><img src="../assets/cases/image-2a8d580cf7.jpg" alt="五五分混合媒介回忆卡" width="320"></a>
 
 将原始照片与蜡笔速写严格上下五五分割，生成克制怀旧的混合媒介回忆卡。 · 海报设计
 
@@ -1552,9 +1756,11 @@ Create a quiet, nostalgic Morandi-style aesthetic with generous negative space. 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-f466b7610c"></a>
+
 ### 武汉复古地图海报
 
-![武汉复古地图海报](../assets/cases/image-f466b7610c.jpg)
+<a href="../assets/cases/image-f466b7610c.jpg"><img src="../assets/cases/image-f466b7610c.jpg" alt="武汉复古地图海报" width="320"></a>
 
 生成一张以武汉城市地图、两江交汇和代表性地标为主体的复古羊皮纸线条艺术旅游海报，适合城市文化展示、旅行纪念和地方主题视觉创作。 · 海报设计
 
@@ -1587,9 +1793,11 @@ Create a quiet, nostalgic Morandi-style aesthetic with generous negative space. 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-bf146d83bb"></a>
+
 ### 武汉过早美食地图信息图
 
-![武汉过早美食地图信息图](../assets/cases/image-bf146d83bb.jpg)
+<a href="../assets/cases/image-bf146d83bb.jpg"><img src="../assets/cases/image-bf146d83bb.jpg" alt="武汉过早美食地图信息图" width="320"></a>
 
 生成一张以武汉两江交汇、三镇格局、代表性地标和“过早”美食为主体的复古手绘城市地图信息图。 · 信息图表
 
@@ -1656,9 +1864,11 @@ Create a quiet, nostalgic Morandi-style aesthetic with generous negative space. 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-de94c8b709"></a>
+
 ### 现代艺术活动传单
 
-![现代艺术活动传单](../assets/cases/image-de94c8b709.jpg)
+<a href="../assets/cases/image-de94c8b709.jpg"><img src="../assets/cases/image-de94c8b709.jpg" alt="现代艺术活动传单" width="320"></a>
 
 生成适合展览、讲座和文化活动的现代艺术传单。 · 活动物料
 
@@ -1674,9 +1884,11 @@ Create a quiet, nostalgic Morandi-style aesthetic with generous negative space. 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-6160fd8cca"></a>
+
 ### 箱内仰视农场广告海报
 
-![箱内仰视农场广告海报](../assets/cases/image-6160fd8cca.jpg)
+<a href="../assets/cases/image-6160fd8cca.jpg"><img src="../assets/cases/image-6160fd8cca.jpg" alt="箱内仰视农场广告海报" width="320"></a>
 
 生成从纸箱内部向上仰视的概念广告海报，通过强透视开口、动物探头和底部品牌文案表达新鲜直达的产品卖点。 · 商业广告
 
@@ -1698,9 +1910,11 @@ Create a quiet, nostalgic Morandi-style aesthetic with generous negative space. 
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-8e8bcb2b18"></a>
+
 ### 橡皮章旅行田野笔记
 
-![橡皮章旅行田野笔记](../assets/cases/image-8e8bcb2b18.jpg)
+<a href="../assets/cases/image-8e8bcb2b18.jpg"><img src="../assets/cases/image-8e8bcb2b18.jpg" alt="橡皮章旅行田野笔记" width="320"></a>
 
 把旅行照片与手工橡皮章、旧纸张和少量档案文字组合成旅行田野笔记。 · 旅行城市
 
@@ -1850,9 +2064,11 @@ Obvious dividing lines, circular seals, postage-stamp borders, perforations, wax
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-c7200c726a"></a>
+
 ### 羊毛毡国家微缩世界
 
-![羊毛毡国家微缩世界](../assets/cases/image-c7200c726a.jpg)
+<a href="../assets/cases/image-c7200c726a.jpg"><img src="../assets/cases/image-c7200c726a.jpg" alt="羊毛毡国家微缩世界" width="320"></a>
 
 将国家、城市和代表性地标转化为具有手工羊毛毡质感的微缩世界。 · 旅行城市
 
@@ -1910,9 +2126,11 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-89e8a705fc"></a>
+
 ### 一致性室内空间多视角网格
 
-![一致性室内空间多视角网格](../assets/cases/image-89e8a705fc.jpg)
+<a href="../assets/cases/image-89e8a705fc.jpg"><img src="../assets/cases/image-89e8a705fc.jpg" alt="一致性室内空间多视角网格" width="320"></a>
 
 生成同一室内空间的多角度一致性设计网格。 · 设计参考
 
@@ -1928,9 +2146,11 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-054cd4752d"></a>
+
 ### 一周穿搭信息图
 
-![一周穿搭信息图](../assets/cases/image-054cd4752d.jpg)
+<a href="../assets/cases/image-054cd4752d.jpg"><img src="../assets/cases/image-054cd4752d.jpg" alt="一周穿搭信息图" width="320"></a>
 
 生成按星期排列的七日穿搭图鉴，集中展示人物造型、服装细节、颜色和适用场景。 · 信息图表
 
@@ -1987,9 +2207,11 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-ee84e012bf"></a>
+
 ### 饮料食品营销主视觉
 
-![饮料食品营销主视觉](../assets/cases/image-ee84e012bf.jpg)
+<a href="../assets/cases/image-ee84e012bf.jpg"><img src="../assets/cases/image-ee84e012bf.jpg" alt="饮料食品营销主视觉" width="320"></a>
 
 生成饮料、冷冻食品和包装商品的商业营销主视觉。 · 商业广告
 
@@ -2005,9 +2227,11 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-81c5c8e11d"></a>
+
 ### 真人切模贴纸海报
 
-![真人切模贴纸海报](../assets/cases/image-81c5c8e11d.jpg)
+<a href="../assets/cases/image-81c5c8e11d.jpg"><img src="../assets/cases/image-81c5c8e11d.jpg" alt="真人切模贴纸海报" width="320"></a>
 
 上传人物照片，保留真人摄影质感，将环境改为带白色裁切边的黑白手绘贴纸。 · 图片转绘
 
@@ -2029,9 +2253,11 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-24c5febb05"></a>
+
 ### 纸雕浮雕街区网格
 
-![纸雕浮雕街区网格](../assets/cases/image-24c5febb05.jpg)
+<a href="../assets/cases/image-24c5febb05.jpg"><img src="../assets/cases/image-24c5febb05.jpg" alt="纸雕浮雕街区网格" width="320"></a>
 
 生成多组统一纸雕浮雕风格的街区或社区场景。 · 设计参考
 
@@ -2047,9 +2273,11 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-ed6e569904"></a>
+
 ### 中文奢华美妆海报
 
-![中文奢华美妆海报](../assets/cases/image-ed6e569904.jpg)
+<a href="../assets/cases/image-ed6e569904.jpg"><img src="../assets/cases/image-ed6e569904.jpg" alt="中文奢华美妆海报" width="320"></a>
 
 生成一张以面霜产品为视觉中心，使用香槟金丝绸、大理石台面、中文标题和中文卖点的高端美妆广告海报。 · 商业广告
 
@@ -2077,9 +2305,11 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 
 [浏览生图 Prompt 模板](../templates/image.md)
 
+<a id="image-3ed96383d6"></a>
+
 ### 足球球员数据涂鸦海报
 
-![足球球员数据涂鸦海报](../assets/cases/image-3ed96383d6.jpg)
+<a href="../assets/cases/image-3ed96383d6.jpg"><img src="../assets/cases/image-3ed96383d6.jpg" alt="足球球员数据涂鸦海报" width="320"></a>
 
 生成以足球运动员、比赛数据和霓虹手写涂鸦为核心的体育宣传海报。 · 体育视觉
 

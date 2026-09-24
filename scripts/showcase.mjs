@@ -32,6 +32,24 @@ const caseIds = new Set([...cases.images, ...cases.videos].map(entry => entry.id
 if (caseIds.size !== catalog.entries.length || catalog.entries.some(entry => !caseIds.has(entry.id))) {
   throw new Error('Catalog and complete cases must cover the same entries');
 }
+
+function previewGrid(entries, kind) {
+  const cells = entries.slice(0, 12).map(entry => {
+    const image = entry.image;
+    const destination = kind === 'video' && entry.video ? entry.video : image;
+    const width = kind === 'video' ? '100%' : '220';
+    return `<td width="33%" valign="top" align="center"><a href="../${destination}"><img src="../${image}" alt="${entry.title}预览" width="${width}"></a><br><a href="#${entry.id}">${entry.title}</a></td>`;
+  });
+  const rows = [];
+  for (let i = 0; i < cells.length; i += 3) {
+    rows.push(`<tr>${cells.slice(i, i + 3).join('')}</tr>`);
+  }
+  return ['## 精选预览', '', '<table>', ...rows, '</table>', ''];
+}
+
+function caseIndex(entries) {
+  return ['## 全部案例', '', ...entries.map(entry => `- [${entry.title}](#${entry.id})`), ''];
+}
 for (const [kind, entries] of [['image', cases.images], ['video', cases.videos]]) {
   for (const entry of entries) {
     if (ids.has(entry.id)) throw new Error(`Duplicate ID: ${entry.id}`);
@@ -49,10 +67,14 @@ for (const [kind, entries] of [['image', cases.images], ['video', cases.videos]]
 const pages = {
   'showcase/image.md': [
     '# 生图案例', '', '[返回首页](../README.md) · [浏览画廊](../index.html)', '',
-    '先浏览原创案例，再按来源与题材查找公开收录的案例。来源预览与提示词归原作者所有。', '',
+    '按画面浏览案例，下方对应完整提示词与来源。', '',
+    ...previewGrid([...data.images, ...cases.images], 'image'),
+    ...caseIndex([...data.images, ...cases.images]),
+    '## 完整案例', '',
     ...data.images.flatMap(entry => [
+      `<a id="${entry.id}"></a>`, '',
       `## ${entry.title}`, '',
-      `![${entry.title}](../${entry.image})`, '',
+      `<a href="../${entry.image}"><img src="../${entry.image}" alt="${entry.title}" width="320"></a>`, '',
       `${entry.summary} · ${entry.category}`, '',
       `模型：${entry.model} · 服务：${entry.provider} · 请求尺寸：${entry.requestedSize} · 实际输出：${entry.size}`, '',
       '**完整提示词**', '', '```text', entry.prompt, '```', '',
@@ -60,7 +82,8 @@ const pages = {
     ]),
     '## 来源案例', '',
     ...cases.images.flatMap(entry => [
-      `### ${entry.title}`, '', `![${entry.title}](../${entry.image})`, '',
+      `<a id="${entry.id}"></a>`, '', `### ${entry.title}`, '',
+      `<a href="../${entry.image}"><img src="../${entry.image}" alt="${entry.title}" width="320"></a>`, '',
       `${entry.summary} · ${entry.category}`, '',
       `来源：[${entry.source.author}](${entry.source.url}) · ${entry.promptCredit}`, '',
       '**完整提示词**', '', '```text', entry.prompt, '```', '',
@@ -69,8 +92,11 @@ const pages = {
   ],
   'showcase/video.md': [
     '# 生视频案例', '', '[返回首页](../README.md) · [浏览画廊](../index.html)', '',
-    '浏览视频样片、完整提示词及原作者来源。', '',
+    '按封面浏览视频案例，下方对应样片、完整提示词与来源。', '',
+    ...previewGrid(cases.videos, 'video'),
+    ...caseIndex([...data.videos, ...cases.videos]),
     ...data.videos.flatMap(entry => [
+      `<a id="${entry.id}"></a>`, '',
       `## ${entry.title}`, '', `${entry.summary} · ${entry.category}`, '',
       `- 输入：${entry.input}`, `- 建议格式：${entry.format}`, '',
       '**完整提示词**', '', '```text', entry.prompt, '```', '',
@@ -78,7 +104,8 @@ const pages = {
     ]),
     '## 来源案例', '',
     ...cases.videos.flatMap(entry => [
-      `### ${entry.title}`, '', `![${entry.title}](../${entry.image})`, '',
+      `<a id="${entry.id}"></a>`, '', `### ${entry.title}`, '',
+      `<a href="../${entry.video}"><img src="../${entry.image}" alt="${entry.title}视频封面" width="360"></a>`, '',
       `[播放样片](../${entry.video}) · 来源：[${entry.source.author}](${entry.source.url}) · ${entry.promptCredit}`, '',
       `${entry.summary} · ${entry.category}`, '',
       '**完整提示词**', '', '```text', entry.prompt, '```', '',

@@ -2,7 +2,69 @@
 
 [返回首页](../README.md) · [浏览画廊](../index.html)
 
-浏览视频样片、完整提示词及原作者来源。
+按封面浏览视频案例，下方对应样片、完整提示词与来源。
+
+## 精选预览
+
+<table>
+<tr><td width="33%" valign="top" align="center"><a href="../assets/cases/video-3d40126f5f.mp4"><img src="../assets/cases/video-3d40126f5f.jpg" alt="90年代像素文字游戏预览" width="100%"></a><br><a href="#video-3d40126f5f">90年代像素文字游戏</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/video-50e620e4e4.mp4"><img src="../assets/cases/video-50e620e4e4.jpg" alt="巴黎街头时装变身预览" width="100%"></a><br><a href="#video-50e620e4e4">巴黎街头时装变身</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/video-bc1f9f0af1.mp4"><img src="../assets/cases/video-bc1f9f0af1.jpg" alt="垂直升降揭示预览" width="100%"></a><br><a href="#video-bc1f9f0af1">垂直升降揭示</a></td></tr>
+<tr><td width="33%" valign="top" align="center"><a href="../assets/cases/video-37af5cd196.mp4"><img src="../assets/cases/video-37af5cd196.jpg" alt="粗野主义庭院武术动作预览" width="100%"></a><br><a href="#video-37af5cd196">粗野主义庭院武术动作</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/video-8f1bbd26f7.mp4"><img src="../assets/cases/video-8f1bbd26f7.jpg" alt="大学物理实验演示短片预览" width="100%"></a><br><a href="#video-8f1bbd26f7">大学物理实验演示短片</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/video-f97cb22797.mp4"><img src="../assets/cases/video-f97cb22797.jpg" alt="第一人称视角：龙骑士电影级画面预览" width="100%"></a><br><a href="#video-f97cb22797">第一人称视角：龙骑士电影级画面</a></td></tr>
+<tr><td width="33%" valign="top" align="center"><a href="../assets/cases/video-df3924a259.mp4"><img src="../assets/cases/video-df3924a259.jpg" alt="电影级动作轮滑序列预览" width="100%"></a><br><a href="#video-df3924a259">电影级动作轮滑序列</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/video-849134cf4b.mp4"><img src="../assets/cases/video-849134cf4b.jpg" alt="电影级少林武僧动作大片预览" width="100%"></a><br><a href="#video-849134cf4b">电影级少林武僧动作大片</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/video-53bf374a72.mp4"><img src="../assets/cases/video-53bf374a72.jpg" alt="动态百科页拼贴解说预览" width="100%"></a><br><a href="#video-53bf374a72">动态百科页拼贴解说</a></td></tr>
+<tr><td width="33%" valign="top" align="center"><a href="../assets/cases/video-967e1a17e1.mp4"><img src="../assets/cases/video-967e1a17e1.jpg" alt="复古插画微动效预览" width="100%"></a><br><a href="#video-967e1a17e1">复古插画微动效</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/video-e0fd6d34ba.mp4"><img src="../assets/cases/video-e0fd6d34ba.jpg" alt="高端香水UGC口播预览" width="100%"></a><br><a href="#video-e0fd6d34ba">高端香水UGC口播</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/video-8cf75d3afe.mp4"><img src="../assets/cases/video-8cf75d3afe.jpg" alt="固定点向右横摇揭示预览" width="100%"></a><br><a href="#video-8cf75d3afe">固定点向右横摇揭示</a></td></tr>
+</table>
+
+## 全部案例
+
+- [产品短片：固定主体与缓慢推近](#product-reveal)
+- [纸雕转场：从静态插画到微动效](#paper-cut-loop)
+- [90年代像素文字游戏](#video-3d40126f5f)
+- [巴黎街头时装变身](#video-50e620e4e4)
+- [垂直升降揭示](#video-bc1f9f0af1)
+- [粗野主义庭院武术动作](#video-37af5cd196)
+- [大学物理实验演示短片](#video-8f1bbd26f7)
+- [第一人称视角：龙骑士电影级画面](#video-f97cb22797)
+- [电影级动作轮滑序列](#video-df3924a259)
+- [电影级少林武僧动作大片](#video-849134cf4b)
+- [动态百科页拼贴解说](#video-53bf374a72)
+- [复古插画微动效](#video-967e1a17e1)
+- [高端香水UGC口播](#video-e0fd6d34ba)
+- [固定点向右横摇揭示](#video-8cf75d3afe)
+- [哈恰普里俯拍烹饪](#video-3207e9e8c2)
+- [海滩石像定格动画](#video-5d2a7780cd)
+- [航拍后拉升高揭示](#video-cbe24f7388)
+- [火山疏散城市建造延时](#video-19ceae29af)
+- [科幻摩托车动作场面](#video-59eafdce5b)
+- [立体书地图纸艺动画](#video-31ea8a7f7c)
+- [毛线娃娃早餐定格动画](#video-d2f1128753)
+- [黏土机器人创业故事](#video-69395c9b4c)
+- [纽约街头的动漫滑板追逐](#video-2bf5e5594d)
+- [纽约跑酷与蛛丝摆荡动作](#video-e7dcc94d27)
+- [喷泉时间静止与彩虹](#video-1c634febce)
+- [疲惫日常蒙太奇](#video-e6248de843)
+- [企业猫职场动画短片](#video-0a64266abe)
+- [前后景转移焦点](#video-ad4c3bf9c3)
+- [日本网红出门准备 UGC](#video-0c79e1fe07)
+- [山崖轮滑动作](#video-e24c102dab)
+- [烧烤美食微距短片](#video-1d6c1fec91)
+- [奢华护肤品水感广告](#video-512e7b9e27)
+- [奢华珠宝开箱广告](#video-ced1de556c)
+- [摄政时期电影蒙太奇](#video-dcc3d74eac)
+- [生物发光灯塔守望者](#video-b5fa2e6d3f)
+- [食谱信息图转连续烹饪短片](#video-60b5dcaaac)
+- [手绘变实物定格料理](#video-a2196efe4e)
+- [首尔周日 DV 家庭录像](#video-ac4f3a29c1)
+- [水彩素描跑酷追逐](#video-dc65c9f52f)
+- [水晶粒子厨房变身](#video-345a132c7a)
+- [推拉变焦空间扭曲](#video-fa2e0ad821)
+- [微型工人维修USB](#video-565c5a1550)
+- [卧室接住落书互动](#video-fce76e69a8)
+- [无人机环绕主体](#video-f953b9d317)
+- [野花四季微距延时](#video-aecc45705d)
+- [雨林神秘光源短片](#video-61094b8453)
+- [真人贴纸海报动效](#video-24c5f43c41)
+- [中国水墨无缝转场](#video-cdfbcca0a0)
+
+<a id="product-reveal"></a>
 
 ## 产品短片：固定主体与缓慢推近
 
@@ -20,6 +82,8 @@
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
+
+<a id="paper-cut-loop"></a>
 
 ## 纸雕转场：从静态插画到微动效
 
@@ -40,9 +104,11 @@
 
 ## 来源案例
 
+<a id="video-3d40126f5f"></a>
+
 ### 90年代像素文字游戏
 
-![90年代像素文字游戏](../assets/cases/video-3d40126f5f.jpg)
+<a href="../assets/cases/video-3d40126f5f.mp4"><img src="../assets/cases/video-3d40126f5f.jpg" alt="90年代像素文字游戏视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-3d40126f5f.mp4) · 来源：[@BMX / YouMind](https://x.com/bmx_ai13/status/2101593507232387096) · 来源提示词 / 翻译整理
 
@@ -178,9 +244,11 @@ _ _ _ _ _
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-50e620e4e4"></a>
+
 ### 巴黎街头时装变身
 
-![巴黎街头时装变身](../assets/cases/video-50e620e4e4.jpg)
+<a href="../assets/cases/video-50e620e4e4.mp4"><img src="../assets/cases/video-50e620e4e4.jpg" alt="巴黎街头时装变身视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-50e620e4e4.mp4) · 来源：[@ayzalnoor / YouMind](https://x.com/ayzalnooor24521/status/2100456445900710158) · 来源提示词 / 翻译整理
 
@@ -196,9 +264,11 @@ _ _ _ _ _
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-bc1f9f0af1"></a>
+
 ### 垂直升降揭示
 
-![垂直升降揭示](../assets/cases/video-bc1f9f0af1.jpg)
+<a href="../assets/cases/video-bc1f9f0af1.mp4"><img src="../assets/cases/video-bc1f9f0af1.jpg" alt="垂直升降揭示视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-bc1f9f0af1.mp4) · 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control) · 来源提示词 / 翻译整理
 
@@ -225,9 +295,11 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-37af5cd196"></a>
+
 ### 粗野主义庭院武术动作
 
-![粗野主义庭院武术动作](../assets/cases/video-37af5cd196.jpg)
+<a href="../assets/cases/video-37af5cd196.mp4"><img src="../assets/cases/video-37af5cd196.jpg" alt="粗野主义庭院武术动作视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-37af5cd196.mp4) · 来源：[Avelyrah（X：`@AvelyrahnAI`）](https://x.com/AvelyrahnAI/status/2088495522801942951) · 来源提示词 / 翻译整理
 
@@ -243,9 +315,11 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-8f1bbd26f7"></a>
+
 ### 大学物理实验演示短片
 
-![大学物理实验演示短片](../assets/cases/video-8f1bbd26f7.jpg)
+<a href="../assets/cases/video-8f1bbd26f7.mp4"><img src="../assets/cases/video-8f1bbd26f7.jpg" alt="大学物理实验演示短片视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-8f1bbd26f7.mp4) · 来源：[@Ayat / YouMind](https://x.com/aiwithaayat/status/2102331859657253174) · 来源提示词 / 翻译整理
 
@@ -261,9 +335,11 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-f97cb22797"></a>
+
 ### 第一人称视角：龙骑士电影级画面
 
-![第一人称视角：龙骑士电影级画面](../assets/cases/video-f97cb22797.jpg)
+<a href="../assets/cases/video-f97cb22797.mp4"><img src="../assets/cases/video-f97cb22797.jpg" alt="第一人称视角：龙骑士电影级画面视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-f97cb22797.mp4) · 来源：[Nexora（X：`@frametheory058`）](https://x.com/frametheory058/status/2087007818721423855) · 来源提示词 / 翻译整理
 
@@ -279,9 +355,11 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-df3924a259"></a>
+
 ### 电影级动作轮滑序列
 
-![电影级动作轮滑序列](../assets/cases/video-df3924a259.jpg)
+<a href="../assets/cases/video-df3924a259.mp4"><img src="../assets/cases/video-df3924a259.jpg" alt="电影级动作轮滑序列视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-df3924a259.mp4) · 来源：[Smiling Khan（X：`@AIwithkhan`）](https://x.com/AIwithkhan/status/2088506532434743745) · 来源提示词 / 翻译整理
 
@@ -297,9 +375,11 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-849134cf4b"></a>
+
 ### 电影级少林武僧动作大片
 
-![电影级少林武僧动作大片](../assets/cases/video-849134cf4b.jpg)
+<a href="../assets/cases/video-849134cf4b.mp4"><img src="../assets/cases/video-849134cf4b.jpg" alt="电影级少林武僧动作大片视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-849134cf4b.mp4) · 来源：[Pierrick Chevallier | IA（X：`@CharaspowerAI`）](https://x.com/CharaspowerAI/status/2086830115527250284) · 来源提示词 / 翻译整理
 
@@ -315,9 +395,11 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-53bf374a72"></a>
+
 ### 动态百科页拼贴解说
 
-![动态百科页拼贴解说](../assets/cases/video-53bf374a72.jpg)
+<a href="../assets/cases/video-53bf374a72.mp4"><img src="../assets/cases/video-53bf374a72.jpg" alt="动态百科页拼贴解说视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-53bf374a72.mp4) · 来源：[X `@MrLarus`；原帖发布日期：2026-07-12。作者称这是一次用 ChatGPT、Image2、Seedance、AI 配音与字幕制作的秦统一中国解说实验。](https://x.com/MrLarus/status/2076328854315032641) · 根据来源整理的适配提示词
 
@@ -379,9 +461,11 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-967e1a17e1"></a>
+
 ### 复古插画微动效
 
-![复古插画微动效](../assets/cases/video-967e1a17e1.jpg)
+<a href="../assets/cases/video-967e1a17e1.mp4"><img src="../assets/cases/video-967e1a17e1.jpg" alt="复古插画微动效视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-967e1a17e1.mp4) · 来源：[小洁AI实战](https://www.douyin.com/video/7624869691328485361) · 根据来源整理的适配提示词
 
@@ -403,9 +487,11 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-e0fd6d34ba"></a>
+
 ### 高端香水UGC口播
 
-![高端香水UGC口播](../assets/cases/video-e0fd6d34ba.jpg)
+<a href="../assets/cases/video-e0fd6d34ba.mp4"><img src="../assets/cases/video-e0fd6d34ba.jpg" alt="高端香水UGC口播视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-e0fd6d34ba.mp4) · 来源：[@Meem / YouMind](https://x.com/mehvishs25/status/2094785997460660622) · 来源提示词 / 翻译整理
 
@@ -421,9 +507,11 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-8cf75d3afe"></a>
+
 ### 固定点向右横摇揭示
 
-![固定点向右横摇揭示](../assets/cases/video-8cf75d3afe.jpg)
+<a href="../assets/cases/video-8cf75d3afe.mp4"><img src="../assets/cases/video-8cf75d3afe.jpg" alt="固定点向右横摇揭示视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-8cf75d3afe.mp4) · 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control) · 来源提示词 / 翻译整理
 
@@ -451,9 +539,11 @@ Rotate the camera horizontally from left to right from one fixed point, like a s
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-3207e9e8c2"></a>
+
 ### 哈恰普里俯拍烹饪
 
-![哈恰普里俯拍烹饪](../assets/cases/video-3207e9e8c2.jpg)
+<a href="../assets/cases/video-3207e9e8c2.mp4"><img src="../assets/cases/video-3207e9e8c2.jpg" alt="哈恰普里俯拍烹饪视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-3207e9e8c2.mp4) · 来源：[@999 / YouMind](https://x.com/999shinobi/status/2102142574848798798) · 来源提示词 / 翻译整理
 
@@ -469,9 +559,11 @@ Rotate the camera horizontally from left to right from one fixed point, like a s
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-5d2a7780cd"></a>
+
 ### 海滩石像定格动画
 
-![海滩石像定格动画](../assets/cases/video-5d2a7780cd.jpg)
+<a href="../assets/cases/video-5d2a7780cd.mp4"><img src="../assets/cases/video-5d2a7780cd.jpg" alt="海滩石像定格动画视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-5d2a7780cd.mp4) · 来源：[Marcos（X：`@arsalannazir07`）。](https://x.com/arsalannazir07/status/2096791786807275583) · 来源提示词 / 翻译整理
 
@@ -511,9 +603,11 @@ Rotate the camera horizontally from left to right from one fixed point, like a s
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-cbe24f7388"></a>
+
 ### 航拍后拉升高揭示
 
-![航拍后拉升高揭示](../assets/cases/video-cbe24f7388.jpg)
+<a href="../assets/cases/video-cbe24f7388.mp4"><img src="../assets/cases/video-cbe24f7388.jpg" alt="航拍后拉升高揭示视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-cbe24f7388.mp4) · 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control) · 来源提示词 / 翻译整理
 
@@ -541,9 +635,11 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-19ceae29af"></a>
+
 ### 火山疏散城市建造延时
 
-![火山疏散城市建造延时](../assets/cases/video-19ceae29af.jpg)
+<a href="../assets/cases/video-19ceae29af.mp4"><img src="../assets/cases/video-19ceae29af.jpg" alt="火山疏散城市建造延时视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-19ceae29af.mp4) · 来源：[@Maverick | AI / YouMind](https://x.com/RizwanAly07/status/2101897414760411153) · 来源提示词 / 翻译整理
 
@@ -581,9 +677,11 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-59eafdce5b"></a>
+
 ### 科幻摩托车动作场面
 
-![科幻摩托车动作场面](../assets/cases/video-59eafdce5b.jpg)
+<a href="../assets/cases/video-59eafdce5b.mp4"><img src="../assets/cases/video-59eafdce5b.jpg" alt="科幻摩托车动作场面视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-59eafdce5b.mp4) · 来源：[Zyrella（X：`@Zyrellix`）](https://x.com/Zyrellix/status/2087846827475239167) · 来源提示词 / 翻译整理
 
@@ -599,9 +697,11 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-31ea8a7f7c"></a>
+
 ### 立体书地图纸艺动画
 
-![立体书地图纸艺动画](../assets/cases/video-31ea8a7f7c.jpg)
+<a href="../assets/cases/video-31ea8a7f7c.mp4"><img src="../assets/cases/video-31ea8a7f7c.jpg" alt="立体书地图纸艺动画视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-31ea8a7f7c.mp4) · 来源：[@Alexandra Aisling / YouMind](https://x.com/AllaAisling/status/2091584001282900033) · 来源提示词 / 翻译整理
 
@@ -617,9 +717,11 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-d2f1128753"></a>
+
 ### 毛线娃娃早餐定格动画
 
-![毛线娃娃早餐定格动画](../assets/cases/video-d2f1128753.jpg)
+<a href="../assets/cases/video-d2f1128753.mp4"><img src="../assets/cases/video-d2f1128753.jpg" alt="毛线娃娃早餐定格动画视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-d2f1128753.mp4) · 来源：[@Maya / YouMind](https://x.com/MayaAiCreator/status/2098365565781917862) · 来源提示词 / 翻译整理
 
@@ -647,9 +749,11 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-69395c9b4c"></a>
+
 ### 黏土机器人创业故事
 
-![黏土机器人创业故事](../assets/cases/video-69395c9b4c.jpg)
+<a href="../assets/cases/video-69395c9b4c.mp4"><img src="../assets/cases/video-69395c9b4c.jpg" alt="黏土机器人创业故事视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-69395c9b4c.mp4) · 来源：[@Condz / YouMind](https://x.com/condzxyz/status/2093032563400987056) · 来源提示词 / 翻译整理
 
@@ -689,9 +793,11 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-2bf5e5594d"></a>
+
 ### 纽约街头的动漫滑板追逐
 
-![纽约街头的动漫滑板追逐](../assets/cases/video-2bf5e5594d.jpg)
+<a href="../assets/cases/video-2bf5e5594d.mp4"><img src="../assets/cases/video-2bf5e5594d.jpg" alt="纽约街头的动漫滑板追逐视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-2bf5e5594d.mp4) · 来源：[Synthia（X：`@AIwithSynthia`）](https://x.com/AIwithSynthia/status/2088650163778961654) · 来源提示词 / 翻译整理
 
@@ -707,9 +813,11 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-e7dcc94d27"></a>
+
 ### 纽约跑酷与蛛丝摆荡动作
 
-![纽约跑酷与蛛丝摆荡动作](../assets/cases/video-e7dcc94d27.jpg)
+<a href="../assets/cases/video-e7dcc94d27.mp4"><img src="../assets/cases/video-e7dcc94d27.jpg" alt="纽约跑酷与蛛丝摆荡动作视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-e7dcc94d27.mp4) · 来源：[Elsa Ai（X：`@ElsaSofia__AI`）](https://x.com/ElsaSofia__AI/status/2089306746804375878) · 来源提示词 / 翻译整理
 
@@ -725,9 +833,11 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-1c634febce"></a>
+
 ### 喷泉时间静止与彩虹
 
-![喷泉时间静止与彩虹](../assets/cases/video-1c634febce.jpg)
+<a href="../assets/cases/video-1c634febce.mp4"><img src="../assets/cases/video-1c634febce.jpg" alt="喷泉时间静止与彩虹视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-1c634febce.mp4) · 来源：[@lumiAI / YouMind](https://x.com/aiwithlumi/status/2102406322008559857) · 来源提示词 / 翻译整理
 
@@ -743,9 +853,11 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-e6248de843"></a>
+
 ### 疲惫日常蒙太奇
 
-![疲惫日常蒙太奇](../assets/cases/video-e6248de843.jpg)
+<a href="../assets/cases/video-e6248de843.mp4"><img src="../assets/cases/video-e6248de843.jpg" alt="疲惫日常蒙太奇视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-e6248de843.mp4) · 来源：[@Noor / YouMind](https://x.com/noorlewisx/status/2101902128986075593) · 来源提示词 / 翻译整理
 
@@ -784,9 +896,11 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-0a64266abe"></a>
+
 ### 企业猫职场动画短片
 
-![企业猫职场动画短片](../assets/cases/video-0a64266abe.jpg)
+<a href="../assets/cases/video-0a64266abe.mp4"><img src="../assets/cases/video-0a64266abe.jpg" alt="企业猫职场动画短片视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-0a64266abe.mp4) · 来源：[@Aynelle / YouMind](https://x.com/aynellex/status/2102604800341000457) · 来源提示词 / 翻译整理
 
@@ -818,9 +932,11 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-ad4c3bf9c3"></a>
+
 ### 前后景转移焦点
 
-![前后景转移焦点](../assets/cases/video-ad4c3bf9c3.jpg)
+<a href="../assets/cases/video-ad4c3bf9c3.mp4"><img src="../assets/cases/video-ad4c3bf9c3.jpg" alt="前后景转移焦点视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-ad4c3bf9c3.mp4) · 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control) · 来源提示词 / 翻译整理
 
@@ -848,9 +964,11 @@ The camera hard-locked on a tripod with no pan, no tilt, no push, no drift; the 
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-0c79e1fe07"></a>
+
 ### 日本网红出门准备 UGC
 
-![日本网红出门准备 UGC](../assets/cases/video-0c79e1fe07.jpg)
+<a href="../assets/cases/video-0c79e1fe07.mp4"><img src="../assets/cases/video-0c79e1fe07.jpg" alt="日本网红出门准备 UGC视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-0c79e1fe07.mp4) · 来源：[タナベ | AI動画 × マーケティング（X：`@tanabe_fragm`）。](https://x.com/tanabe_fragm/status/2096136682055864564) · 来源提示词 / 翻译整理
 
@@ -911,9 +1029,11 @@ The camera hard-locked on a tripod with no pan, no tilt, no push, no drift; the 
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-e24c102dab"></a>
+
 ### 山崖轮滑动作
 
-![山崖轮滑动作](../assets/cases/video-e24c102dab.jpg)
+<a href="../assets/cases/video-e24c102dab.mp4"><img src="../assets/cases/video-e24c102dab.jpg" alt="山崖轮滑动作视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-e24c102dab.mp4) · 来源：[Sarah（X：`@SyntheSarah`）](https://x.com/SyntheSarah/status/2088122680142930199) · 来源提示词 / 翻译整理
 
@@ -929,9 +1049,11 @@ The camera hard-locked on a tripod with no pan, no tilt, no push, no drift; the 
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-1d6c1fec91"></a>
+
 ### 烧烤美食微距短片
 
-![烧烤美食微距短片](../assets/cases/video-1d6c1fec91.jpg)
+<a href="../assets/cases/video-1d6c1fec91.mp4"><img src="../assets/cases/video-1d6c1fec91.jpg" alt="烧烤美食微距短片视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-1d6c1fec91.mp4) · 来源：[@Zoya / YouMind](https://x.com/Zoyavelle/status/2102641743669961207) · 来源提示词 / 翻译整理
 
@@ -947,9 +1069,11 @@ A cinematic close-up of a young Asian woman wearing a black hoodie and a dark he
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-512e7b9e27"></a>
+
 ### 奢华护肤品水感广告
 
-![奢华护肤品水感广告](../assets/cases/video-512e7b9e27.jpg)
+<a href="../assets/cases/video-512e7b9e27.mp4"><img src="../assets/cases/video-512e7b9e27.jpg" alt="奢华护肤品水感广告视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-512e7b9e27.mp4) · 来源：[@Maha / YouMind](https://x.com/Aiwithmaha/status/2101887507059351894) · 来源提示词 / 翻译整理
 
@@ -965,9 +1089,11 @@ A cinematic close-up of a young Asian woman wearing a black hoodie and a dark he
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-ced1de556c"></a>
+
 ### 奢华珠宝开箱广告
 
-![奢华珠宝开箱广告](../assets/cases/video-ced1de556c.jpg)
+<a href="../assets/cases/video-ced1de556c.mp4"><img src="../assets/cases/video-ced1de556c.jpg" alt="奢华珠宝开箱广告视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-ced1de556c.mp4) · 来源：[ayzalnoor（X：`@ayzalnooor24521`）。](https://x.com/ayzalnooor24521/status/2097194787564658942) · 来源提示词 / 翻译整理
 
@@ -993,9 +1119,11 @@ A cinematic close-up of a young Asian woman wearing a black hoodie and a dark he
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-dcc3d74eac"></a>
+
 ### 摄政时期电影蒙太奇
 
-![摄政时期电影蒙太奇](../assets/cases/video-dcc3d74eac.jpg)
+<a href="../assets/cases/video-dcc3d74eac.mp4"><img src="../assets/cases/video-dcc3d74eac.jpg" alt="摄政时期电影蒙太奇视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-dcc3d74eac.mp4) · 来源：[@anj / YouMind](https://x.com/anjmaxx/status/2102052600426504362) · 来源提示词 / 翻译整理
 
@@ -1077,9 +1205,11 @@ A cinematic close-up of a young Asian woman wearing a black hoodie and a dark he
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-b5fa2e6d3f"></a>
+
 ### 生物发光灯塔守望者
 
-![生物发光灯塔守望者](../assets/cases/video-b5fa2e6d3f.jpg)
+<a href="../assets/cases/video-b5fa2e6d3f.mp4"><img src="../assets/cases/video-b5fa2e6d3f.jpg" alt="生物发光灯塔守望者视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-b5fa2e6d3f.mp4) · 来源：[Sarah（X：`@SyntheSarah`）。](https://x.com/SyntheSarah/status/2097182529564365135) · 来源提示词 / 翻译整理
 
@@ -1101,9 +1231,11 @@ A cinematic close-up of a young Asian woman wearing a black hoodie and a dark he
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-60b5dcaaac"></a>
+
 ### 食谱信息图转连续烹饪短片
 
-![食谱信息图转连续烹饪短片](../assets/cases/video-60b5dcaaac.jpg)
+<a href="../assets/cases/video-60b5dcaaac.mp4"><img src="../assets/cases/video-60b5dcaaac.jpg" alt="食谱信息图转连续烹饪短片视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-60b5dcaaac.mp4) · 来源：[Oleksa AI（X：`@OleksaFrame`）。](https://x.com/OleksaFrame/status/2097669808800113040) · 来源提示词 / 翻译整理
 
@@ -1271,9 +1403,11 @@ sound: gentle sauce bubbling, faint skillet sizzle, quiet kitchen room tone fadi
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-a2196efe4e"></a>
+
 ### 手绘变实物定格料理
 
-![手绘变实物定格料理](../assets/cases/video-a2196efe4e.jpg)
+<a href="../assets/cases/video-a2196efe4e.mp4"><img src="../assets/cases/video-a2196efe4e.jpg" alt="手绘变实物定格料理视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-a2196efe4e.mp4) · 来源：[@NoorAI / YouMind](https://x.com/noorwithwifi/status/2087821976270450985) · 来源提示词 / 翻译整理
 
@@ -1289,9 +1423,11 @@ sound: gentle sauce bubbling, faint skillet sizzle, quiet kitchen room tone fadi
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-ac4f3a29c1"></a>
+
 ### 首尔周日 DV 家庭录像
 
-![首尔周日 DV 家庭录像](../assets/cases/video-ac4f3a29c1.jpg)
+<a href="../assets/cases/video-ac4f3a29c1.mp4"><img src="../assets/cases/video-ac4f3a29c1.jpg" alt="首尔周日 DV 家庭录像视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-ac4f3a29c1.mp4) · 来源：[@Smiling Khan（X：`@AIwithkhan`）](https://x.com/AIwithkhan/status/2096424933366931946) · 来源提示词 / 翻译整理
 
@@ -1323,9 +1459,11 @@ sound: gentle sauce bubbling, faint skillet sizzle, quiet kitchen room tone fadi
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-dc65c9f52f"></a>
+
 ### 水彩素描跑酷追逐
 
-![水彩素描跑酷追逐](../assets/cases/video-dc65c9f52f.jpg)
+<a href="../assets/cases/video-dc65c9f52f.mp4"><img src="../assets/cases/video-dc65c9f52f.jpg" alt="水彩素描跑酷追逐视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-dc65c9f52f.mp4) · 来源：[おのもの | AIコンテンツを作るサラリーマン（X：`@user_monom`）](https://x.com/user_monom/status/2086447224750530664) · 来源提示词 / 翻译整理
 
@@ -1417,9 +1555,11 @@ sound: gentle sauce bubbling, faint skillet sizzle, quiet kitchen room tone fadi
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-345a132c7a"></a>
+
 ### 水晶粒子厨房变身
 
-![水晶粒子厨房变身](../assets/cases/video-345a132c7a.jpg)
+<a href="../assets/cases/video-345a132c7a.mp4"><img src="../assets/cases/video-345a132c7a.jpg" alt="水晶粒子厨房变身视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-345a132c7a.mp4) · 来源：[@Lavinia / YouMind](https://x.com/laviniavelle/status/2100431886543978896) · 来源提示词 / 翻译整理
 
@@ -1435,9 +1575,11 @@ sound: gentle sauce bubbling, faint skillet sizzle, quiet kitchen room tone fadi
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-fa2e0ad821"></a>
+
 ### 推拉变焦空间扭曲
 
-![推拉变焦空间扭曲](../assets/cases/video-fa2e0ad821.jpg)
+<a href="../assets/cases/video-fa2e0ad821.mp4"><img src="../assets/cases/video-fa2e0ad821.jpg" alt="推拉变焦空间扭曲视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-fa2e0ad821.mp4) · 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control) · 来源提示词 / 翻译整理
 
@@ -1465,9 +1607,11 @@ The camera physically dollies forward from [6] meters to [2.5] meters while the 
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-565c5a1550"></a>
+
 ### 微型工人维修USB
 
-![微型工人维修USB](../assets/cases/video-565c5a1550.jpg)
+<a href="../assets/cases/video-565c5a1550.mp4"><img src="../assets/cases/video-565c5a1550.jpg" alt="微型工人维修USB视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-565c5a1550.mp4) · 来源：[@Martian / YouMind](https://x.com/drzubi01/status/2090307471797780641) · 来源提示词 / 翻译整理
 
@@ -1503,9 +1647,11 @@ The camera physically dollies forward from [6] meters to [2.5] meters while the 
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-fce76e69a8"></a>
+
 ### 卧室接住落书互动
 
-![卧室接住落书互动](../assets/cases/video-fce76e69a8.jpg)
+<a href="../assets/cases/video-fce76e69a8.mp4"><img src="../assets/cases/video-fce76e69a8.jpg" alt="卧室接住落书互动视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-fce76e69a8.mp4) · 来源：[Ahmad Faraz（X：`@iamahmedfaraz66`）。](https://x.com/iamahmedfaraz66/status/2095139680786493912) · 来源提示词 / 翻译整理
 
@@ -1531,9 +1677,11 @@ The camera physically dollies forward from [6] meters to [2.5] meters while the 
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-f953b9d317"></a>
+
 ### 无人机环绕主体
 
-![无人机环绕主体](../assets/cases/video-f953b9d317.jpg)
+<a href="../assets/cases/video-f953b9d317.mp4"><img src="../assets/cases/video-f953b9d317.jpg" alt="无人机环绕主体视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-f953b9d317.mp4) · 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control) · 来源提示词 / 翻译整理
 
@@ -1562,9 +1710,11 @@ A smooth constant-speed circular drone flight around the subject — [8]-meter r
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-aecc45705d"></a>
+
 ### 野花四季微距延时
 
-![野花四季微距延时](../assets/cases/video-aecc45705d.jpg)
+<a href="../assets/cases/video-aecc45705d.mp4"><img src="../assets/cases/video-aecc45705d.jpg" alt="野花四季微距延时视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-aecc45705d.mp4) · 来源：[@Mr Das / YouMind](https://x.com/MrDasOnX/status/2096453993371422748) · 来源提示词 / 翻译整理
 
@@ -1595,9 +1745,11 @@ A smooth constant-speed circular drone flight around the subject — [8]-meter r
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-61094b8453"></a>
+
 ### 雨林神秘光源短片
 
-![雨林神秘光源短片](../assets/cases/video-61094b8453.jpg)
+<a href="../assets/cases/video-61094b8453.mp4"><img src="../assets/cases/video-61094b8453.jpg" alt="雨林神秘光源短片视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-61094b8453.mp4) · 来源：[Ahmad Faraz（X：`@iamahmedfaraz66`）。](https://x.com/iamahmedfaraz66/status/2095362901326598521) · 来源提示词 / 翻译整理
 
@@ -1623,9 +1775,11 @@ A smooth constant-speed circular drone flight around the subject — [8]-meter r
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-24c5f43c41"></a>
+
 ### 真人贴纸海报动效
 
-![真人贴纸海报动效](../assets/cases/video-24c5f43c41.jpg)
+<a href="../assets/cases/video-24c5f43c41.mp4"><img src="../assets/cases/video-24c5f43c41.jpg" alt="真人贴纸海报动效视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-24c5f43c41.mp4) · 来源：[小洁AI实战](https://www.douyin.com/video/7683887650173032805) · 根据来源整理的适配提示词
 
@@ -1647,9 +1801,11 @@ A smooth constant-speed circular drone flight around the subject — [8]-meter r
 
 [浏览生视频 Prompt 模板](../templates/video.md)
 
+<a id="video-cdfbcca0a0"></a>
+
 ### 中国水墨无缝转场
 
-![中国水墨无缝转场](../assets/cases/video-cdfbcca0a0.jpg)
+<a href="../assets/cases/video-cdfbcca0a0.mp4"><img src="../assets/cases/video-cdfbcca0a0.jpg" alt="中国水墨无缝转场视频封面" width="360"></a>
 
 [播放样片](../assets/cases/video-cdfbcca0a0.mp4) · 来源：[@NoorAI / YouMind](https://x.com/noorwithwifi/status/2101683541629354348) · 来源提示词 / 翻译整理
 

@@ -19,6 +19,8 @@
 
 标本主图、局部放大与短标签组成一张可阅读的图版。
 
+<a href="../showcase/image.md#botanical-plate"><img src="../assets/previews/botanical.webp" alt="植物科学图版案例预览" width="320"></a>
+
 **需要填写：** `[植物名称]` · `[形态特征]` · `[需要标注的部位]` · `[画幅]`
 
 ```text
@@ -27,13 +29,13 @@
 
 **使用检查：** 真实物种的形态与标注需要另行核对；图像模型生成的文字也要逐字复查。
 
-[查看生成案例](../showcase/image.md#虚构植物科学图版)
-
 <a id="beverage-still-life"></a>
 
 ## 饮品商业静物
 
 把包装、材质、光线和留白整合成可放文案的主视觉。
+
+<a href="../showcase/image.md#botanical-soda"><img src="../assets/previews/beverage.webp" alt="饮品商业静物案例预览" width="320"></a>
 
 **需要填写：** `[产品描述]` · `[风味元素]` · `[主色]` · `[画幅]`
 
@@ -43,13 +45,13 @@
 
 **使用检查：** 有真实包装时上传产品参考图，并检查标签、容量与外形是否被改写。
 
-[查看生成案例](../showcase/image.md#植物汽水商业静物)
-
 <a id="travel-print-poster"></a>
 
 ## 旅行主题丝网印刷海报
 
 用地标、路线和有限色版构建目的地识别度。
+
+<a href="../showcase/image.md#coastal-poster"><img src="../assets/previews/travel.webp" alt="旅行主题丝网印刷海报案例预览" width="320"></a>
 
 **需要填写：** `[目的地]` · `[两个辨识元素]` · `[标题]` · `[配色]`
 
@@ -59,13 +61,13 @@
 
 **使用检查：** 如果使用真实城市地标，发布前核对地理细节；标题错误可后期排版。
 
-[查看生成案例](../showcase/image.md#虚构海岸城市旅行海报)
-
 <a id="food-storyboard"></a>
 
 ## 食品广告四格分镜
 
 从原料到成品，把一支短广告压缩到一页。
+
+<a href="../showcase/image.md#pear-tart-storyboard"><img src="../assets/previews/storyboard.webp" alt="食品广告四格分镜案例预览" width="320"></a>
 
 **需要填写：** `[食品]` · `[关键制作动作]` · `[成品场景]` · `[光线]`
 
@@ -74,8 +76,6 @@
 ```
 
 **使用检查：** 分镜图不是实际成片；进入视频制作时仍需单独检查镜头连续性。
-
-[查看生成案例](../showcase/image.md#梨挞广告四镜头分镜)
 
 <a id="ecommerce-grid"></a>
 

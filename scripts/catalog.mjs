@@ -62,7 +62,7 @@ function render(kind) {
   for (const entry of entries) {
     const links = [`[${escapeCell(entry.source.label)}](${entry.source.url})`];
     if (entry.related) links.push(`[${escapeCell(entry.related.label)}](${entry.related.url})`);
-    lines.push(`| [${escapeCell(entry.title)}](../showcase/${kind}.md#${entry.title.replace(/[：:]/g, '').replace(/\s+/g, '-')}) | ${escapeCell(entry.summary)} | ${entry.tags.map(escapeCell).join(' · ')} | ${links.join(' · ')} |`);
+    lines.push(`| [${escapeCell(entry.title)}](../showcase/${kind}.md#${entry.id}) | ${escapeCell(entry.summary)} | ${entry.tags.map(escapeCell).join(' · ')} | ${links.join(' · ')} |`);
   }
   return `${lines.join('\n')}\n`;
 }
