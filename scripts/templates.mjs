@@ -1,6 +1,7 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { previewRows } from "./preview-layout.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const data = JSON.parse(
@@ -68,12 +69,11 @@ function html(value) {
 }
 
 function curatedSection(entries, kind) {
-  const cells = entries.slice(0, 12).map(entry => {
+  const cell = entry => {
     const target = kind === "video" ? entry.video : entry.image;
     return `<td width="33%" align="center" valign="top"><a href="../${target}"><img src="../${entry.image}" alt="${html(entry.title)}预览" width="220"></a><br><a href="#${entry.id}">${html(entry.title)}</a></td>`;
-  });
-  const rows = [];
-  for (let i = 0; i < cells.length; i += 3) rows.push(`<tr>${cells.slice(i, i + 3).join("")}</tr>`);
+  };
+  const rows = previewRows(root, entries, 4).map(group => `<tr>${group.map(cell).join("")}</tr>`);
   return [
     `## 来源适配模板 · ${entries.length} 套`, "",
     "<table>", ...rows, "</table>", "",

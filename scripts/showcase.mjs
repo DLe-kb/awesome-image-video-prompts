@@ -1,6 +1,7 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { previewRows } from './preview-layout.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const data = JSON.parse(readFileSync(resolve(root, 'data/showcase.json'), 'utf8'));
@@ -36,16 +37,12 @@ if (caseIds.size !== catalog.entries.length || catalog.entries.some(entry => !ca
 }
 
 function previewGrid(entries, kind) {
-  const cells = entries.slice(0, 12).map(entry => {
+  const cell = entry => {
     const image = entry.image;
     const destination = kind === 'video' && entry.video ? entry.video : image;
-    const width = kind === 'video' ? '100%' : '220';
-    return `<td width="33%" valign="top" align="center"><a href="../${destination}"><img src="../${image}" alt="${entry.title}预览" width="${width}"></a><br><a href="#${entry.id}">${entry.title}</a></td>`;
-  });
-  const rows = [];
-  for (let i = 0; i < cells.length; i += 3) {
-    rows.push(`<tr>${cells.slice(i, i + 3).join('')}</tr>`);
-  }
+    return `<td width="33%" valign="top" align="center"><a href="../${destination}"><img src="../${image}" alt="${entry.title}预览" width="220"></a><br><a href="#${entry.id}">${entry.title}</a></td>`;
+  };
+  const rows = previewRows(root, entries, 4).map(group => `<tr>${group.map(cell).join('')}</tr>`);
   return ['## 精选预览', '', '<table>', ...rows, '</table>', ''];
 }
 

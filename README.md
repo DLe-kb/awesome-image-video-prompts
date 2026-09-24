@@ -11,13 +11,13 @@
 <table>
   <tr>
     <td width="33%" align="center"><a href="showcase/image.md#image-828d8ade3e"><img src="assets/cases/image-828d8ade3e.jpg" alt="杯内鱼眼夏日冰饮广告" width="220"></a><br><a href="showcase/image.md#image-828d8ade3e">杯内鱼眼夏日冰饮广告</a></td>
-    <td width="33%" align="center"><a href="showcase/image.md#image-5b85051bd1"><img src="assets/cases/image-5b85051bd1.jpg" alt="便当化食品包装创意" width="220"></a><br><a href="showcase/image.md#image-5b85051bd1">便当化食品包装创意</a></td>
-    <td width="33%" align="center"><a href="showcase/image.md#image-5573ad414d"><img src="assets/cases/image-5573ad414d.jpg" alt="丙烯手绘风格海报设计" width="220"></a><br><a href="showcase/image.md#image-5573ad414d">丙烯手绘风格海报设计</a></td>
+    <td width="33%" align="center"><a href="showcase/image.md#image-5efc7ec9c3"><img src="assets/cases/image-5efc7ec9c3.jpg" alt="分级英语杂志阅读页" width="220"></a><br><a href="showcase/image.md#image-5efc7ec9c3">分级英语杂志阅读页</a></td>
+    <td width="33%" align="center"><a href="showcase/image.md#image-9dc00fd4c2"><img src="assets/cases/image-9dc00fd4c2.jpg" alt="复古科学植物学海报" width="220"></a><br><a href="showcase/image.md#image-9dc00fd4c2">复古科学植物学海报</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="showcase/image.md#image-6f7c8e1479"><img src="assets/cases/image-6f7c8e1479.jpg" alt="城市地图微缩旅行海报" width="220"></a><br><a href="showcase/image.md#image-6f7c8e1479">城市地图微缩旅行海报</a></td>
-    <td align="center"><a href="showcase/image.md#image-91099d2e69"><img src="assets/cases/image-91099d2e69.jpg" alt="城市巨幕三维广告摄影" width="220"></a><br><a href="showcase/image.md#image-91099d2e69">城市巨幕三维广告摄影</a></td>
-    <td align="center"><a href="showcase/image.md#image-797a09fdbc"><img src="assets/cases/image-797a09fdbc.jpg" alt="等轴测微缩厨房" width="220"></a><br><a href="showcase/image.md#image-797a09fdbc">等轴测微缩厨房</a></td>
+    <td align="center"><a href="showcase/image.md#image-5b85051bd1"><img src="assets/cases/image-5b85051bd1.jpg" alt="便当化食品包装创意" width="220"></a><br><a href="showcase/image.md#image-5b85051bd1">便当化食品包装创意</a></td>
+    <td align="center"><a href="showcase/image.md#image-5573ad414d"><img src="assets/cases/image-5573ad414d.jpg" alt="丙烯手绘风格海报设计" width="220"></a><br><a href="showcase/image.md#image-5573ad414d">丙烯手绘风格海报设计</a></td>
+    <td align="center"><a href="showcase/image.md#image-2d9c1779c7"><img src="assets/cases/image-2d9c1779c7.jpg" alt="二十四节气编辑视觉设计" width="220"></a><br><a href="showcase/image.md#image-2d9c1779c7">二十四节气编辑视觉设计</a></td>
   </tr>
 </table>
 
@@ -33,8 +33,8 @@
   </tr>
   <tr>
     <td align="center"><a href="assets/cases/video-60b5dcaaac.mp4"><img src="assets/cases/video-60b5dcaaac.jpg" alt="食谱信息图转连续烹饪短片视频封面" width="240"></a><br><a href="showcase/video.md#video-60b5dcaaac">食谱信息图转连续烹饪短片</a></td>
-    <td align="center"><a href="assets/cases/video-cdfbcca0a0.mp4"><img src="assets/cases/video-cdfbcca0a0.jpg" alt="中国水墨无缝转场视频封面" width="240"></a><br><a href="showcase/video.md#video-cdfbcca0a0">中国水墨无缝转场</a></td>
-    <td align="center"><a href="assets/cases/video-aecc45705d.mp4"><img src="assets/cases/video-aecc45705d.jpg" alt="野花四季微距延时视频封面" width="240"></a><br><a href="showcase/video.md#video-aecc45705d">野花四季微距延时</a></td>
+    <td align="center"><a href="assets/cases/video-f97cb22797.mp4"><img src="assets/cases/video-f97cb22797.jpg" alt="第一人称视角：龙骑士电影级画面视频封面" width="240"></a><br><a href="showcase/video.md#video-f97cb22797">第一人称视角：龙骑士电影级画面</a></td>
+    <td align="center"><a href="assets/cases/video-53bf374a72.mp4"><img src="assets/cases/video-53bf374a72.jpg" alt="动态百科页拼贴解说视频封面" width="240"></a><br><a href="showcase/video.md#video-53bf374a72">动态百科页拼贴解说</a></td>
   </tr>
 </table>
 
