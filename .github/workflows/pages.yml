@@ -27,6 +27,7 @@ jobs:
           node-version: '20'
       - run: node scripts/catalog.mjs --check
       - run: node scripts/showcase.mjs --check
+      - run: node scripts/templates.mjs --check
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

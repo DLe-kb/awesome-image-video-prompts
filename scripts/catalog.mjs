@@ -74,7 +74,7 @@ for (const kind of Object.keys(kinds)) {
   const line = `| [${kinds[kind]}案例](catalog/${kind}.md) | ${count} |`;
   if (!readme.includes(line)) throw new Error(`README count is out of date: ${kind}`);
 }
-if (!readme.includes(`当前 ${data.entries.length} 条`)) throw new Error('README total is out of date');
+if (!readme.includes(`${data.entries.length} 条公开案例线索`)) throw new Error('README total is out of date');
 const mode = process.argv[2] || '--check';
 if (!['--check', '--write'].includes(mode)) throw new Error('Use --check or --write');
 for (const kind of Object.keys(kinds)) {

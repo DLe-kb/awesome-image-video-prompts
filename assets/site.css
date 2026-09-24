@@ -384,6 +384,79 @@ select {
 .video-card button:hover {
   text-decoration: underline;
 }
+.template-section {
+  border-bottom: 1px solid #dce4dd;
+}
+.template-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.template-card {
+  min-width: 0;
+  min-height: 216px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid #dce4dd;
+  border-radius: 5px;
+}
+.template-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.template-category {
+  color: #77877b;
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.template-card h3 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.template-card p {
+  margin: 0;
+  color: #5d6a61;
+  font-size: 12px;
+  line-height: 1.55;
+}
+.template-card .template-inputs {
+  color: #7b887e;
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.template-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+}
+.template-actions button {
+  border: 0;
+  background: none;
+  color: #0b7355;
+  padding: 5px 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+.template-actions button:hover {
+  text-decoration: underline;
+}
+.template-tip {
+  margin-top: 15px;
+  color: #637167;
+  font-size: 12px;
+  line-height: 1.6;
+}
 .source-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -595,6 +668,9 @@ dialog::backdrop {
   .source-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .template-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
   .intro-aside {
     gap: 14px;
   }
@@ -623,7 +699,7 @@ dialog::backdrop {
     font-size: 12px;
   }
   .site-header nav a:first-child,
-  .site-header nav a:nth-child(2) {
+  .site-header nav a:nth-child(3) {
     display: none;
   }
   .github-link {
@@ -687,6 +763,17 @@ dialog::backdrop {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
   }
+  .template-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .template-card {
+    min-height: 196px;
+    padding: 13px;
+  }
+  .template-card h3 {
+    font-size: 13px;
+  }
   .image-meta {
     padding: 11px;
   }
@@ -739,6 +826,12 @@ dialog::backdrop {
   .source-grid,
   .video-grid {
     grid-template-columns: 1fr;
+  }
+  .template-grid {
+    grid-template-columns: 1fr;
+  }
+  .template-card {
+    min-height: 0;
   }
   .intro-aside {
     justify-content: space-between;

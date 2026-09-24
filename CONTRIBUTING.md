@@ -21,3 +21,12 @@ node scripts/showcase.mjs --check
 ```
 
 生成的 `catalog/image.md` 和 `catalog/video.md` 应与数据文件一并提交。Pull Request（拉取请求）请说明改动条目、原始来源和验证范围；如需加入自己创作的完整提示词或生成结果，请同时提供内容权利说明和实际生成条件。
+
+## 贡献 Prompt 模板
+
+在 [`data/templates.json`](data/templates.json) 中填写原创模板的类型、标题、用途、需要替换的变量、完整 Prompt 和使用检查。Prompt 必须实际使用列出的每个变量；不要将第三方原文改几个词后作为原创模板提交。生成页面与校验命令：
+
+```bash
+node scripts/templates.mjs --write
+node scripts/templates.mjs --check
+```

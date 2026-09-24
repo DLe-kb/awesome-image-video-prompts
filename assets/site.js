@@ -4,6 +4,7 @@ const detail = $("#detail");
 let catalog = [];
 let images = [];
 let videos = [];
+let templates = [];
 let toastTimer;
 
 function el(tag, className, text) {
@@ -22,6 +23,7 @@ function match(entry, type) {
     ...(entry.tags ?? []),
     entry.source?.label,
     entry.input,
+    ...(entry.inputs ?? []),
   ]
     .filter(Boolean)
     .join(" ")
@@ -74,7 +76,9 @@ function openDetail(entry, kind) {
       "detail-spec",
       kind === "image"
         ? `${entry.model} · ${entry.provider} · 输出 ${entry.size}`
-        : `输入：${entry.input} · ${entry.format}`,
+        : kind === "template"
+          ? `填写：${entry.inputs.map((input) => `[${input}]`).join(" · ")}`
+          : `输入：${entry.input} · ${entry.format}`,
     ),
   );
   const promptHeader = el("div", "prompt-label");
@@ -84,6 +88,7 @@ function openDetail(entry, kind) {
   copyButton.addEventListener("click", () => copy(entry.prompt));
   promptHeader.append(copyButton);
   content.append(promptHeader, el("pre", "prompt-text", entry.prompt));
+  if (entry.tip) content.append(el("p", "template-tip", entry.tip));
   layout.append(content);
   body.append(layout);
   detail.showModal();
@@ -143,6 +148,43 @@ function renderVideos() {
   }
 }
 
+function renderTemplates() {
+  const grid = $("#template-grid");
+  grid.replaceChildren();
+  const filtered = templates.filter((entry) => match(entry, entry.kind));
+  $("#templates").hidden = filtered.length === 0;
+  for (const entry of filtered) {
+    const card = el("article", "template-card");
+    const top = el("div", "template-top");
+    top.append(
+      el("span", "kicker", entry.kind === "image" ? "生图" : "生视频"),
+      el("span", "template-category", entry.category),
+    );
+    const inputs = el(
+      "p",
+      "template-inputs",
+      `填写 ${entry.inputs.join(" · ")}`,
+    );
+    const actions = el("div", "template-actions");
+    const open = el("button", "open-template", "查看 Prompt");
+    open.type = "button";
+    open.addEventListener("click", () => openDetail(entry, "template"));
+    const copyButton = el("button", "copy-template", "复制");
+    copyButton.type = "button";
+    copyButton.setAttribute("aria-label", `复制${entry.title}提示词`);
+    copyButton.addEventListener("click", () => copy(entry.prompt));
+    actions.append(open, copyButton);
+    card.append(
+      top,
+      el("h3", "", entry.title),
+      el("p", "", entry.summary),
+      inputs,
+      actions,
+    );
+    grid.append(card);
+  }
+}
+
 function renderSources() {
   const grid = $("#source-grid");
   grid.replaceChildren();
@@ -175,10 +217,12 @@ function renderSources() {
 function render() {
   renderImages();
   renderVideos();
+  renderTemplates();
   renderSources();
   const nothing =
     !images.some((entry) => match(entry, "image")) &&
     !videos.some((entry) => match(entry, "video")) &&
+    !templates.some((entry) => match(entry, entry.kind)) &&
     !catalog.some((entry) => match(entry, entry.kind));
   $("#sources").hidden = nothing ? false : $("#sources").hidden;
   if (nothing) {
@@ -189,7 +233,7 @@ function render() {
 
 function populateCategories() {
   const categories = new Set(
-    [...images, ...videos].map((entry) => entry.category),
+    [...images, ...videos, ...templates].map((entry) => entry.category),
   );
   for (const entry of catalog)
     for (const tag of entry.tags) categories.add(tag);
@@ -205,20 +249,24 @@ function populateCategories() {
 
 async function start() {
   try {
-    const [showcaseResponse, catalogResponse] = await Promise.all([
-      fetch("data/showcase.json"),
-      fetch("data/catalog.json"),
-    ]);
-    if (!showcaseResponse.ok || !catalogResponse.ok)
+    const [showcaseResponse, templatesResponse, catalogResponse] =
+      await Promise.all([
+        fetch("data/showcase.json"),
+        fetch("data/templates.json"),
+        fetch("data/catalog.json"),
+      ]);
+    if (!showcaseResponse.ok || !templatesResponse.ok || !catalogResponse.ok)
       throw new Error("Data unavailable");
     const showcase = await showcaseResponse.json();
+    const templateLibrary = await templatesResponse.json();
     const sources = await catalogResponse.json();
     images = showcase.images;
     videos = showcase.videos;
+    templates = templateLibrary.entries;
     catalog = sources.entries;
     $("#count-images").textContent = String(images.length).padStart(2, "0");
     $("#count-videos").textContent = String(videos.length).padStart(2, "0");
-    $("#count-sources").textContent = String(catalog.length);
+    $("#count-templates").textContent = String(templates.length);
     const params = new URLSearchParams(location.search);
     state.type = ["image", "video"].includes(params.get("type"))
       ? params.get("type")
