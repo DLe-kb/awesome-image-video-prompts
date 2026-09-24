@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "images": [
+    {
+      "id": "botanical-plate",
+      "title": "虚构植物科学图版",
+      "category": "科普与出版",
+      "summary": "以标本主图和局部放大图组织清晰的植物学图版。",
+      "image": "assets/previews/botanical.webp",
+      "model": "gpt-image-2",
+      "size": "1254x1254",
+      "requestedSize": "1024x1024",
+      "provider": "RightCodes",
+      "prompt": "Create a finished editorial scientific botanical plate for an original imaginary alpine plant named Luma fern. Vertical 3:4 composition. Large accurate-looking central botanical watercolor specimen, smaller enlarged seed pod and leaf detail drawings around it, fine leader lines, restrained moss green and vermilion ink with clean off-white paper. Elegant specimen label LUMA FERN and tiny serial number 08 in legible English. Premium museum publication photography, crisp fine details, no logos, no humans, no real brand, no web UI."
+    },
+    {
+      "id": "botanical-soda",
+      "title": "植物汽水商业静物",
+      "category": "产品与广告",
+      "summary": "用光线、冷凝水和水果切片突出饮品材质。",
+      "image": "assets/previews/beverage.webp",
+      "model": "gpt-image-2",
+      "size": "1254x1254",
+      "requestedSize": "1024x1024",
+      "provider": "RightCodes",
+      "prompt": "A polished commercial still-life photograph for a fictional botanical soda called MIRA. One clear unbranded glass bottle with pale coral liquid on a vivid sea-green tabletop, condensation, sliced ruby grapefruit and a single leafy stem, directional late afternoon sunlight, sharp caustic shadows, premium beverage advertising composition with generous negative space, bright believable materials. No people, no visible words, no brand logos, no collage or mockup frame. Square image."
+    },
+    {
+      "id": "coastal-poster",
+      "title": "虚构海岸城市旅行海报",
+      "category": "海报与编辑",
+      "summary": "以大色块、几何建筑和丝网印刷肌理构成旅行海报。",
+      "image": "assets/previews/travel.webp",
+      "model": "gpt-image-2",
+      "size": "1254x1254",
+      "requestedSize": "1024x1024",
+      "provider": "RightCodes",
+      "prompt": "An original editorial travel poster for a fictional coastal city named SOLA. A sunlit terracotta stairway descends between white modernist houses toward a turquoise harbor, distant sailboat and hill, one small cyclist for scale. Sophisticated flat screen-print look with subtle paper grain, palette of coral red, cobalt, cream and sea green, strong geometric composition and negative space. One small readable heading SOLA at the top, no logos, no real place names, vertical 3:4 poster."
+    },
+    {
+      "id": "pear-tart-storyboard",
+      "title": "梨挞广告四镜头分镜",
+      "category": "分镜与叙事",
+      "summary": "四格镜头从原料、制作、烘烤过渡到成品。",
+      "image": "assets/previews/storyboard.webp",
+      "model": "gpt-image-2",
+      "size": "1254x1254",
+      "requestedSize": "1024x1024",
+      "provider": "RightCodes",
+      "prompt": "A premium four-panel storyboard image for an original bakery campaign about a hand-made pear tart. Four distinct cinematic frames in a precise 2 by 2 grid: close-up flour dust falling over a pastry board; hands carefully arranging fresh pear slices; tart baking inside a warmly lit oven; finished golden pear tart served on a simple table. Photoreal food cinematography, coherent warm daylight and amber oven glow, cream and dark green art direction, clear shot progression and consistent tart, thin gutters between frames. No captions, no logos, no text, no real brands."
+    }
+  ],
+  "videos": [
+    {
+      "id": "product-reveal",
+      "title": "产品短片：固定主体与缓慢推近",
+      "category": "产品广告",
+      "summary": "适合单件产品的五秒竖屏镜头设计。",
+      "input": "产品参考图、清晰的产品外观描述",
+      "format": "9:16 · 5 秒",
+      "prompt": "以输入的产品参考图作为首帧。产品始终保持在画面中央，外观、颜色和标签在全片保持一致。摄影机从中景缓慢向前推进至近景；侧后方柔光逐渐勾勒瓶身轮廓，台面出现轻微真实反射。背景简洁，不增加人物、额外产品、变形文字或突兀转场。一个连续镜头，最后一秒稳定停在产品细节上。"
+    },
+    {
+      "id": "paper-cut-loop",
+      "title": "纸雕转场：从静态插画到微动效",
+      "category": "插画动画",
+      "summary": "保持原插画构图，分层加入细微景深与环境运动。",
+      "input": "分层插画或完整参考图",
+      "format": "16:9 · 5 秒",
+      "prompt": "以上传的纸雕风格插画为首帧，保持原始人物、物体、文字和配色不变。前景纸片以极小幅度缓慢摆动，中景云朵平移，背景出现轻微视差，光线从左至右柔和变化。镜头固定，不旋转、不推拉、不新增元素。运动幅度克制，末帧自然衔接首帧，适合作为无缝循环的短动效。"
+    }
+  ]
+}

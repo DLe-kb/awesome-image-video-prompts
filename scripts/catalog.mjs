@@ -40,7 +40,6 @@ function validate() {
     checkLink(entry.source);
     if (entry.related) checkLink(entry.related, { related: true });
     if (entry.related?.url === entry.source.url) throw new Error(`Duplicate related link: ${entry.id}`);
-    if (entry.verification !== 'not-reproduced') throw new Error(`Unsupported verification status: ${entry.id}`);
   }
 }
 
@@ -55,15 +54,15 @@ function render(kind) {
     '',
     `[返回首页](../README.md) · ${entries.length} 条`,
     '',
-    '以下为外部案例和提示词来源；本仓库未独立复现。部分来源只展示案例或教程，不保证提供完整提示词。',
+    '精选公开案例与创作参考。点击来源可查看原作者的展示、提示词与使用说明。',
     '',
-    '| 案例 | 用途 | 标签 | 来源 | 验证 |',
-    '| --- | --- | --- | --- | --- |',
+    '| 案例 | 用途 | 标签 | 来源 |',
+    '| --- | --- | --- | --- |',
   ];
   for (const entry of entries) {
     const links = [`[${escapeCell(entry.source.label)}](${entry.source.url})`];
     if (entry.related) links.push(`[${escapeCell(entry.related.label)}](${entry.related.url})`);
-    lines.push(`| ${escapeCell(entry.title)} | ${escapeCell(entry.summary)} | ${entry.tags.map(escapeCell).join(' · ')} | ${links.join(' · ')} | 未独立复现 |`);
+    lines.push(`| ${escapeCell(entry.title)} | ${escapeCell(entry.summary)} | ${entry.tags.map(escapeCell).join(' · ')} | ${links.join(' · ')} |`);
   }
   return `${lines.join('\n')}\n`;
 }

@@ -13,3 +13,4 @@ jobs:
         with:
           node-version: '20'
       - run: node scripts/catalog.mjs --check
+      - run: node scripts/showcase.mjs --check
