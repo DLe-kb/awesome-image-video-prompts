@@ -6,6 +6,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const data = JSON.parse(readFileSync(resolve(root, 'data/showcase.json'), 'utf8'));
 const cases = JSON.parse(readFileSync(resolve(root, 'data/cases.json'), 'utf8'));
 const catalog = JSON.parse(readFileSync(resolve(root, 'data/catalog.json'), 'utf8'));
+const curated = JSON.parse(readFileSync(resolve(root, 'data/curated-templates.json'), 'utf8'));
 const mode = process.argv[2] ?? '--check';
 if (!['--check', '--write'].includes(mode)) throw new Error('Use --check or --write');
 if (data.version !== 1 || !Array.isArray(data.images) || !Array.isArray(data.videos)) throw new Error('Invalid showcase');
@@ -29,6 +30,7 @@ for (const entry of data.videos) {
 }
 if (cases.version !== 1 || !Array.isArray(cases.images) || !Array.isArray(cases.videos)) throw new Error('Invalid cases');
 const caseIds = new Set([...cases.images, ...cases.videos].map(entry => entry.id));
+const templateIds = new Set(curated.entries.map(entry => entry.id));
 if (caseIds.size !== catalog.entries.length || catalog.entries.some(entry => !caseIds.has(entry.id))) {
   throw new Error('Catalog and complete cases must cover the same entries');
 }
@@ -60,8 +62,19 @@ for (const [kind, entries] of [['image', cases.images], ['video', cases.videos]]
     if (!entry.source?.author || !/^https:\/\//.test(entry.source.url)) throw new Error(`Missing attribution: ${entry.id}`);
     if (!existsSync(resolve(root, entry.image))) throw new Error(`Missing preview: ${entry.id}`);
     if (kind === 'video' && (!entry.video || !existsSync(resolve(root, entry.video)))) throw new Error(`Missing video: ${entry.id}`);
+    if (entry.templateId && !templateIds.has(entry.templateId)) throw new Error(`Missing template: ${entry.id}`);
+    for (const extra of entry.sourcePrompts ?? []) {
+      if (!extra.title || !extra.prompt || !/^https:\/\//.test(extra.url)) throw new Error(`Invalid source prompt: ${entry.id}`);
+    }
     if (/本项目|授权仍待|未验证|未复现|\/Users\/|template\/(?:image|video)-generation\//.test(entry.prompt)) throw new Error(`Unreviewed prompt: ${entry.id}`);
   }
+}
+
+const encyclopedia = cases.videos.find(entry => entry.id === 'video-53bf374a72');
+if (encyclopedia?.sourcePrompts?.length !== 2) throw new Error('Missing encyclopedia source prompts');
+const recipe = cases.videos.find(entry => entry.id === 'video-60b5dcaaac');
+if (!recipe || !recipe.prompt.includes('阶段一：首段 10 秒') || !recipe.prompt.includes('阶段二：续写 10 秒')) {
+  throw new Error('Missing recipe prompt stages');
 }
 
 const pages = {
@@ -87,7 +100,7 @@ const pages = {
       `${entry.summary} · ${entry.category}`, '',
       `来源：[${entry.source.author}](${entry.source.url}) · ${entry.promptCredit}`, '',
       '**完整提示词**', '', '```text', entry.prompt, '```', '',
-      '**可复用模板**', '', '[浏览生图 Prompt 模板](../templates/image.md)', '',
+      '**可复用模板**', '', `[${entry.templateId ? '查看对应模板' : '浏览生图 Prompt 模板'}](../templates/image.md${entry.templateId ? `#${entry.templateId}` : ''})`, '',
     ]),
   ],
   'showcase/video.md': [
@@ -109,7 +122,11 @@ const pages = {
       `[播放样片](../${entry.video}) · 来源：[${entry.source.author}](${entry.source.url}) · ${entry.promptCredit}`, '',
       `${entry.summary} · ${entry.category}`, '',
       '**完整提示词**', '', '```text', entry.prompt, '```', '',
-      '**可复用模板**', '', '[浏览生视频 Prompt 模板](../templates/video.md)', '',
+      ...((entry.sourcePrompts ?? []).flatMap(extra => [
+        `**${extra.title} · 原始提示词**`, '', `来源：[原作者公开内容](${extra.url})`, '',
+        '```text', extra.prompt, '```', '',
+      ])),
+      '**可复用模板**', '', `[${entry.templateId ? '查看对应模板' : '浏览生视频 Prompt 模板'}](../templates/video.md${entry.templateId ? `#${entry.templateId}` : ''})`, '',
     ]),
   ],
 };

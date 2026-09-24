@@ -25,7 +25,7 @@ node scripts/showcase.mjs --check
 
 ## 贡献 Prompt 模板
 
-在 [`data/templates.json`](data/templates.json) 中填写原创模板的类型、标题、用途、需要替换的变量、完整 Prompt 和使用检查。Prompt 必须实际使用列出的每个变量；不要将第三方原文改几个词后作为原创模板提交。生成页面与校验命令：
+原创通用模板放在 [`data/templates.json`](data/templates.json)，填写类型、标题、用途、需要替换的变量、完整 Prompt 和使用检查。来源适配模板放在 [`data/curated-templates.json`](data/curated-templates.json)，提供对应案例 ID、中英文完整 Prompt、原作者与原始链接；预览沿用该案例的媒体，不把来源画面称作适配模板的生成结果。不要将第三方原文改几个词后作为原创模板提交。生成页面与校验命令：
 
 ```bash
 node scripts/templates.mjs --write

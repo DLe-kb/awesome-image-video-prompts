@@ -1,6 +1,6 @@
 # Awesome Image & Video Prompts
 
-按画面找提示词。收录生图、生视频案例的预览、完整 Prompt 与原作者链接，也提供可直接改写的创作模板。
+按画面找提示词。收录生图、生视频案例的预览、完整 Prompt 与原作者链接，以及 92 套来源适配模板和 20 套原创通用模板。
 
 [在线画廊](https://dle-kb.github.io/awesome-image-video-prompts/) · [全部生图案例](showcase/image.md) · [全部生视频案例](showcase/video.md) · [生图模板](templates/image.md) · [生视频模板](templates/video.md)
 
@@ -40,6 +40,6 @@
 
 ## 使用与贡献
 
-在[在线画廊](https://dle-kb.github.io/awesome-image-video-prompts/)按生图、生视频或题材筛选；打开案例即可预览并复制完整 Prompt。需要填空式结构时，查看[生图模板](templates/image.md)和[生视频模板](templates/video.md)。欢迎按[贡献指南](CONTRIBUTING.md)提交公开案例与来源修订。
+在[在线画廊](https://dle-kb.github.io/awesome-image-video-prompts/)按生图、生视频或题材筛选；打开案例即可预览并复制完整 Prompt。[生图模板](templates/image.md)包含 67 套来源适配模板和 10 套原创通用模板；[生视频模板](templates/video.md)包含 25 套来源适配模板和 10 套原创通用模板。模板页将预览与提示词放在同一条目里，来源适配模板提供中英文 Prompt 和原作者链接。欢迎按[贡献指南](CONTRIBUTING.md)提交公开案例与来源修订。
 
 每个来源案例均标注原作者和原始链接。来源预览、样片与提示词不属于本仓库的 MIT 许可范围；仓库原创内容与站点代码适用 [MIT License](LICENSE)。使用第三方素材时请遵守原作者和来源平台的许可要求。

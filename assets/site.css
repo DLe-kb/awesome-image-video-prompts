@@ -404,6 +404,13 @@ select {
   border: 1px solid #dce4dd;
   border-radius: 5px;
 }
+.template-preview {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: #eff2ee;
+  border-radius: 3px;
+}
 .template-top {
   display: flex;
   justify-content: space-between;
@@ -522,6 +529,9 @@ dialog::backdrop {
 }
 .attribution a { color: #0b7459; text-decoration: underline; }
 .reuse-link { display: inline-block; margin-top: 16px; color: #0b7459; font-weight: 700; font-size: 13px; text-decoration: underline; }
+.translation { margin-top: 18px; font-size: 13px; }
+.translation summary { cursor: pointer; font-weight: 700; color: #22644d; }
+.translation button { margin: 12px 0; border: 1px solid #bccfc1; background: #fff; border-radius: 4px; padding: 6px 10px; color: #225e49; cursor: pointer; }
 .detail-copy {
   min-width: 0;
   padding: 35px 38px 32px;

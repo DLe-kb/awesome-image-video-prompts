@@ -293,7 +293,7 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-vertical-crane-reveal)
 
 <a id="video-37af5cd196"></a>
 
@@ -313,7 +313,7 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-brutalist-courtyard-martial-arts)
 
 <a id="video-8f1bbd26f7"></a>
 
@@ -353,7 +353,7 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-first-person-dragon-rider)
 
 <a id="video-df3924a259"></a>
 
@@ -373,7 +373,7 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-cinematic-roller-skating-action)
 
 <a id="video-849134cf4b"></a>
 
@@ -393,7 +393,7 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-cinematic-shaolin-action)
 
 <a id="video-53bf374a72"></a>
 
@@ -401,15 +401,13 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 <a href="../assets/cases/video-53bf374a72.mp4"><img src="../assets/cases/video-53bf374a72.jpg" alt="动态百科页拼贴解说视频封面" width="360"></a>
 
-[播放样片](../assets/cases/video-53bf374a72.mp4) · 来源：[X `@MrLarus`；原帖发布日期：2026-07-12。作者称这是一次用 ChatGPT、Image2、Seedance、AI 配音与字幕制作的秦统一中国解说实验。](https://x.com/MrLarus/status/2076328854315032641) · 根据来源整理的适配提示词
+[播放样片](../assets/cases/video-53bf374a72.mp4) · 来源：[X `@MrLarus`；原帖发布日期：2026-07-12。作者称这是一次用 ChatGPT、Image2、Seedance、AI 配音与字幕制作的秦统一中国解说实验。](https://x.com/MrLarus/status/2076328854315032641) · 案例整理的多镜头工作流
 
 将一个知识主题拆成九个视觉节拍，以纸片拼贴关键帧、局部定格动画、旁白和字幕组成竖屏解释短片。 · 动画
 
 **完整提示词**
 
 ```text
-本文件是根据 `@MrLarus` 的九镜秦朝案例提炼的**项目适配稿**，不是来源原始提示词，也未经新主题生成验证。原文见 `prompts-分镜提示词/`；使用前先核对主题事实、素材来源与模型能力。
-
 ## 输入卡
 
 ```text
@@ -457,6 +455,60 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 以旁白节奏为基准剪辑各段，后期加入校对过的术语、字幕和有使用权的音乐。逐镜检查“事实与画面一致、主要视觉一眼可读、动作有解释意义、文字无误、人物与地图不漂移、转场不打断逻辑”。来源样片中的“战国七雄 / SIX STATES”数量冲突尤其说明：画面生成后还必须逐项校对，不能只看整体氛围。
 ```
 
+**Image2 关键帧 · 原始提示词**
+
+来源：[原作者公开内容](https://x.com/MrLarus/status/2076329766261522741)
+
+```text
+Create a vertical 9:16 encyclopedia-style collage keyframe for a history explainer video.
+
+Topic: [scene topic]
+
+Style:
+
+Vox-style explainer, scrapbook collage, paper cutout, layered stickers, torn paper, tape, labels, maps, arrows, object cards,人物 / buildings / artifacts, white cutout edges, thick outlines, paper shadows, halftone texture, old paper grain, Chinese historical collage.
+
+Important:
+
+Make it feel like a dense history reference page, not a clean poster.
+
+Use many movable visual elements: people, maps, coins, scripts, roads, seals, cards, labels and small props.
+
+Keep each object clearly separated with cut-paper edges so it can animate later.
+
+Avoid:
+
+3D render, photorealism, clean corporate poster, empty background, one single hero object, PPT layout.
+```
+
+**Seedance 视频 · 原始提示词**
+
+来源：[原作者公开内容](https://x.com/MrLarus/status/2076330068331122881)
+
+```text
+Use the reference image as the only visual base.
+
+Generate a 5-second vertical 9:16 silent paper-collage animation.
+
+No music, no sound effects, no voice, no subtitles.
+
+Keep the scrapbook / paper cutout / stop-motion collage style.
+
+Animate the separated cutout elements, not the whole image.
+
+Motion style:
+
+paper jitter, sticker bounce, stepped stop-motion movement, moving arrows, route lines extending, map nodes lighting up, coins rotating, labels snapping into place, seals stamping, paper edges shaking, small objects shifting with clear paths.
+
+Each scene should have a small event, not just soft floating.
+
+Keep the main composition and important text stable.
+
+Do not turn it into realistic video.
+
+Do not make it look like PPT blocks sliding around.
+```
+
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
@@ -485,7 +537,7 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-retro-illustration-micro-motion)
 
 <a id="video-e0fd6d34ba"></a>
 
@@ -537,7 +589,7 @@ Rotate the camera horizontally from left to right from one fixed point, like a s
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-fixed-point-pan-right-reveal)
 
 <a id="video-3207e9e8c2"></a>
 
@@ -601,7 +653,7 @@ Rotate the camera horizontally from left to right from one fixed point, like a s
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-beach-stone-stop-motion)
 
 <a id="video-cbe24f7388"></a>
 
@@ -633,7 +685,7 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-aerial-pullback-rise-reveal)
 
 <a id="video-19ceae29af"></a>
 
@@ -695,7 +747,7 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-sci-fi-motorcycle-action)
 
 <a id="video-31ea8a7f7c"></a>
 
@@ -811,7 +863,7 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-anime-skateboard-chase-nyc)
 
 <a id="video-e7dcc94d27"></a>
 
@@ -831,7 +883,7 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-nyc-parkour-web-swing)
 
 <a id="video-1c634febce"></a>
 
@@ -962,7 +1014,7 @@ The camera hard-locked on a tripod with no pan, no tilt, no push, no drift; the 
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-rack-focus-foreground-background)
 
 <a id="video-0c79e1fe07"></a>
 
@@ -1027,7 +1079,7 @@ The camera hard-locked on a tripod with no pan, no tilt, no push, no drift; the 
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-japanese-influencer-get-ready-ugc)
 
 <a id="video-e24c102dab"></a>
 
@@ -1047,7 +1099,7 @@ The camera hard-locked on a tripod with no pan, no tilt, no push, no drift; the 
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-cliffside-roller-skating)
 
 <a id="video-1d6c1fec91"></a>
 
@@ -1117,7 +1169,7 @@ A cinematic close-up of a young Asian woman wearing a black hoodie and a dark he
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-luxury-jewelry-unboxing)
 
 <a id="video-dcc3d74eac"></a>
 
@@ -1229,7 +1281,7 @@ A cinematic close-up of a young Asian woman wearing a black hoodie and a dark he
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-bioluminescent-lighthouse-keeper)
 
 <a id="video-60b5dcaaac"></a>
 
@@ -1244,6 +1296,8 @@ A cinematic close-up of a young Asian woman wearing a black hoodie and a dark he
 **完整提示词**
 
 ```text
+阶段一：首段 10 秒
+
 MODEL: Gemini Omni 1.1 Flash
 
 SHOT STRUCTURE: 5 shots, 10 seconds, vertical 9:16, exactly as listed.
@@ -1321,6 +1375,8 @@ action_visual: crushed tomatoes pour into the skillet. A clean cooking-time jump
 sound: dense tomato pour transitioning into wet clustered bubbling.
 
 exit: the thick bubbling red surface fills the final frame; bubbling continues across the extension.
+
+阶段二：续写 10 秒
 
 MODEL: Gemini Omni 1.1 Flash
 
@@ -1401,7 +1457,7 @@ sound: gentle sauce bubbling, faint skillet sizzle, quiet kitchen room tone fadi
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-recipe-infographic-cooking-sequence)
 
 <a id="video-a2196efe4e"></a>
 
@@ -1457,7 +1513,7 @@ sound: gentle sauce bubbling, faint skillet sizzle, quiet kitchen room tone fadi
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-seoul-sunday-dv-home-video)
 
 <a id="video-dc65c9f52f"></a>
 
@@ -1553,7 +1609,7 @@ sound: gentle sauce bubbling, faint skillet sizzle, quiet kitchen room tone fadi
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-watercolor-sketch-parkour-chase)
 
 <a id="video-345a132c7a"></a>
 
@@ -1605,7 +1661,7 @@ The camera physically dollies forward from [6] meters to [2.5] meters while the 
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-dolly-zoom-space-warp)
 
 <a id="video-565c5a1550"></a>
 
@@ -1675,7 +1731,7 @@ The camera physically dollies forward from [6] meters to [2.5] meters while the 
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-bedroom-falling-book-catch)
 
 <a id="video-f953b9d317"></a>
 
@@ -1708,7 +1764,7 @@ A smooth constant-speed circular drone flight around the subject — [8]-meter r
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-drone-orbit-subject)
 
 <a id="video-aecc45705d"></a>
 
@@ -1773,7 +1829,7 @@ A smooth constant-speed circular drone flight around the subject — [8]-meter r
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-rainforest-mysterious-light)
 
 <a id="video-24c5f43c41"></a>
 
@@ -1799,7 +1855,7 @@ A smooth constant-speed circular drone flight around the subject — [8]-meter r
 
 **可复用模板**
 
-[浏览生视频 Prompt 模板](../templates/video.md)
+[查看对应模板](../templates/video.md#video-real-person-sticker-poster-motion)
 
 <a id="video-cdfbcca0a0"></a>
 

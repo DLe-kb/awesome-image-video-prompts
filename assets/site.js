@@ -73,7 +73,7 @@ function openDetail(entry, kind) {
     }
     layout.append(media);
   }
-  const content = el("div", kind === "image" ? "detail-copy" : "");
+  const content = el("div", entry.image ? "detail-copy" : "");
   content.append(el("span", "kicker", entry.category));
   const title = el("h2", "", entry.title);
   title.id = "detail-title";
@@ -107,9 +107,36 @@ function openDetail(entry, kind) {
   copyButton.addEventListener("click", () => copy(entry.prompt));
   promptHeader.append(copyButton);
   content.append(promptHeader, el("pre", "prompt-text", entry.prompt));
+  for (const extra of entry.sourcePrompts ?? []) {
+    const original = el("div", "prompt-label");
+    original.append(el("span", "", `${extra.title} · 原始提示词`));
+    const copyOriginal = el("button", "", "复制");
+    copyOriginal.type = "button";
+    copyOriginal.addEventListener("click", () => copy(extra.prompt));
+    original.append(copyOriginal);
+    const source = el("a", "reuse-link", "原作者来源 ↗");
+    source.href = extra.url;
+    source.target = "_blank";
+    source.rel = "noopener noreferrer";
+    content.append(original, el("pre", "prompt-text", extra.prompt), source);
+  }
+  if (entry.promptEn) {
+    const translated = el("details", "translation");
+    translated.append(el("summary", "", "English Prompt（英文提示词）"));
+    const copyEnglish = el("button", "", "复制英文");
+    copyEnglish.type = "button";
+    copyEnglish.addEventListener("click", () => copy(entry.promptEn));
+    translated.append(copyEnglish, el("pre", "prompt-text", entry.promptEn));
+    content.append(translated);
+  }
+  if (entry.caseId) {
+    const originalCase = el("a", "reuse-link", "查看来源案例 ↗");
+    originalCase.href = `showcase/${entry.kind}.md#${entry.caseId}`;
+    content.append(originalCase);
+  }
   if (kind !== "template") {
     const reusable = el("a", "reuse-link", "查看可复用模板 ↗");
-    reusable.href = `templates/${kind}.md`;
+    reusable.href = `templates/${kind}.md${entry.templateId ? `#${entry.templateId}` : ""}`;
     content.append(reusable);
   }
   if (entry.tip) content.append(el("p", "template-tip", entry.tip));
@@ -188,16 +215,21 @@ function renderTemplates() {
   $("#templates").hidden = filtered.length === 0;
   for (const entry of filtered) {
     const card = el("article", "template-card");
+    if (entry.image) {
+      const preview = el("img", "template-preview");
+      preview.src = entry.image;
+      preview.alt = entry.title;
+      preview.loading = "lazy";
+      preview.width = 480;
+      preview.height = 360;
+      card.append(preview);
+    }
     const top = el("div", "template-top");
     top.append(
       el("span", "kicker", entry.kind === "image" ? "生图" : "生视频"),
       el("span", "template-category", entry.category),
     );
-    const inputs = el(
-      "p",
-      "template-inputs",
-      `填写 ${entry.inputs.join(" · ")}`,
-    );
+    const inputs = entry.inputs.length ? el("p", "template-inputs", `填写 ${entry.inputs.join(" · ")}`) : null;
     const actions = el("div", "template-actions");
     const open = el("button", "open-template", "查看 Prompt");
     open.type = "button";
@@ -207,13 +239,9 @@ function renderTemplates() {
     copyButton.setAttribute("aria-label", `复制${entry.title}提示词`);
     copyButton.addEventListener("click", () => copy(entry.prompt));
     actions.append(open, copyButton);
-    card.append(
-      top,
-      el("h3", "", entry.title),
-      el("p", "", entry.summary),
-      inputs,
-      actions,
-    );
+    card.append(top, el("h3", "", entry.title), el("p", "", entry.summary));
+    if (inputs) card.append(inputs);
+    card.append(actions);
     grid.append(card);
   }
 }
@@ -248,19 +276,21 @@ function populateCategories() {
 
 async function start() {
   try {
-    const [showcaseResponse, templatesResponse, casesResponse] = await Promise.all([
+    const [showcaseResponse, templatesResponse, casesResponse, curatedResponse] = await Promise.all([
       fetch("data/showcase.json"),
       fetch("data/templates.json"),
       fetch("data/cases.json"),
+      fetch("data/curated-templates.json"),
     ]);
-    if (!showcaseResponse.ok || !templatesResponse.ok || !casesResponse.ok)
+    if (!showcaseResponse.ok || !templatesResponse.ok || !casesResponse.ok || !curatedResponse.ok)
       throw new Error("Data unavailable");
     const showcase = await showcaseResponse.json();
     const templateLibrary = await templatesResponse.json();
     const cases = await casesResponse.json();
+    const curated = await curatedResponse.json();
     images = [...cases.images, ...showcase.images];
     videos = [...cases.videos, ...showcase.videos];
-    templates = templateLibrary.entries;
+    templates = [...curated.entries, ...templateLibrary.entries];
     $("#count-images").textContent = String(images.length).padStart(2, "0");
     $("#count-videos").textContent = String(videos.length).padStart(2, "0");
     $("#count-templates").textContent = String(templates.length);
