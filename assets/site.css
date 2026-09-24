@@ -339,12 +339,14 @@ select {
   background: #fff;
   border-radius: 6px;
   min-width: 0;
-  padding: 23px 25px;
+  padding: 0 0 20px;
   display: flex;
   flex-direction: column;
   gap: 14px;
   align-items: start;
 }
+.video-card > :not(.video-preview) { margin-inline: 20px; }
+.video-preview { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: #e4e9e5; }
 .video-card .video-top {
   display: flex;
   align-items: center;
@@ -506,13 +508,20 @@ dialog::backdrop {
   grid-template-columns: 46% 54%;
   min-height: 400px;
 }
-.detail-layout > img {
+.detail-media { background: #edf1ed; display: grid; align-items: center; }
+.detail-media > img, .detail-media > video {
   width: 100%;
+  max-height: 690px;
+  object-fit: contain;
+}
+.detail-media > img {
   height: 100%;
   max-height: 690px;
   object-fit: contain;
   background: #edf1ed;
 }
+.attribution a { color: #0b7459; text-decoration: underline; }
+.reuse-link { display: inline-block; margin-top: 16px; color: #0b7459; font-weight: 700; font-size: 13px; text-decoration: underline; }
 .detail-copy {
   min-width: 0;
   padding: 35px 38px 32px;
@@ -724,7 +733,7 @@ dialog::backdrop {
   .detail-layout {
     grid-template-columns: 1fr;
   }
-  .detail-layout > img {
+  .detail-media > img, .detail-media > video {
     max-height: 40vh;
   }
   .detail-copy,

@@ -54,7 +54,7 @@ function render(kind) {
     '',
     `[返回首页](../README.md) · ${entries.length} 条`,
     '',
-    '精选公开案例与创作参考。点击来源可查看原作者的展示、提示词与使用说明。',
+    '点击案例名称浏览预览、完整提示词与样片；点击来源查看原作者页面。',
     '',
     '| 案例 | 用途 | 标签 | 来源 |',
     '| --- | --- | --- | --- |',
@@ -62,7 +62,7 @@ function render(kind) {
   for (const entry of entries) {
     const links = [`[${escapeCell(entry.source.label)}](${entry.source.url})`];
     if (entry.related) links.push(`[${escapeCell(entry.related.label)}](${entry.related.url})`);
-    lines.push(`| ${escapeCell(entry.title)} | ${escapeCell(entry.summary)} | ${entry.tags.map(escapeCell).join(' · ')} | ${links.join(' · ')} |`);
+    lines.push(`| [${escapeCell(entry.title)}](../showcase/${kind}.md#${entry.title.replace(/[：:]/g, '').replace(/\s+/g, '-')}) | ${escapeCell(entry.summary)} | ${entry.tags.map(escapeCell).join(' · ')} | ${links.join(' · ')} |`);
   }
   return `${lines.join('\n')}\n`;
 }
@@ -70,11 +70,8 @@ function render(kind) {
 validate();
 const readme = readFileSync(resolve(root, 'README.md'), 'utf8');
 for (const kind of Object.keys(kinds)) {
-  const count = data.entries.filter(entry => entry.kind === kind).length;
-  const line = `[${kinds[kind]}参考链接](catalog/${kind}.md) · ${count} 条`;
-  if (!readme.includes(line)) throw new Error(`README count is out of date: ${kind}`);
+  if (!readme.includes(`[全部${kinds[kind]}案例](showcase/${kind}.md)`)) throw new Error(`Missing gallery link: ${kind}`);
 }
-if (!readme.includes(`${data.entries.length} 条公开案例线索`)) throw new Error('README total is out of date');
 const mode = process.argv[2] || '--check';
 if (!['--check', '--write'].includes(mode)) throw new Error('Use --check or --write');
 for (const kind of Object.keys(kinds)) {

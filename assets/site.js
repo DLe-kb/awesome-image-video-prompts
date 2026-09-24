@@ -20,6 +20,8 @@ function match(entry, type) {
     entry.summary,
     entry.category,
     entry.input,
+    entry.source?.author,
+    ...(entry.tags ?? []),
     ...(entry.inputs ?? []),
   ]
     .filter(Boolean)
@@ -53,12 +55,23 @@ async function copy(text) {
 function openDetail(entry, kind) {
   const body = $("#detail-body");
   body.replaceChildren();
-  const layout = el("div", kind === "image" ? "detail-layout" : "video-detail");
-  if (kind === "image") {
+  const layout = el("div", (kind === "image" || entry.image) ? "detail-layout" : "video-detail");
+  if (entry.image) {
+    const media = el("div", "detail-media");
     const img = el("img");
     img.src = entry.image;
     img.alt = entry.title;
-    layout.append(img);
+    media.append(img);
+    if (entry.video) {
+      const clip = el("video");
+      clip.src = entry.video;
+      clip.poster = entry.image;
+      clip.controls = true;
+      clip.preload = "none";
+      clip.playsInline = true;
+      media.replaceChildren(clip);
+    }
+    layout.append(media);
   }
   const content = el("div", kind === "image" ? "detail-copy" : "");
   content.append(el("span", "kicker", entry.category));
@@ -69,13 +82,24 @@ function openDetail(entry, kind) {
     el(
       "div",
       "detail-spec",
-      kind === "image"
-        ? `${entry.model} · ${entry.provider} · 输出 ${entry.size}`
+      entry.source
+        ? `${entry.promptCredit} · ${entry.category}`
+        : kind === "image"
+          ? `${entry.model} · ${entry.provider} · 输出 ${entry.size}`
         : kind === "template"
           ? `填写：${entry.inputs.map((input) => `[${input}]`).join(" · ")}`
           : `输入：${entry.input} · ${entry.format}`,
     ),
   );
+  if (entry.source) {
+    const attribution = el("p", "attribution", "来源：");
+    const link = el("a", "", entry.source.author);
+    link.href = entry.source.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    attribution.append(link);
+    content.append(attribution);
+  }
   const promptHeader = el("div", "prompt-label");
   promptHeader.append(el("span", "", "完整提示词"));
   const copyButton = el("button", "", "复制");
@@ -83,6 +107,11 @@ function openDetail(entry, kind) {
   copyButton.addEventListener("click", () => copy(entry.prompt));
   promptHeader.append(copyButton);
   content.append(promptHeader, el("pre", "prompt-text", entry.prompt));
+  if (kind !== "template") {
+    const reusable = el("a", "reuse-link", "查看可复用模板 ↗");
+    reusable.href = `templates/${kind}.md`;
+    content.append(reusable);
+  }
   if (entry.tip) content.append(el("p", "template-tip", entry.tip));
   layout.append(content);
   body.append(layout);
@@ -125,6 +154,15 @@ function renderVideos() {
   $("#video-section").hidden = state.type === "image" || filtered.length === 0;
   for (const entry of filtered) {
     const card = el("article", "video-card");
+    if (entry.image) {
+      const preview = el("img", "video-preview");
+      preview.src = entry.image;
+      preview.alt = entry.title;
+      preview.loading = "lazy";
+      preview.width = 600;
+      preview.height = 338;
+      card.append(preview);
+    }
     const top = el("div", "video-top");
     top.append(
       el("span", "video-symbol", "▶"),
@@ -210,16 +248,18 @@ function populateCategories() {
 
 async function start() {
   try {
-    const [showcaseResponse, templatesResponse] = await Promise.all([
+    const [showcaseResponse, templatesResponse, casesResponse] = await Promise.all([
       fetch("data/showcase.json"),
       fetch("data/templates.json"),
+      fetch("data/cases.json"),
     ]);
-    if (!showcaseResponse.ok || !templatesResponse.ok)
+    if (!showcaseResponse.ok || !templatesResponse.ok || !casesResponse.ok)
       throw new Error("Data unavailable");
     const showcase = await showcaseResponse.json();
     const templateLibrary = await templatesResponse.json();
-    images = showcase.images;
-    videos = showcase.videos;
+    const cases = await casesResponse.json();
+    images = [...cases.images, ...showcase.images];
+    videos = [...cases.videos, ...showcase.videos];
     templates = templateLibrary.entries;
     $("#count-images").textContent = String(images.length).padStart(2, "0");
     $("#count-videos").textContent = String(videos.length).padStart(2, "0");

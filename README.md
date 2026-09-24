@@ -1,62 +1,39 @@
 # Awesome Image & Video Prompts
 
-生图案例、生视频工作流与创作灵感库。先看效果，再读提示词，按场景找到合适的创作方法。
+按画面找提示词。收录生图、生视频案例的预览、完整 Prompt 与原作者链接，也提供可直接改写的创作模板。
 
-[浏览交互画廊](https://dle-kb.github.io/awesome-image-video-prompts/) · [生图 Prompt 模板](templates/image.md) · [生视频 Prompt 模板](templates/video.md) · [生成案例](showcase/image.md) · [贡献案例](CONTRIBUTING.md)
+[在线画廊](https://dle-kb.github.io/awesome-image-video-prompts/) · [全部生图案例](showcase/image.md) · [全部生视频案例](showcase/video.md) · [生图模板](templates/image.md) · [生视频模板](templates/video.md)
 
-## 精选生图案例
+## 生图案例
 
-每张图片都附有完整提示词、模型与输出尺寸，点击图片可打开案例页。
+点击预览查看完整提示词和来源；[浏览全部生图案例](showcase/image.md)。
 
 <table>
   <tr>
-    <td width="50%" valign="top"><a href="showcase/image.md#虚构植物科学图版"><img src="assets/previews/botanical.webp" alt="虚构植物科学图版" width="460"></a><br><strong>虚构植物科学图版</strong><br>科普与出版 · <a href="showcase/image.md#虚构植物科学图版">查看提示词</a></td>
-    <td width="50%" valign="top"><a href="showcase/image.md#植物汽水商业静物"><img src="assets/previews/beverage.webp" alt="植物汽水商业静物" width="460"></a><br><strong>植物汽水商业静物</strong><br>产品与广告 · <a href="showcase/image.md#植物汽水商业静物">查看提示词</a></td>
+    <td width="33%"><a href="showcase/image.md#杯内鱼眼夏日冰饮广告"><img src="assets/cases/image-828d8ade3e.jpg" alt="杯内鱼眼夏日冰饮广告"></a><br><a href="showcase/image.md#杯内鱼眼夏日冰饮广告">杯内鱼眼夏日冰饮广告</a></td>
+    <td width="33%"><a href="showcase/image.md#便当化食品包装创意"><img src="assets/cases/image-5b85051bd1.jpg" alt="便当化食品包装创意"></a><br><a href="showcase/image.md#便当化食品包装创意">便当化食品包装创意</a></td>
+    <td width="33%"><a href="showcase/image.md#丙烯手绘风格海报设计"><img src="assets/cases/image-5573ad414d.jpg" alt="丙烯手绘风格海报设计"></a><br><a href="showcase/image.md#丙烯手绘风格海报设计">丙烯手绘风格海报设计</a></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="showcase/image.md#虚构海岸城市旅行海报"><img src="assets/previews/travel.webp" alt="虚构海岸城市旅行海报" width="460"></a><br><strong>虚构海岸城市旅行海报</strong><br>海报与编辑 · <a href="showcase/image.md#虚构海岸城市旅行海报">查看提示词</a></td>
-    <td width="50%" valign="top"><a href="showcase/image.md#梨挞广告四镜头分镜"><img src="assets/previews/storyboard.webp" alt="梨挞广告四镜头分镜" width="460"></a><br><strong>梨挞广告四镜头分镜</strong><br>分镜与叙事 · <a href="showcase/image.md#梨挞广告四镜头分镜">查看提示词</a></td>
+    <td><a href="showcase/image.md#城市地图微缩旅行海报"><img src="assets/cases/image-6f7c8e1479.jpg" alt="城市地图微缩旅行海报"></a><br><a href="showcase/image.md#城市地图微缩旅行海报">城市地图微缩旅行海报</a></td>
+    <td><a href="showcase/image.md#城市巨幕三维广告摄影"><img src="assets/cases/image-91099d2e69.jpg" alt="城市巨幕三维广告摄影"></a><br><a href="showcase/image.md#城市巨幕三维广告摄影">城市巨幕三维广告摄影</a></td>
+    <td><a href="showcase/image.md#等轴测微缩厨房"><img src="assets/cases/image-797a09fdbc.jpg" alt="等轴测微缩厨房"></a><br><a href="showcase/image.md#等轴测微缩厨房">等轴测微缩厨房</a></td>
   </tr>
 </table>
 
-## 生视频工作流
+## 生视频案例
 
-| 模板 | 创作目标 | 输入 |
-| --- | --- | --- |
-| [产品短片：固定主体与缓慢推近](showcase/video.md#产品短片固定主体与缓慢推近) | 产品广告、稳定运镜、细节特写 | 产品参考图 |
-| [纸雕转场：从静态插画到微动效](showcase/video.md#纸雕转场从静态插画到微动效) | 插画动画、分层视差、循环动效 | 插画或参考图 |
+案例页提供封面、样片、完整 Prompt 和原作者链接；[浏览全部生视频案例](showcase/video.md)。
 
-## 可复用 Prompt 模板
-
-20 套完整模板，每套写明需要替换的变量、完整 Prompt 和使用检查。按任务选择，填写方括号内的内容后即可使用。
-
-| 生图 · 10 套 | 生视频 · 10 套 |
+| 案例 | 场景 |
 | --- | --- |
-| [植物科学图版](templates/image.md#botanical-editorial) · [饮品商业静物](templates/image.md#beverage-still-life) | [产品单镜头推进](templates/video.md#single-shot-product) · [插画局部微动效](templates/video.md#illustration-micro-loop) |
-| [旅行主题海报](templates/image.md#travel-print-poster) · [食品广告分镜](templates/image.md#food-storyboard) | [竖屏体验型 UGC](templates/video.md#creator-ugc-script) · [上升镜头揭示](templates/video.md#camera-reveal) |
-| [电商商品系列图](templates/image.md#ecommerce-grid) · [知识解释信息图](templates/image.md#learning-infographic) | [料理过程三镜头](templates/video.md#cooking-sequence) · [概念解释动效](templates/video.md#science-motion-explainer) |
-| [人像灯光对照](templates/image.md#portrait-lighting-sheet) · [角色多视角板](templates/image.md#character-turnaround) | [角色连续动作](templates/video.md#character-continuity) · [前后状态揭示](templates/video.md#before-after-reveal) |
-| [室内空间材质板](templates/image.md#interior-material-board) · [创作者视频封面](templates/image.md#creator-cover) | [地点氛围短片](templates/video.md#travel-mini-film) · [物体匹配转场](templates/video.md#object-match-cut) |
+| [推拉变焦空间扭曲](showcase/video.md#推拉变焦空间扭曲) | 镜头运动 / 空间纵深 |
+| [巴黎街头时装变身](showcase/video.md#巴黎街头时装变身) | 时尚 / 服装变化 |
+| [烧烤美食微距短片](showcase/video.md#烧烤美食微距短片) | 美食 / 微距摄影 |
+| [食谱信息图转连续烹饪短片](showcase/video.md#食谱信息图转连续烹饪短片) | 参考图 / 分段续写 |
 
-## 如何使用
+## 使用与贡献
 
-1. 打开[交互画廊](https://dle-kb.github.io/awesome-image-video-prompts/)，按生图或生视频筛选，也可以搜索题材和用途。
-2. 在[生图模板](templates/image.md)或[生视频模板](templates/video.md)中选择任务，填写变量并复制完整 Prompt；视频模板根据所用模型补充参考素材与参数。
-3. 在[生成案例](showcase/image.md)中查看提示词与实际画面。
+在[在线画廊](https://dle-kb.github.io/awesome-image-video-prompts/)按生图、生视频或题材筛选；打开案例即可预览并复制完整 Prompt。需要填空式结构时，查看[生图模板](templates/image.md)和[生视频模板](templates/video.md)。欢迎按[贡献指南](CONTRIBUTING.md)提交公开案例与来源修订。
 
-## 贡献与许可
-
-欢迎提供新案例、可复用 Prompt、修正来源链接，或贡献有权公开的生成结果。请阅读[贡献指南](CONTRIBUTING.md)。
-
-本仓库原创文字、提示词、生成预览与代码使用 [MIT License](LICENSE)。外部链接指向的作品归各自权利人所有，不包含在本仓库许可范围内。
-
-## 补充参考
-
-另外保留 114 条公开案例线索，方便追溯原作者和作品；链接所指内容不属于本仓库的 Prompt 模板。
-
-- [生图参考链接](catalog/image.md) · 68 条
-- [生视频参考链接](catalog/video.md) · 46 条
-
----
-
-English: A visual gallery of original image prompts, reusable image/video templates and source-linked creative references. [Explore the gallery](https://dle-kb.github.io/awesome-image-video-prompts/).
+每个来源案例均标注原作者和原始链接。来源预览、样片与提示词不属于本仓库的 MIT 许可范围；仓库原创内容与站点代码适用 [MIT License](LICENSE)。使用第三方素材时请遵守原作者和来源平台的许可要求。

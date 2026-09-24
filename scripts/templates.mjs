@@ -47,7 +47,7 @@ for (const entry of data.entries) {
 
 const pages = { image: "生图", video: "生视频" };
 const readme = readFileSync(resolve(root, "README.md"), "utf8");
-if (!readme.includes(`${data.entries.length} 套完整模板`))
+if (!readme.includes(`[生图模板](templates/image.md)`) || !readme.includes(`[生视频模板](templates/video.md)`))
   throw new Error("README template count is out of date");
 for (const [kind, title] of Object.entries(pages)) {
   const entries = data.entries.filter((entry) => entry.kind === kind);
