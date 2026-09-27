@@ -7,9 +7,9 @@
 <p align="center">简体中文 | <a href="README.md">English</a></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E7%94%9F%E5%9B%BE%E6%A1%88%E4%BE%8B-71-f15b72?style=for-the-badge&amp;labelColor=555555" alt="生图案例 71">
+  <img src="https://img.shields.io/badge/%E7%94%9F%E5%9B%BE%E6%A1%88%E4%BE%8B-69-f15b72?style=for-the-badge&amp;labelColor=555555" alt="生图案例 69">
   <img src="https://img.shields.io/badge/%E7%94%9F%E8%A7%86%E9%A2%91%E6%A1%88%E4%BE%8B-46-36b7d6?style=for-the-badge&amp;labelColor=555555" alt="生视频案例 46">
-  <img src="https://img.shields.io/badge/%E7%8B%AC%E7%AB%8B_JSON-117-222222?style=for-the-badge&amp;labelColor=555555" alt="独立 JSON 117">
+  <img src="https://img.shields.io/badge/%E7%8B%AC%E7%AB%8B_JSON-115-222222?style=for-the-badge&amp;labelColor=555555" alt="独立 JSON 115">
   <img src="https://img.shields.io/badge/%E9%85%8D%E5%A5%97_Prompt-92-e0ad00?style=for-the-badge&amp;labelColor=555555" alt="来源配套 Prompt 92">
 </p>
 
@@ -104,9 +104,9 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 
 | 类型 | 能看到什么 | 使用时注意 |
 | --- | --- | --- |
-| **来源案例** | 67 个生图、46 个生视频；媒体、完整 Prompt、作者与来源链接 | 其中 4 个只提供作者主页，不能当作具体作品链接 |
+| **来源案例** | 65 个生图、46 个生视频；媒体、完整 Prompt、作者与来源链接 | 其中 4 个只提供作者主页，不能当作具体作品链接 |
 | **来源待核实** | 4 个生图案例仅有生成记录 | 暂不将其称为原创或已有外部来源 |
-| **双版本 Prompt** | 117 个案例均有英文版；原语言为中文、英文或日文 | 其中 3 个视频工作流按步骤分别提供两版；来源核实程度因案例而异 |
+| **双版本 Prompt** | 115 个案例均有英文版；原语言为中文、英文或日文 | 其中 4 个视频工作流按步骤分别提供两版；来源核实程度因案例而异 |
 
 首屏拼贴中，前四张来源待核实；后两张保留来源链接。
 
@@ -114,7 +114,7 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 
 ## 独立 JSON 条目
 
-本库覆盖 117 个案例，每个案例只保留一份 JSON，存放在 [styles/](styles/)。每段提示词提供“完整提示词”和“English Prompt”；原文为英文时，前者为中文译文。3 个视频工作流保留独立的生成阶段，每个阶段分别提供两版。4 个案例尚无外部来源，另 4 个仅有作者主页。画面与样片属于来源案例，不能据此认定整理或翻译后的 Prompt 已重新生成同样结果。
+本库覆盖 115 个案例，每个案例只保留一份 JSON，存放在 [styles/](styles/)。每段提示词提供“完整提示词”和“English Prompt”；原文为英文时，前者为中文译文。4 个视频工作流保留独立的生成阶段，每个阶段分别提供两版。4 个案例尚无外部来源，另 4 个仅有作者主页。画面与样片属于来源案例，不能据此认定整理或翻译后的 Prompt 已重新生成同样结果。
 
 ```text
 styles/<名称>/
@@ -134,10 +134,10 @@ styles/<名称>/
 
 ## 全部风格画面浏览
 
-下方按画面浏览全部 117 个案例；每个案例只有一份 JSON，也可通过[在线画廊](https://dingle-kb.github.io/awesome-image-video-prompts/)与[完整目录](docs/CATALOG.md)查找。
+下方按画面浏览全部 115 个案例；每个案例只有一份 JSON，也可通过[在线画廊](https://dingle-kb.github.io/awesome-image-video-prompts/)与[完整目录](docs/CATALOG.md)查找。
 
 <!-- BEGIN GENERATED GALLERY -->
-### 生图 (71)
+### 生图 (69)
 
 <table width="100%">
 <tr>
@@ -161,90 +161,88 @@ styles/<名称>/
 <tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-graded-english-magazine-reading-page.md"><img src="styles/image-graded-english-magazine-reading-page/thumbnail.jpg" alt="分级英语杂志阅读页" width="220" height="138"></a><br><strong>分级英语杂志阅读页</strong><br><a href="styles/image-graded-english-magazine-reading-page/style.json">style.json</a> · <a href="docs/copy-prompts/image-graded-english-magazine-reading-page.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-vintage-scientific-botanical-poster.md"><img src="styles/image-vintage-scientific-botanical-poster/thumbnail.jpg" alt="复古科学植物学海报" width="220" height="138"></a><br><strong>复古科学植物学海报</strong><br><a href="styles/image-vintage-scientific-botanical-poster/style.json">style.json</a> · <a href="docs/copy-prompts/image-vintage-scientific-botanical-poster.md">复制 Prompt</a></td>
-<td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-retro-scrapbook-poster.md"><img src="styles/image-retro-scrapbook-poster/thumbnail.jpg" alt="复古手账海报排版" width="220" height="138"></a><br><strong>复古手账海报排版</strong><br><a href="styles/image-retro-scrapbook-poster/style.json">style.json</a> · <a href="docs/copy-prompts/image-retro-scrapbook-poster.md">复制 Prompt</a></td>
-<td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-retro-halftone-illustration.md"><img src="styles/image-retro-halftone-illustration/thumbnail.jpg" alt="复古网点插画转绘" width="220" height="138"></a><br><strong>复古网点插画转绘</strong><br><a href="styles/image-retro-halftone-illustration/style.json">style.json</a> · <a href="docs/copy-prompts/image-retro-halftone-illustration.md">复制 Prompt</a></td>
-</tr>
-<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-concept-sofa-development-board-source.md"><img src="styles/image-concept-sofa-development-board-source/thumbnail.jpg" alt="概念沙发研发板" width="220" height="138"></a><br><strong>概念沙发研发板</strong><br><a href="styles/image-concept-sofa-development-board-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-concept-sofa-development-board-source.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-haute-couture-fashion-magazine-cover-source.md"><img src="styles/image-haute-couture-fashion-magazine-cover-source/thumbnail.jpg" alt="高定时尚杂志封面" width="220" height="138"></a><br><strong>高定时尚杂志封面</strong><br><a href="styles/image-haute-couture-fashion-magazine-cover-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-haute-couture-fashion-magazine-cover-source.md">复制 Prompt</a></td>
+</tr>
+<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-premium-food-commercial-storyboard.md"><img src="styles/image-premium-food-commercial-storyboard/thumbnail.jpg" alt="高端食品商业广告分镜" width="220" height="138"></a><br><strong>高端食品商业广告分镜</strong><br><a href="styles/image-premium-food-commercial-storyboard/style.json">style.json</a> · <a href="docs/copy-prompts/image-premium-food-commercial-storyboard.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-grimm-fairy-tale-woodcut-poster.md"><img src="styles/image-grimm-fairy-tale-woodcut-poster/thumbnail.jpg" alt="格林童话木刻版画海报" width="220" height="138"></a><br><strong>格林童话木刻版画海报</strong><br><a href="styles/image-grimm-fairy-tale-woodcut-poster/style.json">style.json</a> · <a href="docs/copy-prompts/image-grimm-fairy-tale-woodcut-poster.md">复制 Prompt</a></td>
-</tr>
-<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-minimal-abstract-geometric-deconstruction-poster.md"><img src="styles/image-minimal-abstract-geometric-deconstruction-poster/thumbnail.jpg" alt="极简抽象几何解构海报" width="220" height="138"></a><br><strong>极简抽象几何解构海报</strong><br><a href="styles/image-minimal-abstract-geometric-deconstruction-poster/style.json">style.json</a> · <a href="docs/copy-prompts/image-minimal-abstract-geometric-deconstruction-poster.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-minimal-conceptual-line-art-poster.md"><img src="styles/image-minimal-conceptual-line-art-poster/thumbnail.jpg" alt="极简概念线条艺术海报" width="220" height="138"></a><br><strong>极简概念线条艺术海报</strong><br><a href="styles/image-minimal-conceptual-line-art-poster/style.json">style.json</a> · <a href="docs/copy-prompts/image-minimal-conceptual-line-art-poster.md">复制 Prompt</a></td>
+</tr>
+<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-architecture-photo-concept-sketch-diptych.md"><img src="styles/image-architecture-photo-concept-sketch-diptych/thumbnail.jpg" alt="建筑照片概念草图双联海报" width="220" height="138"></a><br><strong>建筑照片概念草图双联海报</strong><br><a href="styles/image-architecture-photo-concept-sketch-diptych/style.json">style.json</a> · <a href="docs/copy-prompts/image-architecture-photo-concept-sketch-diptych.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-berry-smoothie-commercial-photo.md"><img src="styles/image-berry-smoothie-commercial-photo/thumbnail.jpg" alt="浆果冰沙商业摄影" width="220" height="138"></a><br><strong>浆果冰沙商业摄影</strong><br><a href="styles/image-berry-smoothie-commercial-photo/style.json">style.json</a> · <a href="docs/copy-prompts/image-berry-smoothie-commercial-photo.md">复制 Prompt</a></td>
-</tr>
-<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-street-scroll-backdrop-fashion-editorial.md"><img src="styles/image-street-scroll-backdrop-fashion-editorial/thumbnail.jpg" alt="街头卷轴背景时尚大片" width="220" height="138"></a><br><strong>街头卷轴背景时尚大片</strong><br><a href="styles/image-street-scroll-backdrop-fashion-editorial/style.json">style.json</a> · <a href="docs/copy-prompts/image-street-scroll-backdrop-fashion-editorial.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-vr-headset-exploded-interface-diagram.md"><img src="styles/image-vr-headset-exploded-interface-diagram/thumbnail.jpg" alt="界面交互设计图" width="220" height="138"></a><br><strong>界面交互设计图</strong><br><a href="styles/image-vr-headset-exploded-interface-diagram/style.json">style.json</a> · <a href="docs/copy-prompts/image-vr-headset-exploded-interface-diagram.md">复制 Prompt</a></td>
+</tr>
+<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-boutique-ecommerce-product-flatlay-grid.md"><img src="styles/image-boutique-ecommerce-product-flatlay-grid/thumbnail.jpg" alt="精品电商产品平铺网格" width="220" height="138"></a><br><strong>精品电商产品平铺网格</strong><br><a href="styles/image-boutique-ecommerce-product-flatlay-grid/style.json">style.json</a> · <a href="docs/copy-prompts/image-boutique-ecommerce-product-flatlay-grid.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-tech-product-review-thumbnail.md"><img src="styles/image-tech-product-review-thumbnail/thumbnail.jpg" alt="科技产品评测缩略图" width="220" height="138"></a><br><strong>科技产品评测缩略图</strong><br><a href="styles/image-tech-product-review-thumbnail/style.json">style.json</a> · <a href="docs/copy-prompts/image-tech-product-review-thumbnail.md">复制 Prompt</a></td>
-</tr>
-<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-croissant-baking-storyboard-source.md"><img src="styles/image-croissant-baking-storyboard-source/thumbnail.jpg" alt="可颂烘焙流程分镜板" width="220" height="138"></a><br><strong>可颂烘焙流程分镜板</strong><br><a href="styles/image-croissant-baking-storyboard-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-croissant-baking-storyboard-source.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-326b2a7f37.md"><img src="styles/image-326b2a7f37/thumbnail.jpg" alt="老照片人像保真修复" width="220" height="138"></a><br><strong>老照片人像保真修复</strong><br><a href="styles/image-326b2a7f37/style.json">style.json</a> · <a href="docs/copy-prompts/image-326b2a7f37.md">复制 Prompt</a></td>
+</tr>
+<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/pear-tart-storyboard.md"><img src="styles/pear-tart-storyboard/thumbnail.jpg" alt="梨挞广告四镜头分镜" width="220" height="138"></a><br><strong>梨挞广告四镜头分镜</strong><br><a href="styles/pear-tart-storyboard/style.json">style.json</a> · <a href="docs/copy-prompts/pear-tart-storyboard.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-rio-travel-ticket-paper-diorama-poster-source.md"><img src="styles/image-rio-travel-ticket-paper-diorama-poster-source/thumbnail.jpg" alt="里约旅行票据纸雕立体海报" width="220" height="138"></a><br><strong>里约旅行票据纸雕立体海报</strong><br><a href="styles/image-rio-travel-ticket-paper-diorama-poster-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-rio-travel-ticket-paper-diorama-poster-source.md">复制 Prompt</a></td>
-</tr>
-<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-six-panel-miniature-beverage-ad-source.md"><img src="styles/image-six-panel-miniature-beverage-ad-source/thumbnail.jpg" alt="六宫格饮料微缩广告" width="220" height="138"></a><br><strong>六宫格饮料微缩广告</strong><br><a href="styles/image-six-panel-miniature-beverage-ad-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-six-panel-miniature-beverage-ad-source.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-travel-souvenir-enamel-pin-source.md"><img src="styles/image-travel-souvenir-enamel-pin-source/thumbnail.jpg" alt="旅行纪念珐琅徽章" width="220" height="138"></a><br><strong>旅行纪念珐琅徽章</strong><br><a href="styles/image-travel-souvenir-enamel-pin-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-travel-souvenir-enamel-pin-source.md">复制 Prompt</a></td>
+</tr>
+<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-cooking-sketch-illustration-story.md"><img src="styles/image-cooking-sketch-illustration-story/thumbnail.jpg" alt="烹饪速写插画叙事" width="220" height="138"></a><br><strong>烹饪速写插画叙事</strong><br><a href="styles/image-cooking-sketch-illustration-story/style.json">style.json</a> · <a href="docs/copy-prompts/image-cooking-sketch-illustration-story.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-y2k-streetwear-mobile-landing-page.md"><img src="styles/image-y2k-streetwear-mobile-landing-page/thumbnail.jpg" alt="千禧街头服饰移动落地页" width="220" height="138"></a><br><strong>千禧街头服饰移动落地页</strong><br><a href="styles/image-y2k-streetwear-mobile-landing-page/style.json">style.json</a> · <a href="docs/copy-prompts/image-y2k-streetwear-mobile-landing-page.md">复制 Prompt</a></td>
-</tr>
-<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-y2k-virtual-try-on-game-ui.md"><img src="styles/image-y2k-virtual-try-on-game-ui/thumbnail.jpg" alt="千禧虚拟试衣游戏界面" width="220" height="138"></a><br><strong>千禧虚拟试衣游戏界面</strong><br><a href="styles/image-y2k-virtual-try-on-game-ui/style.json">style.json</a> · <a href="docs/copy-prompts/image-y2k-virtual-try-on-game-ui.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-blue-white-dunhuang-embroidery-quadriptych.md"><img src="styles/image-blue-white-dunhuang-embroidery-quadriptych/thumbnail.jpg" alt="青花敦煌刺绣四拼海报" width="220" height="138"></a><br><strong>青花敦煌刺绣四拼海报</strong><br><a href="styles/image-blue-white-dunhuang-embroidery-quadriptych/style.json">style.json</a> · <a href="docs/copy-prompts/image-blue-white-dunhuang-embroidery-quadriptych.md">复制 Prompt</a></td>
+</tr>
+<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-playful-ceramic-ecommerce-hero.md"><img src="styles/image-playful-ceramic-ecommerce-hero/thumbnail.jpg" alt="趣味陶瓷电商首页主视觉" width="220" height="138"></a><br><strong>趣味陶瓷电商首页主视觉</strong><br><a href="styles/image-playful-ceramic-ecommerce-hero/style.json">style.json</a> · <a href="docs/copy-prompts/image-playful-ceramic-ecommerce-hero.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-portrait-lighting-scheme-grid.md"><img src="styles/image-portrait-lighting-scheme-grid/thumbnail.jpg" alt="人像摄影灯光方案网格" width="220" height="138"></a><br><strong>人像摄影灯光方案网格</strong><br><a href="styles/image-portrait-lighting-scheme-grid/style.json">style.json</a> · <a href="docs/copy-prompts/image-portrait-lighting-scheme-grid.md">复制 Prompt</a></td>
-</tr>
-<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-desert-car-wash-documentary-photo.md"><img src="styles/image-desert-car-wash-documentary-photo/thumbnail.jpg" alt="沙漠洗车电影感纪实摄影" width="220" height="138"></a><br><strong>沙漠洗车电影感纪实摄影</strong><br><a href="styles/image-desert-car-wash-documentary-photo/style.json">style.json</a> · <a href="docs/copy-prompts/image-desert-car-wash-documentary-photo.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-luxury-mechanical-watch-technical-guide-source.md"><img src="styles/image-luxury-mechanical-watch-technical-guide-source/thumbnail.jpg" alt="奢华机械腕表技术图鉴" width="220" height="138"></a><br><strong>奢华机械腕表技术图鉴</strong><br><a href="styles/image-luxury-mechanical-watch-technical-guide-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-luxury-mechanical-watch-technical-guide-source.md">复制 Prompt</a></td>
+</tr>
+<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-social-media-giveaway-banner.md"><img src="styles/image-social-media-giveaway-banner/thumbnail.jpg" alt="社交媒体赠礼活动横幅" width="220" height="138"></a><br><strong>社交媒体赠礼活动横幅</strong><br><a href="styles/image-social-media-giveaway-banner/style.json">style.json</a> · <a href="docs/copy-prompts/image-social-media-giveaway-banner.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-deep-sea-freediving-adventure-photo.md"><img src="styles/image-deep-sea-freediving-adventure-photo/thumbnail.jpg" alt="深海自由潜水探险摄影" width="220" height="138"></a><br><strong>深海自由潜水探险摄影</strong><br><a href="styles/image-deep-sea-freediving-adventure-photo/style.json">style.json</a> · <a href="docs/copy-prompts/image-deep-sea-freediving-adventure-photo.md">复制 Prompt</a></td>
-</tr>
-<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-fifteen-step-photorealistic-recipe.md"><img src="styles/image-fifteen-step-photorealistic-recipe/thumbnail.jpg" alt="十五步写实食谱信息图" width="220" height="138"></a><br><strong>十五步写实食谱信息图</strong><br><a href="styles/image-fifteen-step-photorealistic-recipe/style.json">style.json</a> · <a href="docs/copy-prompts/image-fifteen-step-photorealistic-recipe.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-exploded-food-infographic-source.md"><img src="styles/image-exploded-food-infographic-source/thumbnail.jpg" alt="食物爆炸拆解信息图" width="220" height="138"></a><br><strong>食物爆炸拆解信息图</strong><br><a href="styles/image-exploded-food-infographic-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-exploded-food-infographic-source.md">复制 Prompt</a></td>
+</tr>
+<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-hand-torn-paper-poster.md"><img src="styles/image-hand-torn-paper-poster/thumbnail.jpg" alt="手工撕纸海报风格" width="220" height="138"></a><br><strong>手工撕纸海报风格</strong><br><a href="styles/image-hand-torn-paper-poster/style.json">style.json</a> · <a href="docs/copy-prompts/image-hand-torn-paper-poster.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-duotone-studio-commercial-portrait.md"><img src="styles/image-duotone-studio-commercial-portrait/thumbnail.jpg" alt="双色调摄影棚商业肖像" width="220" height="138"></a><br><strong>双色调摄影棚商业肖像</strong><br><a href="styles/image-duotone-studio-commercial-portrait/style.json">style.json</a> · <a href="docs/copy-prompts/image-duotone-studio-commercial-portrait.md">复制 Prompt</a></td>
-</tr>
-<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-watercolor-editorial-illustration-poster.md"><img src="styles/image-watercolor-editorial-illustration-poster/thumbnail.jpg" alt="水彩风格编辑插画海报" width="220" height="138"></a><br><strong>水彩风格编辑插画海报</strong><br><a href="styles/image-watercolor-editorial-illustration-poster/style.json">style.json</a> · <a href="docs/copy-prompts/image-watercolor-editorial-illustration-poster.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-ink-double-exposure-portrait-poster-source.md"><img src="styles/image-ink-double-exposure-portrait-poster-source/thumbnail.jpg" alt="水墨双重曝光人物海报" width="220" height="138"></a><br><strong>水墨双重曝光人物海报</strong><br><a href="styles/image-ink-double-exposure-portrait-poster-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-ink-double-exposure-portrait-poster-source.md">复制 Prompt</a></td>
+</tr>
+<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-four-city-minimal-travel-poster-series-source.md"><img src="styles/image-four-city-minimal-travel-poster-series-source/thumbnail.jpg" alt="四城极简旅行海报系列" width="220" height="138"></a><br><strong>四城极简旅行海报系列</strong><br><a href="styles/image-four-city-minimal-travel-poster-series-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-four-city-minimal-travel-poster-series-source.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-four-panel-milkshake-recipe.md"><img src="styles/image-four-panel-milkshake-recipe/thumbnail.jpg" alt="四格奶昔食谱过程拼图" width="220" height="138"></a><br><strong>四格奶昔食谱过程拼图</strong><br><a href="styles/image-four-panel-milkshake-recipe/style.json">style.json</a> · <a href="docs/copy-prompts/image-four-panel-milkshake-recipe.md">复制 Prompt</a></td>
-</tr>
-<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-same-face-twelve-hairstyles-source.md"><img src="styles/image-same-face-twelve-hairstyles-source/thumbnail.jpg" alt="同一人脸十二款发型图鉴" width="220" height="138"></a><br><strong>同一人脸十二款发型图鉴</strong><br><a href="styles/image-same-face-twelve-hairstyles-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-same-face-twelve-hairstyles-source.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-futuristic-biophilic-atrium.md"><img src="styles/image-futuristic-biophilic-atrium/thumbnail.jpg" alt="未来亲生物中庭空间" width="220" height="138"></a><br><strong>未来亲生物中庭空间</strong><br><a href="styles/image-futuristic-biophilic-atrium/style.json">style.json</a> · <a href="docs/copy-prompts/image-futuristic-biophilic-atrium.md">复制 Prompt</a></td>
+</tr>
+<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-five-panel-cafe-character-collage.md"><img src="styles/image-five-panel-cafe-character-collage/thumbnail.jpg" alt="五格咖啡馆人物拼贴" width="220" height="138"></a><br><strong>五格咖啡馆人物拼贴</strong><br><a href="styles/image-five-panel-cafe-character-collage/style.json">style.json</a> · <a href="docs/copy-prompts/image-five-panel-cafe-character-collage.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-half-photo-half-crayon-memory-card-source.md"><img src="styles/image-half-photo-half-crayon-memory-card-source/thumbnail.jpg" alt="五五分混合媒介回忆卡" width="220" height="138"></a><br><strong>五五分混合媒介回忆卡</strong><br><a href="styles/image-half-photo-half-crayon-memory-card-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-half-photo-half-crayon-memory-card-source.md">复制 Prompt</a></td>
-</tr>
-<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-wuhan-vintage-map-poster.md"><img src="styles/image-wuhan-vintage-map-poster/thumbnail.jpg" alt="武汉复古地图海报" width="220" height="138"></a><br><strong>武汉复古地图海报</strong><br><a href="styles/image-wuhan-vintage-map-poster/style.json">style.json</a> · <a href="docs/copy-prompts/image-wuhan-vintage-map-poster.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-wuhan-breakfast-food-map-infographic.md"><img src="styles/image-wuhan-breakfast-food-map-infographic/thumbnail.jpg" alt="武汉过早美食地图信息图" width="220" height="138"></a><br><strong>武汉过早美食地图信息图</strong><br><a href="styles/image-wuhan-breakfast-food-map-infographic/style.json">style.json</a> · <a href="docs/copy-prompts/image-wuhan-breakfast-food-map-infographic.md">复制 Prompt</a></td>
+</tr>
+<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-modern-art-event-flyer.md"><img src="styles/image-modern-art-event-flyer/thumbnail.jpg" alt="现代艺术活动传单" width="220" height="138"></a><br><strong>现代艺术活动传单</strong><br><a href="styles/image-modern-art-event-flyer/style.json">style.json</a> · <a href="docs/copy-prompts/image-modern-art-event-flyer.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-inside-box-farm-ad-poster.md"><img src="styles/image-inside-box-farm-ad-poster/thumbnail.jpg" alt="箱内仰视农场广告海报" width="220" height="138"></a><br><strong>箱内仰视农场广告海报</strong><br><a href="styles/image-inside-box-farm-ad-poster/style.json">style.json</a> · <a href="docs/copy-prompts/image-inside-box-farm-ad-poster.md">复制 Prompt</a></td>
-</tr>
-<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-rubber-stamp-travel-field-notes-source.md"><img src="styles/image-rubber-stamp-travel-field-notes-source/thumbnail.jpg" alt="橡皮章旅行田野笔记" width="220" height="138"></a><br><strong>橡皮章旅行田野笔记</strong><br><a href="styles/image-rubber-stamp-travel-field-notes-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-rubber-stamp-travel-field-notes-source.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/coastal-poster.md"><img src="styles/coastal-poster/thumbnail.jpg" alt="虚构海岸城市旅行海报" width="220" height="138"></a><br><strong>虚构海岸城市旅行海报</strong><br><a href="styles/coastal-poster/style.json">style.json</a> · <a href="docs/copy-prompts/coastal-poster.md">复制 Prompt</a></td>
+</tr>
+<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/botanical-plate.md"><img src="styles/botanical-plate/thumbnail.jpg" alt="虚构植物科学图版" width="220" height="138"></a><br><strong>虚构植物科学图版</strong><br><a href="styles/botanical-plate/style.json">style.json</a> · <a href="docs/copy-prompts/botanical-plate.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-felt-country-miniature-world-source.md"><img src="styles/image-felt-country-miniature-world-source/thumbnail.jpg" alt="羊毛毡国家微缩世界" width="220" height="138"></a><br><strong>羊毛毡国家微缩世界</strong><br><a href="styles/image-felt-country-miniature-world-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-felt-country-miniature-world-source.md">复制 Prompt</a></td>
-</tr>
-<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-consistent-interior-multiview-grid.md"><img src="styles/image-consistent-interior-multiview-grid/thumbnail.jpg" alt="一致性室内空间多视角网格" width="220" height="138"></a><br><strong>一致性室内空间多视角网格</strong><br><a href="styles/image-consistent-interior-multiview-grid/style.json">style.json</a> · <a href="docs/copy-prompts/image-consistent-interior-multiview-grid.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-weekly-outfit-infographic.md"><img src="styles/image-weekly-outfit-infographic/thumbnail.jpg" alt="一周穿搭信息图" width="220" height="138"></a><br><strong>一周穿搭信息图</strong><br><a href="styles/image-weekly-outfit-infographic/style.json">style.json</a> · <a href="docs/copy-prompts/image-weekly-outfit-infographic.md">复制 Prompt</a></td>
-<td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-beverage-food-marketing-hero.md"><img src="styles/image-beverage-food-marketing-hero/thumbnail.jpg" alt="饮料食品营销主视觉" width="220" height="138"></a><br><strong>饮料食品营销主视觉</strong><br><a href="styles/image-beverage-food-marketing-hero/style.json">style.json</a> · <a href="docs/copy-prompts/image-beverage-food-marketing-hero.md">复制 Prompt</a></td>
-<td width="25%" valign="top" align="center"><a href="docs/copy-prompts/botanical-soda.md"><img src="styles/botanical-soda/thumbnail.jpg" alt="植物汽水商业静物" width="220" height="138"></a><br><strong>植物汽水商业静物</strong><br><a href="styles/botanical-soda/style.json">style.json</a> · <a href="docs/copy-prompts/botanical-soda.md">复制 Prompt</a></td>
 </tr>
 <tr>
+<td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-beverage-food-marketing-hero.md"><img src="styles/image-beverage-food-marketing-hero/thumbnail.jpg" alt="饮料食品营销主视觉" width="220" height="138"></a><br><strong>饮料食品营销主视觉</strong><br><a href="styles/image-beverage-food-marketing-hero/style.json">style.json</a> · <a href="docs/copy-prompts/image-beverage-food-marketing-hero.md">复制 Prompt</a></td>
+<td width="25%" valign="top" align="center"><a href="docs/copy-prompts/botanical-soda.md"><img src="styles/botanical-soda/thumbnail.jpg" alt="植物汽水商业静物" width="220" height="138"></a><br><strong>植物汽水商业静物</strong><br><a href="styles/botanical-soda/style.json">style.json</a> · <a href="docs/copy-prompts/botanical-soda.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-paper-relief-neighborhood-grid.md"><img src="styles/image-paper-relief-neighborhood-grid/thumbnail.jpg" alt="纸雕浮雕街区网格" width="220" height="138"></a><br><strong>纸雕浮雕街区网格</strong><br><a href="styles/image-paper-relief-neighborhood-grid/style.json">style.json</a> · <a href="docs/copy-prompts/image-paper-relief-neighborhood-grid.md">复制 Prompt</a></td>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-chinese-luxury-beauty-poster.md"><img src="styles/image-chinese-luxury-beauty-poster/thumbnail.jpg" alt="中文奢华美妆海报" width="220" height="138"></a><br><strong>中文奢华美妆海报</strong><br><a href="styles/image-chinese-luxury-beauty-poster/style.json">style.json</a> · <a href="docs/copy-prompts/image-chinese-luxury-beauty-poster.md">复制 Prompt</a></td>
+</tr>
+<tr>
 <td width="25%" valign="top" align="center"><a href="docs/copy-prompts/image-football-player-stats-doodle-poster-source.md"><img src="styles/image-football-player-stats-doodle-poster-source/thumbnail.jpg" alt="足球球员数据涂鸦海报" width="220" height="138"></a><br><strong>足球球员数据涂鸦海报</strong><br><a href="styles/image-football-player-stats-doodle-poster-source/style.json">style.json</a> · <a href="docs/copy-prompts/image-football-player-stats-doodle-poster-source.md">复制 Prompt</a></td>
 </tr>
 </table>
@@ -266,7 +264,7 @@ styles/<名称>/
 </tr>
 <tr>
 <td width="25%" valign="top" align="center"><a href="https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-53bf374a72"><img src="styles/video-53bf374a72/thumbnail.jpg" alt="动态百科页拼贴解说" width="220" height="138"></a><br><strong>动态百科页拼贴解说</strong><br><a href="styles/video-53bf374a72/style.json">style.json</a> · <a href="docs/copy-prompts/video-53bf374a72.md">复制 Prompt</a> · <a href="https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-53bf374a72">播放样片</a></td>
-<td width="25%" valign="top" align="center"><a href="https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-retro-illustration-micro-motion"><img src="styles/video-retro-illustration-micro-motion/thumbnail.jpg" alt="复古插画微动效" width="220" height="138"></a><br><strong>复古插画微动效</strong><br><a href="styles/video-retro-illustration-micro-motion/style.json">style.json</a> · <a href="docs/copy-prompts/video-retro-illustration-micro-motion.md">复制 Prompt</a> · <a href="https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-retro-illustration-micro-motion">播放样片</a></td>
+<td width="25%" valign="top" align="center"><a href="https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-retro-illustration-micro-motion"><img src="styles/video-retro-illustration-micro-motion/thumbnail.jpg" alt="复古手账插画" width="220" height="138"></a><br><strong>复古手账插画</strong><br><a href="styles/video-retro-illustration-micro-motion/style.json">style.json</a> · <a href="docs/copy-prompts/video-retro-illustration-micro-motion.md">复制 Prompt</a> · <a href="https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-retro-illustration-micro-motion">播放样片</a></td>
 <td width="25%" valign="top" align="center"><a href="https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-real-person-sticker-poster-motion"><img src="styles/video-real-person-sticker-poster-motion/thumbnail.jpg" alt="复古ins贴纸海报" width="220" height="138"></a><br><strong>复古ins贴纸海报</strong><br><a href="styles/video-real-person-sticker-poster-motion/style.json">style.json</a> · <a href="docs/copy-prompts/video-real-person-sticker-poster-motion.md">复制 Prompt</a> · <a href="https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-real-person-sticker-poster-motion">播放样片</a></td>
 <td width="25%" valign="top" align="center"><a href="https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-e0fd6d34ba"><img src="styles/video-e0fd6d34ba/thumbnail.jpg" alt="高端香水UGC口播" width="220" height="138"></a><br><strong>高端香水UGC口播</strong><br><a href="styles/video-e0fd6d34ba/style.json">style.json</a> · <a href="docs/copy-prompts/video-e0fd6d34ba.md">复制 Prompt</a> · <a href="https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-e0fd6d34ba">播放样片</a></td>
 </tr>

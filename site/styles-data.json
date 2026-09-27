@@ -333,50 +333,6 @@
       "copy": "../docs/copy-prompts/image-vintage-scientific-botanical-poster.md"
     },
     {
-      "slug": "image-retro-scrapbook-poster",
-      "kind": "image",
-      "type": "source",
-      "title": "复古手账海报排版",
-      "category": "海报设计",
-      "summary": "以一张排版参考图和一张主体插画，设计主题一致的复古手账海报。",
-      "tags": [
-        "海报设计",
-        "手绘插画",
-        "怀旧"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-retro-scrapbook-poster/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "小洁AI实战",
-        "url": "https://www.douyin.com/video/7624869691328485361"
-      },
-      "json": "../styles/image-retro-scrapbook-poster/style.json",
-      "copy": "../docs/copy-prompts/image-retro-scrapbook-poster.md"
-    },
-    {
-      "slug": "image-retro-halftone-illustration",
-      "kind": "image",
-      "type": "source",
-      "title": "复古网点插画转绘",
-      "category": "图片转绘",
-      "summary": "上传原照片，将主体转绘为粗黑轮廓、半色调网点与有限配色的复古插画。",
-      "tags": [
-        "图片转绘",
-        "手绘插画",
-        "怀旧"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-retro-halftone-illustration/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "小洁AI实战",
-        "url": "https://www.douyin.com/video/7624869691328485361"
-      },
-      "json": "../styles/image-retro-halftone-illustration/style.json",
-      "copy": "../docs/copy-prompts/image-retro-halftone-illustration.md"
-    },
-    {
       "slug": "image-concept-sofa-development-board-source",
       "kind": "image",
       "type": "source",
@@ -1853,13 +1809,15 @@
       "slug": "video-retro-illustration-micro-motion",
       "kind": "video",
       "type": "source",
-      "title": "复古插画微动效",
+      "title": "复古手账插画",
       "category": "动画",
-      "summary": "上传完成的插画或海报，以固定镜头生成局部微动效，保持主体、文字与布局稳定。",
+      "summary": "将照片转为复古网点插画，排版成手账海报，再以固定镜头生成局部微动效。",
       "tags": [
         "动画",
         "图生视频",
-        "怀旧"
+        "怀旧",
+        "手绘插画",
+        "海报设计"
       ],
       "inputs": [],
       "preview": "../styles/video-retro-illustration-micro-motion/preview.jpg",

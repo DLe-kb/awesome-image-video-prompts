@@ -2,7 +2,7 @@
 
 [返回首页](../README-ZH.md) · [在线画廊](../site/)
 
-## 生图（71）
+## 生图（69）
 
 ### 杯内鱼眼夏日冰饮广告
 
@@ -115,22 +115,6 @@
 生成带解剖编号、手写注记和科学图版排版的植物学海报。 · 来源案例
 
 [复制 Prompt](copy-prompts/image-vintage-scientific-botanical-poster.md) · [style.json](../styles/image-vintage-scientific-botanical-poster/style.json)
-
-### 复古手账海报排版
-
-[![复古手账海报排版](../styles/image-retro-scrapbook-poster/preview.jpg)](copy-prompts/image-retro-scrapbook-poster.md)
-
-以一张排版参考图和一张主体插画，设计主题一致的复古手账海报。 · 来源案例
-
-[复制 Prompt](copy-prompts/image-retro-scrapbook-poster.md) · [style.json](../styles/image-retro-scrapbook-poster/style.json)
-
-### 复古网点插画转绘
-
-[![复古网点插画转绘](../styles/image-retro-halftone-illustration/preview.jpg)](copy-prompts/image-retro-halftone-illustration.md)
-
-上传原照片，将主体转绘为粗黑轮廓、半色调网点与有限配色的复古插画。 · 来源案例
-
-[复制 Prompt](copy-prompts/image-retro-halftone-illustration.md) · [style.json](../styles/image-retro-halftone-illustration/style.json)
 
 ### 概念沙发研发板
 
@@ -646,11 +630,11 @@
 
 [复制 Prompt](copy-prompts/video-53bf374a72.md) · [style.json](../styles/video-53bf374a72/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-53bf374a72)
 
-### 复古插画微动效
+### 复古手账插画
 
-[![复古插画微动效](../styles/video-retro-illustration-micro-motion/preview.jpg)](copy-prompts/video-retro-illustration-micro-motion.md)
+[![复古手账插画](../styles/video-retro-illustration-micro-motion/preview.jpg)](copy-prompts/video-retro-illustration-micro-motion.md)
 
-上传完成的插画或海报，以固定镜头生成局部微动效，保持主体、文字与布局稳定。 · 来源案例
+将照片转为复古网点插画，排版成手账海报，再以固定镜头生成局部微动效。 · 来源案例
 
 [复制 Prompt](copy-prompts/video-retro-illustration-micro-motion.md) · [style.json](../styles/video-retro-illustration-micro-motion/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-retro-illustration-micro-motion)
 
