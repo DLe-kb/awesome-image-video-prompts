@@ -10,8 +10,6 @@
 
 来源：[@BLCNYY](https://x.com/BLCNYY/status/2090897198351368575)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/sony-headphones-review-thumbnail-32279)
-
 可替换内容：`[headline]` · `[questionText]` · `[productName]`
 
 ## 完整 Prompt

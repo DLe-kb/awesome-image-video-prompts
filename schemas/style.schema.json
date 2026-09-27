@@ -8,13 +8,17 @@
     {
       "if": { "properties": { "kind": { "const": "video" } }, "required": ["kind"] },
       "then": { "required": ["sample"] }
+    },
+    {
+      "if": { "properties": { "type": { "const": "source" } }, "required": ["type"] },
+      "then": { "required": ["source"] }
     }
   ],
   "properties": {
     "style_version": { "const": "1.0" },
     "style_slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "kind": { "enum": ["image", "video"] },
-    "type": { "enum": ["source", "original", "adaptation", "template"] },
+    "type": { "enum": ["source", "unverified"] },
     "title": { "type": "string", "minLength": 1 },
     "category": { "type": "string", "minLength": 1 },
     "summary": { "type": "string", "minLength": 1 },
@@ -22,7 +26,7 @@
     "promptEn": { "type": "string" },
     "preview": { "type": "string" },
     "sample": { "type": "string" },
-    "relatedStyle": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "sourcePrompt": { "type": "string" },
     "example": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "inputs": { "type": "array", "items": { "type": "string" } },
     "tags": { "type": "array", "items": { "type": "string" } },
@@ -31,7 +35,8 @@
       "required": ["author", "url"],
       "properties": {
         "author": { "type": "string" },
-        "url": { "type": "string", "format": "uri" }
+        "url": { "type": "string", "format": "uri" },
+        "linkType": { "enum": ["post", "profile"] }
       }
     }
   }

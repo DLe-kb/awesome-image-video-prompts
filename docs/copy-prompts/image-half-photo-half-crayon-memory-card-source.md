@@ -10,9 +10,19 @@
 
 来源：[@Sairah_0](https://x.com/Sairah_0/status/2093212900160868430)
 
-相关链接：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-541)
-
 ## 完整 Prompt
+
+```text
+将上传的照片转换为严格按 50/50 分割的竖版混合媒介回忆卡。
+
+上半部分保持原始照片不变。在下半部分，使用有纹理的灰白色手工纸，并添加与照片色调相匹配的柔和、不规则的色块。
+
+将主要人物或主体重新绘制为简单的深色蜡笔草图，具有松散、不完美的线条和最少的细节。添加简短的手写英文短语和细腻的 Risograph 孔版印刷颗粒。
+
+以宽敞的负空间营造出安静、怀旧的莫兰迪风格美学。不要添加额外的元素或完全复制参考构图。
+```
+
+## English Prompt
 
 ```text
 Transform the uploaded photo into a vertical mixed-media memory card with a strict 50/50 split.
@@ -23,8 +33,6 @@ Redraw the main subjects as a simple dark wax-crayon sketch with loose, imperfec
 
 Create a quiet, nostalgic Morandi-style aesthetic with generous negative space. Do not add extra elements or copy the reference composition exactly.
 ```
-
-[查看关联 Prompt](../copy-prompts/image-half-photo-half-crayon-memory-card.md)
 
 [打开 style.json](../../styles/image-half-photo-half-crayon-memory-card-source/style.json) · [打开条目目录](../../styles/image-half-photo-half-crayon-memory-card-source/)
 

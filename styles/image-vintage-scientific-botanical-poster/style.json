@@ -18,13 +18,6 @@
     "url": "https://x.com/TraffAlex/status/2095583733264879803"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "X · @TraffAlex",
-    "related": {
-      "label": "YouMind 模板",
-      "url": "https://youmind.com/zh-CN/prompts/forget-me-not-botanical-poster-33434"
-    }
-  },
   "preview": "preview.jpg",
   "promptEn": "A scientific botanical poster on cream paper. A single oversized forget-me-not painted in watercolor, roots and all, with tiny numbered labels on stem and petal. Title in italic serif at the top: \"FORGET-ME-NOT\". Subtitle: \"A FIELD PLATE\". Bottom: \"PLATE VII · 1887\". Pencil notes in the margin. Cream, indigo, green, 2:3 aspect ratio.",
   "inputs": []

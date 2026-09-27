@@ -4,7 +4,7 @@
 
 ![真人贴纸海报动效](../../styles/video-real-person-sticker-poster-motion/preview.jpg)
 
-[播放样片](../../styles/video-real-person-sticker-poster-motion/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-real-person-sticker-poster-motion)
 
 上传真人贴纸海报，固定镜头与背景，只让真实人物自然活动。
 

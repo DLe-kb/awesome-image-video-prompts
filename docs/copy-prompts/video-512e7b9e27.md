@@ -4,15 +4,13 @@
 
 ![奢华护肤品水感广告](../../styles/video-512e7b9e27/preview.jpg)
 
-[播放样片](../../styles/video-512e7b9e27/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-512e7b9e27)
 
 围绕护肤玻璃罐设计水珠、乳霜、花叶和产品定格镜头。
 
 类型：生视频 · 来源案例 · 广告
 
 来源：[@Maha / YouMind](https://x.com/Aiwithmaha/status/2101887507059351894)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/luxury-skincare-commercial-video-11073)
 
 ## 完整 Prompt
 

@@ -18,13 +18,6 @@
     "url": "https://x.com/AIGuideNote/status/2097040165009252374"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "X · @AIGuideNote",
-    "related": {
-      "label": "YouMind 模板",
-      "url": "https://youmind.com/zh-CN/prompts/product-campaign-key-visual-33796"
-    }
-  },
   "preview": "preview.jpg",
   "promptEn": "[Product / packaging]\n- Product name/type: {productName}\n- Appeal/tagline: {subText}\n\n[Design concept]\n- Background visual element: {circleColor}\n\n[Image quality, presentation, and composition]\n- Style: A popular, lively marketing key visual for a Japanese convenience store or food manufacturer. Strong appetizing appeal and visual impact.\n- Subject: Place the can, bottle, or packaging of {productName} in the center. Ice fragments, water droplets, splashes, or fresh ingredients such as tea leaves or fruit burst dynamically around it.\n- Background: A clear, high-contrast solid-color or gradient background, using {circleColor} as the main graphic element.\n- Typography (for GPT-image / Nano Banana Pro): Set {subText} in bold, energetic lettering where it does not obscure the product.\n- Lighting/color: Bright, vivid studio lighting, crystal-clear reflections, and energetic colors.\n\n[Strict layout and output requirements]\n- Output the finished design itself, filling the entire canvas. Backgrounds and scenes within the design, including walls, spaces, and shadows, may follow the instructions above.\n- Prohibited: photos of framed posters, posters mounted on walls, mockups placed on tables or paper, perspective distortion or cast shadows along paper edges.\n- Output the finished flat 2D design itself, filling the entire canvas. Scene elements described above are allowed within the design. Absolutely no poster mockup photographs: no frames, no photographs of a poster on a wall or table, and no perspective distortion or cast shadows around the artwork edges.\n- Aspect ratio: --ar 16:9",
   "inputs": [

@@ -68,9 +68,9 @@
       "copy": "../docs/copy-prompts/image-acrylic-hand-painted-split-poster.md"
     },
     {
-      "slug": "image-miniature-city-map-travel-poster",
+      "slug": "image-miniature-city-map-travel-poster-source",
       "kind": "image",
-      "type": "adaptation",
+      "type": "source",
       "title": "城市地图微缩旅行海报",
       "category": "海报设计",
       "summary": "把城市地图、弯曲道路、交通工具和地标融合成写实微缩旅行海报。",
@@ -83,28 +83,6 @@
         "城市名称",
         "车辆名称"
       ],
-      "preview": "../styles/image-miniature-city-map-travel-poster-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@SimplyAnnisa",
-        "url": "https://x.com/SimplyAnnisa/status/2062358269172101240"
-      },
-      "json": "../styles/image-miniature-city-map-travel-poster/style.json",
-      "copy": "../docs/copy-prompts/image-miniature-city-map-travel-poster.md"
-    },
-    {
-      "slug": "image-miniature-city-map-travel-poster-source",
-      "kind": "image",
-      "type": "source",
-      "title": "城市地图微缩旅行海报",
-      "category": "海报设计",
-      "summary": "把城市地图、弯曲道路、交通工具和地标融合成写实微缩旅行海报。",
-      "tags": [
-        "海报设计",
-        "旅行城市",
-        "地图视觉"
-      ],
-      "inputs": [],
       "preview": "../styles/image-miniature-city-map-travel-poster-source/preview.jpg",
       "sample": null,
       "source": {
@@ -235,9 +213,9 @@
       "copy": "../docs/copy-prompts/image-solar-terms-editorial-visual.md"
     },
     {
-      "slug": "image-french-new-wave-torn-paper-poster",
+      "slug": "image-french-new-wave-torn-paper-poster-source",
       "kind": "image",
-      "type": "adaptation",
+      "type": "source",
       "title": "法新浪潮撕纸电影海报",
       "category": "影视叙事",
       "summary": "生成具有撕纸、复印颗粒、网点和手工拼贴质感的法国新浪潮电影海报。",
@@ -252,28 +230,6 @@
         "品牌名称/活动名称/即将推出/日期",
         "TAGLINE"
       ],
-      "preview": "../styles/image-french-new-wave-torn-paper-poster-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@bananaprompts",
-        "url": "https://x.com/bananaprompts/status/2048541390900994476"
-      },
-      "json": "../styles/image-french-new-wave-torn-paper-poster/style.json",
-      "copy": "../docs/copy-prompts/image-french-new-wave-torn-paper-poster.md"
-    },
-    {
-      "slug": "image-french-new-wave-torn-paper-poster-source",
-      "kind": "image",
-      "type": "source",
-      "title": "法新浪潮撕纸电影海报",
-      "category": "影视叙事",
-      "summary": "生成具有撕纸、复印颗粒、网点和手工拼贴质感的法国新浪潮电影海报。",
-      "tags": [
-        "影视叙事",
-        "海报设计",
-        "拼贴设计"
-      ],
-      "inputs": [],
       "preview": "../styles/image-french-new-wave-torn-paper-poster-source/preview.jpg",
       "sample": null,
       "source": {
@@ -421,28 +377,6 @@
       "copy": "../docs/copy-prompts/image-retro-halftone-illustration.md"
     },
     {
-      "slug": "image-concept-sofa-development-board",
-      "kind": "image",
-      "type": "adaptation",
-      "title": "概念沙发研发板",
-      "category": "设计参考",
-      "summary": "生成从形态观察、结构推导到成品展示的概念家具研发视觉板。",
-      "tags": [
-        "设计参考",
-        "产品视觉",
-        "工业设计"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-concept-sofa-development-board-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@ShamsAmin56",
-        "url": "https://x.com/ShamsAmin56/status/2050281206139461780"
-      },
-      "json": "../styles/image-concept-sofa-development-board/style.json",
-      "copy": "../docs/copy-prompts/image-concept-sofa-development-board.md"
-    },
-    {
       "slug": "image-concept-sofa-development-board-source",
       "kind": "image",
       "type": "source",
@@ -463,28 +397,6 @@
       },
       "json": "../styles/image-concept-sofa-development-board-source/style.json",
       "copy": "../docs/copy-prompts/image-concept-sofa-development-board-source.md"
-    },
-    {
-      "slug": "image-haute-couture-fashion-magazine-cover",
-      "kind": "image",
-      "type": "adaptation",
-      "title": "高定时尚杂志封面",
-      "category": "海报设计",
-      "summary": "生成带高定人像、夏日金色光线和奢侈时尚排版的杂志封面。",
-      "tags": [
-        "海报设计",
-        "时尚美妆",
-        "编辑设计"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-haute-couture-fashion-magazine-cover-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@SPEEDAI07",
-        "url": "https://x.com/SPEEDAI07/status/2048573343066992919"
-      },
-      "json": "../styles/image-haute-couture-fashion-magazine-cover/style.json",
-      "copy": "../docs/copy-prompts/image-haute-couture-fashion-magazine-cover.md"
     },
     {
       "slug": "image-haute-couture-fashion-magazine-cover-source",
@@ -688,7 +600,8 @@
       "sample": null,
       "source": {
         "author": "@wory37303852",
-        "url": "https://x.com/wory37303852"
+        "url": "https://x.com/wory37303852",
+        "linkType": "profile"
       },
       "json": "../styles/image-vr-headset-exploded-interface-diagram/style.json",
       "copy": "../docs/copy-prompts/image-vr-headset-exploded-interface-diagram.md"
@@ -749,28 +662,6 @@
       "copy": "../docs/copy-prompts/image-tech-product-review-thumbnail.md"
     },
     {
-      "slug": "image-croissant-baking-storyboard",
-      "kind": "image",
-      "type": "adaptation",
-      "title": "可颂烘焙流程分镜板",
-      "category": "影视叙事",
-      "summary": "生成展示可颂制作过程、镜头顺序和成品诱惑力的食品商业分镜板。",
-      "tags": [
-        "影视叙事",
-        "食品饮料",
-        "商业广告"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-croissant-baking-storyboard-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@TechieBySA",
-        "url": "https://x.com/TechieBySA/status/2053523784481554759"
-      },
-      "json": "../styles/image-croissant-baking-storyboard/style.json",
-      "copy": "../docs/copy-prompts/image-croissant-baking-storyboard.md"
-    },
-    {
       "slug": "image-croissant-baking-storyboard-source",
       "kind": "image",
       "type": "source",
@@ -817,7 +708,7 @@
     {
       "slug": "pear-tart-storyboard",
       "kind": "image",
-      "type": "original",
+      "type": "unverified",
       "title": "梨挞广告四镜头分镜",
       "category": "分镜与叙事",
       "summary": "四格镜头从原料、制作、烘烤过渡到成品。",
@@ -828,28 +719,6 @@
       "source": null,
       "json": "../styles/pear-tart-storyboard/style.json",
       "copy": "../docs/copy-prompts/pear-tart-storyboard.md"
-    },
-    {
-      "slug": "image-rio-travel-ticket-paper-diorama-poster",
-      "kind": "image",
-      "type": "adaptation",
-      "title": "里约旅行票据纸雕立体海报",
-      "category": "旅行城市",
-      "summary": "把旅行票据、城市地标与纸雕场景组合成具有收藏感的立体旅行海报。",
-      "tags": [
-        "旅行城市",
-        "拼贴设计",
-        "手工材质"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-rio-travel-ticket-paper-diorama-poster-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@john_my07",
-        "url": "https://x.com/john_my07/status/2091408386466214031"
-      },
-      "json": "../styles/image-rio-travel-ticket-paper-diorama-poster/style.json",
-      "copy": "../docs/copy-prompts/image-rio-travel-ticket-paper-diorama-poster.md"
     },
     {
       "slug": "image-rio-travel-ticket-paper-diorama-poster-source",
@@ -874,28 +743,6 @@
       "copy": "../docs/copy-prompts/image-rio-travel-ticket-paper-diorama-poster-source.md"
     },
     {
-      "slug": "image-six-panel-miniature-beverage-ad",
-      "kind": "image",
-      "type": "adaptation",
-      "title": "六宫格饮料微缩广告",
-      "category": "商业广告",
-      "summary": "使用严格六宫格与微缩人物，生成围绕同一饮料品牌展开的完整商业广告系列。",
-      "tags": [
-        "商业广告",
-        "食品饮料",
-        "微缩场景"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-six-panel-miniature-beverage-ad-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@ou_zhen599",
-        "url": "https://x.com/ou_zhen599/status/2091160215928574397"
-      },
-      "json": "../styles/image-six-panel-miniature-beverage-ad/style.json",
-      "copy": "../docs/copy-prompts/image-six-panel-miniature-beverage-ad.md"
-    },
-    {
       "slug": "image-six-panel-miniature-beverage-ad-source",
       "kind": "image",
       "type": "source",
@@ -916,28 +763,6 @@
       },
       "json": "../styles/image-six-panel-miniature-beverage-ad-source/style.json",
       "copy": "../docs/copy-prompts/image-six-panel-miniature-beverage-ad-source.md"
-    },
-    {
-      "slug": "image-travel-souvenir-enamel-pin",
-      "kind": "image",
-      "type": "adaptation",
-      "title": "旅行纪念珐琅徽章",
-      "category": "产品视觉",
-      "summary": "将旅行照片中的地形、地标和人物比例转化为场景式珐琅纪念徽章。",
-      "tags": [
-        "产品视觉",
-        "旅行城市",
-        "手工材质"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-travel-souvenir-enamel-pin-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@Emmma__0",
-        "url": "https://x.com/Emmma__0/status/2093194689222705645"
-      },
-      "json": "../styles/image-travel-souvenir-enamel-pin/style.json",
-      "copy": "../docs/copy-prompts/image-travel-souvenir-enamel-pin.md"
     },
     {
       "slug": "image-travel-souvenir-enamel-pin-source",
@@ -1134,9 +959,9 @@
       "copy": "../docs/copy-prompts/image-desert-car-wash-documentary-photo.md"
     },
     {
-      "slug": "image-luxury-mechanical-watch-technical-guide",
+      "slug": "image-luxury-mechanical-watch-technical-guide-source",
       "kind": "image",
-      "type": "adaptation",
+      "type": "source",
       "title": "奢华机械腕表技术图鉴",
       "category": "信息图表",
       "summary": "生成多款高级机械腕表的透明结构、零件拆解和材质说明图鉴。",
@@ -1150,28 +975,6 @@
         "MODEL REFERENCE",
         "MANUFACTURE / COLLECTION"
       ],
-      "preview": "../styles/image-luxury-mechanical-watch-technical-guide-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@Gdgtify",
-        "url": "https://x.com/Gdgtify/status/2056928396991488312"
-      },
-      "json": "../styles/image-luxury-mechanical-watch-technical-guide/style.json",
-      "copy": "../docs/copy-prompts/image-luxury-mechanical-watch-technical-guide.md"
-    },
-    {
-      "slug": "image-luxury-mechanical-watch-technical-guide-source",
-      "kind": "image",
-      "type": "source",
-      "title": "奢华机械腕表技术图鉴",
-      "category": "信息图表",
-      "summary": "生成多款高级机械腕表的透明结构、零件拆解和材质说明图鉴。",
-      "tags": [
-        "信息图表",
-        "产品视觉",
-        "工业设计"
-      ],
-      "inputs": [],
       "preview": "../styles/image-luxury-mechanical-watch-technical-guide-source/preview.jpg",
       "sample": null,
       "source": {
@@ -1252,28 +1055,6 @@
       },
       "json": "../styles/image-fifteen-step-photorealistic-recipe/style.json",
       "copy": "../docs/copy-prompts/image-fifteen-step-photorealistic-recipe.md"
-    },
-    {
-      "slug": "image-exploded-food-infographic",
-      "kind": "image",
-      "type": "adaptation",
-      "title": "食物爆炸拆解信息图",
-      "category": "信息图表",
-      "summary": "把食物的不同组成部分按垂直顺序悬浮排列，生成写实爆炸拆解信息图。",
-      "tags": [
-        "信息图表",
-        "食品饮料",
-        "产品视觉"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-exploded-food-infographic-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@Strength04_X",
-        "url": "https://x.com/Strength04_X/status/2056018963084226866"
-      },
-      "json": "../styles/image-exploded-food-infographic/style.json",
-      "copy": "../docs/copy-prompts/image-exploded-food-infographic.md"
     },
     {
       "slug": "image-exploded-food-infographic-source",
@@ -1364,9 +1145,9 @@
       "copy": "../docs/copy-prompts/image-watercolor-editorial-illustration-poster.md"
     },
     {
-      "slug": "image-ink-double-exposure-portrait-poster",
+      "slug": "image-ink-double-exposure-portrait-poster-source",
       "kind": "image",
-      "type": "adaptation",
+      "type": "source",
       "title": "水墨双重曝光人物海报",
       "category": "海报设计",
       "summary": "生成融合人物轮廓、东方水墨、叙事场景和留白的双重曝光竖版海报。",
@@ -1384,52 +1165,8 @@
         "author": "@Goodmanprotocol",
         "url": "https://x.com/Goodmanprotocol/status/2049002279051895243"
       },
-      "json": "../styles/image-ink-double-exposure-portrait-poster/style.json",
-      "copy": "../docs/copy-prompts/image-ink-double-exposure-portrait-poster.md"
-    },
-    {
-      "slug": "image-ink-double-exposure-portrait-poster-source",
-      "kind": "image",
-      "type": "source",
-      "title": "水墨双重曝光人物海报",
-      "category": "海报设计",
-      "summary": "生成融合人物轮廓、东方水墨、叙事场景和留白的双重曝光竖版海报。",
-      "tags": [
-        "海报设计",
-        "人像摄影",
-        "传统文化"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-ink-double-exposure-portrait-poster-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@Goodmanprotocol",
-        "url": "https://x.com/Goodmanprotocol/status/2049002279051895243"
-      },
       "json": "../styles/image-ink-double-exposure-portrait-poster-source/style.json",
       "copy": "../docs/copy-prompts/image-ink-double-exposure-portrait-poster-source.md"
-    },
-    {
-      "slug": "image-four-city-minimal-travel-poster-series",
-      "kind": "image",
-      "type": "adaptation",
-      "title": "四城极简旅行海报系列",
-      "category": "海报设计",
-      "summary": "以统一的极简矢量风格生成多个城市或目的地的系列旅行海报。",
-      "tags": [
-        "海报设计",
-        "旅行城市",
-        "系列视觉"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-four-city-minimal-travel-poster-series-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@Taaruk_",
-        "url": "https://x.com/Taaruk_/status/2059188921096085888"
-      },
-      "json": "../styles/image-four-city-minimal-travel-poster-series/style.json",
-      "copy": "../docs/copy-prompts/image-four-city-minimal-travel-poster-series.md"
     },
     {
       "slug": "image-four-city-minimal-travel-poster-series-source",
@@ -1473,28 +1210,6 @@
       },
       "json": "../styles/image-four-panel-milkshake-recipe/style.json",
       "copy": "../docs/copy-prompts/image-four-panel-milkshake-recipe.md"
-    },
-    {
-      "slug": "image-same-face-twelve-hairstyles",
-      "kind": "image",
-      "type": "adaptation",
-      "title": "同一人脸十二款发型图鉴",
-      "category": "设计参考",
-      "summary": "保持参考人物身份、服装和光线一致，仅更换十二种发型并生成对照图鉴。",
-      "tags": [
-        "设计参考",
-        "人像摄影",
-        "多视角一致性"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-same-face-twelve-hairstyles-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@Ciri_ai",
-        "url": "https://x.com/Ciri_ai/status/2092452220768002400"
-      },
-      "json": "../styles/image-same-face-twelve-hairstyles/style.json",
-      "copy": "../docs/copy-prompts/image-same-face-twelve-hairstyles.md"
     },
     {
       "slug": "image-same-face-twelve-hairstyles-source",
@@ -1563,28 +1278,6 @@
       "copy": "../docs/copy-prompts/image-five-panel-cafe-character-collage.md"
     },
     {
-      "slug": "image-half-photo-half-crayon-memory-card",
-      "kind": "image",
-      "type": "adaptation",
-      "title": "五五分混合媒介回忆卡",
-      "category": "海报设计",
-      "summary": "将原始照片与蜡笔速写严格上下五五分割，生成克制怀旧的混合媒介回忆卡。",
-      "tags": [
-        "海报设计",
-        "图片转绘",
-        "拼贴设计"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-half-photo-half-crayon-memory-card-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@Sairah_0",
-        "url": "https://x.com/Sairah_0/status/2093212900160868430"
-      },
-      "json": "../styles/image-half-photo-half-crayon-memory-card/style.json",
-      "copy": "../docs/copy-prompts/image-half-photo-half-crayon-memory-card.md"
-    },
-    {
       "slug": "image-half-photo-half-crayon-memory-card-source",
       "kind": "image",
       "type": "source",
@@ -1645,7 +1338,8 @@
       "sample": null,
       "source": {
         "author": "@mm_zzm44854",
-        "url": "https://x.com/mm_zzm44854"
+        "url": "https://x.com/mm_zzm44854",
+        "linkType": "profile"
       },
       "json": "../styles/image-wuhan-breakfast-food-map-infographic/style.json",
       "copy": "../docs/copy-prompts/image-wuhan-breakfast-food-map-infographic.md"
@@ -1704,28 +1398,6 @@
       "copy": "../docs/copy-prompts/image-inside-box-farm-ad-poster.md"
     },
     {
-      "slug": "image-rubber-stamp-travel-field-notes",
-      "kind": "image",
-      "type": "adaptation",
-      "title": "橡皮章旅行田野笔记",
-      "category": "旅行城市",
-      "summary": "把旅行照片与手工橡皮章、旧纸张和少量档案文字组合成旅行田野笔记。",
-      "tags": [
-        "旅行城市",
-        "拼贴设计",
-        "手工材质"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-rubber-stamp-travel-field-notes-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@MahnoorAi12",
-        "url": "https://x.com/MahnoorAi12/status/2092221482139349307"
-      },
-      "json": "../styles/image-rubber-stamp-travel-field-notes/style.json",
-      "copy": "../docs/copy-prompts/image-rubber-stamp-travel-field-notes.md"
-    },
-    {
       "slug": "image-rubber-stamp-travel-field-notes-source",
       "kind": "image",
       "type": "source",
@@ -1750,7 +1422,7 @@
     {
       "slug": "coastal-poster",
       "kind": "image",
-      "type": "original",
+      "type": "unverified",
       "title": "虚构海岸城市旅行海报",
       "category": "海报与编辑",
       "summary": "以大色块、几何建筑和丝网印刷肌理构成旅行海报。",
@@ -1765,7 +1437,7 @@
     {
       "slug": "botanical-plate",
       "kind": "image",
-      "type": "original",
+      "type": "unverified",
       "title": "虚构植物科学图版",
       "category": "科普与出版",
       "summary": "以标本主图和局部放大图组织清晰的植物学图版。",
@@ -1776,30 +1448,6 @@
       "source": null,
       "json": "../styles/botanical-plate/style.json",
       "copy": "../docs/copy-prompts/botanical-plate.md"
-    },
-    {
-      "slug": "image-felt-country-miniature-world",
-      "kind": "image",
-      "type": "adaptation",
-      "title": "羊毛毡国家微缩世界",
-      "category": "旅行城市",
-      "summary": "将国家、城市和代表性地标转化为具有手工羊毛毡质感的微缩世界。",
-      "tags": [
-        "旅行城市",
-        "微缩场景",
-        "手工材质"
-      ],
-      "inputs": [
-        "插入国家/地区名称"
-      ],
-      "preview": "../styles/image-felt-country-miniature-world-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@volkan_iras",
-        "url": "https://x.com/volkan_iras/status/2051403524966141980"
-      },
-      "json": "../styles/image-felt-country-miniature-world/style.json",
-      "copy": "../docs/copy-prompts/image-felt-country-miniature-world.md"
     },
     {
       "slug": "image-felt-country-miniature-world-source",
@@ -1813,7 +1461,9 @@
         "微缩场景",
         "手工材质"
       ],
-      "inputs": [],
+      "inputs": [
+        "插入国家/地区名称"
+      ],
       "preview": "../styles/image-felt-country-miniature-world-source/preview.jpg",
       "sample": null,
       "source": {
@@ -1862,7 +1512,8 @@
       "sample": null,
       "source": {
         "author": "@yyyole",
-        "url": "https://x.com/yyyole"
+        "url": "https://x.com/yyyole",
+        "linkType": "profile"
       },
       "json": "../styles/image-weekly-outfit-infographic/style.json",
       "copy": "../docs/copy-prompts/image-weekly-outfit-infographic.md"
@@ -1921,7 +1572,7 @@
     {
       "slug": "botanical-soda",
       "kind": "image",
-      "type": "original",
+      "type": "unverified",
       "title": "植物汽水商业静物",
       "category": "产品与广告",
       "summary": "用光线、冷凝水和水果切片突出饮品材质。",
@@ -1972,36 +1623,11 @@
       "sample": null,
       "source": {
         "author": "@panchaaan_2",
-        "url": "https://x.com/panchaaan_2"
+        "url": "https://x.com/panchaaan_2",
+        "linkType": "profile"
       },
       "json": "../styles/image-chinese-luxury-beauty-poster/style.json",
       "copy": "../docs/copy-prompts/image-chinese-luxury-beauty-poster.md"
-    },
-    {
-      "slug": "image-football-player-stats-doodle-poster",
-      "kind": "image",
-      "type": "adaptation",
-      "title": "足球球员数据涂鸦海报",
-      "category": "体育视觉",
-      "summary": "生成以足球运动员、比赛数据和霓虹手写涂鸦为核心的体育宣传海报。",
-      "tags": [
-        "体育视觉",
-        "信息图表",
-        "海报设计"
-      ],
-      "inputs": [
-        "PLAYER_NAME",
-        "PRIMARY_COLOR",
-        "NICKNAME/TITLE"
-      ],
-      "preview": "../styles/image-football-player-stats-doodle-poster-source/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "@ryanpp27",
-        "url": "https://x.com/ryanpp27/status/2048602248524214542"
-      },
-      "json": "../styles/image-football-player-stats-doodle-poster/style.json",
-      "copy": "../docs/copy-prompts/image-football-player-stats-doodle-poster.md"
     },
     {
       "slug": "image-football-player-stats-doodle-poster-source",
@@ -2015,7 +1641,11 @@
         "信息图表",
         "海报设计"
       ],
-      "inputs": [],
+      "inputs": [
+        "PLAYER_NAME",
+        "PRIMARY_COLOR",
+        "NICKNAME/TITLE"
+      ],
       "preview": "../styles/image-football-player-stats-doodle-poster-source/preview.jpg",
       "sample": null,
       "source": {
@@ -2070,9 +1700,9 @@
       "copy": "../docs/copy-prompts/video-50e620e4e4.md"
     },
     {
-      "slug": "video-vertical-crane-reveal",
+      "slug": "video-vertical-crane-reveal-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "垂直升降揭示",
       "category": "镜头运动",
       "summary": "通过摇臂垂直升高并持续向下俯仰，在固定主体位置的同时逐步揭示环境规模。",
@@ -2087,59 +1717,11 @@
       "preview": "../styles/video-vertical-crane-reveal-source/preview.jpg",
       "sample": "../styles/video-vertical-crane-reveal-source/sample.mp4",
       "source": {
-        "author": "Higgsfield.AI Team",
-        "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
-      },
-      "json": "../styles/video-vertical-crane-reveal/style.json",
-      "copy": "../docs/copy-prompts/video-vertical-crane-reveal.md"
-    },
-    {
-      "slug": "video-vertical-crane-reveal-source",
-      "kind": "video",
-      "type": "source",
-      "title": "垂直升降揭示",
-      "category": "镜头运动",
-      "summary": "通过摇臂垂直升高并持续向下俯仰，在固定主体位置的同时逐步揭示环境规模。",
-      "tags": [
-        "镜头运动",
-        "上升摇臂",
-        "横屏"
-      ],
-      "inputs": [],
-      "preview": "../styles/video-vertical-crane-reveal-source/preview.jpg",
-      "sample": "../styles/video-vertical-crane-reveal-source/sample.mp4",
-      "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
       "json": "../styles/video-vertical-crane-reveal-source/style.json",
       "copy": "../docs/copy-prompts/video-vertical-crane-reveal-source.md"
-    },
-    {
-      "slug": "video-brutalist-courtyard-martial-arts",
-      "kind": "video",
-      "type": "adaptation",
-      "title": "粗野主义庭院武术动作",
-      "category": "动作",
-      "summary": "生成发生在粗野主义混凝土庭院中的多人武术对抗，强调快节奏摄影和高张力布光。",
-      "tags": [
-        "动作",
-        "武术",
-        "横屏"
-      ],
-      "inputs": [
-        "场景：粗野主义风格混凝土多层庭院",
-        "主角：身穿拼色棒球夹克、连帽衫及工装裤的年轻男性",
-        "对手：佩戴白色狐狸面具并手持武士刀的敏捷女刺客"
-      ],
-      "preview": "../styles/video-brutalist-courtyard-martial-arts-source/preview.jpg",
-      "sample": "../styles/video-brutalist-courtyard-martial-arts-source/sample.mp4",
-      "source": {
-        "author": "Avelyrah（@AvelyrahnAI）",
-        "url": "https://x.com/AvelyrahnAI/status/2088495522801942951"
-      },
-      "json": "../styles/video-brutalist-courtyard-martial-arts/style.json",
-      "copy": "../docs/copy-prompts/video-brutalist-courtyard-martial-arts.md"
     },
     {
       "slug": "video-brutalist-courtyard-martial-arts-source",
@@ -2153,7 +1735,11 @@
         "武术",
         "横屏"
       ],
-      "inputs": [],
+      "inputs": [
+        "场景：粗野主义风格混凝土多层庭院",
+        "主角：身穿拼色棒球夹克、连帽衫及工装裤的年轻男性",
+        "对手：佩戴白色狐狸面具并手持武士刀的敏捷女刺客"
+      ],
       "preview": "../styles/video-brutalist-courtyard-martial-arts-source/preview.jpg",
       "sample": "../styles/video-brutalist-courtyard-martial-arts-source/sample.mp4",
       "source": {
@@ -2186,9 +1772,9 @@
       "copy": "../docs/copy-prompts/video-8f1bbd26f7.md"
     },
     {
-      "slug": "video-first-person-dragon-rider",
+      "slug": "video-first-person-dragon-rider-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "第一人称视角：龙骑士电影级画面",
       "category": "电影感",
       "summary": "以第一人称骑手视角生成巨龙从海岸悬崖起飞、贴海飞行、入水并再次冲出水面的奇幻镜头。",
@@ -2205,28 +1791,6 @@
       "preview": "../styles/video-first-person-dragon-rider-source/preview.jpg",
       "sample": "../styles/video-first-person-dragon-rider-source/sample.mp4",
       "source": {
-        "author": "Nexora（@frametheory058）",
-        "url": "https://x.com/frametheory058/status/2087007818721423855"
-      },
-      "json": "../styles/video-first-person-dragon-rider/style.json",
-      "copy": "../docs/copy-prompts/video-first-person-dragon-rider.md"
-    },
-    {
-      "slug": "video-first-person-dragon-rider-source",
-      "kind": "video",
-      "type": "source",
-      "title": "第一人称视角：龙骑士电影级画面",
-      "category": "电影感",
-      "summary": "以第一人称骑手视角生成巨龙从海岸悬崖起飞、贴海飞行、入水并再次冲出水面的奇幻镜头。",
-      "tags": [
-        "电影感",
-        "奇幻",
-        "竖屏"
-      ],
-      "inputs": [],
-      "preview": "../styles/video-first-person-dragon-rider-source/preview.jpg",
-      "sample": "../styles/video-first-person-dragon-rider-source/sample.mp4",
-      "source": {
         "author": "Nexora（X：`@frametheory058`）",
         "url": "https://x.com/frametheory058/status/2087007818721423855"
       },
@@ -2234,9 +1798,9 @@
       "copy": "../docs/copy-prompts/video-first-person-dragon-rider-source.md"
     },
     {
-      "slug": "video-cinematic-roller-skating-action",
+      "slug": "video-cinematic-roller-skating-action-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "电影级动作轮滑序列",
       "category": "动作",
       "summary": "生成一名轮滑女性穿梭城市车流并躲避警车追逐的电影级动作序列，强调角色一致性和真实运动物理。",
@@ -2253,59 +1817,11 @@
       "preview": "../styles/video-cinematic-roller-skating-action-source/preview.jpg",
       "sample": "../styles/video-cinematic-roller-skating-action-source/sample.mp4",
       "source": {
-        "author": "Smiling Khan（@AIwithkhan）",
-        "url": "https://x.com/AIwithkhan/status/2088506532434743745"
-      },
-      "json": "../styles/video-cinematic-roller-skating-action/style.json",
-      "copy": "../docs/copy-prompts/video-cinematic-roller-skating-action.md"
-    },
-    {
-      "slug": "video-cinematic-roller-skating-action-source",
-      "kind": "video",
-      "type": "source",
-      "title": "电影级动作轮滑序列",
-      "category": "动作",
-      "summary": "生成一名轮滑女性穿梭城市车流并躲避警车追逐的电影级动作序列，强调角色一致性和真实运动物理。",
-      "tags": [
-        "动作",
-        "电影感",
-        "横屏"
-      ],
-      "inputs": [],
-      "preview": "../styles/video-cinematic-roller-skating-action-source/preview.jpg",
-      "sample": "../styles/video-cinematic-roller-skating-action-source/sample.mp4",
-      "source": {
         "author": "Smiling Khan（X：`@AIwithkhan`）",
         "url": "https://x.com/AIwithkhan/status/2088506532434743745"
       },
       "json": "../styles/video-cinematic-roller-skating-action-source/style.json",
       "copy": "../docs/copy-prompts/video-cinematic-roller-skating-action-source.md"
-    },
-    {
-      "slug": "video-cinematic-shaolin-action",
-      "kind": "video",
-      "type": "adaptation",
-      "title": "电影级少林武僧动作大片",
-      "category": "动作",
-      "summary": "生成少林武僧与石甲生物对决的武侠奇幻动作序列，包含分段动作编排、变速和电光效果。",
-      "tags": [
-        "动作",
-        "电影感",
-        "奇幻"
-      ],
-      "inputs": [
-        "主角：身着藏红花色僧袍的健硕少林武僧",
-        "场景：广阔的废弃山间寺庙庭院",
-        "对手：四个高耸的原创石甲生物"
-      ],
-      "preview": "../styles/video-cinematic-shaolin-action-source/preview.jpg",
-      "sample": "../styles/video-cinematic-shaolin-action-source/sample.mp4",
-      "source": {
-        "author": "Pierrick Chevallier（@CharaspowerAI）",
-        "url": "https://x.com/CharaspowerAI/status/2086830115527250284"
-      },
-      "json": "../styles/video-cinematic-shaolin-action/style.json",
-      "copy": "../docs/copy-prompts/video-cinematic-shaolin-action.md"
     },
     {
       "slug": "video-cinematic-shaolin-action-source",
@@ -2319,7 +1835,11 @@
         "电影感",
         "奇幻"
       ],
-      "inputs": [],
+      "inputs": [
+        "主角：身着藏红花色僧袍的健硕少林武僧",
+        "场景：广阔的废弃山间寺庙庭院",
+        "对手：四个高耸的原创石甲生物"
+      ],
       "preview": "../styles/video-cinematic-shaolin-action-source/preview.jpg",
       "sample": "../styles/video-cinematic-shaolin-action-source/sample.mp4",
       "source": {
@@ -2396,9 +1916,9 @@
       "copy": "../docs/copy-prompts/video-e0fd6d34ba.md"
     },
     {
-      "slug": "video-fixed-point-pan-right-reveal",
+      "slug": "video-fixed-point-pan-right-reveal-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "固定点向右横摇揭示",
       "category": "镜头运动",
       "summary": "让摄像机保持原地不位移，只向右水平旋转并在结尾主体上稳定停留。",
@@ -2412,28 +1932,6 @@
         "环境",
         "落点主体"
       ],
-      "preview": "../styles/video-fixed-point-pan-right-reveal-source/preview.jpg",
-      "sample": "../styles/video-fixed-point-pan-right-reveal-source/sample.mp4",
-      "source": {
-        "author": "Higgsfield.AI Team",
-        "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
-      },
-      "json": "../styles/video-fixed-point-pan-right-reveal/style.json",
-      "copy": "../docs/copy-prompts/video-fixed-point-pan-right-reveal.md"
-    },
-    {
-      "slug": "video-fixed-point-pan-right-reveal-source",
-      "kind": "video",
-      "type": "source",
-      "title": "固定点向右横摇揭示",
-      "category": "镜头运动",
-      "summary": "让摄像机保持原地不位移，只向右水平旋转并在结尾主体上稳定停留。",
-      "tags": [
-        "镜头运动",
-        "向右摇摄",
-        "横屏"
-      ],
-      "inputs": [],
       "preview": "../styles/video-fixed-point-pan-right-reveal-source/preview.jpg",
       "sample": "../styles/video-fixed-point-pan-right-reveal-source/sample.mp4",
       "source": {
@@ -2466,9 +1964,9 @@
       "copy": "../docs/copy-prompts/video-3207e9e8c2.md"
     },
     {
-      "slug": "video-beach-stone-stop-motion",
+      "slug": "video-beach-stone-stop-motion-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "海滩石像定格动画",
       "category": "动画",
       "summary": "生成由天然石块组成的小型人形在潮汐池中起舞、跌倒并重新散落成石块的定格动画。",
@@ -2485,58 +1983,11 @@
       "preview": "../styles/video-beach-stone-stop-motion-source/preview.jpg",
       "sample": "../styles/video-beach-stone-stop-motion-source/sample.mp4",
       "source": {
-        "author": "Marcos（@arsalannazir07）",
-        "url": "https://x.com/arsalannazir07/status/2096791786807275583"
-      },
-      "json": "../styles/video-beach-stone-stop-motion/style.json",
-      "copy": "../docs/copy-prompts/video-beach-stone-stop-motion.md"
-    },
-    {
-      "slug": "video-beach-stone-stop-motion-source",
-      "kind": "video",
-      "type": "source",
-      "title": "海滩石像定格动画",
-      "category": "动画",
-      "summary": "生成由天然石块组成的小型人形在潮汐池中起舞、跌倒并重新散落成石块的定格动画。",
-      "tags": [
-        "动画",
-        "定格动画",
-        "竖屏"
-      ],
-      "inputs": [],
-      "preview": "../styles/video-beach-stone-stop-motion-source/preview.jpg",
-      "sample": "../styles/video-beach-stone-stop-motion-source/sample.mp4",
-      "source": {
         "author": "Marcos（X：`@arsalannazir07`）。",
         "url": "https://x.com/arsalannazir07/status/2096791786807275583"
       },
       "json": "../styles/video-beach-stone-stop-motion-source/style.json",
       "copy": "../docs/copy-prompts/video-beach-stone-stop-motion-source.md"
-    },
-    {
-      "slug": "video-aerial-pullback-rise-reveal",
-      "kind": "video",
-      "type": "adaptation",
-      "title": "航拍后拉升高揭示",
-      "category": "镜头运动",
-      "summary": "让摄像机沿主体轴线同时后退和升高，从近景主体逐步揭示完整载具或大场景。",
-      "tags": [
-        "镜头运动",
-        "航拍",
-        "横屏"
-      ],
-      "inputs": [
-        "主体",
-        "载具/场景"
-      ],
-      "preview": "../styles/video-aerial-pullback-rise-reveal-source/preview.jpg",
-      "sample": "../styles/video-aerial-pullback-rise-reveal-source/sample.mp4",
-      "source": {
-        "author": "Higgsfield.AI Team",
-        "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
-      },
-      "json": "../styles/video-aerial-pullback-rise-reveal/style.json",
-      "copy": "../docs/copy-prompts/video-aerial-pullback-rise-reveal.md"
     },
     {
       "slug": "video-aerial-pullback-rise-reveal-source",
@@ -2550,7 +2001,10 @@
         "航拍",
         "横屏"
       ],
-      "inputs": [],
+      "inputs": [
+        "主体",
+        "载具/场景"
+      ],
       "preview": "../styles/video-aerial-pullback-rise-reveal-source/preview.jpg",
       "sample": "../styles/video-aerial-pullback-rise-reveal-source/sample.mp4",
       "source": {
@@ -2583,9 +2037,9 @@
       "copy": "../docs/copy-prompts/video-19ceae29af.md"
     },
     {
-      "slug": "video-sci-fi-motorcycle-action",
+      "slug": "video-sci-fi-motorcycle-action-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "科幻摩托车动作场面",
       "category": "动作",
       "summary": "生成未来摩托车追逐、外星母舰爆炸和近身格斗组成的高能电影级科幻动作场面。",
@@ -2599,28 +2053,6 @@
         "主角：留着深色卷发、身穿战术服装的运动型女性",
         "载具：哑光黑色未来派摩托车"
       ],
-      "preview": "../styles/video-sci-fi-motorcycle-action-source/preview.jpg",
-      "sample": "../styles/video-sci-fi-motorcycle-action-source/sample.mp4",
-      "source": {
-        "author": "Zyrella（@Zyrellix）",
-        "url": "https://x.com/Zyrellix/status/2087846827475239167"
-      },
-      "json": "../styles/video-sci-fi-motorcycle-action/style.json",
-      "copy": "../docs/copy-prompts/video-sci-fi-motorcycle-action.md"
-    },
-    {
-      "slug": "video-sci-fi-motorcycle-action-source",
-      "kind": "video",
-      "type": "source",
-      "title": "科幻摩托车动作场面",
-      "category": "动作",
-      "summary": "生成未来摩托车追逐、外星母舰爆炸和近身格斗组成的高能电影级科幻动作场面。",
-      "tags": [
-        "动作",
-        "电影感",
-        "科幻"
-      ],
-      "inputs": [],
       "preview": "../styles/video-sci-fi-motorcycle-action-source/preview.jpg",
       "sample": "../styles/video-sci-fi-motorcycle-action-source/sample.mp4",
       "source": {
@@ -2697,9 +2129,9 @@
       "copy": "../docs/copy-prompts/video-69395c9b4c.md"
     },
     {
-      "slug": "video-anime-skateboard-chase-nyc",
+      "slug": "video-anime-skateboard-chase-nyc-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "纽约街头的动漫滑板追逐",
       "category": "动画",
       "summary": "根据角色参考图生成女孩与小猫在纽约街头高速滑板追逐的半写实动漫短片。",
@@ -2715,57 +2147,11 @@
       "preview": "../styles/video-anime-skateboard-chase-nyc-source/preview.jpg",
       "sample": "../styles/video-anime-skateboard-chase-nyc-source/sample.mp4",
       "source": {
-        "author": "Synthia（@AIwithSynthia）",
-        "url": "https://x.com/AIwithSynthia/status/2088650163778961654"
-      },
-      "json": "../styles/video-anime-skateboard-chase-nyc/style.json",
-      "copy": "../docs/copy-prompts/video-anime-skateboard-chase-nyc.md"
-    },
-    {
-      "slug": "video-anime-skateboard-chase-nyc-source",
-      "kind": "video",
-      "type": "source",
-      "title": "纽约街头的动漫滑板追逐",
-      "category": "动画",
-      "summary": "根据角色参考图生成女孩与小猫在纽约街头高速滑板追逐的半写实动漫短片。",
-      "tags": [
-        "动画",
-        "滑板",
-        "横屏"
-      ],
-      "inputs": [],
-      "preview": "../styles/video-anime-skateboard-chase-nyc-source/preview.jpg",
-      "sample": "../styles/video-anime-skateboard-chase-nyc-source/sample.mp4",
-      "source": {
         "author": "Synthia（X：`@AIwithSynthia`）",
         "url": "https://x.com/AIwithSynthia/status/2088650163778961654"
       },
       "json": "../styles/video-anime-skateboard-chase-nyc-source/style.json",
       "copy": "../docs/copy-prompts/video-anime-skateboard-chase-nyc-source.md"
-    },
-    {
-      "slug": "video-nyc-parkour-web-swing",
-      "kind": "video",
-      "type": "adaptation",
-      "title": "纽约跑酷与蛛丝摆荡动作",
-      "category": "动作",
-      "summary": "生成一段15秒连续无人机跟拍，让角色在纽约街区完成跑酷、蹬墙和蛛丝摆荡。",
-      "tags": [
-        "动作",
-        "跑酷",
-        "横屏"
-      ],
-      "inputs": [
-        "结束"
-      ],
-      "preview": "../styles/video-nyc-parkour-web-swing-source/preview.jpg",
-      "sample": "../styles/video-nyc-parkour-web-swing-source/sample.mp4",
-      "source": {
-        "author": "Elsa Ai（@ElsaSofia__AI）",
-        "url": "https://x.com/ElsaSofia__AI/status/2089306746804375878"
-      },
-      "json": "../styles/video-nyc-parkour-web-swing/style.json",
-      "copy": "../docs/copy-prompts/video-nyc-parkour-web-swing.md"
     },
     {
       "slug": "video-nyc-parkour-web-swing-source",
@@ -2779,7 +2165,9 @@
         "跑酷",
         "横屏"
       ],
-      "inputs": [],
+      "inputs": [
+        "结束"
+      ],
       "preview": "../styles/video-nyc-parkour-web-swing-source/preview.jpg",
       "sample": "../styles/video-nyc-parkour-web-swing-source/sample.mp4",
       "source": {
@@ -2856,9 +2244,9 @@
       "copy": "../docs/copy-prompts/video-0a64266abe.md"
     },
     {
-      "slug": "video-rack-focus-foreground-background",
+      "slug": "video-rack-focus-foreground-background-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "前后景转移焦点",
       "category": "镜头运动",
       "summary": "保持机位和构图完全固定，只在远景锚点与近景主体之间进行一次平滑转焦。",
@@ -2875,28 +2263,6 @@
       "preview": "../styles/video-rack-focus-foreground-background-source/preview.jpg",
       "sample": "../styles/video-rack-focus-foreground-background-source/sample.mp4",
       "source": {
-        "author": "Higgsfield.AI Team",
-        "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
-      },
-      "json": "../styles/video-rack-focus-foreground-background/style.json",
-      "copy": "../docs/copy-prompts/video-rack-focus-foreground-background.md"
-    },
-    {
-      "slug": "video-rack-focus-foreground-background-source",
-      "kind": "video",
-      "type": "source",
-      "title": "前后景转移焦点",
-      "category": "镜头运动",
-      "summary": "保持机位和构图完全固定，只在远景锚点与近景主体之间进行一次平滑转焦。",
-      "tags": [
-        "镜头运动",
-        "焦点切换",
-        "横屏"
-      ],
-      "inputs": [],
-      "preview": "../styles/video-rack-focus-foreground-background-source/preview.jpg",
-      "sample": "../styles/video-rack-focus-foreground-background-source/sample.mp4",
-      "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
@@ -2904,9 +2270,9 @@
       "copy": "../docs/copy-prompts/video-rack-focus-foreground-background-source.md"
     },
     {
-      "slug": "video-japanese-influencer-get-ready-ugc",
+      "slug": "video-japanese-influencer-get-ready-ugc-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "日本网红出门准备 UGC",
       "category": "UGC",
       "summary": "使用角色图和房间首帧生成一段日本美妆网红出门前整理刘海的自然手机口播视频。",
@@ -2922,59 +2288,11 @@
       "preview": "../styles/video-japanese-influencer-get-ready-ugc-source/preview.jpg",
       "sample": "../styles/video-japanese-influencer-get-ready-ugc-source/sample.mp4",
       "source": {
-        "author": "タナベ（@tanabe_fragm）",
-        "url": "https://x.com/tanabe_fragm/status/2096136682055864564"
-      },
-      "json": "../styles/video-japanese-influencer-get-ready-ugc/style.json",
-      "copy": "../docs/copy-prompts/video-japanese-influencer-get-ready-ugc.md"
-    },
-    {
-      "slug": "video-japanese-influencer-get-ready-ugc-source",
-      "kind": "video",
-      "type": "source",
-      "title": "日本网红出门准备 UGC",
-      "category": "UGC",
-      "summary": "使用角色图和房间首帧生成一段日本美妆网红出门前整理刘海的自然手机口播视频。",
-      "tags": [
-        "UGC",
-        "竖屏",
-        "多参考图"
-      ],
-      "inputs": [],
-      "preview": "../styles/video-japanese-influencer-get-ready-ugc-source/preview.jpg",
-      "sample": "../styles/video-japanese-influencer-get-ready-ugc-source/sample.mp4",
-      "source": {
         "author": "タナベ | AI動画 × マーケティング（X：`@tanabe_fragm`）。",
         "url": "https://x.com/tanabe_fragm/status/2096136682055864564"
       },
       "json": "../styles/video-japanese-influencer-get-ready-ugc-source/style.json",
       "copy": "../docs/copy-prompts/video-japanese-influencer-get-ready-ugc-source.md"
-    },
-    {
-      "slug": "video-cliffside-roller-skating",
-      "kind": "video",
-      "type": "adaptation",
-      "title": "山崖轮滑动作",
-      "category": "动作",
-      "summary": "生成一名女性在危险山崖道路轮滑的超写实动作序列，重点控制环境尺度、身体平衡和轮滑物理。",
-      "tags": [
-        "动作",
-        "电影感",
-        "横屏"
-      ],
-      "inputs": [
-        "主角：年轻女性",
-        "场景：危险的山地环境",
-        "角色服装：黑色专业户外服装"
-      ],
-      "preview": "../styles/video-cliffside-roller-skating-source/preview.jpg",
-      "sample": "../styles/video-cliffside-roller-skating-source/sample.mp4",
-      "source": {
-        "author": "Sarah（@SyntheSarah）",
-        "url": "https://x.com/SyntheSarah/status/2088122680142930199"
-      },
-      "json": "../styles/video-cliffside-roller-skating/style.json",
-      "copy": "../docs/copy-prompts/video-cliffside-roller-skating.md"
     },
     {
       "slug": "video-cliffside-roller-skating-source",
@@ -2988,7 +2306,11 @@
         "电影感",
         "横屏"
       ],
-      "inputs": [],
+      "inputs": [
+        "主角：年轻女性",
+        "场景：危险的山地环境",
+        "角色服装：黑色专业户外服装"
+      ],
       "preview": "../styles/video-cliffside-roller-skating-source/preview.jpg",
       "sample": "../styles/video-cliffside-roller-skating-source/sample.mp4",
       "source": {
@@ -3043,9 +2365,9 @@
       "copy": "../docs/copy-prompts/video-512e7b9e27.md"
     },
     {
-      "slug": "video-luxury-jewelry-unboxing",
+      "slug": "video-luxury-jewelry-unboxing-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "奢华珠宝开箱广告",
       "category": "广告",
       "summary": "生成包含礼盒开箱、宝石微距、人物佩戴和产品陈列的竖屏珠宝商业广告。",
@@ -3059,28 +2381,6 @@
         "产品：高级珠宝礼盒",
         "核心珠宝：闪耀的蓝色宝石吊坠"
       ],
-      "preview": "../styles/video-luxury-jewelry-unboxing-source/preview.jpg",
-      "sample": "../styles/video-luxury-jewelry-unboxing-source/sample.mp4",
-      "source": {
-        "author": "ayzalnoor（@ayzalnooor24521）",
-        "url": "https://x.com/ayzalnooor24521/status/2097194787564658942"
-      },
-      "json": "../styles/video-luxury-jewelry-unboxing/style.json",
-      "copy": "../docs/copy-prompts/video-luxury-jewelry-unboxing.md"
-    },
-    {
-      "slug": "video-luxury-jewelry-unboxing-source",
-      "kind": "video",
-      "type": "source",
-      "title": "奢华珠宝开箱广告",
-      "category": "广告",
-      "summary": "生成包含礼盒开箱、宝石微距、人物佩戴和产品陈列的竖屏珠宝商业广告。",
-      "tags": [
-        "广告",
-        "珠宝",
-        "竖屏"
-      ],
-      "inputs": [],
       "preview": "../styles/video-luxury-jewelry-unboxing-source/preview.jpg",
       "sample": "../styles/video-luxury-jewelry-unboxing-source/sample.mp4",
       "source": {
@@ -3113,9 +2413,9 @@
       "copy": "../docs/copy-prompts/video-dcc3d74eac.md"
     },
     {
-      "slug": "video-bioluminescent-lighthouse-keeper",
+      "slug": "video-bioluminescent-lighthouse-keeper-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "生物发光灯塔守望者",
       "category": "电影感",
       "summary": "生成老灯塔守望者在雾夜悬崖目睹发光球体从海中升起的连续电影镜头。",
@@ -3132,55 +2432,11 @@
       "preview": "../styles/video-bioluminescent-lighthouse-keeper-source/preview.jpg",
       "sample": "../styles/video-bioluminescent-lighthouse-keeper-source/sample.mp4",
       "source": {
-        "author": "Sarah（@SyntheSarah）",
-        "url": "https://x.com/SyntheSarah/status/2097182529564365135"
-      },
-      "json": "../styles/video-bioluminescent-lighthouse-keeper/style.json",
-      "copy": "../docs/copy-prompts/video-bioluminescent-lighthouse-keeper.md"
-    },
-    {
-      "slug": "video-bioluminescent-lighthouse-keeper-source",
-      "kind": "video",
-      "type": "source",
-      "title": "生物发光灯塔守望者",
-      "category": "电影感",
-      "summary": "生成老灯塔守望者在雾夜悬崖目睹发光球体从海中升起的连续电影镜头。",
-      "tags": [
-        "电影感",
-        "奇幻",
-        "横屏"
-      ],
-      "inputs": [],
-      "preview": "../styles/video-bioluminescent-lighthouse-keeper-source/preview.jpg",
-      "sample": "../styles/video-bioluminescent-lighthouse-keeper-source/sample.mp4",
-      "source": {
         "author": "Sarah（X：`@SyntheSarah`）。",
         "url": "https://x.com/SyntheSarah/status/2097182529564365135"
       },
       "json": "../styles/video-bioluminescent-lighthouse-keeper-source/style.json",
       "copy": "../docs/copy-prompts/video-bioluminescent-lighthouse-keeper-source.md"
-    },
-    {
-      "slug": "video-recipe-infographic-cooking-sequence",
-      "kind": "video",
-      "type": "adaptation",
-      "title": "食谱信息图转连续烹饪短片",
-      "category": "烹饪",
-      "summary": "以一张多步骤食谱信息图为视觉分镜，先生成前半段，再续写后半段，得到保持食材状态、厨房环境、声效和烹饪顺序连续的竖屏美食短片。",
-      "tags": [
-        "烹饪",
-        "竖屏",
-        "参考图片"
-      ],
-      "inputs": [],
-      "preview": "../styles/video-recipe-infographic-cooking-sequence-source/preview.jpg",
-      "sample": "../styles/video-recipe-infographic-cooking-sequence-source/sample.mp4",
-      "source": {
-        "author": "Oleksa AI（@OleksaFrame）",
-        "url": "https://x.com/OleksaFrame/status/2097669808800113040"
-      },
-      "json": "../styles/video-recipe-infographic-cooking-sequence/style.json",
-      "copy": "../docs/copy-prompts/video-recipe-infographic-cooking-sequence.md"
     },
     {
       "slug": "video-recipe-infographic-cooking-sequence-source",
@@ -3227,9 +2483,9 @@
       "copy": "../docs/copy-prompts/video-a2196efe4e.md"
     },
     {
-      "slug": "video-seoul-sunday-dv-home-video",
+      "slug": "video-seoul-sunday-dv-home-video-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "首尔周日 DV 家庭录像",
       "category": "DV",
       "summary": "生成一段具有 21 世纪初手持 DV 质感、自然日常互动和连续物体状态的首尔生活记录，适合怀旧 Vlog、城市日常和人物短片。",
@@ -3246,55 +2502,11 @@
       "preview": "../styles/video-seoul-sunday-dv-home-video-source/preview.jpg",
       "sample": "../styles/video-seoul-sunday-dv-home-video-source/sample.mp4",
       "source": {
-        "author": "Smiling Khan（@AIwithkhan）",
-        "url": "https://x.com/AIwithkhan/status/2096424933366931946"
-      },
-      "json": "../styles/video-seoul-sunday-dv-home-video/style.json",
-      "copy": "../docs/copy-prompts/video-seoul-sunday-dv-home-video.md"
-    },
-    {
-      "slug": "video-seoul-sunday-dv-home-video-source",
-      "kind": "video",
-      "type": "source",
-      "title": "首尔周日 DV 家庭录像",
-      "category": "DV",
-      "summary": "生成一段具有 21 世纪初手持 DV 质感、自然日常互动和连续物体状态的首尔生活记录，适合怀旧 Vlog、城市日常和人物短片。",
-      "tags": [
-        "DV",
-        "怀旧",
-        "横屏"
-      ],
-      "inputs": [],
-      "preview": "../styles/video-seoul-sunday-dv-home-video-source/preview.jpg",
-      "sample": "../styles/video-seoul-sunday-dv-home-video-source/sample.mp4",
-      "source": {
         "author": "@Smiling Khan（X：`@AIwithkhan`）",
         "url": "https://x.com/AIwithkhan/status/2096424933366931946"
       },
       "json": "../styles/video-seoul-sunday-dv-home-video-source/style.json",
       "copy": "../docs/copy-prompts/video-seoul-sunday-dv-home-video-source.md"
-    },
-    {
-      "slug": "video-watercolor-sketch-parkour-chase",
-      "kind": "video",
-      "type": "adaptation",
-      "title": "水彩素描跑酷追逐",
-      "category": "动画",
-      "summary": "使用多张角色与场景参考图生成三人跑酷追逐，并把每一帧呈现为不稳定线条和水彩重新绘制的动画。",
-      "tags": [
-        "动画",
-        "水彩",
-        "横屏"
-      ],
-      "inputs": [],
-      "preview": "../styles/video-watercolor-sketch-parkour-chase-source/preview.jpg",
-      "sample": "../styles/video-watercolor-sketch-parkour-chase-source/sample.mp4",
-      "source": {
-        "author": "おのもの（@user_monom）",
-        "url": "https://x.com/user_monom/status/2086447224750530664"
-      },
-      "json": "../styles/video-watercolor-sketch-parkour-chase/style.json",
-      "copy": "../docs/copy-prompts/video-watercolor-sketch-parkour-chase.md"
     },
     {
       "slug": "video-watercolor-sketch-parkour-chase-source",
@@ -3341,9 +2553,9 @@
       "copy": "../docs/copy-prompts/video-345a132c7a.md"
     },
     {
-      "slug": "video-dolly-zoom-space-warp",
+      "slug": "video-dolly-zoom-space-warp-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "推拉变焦空间扭曲",
       "category": "镜头运动",
       "summary": "同步执行摄像机前移和镜头变广，在保持主体尺寸不变的同时拉伸背景空间。",
@@ -3356,28 +2568,6 @@
         "主体",
         "重复出现的背景元素"
       ],
-      "preview": "../styles/video-dolly-zoom-space-warp-source/preview.jpg",
-      "sample": "../styles/video-dolly-zoom-space-warp-source/sample.mp4",
-      "source": {
-        "author": "Higgsfield.AI Team",
-        "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
-      },
-      "json": "../styles/video-dolly-zoom-space-warp/style.json",
-      "copy": "../docs/copy-prompts/video-dolly-zoom-space-warp.md"
-    },
-    {
-      "slug": "video-dolly-zoom-space-warp-source",
-      "kind": "video",
-      "type": "source",
-      "title": "推拉变焦空间扭曲",
-      "category": "镜头运动",
-      "summary": "同步执行摄像机前移和镜头变广，在保持主体尺寸不变的同时拉伸背景空间。",
-      "tags": [
-        "镜头运动",
-        "滑动变焦",
-        "横屏"
-      ],
-      "inputs": [],
       "preview": "../styles/video-dolly-zoom-space-warp-source/preview.jpg",
       "sample": "../styles/video-dolly-zoom-space-warp-source/sample.mp4",
       "source": {
@@ -3410,9 +2600,9 @@
       "copy": "../docs/copy-prompts/video-565c5a1550.md"
     },
     {
-      "slug": "video-bedroom-falling-book-catch",
+      "slug": "video-bedroom-falling-book-catch-source",
       "kind": "video",
-      "type": "adaptation",
+      "type": "source",
       "title": "卧室接住落书互动",
       "category": "角色互动",
       "summary": "基于卧室人物首帧生成书籍滑落、人物及时接住并作出自然反应的连续物体交互。",
@@ -3427,58 +2617,11 @@
       "preview": "../styles/video-bedroom-falling-book-catch-source/preview.jpg",
       "sample": "../styles/video-bedroom-falling-book-catch-source/sample.mp4",
       "source": {
-        "author": "Ahmad Faraz（@iamahmedfaraz66）",
-        "url": "https://x.com/iamahmedfaraz66/status/2095139680786493912"
-      },
-      "json": "../styles/video-bedroom-falling-book-catch/style.json",
-      "copy": "../docs/copy-prompts/video-bedroom-falling-book-catch.md"
-    },
-    {
-      "slug": "video-bedroom-falling-book-catch-source",
-      "kind": "video",
-      "type": "source",
-      "title": "卧室接住落书互动",
-      "category": "角色互动",
-      "summary": "基于卧室人物首帧生成书籍滑落、人物及时接住并作出自然反应的连续物体交互。",
-      "tags": [
-        "角色互动",
-        "竖屏",
-        "图生视频"
-      ],
-      "inputs": [],
-      "preview": "../styles/video-bedroom-falling-book-catch-source/preview.jpg",
-      "sample": "../styles/video-bedroom-falling-book-catch-source/sample.mp4",
-      "source": {
         "author": "Ahmad Faraz（X：`@iamahmedfaraz66`）。",
         "url": "https://x.com/iamahmedfaraz66/status/2095139680786493912"
       },
       "json": "../styles/video-bedroom-falling-book-catch-source/style.json",
       "copy": "../docs/copy-prompts/video-bedroom-falling-book-catch-source.md"
-    },
-    {
-      "slug": "video-drone-orbit-subject",
-      "kind": "video",
-      "type": "adaptation",
-      "title": "无人机环绕主体",
-      "category": "镜头运动",
-      "summary": "让无人机以固定半径和高度匀速环绕主体，利用地平线旋转和视差建立空间感。",
-      "tags": [
-        "镜头运动",
-        "无人机环绕",
-        "横屏"
-      ],
-      "inputs": [
-        "主体",
-        "右侧"
-      ],
-      "preview": "../styles/video-drone-orbit-subject-source/preview.jpg",
-      "sample": "../styles/video-drone-orbit-subject-source/sample.mp4",
-      "source": {
-        "author": "Higgsfield.AI Team",
-        "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
-      },
-      "json": "../styles/video-drone-orbit-subject/style.json",
-      "copy": "../docs/copy-prompts/video-drone-orbit-subject.md"
     },
     {
       "slug": "video-drone-orbit-subject-source",
@@ -3492,7 +2635,10 @@
         "无人机环绕",
         "横屏"
       ],
-      "inputs": [],
+      "inputs": [
+        "主体",
+        "右侧"
+      ],
       "preview": "../styles/video-drone-orbit-subject-source/preview.jpg",
       "sample": "../styles/video-drone-orbit-subject-source/sample.mp4",
       "source": {
@@ -3525,30 +2671,6 @@
       "copy": "../docs/copy-prompts/video-aecc45705d.md"
     },
     {
-      "slug": "video-rainforest-mysterious-light",
-      "kind": "video",
-      "type": "adaptation",
-      "title": "雨林神秘光源短片",
-      "category": "电影感",
-      "summary": "基于雨林人物首帧生成女性察觉远处暖光、靠近后光芒消失的氛围悬念短片。",
-      "tags": [
-        "电影感",
-        "悬疑",
-        "竖屏"
-      ],
-      "inputs": [
-        "神秘光源：一束微弱的暖光"
-      ],
-      "preview": "../styles/video-rainforest-mysterious-light-source/preview.jpg",
-      "sample": "../styles/video-rainforest-mysterious-light-source/sample.mp4",
-      "source": {
-        "author": "Ahmad Faraz（@iamahmedfaraz66）",
-        "url": "https://x.com/iamahmedfaraz66/status/2095362901326598521"
-      },
-      "json": "../styles/video-rainforest-mysterious-light/style.json",
-      "copy": "../docs/copy-prompts/video-rainforest-mysterious-light.md"
-    },
-    {
       "slug": "video-rainforest-mysterious-light-source",
       "kind": "video",
       "type": "source",
@@ -3560,7 +2682,9 @@
         "悬疑",
         "竖屏"
       ],
-      "inputs": [],
+      "inputs": [
+        "神秘光源：一束微弱的暖光"
+      ],
       "preview": "../styles/video-rainforest-mysterious-light-source/preview.jpg",
       "sample": "../styles/video-rainforest-mysterious-light-source/sample.mp4",
       "source": {

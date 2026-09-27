@@ -8,9 +8,7 @@
 
 类型：生图 · 来源案例 · 商业广告
 
-来源：[@panchaaan_2](https://x.com/panchaaan_2)
-
-目录来源：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-1.md#case-144)
+来源：[@panchaaan_2](https://x.com/panchaaan_2)（作者主页）
 
 ## 完整 Prompt
 

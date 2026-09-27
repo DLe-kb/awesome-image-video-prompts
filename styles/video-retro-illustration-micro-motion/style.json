@@ -18,9 +18,6 @@
     "url": "https://www.douyin.com/video/7624869691328485361"
   },
   "promptCredit": "根据来源整理的适配提示词",
-  "catalog": {
-    "sourceLabel": "抖音原帖"
-  },
   "preview": "preview.jpg",
   "sample": "sample.mp4",
   "promptEn": "Use the uploaded finished illustration or poster as the first-frame visual reference. Create a cheerful, playful motion-graphics clip with subtle local animation.\n\nKeep the camera fixed throughout: no dolly, pan, zoom, or cuts. Preserve the reference subject's identity, silhouette, placement, colors, bold black lines, halftone dots, paper texture, and overall layout. Do not switch to photorealism or 3D rendering.\n\nAnimate only a few relevant local elements with restrained periodic movement, such as slowly rotating cassette reels, gently bouncing music symbols, or an illustrated animal blinking. Choose actions from the actual uploaded content. Do not add characters, objects, or decorations absent from the reference.\n\nKeep headings, letterforms, wording, text placement, and the background static. Never redraw, drift, warp, or corrupt text, or melt the subject. Use soft, cheerful motion and end near the starting state where possible. No transitions, watermarks, tutorial captions, dialogue, or narration.",

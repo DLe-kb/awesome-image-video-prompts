@@ -34,7 +34,7 @@
 
 把城市地图、弯曲道路、交通工具和地标融合成写实微缩旅行海报。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-miniature-city-map-travel-poster-source.md) · [style.json](../styles/image-miniature-city-map-travel-poster-source/style.json) · [配套版本](copy-prompts/image-miniature-city-map-travel-poster.md)
+[复制 Prompt](copy-prompts/image-miniature-city-map-travel-poster-source.md) · [style.json](../styles/image-miniature-city-map-travel-poster-source/style.json)
 
 ### 城市巨幕三维广告摄影
 
@@ -82,7 +82,7 @@
 
 生成具有撕纸、复印颗粒、网点和手工拼贴质感的法国新浪潮电影海报。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-french-new-wave-torn-paper-poster-source.md) · [style.json](../styles/image-french-new-wave-torn-paper-poster-source/style.json) · [配套版本](copy-prompts/image-french-new-wave-torn-paper-poster.md)
+[复制 Prompt](copy-prompts/image-french-new-wave-torn-paper-poster-source.md) · [style.json](../styles/image-french-new-wave-torn-paper-poster-source/style.json)
 
 ### 反射式滑雪装备落地页
 
@@ -138,7 +138,7 @@
 
 生成从形态观察、结构推导到成品展示的概念家具研发视觉板。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-concept-sofa-development-board-source.md) · [style.json](../styles/image-concept-sofa-development-board-source/style.json) · [配套版本](copy-prompts/image-concept-sofa-development-board.md)
+[复制 Prompt](copy-prompts/image-concept-sofa-development-board-source.md) · [style.json](../styles/image-concept-sofa-development-board-source/style.json)
 
 ### 高定时尚杂志封面
 
@@ -146,7 +146,7 @@
 
 生成带高定人像、夏日金色光线和奢侈时尚排版的杂志封面。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-haute-couture-fashion-magazine-cover-source.md) · [style.json](../styles/image-haute-couture-fashion-magazine-cover-source/style.json) · [配套版本](copy-prompts/image-haute-couture-fashion-magazine-cover.md)
+[复制 Prompt](copy-prompts/image-haute-couture-fashion-magazine-cover-source.md) · [style.json](../styles/image-haute-couture-fashion-magazine-cover-source/style.json)
 
 ### 高端食品商业广告分镜
 
@@ -234,7 +234,7 @@
 
 生成展示可颂制作过程、镜头顺序和成品诱惑力的食品商业分镜板。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-croissant-baking-storyboard-source.md) · [style.json](../styles/image-croissant-baking-storyboard-source/style.json) · [配套版本](copy-prompts/image-croissant-baking-storyboard.md)
+[复制 Prompt](copy-prompts/image-croissant-baking-storyboard-source.md) · [style.json](../styles/image-croissant-baking-storyboard-source/style.json)
 
 ### 老照片人像保真修复
 
@@ -248,7 +248,7 @@
 
 [![梨挞广告四镜头分镜](../styles/pear-tart-storyboard/preview.webp)](copy-prompts/pear-tart-storyboard.md)
 
-四格镜头从原料、制作、烘烤过渡到成品。 · 原创案例
+四格镜头从原料、制作、烘烤过渡到成品。 · 来源待核实
 
 [复制 Prompt](copy-prompts/pear-tart-storyboard.md) · [style.json](../styles/pear-tart-storyboard/style.json)
 
@@ -258,7 +258,7 @@
 
 把旅行票据、城市地标与纸雕场景组合成具有收藏感的立体旅行海报。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-rio-travel-ticket-paper-diorama-poster-source.md) · [style.json](../styles/image-rio-travel-ticket-paper-diorama-poster-source/style.json) · [配套版本](copy-prompts/image-rio-travel-ticket-paper-diorama-poster.md)
+[复制 Prompt](copy-prompts/image-rio-travel-ticket-paper-diorama-poster-source.md) · [style.json](../styles/image-rio-travel-ticket-paper-diorama-poster-source/style.json)
 
 ### 六宫格饮料微缩广告
 
@@ -266,7 +266,7 @@
 
 使用严格六宫格与微缩人物，生成围绕同一饮料品牌展开的完整商业广告系列。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-six-panel-miniature-beverage-ad-source.md) · [style.json](../styles/image-six-panel-miniature-beverage-ad-source/style.json) · [配套版本](copy-prompts/image-six-panel-miniature-beverage-ad.md)
+[复制 Prompt](copy-prompts/image-six-panel-miniature-beverage-ad-source.md) · [style.json](../styles/image-six-panel-miniature-beverage-ad-source/style.json)
 
 ### 旅行纪念珐琅徽章
 
@@ -274,7 +274,7 @@
 
 将旅行照片中的地形、地标和人物比例转化为场景式珐琅纪念徽章。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-travel-souvenir-enamel-pin-source.md) · [style.json](../styles/image-travel-souvenir-enamel-pin-source/style.json) · [配套版本](copy-prompts/image-travel-souvenir-enamel-pin.md)
+[复制 Prompt](copy-prompts/image-travel-souvenir-enamel-pin-source.md) · [style.json](../styles/image-travel-souvenir-enamel-pin-source/style.json)
 
 ### 烹饪速写插画叙事
 
@@ -338,7 +338,7 @@
 
 生成多款高级机械腕表的透明结构、零件拆解和材质说明图鉴。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-luxury-mechanical-watch-technical-guide-source.md) · [style.json](../styles/image-luxury-mechanical-watch-technical-guide-source/style.json) · [配套版本](copy-prompts/image-luxury-mechanical-watch-technical-guide.md)
+[复制 Prompt](copy-prompts/image-luxury-mechanical-watch-technical-guide-source.md) · [style.json](../styles/image-luxury-mechanical-watch-technical-guide-source/style.json)
 
 ### 社交媒体赠礼活动横幅
 
@@ -370,7 +370,7 @@
 
 把食物的不同组成部分按垂直顺序悬浮排列，生成写实爆炸拆解信息图。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-exploded-food-infographic-source.md) · [style.json](../styles/image-exploded-food-infographic-source/style.json) · [配套版本](copy-prompts/image-exploded-food-infographic.md)
+[复制 Prompt](copy-prompts/image-exploded-food-infographic-source.md) · [style.json](../styles/image-exploded-food-infographic-source/style.json)
 
 ### 手工撕纸海报风格
 
@@ -402,7 +402,7 @@
 
 生成融合人物轮廓、东方水墨、叙事场景和留白的双重曝光竖版海报。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-ink-double-exposure-portrait-poster-source.md) · [style.json](../styles/image-ink-double-exposure-portrait-poster-source/style.json) · [配套版本](copy-prompts/image-ink-double-exposure-portrait-poster.md)
+[复制 Prompt](copy-prompts/image-ink-double-exposure-portrait-poster-source.md) · [style.json](../styles/image-ink-double-exposure-portrait-poster-source/style.json)
 
 ### 四城极简旅行海报系列
 
@@ -410,7 +410,7 @@
 
 以统一的极简矢量风格生成多个城市或目的地的系列旅行海报。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-four-city-minimal-travel-poster-series-source.md) · [style.json](../styles/image-four-city-minimal-travel-poster-series-source/style.json) · [配套版本](copy-prompts/image-four-city-minimal-travel-poster-series.md)
+[复制 Prompt](copy-prompts/image-four-city-minimal-travel-poster-series-source.md) · [style.json](../styles/image-four-city-minimal-travel-poster-series-source/style.json)
 
 ### 四格奶昔食谱过程拼图
 
@@ -426,7 +426,7 @@
 
 保持参考人物身份、服装和光线一致，仅更换十二种发型并生成对照图鉴。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-same-face-twelve-hairstyles-source.md) · [style.json](../styles/image-same-face-twelve-hairstyles-source/style.json) · [配套版本](copy-prompts/image-same-face-twelve-hairstyles.md)
+[复制 Prompt](copy-prompts/image-same-face-twelve-hairstyles-source.md) · [style.json](../styles/image-same-face-twelve-hairstyles-source/style.json)
 
 ### 未来亲生物中庭空间
 
@@ -450,7 +450,7 @@
 
 将原始照片与蜡笔速写严格上下五五分割，生成克制怀旧的混合媒介回忆卡。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-half-photo-half-crayon-memory-card-source.md) · [style.json](../styles/image-half-photo-half-crayon-memory-card-source/style.json) · [配套版本](copy-prompts/image-half-photo-half-crayon-memory-card.md)
+[复制 Prompt](copy-prompts/image-half-photo-half-crayon-memory-card-source.md) · [style.json](../styles/image-half-photo-half-crayon-memory-card-source/style.json)
 
 ### 武汉复古地图海报
 
@@ -490,13 +490,13 @@
 
 把旅行照片与手工橡皮章、旧纸张和少量档案文字组合成旅行田野笔记。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-rubber-stamp-travel-field-notes-source.md) · [style.json](../styles/image-rubber-stamp-travel-field-notes-source/style.json) · [配套版本](copy-prompts/image-rubber-stamp-travel-field-notes.md)
+[复制 Prompt](copy-prompts/image-rubber-stamp-travel-field-notes-source.md) · [style.json](../styles/image-rubber-stamp-travel-field-notes-source/style.json)
 
 ### 虚构海岸城市旅行海报
 
 [![虚构海岸城市旅行海报](../styles/coastal-poster/preview.webp)](copy-prompts/coastal-poster.md)
 
-以大色块、几何建筑和丝网印刷肌理构成旅行海报。 · 原创案例
+以大色块、几何建筑和丝网印刷肌理构成旅行海报。 · 来源待核实
 
 [复制 Prompt](copy-prompts/coastal-poster.md) · [style.json](../styles/coastal-poster/style.json)
 
@@ -504,7 +504,7 @@
 
 [![虚构植物科学图版](../styles/botanical-plate/preview.webp)](copy-prompts/botanical-plate.md)
 
-以标本主图和局部放大图组织清晰的植物学图版。 · 原创案例
+以标本主图和局部放大图组织清晰的植物学图版。 · 来源待核实
 
 [复制 Prompt](copy-prompts/botanical-plate.md) · [style.json](../styles/botanical-plate/style.json)
 
@@ -514,7 +514,7 @@
 
 将国家、城市和代表性地标转化为具有手工羊毛毡质感的微缩世界。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-felt-country-miniature-world-source.md) · [style.json](../styles/image-felt-country-miniature-world-source/style.json) · [配套版本](copy-prompts/image-felt-country-miniature-world.md)
+[复制 Prompt](copy-prompts/image-felt-country-miniature-world-source.md) · [style.json](../styles/image-felt-country-miniature-world-source/style.json)
 
 ### 一致性室内空间多视角网格
 
@@ -552,7 +552,7 @@
 
 [![植物汽水商业静物](../styles/botanical-soda/preview.webp)](copy-prompts/botanical-soda.md)
 
-用光线、冷凝水和水果切片突出饮品材质。 · 原创案例
+用光线、冷凝水和水果切片突出饮品材质。 · 来源待核实
 
 [复制 Prompt](copy-prompts/botanical-soda.md) · [style.json](../styles/botanical-soda/style.json)
 
@@ -578,7 +578,7 @@
 
 生成以足球运动员、比赛数据和霓虹手写涂鸦为核心的体育宣传海报。 · 来源案例
 
-[复制 Prompt](copy-prompts/image-football-player-stats-doodle-poster-source.md) · [style.json](../styles/image-football-player-stats-doodle-poster-source/style.json) · [配套版本](copy-prompts/image-football-player-stats-doodle-poster.md)
+[复制 Prompt](copy-prompts/image-football-player-stats-doodle-poster-source.md) · [style.json](../styles/image-football-player-stats-doodle-poster-source/style.json)
 
 ## 生视频（46）
 
@@ -588,7 +588,7 @@
 
 用 CRT 像素界面、逐字翻牌和连续挑战节奏制作复古文字游戏概念短片。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-3d40126f5f.md) · [style.json](../styles/video-3d40126f5f/style.json) · [播放样片](../styles/video-3d40126f5f/sample.mp4)
+[复制 Prompt](copy-prompts/video-3d40126f5f.md) · [style.json](../styles/video-3d40126f5f/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-3d40126f5f)
 
 ### 巴黎街头时装变身
 
@@ -596,7 +596,7 @@
 
 以行走跟拍和环绕光轨完成街头服装无缝变身。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-50e620e4e4.md) · [style.json](../styles/video-50e620e4e4/style.json) · [播放样片](../styles/video-50e620e4e4/sample.mp4)
+[复制 Prompt](copy-prompts/video-50e620e4e4.md) · [style.json](../styles/video-50e620e4e4/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-50e620e4e4)
 
 ### 垂直升降揭示
 
@@ -604,7 +604,7 @@
 
 通过摇臂垂直升高并持续向下俯仰，在固定主体位置的同时逐步揭示环境规模。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-vertical-crane-reveal-source.md) · [style.json](../styles/video-vertical-crane-reveal-source/style.json) · [播放样片](../styles/video-vertical-crane-reveal-source/sample.mp4) · [配套版本](copy-prompts/video-vertical-crane-reveal.md)
+[复制 Prompt](copy-prompts/video-vertical-crane-reveal-source.md) · [style.json](../styles/video-vertical-crane-reveal-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-vertical-crane-reveal-source)
 
 ### 粗野主义庭院武术动作
 
@@ -612,7 +612,7 @@
 
 生成发生在粗野主义混凝土庭院中的多人武术对抗，强调快节奏摄影和高张力布光。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-brutalist-courtyard-martial-arts-source.md) · [style.json](../styles/video-brutalist-courtyard-martial-arts-source/style.json) · [播放样片](../styles/video-brutalist-courtyard-martial-arts-source/sample.mp4) · [配套版本](copy-prompts/video-brutalist-courtyard-martial-arts.md)
+[复制 Prompt](copy-prompts/video-brutalist-courtyard-martial-arts-source.md) · [style.json](../styles/video-brutalist-courtyard-martial-arts-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-brutalist-courtyard-martial-arts-source)
 
 ### 大学物理实验演示短片
 
@@ -620,7 +620,7 @@
 
 以教授和学生参与的斜轨小球实验组织课堂教育视频。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-8f1bbd26f7.md) · [style.json](../styles/video-8f1bbd26f7/style.json) · [播放样片](../styles/video-8f1bbd26f7/sample.mp4)
+[复制 Prompt](copy-prompts/video-8f1bbd26f7.md) · [style.json](../styles/video-8f1bbd26f7/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-8f1bbd26f7)
 
 ### 第一人称视角：龙骑士电影级画面
 
@@ -628,7 +628,7 @@
 
 以第一人称骑手视角生成巨龙从海岸悬崖起飞、贴海飞行、入水并再次冲出水面的奇幻镜头。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-first-person-dragon-rider-source.md) · [style.json](../styles/video-first-person-dragon-rider-source/style.json) · [播放样片](../styles/video-first-person-dragon-rider-source/sample.mp4) · [配套版本](copy-prompts/video-first-person-dragon-rider.md)
+[复制 Prompt](copy-prompts/video-first-person-dragon-rider-source.md) · [style.json](../styles/video-first-person-dragon-rider-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-first-person-dragon-rider-source)
 
 ### 电影级动作轮滑序列
 
@@ -636,7 +636,7 @@
 
 生成一名轮滑女性穿梭城市车流并躲避警车追逐的电影级动作序列，强调角色一致性和真实运动物理。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-cinematic-roller-skating-action-source.md) · [style.json](../styles/video-cinematic-roller-skating-action-source/style.json) · [播放样片](../styles/video-cinematic-roller-skating-action-source/sample.mp4) · [配套版本](copy-prompts/video-cinematic-roller-skating-action.md)
+[复制 Prompt](copy-prompts/video-cinematic-roller-skating-action-source.md) · [style.json](../styles/video-cinematic-roller-skating-action-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-cinematic-roller-skating-action-source)
 
 ### 电影级少林武僧动作大片
 
@@ -644,7 +644,7 @@
 
 生成少林武僧与石甲生物对决的武侠奇幻动作序列，包含分段动作编排、变速和电光效果。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-cinematic-shaolin-action-source.md) · [style.json](../styles/video-cinematic-shaolin-action-source/style.json) · [播放样片](../styles/video-cinematic-shaolin-action-source/sample.mp4) · [配套版本](copy-prompts/video-cinematic-shaolin-action.md)
+[复制 Prompt](copy-prompts/video-cinematic-shaolin-action-source.md) · [style.json](../styles/video-cinematic-shaolin-action-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-cinematic-shaolin-action-source)
 
 ### 动态百科页拼贴解说
 
@@ -652,7 +652,7 @@
 
 将一个知识主题拆成九个视觉节拍，以纸片拼贴关键帧、局部定格动画、旁白和字幕组成竖屏解释短片。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-53bf374a72.md) · [style.json](../styles/video-53bf374a72/style.json) · [播放样片](../styles/video-53bf374a72/sample.mp4)
+[复制 Prompt](copy-prompts/video-53bf374a72.md) · [style.json](../styles/video-53bf374a72/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-53bf374a72)
 
 ### 复古插画微动效
 
@@ -660,7 +660,7 @@
 
 上传完成的插画或海报，以固定镜头生成局部微动效，保持主体、文字与布局稳定。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-retro-illustration-micro-motion.md) · [style.json](../styles/video-retro-illustration-micro-motion/style.json) · [播放样片](../styles/video-retro-illustration-micro-motion/sample.mp4)
+[复制 Prompt](copy-prompts/video-retro-illustration-micro-motion.md) · [style.json](../styles/video-retro-illustration-micro-motion/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-retro-illustration-micro-motion)
 
 ### 高端香水UGC口播
 
@@ -668,7 +668,7 @@
 
 用手持口播、试喷和产品近景组合高端香水 UGC 广告。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-e0fd6d34ba.md) · [style.json](../styles/video-e0fd6d34ba/style.json) · [播放样片](../styles/video-e0fd6d34ba/sample.mp4)
+[复制 Prompt](copy-prompts/video-e0fd6d34ba.md) · [style.json](../styles/video-e0fd6d34ba/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-e0fd6d34ba)
 
 ### 固定点向右横摇揭示
 
@@ -676,7 +676,7 @@
 
 让摄像机保持原地不位移，只向右水平旋转并在结尾主体上稳定停留。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-fixed-point-pan-right-reveal-source.md) · [style.json](../styles/video-fixed-point-pan-right-reveal-source/style.json) · [播放样片](../styles/video-fixed-point-pan-right-reveal-source/sample.mp4) · [配套版本](copy-prompts/video-fixed-point-pan-right-reveal.md)
+[复制 Prompt](copy-prompts/video-fixed-point-pan-right-reveal-source.md) · [style.json](../styles/video-fixed-point-pan-right-reveal-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-fixed-point-pan-right-reveal-source)
 
 ### 哈恰普里俯拍烹饪
 
@@ -684,7 +684,7 @@
 
 用固定俯拍和物体状态连续性展示哈恰普里的完整制作步骤。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-3207e9e8c2.md) · [style.json](../styles/video-3207e9e8c2/style.json) · [播放样片](../styles/video-3207e9e8c2/sample.mp4)
+[复制 Prompt](copy-prompts/video-3207e9e8c2.md) · [style.json](../styles/video-3207e9e8c2/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-3207e9e8c2)
 
 ### 海滩石像定格动画
 
@@ -692,7 +692,7 @@
 
 生成由天然石块组成的小型人形在潮汐池中起舞、跌倒并重新散落成石块的定格动画。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-beach-stone-stop-motion-source.md) · [style.json](../styles/video-beach-stone-stop-motion-source/style.json) · [播放样片](../styles/video-beach-stone-stop-motion-source/sample.mp4) · [配套版本](copy-prompts/video-beach-stone-stop-motion.md)
+[复制 Prompt](copy-prompts/video-beach-stone-stop-motion-source.md) · [style.json](../styles/video-beach-stone-stop-motion-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-beach-stone-stop-motion-source)
 
 ### 航拍后拉升高揭示
 
@@ -700,7 +700,7 @@
 
 让摄像机沿主体轴线同时后退和升高，从近景主体逐步揭示完整载具或大场景。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-aerial-pullback-rise-reveal-source.md) · [style.json](../styles/video-aerial-pullback-rise-reveal-source/style.json) · [播放样片](../styles/video-aerial-pullback-rise-reveal-source/sample.mp4) · [配套版本](copy-prompts/video-aerial-pullback-rise-reveal.md)
+[复制 Prompt](copy-prompts/video-aerial-pullback-rise-reveal-source.md) · [style.json](../styles/video-aerial-pullback-rise-reveal-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-aerial-pullback-rise-reveal-source)
 
 ### 火山疏散城市建造延时
 
@@ -708,7 +708,7 @@
 
 用微型工人连续施工展示火山谷紧急疏散城市的建造。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-19ceae29af.md) · [style.json](../styles/video-19ceae29af/style.json) · [播放样片](../styles/video-19ceae29af/sample.mp4)
+[复制 Prompt](copy-prompts/video-19ceae29af.md) · [style.json](../styles/video-19ceae29af/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-19ceae29af)
 
 ### 科幻摩托车动作场面
 
@@ -716,7 +716,7 @@
 
 生成未来摩托车追逐、外星母舰爆炸和近身格斗组成的高能电影级科幻动作场面。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-sci-fi-motorcycle-action-source.md) · [style.json](../styles/video-sci-fi-motorcycle-action-source/style.json) · [播放样片](../styles/video-sci-fi-motorcycle-action-source/sample.mp4) · [配套版本](copy-prompts/video-sci-fi-motorcycle-action.md)
+[复制 Prompt](copy-prompts/video-sci-fi-motorcycle-action-source.md) · [style.json](../styles/video-sci-fi-motorcycle-action-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-sci-fi-motorcycle-action-source)
 
 ### 立体书地图纸艺动画
 
@@ -724,7 +724,7 @@
 
 让地图集中的纸艺地形随翻页重组并最终折叠成罗盘。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-31ea8a7f7c.md) · [style.json](../styles/video-31ea8a7f7c/style.json) · [播放样片](../styles/video-31ea8a7f7c/sample.mp4)
+[复制 Prompt](copy-prompts/video-31ea8a7f7c.md) · [style.json](../styles/video-31ea8a7f7c/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-31ea8a7f7c)
 
 ### 毛线娃娃早餐定格动画
 
@@ -732,7 +732,7 @@
 
 用四段针织材质镜头串联打蛋、调味、装盘和用餐的定格动画。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-d2f1128753.md) · [style.json](../styles/video-d2f1128753/style.json) · [播放样片](../styles/video-d2f1128753/sample.mp4)
+[复制 Prompt](copy-prompts/video-d2f1128753.md) · [style.json](../styles/video-d2f1128753/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-d2f1128753)
 
 ### 黏土机器人创业故事
 
@@ -740,7 +740,7 @@
 
 用黏土定格和拟音叙述微型机器人协助创作应用的故事。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-69395c9b4c.md) · [style.json](../styles/video-69395c9b4c/style.json) · [播放样片](../styles/video-69395c9b4c/sample.mp4)
+[复制 Prompt](copy-prompts/video-69395c9b4c.md) · [style.json](../styles/video-69395c9b4c/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-69395c9b4c)
 
 ### 纽约街头的动漫滑板追逐
 
@@ -748,7 +748,7 @@
 
 根据角色参考图生成女孩与小猫在纽约街头高速滑板追逐的半写实动漫短片。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-anime-skateboard-chase-nyc-source.md) · [style.json](../styles/video-anime-skateboard-chase-nyc-source/style.json) · [播放样片](../styles/video-anime-skateboard-chase-nyc-source/sample.mp4) · [配套版本](copy-prompts/video-anime-skateboard-chase-nyc.md)
+[复制 Prompt](copy-prompts/video-anime-skateboard-chase-nyc-source.md) · [style.json](../styles/video-anime-skateboard-chase-nyc-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-anime-skateboard-chase-nyc-source)
 
 ### 纽约跑酷与蛛丝摆荡动作
 
@@ -756,7 +756,7 @@
 
 生成一段15秒连续无人机跟拍，让角色在纽约街区完成跑酷、蹬墙和蛛丝摆荡。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-nyc-parkour-web-swing-source.md) · [style.json](../styles/video-nyc-parkour-web-swing-source/style.json) · [播放样片](../styles/video-nyc-parkour-web-swing-source/sample.mp4) · [配套版本](copy-prompts/video-nyc-parkour-web-swing.md)
+[复制 Prompt](copy-prompts/video-nyc-parkour-web-swing-source.md) · [style.json](../styles/video-nyc-parkour-web-swing-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-nyc-parkour-web-swing-source)
 
 ### 喷泉时间静止与彩虹
 
@@ -764,7 +764,7 @@
 
 通过冻结喷泉水流、人物互动与恢复时间形成超现实彩虹揭示。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-1c634febce.md) · [style.json](../styles/video-1c634febce/style.json) · [播放样片](../styles/video-1c634febce/sample.mp4)
+[复制 Prompt](copy-prompts/video-1c634febce.md) · [style.json](../styles/video-1c634febce/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-1c634febce)
 
 ### 疲惫日常蒙太奇
 
@@ -772,7 +772,7 @@
 
 用连续生活碎片呈现从清晨通勤到深夜工作的疲惫日常。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-e6248de843.md) · [style.json](../styles/video-e6248de843/style.json) · [播放样片](../styles/video-e6248de843/sample.mp4)
+[复制 Prompt](copy-prompts/video-e6248de843.md) · [style.json](../styles/video-e6248de843/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-e6248de843)
 
 ### 企业猫职场动画短片
 
@@ -780,7 +780,7 @@
 
 以拟人化角色的一日职场故事制作 3D 动画短片。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-0a64266abe.md) · [style.json](../styles/video-0a64266abe/style.json) · [播放样片](../styles/video-0a64266abe/sample.mp4)
+[复制 Prompt](copy-prompts/video-0a64266abe.md) · [style.json](../styles/video-0a64266abe/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-0a64266abe)
 
 ### 前后景转移焦点
 
@@ -788,7 +788,7 @@
 
 保持机位和构图完全固定，只在远景锚点与近景主体之间进行一次平滑转焦。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-rack-focus-foreground-background-source.md) · [style.json](../styles/video-rack-focus-foreground-background-source/style.json) · [播放样片](../styles/video-rack-focus-foreground-background-source/sample.mp4) · [配套版本](copy-prompts/video-rack-focus-foreground-background.md)
+[复制 Prompt](copy-prompts/video-rack-focus-foreground-background-source.md) · [style.json](../styles/video-rack-focus-foreground-background-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-rack-focus-foreground-background-source)
 
 ### 日本网红出门准备 UGC
 
@@ -796,7 +796,7 @@
 
 使用角色图和房间首帧生成一段日本美妆网红出门前整理刘海的自然手机口播视频。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-japanese-influencer-get-ready-ugc-source.md) · [style.json](../styles/video-japanese-influencer-get-ready-ugc-source/style.json) · [播放样片](../styles/video-japanese-influencer-get-ready-ugc-source/sample.mp4) · [配套版本](copy-prompts/video-japanese-influencer-get-ready-ugc.md)
+[复制 Prompt](copy-prompts/video-japanese-influencer-get-ready-ugc-source.md) · [style.json](../styles/video-japanese-influencer-get-ready-ugc-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-japanese-influencer-get-ready-ugc-source)
 
 ### 山崖轮滑动作
 
@@ -804,7 +804,7 @@
 
 生成一名女性在危险山崖道路轮滑的超写实动作序列，重点控制环境尺度、身体平衡和轮滑物理。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-cliffside-roller-skating-source.md) · [style.json](../styles/video-cliffside-roller-skating-source/style.json) · [播放样片](../styles/video-cliffside-roller-skating-source/sample.mp4) · [配套版本](copy-prompts/video-cliffside-roller-skating.md)
+[复制 Prompt](copy-prompts/video-cliffside-roller-skating-source.md) · [style.json](../styles/video-cliffside-roller-skating-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-cliffside-roller-skating-source)
 
 ### 烧烤美食微距短片
 
@@ -812,7 +812,7 @@
 
 组合烤架火焰、肉串和人物动作的微距美食镜头。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-1d6c1fec91.md) · [style.json](../styles/video-1d6c1fec91/style.json) · [播放样片](../styles/video-1d6c1fec91/sample.mp4)
+[复制 Prompt](copy-prompts/video-1d6c1fec91.md) · [style.json](../styles/video-1d6c1fec91/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-1d6c1fec91)
 
 ### 奢华护肤品水感广告
 
@@ -820,7 +820,7 @@
 
 围绕护肤玻璃罐设计水珠、乳霜、花叶和产品定格镜头。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-512e7b9e27.md) · [style.json](../styles/video-512e7b9e27/style.json) · [播放样片](../styles/video-512e7b9e27/sample.mp4)
+[复制 Prompt](copy-prompts/video-512e7b9e27.md) · [style.json](../styles/video-512e7b9e27/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-512e7b9e27)
 
 ### 奢华珠宝开箱广告
 
@@ -828,7 +828,7 @@
 
 生成包含礼盒开箱、宝石微距、人物佩戴和产品陈列的竖屏珠宝商业广告。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-luxury-jewelry-unboxing-source.md) · [style.json](../styles/video-luxury-jewelry-unboxing-source/style.json) · [播放样片](../styles/video-luxury-jewelry-unboxing-source/sample.mp4) · [配套版本](copy-prompts/video-luxury-jewelry-unboxing.md)
+[复制 Prompt](copy-prompts/video-luxury-jewelry-unboxing-source.md) · [style.json](../styles/video-luxury-jewelry-unboxing-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-luxury-jewelry-unboxing-source)
 
 ### 摄政时期电影蒙太奇
 
@@ -836,7 +836,7 @@
 
 通过服饰、场景与光线连续性制作摄政时期人物蒙太奇。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-dcc3d74eac.md) · [style.json](../styles/video-dcc3d74eac/style.json) · [播放样片](../styles/video-dcc3d74eac/sample.mp4)
+[复制 Prompt](copy-prompts/video-dcc3d74eac.md) · [style.json](../styles/video-dcc3d74eac/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-dcc3d74eac)
 
 ### 生物发光灯塔守望者
 
@@ -844,7 +844,7 @@
 
 生成老灯塔守望者在雾夜悬崖目睹发光球体从海中升起的连续电影镜头。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-bioluminescent-lighthouse-keeper-source.md) · [style.json](../styles/video-bioluminescent-lighthouse-keeper-source/style.json) · [播放样片](../styles/video-bioluminescent-lighthouse-keeper-source/sample.mp4) · [配套版本](copy-prompts/video-bioluminescent-lighthouse-keeper.md)
+[复制 Prompt](copy-prompts/video-bioluminescent-lighthouse-keeper-source.md) · [style.json](../styles/video-bioluminescent-lighthouse-keeper-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-bioluminescent-lighthouse-keeper-source)
 
 ### 食谱信息图转连续烹饪短片
 
@@ -852,7 +852,7 @@
 
 以一张多步骤食谱信息图为视觉分镜，先生成前半段，再续写后半段，得到保持食材状态、厨房环境、声效和烹饪顺序连续的竖屏美食短片。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-recipe-infographic-cooking-sequence-source.md) · [style.json](../styles/video-recipe-infographic-cooking-sequence-source/style.json) · [播放样片](../styles/video-recipe-infographic-cooking-sequence-source/sample.mp4) · [配套版本](copy-prompts/video-recipe-infographic-cooking-sequence.md)
+[复制 Prompt](copy-prompts/video-recipe-infographic-cooking-sequence-source.md) · [style.json](../styles/video-recipe-infographic-cooking-sequence-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-recipe-infographic-cooking-sequence-source)
 
 ### 手绘变实物定格料理
 
@@ -860,7 +860,7 @@
 
 以铅笔草图变为真实食材的机制制作混合现实料理短片。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-a2196efe4e.md) · [style.json](../styles/video-a2196efe4e/style.json) · [播放样片](../styles/video-a2196efe4e/sample.mp4)
+[复制 Prompt](copy-prompts/video-a2196efe4e.md) · [style.json](../styles/video-a2196efe4e/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-a2196efe4e)
 
 ### 首尔周日 DV 家庭录像
 
@@ -868,7 +868,7 @@
 
 生成一段具有 21 世纪初手持 DV 质感、自然日常互动和连续物体状态的首尔生活记录，适合怀旧 Vlog、城市日常和人物短片。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-seoul-sunday-dv-home-video-source.md) · [style.json](../styles/video-seoul-sunday-dv-home-video-source/style.json) · [播放样片](../styles/video-seoul-sunday-dv-home-video-source/sample.mp4) · [配套版本](copy-prompts/video-seoul-sunday-dv-home-video.md)
+[复制 Prompt](copy-prompts/video-seoul-sunday-dv-home-video-source.md) · [style.json](../styles/video-seoul-sunday-dv-home-video-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-seoul-sunday-dv-home-video-source)
 
 ### 水彩素描跑酷追逐
 
@@ -876,7 +876,7 @@
 
 使用多张角色与场景参考图生成三人跑酷追逐，并把每一帧呈现为不稳定线条和水彩重新绘制的动画。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-watercolor-sketch-parkour-chase-source.md) · [style.json](../styles/video-watercolor-sketch-parkour-chase-source/style.json) · [播放样片](../styles/video-watercolor-sketch-parkour-chase-source/sample.mp4) · [配套版本](copy-prompts/video-watercolor-sketch-parkour-chase.md)
+[复制 Prompt](copy-prompts/video-watercolor-sketch-parkour-chase-source.md) · [style.json](../styles/video-watercolor-sketch-parkour-chase-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-watercolor-sketch-parkour-chase-source)
 
 ### 水晶粒子厨房变身
 
@@ -884,7 +884,7 @@
 
 以人物触碰触发器物碎裂和室内空间重构的视觉特效短片。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-345a132c7a.md) · [style.json](../styles/video-345a132c7a/style.json) · [播放样片](../styles/video-345a132c7a/sample.mp4)
+[复制 Prompt](copy-prompts/video-345a132c7a.md) · [style.json](../styles/video-345a132c7a/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-345a132c7a)
 
 ### 推拉变焦空间扭曲
 
@@ -892,7 +892,7 @@
 
 同步执行摄像机前移和镜头变广，在保持主体尺寸不变的同时拉伸背景空间。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-dolly-zoom-space-warp-source.md) · [style.json](../styles/video-dolly-zoom-space-warp-source/style.json) · [播放样片](../styles/video-dolly-zoom-space-warp-source/sample.mp4) · [配套版本](copy-prompts/video-dolly-zoom-space-warp.md)
+[复制 Prompt](copy-prompts/video-dolly-zoom-space-warp-source.md) · [style.json](../styles/video-dolly-zoom-space-warp-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-dolly-zoom-space-warp-source)
 
 ### 微型工人维修USB
 
@@ -900,7 +900,7 @@
 
 用微距小人协作逐步修复并改造损坏的 USB 闪存盘。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-565c5a1550.md) · [style.json](../styles/video-565c5a1550/style.json) · [播放样片](../styles/video-565c5a1550/sample.mp4)
+[复制 Prompt](copy-prompts/video-565c5a1550.md) · [style.json](../styles/video-565c5a1550/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-565c5a1550)
 
 ### 卧室接住落书互动
 
@@ -908,7 +908,7 @@
 
 基于卧室人物首帧生成书籍滑落、人物及时接住并作出自然反应的连续物体交互。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-bedroom-falling-book-catch-source.md) · [style.json](../styles/video-bedroom-falling-book-catch-source/style.json) · [播放样片](../styles/video-bedroom-falling-book-catch-source/sample.mp4) · [配套版本](copy-prompts/video-bedroom-falling-book-catch.md)
+[复制 Prompt](copy-prompts/video-bedroom-falling-book-catch-source.md) · [style.json](../styles/video-bedroom-falling-book-catch-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-bedroom-falling-book-catch-source)
 
 ### 无人机环绕主体
 
@@ -916,7 +916,7 @@
 
 让无人机以固定半径和高度匀速环绕主体，利用地平线旋转和视差建立空间感。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-drone-orbit-subject-source.md) · [style.json](../styles/video-drone-orbit-subject-source/style.json) · [播放样片](../styles/video-drone-orbit-subject-source/sample.mp4) · [配套版本](copy-prompts/video-drone-orbit-subject.md)
+[复制 Prompt](copy-prompts/video-drone-orbit-subject-source.md) · [style.json](../styles/video-drone-orbit-subject-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-drone-orbit-subject-source)
 
 ### 野花四季微距延时
 
@@ -924,7 +924,7 @@
 
 固定一株野花，以微距延时展示盛放、枯萎、结霜和凋零。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-aecc45705d.md) · [style.json](../styles/video-aecc45705d/style.json) · [播放样片](../styles/video-aecc45705d/sample.mp4)
+[复制 Prompt](copy-prompts/video-aecc45705d.md) · [style.json](../styles/video-aecc45705d/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-aecc45705d)
 
 ### 雨林神秘光源短片
 
@@ -932,7 +932,7 @@
 
 基于雨林人物首帧生成女性察觉远处暖光、靠近后光芒消失的氛围悬念短片。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-rainforest-mysterious-light-source.md) · [style.json](../styles/video-rainforest-mysterious-light-source/style.json) · [播放样片](../styles/video-rainforest-mysterious-light-source/sample.mp4) · [配套版本](copy-prompts/video-rainforest-mysterious-light.md)
+[复制 Prompt](copy-prompts/video-rainforest-mysterious-light-source.md) · [style.json](../styles/video-rainforest-mysterious-light-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-rainforest-mysterious-light-source)
 
 ### 真人贴纸海报动效
 
@@ -940,7 +940,7 @@
 
 上传真人贴纸海报，固定镜头与背景，只让真实人物自然活动。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-real-person-sticker-poster-motion.md) · [style.json](../styles/video-real-person-sticker-poster-motion/style.json) · [播放样片](../styles/video-real-person-sticker-poster-motion/sample.mp4)
+[复制 Prompt](copy-prompts/video-real-person-sticker-poster-motion.md) · [style.json](../styles/video-real-person-sticker-poster-motion/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-real-person-sticker-poster-motion)
 
 ### 中国水墨无缝转场
 
@@ -948,4 +948,4 @@
 
 用水墨形态变换连续连接海浪、山峦、花枝和月夜场景。 · 来源案例
 
-[复制 Prompt](copy-prompts/video-cdfbcca0a0.md) · [style.json](../styles/video-cdfbcca0a0/style.json) · [播放样片](../styles/video-cdfbcca0a0/sample.mp4)
+[复制 Prompt](copy-prompts/video-cdfbcca0a0.md) · [style.json](../styles/video-cdfbcca0a0/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-cdfbcca0a0)

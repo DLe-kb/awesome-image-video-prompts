@@ -17,9 +17,6 @@
     "url": "https://higgsfield.ai/publications/4ca41020-ddce-4ddb-90b5-6e0aa5e91bc7"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "Higgsfield 案例"
-  },
   "preview": "preview.jpg",
   "promptEn": "Create a vertical 4:5 blue-hour urban street photograph in `{cityDistrict}`. A curved LED billboard wrapping around the corner of a high-rise occupies the upper two thirds. On the screen, `{heroSubject}` appears at skyscraper scale, with the body, arms, or an object seemingly crossing the screen edge through perspective to create a convincing glasses-free 3D advertising illusion.\n\nThe billboard emits strong, soft `{screenColorA}` and `{screenColorB}` light that realistically illuminates surrounding buildings, pedestrians, and wet streets. Add elevated transit, road signs, street trees, and multilevel shops in the middle ground. Dense illuminated windows, differently sized advertising screens, and a deep cobalt sky form the background. In the foreground, people cross the intersection with slight motion blur, while the rain-soaked ground reflects multiple light sources.\n\nUse an eye-level street-photography viewpoint, four depth layers, and clear scale references. The billboard face or product must be sharp; keep the city realistically complex without competing with the subject. Grade with deep cobalt, magenta, cyan, warm amber, and small accents of acid green and red, retaining shadow detail, subtle halation, and film grain. All signs must use fictional brands or indistinct generic lettering; do not reproduce recognizable real-city landmark signage.",
   "inputs": [

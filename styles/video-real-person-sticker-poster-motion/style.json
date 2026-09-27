@@ -18,9 +18,6 @@
     "url": "https://www.douyin.com/video/7683887650173032805"
   },
   "promptCredit": "根据来源整理的适配提示词",
-  "catalog": {
-    "sourceLabel": "抖音原帖"
-  },
   "preview": "preview.jpg",
   "sample": "sample.mp4",
   "promptEn": "Use the uploaded finished real-person sticker poster as the first-frame reference for a 4-second video.\n\nStrictly preserve its composition, layout, person identity, clothing, photographic texture, background base color, and sticker style. Except for the real person and necessary interaction with an already-held item, freeze every background element, text, and minimal single-line die-cut sticker. Never redraw the background or change sticker outlines, object placement, structures, or perspective. Do not add scene elements or recolor an existing monochrome or blue-toned background.\n\nAnimate only the real person with restrained, natural, continuous movements chosen from the actual pose and space: gently lower the existing book, lift or turn the head, or ease the shoulders. Only if a table, window ledge, and sufficient space already exist may the person put the existing item on the existing table, slowly stand, and make a small stretch within the original setting. Otherwise use in-place micro-movements; never invent a table, window, or prop.\n\nLock the camera completely: no dolly, pan, zoom, or cuts. Preserve the person's photographic appearance without stickerization, broken anatomy, warping, melting, or extra fingers. Do not rebuild the scene or animate the background, drift text, flicker, or blur. Output an absolutely still sticker setting with natural human motion, without transitions, watermarks, tutorial captions, narration, or music.",

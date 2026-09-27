@@ -18,13 +18,6 @@
     "url": "https://x.com/AIGuideNote/status/2097183473601569109"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "X · @AIGuideNote",
-    "related": {
-      "label": "YouMind 模板",
-      "url": "https://youmind.com/zh-CN/prompts/campaign-gift-banner-template-33795"
-    }
-  },
   "preview": "preview.jpg",
   "promptEn": "[Campaign information]\n- Campaign name: {campaignName}\n- Prize list: {prizes}\n- Entry requirements/steps: {entrySteps}\n\n[Image quality, presentation, and composition specifications]\n- Style: A pop, bright, friendly social-media promotional banner with an eye-catching design.\n- Main subject: Illustrations or real product photographs of {prizes} popping out of a gift box at the center, surrounded by lavish ribbons and star decorations.\n- Colors/tone: Bright pastel tones such as pink, yellow, and light blue to create excitement.\n- Text information (for GPT-image / Nano Banana Pro): Clearly typeset {campaignName} at the top and the simple entry steps {entrySteps} at the bottom in bold, cute, rounded lettering.\n- Lighting: Flat, even, bright lighting with soft shadows.\n\n[Strict layout and output restrictions (mandatory)]\n- Output the finished design itself, filling the entire canvas. Backgrounds and scene elements inside the design, such as walls, space, and shadows, may follow the main description.\n- Prohibited: Photographs of framed posters, posters mounted on walls, mockups on tables or sheets of paper, perspective distortion or cast shadows at paper edges.\n- Output the finished flat 2D design itself, filling the entire canvas. Internal scene elements described above are allowed. Poster mockup photographs are strictly forbidden: no frames, no photographs of posters on walls or tables, and no perspective distortion or cast shadows around the artwork edges.\n- Aspect ratio: \"--ar 1:1\" or \"--ar 16:9\"",
   "inputs": [

@@ -4,15 +4,13 @@
 
 ![中国水墨无缝转场](../../styles/video-cdfbcca0a0/preview.jpg)
 
-[播放样片](../../styles/video-cdfbcca0a0/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-cdfbcca0a0)
 
 用水墨形态变换连续连接海浪、山峦、花枝和月夜场景。
 
 类型：生视频 · 来源案例 · 动画
 
 来源：[@NoorAI / YouMind](https://x.com/noorwithwifi/status/2101683541629354348)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/chinese-ink-wash-animation-seamless-11079)
 
 ## 完整 Prompt
 

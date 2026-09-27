@@ -10,8 +10,6 @@
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2096290195792642498)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/architectural-sketch-photo-poster-33596)
-
 ## 完整 Prompt
 
 ```text

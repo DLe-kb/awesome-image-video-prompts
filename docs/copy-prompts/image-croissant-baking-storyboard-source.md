@@ -10,9 +10,39 @@
 
 来源：[@TechieBySA](https://x.com/TechieBySA/status/2053523784481554759)
 
-相关链接：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-419)
-
 ## 完整 Prompt
+
+```text
+为《可颂面包师》制作一张清晰、干净的信息图表故事板海报。宽屏 16:9 布局、白色背景、黑色边框、大胆的黑色排版、优质皮克斯 3D 风格化渲染、明亮生动的色彩 — 温暖的金黄色、浓郁的奶油色、酥皮棕色、柔和的面点白色、温暖的法式面包店晨光。
+顶部标题：
+
+牛角面包师
+视频总时间：12 秒
+8 个镜头 · 温暖 · 酥脆 · 不可抗拒
+图例图标：动作、加热、时间提示、原料
+细而温暖的金色强调线在标题下方全宽延伸
+
+皮克斯风格的年轻法国男面包师贯穿始终：白色烘焙师制服，沾满面粉的手，温暖的正宗法式面包房环境，大理石台面，温暖的晨光透过窗户，背景是面包架。明亮、温暖、美味。每个面板都有完全不同的构图和色彩。
+8 个面板：
+
+开场——面包师在黎明前到达面包店的广角镜头，系上围裙，打开温暖的厨房灯光，大理石柜台可见，面包架在后面，面粉撒在空气中，完整的世界已建立，明亮而电影化
+黄油块——面包师用双手将一块巨大的冷欧洲黄油猛击到大理石柜台上，戏剧性的撞击，面粉云膨胀起来，手上的特写，这是奠定基础的关键时刻——一切的开始
+开酥—— 面包师将面团精确地折叠在黄油块上，擀面杖用力压下，分层，侧角拍摄显示美丽的分层开始，自信而熟练
+擀面—— 面团被擀成一张大薄片，面包师以全身重量靠在擀面杖上，大理石柜台，面粉撒满各处，广角镜头显示面团的大小
+整形——从面团上切出三角形，面包师将每个三角形从宽端卷成紧密的新月形，双手快速而自信地移动，特写造型，美丽而精确
+刷蛋液—— 面包师用糕点刷在每个形状的牛角面包上刷上金色的鸡蛋洗，每个牛角面包都闪闪发光，特写头顶角度，温暖的金色，令人惊叹的构图
+烤箱——羊角面包放在托盘上滑入炽热的烤箱，烤箱门关闭，透过烤箱玻璃，羊角面包明显膨化并变成深金色，层层明显分离，发出温暖的橙色光芒
+撕开——面包师从架子上拿出一个完美的金色牛角面包，举起它，慢慢地把它撕开，露出里面数百层令人惊叹的酥脆黄油层次，蒸汽逸出，黄油闪闪发光——这是如同拉丝镜头般诱人的关键时刻，是整个视频的英雄镜头
+
+页脚：
+
+视频流程：8 个镜头 × 1.5 秒 = 12 秒。从黄油块到最终撕开。
+相机提示：开场使用广角，黄油猛击和成型的特写，开酥使用侧面角度，刷蛋液使用俯拍，面板 7 的烤箱玻璃，撕开呈现使用极近特写
+灯光和风格：温暖的金色法式面包店晨光、黄油奶油色调、空气中的面粉灰尘、明亮生动的皮克斯色彩、特写镜头的浅景深
+面包师笔记：一位面包师，一份完美的羊角面包，一次令人无法抗拒的撕开呈现。开酥层次和最后的撕裂就是一切——让它们令人惊叹。
+```
+
+## English Prompt
 
 ```text
 Create a crisp, clean infographic storyboard poster for THE CROISSANT BAKER. Wide 16:9 layout, white background, black borders, bold black typography, premium Pixar 3D stylized rendering, bright vivid colors — warm golden yellows, rich buttery creams, flaky browns, soft pastry whites, warm French bakery morning light.
@@ -43,8 +73,6 @@ CAMERA TIPS: wide on opener, close-up on butter slam and shaping, side angle on 
 LIGHT & STYLE: warm golden French bakery morning light, buttery cream tones, flour dust in the air, bright vivid Pixar colors, shallow depth of field on close-ups
 BAKER NOTES: one baker, one perfect croissant, one irresistible tear. The lamination layers and the final tear are everything — make them stunning.
 ```
-
-[查看关联 Prompt](../copy-prompts/image-croissant-baking-storyboard.md)
 
 [打开 style.json](../../styles/image-croissant-baking-storyboard-source/style.json) · [打开条目目录](../../styles/image-croissant-baking-storyboard-source/)
 

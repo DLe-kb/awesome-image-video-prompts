@@ -18,13 +18,6 @@
     "url": "https://x.com/AIGuideNote/status/2096906819713081810"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "X · @AIGuideNote",
-    "related": {
-      "label": "YouMind 模板",
-      "url": "https://youmind.com/zh-CN/prompts/minimalist-fashion-product-grid-33797"
-    }
-  },
   "preview": "preview.jpg",
   "promptEn": "[Brand / product information]\n- Brand name: {brandName}\n- Collection name: {collection}\n- Typical product price: {backpackPrice}\n\n[Image quality, presentation, and composition]\n- Style: Minimal, refined lookbook photography for a Japanese fashion/lifestyle brand's e-commerce website.\n- Composition: Neatly flat-lay or arrange clothing items such as bags, coats, and shoes on hardwood or concrete flooring in a naturally lit studio.\n- Typography (for GPT-image / Nano Banana Pro): Subtly place {brandName}, {collection}, and the price {backpackPrice} in a corner of the canvas using very thin lettering.\n- Lighting/color: Soft, overcast-like natural light, low contrast, and a calm earth-tone palette of beige, olive, charcoal, and off-white.\n\n[Strict layout and output requirements]\n- Output the finished design itself, filling the entire canvas. Backgrounds and scenes within the design, including walls, spaces, and shadows, may follow the instructions above.\n- Prohibited: photos of framed posters, posters mounted on walls, mockups placed on tables or paper, perspective distortion or cast shadows along paper edges.\n- Output the finished flat 2D design itself, filling the entire canvas. The scene elements described above, including walls, rooms, and shadows, are allowed. Absolutely no poster mockups: no frames, no photographs mounted on walls or placed on tables, and no perspective distortion or cast shadows around the artwork edges.\n- Aspect ratio: \"--ar 1:1\" or \"--ar 4:3\"",
   "inputs": [

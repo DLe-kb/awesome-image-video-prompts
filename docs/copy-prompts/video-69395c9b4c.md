@@ -4,15 +4,13 @@
 
 ![黏土机器人创业故事](../../styles/video-69395c9b4c/preview.jpg)
 
-[播放样片](../../styles/video-69395c9b4c/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-69395c9b4c)
 
 用黏土定格和拟音叙述微型机器人协助创作应用的故事。
 
 类型：生视频 · 来源案例 · 动画
 
 来源：[@Condz / YouMind](https://x.com/condzxyz/status/2093032563400987056)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/claymation-stop-motion-robot-startup-9956)
 
 ## 完整 Prompt
 

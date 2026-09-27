@@ -4,15 +4,13 @@
 
 ![手绘变实物定格料理](../../styles/video-a2196efe4e/preview.jpg)
 
-[播放样片](../../styles/video-a2196efe4e/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-a2196efe4e)
 
 以铅笔草图变为真实食材的机制制作混合现实料理短片。
 
 类型：生视频 · 来源案例 · 动画
 
 来源：[@NoorAI / YouMind](https://x.com/noorwithwifi/status/2087821976270450985)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/mixed-reality-stop-motion-9029)
 
 ## 完整 Prompt
 

@@ -30,9 +30,6 @@
       "prompt": "Use the reference image as the only visual base.\n\nGenerate a 5-second vertical 9:16 silent paper-collage animation.\n\nNo music, no sound effects, no voice, no subtitles.\n\nKeep the scrapbook / paper cutout / stop-motion collage style.\n\nAnimate the separated cutout elements, not the whole image.\n\nMotion style:\n\npaper jitter, sticker bounce, stepped stop-motion movement, moving arrows, route lines extending, map nodes lighting up, coins rotating, labels snapping into place, seals stamping, paper edges shaking, small objects shifting with clear paths.\n\nEach scene should have a small event, not just soft floating.\n\nKeep the main composition and important text stable.\n\nDo not turn it into realistic video.\n\nDo not make it look like PPT blocks sliding around."
     }
   ],
-  "catalog": {
-    "sourceLabel": "X · @MrLarus"
-  },
   "preview": "preview.jpg",
   "sample": "sample.mp4"
 }

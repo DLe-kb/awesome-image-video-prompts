@@ -4,7 +4,7 @@
 
 ![复古插画微动效](../../styles/video-retro-illustration-micro-motion/preview.jpg)
 
-[播放样片](../../styles/video-retro-illustration-micro-motion/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-retro-illustration-micro-motion)
 
 上传完成的插画或海报，以固定镜头生成局部微动效，保持主体、文字与布局稳定。
 

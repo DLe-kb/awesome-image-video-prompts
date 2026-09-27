@@ -18,9 +18,6 @@
     "url": "https://higgsfield.ai/publications/e17319aa-0fd3-4868-b158-f7f16330c8e1"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "Higgsfield 案例"
-  },
   "preview": "preview.jpg",
   "promptEn": "Create a vertical full-body fashion advertising photograph. Center `{subjectDescription}` on an empty city street, with a giant handmade scroll backdrop hanging from above and extending beneath the subject's feet. Use `{backdropColor}` and `{patternDescription}` for the backdrop, as if a portable photography studio had been placed in a real street.\n\nThe subject faces the camera in a relaxed, confident pose, wearing `{outfitDescription}` without real brand marks. Keep the real setting visible on both sides of the scroll: old warehouse walls, road markings, low barriers, and open sky. Let a deep cool sky occupy the upper third, the warm backdrop and subject occupy the middle, and the street surface and markings stabilize the lower structure.\n\nUse natural golden-hour side light, with a soft long shadow to one side of the subject. Give the background a slightly painterly soft focus while keeping the subject sharp. Use a medium-format film finish, subtle grain, and gentle highlight roll-off. Favor `{skyColor}`, `{backdropColor}`, `{heroGarmentColor}`, black, and one footwear accent color. Keep the composition symmetrical and restrained, like a 1990s fashion-magazine editorial, emphasizing the spatial dislocation of an outdoor real location coexisting with a studio backdrop.",
   "inputs": [

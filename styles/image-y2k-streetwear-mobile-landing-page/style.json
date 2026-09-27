@@ -18,9 +18,6 @@
     "url": "https://higgsfield.ai/publications/0bbfc974-900c-4a1e-8561-3d9ada80177a"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "Higgsfield 案例"
-  },
   "preview": "preview.jpg",
   "promptEn": "Create a vertical 9:16 mobile-first streetwear-brand landing page that reads as a finished full-screen brand poster.\n\nUse \"{brandName}\" as the brand, \"{headline}\" as the main slogan, and \"{collectionName}\" as the collection name. The background has a vertical deep royal-blue-to-navy gradient, subtle film grain, and a warm vintage-screen cast. Place a small uppercase slogan at the top, followed by a huge, slightly misregistered heavy serif wordmark in bright marigold yellow, with deep yellow-orange dimensional shadows and a few metallic highlights.\n\nAt the center, show a young model from the chest up wearing the brand's featured clothing, relaxed and confident, holding a small prop related to the collection. Use soft blue rim light and natural warm skin tones. Place an original hand-drawn character graphic on the garment's chest, without associations to existing brands.\n\nAdd three irregular star-shaped stickers around the model: a close-up of a product detail, an original character graphic, and a short \"NEW DROP\" label. Give the stickers white die-cut borders, slight rotation, taped corners, and soft shadows for an authentic DIY collage.\n\nAt the bottom, arrange a short headline, three to four lines of brand introduction, a prominent `{ctaText}` button, and a very fine brand-information strip. Keep text hierarchy clear, the button identifiable, and the model away from essential copy. Limit the palette to deep blue, marigold yellow, cream white, charcoal, and one saturated accent. Evoke Y2K skate/surf street culture, vintage screen printing, and polished e-commerce visuals, without real brand logos or existing cartoon characters.",
   "inputs": [

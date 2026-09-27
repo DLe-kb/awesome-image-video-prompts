@@ -18,13 +18,6 @@
     "url": "https://x.com/AIGuideNote/status/2096710919900582307"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "X · @AIGuideNote",
-    "related": {
-      "label": "YouMind 模板",
-      "url": "https://youmind.com/zh-CN/prompts/minimalist-event-flyer-design-33672"
-    }
-  },
   "preview": "preview.jpg",
   "promptEn": "[Event Information]\n- Event Name: Margin and Structure\n- Date & Time: October 12 – November 24, 2026\n- Venue: National Museum of Modern Art\n\n[Quality, Direction, and Composition Specifications]\n- Style: A poster for a contemporary art exhibition or modern design event, clean and minimalist editorial layout.\n- Visual Elements: A beautiful live-action composition conveying silence and intelligence, set against geometric abstract art objects or concrete and glass architectural spaces.\n- Typography Placement (For GPT-image / Nano Banana Pro): In the empty margins of the screen, the event name 'Margin and Structure', the date 'October 12 – November 24, 2026', and venue information 'National Museum of Modern Art' are beautifully laid out in a sophisticated, modern sans-serif font. The typography harmonizes without detracting from the beauty of the overall image.\n- Lighting & Color: A clean space based on white, cool natural light with soft gradients of light, neutral tones with accent colors (e.g., navy or dark gray).\n\n[Strict Layout and Output Constraints (Required)]\n- Output the completed design itself, filling the entire canvas. Scene descriptions inside the design (walls, spaces, shadows) may follow the text instructions.\n- Prohibited items: Photographs of the finished poster inside a frame, stuck to a wall, mockup photos placed on tables or paper, perspective distortion of paper edges, or drop shadows.\n- Output the finished flat 2D design itself, filling the entire canvas. Scene elements inside the design (walls, rooms, shadows) described above are allowed. Absolutely NO photo-of-a-poster mockups: no picture frames, no poster-on-wall or poster-on-desk shots, no perspective warp or drop shadow around the artwork's edges.\n\n- Aspect Ratio: --ar 3:4",
   "inputs": [

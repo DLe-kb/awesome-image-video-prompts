@@ -4,15 +4,13 @@
 
 ![烧烤美食微距短片](../../styles/video-1d6c1fec91/preview.jpg)
 
-[播放样片](../../styles/video-1d6c1fec91/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-1d6c1fec91)
 
 组合烤架火焰、肉串和人物动作的微距美食镜头。
 
 类型：生视频 · 来源案例 · 烹饪
 
 来源：[@Zoya / YouMind](https://x.com/Zoyavelle/status/2102641743669961207)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/bbq-food-cinematography-macro-11164)
 
 ## 完整 Prompt
 

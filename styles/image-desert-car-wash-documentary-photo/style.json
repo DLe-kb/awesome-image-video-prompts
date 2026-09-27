@@ -18,9 +18,6 @@
     "url": "https://higgsfield.ai/publications/bdeaf74f-4300-4ebd-9125-7df4f37d2733"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "Higgsfield 案例"
-  },
   "preview": "preview.jpg",
   "promptEn": "Create a vertical 2:3 cinematic documentary photograph. Shoot from the rear side of an unbranded, boxy vintage compact off-road vehicle at a basic open-air self-service car wash in a wide, arid landscape.\n\nUse `{vehicleColor}` for the vehicle. The rear-mounted spare tire occupies the right two thirds and forms a strong circular visual anchor. A high-pressure water jet strikes the rear window diagonally from the upper left, with droplets and foam covering the glass. Through the flowing wet glass, faintly show `{relationshipDescription}` inside the vehicle talking or smiling. The water curtain softens and distorts their faces, but their relationship remains readable.\n\nLeave environmental negative space on the left with sandy ground, low shrubs, a distant horizon, metal pipe framework, a payment box, and a coiled hose. Strong afternoon sunlight comes from the left, highlighting individual droplets, foam, and vehicle materials. Water darkens the ground and creates reflections.\n\nThe palette includes faded pale paint, black tires, silver wheels, white foam, red taillights, dusty yellow sand, pale blue sky, and one saturated hose accent. Focus on the spare tire, water-covered rear window, and water jet, using fine film grain, warm highlights, cool shadows, and slight spray haze. The photograph should feel like a spontaneously captured summer road-trip story, without vehicle badges, brand text, or instructions to imitate a photographer.",
   "inputs": [

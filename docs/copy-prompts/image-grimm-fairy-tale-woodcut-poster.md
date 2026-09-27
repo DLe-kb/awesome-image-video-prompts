@@ -10,8 +10,6 @@
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2089987808664719723)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/grimm-fairy-tale-woodcut-poster-32028)
-
 ## 完整 Prompt
 
 ```text

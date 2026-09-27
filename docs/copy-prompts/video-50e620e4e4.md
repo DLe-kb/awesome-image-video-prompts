@@ -4,15 +4,13 @@
 
 ![巴黎街头时装变身](../../styles/video-50e620e4e4/preview.jpg)
 
-[播放样片](../../styles/video-50e620e4e4/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-50e620e4e4)
 
 以行走跟拍和环绕光轨完成街头服装无缝变身。
 
 类型：生视频 · 来源案例 · 广告
 
 来源：[@ayzalnoor / YouMind](https://x.com/ayzalnooor24521/status/2100456445900710158)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/parisian-fashion-transformation-10954)
 
 ## 完整 Prompt
 

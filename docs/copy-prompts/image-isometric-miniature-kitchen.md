@@ -10,8 +10,6 @@
 
 来源：[@Berryxia.AI](https://x.com/berryxia/status/2096158415894835518)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/isometric-miniature-kitchen-33652)
-
 ## 完整 Prompt
 
 ```text

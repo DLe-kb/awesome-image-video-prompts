@@ -18,13 +18,6 @@
     "url": "https://x.com/MayaAiCreator/status/2098365565781917862"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "X · @MayaAiCreator",
-    "related": {
-      "label": "YouMind 模板",
-      "url": "https://youmind.com/zh-CN/video-prompts/amigurumi-yarn-doll-breakfast-animation-10748"
-    }
-  },
   "preview": "preview.jpg",
   "sample": "sample.mp4"
 }

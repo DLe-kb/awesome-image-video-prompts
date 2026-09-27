@@ -4,7 +4,7 @@
 
 ![动态百科页拼贴解说](../../styles/video-53bf374a72/preview.jpg)
 
-[播放样片](../../styles/video-53bf374a72/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-53bf374a72)
 
 将一个知识主题拆成九个视觉节拍，以纸片拼贴关键帧、局部定格动画、旁白和字幕组成竖屏解释短片。
 

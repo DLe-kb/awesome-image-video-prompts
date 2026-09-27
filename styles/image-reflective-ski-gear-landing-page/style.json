@@ -18,9 +18,6 @@
     "url": "https://higgsfield.ai/publications/0a69afb4-50d7-4ed7-aa39-48b16353f4e2"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "Higgsfield 案例"
-  },
   "preview": "preview.jpg",
   "promptEn": "Create a horizontal 16:9 premium ski-equipment landing-page key visual for the brand \"{brandName}\" and product \"{productName}\". The background transitions from snow white to pale icy blue, with a few drifting, motion-blurred snow particles.\n\nAt the top, add minimal navigation, a store button, and a shopping-bag icon. The main subject is an extreme close-up portrait of an athlete, positioned left of center, wearing oversized mirrored ski goggles with no real brand marks. The lens transitions from amber gold to deep magenta and clearly reflects another athlete leaping from a snowy mountain ridge amid flying powder. Make the reflection naturally continuous across both lenses and the central visual focus. Keep the face and lenses sharp, with increasingly soft edges and natural snow-reflected fill light on the skin.\n\nOn the right, set \"{headline}\" as a compact four-line bold condensed headline expressing voice commands or a product claim. Place the italic subtitle \"{subheadline}\" beneath it. Along the bottom, add an original brand lockup, athlete information, and a new-product service strip.\n\nAim for high-performance, technological, youthful yet restrained commercial photography. Use icy blue, snow white, amber gold, magenta, natural skin tones, and deep charcoal. Make the reflected scene recognizable and keep text away from the main goggles. No real brand logos.",
   "inputs": [

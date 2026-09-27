@@ -10,8 +10,6 @@
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2089959872876228689)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/tension-line-art-concept-poster-31916)
-
 ## 完整 Prompt
 
 ```text

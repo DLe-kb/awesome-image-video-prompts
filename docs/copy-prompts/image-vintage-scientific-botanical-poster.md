@@ -10,8 +10,6 @@
 
 来源：[@AlexAImaginator](https://x.com/TraffAlex/status/2095583733264879803)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/forget-me-not-botanical-poster-33434)
-
 ## 完整 Prompt
 
 ```text

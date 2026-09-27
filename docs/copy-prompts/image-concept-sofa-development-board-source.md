@@ -10,9 +10,23 @@
 
 来源：[@ShamsAmin56](https://x.com/ShamsAmin56/status/2050281206139461780)
 
-相关链接：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-370)
-
 ## 完整 Prompt
+
+```text
+设计理念：Crumple Chair 核心理念：将扔纸球的“受控混乱”转化为雕塑般的高舒适度座椅体验。
+
+第一阶段：观察和形态分析目标是将皱巴巴的纸的图像解构为可用的几何数据。折痕映射：识别主要的“谷”和“脊”线。这些代表椅子中潜在的结构肋或接缝。多面平面：将球体分解为一系列不均匀的多边形。纸张的每个平坦表面都成为椅子内饰或外壳的潜在面板。阴影研究：分析“抛掷”形式如何产生深凹。这些天然的口袋引导用户的体重放置在哪里。
+
+第二阶段：迭代形式探索通过“数字压皱”从球体转移到座位。减法雕刻：将纸球想象成一个固体。使用布尔运算“雕刻”出适合人体形状的座位空腔，同时保持外部锯齿状纹理。张力模拟：使用 3D 软件（如 Rhino 或 Blender）来模拟被压缩的平板材料。这确保了褶皱看起来真实而不是“模仿”。 “抛掷”逻辑：尝试基于重力的模拟，让数字网格掉落，看看它如何自然沉降，模仿“抛掷”原点。
+
+第三阶段：人体工程学翻译和蓝图将原始美学提炼为功能性物体。舒适核心：在皱巴巴的形状上覆盖标准人体工学模板（座椅角度：105°–110°）。调整内部“褶皱”以提供腰部支撑和压力缓解。蓝图生成：创建技术正交视图（正面、侧面、顶部）。绘制尺寸： 座椅高度：450 毫米 总宽度：850 毫米 表面平滑：保持外壳上锋利的“纸边缘”，同时软化内部接触点，使皮肤舒适。
+
+第四阶段：结构整合和扩展使概念在物理上可行。骨架：设计一个隐藏的内部框架（可能是 CNC 弯曲钢棒或 3D 打印的格子），该框架遵循纸折最突出的脊线以提供刚性。材料选择： * 选项 A（高端）：带白色粉末涂层的多面铸铝。选项 B（软质）：真空成型再生塑料外壳，覆盖“记忆折叠”技术织物，保留褶皱外观。
+
+第 5 阶段：最终原型制作和材料饰面纹理复制：在材料上应用哑光、微孔饰面，以模仿重磅纸的触感。照明对比：在最终渲染中使用定向工作室照明来强调“抛掷”阴影，使椅子看起来像是一块被丢弃的灵感的巨大碎片。设计提示：为了保持“抛掷”的外观真实，避免对称。皱巴巴的纸球最引人注目的方面是其独特的不规则性——确保椅子的左右两侧保持视觉平衡，但不要完全相同
+```
+
+## English Prompt
 
 ```text
 Design Concept: The Crumple Chair Core Philosophy: Translating the "controlled chaos" of a tossed paper ball into a sculptural, high-comfort seating experience.
@@ -27,8 +41,6 @@ Stage 4: Structural Integration & Scaling Making the concept physically viable. 
 
 Stage 5: Final Prototyping & Material Finish Textural Replication: Apply a matte, slightly porous finish to the material to mimic the tactile feel of heavy-bond paper. Lighting Contrast: Use directional studio lighting in the final renders to emphasize the "tossed" shadows, making the chair look like a giant piece of discarded inspiration. Design Tip: To keep the "tossed" look authentic, avoid symmetry. The most compelling aspect of a crumpled paper ball is its unique irregularity—ensure the left and right sides of the chair are balance-equivalent but not identical
 ```
-
-[查看关联 Prompt](../copy-prompts/image-concept-sofa-development-board.md)
 
 [打开 style.json](../../styles/image-concept-sofa-development-board-source/style.json) · [打开条目目录](../../styles/image-concept-sofa-development-board-source/)
 

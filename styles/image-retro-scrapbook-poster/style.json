@@ -18,9 +18,6 @@
     "url": "https://www.douyin.com/video/7624869691328485361"
   },
   "promptCredit": "根据来源整理的适配提示词",
-  "catalog": {
-    "sourceLabel": "抖音原帖"
-  },
   "preview": "preview.jpg",
   "promptEn": "Input roles: image 1 is the poster layout and typography reference; image 2 is the finished retro subject illustration. Only the subject of image 2 may appear in the final poster. Do not copy characters, products, brands, or other concrete assets from image 1.\n\nUse image 1's heading hierarchy, type character, layout rhythm, spacing, and decorative style to create a new portrait retro scrapbook poster for image 2. Preserve image 2's subject identity, silhouette, pose, key structures, halftone texture, and illustration style. Do not redesign the subject.\n\nMake the title, short subtitle, footer copy, and small decorations relevant to image 2. Adapt the copy and colors to its content. Use bold vintage display type, a little handwritten supporting type, relevant small icons, and paper print grain. Keep text legible and away from the subject, with clear hierarchy and balanced whitespace.\n\nUse supplied copy exactly. Otherwise use short subject-relevant descriptions without inventing benefits, prices, or commercial claims. Do not include image 1's branding, logos, watermarks, reference comparisons, tutorial captions, or split screens.",
   "inputs": []

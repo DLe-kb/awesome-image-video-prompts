@@ -10,8 +10,6 @@
 
 来源：[@Gadgetify](https://x.com/Gdgtify/status/2096022497791721564)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/paper-relief-neighborhood-grid-33489)
-
 ## 完整 Prompt
 
 ```text

@@ -10,9 +10,31 @@
 
 来源：[@ryanpp27](https://x.com/ryanpp27/status/2048602248524214542)
 
-相关链接：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-350)
+可替换内容：`[PLAYER_NAME]` · `[PRIMARY_COLOR]` · `[NICKNAME/TITLE]`
 
 ## 完整 Prompt
+
+```text
+为 [PLAYER_NAME] 制作剪贴簿涂鸦风格的足球海报。
+
+AI 自动生成真实可信的职业生涯数据（俱乐部和国家队）。
+
+主照片：保持写实且不作改动（[PLAYER_NAME]的动作或标志性姿势）。
+
+涂鸦和手写笔记：白色和 [PRIMARY_COLOR] 霓虹灯墨水（除非指定，否则没有暖色）、箭头、星星、涂鸦、粗略轮廓。在球员身体周围添加发光的 [PRIMARY_COLOR] 轮廓。
+
+布局（粗体手写标题和统计数据）：
+- 顶部标题：“[PLAYER_NAME]”加“[NICKNAME/TITLE]”
+- 俱乐部生涯：总比赛数和进球数加上 2-4 个主要俱乐部（出场次数和进球数）
+- 亮点：2–3 项杰出成就（例如 UCL 进球、金球奖、最佳射手）
+- 国家队：出场次数和进球数以及 1-2 项国际成就
+
+风格：现代足球海报 x 笔记本美学，干净但充满活力，略显凌乱的涂鸦，高对比度，深色或柔和背景上的霓虹灯装饰。
+
+重要提示：所有统计数据都必须真实且与球员的真实职业生涯成比例。
+```
+
+## English Prompt
 
 ```text
 Create a scrapbook doodle-style football poster of [PLAYER_NAME].
@@ -33,8 +55,6 @@ Style: modern football poster x notebook aesthetic, clean but energetic, slightl
 
 Important: all stats must be realistic and proportional to the player's real career.
 ```
-
-[查看关联 Prompt](../copy-prompts/image-football-player-stats-doodle-poster.md)
 
 [打开 style.json](../../styles/image-football-player-stats-doodle-poster-source/style.json) · [打开条目目录](../../styles/image-football-player-stats-doodle-poster-source/)
 

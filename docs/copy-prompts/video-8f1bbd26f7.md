@@ -4,15 +4,13 @@
 
 ![大学物理实验演示短片](../../styles/video-8f1bbd26f7/preview.jpg)
 
-[播放样片](../../styles/video-8f1bbd26f7/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-8f1bbd26f7)
 
 以教授和学生参与的斜轨小球实验组织课堂教育视频。
 
 类型：生视频 · 来源案例 · 电影感
 
 来源：[@Ayat / YouMind](https://x.com/aiwithaayat/status/2102331859657253174)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/physics-lab-educational-video-11156)
 
 ## 完整 Prompt
 

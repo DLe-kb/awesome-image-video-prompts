@@ -18,13 +18,6 @@
     "url": "https://x.com/aiwithlumi/status/2102406322008559857"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "X · @aiwithlumi",
-    "related": {
-      "label": "YouMind 模板",
-      "url": "https://youmind.com/zh-CN/video-prompts/time-freeze-fountain-rainbow-11161"
-    }
-  },
   "preview": "preview.jpg",
   "sample": "sample.mp4"
 }

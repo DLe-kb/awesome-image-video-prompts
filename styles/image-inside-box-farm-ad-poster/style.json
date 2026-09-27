@@ -18,9 +18,6 @@
     "url": "https://higgsfield.ai/publications/bf3260f9-7da3-4eda-a8b4-04ca42bed096"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "Higgsfield 案例"
-  },
   "preview": "preview.jpg",
   "promptEn": "Create a vertical 3:4 conceptual advertising poster. Position the camera at the bottom of an open kraft-cardboard box, looking straight upward in first-person perspective. The four inner walls converge in strong single-point perspective toward the square opening at the top center. Preserve corrugation, creases, wear, and realistic shadows in the cardboard.\n\nBeyond the opening, show a bright pale blue sky with a few white clouds. Two `{animalType}` curiously peer down from opposite sides of the opening with friendly eyes, at slightly different distances for natural asymmetry and scale contrast. Sunlight enters through the opening and illuminates the upper cardboard edges. Keep the subjects clear and the nearby box slightly out of focus.\n\nIn the lower cardboard area, arrange a large headline \"{headline}\", two lines of selling points \"{supportingCopy}\", a small original brand mark \"{brandName}\", shipping or origin information, and a very fine footer. Use bold modern sans-serif for the headline, medium weight for body text, and spaced uppercase lettering for metadata.\n\nFavor kraft brown, sky blue, natural subject colors, charcoal, and soft gray. The result should resemble a mature creative advertisement: an immediately understandable concept, ample negative space, readable text, and realistic photography, without real brands or watermarks.",
   "inputs": [

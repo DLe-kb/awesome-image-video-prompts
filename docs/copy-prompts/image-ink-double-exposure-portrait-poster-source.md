@@ -10,9 +10,52 @@
 
 来源：[@Goodmanprotocol](https://x.com/Goodmanprotocol/status/2049002279051895243)
 
-相关链接：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-359)
+可替换内容：`[SUBJECT]`
 
 ## 完整 Prompt
+
+```text
+《SUBJECT》电影角色宣传海报，垂直构图（9:16），采用精致的东亚水墨美学和高端视觉叙事设计。
+
+结构：
+头重脚轻的分层布局。上半部分以[SUBJECT]头部/面部/面具/上半身的大型、高度可识别的轮廓为特色，形成大胆、标志性的主要形状。轮廓应该可以立即识别。
+
+中下部分包含全身版的【SUBJECT】作为次要主体，以稳定的姿势或微妙的动作姿态站立，形成视觉核心。
+
+构图风格：
+在大型剪影内部和角色周围，使用双重曝光和拼贴讲故事。整合多个元素：
+- 与[SUBJECT]相关的关键场景
+- 象征意象和环境
+- 小叙事人物和互动
+- 支持视觉主题
+
+使用云、雾、墨水扩散和负空间无缝地融合一切。
+
+视觉流程：
+创建从上到下连续流动的视觉路径，连接：
+- 上部轮廓
+- 内部拼贴元素
+- 全身主题
+
+确保流畅的视线引导和构图凝聚力。
+
+侧面元素：
+在左右两侧添加平衡的支撑元素，以创造张力、深度和空间变化。
+
+风格与氛围：
+- 大面积的负空间
+- 水墨扩散边缘、柔和褪色、细微碎裂
+- 东方美学：空虚与细节的平衡
+- 平静、优质、内敛、电影般的基调
+
+质量：
+超细致、高分辨率、层次深度、柔和的灯光、大气的视角、连贯的系列式设计。
+
+输出：
+9:16 的宽高比，适合海报的构图。
+```
+
+## English Prompt
 
 ```text
 A cinematic character promotional poster of [SUBJECT], vertical composition (9:16), designed with a refined East-Asian ink aesthetic and high-end visual storytelling.
@@ -54,8 +97,6 @@ Ultra-detailed, high resolution, layered depth, soft lighting, atmospheric persp
 OUTPUT:
 9:16 aspect ratio, poster-ready composition.
 ```
-
-[查看关联 Prompt](../copy-prompts/image-ink-double-exposure-portrait-poster.md)
 
 [打开 style.json](../../styles/image-ink-double-exposure-portrait-poster-source/style.json) · [打开条目目录](../../styles/image-ink-double-exposure-portrait-poster-source/)
 

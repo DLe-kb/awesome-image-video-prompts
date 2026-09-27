@@ -4,15 +4,13 @@
 
 ![哈恰普里俯拍烹饪](../../styles/video-3207e9e8c2/preview.jpg)
 
-[播放样片](../../styles/video-3207e9e8c2/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-3207e9e8c2)
 
 用固定俯拍和物体状态连续性展示哈恰普里的完整制作步骤。
 
 类型：生视频 · 来源案例 · 烹饪
 
 来源：[@999 / YouMind](https://x.com/999shinobi/status/2102142574848798798)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/khachapuri-cooking-video-prompt-11182)
 
 ## 完整 Prompt
 

@@ -2,7 +2,7 @@ const $ = selector => document.querySelector(selector);
 const state = { kind: 'all', category: 'all', query: '' };
 const detail = $('#detail');
 const cache = new Map();
-const labels = { source: '来源案例', original: '原创案例', adaptation: '配套 Prompt', template: '原创模板' };
+const labels = { source: '来源案例', unverified: '来源待核实' };
 let styles = [];
 let visible = [];
 let requestId = 0;
@@ -40,15 +40,6 @@ function promptBlock(container, title, value) {
   button.addEventListener('click', () => copy(value));
   header.append(button);
   container.append(header, el('pre', 'prompt-text', value));
-}
-
-function relatedLink(container, slug, text) {
-  const linked = styles.find(item => item.slug === slug);
-  if (!linked) return;
-  const button = el('button', 'related-link', `${text}：${linked.title} ↗`);
-  button.type = 'button';
-  button.addEventListener('click', () => openDetail(linked));
-  container.append(button);
 }
 
 async function openDetail(entry) {
@@ -100,25 +91,8 @@ async function openDetail(entry) {
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
     source.append(link);
+    if (style.source.linkType === 'profile') source.append('（作者主页）');
     content.append(source);
-  }
-  if (style.catalog?.sourceUrl) {
-    const source = el('p', 'attribution', '目录来源：');
-    const link = el('a', '', style.catalog.sourceLabel);
-    link.href = style.catalog.sourceUrl;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    source.append(link);
-    content.append(source);
-  }
-  if (style.catalog?.related) {
-    const related = el('p', 'attribution', '相关链接：');
-    const link = el('a', '', style.catalog.related.label);
-    link.href = style.catalog.related.url;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    related.append(link);
-    content.append(related);
   }
   if (style.model) content.append(el('p', 'detail-spec', `${style.model} · ${style.provider} · ${style.requestedSize} → ${style.size}`));
   if (style.inputs?.length) content.append(el('p', 'detail-spec', `可替换：${style.inputs.join(' · ')}`));
@@ -129,6 +103,12 @@ async function openDetail(entry) {
     promptBlock(translation, 'English Prompt', style.promptEn);
     content.append(translation);
   }
+  if (style.sourcePrompt) {
+    const sourceText = el('details', 'translation');
+    sourceText.append(el('summary', '', '来源记录（与使用版不同）'));
+    promptBlock(sourceText, '来源记录', style.sourcePrompt);
+    content.append(sourceText);
+  }
   for (const extra of style.sourcePrompts ?? []) {
     promptBlock(content, extra.title, extra.prompt);
     const link = el('a', 'text-link', '查看原始出处 ↗');
@@ -138,9 +118,6 @@ async function openDetail(entry) {
     content.append(link);
   }
   if (style.tip) content.append(el('p', 'detail-tip', style.tip));
-  if (style.relatedStyle) relatedLink(content, style.relatedStyle,
-    entry.type === 'adaptation' ? '来源案例' : '配套 Prompt');
-  if (style.example) relatedLink(content, style.example, '相关案例');
   const links = el('div', 'detail-links');
   const json = el('a', '', '打开 style.json ↗');
   json.href = entry.json;
@@ -207,7 +184,7 @@ async function start() {
     const data = await response.json();
     if (data.version !== 1 || !Array.isArray(data.styles)) throw new Error('Invalid catalog');
     styles = data.styles;
-    visible = styles.filter(entry => entry.type !== 'adaptation');
+    visible = styles;
     $('#total').textContent = String(visible.length);
     const select = $('#category');
     const categories = [...new Set(styles.map(entry => entry.category))].sort((a, b) => a.localeCompare(b, 'zh-CN'));

@@ -4,15 +4,13 @@
 
 ![疲惫日常蒙太奇](../../styles/video-e6248de843/preview.jpg)
 
-[播放样片](../../styles/video-e6248de843/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-e6248de843)
 
 用连续生活碎片呈现从清晨通勤到深夜工作的疲惫日常。
 
 类型：生视频 · 来源案例 · 电影感
 
 来源：[@Noor / YouMind](https://x.com/noorlewisx/status/2101902128986075593)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/exhausted-daily-routine-film-11092)
 
 ## 完整 Prompt
 

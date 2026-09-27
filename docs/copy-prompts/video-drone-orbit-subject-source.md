@@ -4,7 +4,7 @@
 
 ![无人机环绕主体](../../styles/video-drone-orbit-subject-source/preview.jpg)
 
-[播放样片](../../styles/video-drone-orbit-subject-source/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-drone-orbit-subject-source)
 
 让无人机以固定半径和高度匀速环绕主体，利用地平线旋转和视差建立空间感。
 
@@ -12,9 +12,21 @@
 
 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control)
 
-相关链接：[示例视频（外链）](https://d2245ubjcvacnx.cloudfront.net/assets/prompt_bank__camera__drone-orbit__08-drone-orbit.30974300.mp4)
+可替换内容：`[主体]` · `[右侧]`
 
 ## 完整 Prompt
+
+```text
+无人机围绕[主体]进行平滑、匀速的圆周飞行：环绕半径为[8]米，高度为[4]米，向画面[右侧]移动，从上方俯视为顺时针方向，整个镜头覆盖约[200]度的弧线。地平线在主体身后持续旋转；不得改变高度、漂移环绕半径、变焦或使用速度渐变。
+```
+
+## English Prompt
+
+```text
+A smooth constant-speed circular drone flight around the [subject] — [8]-meter radius, [4]-meter altitude, traveling screen-[right] (clockwise seen from above), covering roughly a [200]-degree arc across the shot. The horizon rotates continuously behind the subject; no altitude change, no radius drift, no zoom, no speed ramps.
+```
+
+## 来源记录（与使用版不同）
 
 ```text
 ## 原始英文提示词
@@ -32,8 +44,6 @@ A smooth constant-speed circular drone flight around the subject — [8]-meter r
 - `[right]` / `[右侧]`：画面运动方向，改变时应同步调整顺逆时针说明。
 - `[200]`：镜头覆盖的环绕角度。
 ```
-
-[查看关联 Prompt](../copy-prompts/video-drone-orbit-subject.md)
 
 [打开 style.json](../../styles/video-drone-orbit-subject-source/style.json) · [打开条目目录](../../styles/video-drone-orbit-subject-source/)
 

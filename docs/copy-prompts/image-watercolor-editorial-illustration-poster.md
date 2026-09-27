@@ -10,8 +10,6 @@
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2089893684527730867)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/vintage-watercolor-illustration-poster-31914)
-
 ## 完整 Prompt
 
 ```text

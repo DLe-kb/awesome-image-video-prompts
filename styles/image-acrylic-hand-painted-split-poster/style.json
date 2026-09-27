@@ -18,13 +18,6 @@
     "url": "https://x.com/xiaoxiaodong01/status/2089997569829093688"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "X · @xiaoxiaodong01",
-    "related": {
-      "label": "YouMind 模板",
-      "url": "https://youmind.com/zh-CN/prompts/acrylic-hand-painted-poster-design-32025"
-    }
-  },
   "preview": "preview.jpg",
   "promptEn": "Turn each uploaded photo into its own standalone premium design poster. Do not combine multiple photos; output each photo separately. Use a vertical 3:4 composition split into two equal-height regions, exactly 1:1, each occupying 50% of the image.\n\nKeep the original photo in the upper half, preserving subject structure, realistic textures, natural lighting, and the original color atmosphere. Apply only subtle high-end photographic color grading for an art-publication or magazine-photography finish. You may naturally extend the sky, ground, or surrounding background to fit the frame, but never stretch, distort, or alter the subject.\n\nIn the lower half, extract the photo's most recognizable subject, silhouette, pose, and narrative relationships, and reinterpret them as a minimal hand-drawn cover illustration on paper. Distill and remove complex details, keeping only essential visual features. Use fine, slightly unsteady hand-drawn lines and a few defined flat acrylic color blocks so the original theme is immediately recognizable. Keep the subject small and concentrated, occupying about 10%-20% of the lower half, with generous surrounding negative space. Use rough white or light-colored paper and only a few lines or color planes to suggest the setting.\n\nExtract the palette from the upper photo and reduce it to no more than four main colors. Keep color blocks vivid, solid, and restrained, with paper grain, hand-painted marks, and slightly irregular edges. Lines describe structure; color blocks establish the subject. Avoid colored pencil, crayon, watercolor bleeding, pure line art, complex realism, heavy oil painting, smooth digital illustration, and 3D textures.\n\nA small amount of simple text may be added: titles, theme words, object names, locations, years, numbers, or short phrases suited to the photo, not limited to cities. Typography should be spacious and restrained, naturally integrated with the illustration and negative space, like an art-book cover, independent publication, or children's picture book. Aim for a small subject, expansive negative space, strong distillation, high recognizability, and a quiet, playful, relaxed, poetic, sophisticated mood. Avoid commercial cartoon, e-commerce, or generic template aesthetics.",
   "inputs": []

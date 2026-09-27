@@ -4,15 +4,13 @@
 
 ![高端香水UGC口播](../../styles/video-e0fd6d34ba/preview.jpg)
 
-[播放样片](../../styles/video-e0fd6d34ba/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-e0fd6d34ba)
 
 用手持口播、试喷和产品近景组合高端香水 UGC 广告。
 
 类型：生视频 · 来源案例 · 广告
 
 来源：[@Meem / YouMind](https://x.com/mehvishs25/status/2094785997460660622)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/premium-ugc-perfume-ad-video-10229)
 
 ## 完整 Prompt
 

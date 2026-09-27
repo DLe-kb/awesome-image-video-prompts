@@ -10,8 +10,6 @@
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2096609211870576683)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/bento-fication-food-packaging-reinterpretation-33687)
-
 ## 完整 Prompt
 
 ```text

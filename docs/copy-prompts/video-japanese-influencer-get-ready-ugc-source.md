@@ -4,7 +4,7 @@
 
 ![日本网红出门准备 UGC](../../styles/video-japanese-influencer-get-ready-ugc-source/preview.jpg)
 
-[播放样片](../../styles/video-japanese-influencer-get-ready-ugc-source/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-japanese-influencer-get-ready-ugc-source)
 
 使用角色图和房间首帧生成一段日本美妆网红出门前整理刘海的自然手机口播视频。
 
@@ -12,9 +12,96 @@
 
 来源：[タナベ | AI動画 × マーケティング（X：`@tanabe_fragm`）。](https://x.com/tanabe_fragm/status/2096136682055864564)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/japanese-influencer-holiday-vlog-ugc-10429)
+可替换内容：`[角色：27 岁日本美妆/时尚网红]` · `[室内场景：紧凑的日本出租屋]`
 
 ## 完整 Prompt
+
+```text
+## 作品
+
+美丽网红的假日。“我以为我准备好了，但还是担心刘海。”
+
+一段 30 秒自然的手机 UGC 视频，主角为一名虚构的 27 岁日本女性，场景在家中。展现她平日美丽迷人的一面。营造一种如同与亲密粉丝对话般的亲切距离感。
+
+## 输出要求
+
+竖屏 9:16，30 秒，全屏视频。无黑边。单人、单房间、单手机拍摄，一镜到底。无剪辑、场景切换或分屏。对话和肢体动作优先于严格的时间控制。
+
+## 图像角色
+
+`@Image1` = 角色参考（脸部、发型、服装）。
+
+`@Image2` = 起始帧及房间/灯光参考。
+
+两张图中的角色保持一致。Image2 用于固定构图和室内环境。
+
+## 角色设定
+
+[角色：27 岁日本美妆/时尚网红]。五官精致，巧克力棕色中长卷发，卷度柔和。身穿白色圆领 T 恤，搭配蓝色高腰牛仔裤，佩戴小巧的金色圆环耳环。自然妆容，蜜桃色腮红，玫瑰米色唇妆。全程形象保持一致。
+
+## 室内与拍摄
+
+[室内场景：紧凑的日本出租屋]，白墙，自然光。手机固定在桌面上拍摄。无电影级虚化或过度 HDR。房间看起来不应像摄影棚。
+
+## 语音与行为
+
+自然的标准日语口语。声音温暖清晰，非推销口吻。口型与日语同步。自然的眨眼、呼吸，以及看向镜头或镜子的眼神交流。
+
+## 表演与对话：30 秒序列
+
+- 0.0-3.5 秒：手从镜头前移开，看向镜头。对话：“好了，我准备出发了。”
+- 3.5-8.5 秒：看向左侧的镜子。注意到刘海。对话：“……哦，刘海这样会不会更好一点？”
+- 8.5-14.0 秒：沉默。用指尖整理刘海。照镜子确认。
+- 14.0-21.0 秒：微笑着看向镜头。对话：“我总是临出门前就开始担心。”
+- 21.0-25.5 秒：拿起包。对话：“今天要去咖啡馆。”
+- 25.5-30.0 秒：向镜头挥手。对话：“那么，回头见。”伸手去关掉录制。
+
+## 声音
+
+本人声音、呼吸声、室内环境音、衣物摩擦声、包的声音。与动作同步。无背景音乐或旁白。
+
+## 严格合规
+
+不要添加额外对话。仅限一人。全程保持角色形象一致。
+```
+
+## English Prompt
+
+```text
+[Work]
+Holiday of a beautiful influencer. "I thought I was ready, but I'm worried about my bangs." A 30-second natural smartphone UGC video of a fictional 27-year-old Japanese woman at home. Her usual beautiful and glamorous self. A warm sense of distance as if speaking to close followers.
+
+[Output]
+Vertical 9:16, 30 seconds, full-screen video. No black bars. One continuous shot with one person, in one room, using one smartphone. No cuts, scene changes, or split screens. Dialogue and physical movement priority over strict second counts.
+
+[Image Roles]
+@Image1 = character reference (face, hair, clothes). @Image2 = start frame and room/lighting reference. The character is the same in both. Image2 fixes the composition and interior.
+
+[Character]
+27-year-old Japanese beauty/fashion influencer. Beautiful features with chocolate brown semi-long hair and soft curls. Wearing a white crew-neck T-shirt, blue high-waist denim, and small gold hoop earrings. Natural makeup with peach cheeks and rose beige lips. Consistent look throughout.
+
+[Interior and Shooting]
+Compact Japanese rental room with white walls and natural light. Fixed smartphone camera on a table. No cinematic bokeh or extreme HDR. The room should not look like a studio.
+
+[Voice and Behavior]
+Natural standard Japanese speech. Warm and clear voice, not a sales talk. Lip-sync synchronized with Japanese. Natural blinking, breathing, and eye movements toward the lens or the mirror.
+
+[Acting and Dialogue: 30-second sequence]
+0.0–3.5s: Pulling hand back from the camera, looking at the lens. Dialogue: "Alright, I'm ready."
+3.5–8.5s: Looking at the mirror on the left. Noticing bangs. Dialogue: "...Oh, maybe the bangs are better like this."
+8.5–14.0s: Silent. Adjusting bangs with fingertips. Checking in the mirror.
+14.0–21.0s: Looking back at the lens with a smile. Dialogue: "I always start worrying right before leaving."
+21.0–25.5s: Grabbing a bag. Dialogue: "I'm heading to the cafe today."
+25.5–30.0s: Waving at the lens. Dialogue: "Well, see you later." Reaching for the camera to stop recording.
+
+[Sound]
+Own voice, breathing, ambient room sounds, rustle of clothes, sounds of the bag. Synced to actions. No background music or narration.
+
+[Strict Compliance]
+Do not add extra dialogue. One person only. Maintain identity throughout.
+```
+
+## 来源记录（与使用版不同）
 
 ```text
 ## 作品
@@ -64,8 +151,6 @@
 
 不要添加额外对话。仅限一人。全程保持角色形象一致。
 ```
-
-[查看关联 Prompt](../copy-prompts/video-japanese-influencer-get-ready-ugc.md)
 
 [打开 style.json](../../styles/video-japanese-influencer-get-ready-ugc-source/style.json) · [打开条目目录](../../styles/video-japanese-influencer-get-ready-ugc-source/)
 

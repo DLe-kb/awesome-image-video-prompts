@@ -18,13 +18,6 @@
     "url": "https://x.com/itxabdullaa/status/2096915887504982258"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "X · @itxabdullaa",
-    "related": {
-      "label": "YouMind 模板",
-      "url": "https://youmind.com/zh-CN/prompts/gourmet-product-commercial-storyboard-33816"
-    }
-  },
   "preview": "preview.jpg",
   "promptEn": "TITLE:\nPremium {productName} Product Commercial Storyboard\n\nFORMAT:\n• Single-page premium storyboard\n• 3:4 Portrait ratio\n• Luxury food product advertising\n• 8 cinematic product-focused scenes\n• Product remains the main hero\n• High-end advertising agency presentation\n\nHEADER:\n• Elegant serif typography\n• Information cards:\n\n- Duration: 20 Seconds\n- Style: Cinematic Gourmet Food Commercial\n- Product: {productName}\n- Audio: Soft Spread + Food ASMR\n  • Why This Style Works section\n  • Warm brown, cream and golden aesthetic\n  • Minimal hazelnut decorative accents\n\nSTORYBOARD:\n\n1. Premium {productName} jar standing on polished dark wood\n2. Jar lid opening in extreme macro\n3. Creamy {productName} slowly spreading from the jar\n4. Chocolate spread forming a glossy ribbon in mid-air\n5. {productName} cascading over fluffy pancakes\n6. Extreme macro showing rich chocolate texture and tiny reflections\n7. Pancake stack surrounded by the hero jar and hazelnuts\n8. Final luxury product packshot with dramatic {productName} spread\n\nEVERY PANEL:\n• Scene number\n• Duration badge\n• Camera direction\n• Visual\n• Action\n• Product detail\n\nCAMERA:\nExtreme macro, slow-motion spread photography, overhead food shot, controlled push-in, shallow depth of field, cinematic hero framing.\n\nSTYLE:\nUltra-realistic food advertising, realistic spread viscosity, glossy chocolate texture, warm studio lighting, premium glass packaging, sophisticated gourmet presentation, 8K.",
   "inputs": [

@@ -10,8 +10,6 @@
 
 来源：[@M. Asif](https://x.com/meAsifAi/status/2095857760537805130)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/portrait-lighting-setup-grid-33488)
-
 ## 完整 Prompt
 
 ```text

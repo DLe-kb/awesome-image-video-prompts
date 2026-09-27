@@ -18,13 +18,6 @@
     "url": "https://x.com/BLCNYY/status/2090897198351368575"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "X · @BLCNYY",
-    "related": {
-      "label": "YouMind 模板",
-      "url": "https://youmind.com/zh-CN/prompts/sony-headphones-review-thumbnail-32279"
-    }
-  },
   "preview": "preview.jpg",
   "promptEn": "Create a high-impact YouTube tech review thumbnail in a 16:9 landscape format. On the right half, show a close-up portrait of a young man with short curly dark hair wearing large light-gray over-ear headphones, looking confidently at the camera with a slightly raised chin and subtle smirk; crop him from the chest up, with the headphones clearly visible. On the left half, place huge bold thumbnail text reading {headline} in white uppercase at the top, and {questionText} in bright yellow uppercase inside a red rectangular banner beneath it, with strong drop shadows and a slightly tilted dynamic layout. Below the main text, add smaller white product text reading {productName}. Add exactly one thick hand-drawn white curved arrow pointing from the text area toward the headphones. Use a dark navy-to-black background on the left with subtle dotted halftone texture, transitioning to a warm beige radial glow behind the person on the right. Make the design crisp, saturated, and clickable, with dramatic contrast, studio lighting, sharp facial detail, clean cutout edges, and no extra logos, watermarks, or additional text.",
   "inputs": [

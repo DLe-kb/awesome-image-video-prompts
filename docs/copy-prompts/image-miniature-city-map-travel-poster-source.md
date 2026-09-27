@@ -10,9 +10,21 @@
 
 来源：[@SimplyAnnisa](https://x.com/SimplyAnnisa/status/2062358269172101240)
 
-相关链接：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-489)
+可替换内容：`[城市名称]` · `[车辆名称]`
 
 ## 完整 Prompt
+
+```text
+创建 [城市名称] 的高度详细的电影微型移轴旅行场景，其中包含逼真的 [车辆名称] 沿着蜿蜒的高架道路行驶，该道路从印刷的复古风格城市地图中自然出现。道路应向[城市名称]的背景天际线和地标急剧弯曲，而车辆仍然是前景中的清晰焦点。
+
+将真实城市与插图地图表面无缝融合，使道路看起来与地图本身融为一体。包括与[城市名称]相关的可识别的当地地标、水道、建筑、植被和氛围，但保持构图干净整洁。
+
+显示直接打印在前景地图上的大号粗体字体“[城市名称]”。使用温暖的黄金时段照明、浅景深、逼真的纹理、电影阴影、空中透视和逼真的细节。整体美感应该像是一张高级 Instagram 旅行海报与微型立体模型的混合体。
+
+长宽比 1:1。
+```
+
+## English Prompt
 
 ```text
 Create a highly detailed cinematic miniature tilt-shift travel scene of [CITY NAME] featuring a realistic [VEHICLE NAME] driving along a winding elevated road that emerges naturally from a printed vintage-style city map. The road should curve dramatically toward the background skyline and landmarks of [CITY NAME], while the vehicle remains the clear focal point in the foreground.
@@ -23,8 +35,6 @@ Show large bold typography of "[CITY NAME]" printed directly on the map in the f
 
 Aspect ratio 1:1.
 ```
-
-[查看关联 Prompt](../copy-prompts/image-miniature-city-map-travel-poster.md)
 
 [打开 style.json](../../styles/image-miniature-city-map-travel-poster-source/style.json) · [打开条目目录](../../styles/image-miniature-city-map-travel-poster-source/)
 

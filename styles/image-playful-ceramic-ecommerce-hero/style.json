@@ -18,9 +18,6 @@
     "url": "https://higgsfield.ai/publications/2f589a2f-cc4e-422c-9285-97d65fd49540"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "Higgsfield 案例"
-  },
   "preview": "preview.jpg",
   "promptEn": "Create a horizontal 16:9 e-commerce homepage key visual for the brand \"{brandName}\", featuring `{productType}` from the collection \"{collectionName}\". Combine minimal editorial web layout with playful character-inspired product rendering.\n\nUse a soft warm pink paper-textured background. Across the top, place a lightweight navigation row with a brand graphic, collections, brand story, stockists, account, and shopping bag. An oversized uppercase product-category wordmark in dark charcoal modern sans-serif spans about 90% of the width at the center.\n\nArrange five floating products in front of the wordmark along a clear diagonal from upper right to lower left. Give each a different but harmonious glaze color and the same original hand-drawn character language, expressing curiosity, sleepiness, mischief, shyness, and confidence. Keep shapes, lines, brushwork, and materials consistent for a handmade studio finish rather than cheap cartoon merchandise. Render realistic ceramic glaze, subtle irregularities, and soft floating shadows.\n\nAt the lower left, place a price, two to three lines of product description, and a \"{ctaText}\" button. At the lower right, show a page number and collection-season information. Add a very thin service-information strip along the bottom. Use warm pink, charcoal, terracotta orange, sage, cobalt, dusty pink, and cream yellow. Keep text accurate and spacing restrained; products must not obscure key interface information. No real brand logos.",
   "inputs": [

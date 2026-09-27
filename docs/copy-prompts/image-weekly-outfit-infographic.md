@@ -8,9 +8,7 @@
 
 类型：生图 · 来源案例 · 信息图表
 
-来源：[@yyyole](https://x.com/yyyole)
-
-目录来源：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-1.md#case-51)
+来源：[@yyyole](https://x.com/yyyole)（作者主页）
 
 ## 完整 Prompt
 

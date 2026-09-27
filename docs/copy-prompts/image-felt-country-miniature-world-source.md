@@ -10,9 +10,57 @@
 
 来源：[@volkan_iras](https://x.com/volkan_iras/status/2051403524966141980)
 
-相关链接：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-390)
+可替换内容：`[插入国家/地区名称]`
 
 ## 完整 Prompt
+
+```text
+国家/地区：[插入国家/地区名称]
+
+由蓬松的纱线、羊毛和针线制成的微型毛毡立体模型，设计成一个单一的有凝聚力的小世界（不是拼贴画），反映了这个国家的真实景观、文化和日常生活。
+
+结构：
+- 选择 4-7 个自然整合的元素（景观、建筑、交通、街道生活、文化）
+- 一切都必须作为一个环境一起流动
+
+前景：
+日常生活——小商店、咖啡馆、市场、人们互动、当地服装、街道细节、微妙的动作、温暖的人类存在
+
+中景：
+连接流线——街道、桥梁、河流、小路、交通、文化空间，自然地引导视线从前到后
+
+背景：
+一个强有力的身份锚点——地标、天际线、山脉或象征性景观，清楚地代表国家（保持干净，不要过度拥挤）
+
+风格：
+手工羊毛毡、纱线、针毡纹理、可见纤维、柔软边缘、微型工艺、高级立体模型现实主义
+
+照明：
+温暖的黄金时段或明亮的正午，柔和的阴影，清晰的可见度，柔和的辉光增强深度
+
+颜色:
+柔和但饱和的调色板反映了该国的自然色调（绿色、天蓝色、建筑色调、文化特色）、温暖而平衡
+
+成分：
+垂直框架，平衡或居中视角，轻微自上而下或沉浸式角度，清晰的前景-中景-背景深度
+
+心情：
+温暖、感性、平静、精致——就像现实生活的手工童话版本（不幼稚）
+
+规则：
+- 无徽标或文字覆盖
+- 没有拼贴风格的构图
+- 没有随机的符号混乱
+- 保持现实，但风格化为手工制作的微型世界
+
+质量：
+16K、超细致、超现实的微型纹理、电影深度、锐利的焦点
+
+输出目标：
+一个单一、有凝聚力的毛毡立体模型世界，通过整合的景观、文化和日常生活立即传达所选国家的身份和氛围
+```
+
+## English Prompt
 
 ```text
 Country: [INSERT COUNTRY NAME]
@@ -59,8 +107,6 @@ Quality:
 output_goal:
 A single, cohesive felt diorama world that instantly conveys the identity and atmosphere of the chosen country through integrated landscape, culture, and daily life
 ```
-
-[查看关联 Prompt](../copy-prompts/image-felt-country-miniature-world.md)
 
 [打开 style.json](../../styles/image-felt-country-miniature-world-source/style.json) · [打开条目目录](../../styles/image-felt-country-miniature-world-source/)
 

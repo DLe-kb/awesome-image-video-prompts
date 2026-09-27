@@ -10,8 +10,6 @@
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2089252321603862547)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/torn-paper-sticker-poster-31696)
-
 ## 完整 Prompt
 
 ```text

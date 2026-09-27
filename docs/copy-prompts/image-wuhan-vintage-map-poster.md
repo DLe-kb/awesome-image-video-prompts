@@ -10,8 +10,6 @@
 
 来源：[雪瑜（@xueyu1125）](https://x.com/xueyu1125/status/2094015423775994116)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/vintage-macau-map-poster-33076)
-
 ## 完整 Prompt
 
 ```text

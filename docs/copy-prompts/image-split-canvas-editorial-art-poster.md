@@ -10,8 +10,6 @@
 
 来源：[@𝗦𝗮𝗻𝗶𝗮](https://x.com/saniaspeaks_/status/2097176979497791899)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/split-canvas-editorial-poster-33811)
-
 ## 完整 Prompt
 
 ```text

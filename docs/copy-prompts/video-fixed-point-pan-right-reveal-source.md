@@ -4,7 +4,7 @@
 
 ![固定点向右横摇揭示](../../styles/video-fixed-point-pan-right-reveal-source/preview.jpg)
 
-[播放样片](../../styles/video-fixed-point-pan-right-reveal-source/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-fixed-point-pan-right-reveal-source)
 
 让摄像机保持原地不位移，只向右水平旋转并在结尾主体上稳定停留。
 
@@ -12,9 +12,21 @@
 
 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control)
 
-相关链接：[示例视频（外链）](https://d2245ubjcvacnx.cloudfront.net/assets/prompt_bank__camera__pan-right__02-pan-right.b41e1998.mp4)
+可替换内容：`[起始构图 A]` · `[环境]` · `[落点主体]`
 
 ## 完整 Prompt
+
+```text
+摄像机从一个固定点水平向右旋转，如同站在原地转头，从[起始构图 A]开始，横摇扫过[环境]；不得发生横向位移、推拉移动、轨道侧移、弧线运动、滑动、变焦或俯仰。速度保持平滑、匀速，并在结尾轻柔减速。构图上保持地平线水平，新空间只能通过旋转从画面右侧进入；在旋转将[落点主体]带入画面之前，该主体始终位于右侧画外。结尾稳定停在以[落点主体]为核心的清晰构图，并短暂停留。
+```
+
+## English Prompt
+
+```text
+Rotate the camera horizontally from left to right from one fixed point, like a standing head-turn, starting on [composition A] and sweeping across [the environment]; no sideways travel, no dolly, no truck, no arc, no slide, no zoom, no tilt. Speed: smooth constant rotation, decelerating gently at the end. Framing: keep the horizon level while new space enters from the right side of the frame only through rotation; [the landing subject] stays beyond the right edge until the rotation brings them in. End: settle on a clear final composition on [the landing subject] and hold.
+```
+
+## 来源记录（与使用版不同）
 
 ```text
 ## 原始英文提示词
@@ -31,8 +43,6 @@ Rotate the camera horizontally from left to right from one fixed point, like a s
 - `[the environment]` / `[环境]`：横摇过程中逐步揭示的空间。
 - `[the landing subject]` / `[落点主体]`：镜头最终停留的主体。
 ```
-
-[查看关联 Prompt](../copy-prompts/video-fixed-point-pan-right-reveal.md)
 
 [打开 style.json](../../styles/video-fixed-point-pan-right-reveal-source/style.json) · [打开条目目录](../../styles/video-fixed-point-pan-right-reveal-source/)
 

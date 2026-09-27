@@ -18,9 +18,6 @@
     "url": "https://www.douyin.com/video/7624869691328485361"
   },
   "promptCredit": "根据来源整理的适配提示词",
-  "catalog": {
-    "sourceLabel": "抖音原帖"
-  },
   "preview": "preview.jpg",
   "promptEn": "Redraw the uploaded photo as a retro halftone illustration. Use the photo as the subject reference, preserving the subject's identity, count, main silhouette, pose, viewing angle, and key structures. Do not add unrelated objects.\n\nUse vector-like flat 2D shapes, pop art, vintage comics, and playful children's-book illustration with a nostalgic 1950s-to-1960s print aesthetic. Keep outlines bold and black, lines clear, shapes simple, and contrast high. Use vivid, saturated but limited colors. No gradients: represent shading with halftone dot density rather than photorealistic lighting.\n\nEmphasize dotted textures, rough print grain, and slightly irregular hand-drawn marks rather than mechanically perfect lines. Use white, finely grained paper as the background. Keep the entire subject clear and leave modest breathing room.\n\nOutput only the illustration. Do not add headings, captions, logos, watermarks, poster frames, or split-screen comparisons.",
   "inputs": []

@@ -18,9 +18,6 @@
     "url": "https://higgsfield.ai/publications/fb624032-7cc1-47b5-8df4-d8a8cfc5823e"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "Higgsfield 案例"
-  },
   "preview": "preview.jpg",
   "promptEn": "Create a horizontal 16:9 virtual try-on service landing page for the brand \"{brandName}\". Draw the visual language from turn-of-the-millennium console-game character-selection screens: low-poly 3D characters, cyan-blue perspective grids, translucent glossy panels, chrome bevels, pixel typography, scan lines, and subtle screen bloom.\n\nPlace a large \"SELECT YOUR FIT\" game-title panel at the upper left. Stack status, player number, and fitting-room level HUD panels at the upper right. The left third is a selected-character preview with a complete low-poly figure, outfit number, rotation and front/back controls, loaded-item count, and outfit confidence.\n\nAcross the center, display \"{headline}\" in huge dimensional chrome lettering, with a short value proposition below. On the right, build a 7x5 character-thumbnail grid showing different outfits and appearances. Highlight the selected item with a glowing pink border; a few locked slots show question marks. Place a scrollbar and loaded count beneath the grid.\n\nAlong the bottom, arrange the two primary buttons \"{primaryCta}\" and \"{secondaryCta}\", a statistics panel, minimap-like navigation, and a very thin scrolling-information strip. Use deep teal-blue, bright magenta, fluorescent cyan, chrome silver, pixel green, and white. Keep the rich information clearly divided into regions, with all text and buttons identifiable. Do not use real game, platform, or clothing-brand marks.",
   "inputs": [

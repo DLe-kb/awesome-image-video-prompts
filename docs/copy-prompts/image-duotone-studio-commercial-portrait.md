@@ -10,8 +10,6 @@
 
 来源：[@Abkr Sadiq](https://x.com/abs_uiux/status/2097210827652968512)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/dual-tone-studio-fashion-portrait-33799)
-
 ## 完整 Prompt
 
 ```text

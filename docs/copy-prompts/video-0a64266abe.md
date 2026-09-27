@@ -4,15 +4,13 @@
 
 ![企业猫职场动画短片](../../styles/video-0a64266abe/preview.jpg)
 
-[播放样片](../../styles/video-0a64266abe/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-0a64266abe)
 
 以拟人化角色的一日职场故事制作 3D 动画短片。
 
 类型：生视频 · 来源案例 · 动画
 
 来源：[@Aynelle / YouMind](https://x.com/aynellex/status/2102604800341000457)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/corporate-cat-animated-short-11162)
 
 ## 完整 Prompt
 

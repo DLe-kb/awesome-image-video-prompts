@@ -4,15 +4,13 @@
 
 ![立体书地图纸艺动画](../../styles/video-31ea8a7f7c/preview.jpg)
 
-[播放样片](../../styles/video-31ea8a7f7c/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-31ea8a7f7c)
 
 让地图集中的纸艺地形随翻页重组并最终折叠成罗盘。
 
 类型：生视频 · 来源案例 · 动画
 
 来源：[@Alexandra Aisling / YouMind](https://x.com/AllaAisling/status/2091584001282900033)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/pop-up-book-paper-animation-9720)
 
 ## 完整 Prompt
 

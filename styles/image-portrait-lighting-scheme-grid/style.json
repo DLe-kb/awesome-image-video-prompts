@@ -18,13 +18,6 @@
     "url": "https://x.com/meAsifAi/status/2095857760537805130"
   },
   "promptCredit": "来源提示词 / 翻译整理",
-  "catalog": {
-    "sourceLabel": "X · @meAsifAi",
-    "related": {
-      "label": "YouMind 模板",
-      "url": "https://youmind.com/zh-CN/prompts/portrait-lighting-setup-grid-33488"
-    }
-  },
   "preview": "preview.jpg",
   "promptEn": "Take the person from the reference image and create a single 2x2 grid showing this exact same close-up portrait under four different professional lighting setups. Identity lock: identical face, expression (calm neutral), hairstyle, dark top, head size and camera angle in every panel — only the light changes. Panel 1 REMBRANDT: key at forty-five degrees left and above, small triangle of light on the shadowed cheek, moody falloff. Panel 2 BUTTERFLY: key directly above the camera, soft symmetric shadow under the nose, beauty-portrait glow. Panel 3 SPLIT: key exactly from the side, one half of the face lit, the other in darkness. Panel 4 RIM: key behind the subject edging hair and shoulders in bright outline, face lifted only by faint fill, near-silhouette drama. Same medium-gray background throughout, 85mm look, sharp focus on the eyes. Small white labels beneath each panel: \"REMBRANDT\", \"BUTTERFLY\", \"SPLIT\", \"RIM\".",
   "inputs": []

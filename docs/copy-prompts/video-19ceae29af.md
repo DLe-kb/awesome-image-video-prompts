@@ -4,15 +4,13 @@
 
 ![火山疏散城市建造延时](../../styles/video-19ceae29af/preview.jpg)
 
-[播放样片](../../styles/video-19ceae29af/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-19ceae29af)
 
 用微型工人连续施工展示火山谷紧急疏散城市的建造。
 
 类型：生视频 · 来源案例 · 电影感
 
 来源：[@Maverick | AI / YouMind](https://x.com/RizwanAly07/status/2101897414760411153)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/volcanic-evacuation-city-timelapse-11144)
 
 ## 完整 Prompt
 

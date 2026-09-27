@@ -71,15 +71,15 @@ for (const [position, style] of styles.entries()) {
   const slug = style.style_slug;
   if (style.style_version !== '1.0' || slug !== slugs[position] || !/^[a-z0-9-]+$/.test(slug) ||
       !['image', 'video'].includes(style.kind) ||
-      !['source', 'original', 'adaptation', 'template'].includes(style.type) ||
+      !['source', 'unverified'].includes(style.type) ||
       !style.title?.trim() || !style.summary?.trim() || !style.category?.trim() || !style.prompt?.trim()) {
     throw new Error(`Invalid style: ${slug}`);
   }
-  if (style.type !== 'adaptation' && style.preview) galleryThumbnail(style);
+  if (style.preview) galleryThumbnail(style);
   const files = readdirSync(resolve(root, 'styles', slug)).sort();
   const expected = ['style.json', ...(style.preview?.startsWith('../') ? [] : style.preview ? [style.preview] : []),
     ...(style.sample?.startsWith('../') ? [] : style.sample ? [style.sample] : []),
-    ...(style.type !== 'adaptation' && style.preview ? ['thumbnail.jpg'] : [])].sort();
+    ...(style.preview ? ['thumbnail.jpg'] : [])].sort();
   if (JSON.stringify(files) !== JSON.stringify(expected)) throw new Error(`Unexpected files: ${slug}`);
   if (style.preview && !/\.jpg$|\.webp$/.test(style.preview)) throw new Error(`Invalid preview: ${slug}`);
   if (style.sample && extname(style.sample) !== '.mp4') throw new Error(`Invalid sample: ${slug}`);
@@ -88,24 +88,34 @@ for (const [position, style] of styles.entries()) {
   }
   assetPath(style, 'preview');
   assetPath(style, 'sample');
-  if (style.relatedStyle && !bySlug.has(style.relatedStyle)) throw new Error(`Broken style relation: ${slug}`);
+  if (style.relatedStyle) throw new Error(`Linked duplicate style: ${slug}`);
   if (style.example && !bySlug.has(style.example)) throw new Error(`Broken example relation: ${slug}`);
   if (style.type === 'source' && (!style.source?.author || !/^https:\/\//.test(style.source.url))) {
     throw new Error(`Missing source: ${slug}`);
   }
-  if (style.type === 'adaptation' && (!style.promptEn?.trim() || bySlug.get(style.relatedStyle)?.relatedStyle !== slug)) {
-    throw new Error(`Invalid adaptation: ${slug}`);
+  if (style.source?.linkType && !['post', 'profile'].includes(style.source.linkType)) {
+    throw new Error(`Invalid source link type: ${slug}`);
   }
-  if (style.type === 'template' && (!Array.isArray(style.inputs) || style.inputs.some(input => !style.prompt.includes(`[${input}]`)))) {
-    throw new Error(`Invalid template inputs: ${slug}`);
+  if (style.source?.linkType === 'profile' && !/^https:\/\/x\.com\/[^/]+\/?$/.test(style.source.url)) {
+    throw new Error(`Invalid author profile: ${slug}`);
+  }
+  if (style.type === 'source' && /^https:\/\/x\.com\/[^/]+\/?$/.test(style.source.url) && style.source.linkType !== 'profile') {
+    throw new Error(`Unlabeled author profile: ${slug}`);
+  }
+  if (style.source?.url && /^https:\/\/(?:www\.)?(?:youmind\.com|github\.com\/freestylefly\/)/.test(style.source.url)) {
+    throw new Error(`Secondary source: ${slug}`);
+  }
+  if (style.catalog?.related || style.catalog?.sourceUrl) {
+    throw new Error(`Secondary catalog link: ${slug}`);
   }
 }
 if (!styles.length) throw new Error('Empty style library');
 
 const sorted = styles.toSorted((a, b) =>
   (a.kind === b.kind ? a.title.localeCompare(b.title, 'zh-CN') : a.kind === 'image' ? -1 : 1));
-const visible = sorted.filter(style => style.type !== 'adaptation');
-const label = { source: '来源案例', original: '原创案例', adaptation: '配套 Prompt', template: '原创模板' };
+const visible = sorted;
+const label = { source: '来源案例', unverified: '来源待核实' };
+const playbackUrl = slug => `https://dingle-kb.github.io/awesome-image-video-prompts/?style=${encodeURIComponent(slug)}`;
 
 function renderCopy(style) {
   const slug = style.style_slug;
@@ -115,21 +125,19 @@ function renderCopy(style) {
     `# ${style.title}`, '',
     '[返回完整目录](../CATALOG.md)', '',
     ...(preview ? [`![${style.title}](../../${preview})`, ''] : []),
-    ...(sample ? [`[播放样片](../../${sample})`, ''] : []),
+    ...(sample ? [`[播放样片（在线播放器）](${playbackUrl(slug)})`, ''] : []),
     style.summary, '',
     `类型：${style.kind === 'image' ? '生图' : '生视频'} · ${label[style.type]} · ${style.category}`, '',
-    ...(style.source ? [`来源：[${style.source.author}](${style.source.url})`, ''] : []),
-    ...(style.catalog?.sourceUrl ? [`目录来源：[${style.catalog.sourceLabel}](${style.catalog.sourceUrl})`, ''] : []),
-    ...(style.catalog?.related ? [`相关链接：[${style.catalog.related.label}](${style.catalog.related.url})`, ''] : []),
+    ...(style.source ? [`来源：[${style.source.author}](${style.source.url})${style.source.linkType === 'profile' ? '（作者主页）' : ''}`, ''] : []),
     ...(style.model ? [`生成信息：${style.model} · ${style.provider} · ${style.requestedSize} → ${style.size}`, ''] : []),
     ...(style.inputs?.length ? [`可替换内容：${style.inputs.map(input => `\`[${input}]\``).join(' · ')}`, ''] : []),
     '## 完整 Prompt', '', '```text', escapedCode(style.prompt), '```', '',
     ...(style.promptEn ? ['## English Prompt', '', '```text', escapedCode(style.promptEn), '```', ''] : []),
+    ...(style.sourcePrompt ? ['## 来源记录（与使用版不同）', '', '```text', escapedCode(style.sourcePrompt), '```', ''] : []),
     ...(style.sourcePrompts ?? []).flatMap(extra => [
       `## ${extra.title}`, '', `[原作者内容](${extra.url})`, '', '```text', escapedCode(extra.prompt), '```', '',
     ]),
     ...(style.tip ? [`使用检查：${style.tip}`, ''] : []),
-    ...(style.relatedStyle ? [`[查看关联 Prompt](../copy-prompts/${style.relatedStyle}.md)`, ''] : []),
     ...(style.example ? [`[查看对应案例](../copy-prompts/${style.example}.md)`, ''] : []),
     `[打开 style.json](../../styles/${slug}/style.json) · [打开条目目录](../../styles/${slug}/)`, '',
     '<!-- Generated by scripts/build.mjs. -->', '',
@@ -155,8 +163,7 @@ for (const [kind, title] of [['image', '生图'], ['video', '生视频']]) {
       ...(preview ? [`[![${style.title}](../${preview})](copy-prompts/${slug}.md)`, ''] : []),
       `${style.summary} · ${label[style.type]}`, '',
       `[复制 Prompt](copy-prompts/${slug}.md) · [style.json](../styles/${slug}/style.json)` +
-        (style.sample ? ` · [播放样片](../${assetPath(style, 'sample')})` : '') +
-        (style.relatedStyle ? ` · [配套版本](copy-prompts/${style.relatedStyle}.md)` : ''), '',
+        (style.sample ? ` · [播放样片](${playbackUrl(slug)})` : ''), '',
     );
   }
 }
@@ -174,7 +181,7 @@ function gallery(lang) {
       for (const style of row) {
         const slug = style.style_slug;
         const span = row.length === 2 ? ' colspan="2" width="50%"' : ' width="25%"';
-        lines.push(`<td${span} valign="top" align="center"><a href="docs/copy-prompts/${slug}.md"><img src="${galleryThumbnail(style)}" alt="${escapeHtml(style.title)}" width="220" height="138"></a><br><strong>${escapeHtml(style.title)}</strong><br><a href="styles/${slug}/style.json">style.json</a> · <a href="docs/copy-prompts/${slug}.md">${zh ? '复制 Prompt' : 'Copy Prompt'}</a>${style.relatedStyle ? ` · <a href="docs/copy-prompts/${style.relatedStyle}.md">${zh ? '配套版本' : 'Linked Version'}</a>` : ''}</td>`);
+        lines.push(`<td${span} valign="top" align="center"><a href="${style.sample ? playbackUrl(slug) : `docs/copy-prompts/${slug}.md`}"><img src="${galleryThumbnail(style)}" alt="${escapeHtml(style.title)}" width="220" height="138"></a><br><strong>${escapeHtml(style.title)}</strong><br><a href="styles/${slug}/style.json">style.json</a> · <a href="docs/copy-prompts/${slug}.md">${zh ? '复制 Prompt' : 'Copy Prompt'}</a>${style.sample ? ` · <a href="${playbackUrl(slug)}">${zh ? '播放样片' : 'Play clip'}</a>` : ''}</td>`);
       }
       lines.push('</tr>');
     }

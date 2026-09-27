@@ -10,8 +10,6 @@
 
 来源：[@ÀBDŪLLÂH](https://x.com/itxabdullaa/status/2096915887504982258)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/gourmet-product-commercial-storyboard-33816)
-
 可替换内容：`[productName]`
 
 ## 完整 Prompt

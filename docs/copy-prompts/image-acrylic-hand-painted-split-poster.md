@@ -10,8 +10,6 @@
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2089997569829093688)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/acrylic-hand-painted-poster-design-32025)
-
 ## 完整 Prompt
 
 ```text

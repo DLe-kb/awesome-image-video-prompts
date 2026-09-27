@@ -4,7 +4,7 @@
 
 ![粗野主义庭院武术动作](../../styles/video-brutalist-courtyard-martial-arts-source/preview.jpg)
 
-[播放样片](../../styles/video-brutalist-courtyard-martial-arts-source/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-brutalist-courtyard-martial-arts-source)
 
 生成发生在粗野主义混凝土庭院中的多人武术对抗，强调快节奏摄影和高张力布光。
 
@@ -12,15 +12,25 @@
 
 来源：[Avelyrah（X：`@AvelyrahnAI`）](https://x.com/AvelyrahnAI/status/2088495522801942951)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/brutalist-courtyard-martial-arts-action-9155)
+可替换内容：`[场景：粗野主义风格混凝土多层庭院]` · `[主角：身穿拼色棒球夹克、连帽衫及工装裤的年轻男性]` · `[对手：佩戴白色狐狸面具并手持武士刀的敏捷女刺客]`
 
 ## 完整 Prompt
 
 ```text
-位于粗野主义风格混凝土多层庭院中的电影级动作序列。一位身穿牛仔红拼色棒球夹克、带有“T”字标志连帽衫及工装裤的年轻亚裔男性主角，被一群身着精致深红黑色服装、佩戴白色狐狸面具并手持武士刀的敏捷女刺客包围。动态武术编排，快节奏镜头运动，混凝土路面扬起的尘土，高张力电影级布光，超写实，4k 分辨率，60fps 动作摄影。
+位于[场景：粗野主义风格混凝土多层庭院]中的电影级动作序列。[主角：身穿拼色棒球夹克、连帽衫及工装裤的年轻男性]，被[对手：佩戴白色狐狸面具并手持武士刀的敏捷女刺客]包围。动态武术编排，快节奏镜头运动，混凝土路面扬起的尘土，高张力电影级布光，超写实，4k 分辨率，60fps 动作摄影。
 ```
 
-[查看关联 Prompt](../copy-prompts/video-brutalist-courtyard-martial-arts.md)
+## English Prompt
+
+```text
+Cinematic action sequence in a brutalist concrete multi-story courtyard. A young Asian male hero wearing a varsity denim-and-red jacket, hoodie with a "T" logo, and cargo pants surrounded by a circle of multiple agile female assassins in elaborate dark red and black outfits with white fox masks, wielding katanas. Dynamic martial arts choreography, fast-paced camera movement, dust kicked up from the concrete floor, high-tension cinematic lighting, hyper-realistic, 4k resolution, 60fps action cinematography.
+```
+
+## 来源记录（与使用版不同）
+
+```text
+位于粗野主义风格混凝土多层庭院中的电影级动作序列。一位身穿牛仔红拼色棒球夹克、带有“T”字标志连帽衫及工装裤的年轻亚裔男性主角，被一群身着精致深红黑色服装、佩戴白色狐狸面具并手持武士刀的敏捷女刺客包围。动态武术编排，快节奏镜头运动，混凝土路面扬起的尘土，高张力电影级布光，超写实，4k 分辨率，60fps 动作摄影。
+```
 
 [打开 style.json](../../styles/video-brutalist-courtyard-martial-arts-source/style.json) · [打开条目目录](../../styles/video-brutalist-courtyard-martial-arts-source/)
 

@@ -10,9 +10,41 @@
 
 来源：[@Ciri_ai](https://x.com/Ciri_ai/status/2092452220768002400)
 
-相关链接：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-535)
-
 ## 完整 Prompt
+
+```text
+创建一个 12 格网格（3 列 × 4 行，编号 1 到 12），显示参考照片中的同一个人具有 12 种不同的发型。这是一本发型手册。最终图像长宽比：4:5（垂直/纵向）。
+面板之间唯一改变的是头上的头发（仅形状、样式和长度）。其他一切都与参考照片中的完全相同。
+身份锚（关键）
+脸部必须与每个面板中的参考照片相同。准确保留：面部骨骼结构、下颌线、颧骨、鼻子形状、嘴唇、眼睛形状和间距、眉毛、肤色、皮肤纹理（毛孔、自然瑕疵）以及整体面部比例。这 12 帧中都是同一个人。请勿美化、瘦身或改变脸部。与参考照片中的年龄相同，表情相同。
+强制性规则（请勿违反）
+- 禁止佩戴太阳镜。眼睛在所有 12 个面板中必须完全可见。
+- 无环境背景。每个面板必须有一个朴素、统一、纯浅灰色工作室背景，零对象、零纹理、零渐变。只是平坦的中性灰色。
+- 头发颜色在所有 12 个面板中均与参考照片中显示的颜色完全相同。只是形状、长度和款式发生变化，颜色却没有变化。
+每个面板保持相同（不要更改）
+- 化妆和皮肤：如果参考照片中的人化妆，请在每个面板中进行相同的复制。一样的唇色，一样的眼妆，一样的眉毛。如果他们没有化妆，请保持所有面板不化妆。请勿添加、移除或更改面板之间的装饰。
+- 服装：与参考照片中可见的相同服装，完全复制。
+- 配饰：保留参考照片中的所有可见配饰（耳环、项链、戒指、手链、穿孔、手表、眼镜等）。请勿遗漏、调整任何配件的大小、重新着色或重新设计任何配件。如果此人佩戴处方眼镜（不是太阳镜），请将其放在每个面板中。
+- 背景：每个面板中都有纯色浅灰色工作室背景。没有房间，没有家具，没有环境。
+12种发型
+1.精灵剪裁：非常短，有纹理，顶部略微凌乱，两侧和颈背呈锥形
+2. 经典鲍勃：长度到下巴，直，末端钝，中间部分干净
+3. 长层次波浪：过肩、柔软、丰盈的波浪，具有修饰脸型的层次感
+4. 光滑的低发髻：头发在后颈处平滑地向后拉成一个紧致的低发髻，没有飞扬的现象
+5. 中长发的帘式刘海：柔软的分叉刘海勾勒出脸部轮廓，头发刚刚过肩
+6.高马尾辫：将头发挽成光滑的高马尾辫，头顶光滑，长度落在后面
+7. 法式鲍勃：短鲍勃在下巴处结束，前额有柔软的钝微刘海
+8. 中分长直发：非常长，光滑，直，垂过肩膀
+9. 蓬松狼尾剪：中等长度，厚重的层次，凌乱碎刘海，质感丰盈，略显野性
+10. 优雅的高髻：将头发盘成光滑的发髻，带有柔软的脸型卷须
+11. 短卷发：满头短卷发，自然纹理，两侧逐渐变细
+12.好莱坞侧分波浪卷：迷人的深侧长发，雕刻般的复古波浪层叠在肩上
+摄影规格
+使用佳能 EOS R5 拍摄，配备 85mm f/1.4 镜头，工作室人像照明（柔和的主光，微妙的填充），浅景深，脸部锐利对焦。每个面板上都有纯色浅灰色工作室背景。自然的皮肤渲染，具有可见的毛孔和逼真的发丝（无塑料或 CGI 外观）。所有 12 个面板的照明、颜色分级和曝光一致。逼真、高细节、超写实、8K。没有插图，没有绘画效果，没有过度平滑。没有太阳镜。
+每个面板的左上角都清楚地标有 1 到 12 的编号。整体输出长宽比4:5。
+```
+
+## English Prompt
 
 ```text
 Create a 12-panel grid (3 columns × 4 rows, numbered 1 to 12) showing the SAME person from the reference photo with 12 different hairstyles. This is a hairstyle lookbook. Final image aspect ratio: 4:5 (vertical/portrait).
@@ -45,8 +77,6 @@ Photographic Specs
 Shot on a Canon EOS R5 with an 85mm f/1.4 lens, studio portrait lighting (soft key light, subtle fill), shallow depth of field with sharp focus on the face. PLAIN SOLID LIGHT GREY STUDIO BACKGROUND in every panel. Natural skin rendering with visible pores and realistic hair strands (no plastic or CGI look). Consistent lighting, color grading and exposure across all 12 panels. Photorealistic, high detail, hyperrealistic, 8K. No illustration, no painterly effect, no over-smoothing. NO SUNGLASSES.
 Each panel clearly numbered 1 to 12 in the top-left corner. Overall output aspect ratio 4:5.
 ```
-
-[查看关联 Prompt](../copy-prompts/image-same-face-twelve-hairstyles.md)
 
 [打开 style.json](../../styles/image-same-face-twelve-hairstyles-source/style.json) · [打开条目目录](../../styles/image-same-face-twelve-hairstyles-source/)
 

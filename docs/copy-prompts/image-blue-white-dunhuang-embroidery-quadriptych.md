@@ -10,8 +10,6 @@
 
 来源：[@zhidawang219555](https://x.com/zhidawang219555/status/2090310144190218272)
 
-相关链接：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-521)
-
 ## 完整 Prompt
 
 ```text

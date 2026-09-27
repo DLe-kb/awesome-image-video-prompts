@@ -18,9 +18,6 @@
     "url": "https://www.douyin.com/video/7683887650173032805"
   },
   "promptCredit": "根据来源整理的适配提示词",
-  "catalog": {
-    "sourceLabel": "抖音原帖"
-  },
   "preview": "preview.jpg",
   "promptEn": "Use the uploaded portrait photo as the sole subject and scene reference. Create a retro poster combining a real photographed person with a hand-drawn die-cut sticker environment.\n\nPreserve the original person completely: identity, facial features, existing pose, visible limbs, clothing and shoes, and any item held in their hands. Keep the person sharp and photorealistic. Do not turn the person into a cartoon, illustration, or flat sticker; change the number of people; or invent body parts absent from the photo.\n\nConvert the original surroundings, including the chair the person is actually sitting on and other non-person elements, into minimal black-and-white single-line die-cut stickers. Use thick black outlines, sparse solid-black shadow shapes, and strictly monochrome colors without gradients. Give the background stickers a white cut border, layered scrapbook-sticker treatment, flat minimal hand drawing, and a simple Instagram doodle aesthetic. A white cut border may surround the person, but their interior must remain photographic.\n\nPreserve the main composition, object placement, and perspective, blending the real person naturally into the 2D sticker setting. Transform only existing surroundings. Do not add unrelated objects, people, headings, slogans, commercial claims, watermarks, or tutorial captions. Keep boundaries clean and paper cut edges natural, without extra limbs, melting, or blur.",
   "inputs": []

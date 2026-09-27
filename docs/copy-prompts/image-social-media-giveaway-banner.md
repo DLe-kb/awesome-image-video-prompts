@@ -10,8 +10,6 @@
 
 来源：[@AI Guide-Note - 実務で使えるAI活用メディア](https://x.com/AIGuideNote/status/2097183473601569109)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/campaign-gift-banner-template-33795)
-
 可替换内容：`[活动信息]` · `[campaignName]` · `[prizes]` · `[entrySteps]` · `[图像质量、呈现方式与构图规范]` · `[布局与输出的严格限制（强制执行）]`
 
 ## 完整 Prompt

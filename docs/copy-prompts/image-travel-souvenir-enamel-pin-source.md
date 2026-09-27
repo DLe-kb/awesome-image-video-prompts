@@ -10,9 +10,23 @@
 
 来源：[@Emmma__0](https://x.com/Emmma__0/status/2093194689222705645)
 
-相关链接：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-543)
-
 ## 完整 Prompt
+
+```text
+将参考照片变成旅行纪念珐琅徽章。将其组成一个场景，而不是单个孤立的对象。
+
+主题层次：照片的定义景观、地形或地标构成徽章的主体并占据其大部分区域。如果一个人出现在照片中的显着位置，请将其作为一个小而简化的人物以真实的相对比例保留在该风景中 - 人物只是点缀，风景才是主体。保留人物与周围环境原有的空间关系和尺度。
+
+如何渲染人物：平面珐琅色块与照片中的真实服装和头发颜色相匹配。脸部是浅肤色珐琅的平滑纯色区域，没有绘制面部特征 - 不要将人物渲染为深色或黑色轮廓，也不要遮蔽脸部或头部。皮肤呈现出温暖的浅珐琅色，明显比衣服浅。
+
+造型：轮廓周围和每个内部分隔线周围都有细细的抛光金色轮廓，有光泽的珐琅颜色填充，柔和均匀的灯光，金色线条上只有柔和的光泽，非常微妙的阴影。外部轮廓遵循场景自身的形状，而不是简单的矩形。
+
+背景：平坦的深海军蓝粗亚麻纹理。徽章居中，填充约 60% 的框架。
+
+避免：黑色剪影人物、涂黑的脸、深色无特征的头部、人像特写、详细的面部特征、人主宰徽章、裁剪风景、四分之三角度、微距产品摄影、强烈的镜面眩光、卡通、现实场景、文字、水印。
+```
+
+## English Prompt
 
 ```text
 Turn the reference photo into a travel souvenir enamel pin badge. Compose it as a SCENE, not a single isolated object.
@@ -27,8 +41,6 @@ Background: flat dark navy coarse linen texture. Badge centered, filling about 6
 
 Avoid: black silhouette figure, blacked-out face, dark featureless head, portrait close-up, detailed facial features, person dominating the badge, cropping out the landscape, three-quarter angle, macro product photography, heavy specular glare, cartoon, realistic scene, text, watermark.
 ```
-
-[查看关联 Prompt](../copy-prompts/image-travel-souvenir-enamel-pin.md)
 
 [打开 style.json](../../styles/image-travel-souvenir-enamel-pin-source/style.json) · [打开条目目录](../../styles/image-travel-souvenir-enamel-pin-source/)
 

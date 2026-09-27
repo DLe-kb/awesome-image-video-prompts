@@ -10,8 +10,6 @@
 
 来源：[@Dua Fatima](https://x.com/DuaFatimaAi/status/2096555489073279173)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/commercial-berry-smoothie-photography-33680)
-
 ## 完整 Prompt
 
 ```text

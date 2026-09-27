@@ -4,15 +4,13 @@
 
 ![喷泉时间静止与彩虹](../../styles/video-1c634febce/preview.jpg)
 
-[播放样片](../../styles/video-1c634febce/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-1c634febce)
 
 通过冻结喷泉水流、人物互动与恢复时间形成超现实彩虹揭示。
 
 类型：生视频 · 来源案例 · 奇幻
 
 来源：[@lumiAI / YouMind](https://x.com/aiwithlumi/status/2102406322008559857)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/time-freeze-fountain-rainbow-11161)
 
 ## 完整 Prompt
 

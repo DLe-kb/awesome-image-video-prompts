@@ -10,8 +10,6 @@
 
 来源：[@AI Guide-Note - 実務で使えるAI活用メディア](https://x.com/AIGuideNote/status/2096906819713081810)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/minimalist-fashion-product-grid-33797)
-
 可替换内容：`[品牌/产品信息]` · `[brandName]` · `[collection]` · `[backpackPrice]` · `[图像质量、呈现与构图规范]` · `[布局与输出的严格限制（强制性）]`
 
 ## 完整 Prompt

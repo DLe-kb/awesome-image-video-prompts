@@ -4,15 +4,13 @@
 
 ![野花四季微距延时](../../styles/video-aecc45705d/preview.jpg)
 
-[播放样片](../../styles/video-aecc45705d/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-aecc45705d)
 
 固定一株野花，以微距延时展示盛放、枯萎、结霜和凋零。
 
 类型：生视频 · 来源案例 · 电影感
 
 来源：[@Mr Das / YouMind](https://x.com/MrDasOnX/status/2096453993371422748)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/flower-seasons-macro-time-lapse-10437)
 
 ## 完整 Prompt
 

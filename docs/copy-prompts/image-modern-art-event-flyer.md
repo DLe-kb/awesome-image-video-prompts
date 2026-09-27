@@ -10,8 +10,6 @@
 
 来源：[@AI Guide-Note - 実務で使えるAI活用メディア](https://x.com/AIGuideNote/status/2096710919900582307)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/minimalist-event-flyer-design-33672)
-
 可替换内容：`[活动信息]` · `[质量、方向与构图]` · `[严格的布局与输出限制（必填）]`
 
 ## 完整 Prompt

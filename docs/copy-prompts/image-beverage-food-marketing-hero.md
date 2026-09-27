@@ -10,8 +10,6 @@
 
 来源：[@AI Guide-Note - 実務で使えるAI活用メディア](https://x.com/AIGuideNote/status/2097040165009252374)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/product-campaign-key-visual-33796)
-
 可替换内容：`[产品/包装]` · `[productName]` · `[subText]` · `[设计巧思]` · `[circleColor]` · `[图像质量、呈现与构图规范]`
 
 ## 完整 Prompt

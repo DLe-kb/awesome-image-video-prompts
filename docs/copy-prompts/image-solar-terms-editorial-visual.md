@@ -10,8 +10,6 @@
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2089291663466508680)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/solar-terms-editorial-visual-31793)
-
 ## 完整 Prompt
 
 ```text

@@ -4,7 +4,7 @@
 
 ![生物发光灯塔守望者](../../styles/video-bioluminescent-lighthouse-keeper-source/preview.jpg)
 
-[播放样片](../../styles/video-bioluminescent-lighthouse-keeper-source/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-bioluminescent-lighthouse-keeper-source)
 
 生成老灯塔守望者在雾夜悬崖目睹发光球体从海中升起的连续电影镜头。
 
@@ -12,9 +12,27 @@
 
 来源：[Sarah（X：`@SyntheSarah`）。](https://x.com/SyntheSarah/status/2097182529564365135)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/bioluminescent-ocean-lighthouse-video-prompt-10520)
+可替换内容：`[主角：饱经风霜的老灯塔守望者]` · `[场景：夜晚雾气弥漫的悬崖]` · `[奇观元素：几十个萤火虫般发光的漂浮球体]`
 
 ## 完整 Prompt
+
+```text
+[主角：饱经风霜的老灯塔守望者]站在[场景：夜晚雾气弥漫的悬崖]上，身穿厚重的羊毛大衣，手提一盏古老的黄铜灯。
+
+在他脚下，海浪拍打着岩石，泛起柔和的蓝色生物发光。当他举起灯时，[奇观元素：几十个萤火虫般发光的漂浮球体]从水中升起，飘过他身边进入雾气中，在他周围轻轻盘旋。体积光月光穿透了浓雾。
+
+镜头从悬崖的全景开始，随后缓慢地进行电影级推进，聚焦到守望者的面部，当球体环绕他时，最终定格在球体倒映在他眼中的特写镜头上。
+
+青色与暖琥珀色的调色，超写实纹理，浅景深，胶片颗粒感，大气雾气，15 秒，平滑连续的镜头运动，无剪辑。
+```
+
+## English Prompt
+
+```text
+A weathered old lighthouse keeper stands on a foggy cliff at night, wearing a thick wool coat, holding an old brass lantern. Below him, the ocean waves glow with soft bioluminescent blue light with each crash against the rocks. As he raises the lantern, dozens of floating glowing orbs (like fireflies) rise up from the water and drift past him into the misty air, swirling gently around his figure. Volumetric moonlight beams cut through the fog. Camera starts wide on the cliff, then does a slow cinematic push-in toward the keeper's face as the orbs surround him, ending on a close-up with orbs reflecting in his eyes. Teal and warm-amber color grade, hyper-realistic textures, shallow depth of field, film grain, atmospheric fog, 15 seconds, smooth continuous camera motion, no cuts.
+```
+
+## 来源记录（与使用版不同）
 
 ```text
 一位饱经风霜的老灯塔守望者站在夜晚雾气弥漫的悬崖上，身穿厚重的羊毛大衣，手提一盏古老的黄铜灯。
@@ -25,8 +43,6 @@
 
 青色与暖琥珀色的调色，超写实纹理，浅景深，胶片颗粒感，大气雾气，15 秒，平滑连续的镜头运动，无剪辑。
 ```
-
-[查看关联 Prompt](../copy-prompts/video-bioluminescent-lighthouse-keeper.md)
 
 [打开 style.json](../../styles/video-bioluminescent-lighthouse-keeper-source/style.json) · [打开条目目录](../../styles/video-bioluminescent-lighthouse-keeper-source/)
 

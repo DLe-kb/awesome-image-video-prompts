@@ -10,8 +10,6 @@
 
 来源：[@Christopher J. DiMarco](https://x.com/chrisjdimarco/status/2097067604531646936)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/biophilic-atrium-lounge-33843)
-
 ## 完整 Prompt
 
 ```text

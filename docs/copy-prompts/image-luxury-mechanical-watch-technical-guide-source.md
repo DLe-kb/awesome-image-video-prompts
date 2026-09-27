@@ -10,9 +10,23 @@
 
 来源：[@Gdgtify](https://x.com/Gdgtify/status/2056928396991488312)
 
-相关链接：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-449)
+可替换内容：`[TIMEPIECE]` · `[MODEL REFERENCE]` · `[MANUFACTURE / COLLECTION]`
 
 ## 完整 Prompt
+
+```text
+生成一张 16:9 的 2×2 网格图，分别展示四款史上最昂贵、最奇特的高级机械腕表。
+
+每一格都以 [TIMEPIECE] 为主体，完整呈现表盘、指针、机芯和表带。各部件以爆炸分解图方式悬浮并精准对齐，透明表壳让内部结构清晰可见；每一枚齿轮、弹簧、摆轮和宝石轴承都要具有高精度细节。
+
+材质包括拉丝钛金属、蓝宝石水晶、玫瑰金齿轮和鳄鱼皮表带。摆轮内部呈现一个正在运转的微缩宇宙。加入动力储存、振频、复杂功能、手工修饰等级和装配时间线等技术标注，并展示日内瓦波纹与宝石轴承的微观细节。
+
+整体设计参考高级瑞士制表技术手册：纯白背景、清晰日光摄影棚照明、抛光表面带克制反射、优质哑光纸张质感和压印标志。每格配有优雅的数据面板，标题使用 [MODEL REFERENCE]，副标题使用 [MANUFACTURE / COLLECTION]。
+
+风格比例参考：爆炸结构图 30%、高级材质表现 30%、技术手册信息设计 25%、明亮摄影棚氛围 10%、微观机械细节 5%。画面必须保持充足白色空间、金属光泽、超高细节和现代优雅感。
+```
+
+## English Prompt
 
 ```text
 2x2 grid 16:9, do this for 4 most expensive strangest watches ever made:
@@ -48,8 +62,6 @@ class Haute_Horlogerie_DNA:
             constraints="bright white space, metallic brilliance, hyper-detailed, modern elegance"
         )
 ```
-
-[查看关联 Prompt](../copy-prompts/image-luxury-mechanical-watch-technical-guide.md)
 
 [打开 style.json](../../styles/image-luxury-mechanical-watch-technical-guide-source/style.json) · [打开条目目录](../../styles/image-luxury-mechanical-watch-technical-guide-source/)
 

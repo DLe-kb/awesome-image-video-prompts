@@ -10,9 +10,29 @@
 
 来源：[@Strength04_X](https://x.com/Strength04_X/status/2056018963084226866)
 
-相关链接：[GitHub 案例](https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-443)
-
 ## 完整 Prompt
+
+```text
+创建超写实的塔可（Taco）爆炸分解式竖版信息图。
+
+顶部→底部结构：
+新鲜生菜（脆嫩的绿色质地，自然褶皱）
+→ 番茄和莎莎酱层（多汁的番茄丁和莎莎酱混合）
+→ 融化的奶酪（光滑的切达干酪质地）
+→ 烤肉馅（多汁的调味肉细节）
+→ Taco Shell Base（脆皮金壳质地）
+完美的垂直对齐、质朴的背景、柔和的工作室灯光、每个浮动元素下方的真实阴影。
+
+使用这些精确的标签添加带有细指针线的干净的信息图表文本标签：
+“生菜”
+“莎莎酱”
+“奶酪”
+“肉”
+“塔可脆壳”
+超详细的食物纹理，优质的商业美学，8K。
+```
+
+## English Prompt
 
 ```text
 Create a hyper-realistic exploded vertical infographic composition of tacos.
@@ -33,8 +53,6 @@ Add clean infographic text labels with thin pointer lines using these exact labe
 “Shell”
 Ultra-detailed food textures, premium commercial aesthetic, 8K.
 ```
-
-[查看关联 Prompt](../copy-prompts/image-exploded-food-infographic.md)
 
 [打开 style.json](../../styles/image-exploded-food-infographic-source/style.json) · [打开条目目录](../../styles/image-exploded-food-infographic-source/)
 

@@ -10,8 +10,6 @@
 
 来源：[@🇻🇳 Gdragon_stk 🇸🇪](https://x.com/zaizai36077041/status/2097032853410197878)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/cafe-influencer-collage-33862)
-
 ## 完整 Prompt
 
 ```text

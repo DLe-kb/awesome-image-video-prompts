@@ -4,15 +4,13 @@
 
 ![90年代像素文字游戏](../../styles/video-3d40126f5f/preview.jpg)
 
-[播放样片](../../styles/video-3d40126f5f/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-3d40126f5f)
 
 用 CRT 像素界面、逐字翻牌和连续挑战节奏制作复古文字游戏概念短片。
 
 类型：生视频 · 来源案例 · 动画
 
 来源：[@BMX / YouMind](https://x.com/bmx_ai13/status/2101593507232387096)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/90s-retro-word-game-concept-11081)
 
 ## 完整 Prompt
 

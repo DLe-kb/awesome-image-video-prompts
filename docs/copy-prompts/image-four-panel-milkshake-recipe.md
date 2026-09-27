@@ -10,8 +10,6 @@
 
 来源：[@Dua Fatima](https://x.com/DuaFatimaAi/status/2096033405259682193)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/banana-smoothie-recipe-collage-33499)
-
 ## 完整 Prompt
 
 ```text

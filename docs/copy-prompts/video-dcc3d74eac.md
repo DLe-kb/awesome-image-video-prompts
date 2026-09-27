@@ -4,15 +4,13 @@
 
 ![摄政时期电影蒙太奇](../../styles/video-dcc3d74eac/preview.jpg)
 
-[播放样片](../../styles/video-dcc3d74eac/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-dcc3d74eac)
 
 通过服饰、场景与光线连续性制作摄政时期人物蒙太奇。
 
 类型：生视频 · 来源案例 · 电影感
 
 来源：[@anj / YouMind](https://x.com/anjmaxx/status/2102052600426504362)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/regency-era-period-montage-11140)
 
 ## 完整 Prompt
 

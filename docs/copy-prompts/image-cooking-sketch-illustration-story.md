@@ -10,8 +10,6 @@
 
 来源：[@simeon-sanai](https://x.com/Naiknelofar788/status/2096823849702785331)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/culinary-sketchbook-illustrated-narrative-33677)
-
 ## 完整 Prompt
 
 ```text

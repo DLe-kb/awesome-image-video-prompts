@@ -10,8 +10,6 @@
 
 来源：[@M. Asif](https://x.com/meAsifAi/status/2095979782068666556)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/consistent-interior-room-grid-33492)
-
 ## 完整 Prompt
 
 ```text

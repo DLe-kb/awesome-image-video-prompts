@@ -4,7 +4,7 @@
 
 ![航拍后拉升高揭示](../../styles/video-aerial-pullback-rise-reveal-source/preview.jpg)
 
-[播放样片](../../styles/video-aerial-pullback-rise-reveal-source/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-aerial-pullback-rise-reveal-source)
 
 让摄像机沿主体轴线同时后退和升高，从近景主体逐步揭示完整载具或大场景。
 
@@ -12,9 +12,21 @@
 
 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control)
 
-相关链接：[示例视频（外链）](https://d2245ubjcvacnx.cloudfront.net/assets/prompt_bank__camera__aerial-pullback__09-aerial-pullback.3c454d88.mp4)
+可替换内容：`[主体]` · `[载具/场景]`
 
 ## 完整 Prompt
+
+```text
+摄像机从主体前方[2.5]米、离地[3]米的位置开始，沿主体轴线以一次连续加速的运动向后并向上飞行，在结尾达到约[40]米距离和[25]米高度。[主体]首先保持在画面中央，随后随着画面缩小，完整的[载具/场景]成为居中对象；地平线在画面中持续稳定上升。不得环绕、变焦或反转运动速度。
+```
+
+## English Prompt
+
+```text
+The camera starts [2.5] meters ahead of the subject at [3] meters altitude and flies backward and upward along the axis in one continuous accelerating move, reaching about [40] meters distance and [25] meters altitude by the end. [subject] stays centered, then the whole [craft / scene] centers itself in frame as it shrinks; the horizon line rises steadily through the frame. No orbit, no zoom, no speed reversals.
+```
+
+## 来源记录（与使用版不同）
 
 ```text
 ## 原始英文提示词
@@ -31,8 +43,6 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 - `[40]`、`[25]`：结束距离和高度。
 - `[craft / scene]` / `[载具/场景]`：后拉后需要完整揭示并居中的整体对象。
 ```
-
-[查看关联 Prompt](../copy-prompts/video-aerial-pullback-rise-reveal.md)
 
 [打开 style.json](../../styles/video-aerial-pullback-rise-reveal-source/style.json) · [打开条目目录](../../styles/video-aerial-pullback-rise-reveal-source/)
 

@@ -4,15 +4,13 @@
 
 ![水晶粒子厨房变身](../../styles/video-345a132c7a/preview.jpg)
 
-[播放样片](../../styles/video-345a132c7a/sample.mp4)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-345a132c7a)
 
 以人物触碰触发器物碎裂和室内空间重构的视觉特效短片。
 
 类型：生视频 · 来源案例 · 科幻
 
 来源：[@Lavinia / YouMind](https://x.com/laviniavelle/status/2100431886543978896)
-
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/video-prompts/crystal-kitchen-transformation-10966)
 
 ## 完整 Prompt
 

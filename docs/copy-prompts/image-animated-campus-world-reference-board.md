@@ -10,8 +10,6 @@
 
 来源：[@さんかくてん](https://x.com/sankakuten91256/status/2096447146614747210)
 
-相关链接：[YouMind 模板](https://youmind.com/zh-CN/prompts/anime-school-reference-collage-33628)
-
 ## 完整 Prompt
 
 ```text
