@@ -2,7 +2,7 @@
 
 <p align="center">Awesome Image &amp; Video Prompts</p>
 
-<p align="center"><a href="https://dle-kb.github.io/awesome-image-video-prompts/"><img src="assets/previews/readme-gallery.jpg" alt="六张案例拼贴：旅行海报、植物汽水、植物图版、梨挞分镜、食物拆解信息图与照片速写回忆卡" width="720"></a></p>
+<p align="center"><a href="https://dingle-kb.github.io/awesome-image-video-prompts/"><img src="assets/previews/readme-gallery.jpg" alt="六张案例拼贴：旅行海报、植物汽水、植物图版、梨挞分镜、食物拆解信息图与照片速写回忆卡" width="720"></a></p>
 
 <h3 align="center">简体中文 | <a href="#user-content-english">English</a></h3>
 
@@ -17,9 +17,9 @@
 
 <p align="center">从产品广告、旅行海报到科普图版和镜头运动，点开案例即可查看预览或样片、完整提示词与原始出处。</p>
 
-<p align="center">由 <a href="https://github.com/DLe-kb">dingle</a> 整理与维护，来源案例保留原作者署名。无需安装，打开即可浏览。</p>
+<p align="center">由 <a href="https://github.com/dingle-kb">dingle</a> 整理与维护，来源案例保留原作者署名。无需安装，打开即可浏览。</p>
 
-<p align="center"><strong><a href="https://dle-kb.github.io/awesome-image-video-prompts/">浏览在线图册</a></strong> · 或查看 <a href="showcase/index.md">完整案例目录</a>。</p>
+<p align="center"><strong><a href="https://dingle-kb.github.io/awesome-image-video-prompts/">浏览在线图册</a></strong> · 或查看 <a href="showcase/index.md">完整案例目录</a>。</p>
 
 ## 三步开始
 
@@ -48,7 +48,7 @@
 
 首屏拼贴中的六张图也可逐个查看： [旅行海报](showcase/image.md#coastal-poster) · [植物汽水](showcase/image.md#botanical-soda) · [植物图版](showcase/image.md#botanical-plate) · [梨挞分镜](showcase/image.md#pear-tart-storyboard) · [食物拆解](showcase/image.md#image-2be108496e) · [照片速写](showcase/image.md#image-2a8d580cf7)。
 
-更多入口：[全部生图案例](showcase/image.md) · [全部生视频案例](showcase/video.md) · [生图模板](templates/image.md) · [生视频模板](templates/video.md) · [画廊筛选](https://dle-kb.github.io/awesome-image-video-prompts/)
+更多入口：[全部生图案例](showcase/image.md) · [全部生视频案例](showcase/video.md) · [生图模板](templates/image.md) · [生视频模板](templates/video.md) · [画廊筛选](https://dingle-kb.github.io/awesome-image-video-prompts/)
 
 ## 先看这些来源案例
 
@@ -85,7 +85,7 @@
 
 首屏拼贴中，前四张为原创案例，后两张为标注原作者的来源案例；拼贴不是替换填空模板变量后的生成结果。
 
-按标题找内容可用[案例导航](showcase/index.md)；按题材和标签筛选可用[在线画廊](https://dle-kb.github.io/awesome-image-video-prompts/)。
+按标题找内容可用[案例导航](showcase/index.md)；按题材和标签筛选可用[在线画廊](https://dingle-kb.github.io/awesome-image-video-prompts/)。
 
 ## 贡献与许可
 
@@ -99,7 +99,7 @@
 
 Browse visual examples, open a case for its full prompt and source credit, then adapt the prompt to your own subject. No installation is needed.
 
-[Open the visual gallery](https://dle-kb.github.io/awesome-image-video-prompts/) · [Image cases](showcase/image.md) · [Video cases](showcase/video.md) · [Image prompts](templates/image.md) · [Video prompts](templates/video.md)
+[Open the visual gallery](https://dingle-kb.github.io/awesome-image-video-prompts/) · [Image cases](showcase/image.md) · [Video cases](showcase/video.md) · [Image prompts](templates/image.md) · [Video prompts](templates/video.md)
 
 ### Get started
 
