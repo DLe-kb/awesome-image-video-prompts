@@ -166,12 +166,14 @@ function gallery(lang) {
     const group = visible.filter(style => style.kind === kind);
     const pictured = group.filter(style => style.preview);
     const withoutPreview = group.filter(style => !style.preview);
-    lines.push(`### ${title} (${group.length})`, '', '<table>');
-    for (let i = 0; i < pictured.length; i += 2) {
+    lines.push(`### ${title} (${group.length})`, '', '<table width="100%">');
+    for (let i = 0; i < pictured.length; i += 4) {
+      const row = pictured.slice(i, i + 4);
       lines.push('<tr>');
-      for (const style of pictured.slice(i, i + 2)) {
+      for (const style of row) {
         const slug = style.style_slug;
-        lines.push(`<td width="50%" valign="top" align="center"><a href="docs/copy-prompts/${slug}.md"><img src="${galleryThumbnail(style)}" alt="${escapeHtml(style.title)}" width="240" height="150"></a><br><strong>${escapeHtml(style.title)}</strong><br><a href="styles/${slug}/style.json">style.json</a> · <a href="docs/copy-prompts/${slug}.md">${zh ? '复制 Prompt' : 'Copy Prompt'}</a>${style.relatedStyle ? ` · <a href="docs/copy-prompts/${style.relatedStyle}.md">${zh ? '配套版本' : 'Linked Version'}</a>` : ''}</td>`);
+        const span = row.length === 2 ? ' colspan="2" width="50%"' : ' width="25%"';
+        lines.push(`<td${span} valign="top" align="center"><a href="docs/copy-prompts/${slug}.md"><img src="${galleryThumbnail(style)}" alt="${escapeHtml(style.title)}" width="220" height="138"></a><br><strong>${escapeHtml(style.title)}</strong><br><a href="styles/${slug}/style.json">style.json</a> · <a href="docs/copy-prompts/${slug}.md">${zh ? '复制 Prompt' : 'Copy Prompt'}</a>${style.relatedStyle ? ` · <a href="docs/copy-prompts/${style.relatedStyle}.md">${zh ? '配套版本' : 'Linked Version'}</a>` : ''}</td>`);
       }
       lines.push('</tr>');
     }
