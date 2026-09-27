@@ -2,20 +2,9 @@
 
 <p align="center">Awesome Image &amp; Video Prompts</p>
 
-<table align="center">
-  <tr>
-    <td width="33%" align="center"><a href="showcase/image.md#coastal-poster"><img src="assets/previews/travel.webp" alt="原创案例：虚构海岸城市旅行海报" width="210"></a></td>
-    <td width="33%" align="center"><a href="showcase/image.md#botanical-soda"><img src="assets/previews/beverage.webp" alt="原创案例：植物汽水商业静物" width="210"></a></td>
-    <td width="33%" align="center"><a href="showcase/image.md#botanical-plate"><img src="assets/previews/botanical.webp" alt="原创案例：虚构植物科学图版" width="210"></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="showcase/image.md#pear-tart-storyboard"><img src="assets/previews/storyboard.webp" alt="原创案例：梨挞广告四格分镜" width="210"></a></td>
-    <td align="center"><a href="showcase/image.md#image-2be108496e"><img src="assets/cases/image-2be108496e.jpg" alt="来源案例：食物爆炸拆解信息图" width="210"></a></td>
-    <td align="center"><a href="showcase/image.md#image-2a8d580cf7"><img src="assets/cases/image-2a8d580cf7.jpg" alt="来源案例：照片与蜡笔速写混合媒介回忆卡" width="210"></a></td>
-  </tr>
-</table>
+<p align="center"><a href="https://dle-kb.github.io/awesome-image-video-prompts/"><img src="assets/previews/readme-gallery.jpg" alt="六张案例拼贴：旅行海报、植物汽水、植物图版、梨挞分镜、食物拆解信息图与照片速写回忆卡" width="720"></a></p>
 
-<p align="center"><sub>点击作品查看完整 Prompt · 前四张为原创案例，后两张为保留原作者署名的来源案例</sub></p>
+<p align="center"><sub>逐个查看完整 Prompt：<a href="showcase/image.md#coastal-poster">旅行海报</a> · <a href="showcase/image.md#botanical-soda">植物汽水</a> · <a href="showcase/image.md#botanical-plate">植物图版</a> · <a href="showcase/image.md#pear-tart-storyboard">梨挞分镜</a> · <a href="showcase/image.md#image-2be108496e">食物拆解</a> · <a href="showcase/image.md#image-2a8d580cf7">照片速写</a><br>前四张为原创案例，后两张为保留原作者署名的来源案例；拼贴不是替换填空模板变量后的生成结果。</sub></p>
 
 <p align="center">简体中文 · <a href="#english">English</a></p>
 
