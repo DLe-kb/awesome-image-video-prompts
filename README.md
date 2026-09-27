@@ -4,17 +4,22 @@
 
 <p align="center"><a href="https://dle-kb.github.io/awesome-image-video-prompts/"><img src="assets/previews/readme-gallery.jpg" alt="六张案例拼贴：旅行海报、植物汽水、植物图版、梨挞分镜、食物拆解信息图与照片速写回忆卡" width="720"></a></p>
 
-<p align="center"><sub>逐个查看完整 Prompt：<a href="showcase/image.md#coastal-poster">旅行海报</a> · <a href="showcase/image.md#botanical-soda">植物汽水</a> · <a href="showcase/image.md#botanical-plate">植物图版</a> · <a href="showcase/image.md#pear-tart-storyboard">梨挞分镜</a> · <a href="showcase/image.md#image-2be108496e">食物拆解</a> · <a href="showcase/image.md#image-2a8d580cf7">照片速写</a><br>前四张为原创案例，后两张为保留原作者署名的来源案例；拼贴不是替换填空模板变量后的生成结果。</sub></p>
+<h3 align="center">简体中文 | <a href="#english">English</a></h3>
 
-<p align="center">简体中文 · <a href="#english">English</a></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/%E7%94%9F%E5%9B%BE%E6%A1%88%E4%BE%8B-72-f15b72?style=flat-square&amp;labelColor=555555" alt="生图案例 72" height="28">
+  <img src="https://img.shields.io/badge/%E7%94%9F%E8%A7%86%E9%A2%91%E6%9D%A1%E7%9B%AE-48-36b7d6?style=flat-square&amp;labelColor=555555" alt="生视频条目 48" height="28">
+  <img src="https://img.shields.io/badge/%E5%8E%9F%E5%88%9B%E6%A8%A1%E6%9D%BF-20-222222?style=flat-square&amp;labelColor=555555" alt="原创填空模板 20" height="28">
+  <img src="https://img.shields.io/badge/%E9%85%8D%E5%A5%97_Prompt-92-e0ad00?style=flat-square&amp;labelColor=555555" alt="来源配套 Prompt 92" height="28">
+</p>
 
-<p align="center"><code>72 个生图案例</code> <code>48 个生视频条目</code> <code>20 套原创填空模板</code> <code>92 套来源配套 Prompt</code></p>
+<p align="center"><strong>先看效果，再复制完整 Prompt；换题材时，用填空模板改写。</strong></p>
 
-<p align="center"><strong>看见想做的画面，找到完整 Prompt，再改成自己的作品。</strong><br>案例附预览或样片、完整提示词与来源链接；无需安装，打开就能浏览。</p>
+<p align="center">从产品广告、旅行海报到科普图版和镜头运动，点开案例即可查看预览或样片、完整提示词与原始出处。</p>
 
-<h3 align="center"><a href="https://dle-kb.github.io/awesome-image-video-prompts/">打开在线图册 →</a></h3>
+<p align="center">由 <a href="https://github.com/DLe-kb">DLe-kb</a> 整理与维护，来源案例保留原作者署名。无需安装，打开即可浏览。</p>
 
-<p align="center"><a href="showcase/image.md">生图案例</a> · <a href="showcase/video.md">生视频案例</a> · <a href="templates/image.md">生图模板</a> · <a href="templates/video.md">生视频模板</a></p>
+<p align="center"><strong><a href="https://dle-kb.github.io/awesome-image-video-prompts/">浏览在线图册</a></strong> · 或查看 <a href="showcase/index.md">完整案例目录</a>。</p>
 
 ## 三步开始
 
@@ -40,6 +45,8 @@
 | 食品广告分镜 | [梨挞广告四镜头分镜](showcase/image.md#pear-tart-storyboard) | [食品广告四格分镜填空模板](templates/image.md#food-storyboard) |
 | 单件产品短片 | [固定主体与缓慢推近](showcase/video.md#product-reveal) | [产品单镜头推进填空模板](templates/video.md#single-shot-product) |
 | 镜头运动与空间感 | [推拉变焦空间扭曲样片](showcase/video.md#video-fa2e0ad821) | [对应来源配套 Prompt](templates/video.md#video-dolly-zoom-space-warp) |
+
+首屏拼贴中的六张图也可逐个查看： [旅行海报](showcase/image.md#coastal-poster) · [植物汽水](showcase/image.md#botanical-soda) · [植物图版](showcase/image.md#botanical-plate) · [梨挞分镜](showcase/image.md#pear-tart-storyboard) · [食物拆解](showcase/image.md#image-2be108496e) · [照片速写](showcase/image.md#image-2a8d580cf7)。
 
 更多入口：[全部生图案例](showcase/image.md) · [全部生视频案例](showcase/video.md) · [生图模板](templates/image.md) · [生视频模板](templates/video.md) · [画廊筛选](https://dle-kb.github.io/awesome-image-video-prompts/)
 
@@ -75,6 +82,8 @@
 | **原创案例与工作流** | 4 个生图案例、2 个生视频工作流；生图案例附生成信息 | 原创案例预览不代表所有关联模板的生成结果 |
 | **来源配套 Prompt** | 67 套生图、25 套生视频；中英文版本及对应案例回链 | 有些是原提示词的整理或翻译，不一定有填空变量 |
 | **原创填空模板** | 生图、生视频各 10 套；列出变量与使用检查 | 只有部分模板附有原创预览；其他模板不暗示已有出图 |
+
+首屏拼贴中，前四张为原创案例，后两张为标注原作者的来源案例；拼贴不是替换填空模板变量后的生成结果。
 
 按标题找内容可用[案例导航](showcase/index.md)；按题材和标签筛选可用[在线画廊](https://dle-kb.github.io/awesome-image-video-prompts/)。
 
