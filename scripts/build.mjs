@@ -70,6 +70,7 @@ function galleryThumbnail(style) {
 for (const [position, style] of styles.entries()) {
   const slug = style.style_slug;
   if (style.style_version !== '1.0' || slug !== slugs[position] || !/^[a-z0-9-]+$/.test(slug) ||
+      !slug.startsWith(`${style.kind}-`) || /-[a-f0-9]{10}$|-source$/.test(slug) ||
       !['image', 'video'].includes(style.kind) ||
       !['source', 'unverified'].includes(style.type) ||
       !style.title?.trim() || !style.summary?.trim() || !style.category?.trim() ||
@@ -119,7 +120,7 @@ const sorted = styles.toSorted((a, b) =>
   (a.kind === b.kind ? a.title.localeCompare(b.title, 'zh-CN') : a.kind === 'image' ? -1 : 1));
 const visible = sorted;
 const label = { source: '来源案例', unverified: '来源待核实' };
-const playbackUrl = slug => `https://dingle-kb.github.io/awesome-image-video-prompts/?style=${encodeURIComponent(slug)}`;
+const playbackUrl = slug => `https://dingle-kb.github.io/awesome-visual-prompts/?style=${encodeURIComponent(slug)}`;
 
 function renderCopy(style) {
   const slug = style.style_slug;

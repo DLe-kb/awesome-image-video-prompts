@@ -4,7 +4,7 @@
 
 ![复古手账插画](../../styles/video-retro-illustration-micro-motion/preview.jpg)
 
-[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-retro-illustration-micro-motion)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-visual-prompts/?style=video-retro-illustration-micro-motion)
 
 将照片转为复古网点插画，排版成手账海报，再以固定镜头生成局部微动效。
 

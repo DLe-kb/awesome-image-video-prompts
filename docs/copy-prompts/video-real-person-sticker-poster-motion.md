@@ -4,7 +4,7 @@
 
 ![复古ins贴纸海报](../../styles/video-real-person-sticker-poster-motion/preview.jpg)
 
-[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-real-person-sticker-poster-motion)
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-visual-prompts/?style=video-real-person-sticker-poster-motion)
 
 先用人物照片制作复古切模贴纸海报，再以海报为参考生成固定镜头的人物动效。
 

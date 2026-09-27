@@ -1,0 +1,24 @@
+{
+  "style_version": "1.0",
+  "style_slug": "video-pop-up-atlas-paper-animation",
+  "kind": "video",
+  "type": "source",
+  "legacyId": "video-31ea8a7f7c",
+  "title": "立体书地图纸艺动画",
+  "category": "动画",
+  "summary": "让地图集中的纸艺地形随翻页重组并最终折叠成罗盘。",
+  "tags": [
+    "动画",
+    "定格动画",
+    "横屏"
+  ],
+  "prompt": "立体书纸艺动画，15 秒，16:9。大师级纸艺工程。多层地形纸艺设计、精密剪纸景观、压纹细节、金箔地图标记、可活动的纸张机关、手工制作肌理、电影感暖光和浅景深。所有事物都是从一本古老地图册中展开的实体纸张。不要人声。声音包括翻页声、纸张沙沙声与微妙的管弦乐奇幻氛围。\n\n第一幕（0–4 秒）：一本古老地图册打开。一幅壮观的纸质地图在两页间展开。群山从分层的纸张浮雕中升起。森林、河流、桥梁、城市和船只从隐藏的折页中显现。小小的纸云在景观上方飘浮。镜头贴近地形低位穿行。\n\n第二幕（4–8 秒）：翻过一页。地图开始自行重新组织。河流向上折叠成道路。山脉压平并变为海洋。城市沿隐藏的纸质轨道滑动。整片区域像巨大的机械拼图一样旋转、卡入新的位置。\n\n第三幕（8–12 秒）：再次翻页。地图变得越来越不可能存在。新的大陆从现有大陆下方展开。桥梁横跨天空。浮岛从层层机关中出现。无尽的纸质地理景观从原有地图之外向外生长。\n\n第四幕（12–15 秒）：最后一次翻页。整个世界通过成千上万次同步的纸张运动向内折叠，变为一枚由景观、城市、海洋和山脉构成的巨大精致罗盘。罗盘继续扩张、展开，成为一张延伸到书页边缘之外的更宏大、不可能存在的地图。画面定格在完成的变形上。",
+  "source": {
+    "author": "@Alexandra Aisling / YouMind",
+    "url": "https://x.com/AllaAisling/status/2091584001282900033"
+  },
+  "promptCredit": "来源提示词 / 翻译整理",
+  "preview": "preview.jpg",
+  "sample": "sample.mp4",
+  "promptEn": "Pop-up book paper craft animation, 15 seconds, 16:9. Masterpiece paper engineering. Multi-layered topographic paper design, intricate cut-paper landscapes, embossed details, gold foil map markings, moving paper mechanisms, handcrafted textures, cinematic warm lighting, shallow depth of field. Everything exists as physical paper emerging from an antique atlas. No voice. Audio: turning pages, rustling paper, subtle orchestral wonder. ACT 1 (0-4s) An ancient atlas opens. A magnificent paper map unfolds across both pages. Mountains rise in layered paper relief. Forests, rivers, bridges, cities, and ships emerge from hidden folds. Tiny paper clouds float above the landscape. Camera travels low across the terrain. ACT 2 (4-8s) A page turns. The map begins reorganizing itself. Rivers fold upward into roads. Mountains flatten and transform into oceans. Cities slide across hidden paper tracks. Entire regions rotate and lock into new positions like a giant mechanical puzzle. ACT 3 (8-12s) Another page turns. The map becomes increasingly impossible. New continents unfold from beneath existing continents. Bridges span across the sky. Floating islands emerge from layered mechanisms. Endless paper geography grows outward beyond the original map. ACT 4 (12-15s) Final page turn. The entire world folds inward through thousands of synchronized paper movements, transforming into a giant ornate compass made from landscapes, cities, oceans, and mountains. The compass expands and unfolds into an even larger impossible map extending beyond the book's edges. Freeze on the completed transformation."
+}

@@ -1,0 +1,34 @@
+{
+  "style_version": "1.0",
+  "style_slug": "video-animated-encyclopedia-collage-explainer",
+  "kind": "video",
+  "type": "source",
+  "legacyId": "video-53bf374a72",
+  "title": "动态百科页拼贴解说",
+  "category": "动画",
+  "summary": "将一个知识主题拆成九个视觉节拍，以纸片拼贴关键帧、局部定格动画、旁白和字幕组成竖屏解释短片。",
+  "tags": [
+    "动画",
+    "定格动画",
+    "竖屏"
+  ],
+  "source": {
+    "author": "X `@MrLarus`；原帖发布日期：2026-07-12。作者称这是一次用 ChatGPT、Image2、Seedance、AI 配音与字幕制作的秦统一中国解说实验。",
+    "url": "https://x.com/MrLarus/status/2076328854315032641"
+  },
+  "promptCredit": "案例整理的多镜头工作流",
+  "preview": "preview.jpg",
+  "sample": "sample.mp4",
+  "workflow": [
+    {
+      "title": "制作拼贴关键帧",
+      "prompt": "为历史知识解说视频创建一幅竖版 9:16 的百科风格拼贴关键帧。\n\n主题：[单镜主题]\n\n风格：\nVox 风格解说、剪贴簿拼贴、剪纸、层叠贴纸、撕纸、胶带、标签、地图、箭头、物件卡片、人物 / 建筑 / 文物、白色剪纸边缘、粗轮廓、纸张阴影、半色调纹理、旧纸颗粒、中国历史拼贴。\n\n重要要求：\n让画面像一页内容密集的历史参考资料，而不是干净的海报。\n使用大量可运动的视觉元素：人物、地图、钱币、文字、道路、印章、卡片、标签和小道具。\n让每个物件以剪纸边缘清晰分开，以便后续制作动画。\n\n避免：\n3D 渲染、照片级写实、整洁的企业海报、空白背景、单一主视觉主体、PPT 排版。",
+      "promptEn": "Create a vertical 9:16 encyclopedia-style collage keyframe for a history explainer video.\n\nTopic: [scene topic]\n\nStyle:\n\nVox-style explainer, scrapbook collage, paper cutout, layered stickers, torn paper, tape, labels, maps, arrows, object cards, people / buildings / artifacts, white cutout edges, thick outlines, paper shadows, halftone texture, old paper grain, Chinese historical collage.\n\nImportant:\n\nMake it feel like a dense history reference page, not a clean poster.\n\nUse many movable visual elements: people, maps, coins, scripts, roads, seals, cards, labels and small props.\n\nKeep each object clearly separated with cut-paper edges so it can animate later.\n\nAvoid:\n\n3D render, photorealism, clean corporate poster, empty background, one single hero object, PPT layout."
+    },
+    {
+      "title": "生成纸片拼贴动画",
+      "prompt": "只以参考图作为视觉基础。\n\n生成一段 5 秒、竖版 9:16、无声的纸片拼贴动画。\n不要音乐、音效、配音或字幕。\n\n保持剪贴簿 / 剪纸 / 定格拼贴风格。\n为分离的剪纸元素制作动画，而不是让整张图一起运动。\n\n运动方式：\n纸张轻微抖动、贴纸弹跳、阶梯式定格运动、箭头移动、路线延伸、地图节点亮起、钱币旋转、标签卡入位置、印章盖下、纸边颤动、小物件沿清楚的路径位移。\n\n每个场景都应发生一件小事，而不是只有柔和的漂浮运动。\n\n保持主要构图和重要文字稳定。\n不要变成写实视频。\n不要做成 PPT 方块在画面中滑动。",
+      "promptEn": "Use the reference image as the only visual base.\n\nGenerate a 5-second vertical 9:16 silent paper-collage animation.\n\nNo music, no sound effects, no voice, no subtitles.\n\nKeep the scrapbook / paper cutout / stop-motion collage style.\n\nAnimate the separated cutout elements, not the whole image.\n\nMotion style:\n\npaper jitter, sticker bounce, stepped stop-motion movement, moving arrows, route lines extending, map nodes lighting up, coins rotating, labels snapping into place, seals stamping, paper edges shaking, small objects shifting with clear paths.\n\nEach scene should have a small event, not just soft floating.\n\nKeep the main composition and important text stable.\n\nDo not turn it into realistic video.\n\nDo not make it look like PPT blocks sliding around."
+    }
+  ]
+}

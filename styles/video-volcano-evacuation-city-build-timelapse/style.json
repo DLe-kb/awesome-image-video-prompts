@@ -1,0 +1,24 @@
+{
+  "style_version": "1.0",
+  "style_slug": "video-volcano-evacuation-city-build-timelapse",
+  "kind": "video",
+  "type": "source",
+  "legacyId": "video-19ceae29af",
+  "title": "火山疏散城市建造延时",
+  "category": "电影感",
+  "summary": "用微型工人连续施工展示火山谷紧急疏散城市的建造。",
+  "tags": [
+    "电影感",
+    "竖屏",
+    "文生视频"
+  ],
+  "prompt": "创作一段 30 秒、竖版 9:16、超照片级写实的微缩建筑延时视频，展示数百名微型工人在火山谷地迅速建造一座受到保护的紧急疏散城市。\n\n背景中始终可见一座喷烟的巨大火山。数百名工人持续进行真实的体力施工：挖掘、搬运材料、浇筑混凝土、垒砌砖块、紧固钢材、操作起重机、安装管道和建造结构。每个物体都必须通过实体施工建成，不能凭空出现。\n\n0–4 秒：工人清理荒芜的火山谷地，划出安全区，修建主要疏散道路。\n\n4–8 秒：施工队挖掘地基，逐层建造多栋应急房屋。\n\n8–12 秒：工人安装结构梁、屋顶、窗户、门和一道厚实的防护围墙。\n\n12–16 秒：建造一座加固的地下避难所和紧急医疗中心，并设置一小块降落区。\n\n16–20 秒：安装水箱、地下管道、食品储存仓库和物资箱。\n\n20–24 秒：组装高耸的通信塔、疏散隧道、第二条道路和瞭望塔。\n\n24–28 秒：应急车辆抵达；工人安装灯光、隔离栏、警示牌和救援设备，并种植树木、布置小型绿地。\n\n28–30 秒：先以一名工人拧紧最后一颗螺栓的近景开始，然后镜头迅速向上拉升，揭示完整的微缩疏散城市：数十座避难所、道路、隧道、医疗中心、高塔、车辆和仍在忙碌的数百名工人。远处巨大的火山持续喷烟，隐约透出遥远的熔岩红光。\n\n每隔 2 秒必须引入一个清楚可见的新建筑元素。全程让工人密集出现在画面中并积极施工。\n\n严格禁止：魔法般的建造、物体瞬间出现、瞬移、材料消失、工人悬浮或复制、巨人、卡通、玩具或塑料质感、奇幻建筑、明显的 CGI 外观、文字和水印。保持一致的比例、真实物理效果、自然光照、微距景深、4K HDR 和电影感照片级写实。",
+  "source": {
+    "author": "@Maverick | AI / YouMind",
+    "url": "https://x.com/RizwanAly07/status/2101897414760411153"
+  },
+  "promptCredit": "来源提示词 / 翻译整理",
+  "preview": "preview.jpg",
+  "sample": "sample.mp4",
+  "promptEn": "Create a 30-second vertical 9:16 ultra-photorealistic miniature construction time-lapse of hundreds of tiny workers rapidly building a protected emergency evacuation city in a volcanic valley.\n\nA massive smoking volcano remains visible in the background throughout. Hundreds of workers continuously perform realistic physical tasks: digging, carrying materials, pouring concrete, stacking blocks, bolting steel, operating cranes, installing pipes and building structures. Every object must be physically constructed—nothing magically appears.\n\n0–4s: Workers clear the barren volcanic valley, mark the safe zone and build the main evacuation road.\n\n4–8s: Teams dig foundations and construct multiple emergency houses layer-by-layer.\n\n8–12s: Workers install structural beams, roofs, windows, doors and a thick protective perimeter wall.\n\n12–16s: Build a reinforced underground shelter and emergency medical center with a small landing area.\n\n16–20s: Install water tanks, underground pipes, food-storage warehouse and supply crates.\n\n20–24s: Assemble a tall communication tower, evacuation tunnel, secondary road and observation towers.\n\n24–28s: Emergency trucks arrive while workers install lights, barriers, warning signs, rescue equipment, trees and small green spaces.\n\n28–30s: Start close on a worker tightening the final bolt, then rapidly pull upward to reveal the complete miniature evacuation city with dozens of shelters, roads, tunnel, medical center, towers, vehicles and hundreds of active workers. The enormous volcano smokes in the background with subtle distant lava glow.\n\nEvery 2 seconds must introduce a clearly visible new construction element. Keep workers densely visible and actively working throughout.\n\nSTRICT: No magical construction, instant appearance, teleportation, disappearing materials, floating workers, duplicated workers, giant humans, cartoon, toy/plastic look, fantasy architecture, CGI appearance, text or watermark. Maintain consistent scale, realistic physics, natural lighting, macro depth of field, 4K HDR, cinematic photorealism."
+}

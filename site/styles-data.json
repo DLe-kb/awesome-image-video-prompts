@@ -68,7 +68,7 @@
       "copy": "../docs/copy-prompts/image-acrylic-hand-painted-split-poster.md"
     },
     {
-      "slug": "image-miniature-city-map-travel-poster-source",
+      "slug": "image-miniature-city-map-travel-poster",
       "kind": "image",
       "type": "source",
       "title": "城市地图微缩旅行海报",
@@ -83,14 +83,14 @@
         "城市名称",
         "车辆名称"
       ],
-      "preview": "../styles/image-miniature-city-map-travel-poster-source/preview.jpg",
+      "preview": "../styles/image-miniature-city-map-travel-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@SimplyAnnisa",
         "url": "https://x.com/SimplyAnnisa/status/2062358269172101240"
       },
-      "json": "../styles/image-miniature-city-map-travel-poster-source/style.json",
-      "copy": "../docs/copy-prompts/image-miniature-city-map-travel-poster-source.md"
+      "json": "../styles/image-miniature-city-map-travel-poster/style.json",
+      "copy": "../docs/copy-prompts/image-miniature-city-map-travel-poster.md"
     },
     {
       "slug": "image-city-corner-3d-billboard-photography",
@@ -213,7 +213,7 @@
       "copy": "../docs/copy-prompts/image-solar-terms-editorial-visual.md"
     },
     {
-      "slug": "image-french-new-wave-torn-paper-poster-source",
+      "slug": "image-french-new-wave-torn-paper-poster",
       "kind": "image",
       "type": "source",
       "title": "法新浪潮撕纸电影海报",
@@ -230,14 +230,14 @@
         "品牌名称/活动名称/即将推出/日期",
         "TAGLINE"
       ],
-      "preview": "../styles/image-french-new-wave-torn-paper-poster-source/preview.jpg",
+      "preview": "../styles/image-french-new-wave-torn-paper-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@bananaprompts",
         "url": "https://x.com/bananaprompts/status/2048541390900994476"
       },
-      "json": "../styles/image-french-new-wave-torn-paper-poster-source/style.json",
-      "copy": "../docs/copy-prompts/image-french-new-wave-torn-paper-poster-source.md"
+      "json": "../styles/image-french-new-wave-torn-paper-poster/style.json",
+      "copy": "../docs/copy-prompts/image-french-new-wave-torn-paper-poster.md"
     },
     {
       "slug": "image-reflective-ski-gear-landing-page",
@@ -333,7 +333,7 @@
       "copy": "../docs/copy-prompts/image-vintage-scientific-botanical-poster.md"
     },
     {
-      "slug": "image-concept-sofa-development-board-source",
+      "slug": "image-concept-sofa-development-board",
       "kind": "image",
       "type": "source",
       "title": "概念沙发研发板",
@@ -345,17 +345,17 @@
         "工业设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-concept-sofa-development-board-source/preview.jpg",
+      "preview": "../styles/image-concept-sofa-development-board/preview.jpg",
       "sample": null,
       "source": {
         "author": "@ShamsAmin56",
         "url": "https://x.com/ShamsAmin56/status/2050281206139461780"
       },
-      "json": "../styles/image-concept-sofa-development-board-source/style.json",
-      "copy": "../docs/copy-prompts/image-concept-sofa-development-board-source.md"
+      "json": "../styles/image-concept-sofa-development-board/style.json",
+      "copy": "../docs/copy-prompts/image-concept-sofa-development-board.md"
     },
     {
-      "slug": "image-haute-couture-fashion-magazine-cover-source",
+      "slug": "image-haute-couture-fashion-magazine-cover",
       "kind": "image",
       "type": "source",
       "title": "高定时尚杂志封面",
@@ -367,14 +367,14 @@
         "编辑设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-haute-couture-fashion-magazine-cover-source/preview.jpg",
+      "preview": "../styles/image-haute-couture-fashion-magazine-cover/preview.jpg",
       "sample": null,
       "source": {
         "author": "@SPEEDAI07",
         "url": "https://x.com/SPEEDAI07/status/2048573343066992919"
       },
-      "json": "../styles/image-haute-couture-fashion-magazine-cover-source/style.json",
-      "copy": "../docs/copy-prompts/image-haute-couture-fashion-magazine-cover-source.md"
+      "json": "../styles/image-haute-couture-fashion-magazine-cover/style.json",
+      "copy": "../docs/copy-prompts/image-haute-couture-fashion-magazine-cover.md"
     },
     {
       "slug": "image-premium-food-commercial-storyboard",
@@ -618,7 +618,7 @@
       "copy": "../docs/copy-prompts/image-tech-product-review-thumbnail.md"
     },
     {
-      "slug": "image-croissant-baking-storyboard-source",
+      "slug": "image-croissant-baking-storyboard",
       "kind": "image",
       "type": "source",
       "title": "可颂烘焙流程分镜板",
@@ -630,17 +630,17 @@
         "商业广告"
       ],
       "inputs": [],
-      "preview": "../styles/image-croissant-baking-storyboard-source/preview.jpg",
+      "preview": "../styles/image-croissant-baking-storyboard/preview.jpg",
       "sample": null,
       "source": {
         "author": "@TechieBySA",
         "url": "https://x.com/TechieBySA/status/2053523784481554759"
       },
-      "json": "../styles/image-croissant-baking-storyboard-source/style.json",
-      "copy": "../docs/copy-prompts/image-croissant-baking-storyboard-source.md"
+      "json": "../styles/image-croissant-baking-storyboard/style.json",
+      "copy": "../docs/copy-prompts/image-croissant-baking-storyboard.md"
     },
     {
-      "slug": "image-326b2a7f37",
+      "slug": "image-faithful-vintage-portrait-restoration",
       "kind": "image",
       "type": "source",
       "title": "老照片人像保真修复",
@@ -652,17 +652,17 @@
         "怀旧"
       ],
       "inputs": [],
-      "preview": "../styles/image-326b2a7f37/preview.jpg",
+      "preview": "../styles/image-faithful-vintage-portrait-restoration/preview.jpg",
       "sample": null,
       "source": {
         "author": "@一枚卓子（创意来源：aliailab）",
         "url": "https://www.douyin.com/video/7631071260739646650"
       },
-      "json": "../styles/image-326b2a7f37/style.json",
-      "copy": "../docs/copy-prompts/image-326b2a7f37.md"
+      "json": "../styles/image-faithful-vintage-portrait-restoration/style.json",
+      "copy": "../docs/copy-prompts/image-faithful-vintage-portrait-restoration.md"
     },
     {
-      "slug": "pear-tart-storyboard",
+      "slug": "image-pear-tart-storyboard",
       "kind": "image",
       "type": "unverified",
       "title": "梨挞广告四镜头分镜",
@@ -670,14 +670,14 @@
       "summary": "四格镜头从原料、制作、烘烤过渡到成品。",
       "tags": [],
       "inputs": [],
-      "preview": "../styles/pear-tart-storyboard/preview.webp",
+      "preview": "../styles/image-pear-tart-storyboard/preview.webp",
       "sample": null,
       "source": null,
-      "json": "../styles/pear-tart-storyboard/style.json",
-      "copy": "../docs/copy-prompts/pear-tart-storyboard.md"
+      "json": "../styles/image-pear-tart-storyboard/style.json",
+      "copy": "../docs/copy-prompts/image-pear-tart-storyboard.md"
     },
     {
-      "slug": "image-rio-travel-ticket-paper-diorama-poster-source",
+      "slug": "image-rio-travel-ticket-paper-diorama-poster",
       "kind": "image",
       "type": "source",
       "title": "里约旅行票据纸雕立体海报",
@@ -689,17 +689,17 @@
         "手工材质"
       ],
       "inputs": [],
-      "preview": "../styles/image-rio-travel-ticket-paper-diorama-poster-source/preview.jpg",
+      "preview": "../styles/image-rio-travel-ticket-paper-diorama-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@john_my07",
         "url": "https://x.com/john_my07/status/2091408386466214031"
       },
-      "json": "../styles/image-rio-travel-ticket-paper-diorama-poster-source/style.json",
-      "copy": "../docs/copy-prompts/image-rio-travel-ticket-paper-diorama-poster-source.md"
+      "json": "../styles/image-rio-travel-ticket-paper-diorama-poster/style.json",
+      "copy": "../docs/copy-prompts/image-rio-travel-ticket-paper-diorama-poster.md"
     },
     {
-      "slug": "image-six-panel-miniature-beverage-ad-source",
+      "slug": "image-six-panel-miniature-beverage-ad",
       "kind": "image",
       "type": "source",
       "title": "六宫格饮料微缩广告",
@@ -711,17 +711,17 @@
         "微缩场景"
       ],
       "inputs": [],
-      "preview": "../styles/image-six-panel-miniature-beverage-ad-source/preview.jpg",
+      "preview": "../styles/image-six-panel-miniature-beverage-ad/preview.jpg",
       "sample": null,
       "source": {
         "author": "@ou_zhen599",
         "url": "https://x.com/ou_zhen599/status/2091160215928574397"
       },
-      "json": "../styles/image-six-panel-miniature-beverage-ad-source/style.json",
-      "copy": "../docs/copy-prompts/image-six-panel-miniature-beverage-ad-source.md"
+      "json": "../styles/image-six-panel-miniature-beverage-ad/style.json",
+      "copy": "../docs/copy-prompts/image-six-panel-miniature-beverage-ad.md"
     },
     {
-      "slug": "image-travel-souvenir-enamel-pin-source",
+      "slug": "image-travel-souvenir-enamel-pin",
       "kind": "image",
       "type": "source",
       "title": "旅行纪念珐琅徽章",
@@ -733,14 +733,14 @@
         "手工材质"
       ],
       "inputs": [],
-      "preview": "../styles/image-travel-souvenir-enamel-pin-source/preview.jpg",
+      "preview": "../styles/image-travel-souvenir-enamel-pin/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Emmma__0",
         "url": "https://x.com/Emmma__0/status/2093194689222705645"
       },
-      "json": "../styles/image-travel-souvenir-enamel-pin-source/style.json",
-      "copy": "../docs/copy-prompts/image-travel-souvenir-enamel-pin-source.md"
+      "json": "../styles/image-travel-souvenir-enamel-pin/style.json",
+      "copy": "../docs/copy-prompts/image-travel-souvenir-enamel-pin.md"
     },
     {
       "slug": "image-cooking-sketch-illustration-story",
@@ -915,7 +915,7 @@
       "copy": "../docs/copy-prompts/image-desert-car-wash-documentary-photo.md"
     },
     {
-      "slug": "image-luxury-mechanical-watch-technical-guide-source",
+      "slug": "image-luxury-mechanical-watch-technical-guide",
       "kind": "image",
       "type": "source",
       "title": "奢华机械腕表技术图鉴",
@@ -931,14 +931,14 @@
         "MODEL REFERENCE",
         "MANUFACTURE / COLLECTION"
       ],
-      "preview": "../styles/image-luxury-mechanical-watch-technical-guide-source/preview.jpg",
+      "preview": "../styles/image-luxury-mechanical-watch-technical-guide/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Gdgtify",
         "url": "https://x.com/Gdgtify/status/2056928396991488312"
       },
-      "json": "../styles/image-luxury-mechanical-watch-technical-guide-source/style.json",
-      "copy": "../docs/copy-prompts/image-luxury-mechanical-watch-technical-guide-source.md"
+      "json": "../styles/image-luxury-mechanical-watch-technical-guide/style.json",
+      "copy": "../docs/copy-prompts/image-luxury-mechanical-watch-technical-guide.md"
     },
     {
       "slug": "image-social-media-giveaway-banner",
@@ -1013,7 +1013,7 @@
       "copy": "../docs/copy-prompts/image-fifteen-step-photorealistic-recipe.md"
     },
     {
-      "slug": "image-exploded-food-infographic-source",
+      "slug": "image-exploded-food-infographic",
       "kind": "image",
       "type": "source",
       "title": "食物爆炸拆解信息图",
@@ -1025,14 +1025,14 @@
         "产品视觉"
       ],
       "inputs": [],
-      "preview": "../styles/image-exploded-food-infographic-source/preview.jpg",
+      "preview": "../styles/image-exploded-food-infographic/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Strength04_X",
         "url": "https://x.com/Strength04_X/status/2056018963084226866"
       },
-      "json": "../styles/image-exploded-food-infographic-source/style.json",
-      "copy": "../docs/copy-prompts/image-exploded-food-infographic-source.md"
+      "json": "../styles/image-exploded-food-infographic/style.json",
+      "copy": "../docs/copy-prompts/image-exploded-food-infographic.md"
     },
     {
       "slug": "image-hand-torn-paper-poster",
@@ -1101,7 +1101,7 @@
       "copy": "../docs/copy-prompts/image-watercolor-editorial-illustration-poster.md"
     },
     {
-      "slug": "image-ink-double-exposure-portrait-poster-source",
+      "slug": "image-ink-double-exposure-portrait-poster",
       "kind": "image",
       "type": "source",
       "title": "水墨双重曝光人物海报",
@@ -1115,17 +1115,17 @@
       "inputs": [
         "SUBJECT"
       ],
-      "preview": "../styles/image-ink-double-exposure-portrait-poster-source/preview.jpg",
+      "preview": "../styles/image-ink-double-exposure-portrait-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Goodmanprotocol",
         "url": "https://x.com/Goodmanprotocol/status/2049002279051895243"
       },
-      "json": "../styles/image-ink-double-exposure-portrait-poster-source/style.json",
-      "copy": "../docs/copy-prompts/image-ink-double-exposure-portrait-poster-source.md"
+      "json": "../styles/image-ink-double-exposure-portrait-poster/style.json",
+      "copy": "../docs/copy-prompts/image-ink-double-exposure-portrait-poster.md"
     },
     {
-      "slug": "image-four-city-minimal-travel-poster-series-source",
+      "slug": "image-four-city-minimal-travel-poster-series",
       "kind": "image",
       "type": "source",
       "title": "四城极简旅行海报系列",
@@ -1137,14 +1137,14 @@
         "系列视觉"
       ],
       "inputs": [],
-      "preview": "../styles/image-four-city-minimal-travel-poster-series-source/preview.jpg",
+      "preview": "../styles/image-four-city-minimal-travel-poster-series/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Taaruk_",
         "url": "https://x.com/Taaruk_/status/2059188921096085888"
       },
-      "json": "../styles/image-four-city-minimal-travel-poster-series-source/style.json",
-      "copy": "../docs/copy-prompts/image-four-city-minimal-travel-poster-series-source.md"
+      "json": "../styles/image-four-city-minimal-travel-poster-series/style.json",
+      "copy": "../docs/copy-prompts/image-four-city-minimal-travel-poster-series.md"
     },
     {
       "slug": "image-four-panel-milkshake-recipe",
@@ -1168,7 +1168,7 @@
       "copy": "../docs/copy-prompts/image-four-panel-milkshake-recipe.md"
     },
     {
-      "slug": "image-same-face-twelve-hairstyles-source",
+      "slug": "image-same-face-twelve-hairstyles",
       "kind": "image",
       "type": "source",
       "title": "同一人脸十二款发型图鉴",
@@ -1180,14 +1180,14 @@
         "多视角一致性"
       ],
       "inputs": [],
-      "preview": "../styles/image-same-face-twelve-hairstyles-source/preview.jpg",
+      "preview": "../styles/image-same-face-twelve-hairstyles/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Ciri_ai",
         "url": "https://x.com/Ciri_ai/status/2092452220768002400"
       },
-      "json": "../styles/image-same-face-twelve-hairstyles-source/style.json",
-      "copy": "../docs/copy-prompts/image-same-face-twelve-hairstyles-source.md"
+      "json": "../styles/image-same-face-twelve-hairstyles/style.json",
+      "copy": "../docs/copy-prompts/image-same-face-twelve-hairstyles.md"
     },
     {
       "slug": "image-futuristic-biophilic-atrium",
@@ -1234,7 +1234,7 @@
       "copy": "../docs/copy-prompts/image-five-panel-cafe-character-collage.md"
     },
     {
-      "slug": "image-half-photo-half-crayon-memory-card-source",
+      "slug": "image-half-photo-half-crayon-memory-card",
       "kind": "image",
       "type": "source",
       "title": "五五分混合媒介回忆卡",
@@ -1246,14 +1246,14 @@
         "拼贴设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-half-photo-half-crayon-memory-card-source/preview.jpg",
+      "preview": "../styles/image-half-photo-half-crayon-memory-card/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Sairah_0",
         "url": "https://x.com/Sairah_0/status/2093212900160868430"
       },
-      "json": "../styles/image-half-photo-half-crayon-memory-card-source/style.json",
-      "copy": "../docs/copy-prompts/image-half-photo-half-crayon-memory-card-source.md"
+      "json": "../styles/image-half-photo-half-crayon-memory-card/style.json",
+      "copy": "../docs/copy-prompts/image-half-photo-half-crayon-memory-card.md"
     },
     {
       "slug": "image-wuhan-vintage-map-poster",
@@ -1354,7 +1354,7 @@
       "copy": "../docs/copy-prompts/image-inside-box-farm-ad-poster.md"
     },
     {
-      "slug": "image-rubber-stamp-travel-field-notes-source",
+      "slug": "image-rubber-stamp-travel-field-notes",
       "kind": "image",
       "type": "source",
       "title": "橡皮章旅行田野笔记",
@@ -1366,17 +1366,17 @@
         "手工材质"
       ],
       "inputs": [],
-      "preview": "../styles/image-rubber-stamp-travel-field-notes-source/preview.jpg",
+      "preview": "../styles/image-rubber-stamp-travel-field-notes/preview.jpg",
       "sample": null,
       "source": {
         "author": "@MahnoorAi12",
         "url": "https://x.com/MahnoorAi12/status/2092221482139349307"
       },
-      "json": "../styles/image-rubber-stamp-travel-field-notes-source/style.json",
-      "copy": "../docs/copy-prompts/image-rubber-stamp-travel-field-notes-source.md"
+      "json": "../styles/image-rubber-stamp-travel-field-notes/style.json",
+      "copy": "../docs/copy-prompts/image-rubber-stamp-travel-field-notes.md"
     },
     {
-      "slug": "coastal-poster",
+      "slug": "image-coastal-poster",
       "kind": "image",
       "type": "unverified",
       "title": "虚构海岸城市旅行海报",
@@ -1384,14 +1384,14 @@
       "summary": "以大色块、几何建筑和丝网印刷肌理构成旅行海报。",
       "tags": [],
       "inputs": [],
-      "preview": "../styles/coastal-poster/preview.webp",
+      "preview": "../styles/image-coastal-poster/preview.webp",
       "sample": null,
       "source": null,
-      "json": "../styles/coastal-poster/style.json",
-      "copy": "../docs/copy-prompts/coastal-poster.md"
+      "json": "../styles/image-coastal-poster/style.json",
+      "copy": "../docs/copy-prompts/image-coastal-poster.md"
     },
     {
-      "slug": "botanical-plate",
+      "slug": "image-botanical-plate",
       "kind": "image",
       "type": "unverified",
       "title": "虚构植物科学图版",
@@ -1399,14 +1399,14 @@
       "summary": "以标本主图和局部放大图组织清晰的植物学图版。",
       "tags": [],
       "inputs": [],
-      "preview": "../styles/botanical-plate/preview.webp",
+      "preview": "../styles/image-botanical-plate/preview.webp",
       "sample": null,
       "source": null,
-      "json": "../styles/botanical-plate/style.json",
-      "copy": "../docs/copy-prompts/botanical-plate.md"
+      "json": "../styles/image-botanical-plate/style.json",
+      "copy": "../docs/copy-prompts/image-botanical-plate.md"
     },
     {
-      "slug": "image-felt-country-miniature-world-source",
+      "slug": "image-felt-country-miniature-world",
       "kind": "image",
       "type": "source",
       "title": "羊毛毡国家微缩世界",
@@ -1420,14 +1420,14 @@
       "inputs": [
         "插入国家/地区名称"
       ],
-      "preview": "../styles/image-felt-country-miniature-world-source/preview.jpg",
+      "preview": "../styles/image-felt-country-miniature-world/preview.jpg",
       "sample": null,
       "source": {
         "author": "@volkan_iras",
         "url": "https://x.com/volkan_iras/status/2051403524966141980"
       },
-      "json": "../styles/image-felt-country-miniature-world-source/style.json",
-      "copy": "../docs/copy-prompts/image-felt-country-miniature-world-source.md"
+      "json": "../styles/image-felt-country-miniature-world/style.json",
+      "copy": "../docs/copy-prompts/image-felt-country-miniature-world.md"
     },
     {
       "slug": "image-consistent-interior-multiview-grid",
@@ -1504,7 +1504,7 @@
       "copy": "../docs/copy-prompts/image-beverage-food-marketing-hero.md"
     },
     {
-      "slug": "botanical-soda",
+      "slug": "image-botanical-soda",
       "kind": "image",
       "type": "unverified",
       "title": "植物汽水商业静物",
@@ -1512,11 +1512,11 @@
       "summary": "用光线、冷凝水和水果切片突出饮品材质。",
       "tags": [],
       "inputs": [],
-      "preview": "../styles/botanical-soda/preview.webp",
+      "preview": "../styles/image-botanical-soda/preview.webp",
       "sample": null,
       "source": null,
-      "json": "../styles/botanical-soda/style.json",
-      "copy": "../docs/copy-prompts/botanical-soda.md"
+      "json": "../styles/image-botanical-soda/style.json",
+      "copy": "../docs/copy-prompts/image-botanical-soda.md"
     },
     {
       "slug": "image-paper-relief-neighborhood-grid",
@@ -1564,7 +1564,7 @@
       "copy": "../docs/copy-prompts/image-chinese-luxury-beauty-poster.md"
     },
     {
-      "slug": "image-football-player-stats-doodle-poster-source",
+      "slug": "image-football-player-stats-doodle-poster",
       "kind": "image",
       "type": "source",
       "title": "足球球员数据涂鸦海报",
@@ -1580,17 +1580,17 @@
         "PRIMARY_COLOR",
         "NICKNAME/TITLE"
       ],
-      "preview": "../styles/image-football-player-stats-doodle-poster-source/preview.jpg",
+      "preview": "../styles/image-football-player-stats-doodle-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@ryanpp27",
         "url": "https://x.com/ryanpp27/status/2048602248524214542"
       },
-      "json": "../styles/image-football-player-stats-doodle-poster-source/style.json",
-      "copy": "../docs/copy-prompts/image-football-player-stats-doodle-poster-source.md"
+      "json": "../styles/image-football-player-stats-doodle-poster/style.json",
+      "copy": "../docs/copy-prompts/image-football-player-stats-doodle-poster.md"
     },
     {
-      "slug": "video-3d40126f5f",
+      "slug": "video-1990s-pixel-text-game",
       "kind": "video",
       "type": "source",
       "title": "90年代像素文字游戏",
@@ -1602,17 +1602,17 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-3d40126f5f/preview.jpg",
-      "sample": "../styles/video-3d40126f5f/sample.mp4",
+      "preview": "../styles/video-1990s-pixel-text-game/preview.jpg",
+      "sample": "../styles/video-1990s-pixel-text-game/sample.mp4",
       "source": {
         "author": "@BMX / YouMind",
         "url": "https://x.com/bmx_ai13/status/2101593507232387096"
       },
-      "json": "../styles/video-3d40126f5f/style.json",
-      "copy": "../docs/copy-prompts/video-3d40126f5f.md"
+      "json": "../styles/video-1990s-pixel-text-game/style.json",
+      "copy": "../docs/copy-prompts/video-1990s-pixel-text-game.md"
     },
     {
-      "slug": "video-50e620e4e4",
+      "slug": "video-paris-street-fashion-transformation",
       "kind": "video",
       "type": "source",
       "title": "巴黎街头时装变身",
@@ -1624,17 +1624,17 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-50e620e4e4/preview.jpg",
-      "sample": "../styles/video-50e620e4e4/sample.mp4",
+      "preview": "../styles/video-paris-street-fashion-transformation/preview.jpg",
+      "sample": "../styles/video-paris-street-fashion-transformation/sample.mp4",
       "source": {
         "author": "@ayzalnoor / YouMind",
         "url": "https://x.com/ayzalnooor24521/status/2100456445900710158"
       },
-      "json": "../styles/video-50e620e4e4/style.json",
-      "copy": "../docs/copy-prompts/video-50e620e4e4.md"
+      "json": "../styles/video-paris-street-fashion-transformation/style.json",
+      "copy": "../docs/copy-prompts/video-paris-street-fashion-transformation.md"
     },
     {
-      "slug": "video-vertical-crane-reveal-source",
+      "slug": "video-vertical-crane-reveal",
       "kind": "video",
       "type": "source",
       "title": "垂直升降揭示",
@@ -1648,17 +1648,17 @@
       "inputs": [
         "主体"
       ],
-      "preview": "../styles/video-vertical-crane-reveal-source/preview.jpg",
-      "sample": "../styles/video-vertical-crane-reveal-source/sample.mp4",
+      "preview": "../styles/video-vertical-crane-reveal/preview.jpg",
+      "sample": "../styles/video-vertical-crane-reveal/sample.mp4",
       "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
-      "json": "../styles/video-vertical-crane-reveal-source/style.json",
-      "copy": "../docs/copy-prompts/video-vertical-crane-reveal-source.md"
+      "json": "../styles/video-vertical-crane-reveal/style.json",
+      "copy": "../docs/copy-prompts/video-vertical-crane-reveal.md"
     },
     {
-      "slug": "video-brutalist-courtyard-martial-arts-source",
+      "slug": "video-brutalist-courtyard-martial-arts",
       "kind": "video",
       "type": "source",
       "title": "粗野主义庭院武术动作",
@@ -1674,17 +1674,17 @@
         "主角：身穿拼色棒球夹克、连帽衫及工装裤的年轻男性",
         "对手：佩戴白色狐狸面具并手持武士刀的敏捷女刺客"
       ],
-      "preview": "../styles/video-brutalist-courtyard-martial-arts-source/preview.jpg",
-      "sample": "../styles/video-brutalist-courtyard-martial-arts-source/sample.mp4",
+      "preview": "../styles/video-brutalist-courtyard-martial-arts/preview.jpg",
+      "sample": "../styles/video-brutalist-courtyard-martial-arts/sample.mp4",
       "source": {
         "author": "Avelyrah（X：`@AvelyrahnAI`）",
         "url": "https://x.com/AvelyrahnAI/status/2088495522801942951"
       },
-      "json": "../styles/video-brutalist-courtyard-martial-arts-source/style.json",
-      "copy": "../docs/copy-prompts/video-brutalist-courtyard-martial-arts-source.md"
+      "json": "../styles/video-brutalist-courtyard-martial-arts/style.json",
+      "copy": "../docs/copy-prompts/video-brutalist-courtyard-martial-arts.md"
     },
     {
-      "slug": "video-8f1bbd26f7",
+      "slug": "video-college-physics-experiment",
       "kind": "video",
       "type": "source",
       "title": "大学物理实验演示短片",
@@ -1696,17 +1696,17 @@
         "文生视频"
       ],
       "inputs": [],
-      "preview": "../styles/video-8f1bbd26f7/preview.jpg",
-      "sample": "../styles/video-8f1bbd26f7/sample.mp4",
+      "preview": "../styles/video-college-physics-experiment/preview.jpg",
+      "sample": "../styles/video-college-physics-experiment/sample.mp4",
       "source": {
         "author": "@Ayat / YouMind",
         "url": "https://x.com/aiwithaayat/status/2102331859657253174"
       },
-      "json": "../styles/video-8f1bbd26f7/style.json",
-      "copy": "../docs/copy-prompts/video-8f1bbd26f7.md"
+      "json": "../styles/video-college-physics-experiment/style.json",
+      "copy": "../docs/copy-prompts/video-college-physics-experiment.md"
     },
     {
-      "slug": "video-first-person-dragon-rider-source",
+      "slug": "video-first-person-dragon-rider",
       "kind": "video",
       "type": "source",
       "title": "第一人称视角：龙骑士电影级画面",
@@ -1722,17 +1722,17 @@
         "起飞场景：潮湿的翡翠色海岸悬崖",
         "飞行环境：灰绿色的海洋"
       ],
-      "preview": "../styles/video-first-person-dragon-rider-source/preview.jpg",
-      "sample": "../styles/video-first-person-dragon-rider-source/sample.mp4",
+      "preview": "../styles/video-first-person-dragon-rider/preview.jpg",
+      "sample": "../styles/video-first-person-dragon-rider/sample.mp4",
       "source": {
         "author": "Nexora（X：`@frametheory058`）",
         "url": "https://x.com/frametheory058/status/2087007818721423855"
       },
-      "json": "../styles/video-first-person-dragon-rider-source/style.json",
-      "copy": "../docs/copy-prompts/video-first-person-dragon-rider-source.md"
+      "json": "../styles/video-first-person-dragon-rider/style.json",
+      "copy": "../docs/copy-prompts/video-first-person-dragon-rider.md"
     },
     {
-      "slug": "video-cinematic-roller-skating-action-source",
+      "slug": "video-cinematic-roller-skating-action",
       "kind": "video",
       "type": "source",
       "title": "电影级动作轮滑序列",
@@ -1748,17 +1748,17 @@
         "追逐场景：拥挤的市中心街道",
         "追逐者：闪烁警灯的警车"
       ],
-      "preview": "../styles/video-cinematic-roller-skating-action-source/preview.jpg",
-      "sample": "../styles/video-cinematic-roller-skating-action-source/sample.mp4",
+      "preview": "../styles/video-cinematic-roller-skating-action/preview.jpg",
+      "sample": "../styles/video-cinematic-roller-skating-action/sample.mp4",
       "source": {
         "author": "Smiling Khan（X：`@AIwithkhan`）",
         "url": "https://x.com/AIwithkhan/status/2088506532434743745"
       },
-      "json": "../styles/video-cinematic-roller-skating-action-source/style.json",
-      "copy": "../docs/copy-prompts/video-cinematic-roller-skating-action-source.md"
+      "json": "../styles/video-cinematic-roller-skating-action/style.json",
+      "copy": "../docs/copy-prompts/video-cinematic-roller-skating-action.md"
     },
     {
-      "slug": "video-cinematic-shaolin-action-source",
+      "slug": "video-cinematic-shaolin-action",
       "kind": "video",
       "type": "source",
       "title": "电影级少林武僧动作大片",
@@ -1774,17 +1774,17 @@
         "场景：广阔的废弃山间寺庙庭院",
         "对手：四个高耸的原创石甲生物"
       ],
-      "preview": "../styles/video-cinematic-shaolin-action-source/preview.jpg",
-      "sample": "../styles/video-cinematic-shaolin-action-source/sample.mp4",
+      "preview": "../styles/video-cinematic-shaolin-action/preview.jpg",
+      "sample": "../styles/video-cinematic-shaolin-action/sample.mp4",
       "source": {
         "author": "Pierrick Chevallier | IA（X：`@CharaspowerAI`）",
         "url": "https://x.com/CharaspowerAI/status/2086830115527250284"
       },
-      "json": "../styles/video-cinematic-shaolin-action-source/style.json",
-      "copy": "../docs/copy-prompts/video-cinematic-shaolin-action-source.md"
+      "json": "../styles/video-cinematic-shaolin-action/style.json",
+      "copy": "../docs/copy-prompts/video-cinematic-shaolin-action.md"
     },
     {
-      "slug": "video-53bf374a72",
+      "slug": "video-animated-encyclopedia-collage-explainer",
       "kind": "video",
       "type": "source",
       "title": "动态百科页拼贴解说",
@@ -1796,14 +1796,14 @@
         "竖屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-53bf374a72/preview.jpg",
-      "sample": "../styles/video-53bf374a72/sample.mp4",
+      "preview": "../styles/video-animated-encyclopedia-collage-explainer/preview.jpg",
+      "sample": "../styles/video-animated-encyclopedia-collage-explainer/sample.mp4",
       "source": {
         "author": "X `@MrLarus`；原帖发布日期：2026-07-12。作者称这是一次用 ChatGPT、Image2、Seedance、AI 配音与字幕制作的秦统一中国解说实验。",
         "url": "https://x.com/MrLarus/status/2076328854315032641"
       },
-      "json": "../styles/video-53bf374a72/style.json",
-      "copy": "../docs/copy-prompts/video-53bf374a72.md"
+      "json": "../styles/video-animated-encyclopedia-collage-explainer/style.json",
+      "copy": "../docs/copy-prompts/video-animated-encyclopedia-collage-explainer.md"
     },
     {
       "slug": "video-retro-illustration-micro-motion",
@@ -1853,7 +1853,7 @@
       "copy": "../docs/copy-prompts/video-real-person-sticker-poster-motion.md"
     },
     {
-      "slug": "video-e0fd6d34ba",
+      "slug": "video-luxury-perfume-ugc-review",
       "kind": "video",
       "type": "source",
       "title": "高端香水UGC口播",
@@ -1865,17 +1865,17 @@
         "竖屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-e0fd6d34ba/preview.jpg",
-      "sample": "../styles/video-e0fd6d34ba/sample.mp4",
+      "preview": "../styles/video-luxury-perfume-ugc-review/preview.jpg",
+      "sample": "../styles/video-luxury-perfume-ugc-review/sample.mp4",
       "source": {
         "author": "@Meem / YouMind",
         "url": "https://x.com/mehvishs25/status/2094785997460660622"
       },
-      "json": "../styles/video-e0fd6d34ba/style.json",
-      "copy": "../docs/copy-prompts/video-e0fd6d34ba.md"
+      "json": "../styles/video-luxury-perfume-ugc-review/style.json",
+      "copy": "../docs/copy-prompts/video-luxury-perfume-ugc-review.md"
     },
     {
-      "slug": "video-fixed-point-pan-right-reveal-source",
+      "slug": "video-fixed-point-pan-right-reveal",
       "kind": "video",
       "type": "source",
       "title": "固定点向右横摇揭示",
@@ -1891,17 +1891,17 @@
         "环境",
         "落点主体"
       ],
-      "preview": "../styles/video-fixed-point-pan-right-reveal-source/preview.jpg",
-      "sample": "../styles/video-fixed-point-pan-right-reveal-source/sample.mp4",
+      "preview": "../styles/video-fixed-point-pan-right-reveal/preview.jpg",
+      "sample": "../styles/video-fixed-point-pan-right-reveal/sample.mp4",
       "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
-      "json": "../styles/video-fixed-point-pan-right-reveal-source/style.json",
-      "copy": "../docs/copy-prompts/video-fixed-point-pan-right-reveal-source.md"
+      "json": "../styles/video-fixed-point-pan-right-reveal/style.json",
+      "copy": "../docs/copy-prompts/video-fixed-point-pan-right-reveal.md"
     },
     {
-      "slug": "video-3207e9e8c2",
+      "slug": "video-khachapuri-overhead-cooking",
       "kind": "video",
       "type": "source",
       "title": "哈恰普里俯拍烹饪",
@@ -1913,17 +1913,17 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-3207e9e8c2/preview.jpg",
-      "sample": "../styles/video-3207e9e8c2/sample.mp4",
+      "preview": "../styles/video-khachapuri-overhead-cooking/preview.jpg",
+      "sample": "../styles/video-khachapuri-overhead-cooking/sample.mp4",
       "source": {
         "author": "@999 / YouMind",
         "url": "https://x.com/999shinobi/status/2102142574848798798"
       },
-      "json": "../styles/video-3207e9e8c2/style.json",
-      "copy": "../docs/copy-prompts/video-3207e9e8c2.md"
+      "json": "../styles/video-khachapuri-overhead-cooking/style.json",
+      "copy": "../docs/copy-prompts/video-khachapuri-overhead-cooking.md"
     },
     {
-      "slug": "video-beach-stone-stop-motion-source",
+      "slug": "video-beach-stone-stop-motion",
       "kind": "video",
       "type": "source",
       "title": "海滩石像定格动画",
@@ -1939,17 +1939,17 @@
         "场景：岩石海岸的浅潮汐池",
         "表演动作：一段古怪的小舞"
       ],
-      "preview": "../styles/video-beach-stone-stop-motion-source/preview.jpg",
-      "sample": "../styles/video-beach-stone-stop-motion-source/sample.mp4",
+      "preview": "../styles/video-beach-stone-stop-motion/preview.jpg",
+      "sample": "../styles/video-beach-stone-stop-motion/sample.mp4",
       "source": {
         "author": "Marcos（X：`@arsalannazir07`）。",
         "url": "https://x.com/arsalannazir07/status/2096791786807275583"
       },
-      "json": "../styles/video-beach-stone-stop-motion-source/style.json",
-      "copy": "../docs/copy-prompts/video-beach-stone-stop-motion-source.md"
+      "json": "../styles/video-beach-stone-stop-motion/style.json",
+      "copy": "../docs/copy-prompts/video-beach-stone-stop-motion.md"
     },
     {
-      "slug": "video-aerial-pullback-rise-reveal-source",
+      "slug": "video-aerial-pullback-rise-reveal",
       "kind": "video",
       "type": "source",
       "title": "航拍后拉升高揭示",
@@ -1964,17 +1964,17 @@
         "主体",
         "载具/场景"
       ],
-      "preview": "../styles/video-aerial-pullback-rise-reveal-source/preview.jpg",
-      "sample": "../styles/video-aerial-pullback-rise-reveal-source/sample.mp4",
+      "preview": "../styles/video-aerial-pullback-rise-reveal/preview.jpg",
+      "sample": "../styles/video-aerial-pullback-rise-reveal/sample.mp4",
       "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
-      "json": "../styles/video-aerial-pullback-rise-reveal-source/style.json",
-      "copy": "../docs/copy-prompts/video-aerial-pullback-rise-reveal-source.md"
+      "json": "../styles/video-aerial-pullback-rise-reveal/style.json",
+      "copy": "../docs/copy-prompts/video-aerial-pullback-rise-reveal.md"
     },
     {
-      "slug": "video-19ceae29af",
+      "slug": "video-volcano-evacuation-city-build-timelapse",
       "kind": "video",
       "type": "source",
       "title": "火山疏散城市建造延时",
@@ -1986,17 +1986,17 @@
         "文生视频"
       ],
       "inputs": [],
-      "preview": "../styles/video-19ceae29af/preview.jpg",
-      "sample": "../styles/video-19ceae29af/sample.mp4",
+      "preview": "../styles/video-volcano-evacuation-city-build-timelapse/preview.jpg",
+      "sample": "../styles/video-volcano-evacuation-city-build-timelapse/sample.mp4",
       "source": {
         "author": "@Maverick | AI / YouMind",
         "url": "https://x.com/RizwanAly07/status/2101897414760411153"
       },
-      "json": "../styles/video-19ceae29af/style.json",
-      "copy": "../docs/copy-prompts/video-19ceae29af.md"
+      "json": "../styles/video-volcano-evacuation-city-build-timelapse/style.json",
+      "copy": "../docs/copy-prompts/video-volcano-evacuation-city-build-timelapse.md"
     },
     {
-      "slug": "video-sci-fi-motorcycle-action-source",
+      "slug": "video-sci-fi-motorcycle-action",
       "kind": "video",
       "type": "source",
       "title": "科幻摩托车动作场面",
@@ -2012,17 +2012,17 @@
         "主角：留着深色卷发、身穿战术服装的运动型女性",
         "载具：哑光黑色未来派摩托车"
       ],
-      "preview": "../styles/video-sci-fi-motorcycle-action-source/preview.jpg",
-      "sample": "../styles/video-sci-fi-motorcycle-action-source/sample.mp4",
+      "preview": "../styles/video-sci-fi-motorcycle-action/preview.jpg",
+      "sample": "../styles/video-sci-fi-motorcycle-action/sample.mp4",
       "source": {
         "author": "Zyrella（X：`@Zyrellix`）",
         "url": "https://x.com/Zyrellix/status/2087846827475239167"
       },
-      "json": "../styles/video-sci-fi-motorcycle-action-source/style.json",
-      "copy": "../docs/copy-prompts/video-sci-fi-motorcycle-action-source.md"
+      "json": "../styles/video-sci-fi-motorcycle-action/style.json",
+      "copy": "../docs/copy-prompts/video-sci-fi-motorcycle-action.md"
     },
     {
-      "slug": "video-31ea8a7f7c",
+      "slug": "video-pop-up-atlas-paper-animation",
       "kind": "video",
       "type": "source",
       "title": "立体书地图纸艺动画",
@@ -2034,17 +2034,17 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-31ea8a7f7c/preview.jpg",
-      "sample": "../styles/video-31ea8a7f7c/sample.mp4",
+      "preview": "../styles/video-pop-up-atlas-paper-animation/preview.jpg",
+      "sample": "../styles/video-pop-up-atlas-paper-animation/sample.mp4",
       "source": {
         "author": "@Alexandra Aisling / YouMind",
         "url": "https://x.com/AllaAisling/status/2091584001282900033"
       },
-      "json": "../styles/video-31ea8a7f7c/style.json",
-      "copy": "../docs/copy-prompts/video-31ea8a7f7c.md"
+      "json": "../styles/video-pop-up-atlas-paper-animation/style.json",
+      "copy": "../docs/copy-prompts/video-pop-up-atlas-paper-animation.md"
     },
     {
-      "slug": "video-d2f1128753",
+      "slug": "video-knitted-doll-breakfast-stop-motion",
       "kind": "video",
       "type": "source",
       "title": "毛线娃娃早餐定格动画",
@@ -2056,17 +2056,17 @@
         "竖屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-d2f1128753/preview.jpg",
-      "sample": "../styles/video-d2f1128753/sample.mp4",
+      "preview": "../styles/video-knitted-doll-breakfast-stop-motion/preview.jpg",
+      "sample": "../styles/video-knitted-doll-breakfast-stop-motion/sample.mp4",
       "source": {
         "author": "@Maya / YouMind",
         "url": "https://x.com/MayaAiCreator/status/2098365565781917862"
       },
-      "json": "../styles/video-d2f1128753/style.json",
-      "copy": "../docs/copy-prompts/video-d2f1128753.md"
+      "json": "../styles/video-knitted-doll-breakfast-stop-motion/style.json",
+      "copy": "../docs/copy-prompts/video-knitted-doll-breakfast-stop-motion.md"
     },
     {
-      "slug": "video-69395c9b4c",
+      "slug": "video-clay-robot-startup-story",
       "kind": "video",
       "type": "source",
       "title": "黏土机器人创业故事",
@@ -2078,17 +2078,17 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-69395c9b4c/preview.jpg",
-      "sample": "../styles/video-69395c9b4c/sample.mp4",
+      "preview": "../styles/video-clay-robot-startup-story/preview.jpg",
+      "sample": "../styles/video-clay-robot-startup-story/sample.mp4",
       "source": {
         "author": "@Condz / YouMind",
         "url": "https://x.com/condzxyz/status/2093032563400987056"
       },
-      "json": "../styles/video-69395c9b4c/style.json",
-      "copy": "../docs/copy-prompts/video-69395c9b4c.md"
+      "json": "../styles/video-clay-robot-startup-story/style.json",
+      "copy": "../docs/copy-prompts/video-clay-robot-startup-story.md"
     },
     {
-      "slug": "video-anime-skateboard-chase-nyc-source",
+      "slug": "video-anime-skateboard-chase-nyc",
       "kind": "video",
       "type": "source",
       "title": "纽约街头的动漫滑板追逐",
@@ -2103,17 +2103,17 @@
         "角色服装：红白运动短裙、修身短上衣和深蓝色运动鞋",
         "故事场景：纽约繁华街道"
       ],
-      "preview": "../styles/video-anime-skateboard-chase-nyc-source/preview.jpg",
-      "sample": "../styles/video-anime-skateboard-chase-nyc-source/sample.mp4",
+      "preview": "../styles/video-anime-skateboard-chase-nyc/preview.jpg",
+      "sample": "../styles/video-anime-skateboard-chase-nyc/sample.mp4",
       "source": {
         "author": "Synthia（X：`@AIwithSynthia`）",
         "url": "https://x.com/AIwithSynthia/status/2088650163778961654"
       },
-      "json": "../styles/video-anime-skateboard-chase-nyc-source/style.json",
-      "copy": "../docs/copy-prompts/video-anime-skateboard-chase-nyc-source.md"
+      "json": "../styles/video-anime-skateboard-chase-nyc/style.json",
+      "copy": "../docs/copy-prompts/video-anime-skateboard-chase-nyc.md"
     },
     {
-      "slug": "video-nyc-parkour-web-swing-source",
+      "slug": "video-nyc-parkour-web-swing",
       "kind": "video",
       "type": "source",
       "title": "纽约跑酷与蛛丝摆荡动作",
@@ -2127,17 +2127,17 @@
       "inputs": [
         "结束"
       ],
-      "preview": "../styles/video-nyc-parkour-web-swing-source/preview.jpg",
-      "sample": "../styles/video-nyc-parkour-web-swing-source/sample.mp4",
+      "preview": "../styles/video-nyc-parkour-web-swing/preview.jpg",
+      "sample": "../styles/video-nyc-parkour-web-swing/sample.mp4",
       "source": {
         "author": "Elsa Ai（X：`@ElsaSofia__AI`）",
         "url": "https://x.com/ElsaSofia__AI/status/2089306746804375878"
       },
-      "json": "../styles/video-nyc-parkour-web-swing-source/style.json",
-      "copy": "../docs/copy-prompts/video-nyc-parkour-web-swing-source.md"
+      "json": "../styles/video-nyc-parkour-web-swing/style.json",
+      "copy": "../docs/copy-prompts/video-nyc-parkour-web-swing.md"
     },
     {
-      "slug": "video-1c634febce",
+      "slug": "video-frozen-fountain-rainbow-reveal",
       "kind": "video",
       "type": "source",
       "title": "喷泉时间静止与彩虹",
@@ -2149,17 +2149,17 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-1c634febce/preview.jpg",
-      "sample": "../styles/video-1c634febce/sample.mp4",
+      "preview": "../styles/video-frozen-fountain-rainbow-reveal/preview.jpg",
+      "sample": "../styles/video-frozen-fountain-rainbow-reveal/sample.mp4",
       "source": {
         "author": "@lumiAI / YouMind",
         "url": "https://x.com/aiwithlumi/status/2102406322008559857"
       },
-      "json": "../styles/video-1c634febce/style.json",
-      "copy": "../docs/copy-prompts/video-1c634febce.md"
+      "json": "../styles/video-frozen-fountain-rainbow-reveal/style.json",
+      "copy": "../docs/copy-prompts/video-frozen-fountain-rainbow-reveal.md"
     },
     {
-      "slug": "video-e6248de843",
+      "slug": "video-exhausted-daily-life-montage",
       "kind": "video",
       "type": "source",
       "title": "疲惫日常蒙太奇",
@@ -2171,17 +2171,17 @@
         "文生视频"
       ],
       "inputs": [],
-      "preview": "../styles/video-e6248de843/preview.jpg",
-      "sample": "../styles/video-e6248de843/sample.mp4",
+      "preview": "../styles/video-exhausted-daily-life-montage/preview.jpg",
+      "sample": "../styles/video-exhausted-daily-life-montage/sample.mp4",
       "source": {
         "author": "@Noor / YouMind",
         "url": "https://x.com/noorlewisx/status/2101902128986075593"
       },
-      "json": "../styles/video-e6248de843/style.json",
-      "copy": "../docs/copy-prompts/video-e6248de843.md"
+      "json": "../styles/video-exhausted-daily-life-montage/style.json",
+      "copy": "../docs/copy-prompts/video-exhausted-daily-life-montage.md"
     },
     {
-      "slug": "video-0a64266abe",
+      "slug": "video-office-cat-workday-animation",
       "kind": "video",
       "type": "source",
       "title": "企业猫职场动画短片",
@@ -2193,17 +2193,17 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-0a64266abe/preview.jpg",
-      "sample": "../styles/video-0a64266abe/sample.mp4",
+      "preview": "../styles/video-office-cat-workday-animation/preview.jpg",
+      "sample": "../styles/video-office-cat-workday-animation/sample.mp4",
       "source": {
         "author": "@Aynelle / YouMind",
         "url": "https://x.com/aynellex/status/2102604800341000457"
       },
-      "json": "../styles/video-0a64266abe/style.json",
-      "copy": "../docs/copy-prompts/video-0a64266abe.md"
+      "json": "../styles/video-office-cat-workday-animation/style.json",
+      "copy": "../docs/copy-prompts/video-office-cat-workday-animation.md"
     },
     {
-      "slug": "video-rack-focus-foreground-background-source",
+      "slug": "video-rack-focus-foreground-background",
       "kind": "video",
       "type": "source",
       "title": "前后景转移焦点",
@@ -2219,17 +2219,17 @@
         "焦平面 B：近处主体",
         "最终主体构图"
       ],
-      "preview": "../styles/video-rack-focus-foreground-background-source/preview.jpg",
-      "sample": "../styles/video-rack-focus-foreground-background-source/sample.mp4",
+      "preview": "../styles/video-rack-focus-foreground-background/preview.jpg",
+      "sample": "../styles/video-rack-focus-foreground-background/sample.mp4",
       "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
-      "json": "../styles/video-rack-focus-foreground-background-source/style.json",
-      "copy": "../docs/copy-prompts/video-rack-focus-foreground-background-source.md"
+      "json": "../styles/video-rack-focus-foreground-background/style.json",
+      "copy": "../docs/copy-prompts/video-rack-focus-foreground-background.md"
     },
     {
-      "slug": "video-japanese-influencer-get-ready-ugc-source",
+      "slug": "video-japanese-influencer-get-ready-ugc",
       "kind": "video",
       "type": "source",
       "title": "日本网红出门准备 UGC",
@@ -2244,17 +2244,17 @@
         "角色：27 岁日本美妆/时尚网红",
         "室内场景：紧凑的日本出租屋"
       ],
-      "preview": "../styles/video-japanese-influencer-get-ready-ugc-source/preview.jpg",
-      "sample": "../styles/video-japanese-influencer-get-ready-ugc-source/sample.mp4",
+      "preview": "../styles/video-japanese-influencer-get-ready-ugc/preview.jpg",
+      "sample": "../styles/video-japanese-influencer-get-ready-ugc/sample.mp4",
       "source": {
         "author": "タナベ | AI動画 × マーケティング（X：`@tanabe_fragm`）。",
         "url": "https://x.com/tanabe_fragm/status/2096136682055864564"
       },
-      "json": "../styles/video-japanese-influencer-get-ready-ugc-source/style.json",
-      "copy": "../docs/copy-prompts/video-japanese-influencer-get-ready-ugc-source.md"
+      "json": "../styles/video-japanese-influencer-get-ready-ugc/style.json",
+      "copy": "../docs/copy-prompts/video-japanese-influencer-get-ready-ugc.md"
     },
     {
-      "slug": "video-cliffside-roller-skating-source",
+      "slug": "video-cliffside-roller-skating",
       "kind": "video",
       "type": "source",
       "title": "山崖轮滑动作",
@@ -2270,17 +2270,17 @@
         "场景：危险的山地环境",
         "角色服装：黑色专业户外服装"
       ],
-      "preview": "../styles/video-cliffside-roller-skating-source/preview.jpg",
-      "sample": "../styles/video-cliffside-roller-skating-source/sample.mp4",
+      "preview": "../styles/video-cliffside-roller-skating/preview.jpg",
+      "sample": "../styles/video-cliffside-roller-skating/sample.mp4",
       "source": {
         "author": "Sarah（X：`@SyntheSarah`）",
         "url": "https://x.com/SyntheSarah/status/2088122680142930199"
       },
-      "json": "../styles/video-cliffside-roller-skating-source/style.json",
-      "copy": "../docs/copy-prompts/video-cliffside-roller-skating-source.md"
+      "json": "../styles/video-cliffside-roller-skating/style.json",
+      "copy": "../docs/copy-prompts/video-cliffside-roller-skating.md"
     },
     {
-      "slug": "video-1d6c1fec91",
+      "slug": "video-barbecue-macro-food-film",
       "kind": "video",
       "type": "source",
       "title": "烧烤美食微距短片",
@@ -2292,17 +2292,17 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-1d6c1fec91/preview.jpg",
-      "sample": "../styles/video-1d6c1fec91/sample.mp4",
+      "preview": "../styles/video-barbecue-macro-food-film/preview.jpg",
+      "sample": "../styles/video-barbecue-macro-food-film/sample.mp4",
       "source": {
         "author": "@Zoya / YouMind",
         "url": "https://x.com/Zoyavelle/status/2102641743669961207"
       },
-      "json": "../styles/video-1d6c1fec91/style.json",
-      "copy": "../docs/copy-prompts/video-1d6c1fec91.md"
+      "json": "../styles/video-barbecue-macro-food-film/style.json",
+      "copy": "../docs/copy-prompts/video-barbecue-macro-food-film.md"
     },
     {
-      "slug": "video-512e7b9e27",
+      "slug": "video-luxury-skincare-water-ad",
       "kind": "video",
       "type": "source",
       "title": "奢华护肤品水感广告",
@@ -2314,17 +2314,17 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-512e7b9e27/preview.jpg",
-      "sample": "../styles/video-512e7b9e27/sample.mp4",
+      "preview": "../styles/video-luxury-skincare-water-ad/preview.jpg",
+      "sample": "../styles/video-luxury-skincare-water-ad/sample.mp4",
       "source": {
         "author": "@Maha / YouMind",
         "url": "https://x.com/Aiwithmaha/status/2101887507059351894"
       },
-      "json": "../styles/video-512e7b9e27/style.json",
-      "copy": "../docs/copy-prompts/video-512e7b9e27.md"
+      "json": "../styles/video-luxury-skincare-water-ad/style.json",
+      "copy": "../docs/copy-prompts/video-luxury-skincare-water-ad.md"
     },
     {
-      "slug": "video-luxury-jewelry-unboxing-source",
+      "slug": "video-luxury-jewelry-unboxing",
       "kind": "video",
       "type": "source",
       "title": "奢华珠宝开箱广告",
@@ -2340,17 +2340,17 @@
         "产品：高级珠宝礼盒",
         "核心珠宝：闪耀的蓝色宝石吊坠"
       ],
-      "preview": "../styles/video-luxury-jewelry-unboxing-source/preview.jpg",
-      "sample": "../styles/video-luxury-jewelry-unboxing-source/sample.mp4",
+      "preview": "../styles/video-luxury-jewelry-unboxing/preview.jpg",
+      "sample": "../styles/video-luxury-jewelry-unboxing/sample.mp4",
       "source": {
         "author": "ayzalnoor（X：`@ayzalnooor24521`）。",
         "url": "https://x.com/ayzalnooor24521/status/2097194787564658942"
       },
-      "json": "../styles/video-luxury-jewelry-unboxing-source/style.json",
-      "copy": "../docs/copy-prompts/video-luxury-jewelry-unboxing-source.md"
+      "json": "../styles/video-luxury-jewelry-unboxing/style.json",
+      "copy": "../docs/copy-prompts/video-luxury-jewelry-unboxing.md"
     },
     {
-      "slug": "video-dcc3d74eac",
+      "slug": "video-regency-film-montage",
       "kind": "video",
       "type": "source",
       "title": "摄政时期电影蒙太奇",
@@ -2362,17 +2362,17 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-dcc3d74eac/preview.jpg",
-      "sample": "../styles/video-dcc3d74eac/sample.mp4",
+      "preview": "../styles/video-regency-film-montage/preview.jpg",
+      "sample": "../styles/video-regency-film-montage/sample.mp4",
       "source": {
         "author": "@anj / YouMind",
         "url": "https://x.com/anjmaxx/status/2102052600426504362"
       },
-      "json": "../styles/video-dcc3d74eac/style.json",
-      "copy": "../docs/copy-prompts/video-dcc3d74eac.md"
+      "json": "../styles/video-regency-film-montage/style.json",
+      "copy": "../docs/copy-prompts/video-regency-film-montage.md"
     },
     {
-      "slug": "video-bioluminescent-lighthouse-keeper-source",
+      "slug": "video-bioluminescent-lighthouse-keeper",
       "kind": "video",
       "type": "source",
       "title": "生物发光灯塔守望者",
@@ -2388,17 +2388,17 @@
         "场景：夜晚雾气弥漫的悬崖",
         "奇观元素：几十个萤火虫般发光的漂浮球体"
       ],
-      "preview": "../styles/video-bioluminescent-lighthouse-keeper-source/preview.jpg",
-      "sample": "../styles/video-bioluminescent-lighthouse-keeper-source/sample.mp4",
+      "preview": "../styles/video-bioluminescent-lighthouse-keeper/preview.jpg",
+      "sample": "../styles/video-bioluminescent-lighthouse-keeper/sample.mp4",
       "source": {
         "author": "Sarah（X：`@SyntheSarah`）。",
         "url": "https://x.com/SyntheSarah/status/2097182529564365135"
       },
-      "json": "../styles/video-bioluminescent-lighthouse-keeper-source/style.json",
-      "copy": "../docs/copy-prompts/video-bioluminescent-lighthouse-keeper-source.md"
+      "json": "../styles/video-bioluminescent-lighthouse-keeper/style.json",
+      "copy": "../docs/copy-prompts/video-bioluminescent-lighthouse-keeper.md"
     },
     {
-      "slug": "video-recipe-infographic-cooking-sequence-source",
+      "slug": "video-recipe-infographic-cooking-sequence",
       "kind": "video",
       "type": "source",
       "title": "食谱信息图转连续烹饪短片",
@@ -2410,17 +2410,17 @@
         "参考图片"
       ],
       "inputs": [],
-      "preview": "../styles/video-recipe-infographic-cooking-sequence-source/preview.jpg",
-      "sample": "../styles/video-recipe-infographic-cooking-sequence-source/sample.mp4",
+      "preview": "../styles/video-recipe-infographic-cooking-sequence/preview.jpg",
+      "sample": "../styles/video-recipe-infographic-cooking-sequence/sample.mp4",
       "source": {
         "author": "Oleksa AI（X：`@OleksaFrame`）。",
         "url": "https://x.com/OleksaFrame/status/2097669808800113040"
       },
-      "json": "../styles/video-recipe-infographic-cooking-sequence-source/style.json",
-      "copy": "../docs/copy-prompts/video-recipe-infographic-cooking-sequence-source.md"
+      "json": "../styles/video-recipe-infographic-cooking-sequence/style.json",
+      "copy": "../docs/copy-prompts/video-recipe-infographic-cooking-sequence.md"
     },
     {
-      "slug": "video-a2196efe4e",
+      "slug": "video-sketch-to-real-stop-motion-cooking",
       "kind": "video",
       "type": "source",
       "title": "手绘变实物定格料理",
@@ -2432,17 +2432,17 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-a2196efe4e/preview.jpg",
-      "sample": "../styles/video-a2196efe4e/sample.mp4",
+      "preview": "../styles/video-sketch-to-real-stop-motion-cooking/preview.jpg",
+      "sample": "../styles/video-sketch-to-real-stop-motion-cooking/sample.mp4",
       "source": {
         "author": "@NoorAI / YouMind",
         "url": "https://x.com/noorwithwifi/status/2087821976270450985"
       },
-      "json": "../styles/video-a2196efe4e/style.json",
-      "copy": "../docs/copy-prompts/video-a2196efe4e.md"
+      "json": "../styles/video-sketch-to-real-stop-motion-cooking/style.json",
+      "copy": "../docs/copy-prompts/video-sketch-to-real-stop-motion-cooking.md"
     },
     {
-      "slug": "video-seoul-sunday-dv-home-video-source",
+      "slug": "video-seoul-sunday-dv-home-video",
       "kind": "video",
       "type": "source",
       "title": "首尔周日 DV 家庭录像",
@@ -2458,17 +2458,17 @@
         "场景：首尔老城区",
         "角色服装：淡蓝色短上衣和宽松米色长裤"
       ],
-      "preview": "../styles/video-seoul-sunday-dv-home-video-source/preview.jpg",
-      "sample": "../styles/video-seoul-sunday-dv-home-video-source/sample.mp4",
+      "preview": "../styles/video-seoul-sunday-dv-home-video/preview.jpg",
+      "sample": "../styles/video-seoul-sunday-dv-home-video/sample.mp4",
       "source": {
         "author": "@Smiling Khan（X：`@AIwithkhan`）",
         "url": "https://x.com/AIwithkhan/status/2096424933366931946"
       },
-      "json": "../styles/video-seoul-sunday-dv-home-video-source/style.json",
-      "copy": "../docs/copy-prompts/video-seoul-sunday-dv-home-video-source.md"
+      "json": "../styles/video-seoul-sunday-dv-home-video/style.json",
+      "copy": "../docs/copy-prompts/video-seoul-sunday-dv-home-video.md"
     },
     {
-      "slug": "video-watercolor-sketch-parkour-chase-source",
+      "slug": "video-watercolor-sketch-parkour-chase",
       "kind": "video",
       "type": "source",
       "title": "水彩素描跑酷追逐",
@@ -2480,17 +2480,17 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-watercolor-sketch-parkour-chase-source/preview.jpg",
-      "sample": "../styles/video-watercolor-sketch-parkour-chase-source/sample.mp4",
+      "preview": "../styles/video-watercolor-sketch-parkour-chase/preview.jpg",
+      "sample": "../styles/video-watercolor-sketch-parkour-chase/sample.mp4",
       "source": {
         "author": "おのもの | AIコンテンツを作るサラリーマン（X：`@user_monom`）",
         "url": "https://x.com/user_monom/status/2086447224750530664"
       },
-      "json": "../styles/video-watercolor-sketch-parkour-chase-source/style.json",
-      "copy": "../docs/copy-prompts/video-watercolor-sketch-parkour-chase-source.md"
+      "json": "../styles/video-watercolor-sketch-parkour-chase/style.json",
+      "copy": "../docs/copy-prompts/video-watercolor-sketch-parkour-chase.md"
     },
     {
-      "slug": "video-345a132c7a",
+      "slug": "video-crystal-particle-kitchen-transformation",
       "kind": "video",
       "type": "source",
       "title": "水晶粒子厨房变身",
@@ -2502,17 +2502,17 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-345a132c7a/preview.jpg",
-      "sample": "../styles/video-345a132c7a/sample.mp4",
+      "preview": "../styles/video-crystal-particle-kitchen-transformation/preview.jpg",
+      "sample": "../styles/video-crystal-particle-kitchen-transformation/sample.mp4",
       "source": {
         "author": "@Lavinia / YouMind",
         "url": "https://x.com/laviniavelle/status/2100431886543978896"
       },
-      "json": "../styles/video-345a132c7a/style.json",
-      "copy": "../docs/copy-prompts/video-345a132c7a.md"
+      "json": "../styles/video-crystal-particle-kitchen-transformation/style.json",
+      "copy": "../docs/copy-prompts/video-crystal-particle-kitchen-transformation.md"
     },
     {
-      "slug": "video-dolly-zoom-space-warp-source",
+      "slug": "video-dolly-zoom-space-warp",
       "kind": "video",
       "type": "source",
       "title": "推拉变焦空间扭曲",
@@ -2527,17 +2527,17 @@
         "主体",
         "重复出现的背景元素"
       ],
-      "preview": "../styles/video-dolly-zoom-space-warp-source/preview.jpg",
-      "sample": "../styles/video-dolly-zoom-space-warp-source/sample.mp4",
+      "preview": "../styles/video-dolly-zoom-space-warp/preview.jpg",
+      "sample": "../styles/video-dolly-zoom-space-warp/sample.mp4",
       "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
-      "json": "../styles/video-dolly-zoom-space-warp-source/style.json",
-      "copy": "../docs/copy-prompts/video-dolly-zoom-space-warp-source.md"
+      "json": "../styles/video-dolly-zoom-space-warp/style.json",
+      "copy": "../docs/copy-prompts/video-dolly-zoom-space-warp.md"
     },
     {
-      "slug": "video-565c5a1550",
+      "slug": "video-miniature-workers-usb-repair",
       "kind": "video",
       "type": "source",
       "title": "微型工人维修USB",
@@ -2549,17 +2549,17 @@
         "竖屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-565c5a1550/preview.jpg",
-      "sample": "../styles/video-565c5a1550/sample.mp4",
+      "preview": "../styles/video-miniature-workers-usb-repair/preview.jpg",
+      "sample": "../styles/video-miniature-workers-usb-repair/sample.mp4",
       "source": {
         "author": "@Martian / YouMind",
         "url": "https://x.com/drzubi01/status/2090307471797780641"
       },
-      "json": "../styles/video-565c5a1550/style.json",
-      "copy": "../docs/copy-prompts/video-565c5a1550.md"
+      "json": "../styles/video-miniature-workers-usb-repair/style.json",
+      "copy": "../docs/copy-prompts/video-miniature-workers-usb-repair.md"
     },
     {
-      "slug": "video-bedroom-falling-book-catch-source",
+      "slug": "video-bedroom-falling-book-catch",
       "kind": "video",
       "type": "source",
       "title": "卧室接住落书互动",
@@ -2573,17 +2573,17 @@
       "inputs": [
         "互动道具：一叠书"
       ],
-      "preview": "../styles/video-bedroom-falling-book-catch-source/preview.jpg",
-      "sample": "../styles/video-bedroom-falling-book-catch-source/sample.mp4",
+      "preview": "../styles/video-bedroom-falling-book-catch/preview.jpg",
+      "sample": "../styles/video-bedroom-falling-book-catch/sample.mp4",
       "source": {
         "author": "Ahmad Faraz（X：`@iamahmedfaraz66`）。",
         "url": "https://x.com/iamahmedfaraz66/status/2095139680786493912"
       },
-      "json": "../styles/video-bedroom-falling-book-catch-source/style.json",
-      "copy": "../docs/copy-prompts/video-bedroom-falling-book-catch-source.md"
+      "json": "../styles/video-bedroom-falling-book-catch/style.json",
+      "copy": "../docs/copy-prompts/video-bedroom-falling-book-catch.md"
     },
     {
-      "slug": "video-drone-orbit-subject-source",
+      "slug": "video-drone-orbit-subject",
       "kind": "video",
       "type": "source",
       "title": "无人机环绕主体",
@@ -2598,17 +2598,17 @@
         "主体",
         "右侧"
       ],
-      "preview": "../styles/video-drone-orbit-subject-source/preview.jpg",
-      "sample": "../styles/video-drone-orbit-subject-source/sample.mp4",
+      "preview": "../styles/video-drone-orbit-subject/preview.jpg",
+      "sample": "../styles/video-drone-orbit-subject/sample.mp4",
       "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
-      "json": "../styles/video-drone-orbit-subject-source/style.json",
-      "copy": "../docs/copy-prompts/video-drone-orbit-subject-source.md"
+      "json": "../styles/video-drone-orbit-subject/style.json",
+      "copy": "../docs/copy-prompts/video-drone-orbit-subject.md"
     },
     {
-      "slug": "video-aecc45705d",
+      "slug": "video-wildflower-seasons-macro-timelapse",
       "kind": "video",
       "type": "source",
       "title": "野花四季微距延时",
@@ -2620,17 +2620,17 @@
         "文生视频"
       ],
       "inputs": [],
-      "preview": "../styles/video-aecc45705d/preview.jpg",
-      "sample": "../styles/video-aecc45705d/sample.mp4",
+      "preview": "../styles/video-wildflower-seasons-macro-timelapse/preview.jpg",
+      "sample": "../styles/video-wildflower-seasons-macro-timelapse/sample.mp4",
       "source": {
         "author": "@Mr Das / YouMind",
         "url": "https://x.com/MrDasOnX/status/2096453993371422748"
       },
-      "json": "../styles/video-aecc45705d/style.json",
-      "copy": "../docs/copy-prompts/video-aecc45705d.md"
+      "json": "../styles/video-wildflower-seasons-macro-timelapse/style.json",
+      "copy": "../docs/copy-prompts/video-wildflower-seasons-macro-timelapse.md"
     },
     {
-      "slug": "video-rainforest-mysterious-light-source",
+      "slug": "video-rainforest-mysterious-light",
       "kind": "video",
       "type": "source",
       "title": "雨林神秘光源短片",
@@ -2644,17 +2644,17 @@
       "inputs": [
         "神秘光源：一束微弱的暖光"
       ],
-      "preview": "../styles/video-rainforest-mysterious-light-source/preview.jpg",
-      "sample": "../styles/video-rainforest-mysterious-light-source/sample.mp4",
+      "preview": "../styles/video-rainforest-mysterious-light/preview.jpg",
+      "sample": "../styles/video-rainforest-mysterious-light/sample.mp4",
       "source": {
         "author": "Ahmad Faraz（X：`@iamahmedfaraz66`）。",
         "url": "https://x.com/iamahmedfaraz66/status/2095362901326598521"
       },
-      "json": "../styles/video-rainforest-mysterious-light-source/style.json",
-      "copy": "../docs/copy-prompts/video-rainforest-mysterious-light-source.md"
+      "json": "../styles/video-rainforest-mysterious-light/style.json",
+      "copy": "../docs/copy-prompts/video-rainforest-mysterious-light.md"
     },
     {
-      "slug": "video-cdfbcca0a0",
+      "slug": "video-chinese-ink-seamless-transitions",
       "kind": "video",
       "type": "source",
       "title": "中国水墨无缝转场",
@@ -2666,14 +2666,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-cdfbcca0a0/preview.jpg",
-      "sample": "../styles/video-cdfbcca0a0/sample.mp4",
+      "preview": "../styles/video-chinese-ink-seamless-transitions/preview.jpg",
+      "sample": "../styles/video-chinese-ink-seamless-transitions/sample.mp4",
       "source": {
         "author": "@NoorAI / YouMind",
         "url": "https://x.com/noorwithwifi/status/2101683541629354348"
       },
-      "json": "../styles/video-cdfbcca0a0/style.json",
-      "copy": "../docs/copy-prompts/video-cdfbcca0a0.md"
+      "json": "../styles/video-chinese-ink-seamless-transitions/style.json",
+      "copy": "../docs/copy-prompts/video-chinese-ink-seamless-transitions.md"
     }
   ]
 }
