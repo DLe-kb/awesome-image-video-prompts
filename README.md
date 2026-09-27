@@ -21,21 +21,9 @@
 
 <p align="center"><strong><a href="https://dingle-kb.github.io/awesome-image-video-prompts/">浏览在线图册</a></strong> · 或查看 <a href="showcase/index.md">完整案例目录</a>。</p>
 
-## 三步开始
+## 快速入口：按任务找案例
 
-1. **看效果：** 打开[虚构植物科学图版](showcase/image.md#botanical-plate)，看成图、完整 Prompt 和生成信息。
-2. **拿模板：** 复制下面这段[原创填空模板](templates/image.md#botanical-editorial)，将方括号中的四类字段换成你的题材。
-3. **出图并核对：** 把替换后的完整 Prompt 交给自己的生图工具；逐字检查画面中的名称和标签。真实植物的器官与形态还需要另外核实。
-
-```text
-制作一张关于[植物名称]的科学编辑图版，画幅[画幅]。中央完整展示植株，根、茎、叶和花保持合理连接；周围分别用独立的小图放大[需要标注的部位]，以细线连接到主图对应位置。根据[形态特征]表现叶脉、表面质地和生长姿态。标题只写[植物名称]，部位标签各不超过四个词，留出足够空白。采用精细手绘与清晰的出版物排版，颜色克制，避免凭空添加不存在的器官或把说明文字压在标本上。
-```
-
-例如，把 `[植物名称]` 换成“虚构植物潮汐蕨”，`[形态特征]` 换成“银绿色叶片、卷曲叶缘和细长红茎”，`[需要标注的部位]` 换成“叶尖、叶脉与孢子囊”，`[画幅]` 换成“3:4 竖版”。这是填写示范，**上面的预览不是这组新变量的出图**。
-
-## 按任务找案例
-
-不知道搜什么词，就从你要交付的作品开始。每个案例页都能继续查看完整提示词；有对应模板时，右列给出可改写的起点。
+不知道搜什么词，就从你要交付的作品开始。**想直接试：**打开案例复制完整 Prompt；**想换题材：**用右列的填空模板或来源配套 Prompt 改写。来源案例请同时查看原作者和出处。
 
 | 想做什么 | 先看案例或工作流 | 再拿可改写的 Prompt |
 | --- | --- | --- |
@@ -50,17 +38,41 @@
 
 更多入口：[全部生图案例](showcase/image.md) · [全部生视频案例](showcase/video.md) · [生图模板](templates/image.md) · [生视频模板](templates/video.md) · [画廊筛选](https://dingle-kb.github.io/awesome-image-video-prompts/)
 
+## 为什么做这个库
+
+收藏一张好看的图很容易，真正要创作时却常找不到完整 Prompt、原作者和可改写的起点。这里按作品和任务整理生图、生视频案例：先看预览或样片，再读完整提示词与来源；想换成自己的题材时，可以从原创填空模板开始。
+
+## 完整示例：从 Prompt 到植物汽水主视觉
+
+下面展示的是[仓库原创案例](showcase/image.md#botanical-soda)中记录的完整 Prompt 和实际预览，不是改写模板的生成结果。
+
+### 1. 输入：案例使用的完整 Prompt
+
+```text
+A polished commercial still-life photograph for a fictional botanical soda called MIRA. One clear unbranded glass bottle with pale coral liquid on a vivid sea-green tabletop, condensation, sliced ruby grapefruit and a single leafy stem, directional late afternoon sunlight, sharp caustic shadows, premium beverage advertising composition with generous negative space, bright believable materials. No people, no visible words, no brand logos, no collage or mockup frame. Square image.
+```
+
+### 2. 输出：该案例的实际预览
+
+<a href="showcase/image.md#botanical-soda"><img src="assets/previews/beverage.webp" alt="植物汽水商业静物原创案例的实际预览" width="320"></a>
+
+案例记录：`gpt-image-2` · RightCodes · 请求 `1024×1024` · 实际输出 `1254×1254`。[查看完整案例与生成信息](showcase/image.md#botanical-soda)。
+
+### 3. 换题材：使用独立的填空模板
+
+想制作自己的饮品主视觉，可打开[饮品商业静物填空模板](templates/image.md#beverage-still-life)，填写 `[产品描述]`、`[风味元素]`、`[主色]` 和 `[画幅]`。这是另一个可改写的起点；上面的图片只对应案例 Prompt，不代表填入新变量后的出图。
+
 ## 先看这些来源案例
 
-来源案例保留原作者和原帖链接。点击预览进入案例页，再查看完整提示词；视频案例页也提供样片播放入口。
+来源案例保留原作者和原帖链接。点击图片进入案例页查看作者与出处；下方可直接跳转完整 Prompt。视频案例页也提供样片播放入口。来源预览与样片不代表本仓库用配套 Prompt 重新生成的效果。
 
 ### 生图：广告、排版、知识视觉
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top"><a href="showcase/image.md#image-828d8ade3e"><img src="assets/cases/image-828d8ade3e.jpg" alt="杯内鱼眼夏日冰饮广告，来源案例" width="240"></a><br><a href="showcase/image.md#image-828d8ade3e">杯内鱼眼夏日冰饮广告</a><br><sub>从杯子内部建立特殊拍摄视角</sub></td>
-    <td width="33%" align="center" valign="top"><a href="showcase/image.md#image-5efc7ec9c3"><img src="assets/cases/image-5efc7ec9c3.jpg" alt="分级英语杂志阅读页，来源案例" width="240"></a><br><a href="showcase/image.md#image-5efc7ec9c3">分级英语杂志阅读页</a><br><sub>把语言等级与版式约束写进 Prompt</sub></td>
-    <td width="33%" align="center" valign="top"><a href="showcase/image.md#image-9dc00fd4c2"><img src="assets/cases/image-9dc00fd4c2.jpg" alt="复古科学植物学海报，来源案例" width="240"></a><br><a href="showcase/image.md#image-9dc00fd4c2">复古科学植物学海报</a><br><sub>解剖标注与图版式构图</sub></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/image.md#image-828d8ade3e"><img src="assets/cases/image-828d8ade3e.jpg" alt="杯内鱼眼夏日冰饮广告，来源案例" width="240"></a><br><strong>杯内鱼眼夏日冰饮广告</strong><br><sub>从杯子内部建立特殊拍摄视角</sub><br><a href="showcase/image.md#image-828d8ade3e">完整 Prompt / 来源</a> · <a href="templates/image.md#image-inside-cup-fisheye-summer-drink-ad">配套 Prompt</a></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/image.md#image-5efc7ec9c3"><img src="assets/cases/image-5efc7ec9c3.jpg" alt="分级英语杂志阅读页，来源案例" width="240"></a><br><strong>分级英语杂志阅读页</strong><br><sub>把语言等级与版式约束写进 Prompt</sub><br><a href="showcase/image.md#image-5efc7ec9c3">完整 Prompt / 来源</a> · <a href="templates/image.md#image-graded-english-magazine-reading-page">配套 Prompt</a></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/image.md#image-9dc00fd4c2"><img src="assets/cases/image-9dc00fd4c2.jpg" alt="复古科学植物学海报，来源案例" width="240"></a><br><strong>复古科学植物学海报</strong><br><sub>解剖标注与图版式构图</sub><br><a href="showcase/image.md#image-9dc00fd4c2">完整 Prompt / 来源</a> · <a href="templates/image.md#image-vintage-scientific-botanical-poster">配套 Prompt</a></td>
   </tr>
 </table>
 
@@ -68,9 +80,9 @@
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-fa2e0ad821"><img src="assets/cases/video-fa2e0ad821.jpg" alt="推拉变焦空间扭曲样片封面，来源案例" width="240"></a><br><a href="showcase/video.md#video-fa2e0ad821">推拉变焦空间扭曲</a><br><sub>主体尺寸稳定，背景空间拉伸</sub></td>
-    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-60b5dcaaac"><img src="assets/cases/video-60b5dcaaac.jpg" alt="食谱信息图转连续烹饪短片封面，来源案例" width="240"></a><br><a href="showcase/video.md#video-60b5dcaaac">食谱图转烹饪短片</a><br><sub>首段、续写与食材状态连续性</sub></td>
-    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-53bf374a72"><img src="assets/cases/video-53bf374a72.jpg" alt="动态百科页拼贴解说样片封面，来源案例" width="240"></a><br><a href="showcase/video.md#video-53bf374a72">动态百科页拼贴解说</a><br><sub>把知识主题拆成视觉节拍</sub></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-fa2e0ad821"><img src="assets/cases/video-fa2e0ad821.jpg" alt="推拉变焦空间扭曲样片封面，来源案例" width="240"></a><br><strong>推拉变焦空间扭曲</strong><br><sub>主体尺寸稳定，背景空间拉伸</sub><br><a href="assets/cases/video-fa2e0ad821.mp4">播放样片</a> · <a href="showcase/video.md#video-fa2e0ad821">完整 Prompt / 来源</a> · <a href="templates/video.md#video-dolly-zoom-space-warp">配套 Prompt</a></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-60b5dcaaac"><img src="assets/cases/video-60b5dcaaac.jpg" alt="食谱信息图转连续烹饪短片封面，来源案例" width="240"></a><br><strong>食谱图转烹饪短片</strong><br><sub>首段、续写与食材状态连续性</sub><br><a href="assets/cases/video-60b5dcaaac.mp4">播放样片</a> · <a href="showcase/video.md#video-60b5dcaaac">完整 Prompt / 来源</a> · <a href="templates/video.md#video-recipe-infographic-cooking-sequence">配套 Prompt</a></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-53bf374a72"><img src="assets/cases/video-53bf374a72.jpg" alt="动态百科页拼贴解说样片封面，来源案例" width="240"></a><br><strong>动态百科页拼贴解说</strong><br><sub>把知识主题拆成视觉节拍</sub><br><a href="assets/cases/video-53bf374a72.mp4">播放样片</a> · <a href="showcase/video.md#video-53bf374a72">完整 Prompt / 来源</a></td>
   </tr>
 </table>
 
@@ -101,12 +113,6 @@ Browse visual examples, open a case for its full prompt and source credit, then 
 
 [Open the visual gallery](https://dingle-kb.github.io/awesome-image-video-prompts/) · [Image cases](showcase/image.md) · [Video cases](showcase/video.md) · [Image prompts](templates/image.md) · [Video prompts](templates/video.md)
 
-### Get started
-
-1. Open the [botanical plate case](showcase/image.md#botanical-plate) to see its preview, full prompt, and generation details.
-2. Copy the [botanical fill-in template](templates/image.md#botanical-editorial) and replace the bracketed fields with your own subject.
-3. Generate with your preferred image tool, then check any visible text and subject-specific details. The preview above is not the result of your new variables.
-
 ### Find a starting point
 
 | Your task | Example | Editable prompt |
@@ -117,6 +123,18 @@ Browse visual examples, open a case for its full prompt and source credit, then 
 | Food storyboard | [Pear tart in four shots](showcase/image.md#pear-tart-storyboard) | [Food storyboard](templates/image.md#food-storyboard) |
 | Product video | [Slow product reveal](showcase/video.md#product-reveal) | [Single-shot product video](templates/video.md#single-shot-product) |
 | Camera movement | [Dolly-zoom example](showcase/video.md#video-fa2e0ad821) | [Source-linked prompt](templates/video.md#video-dolly-zoom-space-warp) |
+
+### Why this collection exists
+
+A good-looking preview is easy to save, but its full prompt, creator, and editable starting point are often harder to find later. This collection keeps cases, source credits, and fill-in templates within reach of each other.
+
+### Complete example: prompt to image
+
+The botanical soda walkthrough above shows the **exact prompt** and the **actual preview** from an original case. Copy the prompt to try it as written; to change the product or composition, open the separate [beverage still-life template](templates/image.md#beverage-still-life) and replace its bracketed fields. The preview is not an output from the edited template. [Open the full case and generation details](showcase/image.md#botanical-soda).
+
+### Featured source cases
+
+The six image and video cards above link directly to complete case prompts and, where available, source-linked prompts. Video cards also link to playable clips. Each case includes its creator and original source; third-party previews are not outputs regenerated by this repository.
 
 The [complete case index](showcase/index.md) lists 72 image cases and 48 video entries. There are also 20 original fill-in templates and 92 source-linked prompts with Chinese and English versions. The first four images in the collage are original case previews; the last two are credited third-party examples.
 
