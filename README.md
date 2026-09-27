@@ -1,21 +1,31 @@
-# Awesome Image & Video Prompts
+<h1 align="center">AI 生图与生视频 Prompt 灵感库</h1>
 
-**看见想做的画面，找到完整 Prompt，再把它改成自己的作品。**
+<p align="center">Awesome Image &amp; Video Prompts</p>
 
-72 个生图案例、48 个生视频条目。来源案例带预览或样片、完整提示词和原作者链接；原创案例与工作流提供自己的创作起点。另有 20 套原创填空模板和 92 套来源配套中英文 Prompt。打开就能浏览，不需要安装。
-
-[在线画廊：按题材搜索与筛选](https://dle-kb.github.io/awesome-image-video-prompts/) · [三步开始](#三步开始) · [按任务找案例](#按任务找案例) · [全部案例导航](showcase/index.md) · [贡献指南](CONTRIBUTING.md)
-
-<table>
+<table align="center">
   <tr>
-    <td width="25%" align="center" valign="top"><a href="showcase/image.md#botanical-plate"><img src="assets/previews/botanical.webp" alt="虚构植物科学图版，标本主图和局部放大图" width="260"></a><br><sub>科学图版 · 原创案例</sub></td>
-    <td width="25%" align="center" valign="top"><a href="showcase/image.md#botanical-soda"><img src="assets/previews/beverage.webp" alt="植物汽水与水果切片的商业静物" width="260"></a><br><sub>产品广告 · 原创案例</sub></td>
-    <td width="25%" align="center" valign="top"><a href="showcase/image.md#coastal-poster"><img src="assets/previews/travel.webp" alt="虚构海岸城市的丝网印刷旅行海报" width="260"></a><br><sub>旅行海报 · 原创案例</sub></td>
-    <td width="25%" align="center" valign="top"><a href="showcase/image.md#pear-tart-storyboard"><img src="assets/previews/storyboard.webp" alt="梨挞广告从原料到成品的四格分镜" width="260"></a><br><sub>广告分镜 · 原创案例</sub></td>
+    <td width="33%" align="center"><a href="showcase/image.md#coastal-poster"><img src="assets/previews/travel.webp" alt="原创案例：虚构海岸城市旅行海报" width="210"></a></td>
+    <td width="33%" align="center"><a href="showcase/image.md#botanical-soda"><img src="assets/previews/beverage.webp" alt="原创案例：植物汽水商业静物" width="210"></a></td>
+    <td width="33%" align="center"><a href="showcase/image.md#botanical-plate"><img src="assets/previews/botanical.webp" alt="原创案例：虚构植物科学图版" width="210"></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="showcase/image.md#pear-tart-storyboard"><img src="assets/previews/storyboard.webp" alt="原创案例：梨挞广告四格分镜" width="210"></a></td>
+    <td align="center"><a href="showcase/image.md#image-2be108496e"><img src="assets/cases/image-2be108496e.jpg" alt="来源案例：食物爆炸拆解信息图" width="210"></a></td>
+    <td align="center"><a href="showcase/image.md#image-2a8d580cf7"><img src="assets/cases/image-2a8d580cf7.jpg" alt="来源案例：照片与蜡笔速写混合媒介回忆卡" width="210"></a></td>
   </tr>
 </table>
 
-点击图片可查看该案例的完整 Prompt。上面四张是仓库原创案例的实际预览；案例 Prompt 与后面的填空模板各自独立，**不要把案例预览当作替换模板变量后的生成结果**。
+<p align="center"><sub>点击作品查看完整 Prompt · 前四张为原创案例，后两张为保留原作者署名的来源案例</sub></p>
+
+<p align="center">简体中文 · <a href="#english">English</a></p>
+
+<p align="center"><code>72 个生图案例</code> <code>48 个生视频条目</code> <code>20 套原创填空模板</code> <code>92 套来源配套 Prompt</code></p>
+
+<p align="center"><strong>看见想做的画面，找到完整 Prompt，再改成自己的作品。</strong><br>案例附预览或样片、完整提示词与来源链接；无需安装，打开就能浏览。</p>
+
+<h3 align="center"><a href="https://dle-kb.github.io/awesome-image-video-prompts/">打开在线图册 →</a></h3>
+
+<p align="center"><a href="showcase/image.md">生图案例</a> · <a href="showcase/video.md">生视频案例</a> · <a href="templates/image.md">生图模板</a> · <a href="templates/video.md">生视频模板</a></p>
 
 ## 三步开始
 
@@ -84,3 +94,13 @@
 欢迎修正原帖链接、作者署名、分类和失效媒体，或按[贡献指南](CONTRIBUTING.md)提交有明确来源的新案例。提交时请说明原作者、原始链接，以及预览或样片是否允许在仓库中再分发。
 
 仓库原创内容与站点代码适用 [MIT License](LICENSE)。**来源预览、样片与第三方提示词不属于本仓库的 MIT 授权范围**；复用时请遵守原作者和来源平台的许可要求。
+
+<a id="english"></a>
+
+## English
+
+Browse 72 image cases and 48 video entries, then open a case for its full prompt, preview or clip, and source credit. The collection also includes 20 original fill-in templates and 92 source-linked prompts with Chinese and English versions. No installation is needed.
+
+[Open the visual gallery](https://dle-kb.github.io/awesome-image-video-prompts/) · [Image cases](showcase/image.md) · [Video cases](showcase/video.md) · [Image prompts](templates/image.md) · [Video prompts](templates/video.md)
+
+The first four images above are original case previews; the last two are credited third-party examples. Third-party media and prompts are not covered by this repository's [MIT License](LICENSE).
