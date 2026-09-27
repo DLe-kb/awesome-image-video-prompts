@@ -10,7 +10,13 @@
 
 生成信息：gpt-image-2 · RightCodes · 1024x1024 → 1254x1254
 
-## 完整 Prompt
+## 完整提示词
+
+```text
+为一项手工梨挞烘焙活动制作一张高端的四格分镜图。以精确的 2×2 网格呈现四个彼此不同、具有电影感的画面：面粉粉尘落在糕点操作台上的特写；双手细心排列新鲜梨片；梨挞在暖光烤箱中烘焙；烤至金黄的梨挞成品摆放在简洁的桌上。采用写实食物电影摄影，保持连贯的温暖日光与琥珀色烤箱光线，并以奶油色和深绿色统一美术方向。镜头推进顺序清晰，同一个梨挞在各画面中保持一致；画面之间用细窄间隔分开。不要说明文字、标志、任何文字或真实品牌。
+```
+
+## English Prompt
 
 ```text
 A premium four-panel storyboard image for an original bakery campaign about a hand-made pear tart. Four distinct cinematic frames in a precise 2 by 2 grid: close-up flour dust falling over a pastry board; hands carefully arranging fresh pear slices; tart baking inside a warmly lit oven; finished golden pear tart served on a simple table. Photoreal food cinematography, coherent warm daylight and amber oven glow, cream and dark green art direction, clear shot progression and consistent tart, thin gutters between frames. No captions, no logos, no text, no real brands.

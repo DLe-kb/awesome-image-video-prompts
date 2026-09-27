@@ -12,7 +12,7 @@
 
 可替换内容：`[PLAYER_NAME]` · `[PRIMARY_COLOR]` · `[NICKNAME/TITLE]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 为 [PLAYER_NAME] 制作剪贴簿涂鸦风格的足球海报。

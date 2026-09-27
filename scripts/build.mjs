@@ -72,7 +72,11 @@ for (const [position, style] of styles.entries()) {
   if (style.style_version !== '1.0' || slug !== slugs[position] || !/^[a-z0-9-]+$/.test(slug) ||
       !['image', 'video'].includes(style.kind) ||
       !['source', 'unverified'].includes(style.type) ||
-      !style.title?.trim() || !style.summary?.trim() || !style.category?.trim() || !style.prompt?.trim()) {
+      !style.title?.trim() || !style.summary?.trim() || !style.category?.trim() ||
+      !((style.prompt?.trim() && style.promptEn?.trim() && !style.workflow) ||
+        (!style.prompt && !style.promptEn && Array.isArray(style.workflow) && style.workflow.length >= 2 &&
+          style.workflow.every(step => step.title?.trim() && step.prompt?.trim() && step.promptEn?.trim()))) ||
+      style.sourcePrompt || style.sourcePrompts) {
     throw new Error(`Invalid style: ${slug}`);
   }
   if (style.preview) galleryThumbnail(style);
@@ -131,11 +135,10 @@ function renderCopy(style) {
     ...(style.source ? [`来源：[${style.source.author}](${style.source.url})${style.source.linkType === 'profile' ? '（作者主页）' : ''}`, ''] : []),
     ...(style.model ? [`生成信息：${style.model} · ${style.provider} · ${style.requestedSize} → ${style.size}`, ''] : []),
     ...(style.inputs?.length ? [`可替换内容：${style.inputs.map(input => `\`[${input}]\``).join(' · ')}`, ''] : []),
-    '## 完整 Prompt', '', '```text', escapedCode(style.prompt), '```', '',
-    ...(style.promptEn ? ['## English Prompt', '', '```text', escapedCode(style.promptEn), '```', ''] : []),
-    ...(style.sourcePrompt ? ['## 来源记录（与使用版不同）', '', '```text', escapedCode(style.sourcePrompt), '```', ''] : []),
-    ...(style.sourcePrompts ?? []).flatMap(extra => [
-      `## ${extra.title}`, '', `[原作者内容](${extra.url})`, '', '```text', escapedCode(extra.prompt), '```', '',
+    ...(style.workflow ?? [style]).flatMap(step => [
+      ...(style.workflow ? [`## ${step.title}`, ''] : []),
+      style.workflow ? '### 完整提示词' : '## 完整提示词', '', '```text', escapedCode(step.prompt), '```', '',
+      style.workflow ? '### English Prompt' : '## English Prompt', '', '```text', escapedCode(step.promptEn), '```', '',
     ]),
     ...(style.tip ? [`使用检查：${style.tip}`, ''] : []),
     ...(style.example ? [`[查看对应案例](../copy-prompts/${style.example}.md)`, ''] : []),

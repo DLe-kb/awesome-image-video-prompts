@@ -14,142 +14,134 @@
 
 可替换内容：`[角色：27 岁日本美妆/时尚网红]` · `[室内场景：紧凑的日本出租屋]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-## 作品
+【作品】
+美人インフルエンサーの休日。「準備できた、と思ったのに前髪が気になる」。27歳の架空の日本人女性が自宅で撮った30秒の自然なスマホUGC。綺麗で華やかな本人の普段の姿。親しいフォロワーに話す温かい距離感。
 
-美丽网红的假日。“我以为我准备好了，但还是担心刘海。”
+【出力】
+縦9:16、30秒、画面いっぱいの映像。左右上下に黒帯を付けない。横長キャンバスの中央に縦動画を埋め込まない。一人、一部屋、一台のスマホによる一続きの撮影。カット、場面転換、分割画面なし。
+時刻は同じテイク内の演技の目安。時刻ごとに新しいショットを始めない。細かな秒数より、自然な発話、物理的な動作、人物の同一性を優先する。
 
-一段 30 秒自然的手机 UGC 视频，主角为一名虚构的 27 岁日本女性，场景在家中。展现她平日美丽迷人的一面。营造一种如同与亲密粉丝对话般的亲切距离感。
+【画像の役割】
+@Image1 = 01_character.png。人物の顔・髪・服装・体格・ピアスの参照。3ビューは同一人物。灰色背景と3分割のレイアウトを動画に持ち込まない。これは開始フレームではない。
+@Image2 = 02_start_frame.png。開始フレームおよび部屋・光・構図・小物配置の基準。最初からこの人物がこの場所に座り、カメラへ伸ばした手を引き戻すところから始める。顔は冒頭から見える。
+両画像の人物は同一人物。Image1で顔と衣装、Image2で構図と室内配置を固定する。
 
-## 输出要求
+【人物】
+27歳、日本人の美容・ファッション系インフルエンサー。仕事の説明はせず、休日にカフェへ出かける直前。印象的な美しい顔立ちと親しみやすさ。参照画像の卵型の顔、自然な大きさのアーモンド形の目、鼻、柔らかい唇の形を再デザインしない。
+艶のあるショコラブラウン、胸上までのセミロング、顔周りのレイヤー、柔らかなカール、透け感のある前髪。白のクルーネック半袖コンパクトTシャツ、淡いブルーのハイウエストデニム、小さな金フープピアス。短い淡いピンクの爪。ブラウンの繊細なアイメイク、セパレートしたまつ毛、控えめなピーチチーク、ローズベージュの唇。化粧は全編で同じ。
+美しい肌に自然なきめ、微かな毛穴、目元の薄い陰影、肌表面の光を残す。肌荒れや疲労をわざと強調しない。美しさは顔立ちとヘアメイクにあり、顔を滑らかなプラスチックに変えることではない。極端な小顔、巨大な目、顎の先鋭化、肌の光沢の過剰増幅をしない。
 
-竖屏 9:16，30 秒，全屏视频。无黑边。单人、单房间、单手机拍摄，一镜到底。无剪辑、场景切换或分屏。对话和肢体动作优先于严格的时间控制。
+【室内と撮影】
+Image2のコンパクトな日本の賃貸の部屋。白壁、淡い木目、画面右のレースカーテン、日中の柔らかい自然光。顔は十分明るく、自然な陰影と血色。背景もある程度判別できる普通のスマホ画角。映画のようなボケや照明、過剰なHDRはない。
+木製テーブル、画面左の楕円の卓上鏡、左手前の開いた生成りのメイクポーチ、手前のアイスラテとコースター、雑誌、右のトープのバッグ、椅子のカーディガンはImage2の配置を保つ。部屋を豪邸、ホテル、撮影スタジオにしない。
+カメラは机の上の固定されたスマホ。冒頭0.5秒で置いた後のわずかな揺れが収まり、終了直前まで固定。撮影しているスマホは画面に映らない。レンズへ伸びる手で顔を隠さない。ズームや横移動をしない。鏡の面は女性に向き、カメラには背面が見える。二人目の顔や撮影機材の反射を追加しない。
 
-## 图像角色
+【声と自然な振る舞い】
+自然な日本語の標準語。27歳の女性が友達に送る声の近さ。声は温かく明瞭、少し力が抜けている。セールストーク、アナウンス、過剰な甘え声、広告の台詞読みにはしない。日本語と口の動きを同期する。
+視線は目的を持って動く。話しかける時はレンズ、前髪を確認する時は画面左の鏡、バッグをつかむ時は手元を見る。常にカメラを見つめたり、常に微笑んだりしない。
+瞬きと呼吸は自然な頻度。無意味な身振りや眉の上下を続けない。集中して少し静かになる時間を認める。髪は触れたところから動き、指を離した後に重力で少し戻る。顔を向けると毛先とピアスが少し遅れて揺れて収まる。
 
-`@Image1` = 角色参考（脸部、发型、服装）。
+【演技と台詞：一続きの30秒】
+0.0–3.5秒
+Image2の姿勢から。カメラへ伸ばしていた右手を引き戻し、レンズを見る。軽い達成感のある自然な表情。
+0.5–2.5秒の台詞：「よし、準備できた。」
+終わりを長く伸ばさない。その後は息を一つ。
 
-`@Image2` = 起始帧及房间/灯光参考。
+3.5–8.5秒
+視線が画面左の鏡へ移る。前髪が一束だけ気になる。わずかに頭の角度を変え、右手を上げる。大きく眉をひそめず、小さな気づき。
+4.5–7.5秒の台詞：「……あ、まえがみ、こっちのほうがいいかな。」
 
-两张图中的角色保持一致。Image2 用于固定构图和室内环境。
+8.5–14.0秒
+無言。右手の指先で前髪の小さな束を一度だけ横に整える。指が額や目を貫通しない。前髪の長さや髪の分け目を全面的に変えない。手を下ろして鏡で確認。髪が少し戻ったのを見て、ごく小さく口元が緩む。大げさなリアクションや追加の台詞を入れない。
 
-## 角色设定
+14.0–21.0秒
+レンズへ視線を戻す。鏡とカメラを何度も往復しない。肩の力が少し抜け、素直な微笑み。
+14.5–19.5秒の台詞：「でる直前になると、きゅうに気になるんだよね。」
+文末の後、短い息混じりの小さな笑い。笑顔は自然に生まれ、固定しない。
 
-[角色：27 岁日本美妆/时尚网红]。五官精致，巧克力棕色中长卷发，卷度柔和。身穿白色圆领 T 恤，搭配蓝色高腰牛仔裤，佩戴小巧的金色圆环耳环。自然妆容，蜜桃色腮红，玫瑰米色唇妆。全程形象保持一致。
+21.0–25.5秒
+画面右のバッグへ視線を落とし、左手で持ち手をつかむ。重みのあるバッグを膝の近くまで少し持ち上げる。一つのバッグのまま、形と素材を保つ。グラスや鏡やポーチに当てない。
+22.0–24.2秒の台詞：「今日は、カフェに行ってきます。」
+台詞を言いながら視線をレンズへ戻す。
 
-## 室内与拍摄
+25.5–30.0秒
+バッグは左手で持ったまま。右手でレンズに向かって小さく一度手を振る。
+26.0–27.5秒の台詞：「じゃ、またね。」
+空いた右手をカメラに伸ばす。最後の約0.7秒に手が近づいて自然にぼけ、画面が少し揺れたところで録画終了。立ち上がって退出するところまで詰め込まない。静止画や黒画面やフェードで終えない。
 
-[室内场景：紧凑的日本出租屋]，白墙，自然光。手机固定在桌面上拍摄。无电影级虚化或过度 HDR。房间看起来不应像摄影棚。
+【音】
+本人の声、呼吸、微かな部屋の環境音、Tシャツの衣擦れ、バッグの革と金具の小さな音、最後にスマホへ触れる音。音は実際の動作に同期。大げさなASMR、効果音、BGM、他人の声、ナレーション、通知音なし。
 
-## 语音与行为
-
-自然的标准日语口语。声音温暖清晰，非推销口吻。口型与日语同步。自然的眨眼、呼吸，以及看向镜头或镜子的眼神交流。
-
-## 表演与对话：30 秒序列
-
-- 0.0-3.5 秒：手从镜头前移开，看向镜头。对话：“好了，我准备出发了。”
-- 3.5-8.5 秒：看向左侧的镜子。注意到刘海。对话：“……哦，刘海这样会不会更好一点？”
-- 8.5-14.0 秒：沉默。用指尖整理刘海。照镜子确认。
-- 14.0-21.0 秒：微笑着看向镜头。对话：“我总是临出门前就开始担心。”
-- 21.0-25.5 秒：拿起包。对话：“今天要去咖啡馆。”
-- 25.5-30.0 秒：向镜头挥手。对话：“那么，回头见。”伸手去关掉录制。
-
-## 声音
-
-本人声音、呼吸声、室内环境音、衣物摩擦声、包的声音。与动作同步。无背景音乐或旁白。
-
-## 严格合规
-
-不要添加额外对话。仅限一人。全程保持角色形象一致。
+【厳守】
+五つの指定台詞以外を追加しない。無言の時間を勝手な言葉で埋めない。人物一人。顔・髪・衣装・ピアスは最後まで同一。指の増減、髪や手の融合、小物の消失・増殖・浮遊、背景の変形、鏡の不正な反射なし。アイスラテは飲まず、グラスと氷とストローは机に置いたまま。前髪を整える以外にメイクや衣装が変化しない。字幕、テロップ、文字、ロゴ、透かし、分割画面、黒帯なし。華やかな本人の何気ない日常を、実写のスマホ動画の質感で表現する。
 ```
 
 ## English Prompt
 
 ```text
 [Work]
-Holiday of a beautiful influencer. "I thought I was ready, but I'm worried about my bangs." A 30-second natural smartphone UGC video of a fictional 27-year-old Japanese woman at home. Her usual beautiful and glamorous self. A warm sense of distance as if speaking to close followers.
+A beautiful influencer's day off. "I thought I was ready, but now I'm worried about my bangs." A natural 30-second smartphone UGC video filmed at home by a fictional 27-year-old Japanese woman. Show the beautiful, glamorous person she normally is. Keep the warm closeness of talking to familiar followers.
 
 [Output]
-Vertical 9:16, 30 seconds, full-screen video. No black bars. One continuous shot with one person, in one room, using one smartphone. No cuts, scene changes, or split screens. Dialogue and physical movement priority over strict second counts.
+Vertical 9:16, 30 seconds, video filling the screen. No black bars on any side. Do not embed a vertical video in the center of a horizontal canvas. One person, one room, one smartphone, filmed as one continuous take. No cuts, scene changes, or split screens.
+The timestamps guide the performance within the same take; do not begin a new shot at each timestamp. Prioritize natural speech, physical actions, and consistent identity over exact timing to the second.
 
-[Image Roles]
-@Image1 = character reference (face, hair, clothes). @Image2 = start frame and room/lighting reference. The character is the same in both. Image2 fixes the composition and interior.
+[Roles of the Images]
+@Image1 = 01_character.png. Reference for the person's face, hair, clothes, build, and earrings. All three views show the same person. Do not bring the gray background or the three-part layout into the video. This is not the starting frame.
+@Image2 = 02_start_frame.png. Starting frame and reference for the room, light, composition, and prop placement. Begin with this woman already sitting here, pulling back her hand that had reached toward the camera. Her face is visible from the beginning.
+The people in both images are the same person. Fix the face and outfit from Image1, and the composition and room layout from Image2.
 
-[Character]
-27-year-old Japanese beauty/fashion influencer. Beautiful features with chocolate brown semi-long hair and soft curls. Wearing a white crew-neck T-shirt, blue high-waist denim, and small gold hoop earrings. Natural makeup with peach cheeks and rose beige lips. Consistent look throughout.
+[Person]
+A 27-year-old Japanese beauty and fashion influencer, just about to go to a cafe on her day off; do not explain her job. A strikingly beautiful face and an approachable manner. Do not redesign the reference image's oval face, naturally sized almond eyes, nose, or soft lip shape.
+Glossy chocolate-brown, medium-length hair reaching above the chest, face-framing layers, soft curls, and airy bangs. A compact white crew-neck short-sleeve T-shirt, pale-blue high-waisted denim, small gold hoop earrings, and short pale-pink nails. Subtle brown eye makeup, separated lashes, restrained peach blush, and rose-beige lips. Makeup stays the same throughout.
+Keep the natural texture of beautiful skin, faint pores, subtle shading around the eyes, and light on its surface. Do not deliberately exaggerate blemishes or tiredness. Her beauty comes from her features, hair, and makeup, not from turning her face into smooth plastic. Do not make her face extremely small, her eyes enormous, her chin sharply pointed, or her skin excessively glossy.
 
-[Interior and Shooting]
-Compact Japanese rental room with white walls and natural light. Fixed smartphone camera on a table. No cinematic bokeh or extreme HDR. The room should not look like a studio.
+[Room and Camera]
+The compact Japanese rental room in Image2: white walls, light wood grain, lace curtains on the right side of the frame, and soft daytime natural light. Her face is sufficiently bright, with natural shadows and healthy color. Use an ordinary smartphone field of view in which the background remains somewhat recognizable. No cinematic bokeh or lighting, or excessive HDR.
+Preserve Image2's placement of the wooden table, oval tabletop mirror on the left, open unbleached makeup pouch in the left foreground, iced latte and coaster in front, magazine, taupe bag on the right, and cardigan on the chair. Do not turn the room into a mansion, hotel, or studio.
+The camera is a fixed smartphone on the desk. A tiny shake from setting it down settles within the first 0.5 seconds; it remains fixed until just before the end. The phone doing the filming must not appear in frame. Her reaching hand must not conceal her face. No zoom or lateral camera movement. The mirror faces the woman, with its back visible to the camera. Do not add a second face or a reflection of filming equipment.
 
-[Voice and Behavior]
-Natural standard Japanese speech. Warm and clear voice, not a sales talk. Lip-sync synchronized with Japanese. Natural blinking, breathing, and eye movements toward the lens or the mirror.
+[Voice and Natural Behavior]
+Natural standard Japanese, with the closeness of a 27-year-old woman sending a message to a friend. Her voice is warm, clear, and a little relaxed. Not a sales pitch, an announcement, an exaggerated cutesy voice, or ad-copy delivery. Synchronize the Japanese speech with mouth movements.
+Her gaze moves with purpose: toward the lens when speaking, toward the mirror on the left when checking her bangs, and toward her hands when picking up the bag. She does not stare at the camera or smile constantly.
+Blink and breathe at natural rates. Avoid continuous pointless gestures or eyebrow movements. Allow moments when she concentrates and grows a little quiet. Hair moves from the point she touches, then settles a little under gravity when her fingers let go. When she turns her face, the tips of her hair and her earrings sway slightly after it and settle.
 
-[Acting and Dialogue: 30-second sequence]
-0.0–3.5s: Pulling hand back from the camera, looking at the lens. Dialogue: "Alright, I'm ready."
-3.5–8.5s: Looking at the mirror on the left. Noticing bangs. Dialogue: "...Oh, maybe the bangs are better like this."
-8.5–14.0s: Silent. Adjusting bangs with fingertips. Checking in the mirror.
-14.0–21.0s: Looking back at the lens with a smile. Dialogue: "I always start worrying right before leaving."
-21.0–25.5s: Grabbing a bag. Dialogue: "I'm heading to the cafe today."
-25.5–30.0s: Waving at the lens. Dialogue: "Well, see you later." Reaching for the camera to stop recording.
+[Performance and Dialogue: One Continuous 30 Seconds]
+0.0–3.5 seconds:
+Start in the pose shown in Image2. She draws back her right hand from the camera and looks into the lens, with a naturally satisfied expression.
+Dialogue at 0.5–2.5 seconds: "よし、準備できた。" (Okay, I'm ready.)
+Do not draw out the ending. She takes one breath afterward.
+
+3.5–8.5 seconds:
+Her gaze moves to the mirror on the left. Just one lock of her bangs bothers her. She changes the angle of her head slightly and raises her right hand. A tiny realization, without an exaggerated frown.
+Dialogue at 4.5–7.5 seconds: "……あ、まえがみ、こっちのほうがいいかな。" (...Ah, maybe my bangs look better this way.)
+
+8.5–14.0 seconds:
+Silent. With the fingertips of her right hand, she brushes one small lock of bangs to the side exactly once. Her fingers do not pass through her forehead or eyes. Do not entirely change the length or parting of the bangs. She lowers her hand and checks the mirror. Seeing the hair fall back slightly, she gives the smallest smile. No exaggerated reaction or extra dialogue.
+
+14.0–21.0 seconds:
+She looks back at the lens. Do not repeatedly shuttle her gaze between the mirror and camera. Her shoulders relax a little and she smiles honestly.
+Dialogue at 14.5–19.5 seconds: "でる直前になると、きゅうに気になるんだよね。" (I always start worrying about it right before I leave.)
+After the sentence, a brief, breathy little laugh. The smile arises naturally; do not freeze it in place.
+
+21.0–25.5 seconds:
+She looks down at the bag on the right, grasps its handle with her left hand, and raises the weighty bag a little toward her knees. It remains one bag, retaining its shape and material. Do not hit the glass, mirror, or pouch.
+Dialogue at 22.0–24.2 seconds: "今日は、カフェに行ってきます。" (I'm heading to the cafe today.)
+As she speaks, her gaze returns to the lens.
+
+25.5–30.0 seconds:
+Still holding the bag with her left hand, she gives one small wave toward the lens with her right.
+Dialogue at 26.0–27.5 seconds: "じゃ、またね。" (Well, see you later.)
+She reaches toward the camera with her now free right hand. For approximately the last 0.7 seconds, the approaching hand naturally blurs and the frame shakes a little as the recording ends. Do not squeeze in her standing up and leaving. Do not end with a still frame, black frame, or fade.
 
 [Sound]
-Own voice, breathing, ambient room sounds, rustle of clothes, sounds of the bag. Synced to actions. No background music or narration.
+Her own voice, breathing, faint room ambience, the rustle of her T-shirt, small sounds from the bag's leather and hardware, and finally her touch on the phone. Synchronize sounds to actions. No exaggerated ASMR, sound effects, background music, other voices, narration, or notification sounds.
 
-[Strict Compliance]
-Do not add extra dialogue. One person only. Maintain identity throughout.
-```
-
-## 来源记录（与使用版不同）
-
-```text
-## 作品
-
-美丽网红的假日。“我以为我准备好了，但还是担心刘海。”
-
-一段 30 秒自然的手机 UGC 视频，主角为一名虚构的 27 岁日本女性，场景在家中。展现她平日美丽迷人的一面。营造一种如同与亲密粉丝对话般的亲切距离感。
-
-## 输出要求
-
-竖屏 9:16，30 秒，全屏视频。无黑边。单人、单房间、单手机拍摄，一镜到底。无剪辑、场景切换或分屏。对话和肢体动作优先于严格的时间控制。
-
-## 图像角色
-
-`@Image1` = 角色参考（脸部、发型、服装）。
-
-`@Image2` = 起始帧及房间/灯光参考。
-
-两张图中的角色保持一致。Image2 用于固定构图和室内环境。
-
-## 角色设定
-
-27 岁日本美妆/时尚网红。五官精致，巧克力棕色中长卷发，卷度柔和。身穿白色圆领 T 恤，搭配蓝色高腰牛仔裤，佩戴小巧的金色圆环耳环。自然妆容，蜜桃色腮红，玫瑰米色唇妆。全程形象保持一致。
-
-## 室内与拍摄
-
-紧凑的日本出租屋，白墙，自然光。手机固定在桌面上拍摄。无电影级虚化或过度 HDR。房间看起来不应像摄影棚。
-
-## 语音与行为
-
-自然的标准日语口语。声音温暖清晰，非推销口吻。口型与日语同步。自然的眨眼、呼吸，以及看向镜头或镜子的眼神交流。
-
-## 表演与对话：30 秒序列
-
-- 0.0-3.5 秒：手从镜头前移开，看向镜头。对话：“好了，我准备出发了。”
-- 3.5-8.5 秒：看向左侧的镜子。注意到刘海。对话：“……哦，刘海这样会不会更好一点？”
-- 8.5-14.0 秒：沉默。用指尖整理刘海。照镜子确认。
-- 14.0-21.0 秒：微笑着看向镜头。对话：“我总是临出门前就开始担心。”
-- 21.0-25.5 秒：拿起包。对话：“今天要去咖啡馆。”
-- 25.5-30.0 秒：向镜头挥手。对话：“那么，回头见。”伸手去关掉录制。
-
-## 声音
-
-本人声音、呼吸声、室内环境音、衣物摩擦声、包的声音。与动作同步。无背景音乐或旁白。
-
-## 严格合规
-
-不要添加额外对话。仅限一人。全程保持角色形象一致。
+[Strict Requirements]
+Do not add dialogue beyond the five specified lines. Do not fill the silent passage with invented words. Only one person. The face, hair, outfit, and earrings remain identical until the end. No extra or missing fingers, fusion of hair and hands, vanishing, multiplying, or floating props, warped background, or improper mirror reflections. She does not drink the iced latte; the glass, ice, and straw remain on the table. Nothing in her makeup or outfit changes while she adjusts her bangs. No subtitles, captions, text, logos, watermarks, split screens, or black bars. Depict an ordinary moment in her glamorous life with the texture of live-action smartphone video.
 ```
 
 [打开 style.json](../../styles/video-japanese-influencer-get-ready-ugc-source/style.json) · [打开条目目录](../../styles/video-japanese-influencer-get-ready-ugc-source/)

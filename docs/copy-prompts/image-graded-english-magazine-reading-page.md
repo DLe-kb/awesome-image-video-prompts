@@ -10,7 +10,7 @@
 
 来源：[knowledgefxg](https://x.com/knowledgefxg/status/2096249812194869289)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 主题：{主题} / 英语等级：{A1-C2} / 正文词数：{推荐350–550词}

@@ -12,7 +12,7 @@
 
 可替换内容：`[TIMEPIECE]` · `[MODEL REFERENCE]` · `[MANUFACTURE / COLLECTION]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 生成一张 16:9 的 2×2 网格图，分别展示四款史上最昂贵、最奇特的高级机械腕表。

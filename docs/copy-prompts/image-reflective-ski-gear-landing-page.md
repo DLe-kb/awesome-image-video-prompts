@@ -12,7 +12,7 @@
 
 可替换内容：`[brandName]` · `[productName]` · `[headline]` · `[subheadline]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 创建一张 16:9 横版高端滑雪装备品牌落地页主视觉，品牌为“{brandName}”，产品为“{productName}”。背景从雪白过渡到浅冰蓝，漂浮少量带运动模糊的雪粒。

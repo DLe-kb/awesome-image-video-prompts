@@ -14,34 +14,16 @@
 
 可替换内容：`[主体]` · `[载具/场景]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-摄像机从主体前方[2.5]米、离地[3]米的位置开始，沿主体轴线以一次连续加速的运动向后并向上飞行，在结尾达到约[40]米距离和[25]米高度。[主体]首先保持在画面中央，随后随着画面缩小，完整的[载具/场景]成为居中对象；地平线在画面中持续稳定上升。不得环绕、变焦或反转运动速度。
+摄像机从主体前方[2.5]米、离地[3]米的位置开始，沿主体轴线以一次连续加速的运动向后并向上飞行，在结尾达到约[40]米距离和[25]米高度。主体首先保持在画面中央，随后随着画面缩小，完整的[载具/场景]成为居中对象；地平线在画面中持续稳定上升。不得环绕、变焦或反转运动速度。
 ```
 
 ## English Prompt
 
 ```text
-The camera starts [2.5] meters ahead of the subject at [3] meters altitude and flies backward and upward along the axis in one continuous accelerating move, reaching about [40] meters distance and [25] meters altitude by the end. [subject] stays centered, then the whole [craft / scene] centers itself in frame as it shrinks; the horizon line rises steadily through the frame. No orbit, no zoom, no speed reversals.
-```
-
-## 来源记录（与使用版不同）
-
-```text
-## 原始英文提示词
-
 The camera starts [2.5] meters ahead of the subject at [3] meters altitude and flies backward and upward along the axis in one continuous accelerating move, reaching about [40] meters distance and [25] meters altitude by the end. The subject stays centered, then the whole [craft / scene] centers itself in frame as it shrinks; the horizon line rises steadily through the frame. No orbit, no zoom, no speed reversals.
-
-## 中文使用版
-
-摄像机从主体前方[2.5]米、离地[3]米的位置开始，沿主体轴线以一次连续加速的运动向后并向上飞行，在结尾达到约[40]米距离和[25]米高度。主体首先保持在画面中央，随后随着画面缩小，完整的[载具/场景]成为居中对象；地平线在画面中持续稳定上升。不得环绕、变焦或反转运动速度。
-
-## 变量
-
-- `[2.5]`、`[3]`：起始水平距离和高度。
-- `[40]`、`[25]`：结束距离和高度。
-- `[craft / scene]` / `[载具/场景]`：后拉后需要完整揭示并居中的整体对象。
 ```
 
 [打开 style.json](../../styles/video-aerial-pullback-rise-reveal-source/style.json) · [打开条目目录](../../styles/video-aerial-pullback-rise-reveal-source/)

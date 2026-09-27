@@ -14,7 +14,7 @@
 
 可替换内容：`[场景：装饰精美的卧室]` · `[产品：高级珠宝礼盒]` · `[核心珠宝：闪耀的蓝色宝石吊坠]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 创作一段 30 秒的电影级奢华珠宝广告视频，风格温暖而优雅。
@@ -43,22 +43,6 @@ The scene continues with a peaceful morning moment near the window, holding a cu
 Close-up shots capture the pendant sparkling naturally against her skin with realistic shadows and reflections.
 The video ends with a premium jewelry box displaying the complete matching jewelry set.
 Soft cinematic lighting, warm golden tones, luxury commercial aesthetic, smooth camera movements, shallow depth of field, photorealistic details, 9:16 vertical format.
-```
-
-## 来源记录（与使用版不同）
-
-```text
-创作一段 30 秒的电影级奢华珠宝广告视频，风格温暖而优雅。
-
-视频以装饰精美的卧室开场，柔和的晨光洒入，一个高级珠宝礼盒放置在木桌上。一位女性轻轻拿起优雅的礼盒，展现出细腻且富有情感的开箱瞬间。
-
-镜头切换至她面部和手部的电影级特写，展示珠宝揭晓的时刻。一颗闪耀的蓝色宝石吊坠在柔和的金色灯光下呈现出精致的微距细节。她优雅地戴上项链，突显其精致的设计与奢华的光泽。
-
-场景延续至窗边宁静的清晨时刻，她手持杯子，沐浴在温暖的阳光中。特写镜头捕捉到吊坠在肌肤上自然闪烁的光芒，伴随着逼真的阴影与倒影。
-
-视频结尾展示了陈列着整套珠宝的高级礼盒。
-
-柔和的电影级灯光、温暖的金色调、奢华商业美学、平滑的运镜、浅景深、照片级真实细节、9:16 竖屏格式。
 ```
 
 [打开 style.json](../../styles/video-luxury-jewelry-unboxing-source/style.json) · [打开条目目录](../../styles/video-luxury-jewelry-unboxing-source/)

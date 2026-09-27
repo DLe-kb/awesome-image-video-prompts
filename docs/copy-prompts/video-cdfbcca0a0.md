@@ -12,10 +12,16 @@
 
 来源：[@NoorAI / YouMind](https://x.com/noorwithwifi/status/2101683541629354348)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-一段无缝衔接的传统中国水墨水彩动画，始于深蓝色的海浪逐渐幻化为云雾缭绕的山峦，山间矗立着宝塔与石阶。绯红色的墨云横扫画面，场景随之过渡至平静的江面，一叶扁舟停泊在红叶树旁。红叶变幻为娇嫩的粉色樱花，花瓣围绕着一座小岛上孤零零的盆景式树木轻轻飘落。最终，一轮皎洁的满月从远山后升起，金色的月光倒映在宁静的水面上，画面渐渐融入静谧的夜晚。整体氛围诗意盎然，转场流畅自然，尽显优雅的中国画美学与柔和的水彩质感。
+一段无缝衔接的传统中国水墨水彩动画：深蓝色海浪开始幻化为雾气缭绕的山峦，山中有一座宝塔和石阶。绯红色墨云掠过画面，转场至一条宁静的河流，河上有小船，岸边有一株秋叶艳红的树。红色树叶又变成细腻的粉色樱花，花瓣在一座小岛上孤立的盆景般树木周围飘落。最后，一轮发光的满月从远山之后升起，在平静水面上映出金色倒影，画面渐渐进入安宁的夜晚。氛围感强、富有诗意、转场流畅；采用雅致的中国画美学和柔和的水彩肌理。
+```
+
+## English Prompt
+
+```text
+A seamless traditional Chinese ink-wash watercolor animation begins with deep blue ocean waves transforming into misty mountains with a pagoda and stone stairs. Crimson ink clouds sweep across the scene, transitioning to a calm river with a small boat and an autumn-red tree. The red foliage transforms into delicate pink cherry blossoms, with petals drifting around a lone bonsai-like tree on a tiny island. Finally, a glowing full moon rises behind distant mountains, casting a golden reflection across the tranquil water as the scene fades into a peaceful night. Atmospheric, poetic, fluid transitions, elegant Chinese painting aesthetic, soft watercolor textures.
 ```
 
 [打开 style.json](../../styles/video-cdfbcca0a0/style.json) · [打开条目目录](../../styles/video-cdfbcca0a0/)

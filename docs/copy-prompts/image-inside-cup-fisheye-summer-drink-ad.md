@@ -10,7 +10,7 @@
 
 来源：[@lovimg_com](https://x.com/lovimg_com/status/2077036659028484375)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 主題：

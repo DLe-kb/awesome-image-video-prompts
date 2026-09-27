@@ -12,10 +12,56 @@
 
 来源：[@Meem / YouMind](https://x.com/mehvishs25/status/2094785997460660622)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-创作一段超逼真的高端 UGC 香水广告，主角是一位美丽动人的年轻女性，身着优雅、大胆且前卫的时尚服装。她拥有自然迷人的外表、富有表现力的双眼、精致的妆容、透亮真实的皮肤质感以及精心打理的发型。她的造型显得成熟自信，而非过度华丽。场景：奢华的现代室内空间，配以温暖的环境光、柔和的阴影，营造出高端杂志大片的氛围。保持背景简洁并略微虚化，确保人物和香水始终是视觉焦点。服装：她穿着优雅大胆的晚装，剪裁精致，既前卫、考究又迷人，同时不失品位。服装应与香水的高端定位相得益彰。UGC 表演：她自然地拿着香水瓶，像是在向观众推荐自己真心喜爱的香水，并直接对着镜头说话。从一个随意的吸睛动作开始，然后将香水瓶靠近镜头展示，喷洒在手腕或颈部，闻一闻，并以自信的微笑做出反应。加入自然的手势、轻微的动作、真实的表情和放松的肢体语言。摄影：手持智能手机风格的 UGC 镜头，穿插少量精致的特写镜头。包含自然的微动作、真实的自动对焦、浅景深以及偶尔细微的推镜头。避免传统商业广告那种过度完美的观感。产品焦点：给予香水瓶几个高光时刻，确保焦点清晰、反射真实、玻璃和液体细节高级，同时保持品牌标签清晰可见且不失真。灯光与美学：温暖的奢华灯光，面部和头发上的柔和高光，真实的皮肤毛孔和细节，电影感但真实可信的曝光，高级的中性色调，高端美妆广告美学。视频风格：真实的高端 UGC × 奢华香水广告，自然且令人向往，自信的女性力量，照片级真实感，电影级写实，4K，逼真的动态，自然的表情，无 CGI 感，无美颜滤镜效果。结尾：她直视镜头，将香水举在脸庞旁，露出自信的微笑，并以自然的推荐式表情结束。避免夸张的表演、不自然的肢体动作、塑料感皮肤、过度修图、手部变形、香水瓶扭曲、虚假的反射或人工痕迹明显的面部表情。
+创作一段超写实的高端 UGC 香水广告，主角是一位美貌出众的年轻成年女性，穿着优雅、大胆、走在时尚前沿的服装。
+
+她具有自然吸引人的容貌、富有表现力的眼睛、精致妆容、真实透亮的皮肤肌理和精心打理的发型。她看起来成熟自信，而非过分华丽。
+
+场景：置于一处奢华的现代室内，环境光温暖，阴影细腻，带有高端编辑摄影的气氛。背景干净、略微虚化，让女性和香水始终成为视觉焦点。
+
+服装：她穿着一套轮廓优雅且大胆的晚装，时尚前卫、精致迷人又不失得体。服装应与香水的奢华定位相呼应。
+
+UGC 表演：她自然地拿着香水瓶，像向朋友真诚推荐自己喜爱的香氛一样，直接对镜头说话。先以一个轻松而抓人的瞬间开场，再把香水瓶举近镜头，向手腕或颈部喷香水，闻一闻，然后露出细微而自信的微笑。加入自然手势、轻微动作、真实表情和放松的肢体语言。
+
+镜头：采用手持智能手机风格的 UGC 素材，穿插少量精致的特写。包括自然的微小晃动、真实自动对焦、浅景深和偶尔轻微的推近。避免传统广告那种过于完美的观感。
+
+产品焦点：多次给香水瓶主视觉时刻，焦点清晰、反射真实，玻璃与液体细节高级；品牌标签始终清晰可见且没有扭曲。
+
+布光与美学：温暖奢华的光线，面部和头发有柔和高光；真实毛孔和细节、电影感但可信的曝光、精致的中性色调，以及高端美妆广告质感。
+
+视频风格：真实的高端 UGC 与奢华香氛广告结合，自然且令人向往，呈现自信的女性气质；照片级写实、电影感真实、4K、动作可信、表情自然，没有 CGI 外观或美颜滤镜效果。
+
+结尾：她直视镜头，将香水瓶举在脸旁，露出细微而自信的微笑，以自然的推荐式表情收尾。
+
+避免夸张表演、不自然的身体动作、塑料般的皮肤、过度磨皮、畸形的手、变形的香水瓶、虚假的反射或人工感明显的表情。
+```
+
+## English Prompt
+
+```text
+Create an ultra-realistic premium UGC perfume advertisement featuring a strikingly beautiful young adult woman in an elegant, bold, fashion-forward outfit.
+
+She has a naturally captivating appearance, expressive eyes, polished makeup, luminous realistic skin texture, and beautifully styled hair. Her look is sophisticated and confident rather than overly glamorous.
+
+Scene: A luxurious modern interior with warm ambient lighting, subtle shadows, and an upscale editorial atmosphere. Keep the background clean and slightly out of focus so the woman and perfume remain the visual focus.
+
+Outfit: She wears an elegant, bold evening outfit with a sophisticated silhouette—fashion-forward, refined, and alluring while remaining tasteful. The outfit should complement the luxury positioning of the perfume.
+
+UGC performance: She holds the perfume bottle naturally and speaks directly to the camera as if recommending a fragrance she genuinely loves. Start with a casual attention-grabbing moment, then show the bottle close to the camera, spray the perfume on her wrist/neck, smell it, and react with a subtle confident smile. Include natural hand gestures, slight movements, authentic facial expressions, and relaxed body language.
+
+Camera: Handheld smartphone-style UGC footage mixed with a few polished close-up shots. Natural micro-movements, realistic autofocus, shallow depth of field, occasional subtle push-in. Avoid the overly perfect look of a traditional commercial.
+
+Product focus: Give the perfume bottle several hero moments with crisp focus, realistic reflections, premium glass and liquid details, while keeping the brand label clearly visible and undistorted.
+
+Lighting & aesthetic: Warm luxury lighting, soft highlights on her face and hair, realistic skin pores and fine details, cinematic but believable exposure, sophisticated neutral tones, premium beauty-ad aesthetic.
+
+Video style: Authentic high-end UGC × luxury fragrance campaign, natural and aspirational, confident feminine energy, photorealistic, cinematic realism, 4K, realistic motion, natural expressions, no CGI appearance, no beauty-filter effect.
+
+Ending: She looks directly into the camera, holds the perfume beside her face, gives a subtle confident smile, and finishes with a natural recommendation-style expression.
+
+Avoid exaggerated acting, unnatural body movements, plastic skin, excessive retouching, distorted hands, warped perfume bottles, fake-looking reflections, or artificial facial expressions.
 ```
 
 [打开 style.json](../../styles/video-e0fd6d34ba/style.json) · [打开条目目录](../../styles/video-e0fd6d34ba/)

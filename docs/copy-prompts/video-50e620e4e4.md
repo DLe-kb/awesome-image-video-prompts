@@ -12,10 +12,16 @@
 
 来源：[@ayzalnoor / YouMind](https://x.com/ayzalnooor24521/status/2100456445900710158)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-创作了一部具有电影质感的时尚变身视频，主角是一位美丽的年轻女子，漫步于优雅的巴黎街头。她起初身穿一件简洁的白色夏日连衣裙，自然地行走在时尚的城市人行道上，周围环绕着经典建筑、咖啡馆、商店和行人。镜头以逼真的电影运动感和浅景深平滑地跟随她。当她经过一家店面时，发光的红色光轨围绕她的身体旋转，营造出神奇的时尚过渡效果。她的服装无缝地从白色转变为精致的红色无袖连衣裙。接着是动态的街道视角镜头，展现她自信地穿过繁忙的巴黎十字路口。最后以一个美丽的特写镜头结束，她身穿红裙，轻轻拿着冰淇淋品尝，目光自然地望向镜头。具备照片级真实细节、优雅的时尚电影美学、自然日光、流畅过渡、逼真皮肤纹理、电影镜头、微妙的背景动感以及高端商业质感。
+创作一段具有电影感的时尚变装视频：一位美丽的年轻女子走在优雅的巴黎街道上。起初她穿着洁白的夏日连衣裙，在时髦的城市人行道上自然行走，周围是经典建筑、咖啡馆、商店和行人。镜头以真实、富有电影感的运动和浅景深平滑地跟随她。当她走过一家店面时，发光的红色光迹绕着她的身体旋转，形成魔法般的服装转场。她的衣着从白色无缝变为精致的红色无袖连衣裙。接下来用动态的街道视角，表现她自信地穿过繁忙的巴黎十字路口。最后以她穿着红裙的美丽特写收尾：她轻轻拿着冰淇淋、吃一口，并自然地看向镜头。保持照片级写实细节、优雅的时尚电影美学、自然日光、平滑转场、真实皮肤纹理、电影镜头质感、细微的背景运动和高端商业广告效果。
+```
+
+## English Prompt
+
+```text
+Created a cinematic fashion transformation video featuring a beautiful young woman walking through elegant Parisian streets. She begins in a clean white summer dress, walking naturally along a stylish city sidewalk surrounded by classic architecture, cafés, shops, and pedestrians. The camera smoothly follows her with realistic cinematic movement and shallow depth of field. As she passes a storefront, glowing red light trails swirl around her body, creating a magical fashion-transition effect. Her outfit transforms seamlessly from white into a sophisticated red sleeveless dress. Continue with dynamic street-level shots as she confidently walks through a busy Paris intersection. Finish with a beautiful close-up of her in the red dress, gently holding and eating an ice cream while looking naturally toward the camera. Photorealistic details, elegant fashion-film aesthetic, natural daylight, smooth transitions, realistic skin texture, cinematic lens, subtle background motion, premium commercial look.
 ```
 
 [打开 style.json](../../styles/video-50e620e4e4/style.json) · [打开条目目录](../../styles/video-50e620e4e4/)

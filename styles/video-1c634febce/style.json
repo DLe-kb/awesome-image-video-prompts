@@ -12,12 +12,13 @@
     "电影感",
     "横屏"
   ],
-  "prompt": "创建一个电影感、照片级逼真的场景，背景为欧洲广场，设有石制喷泉和露天咖啡馆。一名身穿深色西装的男子打了个响指，时间随之静止，巨大的喷泉水柱悬停在半空中纹丝不动。他从容地穿过水流，从一名静止的服务员手中取过一只酒杯，接住几滴水珠，加入柠檬片，并调整了一把遮阳伞。他将伞倾斜，再次打响指，时间恢复流动——水花在阳光下闪烁，在咖啡馆上方形成一道壮观的完整彩虹，周围人群惊叹不已。他轻啜一口饮品，直视镜头，用俄语说道：**“这样好多了”**（意为“Much better”）。",
+  "prompt": "在一座有石砌喷泉和露天咖啡馆的欧洲广场，创作一个具有电影感、照片级写实的场景。一名身穿深色西装的男子打了个响指，时间随即冻结，喷泉喷出的大片水花静止悬在空中。他平静地穿过水流，从一位被冻结的服务员手中取过葡萄酒杯，用杯子接住水滴，加入柠檬，并调整一把露台遮阳伞。他倾斜遮阳伞，再次打响指，时间恢复流动。阳光下水花闪耀，在咖啡馆上空形成一道壮观而完整的彩虹，所有人都惊讶地作出反应。他啜饮杯中饮料，看向镜头，并用俄语说出 **“Так гораздо лучше”**（“这样好多了”）。",
   "source": {
     "author": "@lumiAI / YouMind",
     "url": "https://x.com/aiwithlumi/status/2102406322008559857"
   },
   "promptCredit": "来源提示词 / 翻译整理",
   "preview": "preview.jpg",
-  "sample": "sample.mp4"
+  "sample": "sample.mp4",
+  "promptEn": "Create a cinematic, photorealistic scene in a European plaza with a stone fountain and outdoor café. A man in a dark suit snaps his fingers, freezing time as a huge fountain spray hangs motionless in the air. He calmly walks through the water, takes a wine glass from a frozen waiter, catches droplets inside, adds lemon, and adjusts a patio umbrella. He tilts the umbrella, snaps his fingers again, and time resumes—the water sparkles in sunlight, creating a spectacular full rainbow over the café as everyone reacts in amazement. He sips the drink, looks into the camera, and says in Russian, **“Так гораздо лучше”** (“Much better”)."
 }

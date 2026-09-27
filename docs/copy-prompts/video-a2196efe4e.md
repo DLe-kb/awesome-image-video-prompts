@@ -12,10 +12,16 @@
 
 来源：[@NoorAI / YouMind](https://x.com/noorwithwifi/status/2087821976270450985)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-创作一段视觉上令人满足的混合现实定格动画短片，展示 [DRAWN OBJECT/SKETCH] 无缝转换为 [REAL INGREDIENT/OBJECT] 的过程。视频中，一个人使用智能手机和彩色铅笔在 [SURFACE] 上进行创作，在每个物品通过流畅、无缝的变换魔法般地变为现实之前，先将其勾勒出来。展示 [INGREDIENTS] 被加入 [CONTAINER]，随后进行 [COOKING/BLENDING/PREPARATION ACTION]，最后盛入 [DISH]。结尾处，艺术家勾勒出 [TOPPINGS/FINAL DETAILS]，这些细节瞬间化为真实的食物，呈现出一道充满活力且摆盘精美的 [FINAL DISH]。使用逼真的纹理、自然的动作、令人舒适的定格动画节奏、简洁的构图、柔和的灯光，以及铅笔画与真实物体之间的无缝过渡。
+创作一段简短、令人赏心悦目的混合现实定格动画：[DRAWN OBJECT/SKETCH]（手绘物件或草图）无缝变成 [REAL INGREDIENT/OBJECT]（真实食材或物件）。一人在 [SURFACE]（表面）上使用智能手机和彩色铅笔，逐个画出物品，然后让每件草图通过流畅、无缝的变形魔法般地成为实物。展示将 [INGREDIENTS]（食材）加入 [CONTAINER]（容器），接着进行 [COOKING/BLENDING/PREPARATION ACTION]（烹饪、搅拌或准备动作），然后装盘到 [DISH]（餐具）中。结尾由画作者画出 [TOPPINGS/FINAL DETAILS]（配料或最终细节），这些内容立即变成真实食物，形成鲜艳且摆盘美观的 [FINAL DISH]（最终菜品）。使用写实纹理、自然的手部动作、令人满足的定格节奏、整洁构图、柔和光线，以及铅笔画与真实物体之间的无缝转场。
+```
+
+## English Prompt
+
+```text
+Create a short, visually satisfying mixed-reality stop-motion video where [DRAWN OBJECT/SKETCH] seamlessly transforms into [REAL INGREDIENT/OBJECT]. A person uses a smartphone and colored pencil on a [SURFACE], sketching each item before it magically becomes real through smooth, seamless transformations. Show [INGREDIENTS] being added to [CONTAINER], then [COOKING/BLENDING/PREPARATION ACTION], followed by serving into [DISH]. Finish with the artist sketching [TOPPINGS/FINAL DETAILS], which instantly materialize into real food, creating a vibrant, aesthetically arranged [FINAL DISH]. Use realistic textures, natural hand movements, satisfying stop-motion timing, clean composition, soft lighting, and seamless transitions between pencil drawings and real objects.
 ```
 
 [打开 style.json](../../styles/video-a2196efe4e/style.json) · [打开条目目录](../../styles/video-a2196efe4e/)

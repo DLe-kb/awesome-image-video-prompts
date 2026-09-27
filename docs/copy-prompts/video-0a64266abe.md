@@ -12,26 +12,48 @@
 
 来源：[@Aynelle / YouMind](https://x.com/aynellex/status/2102604800341000457)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-创作一部电影感、超精细的动画短片，讲述一只名为 Marcus 的拟人化橙色虎斑猫意外踏入职场世界的旅程。开场于一个温馨舒适的家，Marcus 在客厅耐心等待，主人正走出前门。展示 Marcus 为一天做准备：身穿正式白衬衫、深色条纹领带、商务西裤，手提一个小公文包。
+创作一部具有电影感、细节极其丰富的动画短片，跟随一只名为 Marcus 的拟人化橙色虎斑猫踏上一段意想不到的职场旅程。开场是在温暖舒适的家中：主人从前门离开时，Marcus 耐心地坐在客厅。展示他为一天做准备：穿上正式的白衬衫、深色条纹领带和西裤，带上一只小公文包。
 
-转场至 Marcus 抵达一座名为 Cat Corp 的大型现代企业办公楼。呈现一个令人印象深刻的玻璃钢结构工作场所，布满办公桌、电脑屏幕、员工、冷蓝色灯光以及巨大的发光 Cat Corp 标志。跟随 Marcus 自信地穿过办公室，手持公文包和咖啡杯，神情略显严肃且坚定。
+转场到 Marcus 抵达名为 Cat Corp 的大型现代企业办公室。展现一处令人印象深刻的玻璃与钢结构办公场所，里面有办公桌、电脑屏幕、员工、冷蓝色灯光和一块巨大的发光 Cat Corp 标牌。跟随 Marcus 手拿公文包和咖啡杯，自信地穿过办公室，神情略显严肃而坚定。
 
-继续展示 Marcus 坐在办公桌前，周围堆满文件、文档、电脑和办公用品。引入一位优雅的白色母猫同事加入他进行重要的商务讨论。展现自然的互动、严肃的表情、交换的文件以及合作时细微的手势动作。
+接着，Marcus 坐在自己的办公桌旁，周围摆满文书、文件、电脑和办公用品。一位优雅的白色雌猫同事加入他，进行重要的工作讨论。两人合作时表现出自然的互动、严肃的表情、交换文件以及细微手势。
 
-场景转入一间充满戏剧张力的行政办公室，Marcus 站在一张豪华办公桌后的大灰猫老板对面。透过窗户可见夜晚的城市灯光，营造出紧张的职场氛围。展示 Marcus 仔细聆听后，带着更加坚定的表情离开办公室。
+场景进入富有戏剧张力的高管办公室：Marcus 站在一位坐于豪华办公桌后的大灰猫老板面前。透过窗户可见夜晚的城市灯光，营造紧张的职场氛围。Marcus 仔细倾听，随后带着更加坚定的表情离开办公室。
 
-逐步推向神秘的结局：夜晚 Marcus 回到家，伸手去开门锁时突然停顿。切至其富有表现力眼睛的极端特写，眼中反射着发光的 Cat Corp 办公室，暗示着更大的事件即将发生。
+故事走向神秘结尾：Marcus 夜里回到家，伸手去开门锁，却停了下来。切到他富有表现力的眼睛的极近特写，眼中映出灯火通明的 Cat Corp 办公室，暗示更重大的事情即将发生。
 
-全程保持严格的人物一致性：相同的橙色虎斑皮毛图案、面部特征、眼睛、身体比例、红色项圈、白衬衫、条纹领带及商务装束。在所有场景中保留每个角色相同的视觉身份。
+全片严格保持角色一致性：Marcus 的橙色虎斑毛纹、面孔、眼睛、身体比例、红色项圈、白衬衫、条纹领带和商务着装始终相同。每个角色在所有场景中的视觉身份都要一致。
 
-采用电影级 3D 动画风格，具备逼真的毛发、细腻的面部表情、可信的猫咪解剖结构与动作、真实的办公环境、戏剧性的蓝暖光对比、大气景深、柔和反射、精致的电影质感以及顶级动画电影品质。
+采用电影级 3D 动画：毛发写实、表情细致，猫的身体结构和运动可信，办公室环境真实；使用戏剧性的冷蓝与暖光对比、具有层次的空气纵深、柔和反射、精致的电影材质和高端动画电影品质。
 
-运用流畅的跟拍镜头、广角建立镜头、中景人物镜头、过肩构图、缓慢推镜、戏剧性特写，以及用于最终揭示的极端眼部特写。包含自然的行走、尾巴摆动、眨眼、耳朵转动、微妙面部表情、处理纸张、咖啡移动、开门、真实的光线变化及可信的环境动态。
+使用平滑的跟拍镜头、广角环境建立镜头、中景人物镜头、越肩构图、缓慢推近、戏剧性的特写，以及最终揭示时的眼睛极近特写。加入自然行走、尾巴运动、眨眼、耳朵运动、细微表情、整理纸张、拿动咖啡、开门、真实的光线变化和可信的环境运动。
 
-营造神秘、情感丰富且略带幽默的企业氛围，带有动画惊悚片或职场冒险的感觉。从始至终保持故事叙述的连贯性与电影感。无对白，无旁白，无字幕
+营造神秘、动人、略带幽默的职场气氛，带有动画惊悚片或办公室冒险的感觉。故事从头到尾保持连续且富有电影感。不要对白、旁白、字幕、变形角色、不一致的人物设计、突兀的风格变化、多余肢体、闪烁、不自然的运动或水印。
+```
+
+## English Prompt
+
+```text
+Create a cinematic, ultra-detailed animated short film following an anthropomorphic orange tabby cat named Marcus as he begins an unexpected journey into the corporate world. Open inside a warm, cozy home where Marcus sits patiently in the living room while his owner leaves through the front door. Show Marcus preparing for his day, wearing a formal white shirt, dark striped tie, business trousers, and carrying a small briefcase.
+
+Transition to Marcus arriving at a massive modern corporate office called Cat Corp. Show an impressive glass-and-steel workplace filled with desks, computer screens, employees, cool blue lighting, and a large illuminated Cat Corp sign. Follow Marcus walking confidently through the office while holding his briefcase and coffee cup, looking slightly serious and determined.
+
+Continue with Marcus sitting at his desk surrounded by paperwork, documents, computers, and office supplies. Introduce a sophisticated white female cat colleague joining him for an important business discussion. Show natural interactions, serious expressions, exchanged documents, and subtle gestures as they work together.
+
+Move into a dramatic executive office where Marcus stands across from a large gray cat boss sitting behind a luxurious desk. Create a tense corporate atmosphere with nighttime city lights visible through the windows. Show Marcus listening carefully before leaving the office with a more determined expression.
+
+Build toward a mysterious ending: Marcus returns home at night, reaches for the door lock, and pauses. Cut to an extreme close-up of his expressive eye reflecting the glowing Cat Corp office, suggesting that something much bigger is about to happen.
+
+Maintain strict character consistency throughout: same orange tabby fur pattern, face, eyes, body proportions, red collar, white shirt, striped tie, and business outfit. Preserve the same visual identity for every character across all scenes.
+
+Use cinematic 3D animation with realistic fur, detailed facial expressions, believable cat anatomy and movement, realistic office environments, dramatic blue-and-warm lighting contrast, atmospheric depth, soft reflections, polished cinematic textures, and premium animated-film quality.
+
+Use smooth tracking shots, wide establishing shots, medium character shots, over-the-shoulder compositions, slow push-ins, dramatic close-ups, and an extreme eye close-up for the final reveal. Include natural walking, tail movement, blinking, ear movement, subtle facial expressions, paper handling, coffee movement, door opening, realistic lighting changes, and believable environmental motion.
+
+Create a mysterious, emotional, slightly humorous corporate atmosphere with the feeling of an animated thriller or workplace adventure. Keep the storytelling continuous and cinematic from beginning to end. No dialogue, no narration, no subtitles, no distorted characters, no inconsistent designs, no sudden style changes, no extra limbs, no flickering, no artificial motion, and no watermark.
 ```
 
 [打开 style.json](../../styles/video-0a64266abe/style.json) · [打开条目目录](../../styles/video-0a64266abe/)

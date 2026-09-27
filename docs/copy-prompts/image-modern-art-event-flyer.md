@@ -12,24 +12,40 @@
 
 可替换内容：`[活动信息]` · `[质量、方向与构图]` · `[严格的布局与输出限制（必填）]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-[活动信息] - 活动名称：Margin and Structure - 日期与时间：2026 年 10 月 12 日 – 11 月 24 日 - 地点：国家现代艺术博物馆 [质量、方向与构图] - 风格：当代艺术展览或现代设计活动海报，采用干净、极简的编辑排版。 - 视觉元素：构图精美的摄影作品，包含几何抽象艺术品或混凝土与玻璃建筑空间，营造出宁静与智慧的氛围。 - 排版位置（适用于 GPT-image / Nano Banana Pro）：活动名称“Margin and Structure”、日期“2026 年 10 月 12 日 – 11 月 24 日”以及地点信息“国家现代艺术博物馆”需使用精致的现代无衬线字体，优美地排布在留白处。文字应与图像和谐共存，且不破坏整体美感。 - 光影与色彩：以干净的白色为主基调，采用冷色调自然光及柔和的光影渐变，配色以中性色为主，辅以点缀色（如海军蓝或深灰色）。 [严格的布局与输出限制（必填）] - 输出成品设计本身，并填满整个画布。设计内部的场景描述（墙壁、空间、阴影等）可遵循主要说明。 - 禁止事项：禁止输出相框中的海报照片、贴在墙上的海报照片、放置在桌面或纸张上的样机照片、纸张边缘的透视变形或投影。 - 输出成品平面 2D 设计本身，并填满整个画布。允许包含上述描述的设计内部场景元素（墙壁、房间、阴影）。绝对禁止任何海报样机效果：禁止画框、禁止墙上海报或桌上海报的拍摄视角、禁止艺术品边缘的透视变形或投影。 - 宽高比：--ar 3:4
+【イベント情報】
+・イベント名: {eventName}
+・開催日時: {date}
+・会場: {venue}
+
+【画質・演出・構図指定】
+・スタイル: 現代美術展や現代デザインイベントのポスター、クリーンでミニマルなエディトリアルレイアウト。
+・ビジュアル要素: 幾何学的で抽象的なアートオブジェ、またはコンクリートやガラスの建築空間を背景にした、静寂と知性を感じさせる美しい実写構成。
+・タイポグラフィの配置（GPT-image / Nano Banana Pro向け）: 画面の余白部分に、{eventName}というイベント名、{date}という日付、{venue}という会場情報が、洗練されたモダンなサンセリフフォントで美しくレイアウトされている。文字が画像全体の美しさを損なわず、調和している。
+・照明・色彩: 白を基調としたクリーンな空間、冷たい自然光とソフトな光のグラデーション、ニュートラルなトーンにアクセントカラー（例：ネイビーやダークグレー）。
+
+【レイアウトおよび出力上の厳格な制約（必須）】
+・完成したデザインそのものを、画面全体いっぱいに出力してください。デザイン内部の背景やシーン描写（壁・空間・影など）は本文の指示に従って構いません。
+・禁止事項：完成ポスターを額縁に入れた写真、壁に貼った状態の写真、机や紙の上に置いたモックアップ写真、紙の縁の遠近の歪みやドロップシャドウ。
+・Output the finished flat 2D design itself, filling the entire canvas. Scene elements inside the design (walls, rooms, shadows) described above are allowed. Absolutely NO photo-of-a-poster mockups: no picture frames, no poster-on-wall or poster-on-desk shots, no perspective warp or drop shadow around the artwork's edges.
+
+・アスペクト比: --ar 3:4
 ```
 
 ## English Prompt
 
 ```text
 [Event Information]
-- Event Name: Margin and Structure
-- Date & Time: October 12 – November 24, 2026
-- Venue: National Museum of Modern Art
+- Event Name: {eventName}
+- Date & Time: {date}
+- Venue: {venue}
 
 [Quality, Direction, and Composition Specifications]
 - Style: A poster for a contemporary art exhibition or modern design event, clean and minimalist editorial layout.
 - Visual Elements: A beautiful live-action composition conveying silence and intelligence, set against geometric abstract art objects or concrete and glass architectural spaces.
-- Typography Placement (For GPT-image / Nano Banana Pro): In the empty margins of the screen, the event name 'Margin and Structure', the date 'October 12 – November 24, 2026', and venue information 'National Museum of Modern Art' are beautifully laid out in a sophisticated, modern sans-serif font. The typography harmonizes without detracting from the beauty of the overall image.
+- Typography Placement (For GPT-image / Nano Banana Pro): In the empty margins of the screen, the event name '{eventName}', the date '{date}', and venue information '{venue}' are beautifully laid out in a sophisticated, modern sans-serif font. The typography harmonizes without detracting from the beauty of the overall image.
 - Lighting & Color: A clean space based on white, cool natural light with soft gradients of light, neutral tones with accent colors (e.g., navy or dark gray).
 
 [Strict Layout and Output Constraints (Required)]

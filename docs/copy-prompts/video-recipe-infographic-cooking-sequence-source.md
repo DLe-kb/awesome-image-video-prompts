@@ -12,7 +12,9 @@
 
 来源：[Oleksa AI（X：`@OleksaFrame`）。](https://x.com/OleksaFrame/status/2097669808800113040)
 
-## 完整 Prompt
+## 生成首段 10 秒
+
+### 完整提示词
 
 ```text
 模型：Gemini Omni 1.1 Flash
@@ -70,7 +72,7 @@
 收尾画面：浓稠、冒泡的红色酱汁铺满最后一帧，并持续冒泡至镜头结束。
 ```
 
-## English Prompt
+### English Prompt
 
 ```text
 MODEL: Gemini Omni 1.1 Flash
@@ -152,91 +154,64 @@ sound: dense tomato pour transitioning into wet clustered bubbling.
 exit: the thick bubbling red surface fills the final frame; bubbling continues across the extension.
 ```
 
-## 来源记录（与使用版不同）
+## 续写后段 10 秒
+
+### 完整提示词
 
 ```text
-阶段一：首段 10 秒
+模型：Gemini Omni 1.1 Flash
 
-MODEL: Gemini Omni 1.1 Flash
+参考素材：
+@Video1 = 正在续写的前 10 秒视频。它决定确切的起始画面、煎锅位置、已经收浓的酱汁液面、厨房台面、光照方向、色彩分级、镜头风格和烹饪声音基调。
 
-SHOT STRUCTURE: 5 shots, 10 seconds, vertical 9:16, exactly as listed.
+镜头结构：严格按下列清单制作 5 个新镜头、10 秒、竖屏 9:16。
 
-REFS:
+连续性：
+直接从 @Video1 最后一帧冒泡的酱汁开始。延续同一只煎锅、厨房、柔和窗光、调色、画面运动方向与大画幅胶片质感。保持收浓后酱汁的高度与所有可见食材的状态。
 
-@Image1 = visual storyboard reference. It controls the cooking order, black cast-iron skillet, ingredients, finished-dish styling, dark surfaces, and soft window-lit food photography. Convert its picture panels into fresh full-frame live-action cooking shots.
+画面内容锁定：
+每一帧仅包含烹饪过程、食物、厨具、自然的人手与厨房台面。实拍影像填满整个 9:16 画面。所有表面保持干净、没有文字。字幕、标题、步骤编号、标志、水印、图形叠加、界面元素与原始海报的网格都不能出现在生成视频中。
 
-VISUAL CONTENT LOCK:
+音频内容锁定：
+音轨仅包含与动作同步的厨房拟音及安静的室内底噪：酱汁冒泡、勺子按压、蛋壳破裂、锅盖接触、蒸汽逸出、菲达奶酪碎落、香草落下、面包接触台面，以及柔和的煎锅滋滋声。不得有人声对白、旁白、歌声或音乐。
 
-Every frame contains only food, cookware, ingredients, natural hands, and kitchen surfaces. Live-action cooking imagery fills the entire 9:16 frame. All surfaces remain clean and unlettered. The source poster’s typography, grid, headings, step numbers, captions, logos, and graphic elements remain reference metadata outside the generated video.
+镜头 1（0–2 秒）——压出凹槽
+相机：从冒泡酱汁的表面后拉，转为锁定的俯拍近景。
+画面动作：浓稠酱汁稍稍静下来，木勺在其中压出四个间距均匀的凹槽。
+声音：木勺划过浓酱的湿润声音，下方伴随轻微冒泡声。
+收尾：最后一个凹槽在画面中央成形。
+（匹配剪辑至下一镜头）
 
-AUDIO CONTENT LOCK:
+镜头 2（2–4 秒）——打入鸡蛋
+相机：微距四分之三插入镜头，轻微向前推。
+画面动作：一个鸡蛋打入中央凹槽；三个快速的动作衔接剪辑将其余鸡蛋分别放入剩下的凹槽。所有蛋黄保持完整。
+声音：四次清晰不同的蛋壳破裂声、鸡蛋轻触酱汁的声音，以及持续的煎锅滋滋声。
+收尾：最后一片蛋壳抬起，同时玻璃锅盖落下。
+（动作衔接剪辑至下一镜头）
 
-The soundtrack consists exclusively of synchronized cooking sounds and quiet kitchen room tone. Close dry chopping, oil pouring, pan sizzling, wooden-spoon movement, vegetables landing, tomato pouring, bubbling sauce, and soft steam. Spoken voices, narration, vocals, and music remain outside the soundtrack.
+镜头 3（4–6 秒）——盖锅并查看
+相机：中景四分之三视角，随着锅盖抬起转成俯拍。
+画面动作：玻璃锅盖盖在煎锅上，冷凝水逐渐铺开。一次简洁的烹饪时间跳切之后，随着锅盖掀开，露出凝固的蛋白与仍然光亮柔软的蛋黄。
+声音：玻璃与铸铁轻碰、锅盖下闷闷的煨煮声，随后短促的蒸汽逸出声。
+收尾：逸出的蒸汽填满上方明亮的画面。
+（借明亮画面快速转至下一镜头）
 
-GLOBAL LOOK:
+镜头 4（6–8 秒）——完成并上桌
+相机：俯拍微距，转入低机位侧向滑动。
+画面动作：手指在蛋黄之间撒下细碎柔滑的菲达奶酪，鲜香草落在酱汁上，一只手以连贯的收尾动作将温热的硬皮面包放在煎锅旁。
+声音：干爽的奶酪碎落声、轻细的香草沙沙声、面包轻碰石材台面的声音。
+收尾：侧向滑动的镜头揭示完整的煎锅。
+（连续拍摄，无剪辑）
 
-70mm large-format film aesthetic, fine organic grain, broad dynamic range, deep food detail, soft highlight roll-off, restrained anamorphic character. Vertical 9:16 composition with the food, cookware, and hands inside the central safe area. Soft diffused daylight enters from camera-left through a white curtain; pale stone counters return gentle fill. Saturated tomato red contrasts with black cast iron and warm neutral kitchen surfaces. Preserve realistic steam, oil flow, translucent onion, red-pepper texture, spice granules, sauce bubbles, and natural hand movement.
+镜头 5（8–10 秒）——成品
+相机：稳定在四分之三主视觉构图，仅以几乎不可察觉的速度向前推进并保持。
+画面动作：完成的北非蛋轻柔冒泡；蒸汽在窗光中盘旋，金色蛋黄仍完整，菲达奶酪与香草自然地散落，硬皮面包衬托着煎锅。
+声音：柔和的酱汁冒泡声、隐约的煎锅滋滋声、安静的厨房底噪在最后一帧自然淡出。
+```
 
-SHOT 1 (0–1.5s) — Finished-dish hook
+### English Prompt
 
-camera: three-quarter close hero view, quick smooth push toward the skillet.
-
-action_visual: finished shakshuka bubbles gently beside crusty bread; steam crosses the soft window light.
-
-sound: close bubbling sauce and faint skillet sizzle.
-
-exit: the circular skillet rim fills the frame.
-
-(MATCH CUT TO)
-
-SHOT 2 (1.5–3.5s) — Prepare ingredients
-
-camera: locked overhead medium shot.
-
-action_visual: hands finish dicing onion and slicing red pepper, then arrange minced garlic, spices, tomatoes, eggs, feta, and herbs in small bowls.
-
-sound: clean knife rhythm, cutting-board taps, bowls touching the stone counter.
-
-exit: one hand lifts an olive-oil bottle.
-
-(CUTTING ON ACTION TO)
-
-SHOT 3 (3.5–5.5s) — Heat oil and sauté onion
-
-camera: macro three-quarter insert shifting into an overhead close shot.
-
-action_visual: golden olive oil pours into the black skillet; diced onion follows immediately and a wooden spoon stirs through the rising sizzle.
-
-sound: smooth oil pour followed by a sharp fresh sizzle and dry wooden scraping.
-
-exit: the spoon sweeps screen-right.
-
-(MATCH ON MOVEMENT TO)
-
-SHOT 4 (5.5–7.5s) — Add pepper, garlic, and spices
-
-camera: overhead close shot with a subtle push-in.
-
-action_visual: red pepper strips fall into the softened onion, followed by minced garlic, cumin, smoked paprika, and chili flakes. The spoon folds everything together in one continuous action.
-
-sound: vegetables landing, brighter pan sizzle, granular spices brushing the skillet.
-
-exit: paprika-red oil spreads beneath the spoon.
-
-(CUT TO)
-
-SHOT 5 (7.5–10s) — Add tomatoes and simmer
-
-camera: low three-quarter close view, short dolly back.
-
-action_visual: crushed tomatoes pour into the skillet. A clean cooking-time jump reveals the sauce bubbling, reducing, and becoming visibly thicker.
-
-sound: dense tomato pour transitioning into wet clustered bubbling.
-
-exit: the thick bubbling red surface fills the final frame; bubbling continues across the extension.
-
-阶段二：续写 10 秒
-
+```text
 MODEL: Gemini Omni 1.1 Flash
 
 REFS:

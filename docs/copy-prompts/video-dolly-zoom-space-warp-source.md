@@ -14,34 +14,16 @@
 
 可替换内容：`[主体]` · `[重复出现的背景元素]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-摄像机沿直线轨道从距离主体[6]米处实际向前移动至[2.5]米，同时镜头视场角从[18]度连续扩大至[84]度，两种运动必须在同一段完全同步的匀滑变化中完成。整个过程中，[主体]头部在画面中的尺寸必须严格保持不变；其身后的背景应明显拉伸、延长并向纵深退去，[重复出现的背景元素]逐渐远离。镜头高度保持固定，不得横摇、俯仰或出现手持漂移；轨道前移与镜头变焦必须同时开始、同时结束。
+摄像机沿直线轨道从距离主体[6]米处实际向前移动至[2.5]米，同时镜头视场角从[18]度连续扩大至[84]度，两种运动必须在同一段完全同步的匀滑变化中完成。整个过程中，主体头部在画面中的尺寸必须严格保持不变；其身后的背景应明显拉伸、延长并向纵深退去，[重复出现的背景元素]逐渐远离。镜头高度保持固定，不得横摇、俯仰或出现手持漂移；轨道前移与镜头变焦必须同时开始、同时结束。
 ```
 
 ## English Prompt
 
 ```text
 The camera physically dollies forward from [6] meters to [2.5] meters while the lens simultaneously zooms out from [18] to [84] degrees field of view, in one continuous, perfectly synchronized ramp. The subject's head size stays EXACTLY constant in frame the entire time; the background behind them visibly stretches, elongates and recedes into depth, [the repeating background elements] pulling away. Constant lens height, no pan, no tilt, no handheld drift; the two motions start and end together.
-```
-
-## 来源记录（与使用版不同）
-
-```text
-## 原始英文提示词
-
-The camera physically dollies forward from [6] meters to [2.5] meters while the lens simultaneously zooms out from [18] to [84] degrees field of view, in one continuous, perfectly synchronized ramp. The subject's head size stays EXACTLY constant in frame the entire time; the background behind them visibly stretches, elongates and recedes into depth, [the repeating background elements] pulling away. Constant lens height, no pan, no tilt, no handheld drift; the two motions start and end together.
-
-## 中文使用版
-
-摄像机沿直线轨道从距离主体[6]米处实际向前移动至[2.5]米，同时镜头视场角从[18]度连续扩大至[84]度，两种运动必须在同一段完全同步的匀滑变化中完成。整个过程中，主体头部在画面中的尺寸必须严格保持不变；其身后的背景应明显拉伸、延长并向纵深退去，[重复出现的背景元素]逐渐远离。镜头高度保持固定，不得横摇、俯仰或出现手持漂移；轨道前移与镜头变焦必须同时开始、同时结束。
-
-## 变量
-
-- `[6]`、`[2.5]`：摄像机起始与结束距离，可按场景尺度调整。
-- `[18]`、`[84]`：起始与结束视场角。
-- `[the repeating background elements]` / `[重复出现的背景元素]`：用于强化空间拉伸感的走廊、灯带、柱列等元素。
 ```
 
 [打开 style.json](../../styles/video-dolly-zoom-space-warp-source/style.json) · [打开条目目录](../../styles/video-dolly-zoom-space-warp-source/)

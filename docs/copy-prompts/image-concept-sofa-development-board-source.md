@@ -10,7 +10,7 @@
 
 来源：[@ShamsAmin56](https://x.com/ShamsAmin56/status/2050281206139461780)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 设计理念：Crumple Chair 核心理念：将扔纸球的“受控混乱”转化为雕塑般的高舒适度座椅体验。

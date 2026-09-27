@@ -14,7 +14,7 @@
 
 可替换内容：`[焦平面 A：远处锚点]` · `[焦平面 B：近处主体]` · `[最终主体构图]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 摄像机严格锁定在三脚架上，不得横摇、俯仰、向前推进或产生漂移；唯一的光学变化是焦点。首先保持[焦平面 A：远处锚点]清晰，然后只进行一次焦点转移，将清晰焦点缓慢移至[焦平面 B：近处主体]；如果主体继续向镜头移动，则跟随主体持续对焦。转焦速度缓慢、平滑且连续，不得来回搜焦或越过焦点；跟焦过程中不得出现明显呼吸效应。构图始终不变，任何时刻只能有一个焦平面清晰，另一个应融入干净的散景。主体在画面中变大只能来自其真实靠近镜头。结尾稳定对焦于[最终主体构图]，远处焦平面在其后方化为柔和散景。
@@ -24,24 +24,6 @@
 
 ```text
 The camera hard-locked on a tripod with no pan, no tilt, no push, no drift; the only optical change is FOCUS. Hold sharp on [plane A — the far anchor]; then rack once to [plane B — the near subject]; then follow focus on the subject if they move toward the lens. Speed: the rack is slow, smooth and continuous with no hunting and no overshoot; the follow focus tracks without breathing. Framing: the composition never changes; exactly one plane is sharp at any moment, the other melts into clean bokeh; the subject grows in frame only by physically approaching the lens. End: settle sharp on [the final subject framing], the far plane dissolved to soft bokeh behind.
-```
-
-## 来源记录（与使用版不同）
-
-```text
-## 原始英文提示词
-
-The camera hard-locked on a tripod with no pan, no tilt, no push, no drift; the only optical change is FOCUS. Hold sharp on [plane A — the far anchor]; then rack once to [plane B — the near subject]; then follow focus on the subject if they move toward the lens. Speed: the rack is slow, smooth and continuous with no hunting and no overshoot; the follow focus tracks without breathing. Framing: the composition never changes; exactly one plane is sharp at any moment, the other melts into clean bokeh; the subject grows in frame only by physically approaching the lens. End: settle sharp on [the final subject framing], the far plane dissolved to soft bokeh behind.
-
-## 中文使用版
-
-摄像机严格锁定在三脚架上，不得横摇、俯仰、向前推进或产生漂移；唯一的光学变化是焦点。首先保持[焦平面 A：远处锚点]清晰，然后只进行一次焦点转移，将清晰焦点缓慢移至[焦平面 B：近处主体]；如果主体继续向镜头移动，则跟随主体持续对焦。转焦速度缓慢、平滑且连续，不得来回搜焦或越过焦点；跟焦过程中不得出现明显呼吸效应。构图始终不变，任何时刻只能有一个焦平面清晰，另一个应融入干净的散景。主体在画面中变大只能来自其真实靠近镜头。结尾稳定对焦于[最终主体构图]，远处焦平面在其后方化为柔和散景。
-
-## 变量
-
-- `[plane A — the far anchor]` / `[焦平面 A：远处锚点]`：镜头开始时清晰的远景对象。
-- `[plane B — the near subject]` / `[焦平面 B：近处主体]`：转焦后的近景主体。
-- `[the final subject framing]` / `[最终主体构图]`：结尾需要保持清晰的主体画面。
 ```
 
 [打开 style.json](../../styles/video-rack-focus-foreground-background-source/style.json) · [打开条目目录](../../styles/video-rack-focus-foreground-background-source/)

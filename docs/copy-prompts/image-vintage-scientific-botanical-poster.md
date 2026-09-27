@@ -10,7 +10,7 @@
 
 来源：[@AlexAImaginator](https://x.com/TraffAlex/status/2095583733264879803)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 一张印在米色纸张上的科学植物学海报。画面中心是一朵巨大的 勿忘我 水彩画，包含根部，茎和花瓣上带有细小的编号标签。顶部为斜体衬线字体标题："FORGET-ME-NOT"。副标题："A FIELD PLATE"。底部："PLATE VII · 1887"。边缘处有铅笔笔记。米色、靛蓝色、绿色，2:3 纵横比。

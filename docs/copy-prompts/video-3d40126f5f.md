@@ -12,130 +12,195 @@
 
 来源：[@BMX / YouMind](https://x.com/bmx_ai13/status/2101593507232387096)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 30 秒像素风 90 年代复古文字游戏概念
 
-0–3 秒 — 钩子
-黑色 CRT 屏幕。静电闪烁。突然，霓虹粉/紫色像素图形启动。
-大号粗体像素文字：
+0–3 秒——开场钩子
+黑色 CRT 屏幕，静电闪烁。霓虹粉色和紫色的像素图形突然启动。
+大而厚重的像素文字显示：
+“CAN YOU GUESS THE 90s?”
+出现一道五字母谜题。
+第一次猜测：MUSIC。
+方块快速翻转：⬛ 🟨 🟩 ⬛ 🟩。
+播放复古街机“哔哔轰”的音效。
 
-“你能猜出 90 年代吗？”
+3–8 秒——快速玩法
+玩家在厚重的像素键盘上迅速输入另一个单词。
+每个字母方块翻转时都发出令人满足的街机音效。
+猜对的字母爆开成亮绿色像素；猜错的字母抖动并发生故障闪烁。
+顶部界面显示：
+STREAK ×7
+LEVEL 12
+XP +50
+背景像一间 1990 年代街机卧室：CRT 辉光、卡带、软盘、棋盘格图案和霓虹几何形状。
 
-出现一个 5 字母谜题。
+8–13 秒——90 年代单词挑战
+屏幕故障闪烁后显示“90s WORD PILE”。
+单词快速闪现：VHS、DISCO、RADIO、PIXEL、ARCADE。
+接着出现一个新的神秘单词：_ _ _ _ _。
+倒计时：10… 9… 8…。
+玩家开始快速输入。
 
-第一次猜测：MUSIC
-方块快速翻转 — ⬛ 🟨 🟩 ⬛ 🟩
+13–18 秒——险些失败
+猜测：GAMES。
+只有两个字母变绿。
+计时器显示：3… 2…。
+屏幕开始闪红。
+玩家在最后一秒改动一个字母。
+显示 GAME?，最后一个字母落下。
 
-复古街机 beep-beep-boom 音效。
-3–8 秒 — 快节奏玩法
-玩家使用粗体像素键盘快速输入另一个单词。
+18–22 秒——高潮反馈
+五个方块依次全部翻成绿色：P — I — X — E — L。
+发生巨大的像素爆炸，CRT 屏幕震动，复古彩纸屑充满屏幕。
+文字显示：PERFECT!、STREAK ×8、+250 XP。
 
-每个字母方块翻转时伴有令人满足的街机音效。
+22–27 秒——成长钩子
+快速玩法蒙太奇：解锁一套新的霓虹主题；弹出“90s KID”徽章；职业地图从 LEVEL 12 前进到 LEVEL 13；再解锁名为 MALL NIGHT 的主题。所有画面转为青色、品红色和紫色霓虹。
 
-正确的字母爆炸成亮绿色像素。
-错误的字母抖动并产生故障效果。
+27–30 秒——重玩钩子
+一道全新谜题立刻出现：_ _ _ _ _。
+小字显示：“ONE MORE WORD?”，光标开始闪烁。
+随后显示 PRESS START，切到 CRT 静电画面。
 
-顶部 UI：
+视觉方向
+做成真正的复古像素游戏画面，不要写实 3D，也不要皮克斯风格。使用低分辨率像素图形、受 8 位与 16 位游戏启发的厚重字体、霓虹青色/品红/紫色/绿色配色、CRT 扫描线、VHS 故障效果、棋盘格图案、街机界面、像素粒子、方块翻转动画和老派音效。
 
-连胜 ×7
-等级 12
-经验值 +50
+视频应像一款失落的 1990 年代街机文字游戏为现代手机玩法重新制作：节奏快、反馈爽快且容易让人沉迷。
 
-背景感觉像是 1990 年代的街机卧室：CRT 光晕、磁带、软盘、棋盘格图案和霓虹几何形状。
+不要照片级写实、3D 冒险角色、电影式环境、动漫风、现代光滑界面或写实的虚幻引擎视觉效果。
 
-8–13 秒 — 90 年代文字挑战
-屏幕故障切换至：
+最佳开场钩子：“CAN YOU GUESS THE 90s?”
+```
 
-“90 年代词汇堆”
-单词快速闪现：
+## English Prompt
+
+```text
+30 Second Pixel 90s Retro Word Game Concept
+
+0–3 sec — Hook
+Black CRT screen. Static flicker. Suddenly neon pink/purple pixel graphics boot up.
+Big chunky pixel text:
+
+“CAN YOU GUESS THE 90s?”
+
+A 5-letter puzzle appears.
+
+First guess: MUSIC
+Tiles rapidly flip — ⬛ 🟨 🟩 ⬛ 🟩
+
+Retro arcade beep-beep-boom sound.
+3–8 sec — Fast Gameplay
+Player quickly types another word using a chunky pixel keyboard.
+
+Each letter tile flips with satisfying arcade sounds.
+
+Correct letters explode into bright green pixels.
+Wrong letters shake and glitch.
+
+Top UI:
+
+STREAK ×7
+ LEVEL 12
+ XP +50
+
+Background feels like a 1990s arcade bedroom: CRT glow, cassette tapes, floppy disks, checkerboard patterns and neon geometric shapes.
+
+8–13 sec — 90s Word Challenge
+Screen glitches into:
+
+“90s WORD PILE”
+Words flash quickly:
 VHS
  DISCO
  RADIO
  PIXEL
  ARCADE
 
-然后出现一个新的神秘单词：
+Then a new mystery word appears:
 
 _ _ _ _ _
-倒计时：
+Countdown:
 
 10… 9… 8…
 
-玩家开始快速打字。
+Player starts typing fast.
 
-13–18 秒 — 险些失败
-猜测：
+13–18 sec — Almost Fail
+Guess:
 GAMES
-只有两个字母变绿。
-计时器：
+Only two letters turn green.
+Timer:
 3… 2…
 
-屏幕开始闪烁红光。
+Screen begins flashing red.
 
-玩家在最后一秒更改了一个字母。
+The player changes one letter at the last second.
+
 GAME?
 
-最后一个字母落下。
+Final letter drops in.
 
-18–22 秒 — 重大回报
-所有五个方块依次翻转为绿色。
+18–22 sec — BIG PAYOFF
+All five tiles flip GREEN one after another.
 
 P — I — X — E — L
-巨大的像素爆炸。
+Huge pixel explosion.
 
-CRT 屏幕震动。
+CRT screen shakes.
 
-复古彩纸填满屏幕。
+Retro confetti fills the screen.
 
-文字：
-完美！
+Text:
 
-连胜 ×8
+PERFECT!
 
-+250 经验值
+STREAK ×8
 
-22–27 秒 — 进度钩子
-快速游戏玩法蒙太奇：
++250 XP
 
-解锁新的霓虹主题。
+22–27 sec — Progression Hook
+Rapid gameplay montage:
 
-徽章弹出：
-“90 年代小孩”
+Unlock a new neon theme.
 
-职业地图推进：
+Badge pops:
+“90s KID”
 
-等级 12 → 等级 13
+Career map advances:
 
-另一个主题解锁：
+LEVEL 12 → LEVEL 13
 
-商场之夜
+Another theme unlocks:
 
-一切变为青色、品红色和紫色霓虹。
+MALL NIGHT
 
-27–30 秒 — 重玩钩子
-一个全新的谜题立即出现。
+Everything changes to cyan, magenta and purple neon.
+
+27–30 sec — Replay Hook
+A brand-new puzzle instantly appears.
 
 _ _ _ _ _
-小字：
 
-“再来一个词？”
-光标开始闪烁。
+Small text:
 
-然后：
-按开始键
-切回 CRT 静电画面。
-视觉方向
+“ONE MORE WORD?”
+Cursor starts blinking.
 
-制作真正的复古像素游戏画面，而不是逼真的 3D 或皮克斯风格。使用低分辨率像素图形、粗体 8/16 位风格字体、霓虹青/品红/紫/绿调色板、CRT 扫描线、VHS 风格故障、棋盘格图案、街机 UI、像素粒子、方块翻转动画和老式音效。
+Then:
+PRESS START
+Cut to CRT static.
+Visual direction
 
-视频应感觉像是一款失落的 1990 年代街机文字游戏，专为现代移动游戏玩法重建——快速、令人满足且上瘾。
+Make it true retro pixel-game footage, not realistic 3D and not Pixar. Use low-resolution pixel graphics, chunky 8/16-bit-inspired typography, neon cyan/magenta/purple/green palettes, CRT scanlines, VHS-style glitches, checkerboard patterns, arcade UI, pixel particles, tile-flip animations and old-school sound effects.
 
-无照片级真实感，无 3D 冒险角色，无电影化环境，无动漫，无现代光泽 UI，无逼真的虚幻引擎视觉效果。
+The video should feel like a lost 1990s arcade word game rebuilt for modern mobile gameplay—fast, satisfying and addictive.
 
-最佳开场钩子：
- “你能猜出 90 年代吗？”
+No photorealism, no 3D adventure character, no cinematic environments, no anime, no modern glossy UI, no realistic Unreal Engine visuals.
+
+Best opening hook:
+ “CAN YOU GUESS THE 90s?”
 ```
 
 [打开 style.json](../../styles/video-3d40126f5f/style.json) · [打开条目目录](../../styles/video-3d40126f5f/)

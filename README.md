@@ -114,11 +114,11 @@ Use the [case index](docs/CATALOG.md) to browse by title or the [visual gallery]
 
 ## Individual JSON entries
 
-The library has 118 cases, 92 of which include both a complete Chinese prompt and an English prompt in the same JSON file under [styles/](styles/). The former 40 linked pairs have been merged; 25 distinct source records remain in the same files as `sourcePrompt`. Four cases have no external source; four others link only to author profiles. Source media does not prove that an edited prompt regenerated the same result.
+The library has 118 cases, each with a complete prompt and an English version in a single JSON file under [styles/](styles/). The original language is preserved when it is Chinese or Japanese; English originals have a Chinese translation. Two video workflows retain their separate generation stages, each with both language versions. Four cases have no external source; four others link only to author profiles. Source media does not prove that an edited or translated prompt regenerated the same result.
 
 ```text
 styles/<slug>/
-  style.json       Complete prompt, English prompt, source, and category
+  style.json       Original-language/Chinese and English prompts, source, and category; workflows retain steps
   preview.jpg      Image preview or video poster (required; some use WebP)
   thumbnail.jpg    Fixed-size README preview (generated for gallery cards)
   sample.mp4       Playable clip (required for video)

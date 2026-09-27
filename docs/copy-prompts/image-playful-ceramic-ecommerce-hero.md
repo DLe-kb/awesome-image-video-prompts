@@ -12,7 +12,7 @@
 
 可替换内容：`[brandName]` · `[productType]` · `[collectionName]` · `[ctaText]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 创建一张 16:9 横版电商首页主视觉，品牌名为“{brandName}”，主打产品为 `{productType}`，系列名为“{collectionName}”。整体采用极简编辑式网页布局与趣味角色化产品渲染。

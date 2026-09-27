@@ -10,39 +10,145 @@
 
 来源：[@MahnoorAi12](https://x.com/MahnoorAi12/status/2092221482139349307)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-为每张上传的照片创建单独的 4:3 横向橡皮图章旅行笔记海报。切勿合并照片。将左侧真实的原始照片（约 58%）融合到右侧温暖的旧纸田野笔记区域（约 42%）中，没有明显的分隔线。
+橡皮章旅行田野笔记海报——自然写实版
 
-保留照片可识别的主题、视角、地形、建筑、人物、空间关系、自然光、阴影、纹理和氛围。只允许自然裁剪和微妙的编辑平衡、柔和的高光、克制的色彩和非常精细的胶片颗粒。请勿拉伸、移动、替换、重新设计或重新绘制主要主题；避免 HDR 和人工清晰度。
+为我上传的每张照片分别制作一张“橡皮章旅行田野笔记海报”。每张照片单独输出，绝不拼贴或合并多张照片。
 
-右侧是可信的哑光灰白色笔记本纸，具有微妙的纤维、细小的纹理、微弱的处理痕迹和大量的未印刷空间。在其中下区域，放置一个紧凑的、不完美的多色橡皮图章印记，占据纸张高度的 30-38% 左右。研究照片并仅减少其最容易识别的建筑、轮廓、地形、海岸线或道路方向、植被、聚落层以及一两个关键前景形状。清除人群、汽车、重复的窗户、密集的建筑物、微小的植被和杂乱的装饰。它必须看起来是实体雕刻和压印的，而不是像微型数字插图。
+采用 4:3 横向构图，左侧原始照片与右侧旧纸田野笔记区域之间自然过渡，不添加明显的分割线。
 
-从照片中提取 2-4 种受限制的专色，例如炭黑、深绿色、柔和的砖色、赭色、石板蓝、灰褐色或其他自然合适的颜色。渲染单独的物理墨水层，压力略有不均匀、微小间隙、干燥区域、纸张透过、粗糙的雕刻边缘、不规则的线条粗细、轮廓断裂、颗粒状墨水、微弱的重影和轻微的自然重影。避免平滑矢量、渐变、​​完美对齐或夸张的痛苦。
+左侧——原始照片
 
-根据实际位置仅添加安静的字段注释文本：英文位置名称、数字、三个简短的英文关键字和公历年份。使用小型低调打字机或带有轻微机械不规则性的档案排版。正确拼写所有文本；没有口号、品牌、旅游短语、装饰性引言或多余的文案。
+左侧约占画面 58%。
 
-整体感觉：一张真实的旅行照片，贴在建筑师笔记本上手工制作的野外印章旁边；触觉的、记录的、内敛的、具有收藏价值的，而且天生不完美。避免分割线、圆形密封、邮资边框、蜡封、贴纸、纪念卡模板、卡通、3D 渲染、塑料纹理、光泽渐变、过度饱和度、密集文本、装饰杂乱以及对源照片的更改。
+保持上传照片的真实性与可辨识度。保留原有主体、视角、地形、建筑、植物、人物、空间关系、自然光、阴影、纹理与整体氛围。
+
+不要重新设计或重新诠释照片。
+
+只做非常轻微的编辑式照片处理：柔和的明暗平衡、克制的调色、略微柔化的高光，以及极细微的自然胶片颗粒。它仍应像一张在现场拍摄的真实照片，而不是 AI 生成的图像。
+
+如需适配 4:3 版式，可以自然裁切，但不要拉伸、扭曲、移动、替换或重绘主要主体。
+
+避免过度锐化、HDR 效果、人为增强的清晰度、电影式调色或过分完美的细节。
+
+右侧——旧纸田野笔记
+
+右侧约占画面 42%。
+
+使用暖调米白、略显陈旧且具有可信物理质感的纸张。加入极细微的纸纤维、细颗粒、隐约的翻阅痕迹和哑光表面。
+
+让大片区域完全留白。
+
+纸张应像建筑师旅行笔记本或田野日志中的真实一页，而不是设计好的海报背景。
+
+避免过重的污渍、装饰性纹理、复古滤镜或人造做旧效果。
+
+小橡皮章
+
+研究上传的照片，只找出少数几个使该地点一眼可辨的视觉特征。
+
+将这些特征简化成一枚小巧、不完美的多色橡皮章印迹。
+
+不要逐个元素复制照片。
+
+大胆简化，只保留最有意义的视觉关系：
+
+- 独特的建筑及轮廓
+- 重要的屋顶、塔楼、穹顶、拱门或结构形状
+- 山体或地形轮廓
+- 海岸线或道路的走向
+- 少量可辨识的树木或植被形态
+- 简化的聚落层次
+- 在视觉上确实重要的一两个前景形状
+
+去除人群、车辆、密集窗户、重复的建筑、细小植被、装饰品及无关紧要的背景细节。
+
+成品应该像旅行者真的能刻在一枚小橡皮章上的图案，而不是整张照片的微缩插画。
+
+将印章放在右侧纸张区域的中下部，高度约为右侧区域的 30–38%。
+
+在其四周保留充足的纸张留白。
+
+不要将它放大成一幅大插画。
+
+印章色彩与印刷特征
+
+从原始照片中自然提取约 2–4 种低饱和专色。
+
+可能的颜色包括：
+
+- 炭黑
+- 深绿
+- 砖红或暗红
+- 赭黄
+- 石板蓝
+- 灰褐或泥土棕
+
+如果照片呈现不同的克制色板，不要强行使用上述颜色。
+
+每种颜色都应表现为独立的实体油墨层。
+
+让印迹真正具有手工感：
+
+- 略不均匀的施压力度
+- 油墨中的细小空隙
+- 局部干印
+- 透出的纸面
+- 粗糙的雕刻边缘
+- 不规则的线条粗细
+- 轮廓上的小断口
+- 颗粒状油墨质感
+- 微弱的重影
+- 色层轻微而自然的套印偏差
+- 细微的边缘变化
+
+这些不完美之处要小而可信，仿佛印章确实是手压在纸上的。
+
+避免完美对齐的数字图层、光滑的矢量边缘、干净的渐变或刻意夸张的破损。
+
+印章应像实体印制的，而不是数字插画。
+
+田野笔记排版
+
+只根据照片中真实的地点和画面生成少量文字：
+
+Location——英文地点名称
+No.——编号
+三个简短的英文关键词
+公历年份
+
+把文字放在印章下方或旁边的留白中。
+
+采用小字号、低调的打字机或档案田野笔记风格。
+
+文字应有极轻微的机械式不规则感，如同旧笔记本上的打字或印刷。
+
+保持安静克制，在视觉上从属于照片。
+
+地点名称及所有单词必须拼写正确。
+
+不要添加标语、品牌、旅游套话、装饰性引言或多余文字。
+
+整体写实感
+
+成品应像真实旅行照片被装裱在建筑师私人笔记本的一页上，旁边印有一枚小型手工地点印章。
+
+优先考虑细腻的物理真实感，而非视觉上的完美。
+
+照片始终是最强的视觉元素。
+
+印章应像是从照片中提取的一小块记忆，而不是第二幅插画。
+
+使用克制的对比度、自然瑕疵、可信的纸张纹理及稍有偏差的印刷。
+
+最终效果应安静、可触、纪实、值得收藏，并且真正具有手作感。
+
+避免：明显的分割线、圆形印鉴、邮票边框、齿孔、火漆封印、贴纸版式、旅游纪念卡设计、通用旅行模板、光滑的矢量标志、精致的数字插画、卡通造型、3D 渲染、塑料质感、光泽渐变、过度饱和、HDR 效果、过多文字、装饰堆砌、过分整齐的几何形态、完美对齐的油墨层、密集的微缩建筑，以及任何对原始照片的改动或重绘。
 ```
 
 ## English Prompt
-
-```text
-Create a separate 4:3 landscape Rubber Stamp Travel Field Notes Poster for each uploaded photo. Never combine photos. Blend the authentic original photograph on the left (about 58%) into a warm aged-paper field-note area on the right (about 42%) without an obvious divider.
-
-Preserve the photograph's recognizable subject, perspective, terrain, architecture, people, spatial relationships, natural light, shadows, textures, and atmosphere. Allow only natural cropping and subtle editorial balancing, softened highlights, restrained color, and very fine film grain. Do not stretch, move, replace, redesign, or redraw the main subject; avoid HDR and artificial clarity.
-
-The right side is believable matte off-white notebook paper with subtle fibers, fine grain, faint handling marks, and generous unprinted space. In its lower-middle area, place a compact imperfect multi-color rubber-stamp impression occupying about 30–38% of the paper height. Study the photo and reduce only its most recognizable architecture, silhouette, terrain, shoreline or road direction, vegetation, settlement layers, and one or two key foreground shapes. Remove crowds, cars, repetitive windows, dense buildings, tiny vegetation, and decorative clutter. It must look physically carved and stamped, not like a miniature digital illustration.
-
-Extract 2–4 restrained spot colors from the photo, such as carbon black, deep green, muted brick, ochre, slate blue, taupe, or other naturally appropriate colors. Render separate physical ink layers with slightly uneven pressure, tiny gaps, dry areas, paper showing through, rough carved edges, irregular line thickness, contour breaks, granular ink, faint ghosting, and slight natural misregistration. Avoid smooth vectors, gradients, perfect alignment, or exaggerated distress.
-
-Add only quiet field-note text based on the actual location: English location name, a number, three short English keywords, and Gregorian year. Use small understated typewriter or archival typography with slight mechanical irregularity. Spell all text correctly; no slogans, brands, tourist phrases, decorative quotes, or excess copy.
-
-Overall feel: a real travel photograph mounted beside a handmade field stamp in an architect's notebook; tactile, documentary, restrained, collectible, and naturally imperfect. Avoid dividing lines, circular seals, postage borders, wax seals, stickers, souvenir-card templates, cartoons, 3D rendering, plastic texture, glossy gradients, excess saturation, dense text, decorative clutter, and alteration of the source photo.
-```
-
-## 来源记录（与使用版不同）
 
 ```text
 Rubber Stamp Travel Field Notes Poster — Natural Realism Version

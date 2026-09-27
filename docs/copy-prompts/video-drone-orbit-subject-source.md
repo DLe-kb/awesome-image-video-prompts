@@ -14,35 +14,16 @@
 
 可替换内容：`[主体]` · `[右侧]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-无人机围绕[主体]进行平滑、匀速的圆周飞行：环绕半径为[8]米，高度为[4]米，向画面[右侧]移动，从上方俯视为顺时针方向，整个镜头覆盖约[200]度的弧线。地平线在主体身后持续旋转；不得改变高度、漂移环绕半径、变焦或使用速度渐变。
+无人机围绕主体进行平滑、匀速的圆周飞行：环绕半径为[8]米，高度为[4]米，向画面[右侧]移动，从上方俯视为顺时针方向，整个镜头覆盖约[200]度的弧线。地平线在主体身后持续旋转；不得改变高度、漂移环绕半径、变焦或使用速度渐变。
 ```
 
 ## English Prompt
 
 ```text
-A smooth constant-speed circular drone flight around the [subject] — [8]-meter radius, [4]-meter altitude, traveling screen-[right] (clockwise seen from above), covering roughly a [200]-degree arc across the shot. The horizon rotates continuously behind the subject; no altitude change, no radius drift, no zoom, no speed ramps.
-```
-
-## 来源记录（与使用版不同）
-
-```text
-## 原始英文提示词
-
 A smooth constant-speed circular drone flight around the subject — [8]-meter radius, [4]-meter altitude, traveling screen-[right] (clockwise seen from above), covering roughly a [200]-degree arc across the shot. The horizon rotates continuously behind the subject; no altitude change, no radius drift, no zoom, no speed ramps.
-
-## 中文使用版
-
-无人机围绕主体进行平滑、匀速的圆周飞行：环绕半径为[8]米，高度为[4]米，向画面[右侧]移动，从上方俯视为顺时针方向，整个镜头覆盖约[200]度的弧线。地平线在主体身后持续旋转；不得改变高度、漂移环绕半径、变焦或使用速度渐变。
-
-## 变量
-
-- `[8]`：环绕半径。
-- `[4]`：飞行高度。
-- `[right]` / `[右侧]`：画面运动方向，改变时应同步调整顺逆时针说明。
-- `[200]`：镜头覆盖的环绕角度。
 ```
 
 [打开 style.json](../../styles/video-drone-orbit-subject-source/style.json) · [打开条目目录](../../styles/video-drone-orbit-subject-source/)

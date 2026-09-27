@@ -3,8 +3,14 @@
   "$id": "https://github.com/dingle-kb/awesome-image-video-prompts/blob/main/schemas/style.schema.json",
   "title": "Image and video prompt style",
   "type": "object",
-  "required": ["style_version", "style_slug", "kind", "type", "title", "category", "summary", "prompt", "preview"],
+  "required": ["style_version", "style_slug", "kind", "type", "title", "category", "summary", "preview"],
   "allOf": [
+    {
+      "oneOf": [
+        { "required": ["prompt", "promptEn"], "not": { "required": ["workflow"] } },
+        { "required": ["workflow"], "not": { "anyOf": [{ "required": ["prompt"] }, { "required": ["promptEn"] }] } }
+      ]
+    },
     {
       "if": { "properties": { "kind": { "const": "video" } }, "required": ["kind"] },
       "then": { "required": ["sample"] }
@@ -23,10 +29,21 @@
     "category": { "type": "string", "minLength": 1 },
     "summary": { "type": "string", "minLength": 1 },
     "prompt": { "type": "string", "minLength": 1 },
-    "promptEn": { "type": "string" },
+    "promptEn": { "type": "string", "minLength": 1 },
+    "workflow": {
+      "type": "array", "minItems": 2,
+      "items": {
+        "type": "object", "required": ["title", "prompt", "promptEn"],
+        "properties": {
+          "title": { "type": "string", "minLength": 1 },
+          "prompt": { "type": "string", "minLength": 1 },
+          "promptEn": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    },
     "preview": { "type": "string" },
     "sample": { "type": "string" },
-    "sourcePrompt": { "type": "string" },
     "example": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "inputs": { "type": "array", "items": { "type": "string" } },
     "tags": { "type": "array", "items": { "type": "string" } },
@@ -39,5 +56,6 @@
         "linkType": { "enum": ["post", "profile"] }
       }
     }
-  }
+  },
+  "not": { "anyOf": [{ "required": ["sourcePrompt"] }, { "required": ["sourcePrompts"] }] }
 }

@@ -12,7 +12,7 @@
 
 可替换内容：`[worldSetting]` · `[battleLocation]` · `[playerClass]` · `[bossName]` · `[lightingCondition]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 创建一张 16:9 电影级第三人称动作角色扮演游戏截图，世界设定为 `{worldSetting}`，战斗地点为 `{battleLocation}`。

@@ -106,7 +106,7 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 | --- | --- | --- |
 | **来源案例** | 68 个生图、46 个生视频；媒体、完整 Prompt、作者与来源链接 | 其中 4 个只提供作者主页，不能当作具体作品链接 |
 | **来源待核实** | 4 个生图案例仅有生成记录 | 暂不将其称为原创或已有外部来源 |
-| **中英双语 Prompt** | 67 套生图、25 套生视频；中文与英文都在同一个案例文件 | 其中 4 套只有作者主页链接；25 条另保留不同的来源记录 |
+| **双版本 Prompt** | 118 个案例均有英文版；原语言为中文、英文或日文 | 其中 2 个视频工作流按步骤分别提供两版；来源核实程度因案例而异 |
 
 首屏拼贴中，前四张来源待核实；后两张保留来源链接。
 
@@ -114,11 +114,11 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 
 ## 独立 JSON 条目
 
-本库覆盖 118 个案例，其中 92 个同时有中文完整 Prompt 和英文 Prompt；每个案例只保留一份 JSON，存放在 [styles/](styles/)。原先 40 组双文件已合并；25 条与英文使用版不同的来源文本仍保存在同一文件的 `sourcePrompt` 字段。4 个案例尚无外部来源，另 4 个仅有作者主页。画面与样片属于来源案例，不能据此认定改写后的 Prompt 已重新生成同样结果。
+本库覆盖 118 个案例，每个案例只保留一份 JSON，存放在 [styles/](styles/)。每段提示词提供“完整提示词”和“English Prompt”；原文为英文时，前者为中文译文。2 个视频工作流保留独立的生成阶段，每个阶段分别提供两版。4 个案例尚无外部来源，另 4 个仅有作者主页。画面与样片属于来源案例，不能据此认定整理或翻译后的 Prompt 已重新生成同样结果。
 
 ```text
 styles/<名称>/
-  style.json       完整 Prompt、英文 Prompt、来源和分类
+  style.json       原语言／中文译文、英文 Prompt、来源和分类；工作流按步骤存储
   preview.jpg      图像预览或视频封面（必需；部分使用 WebP）
   thumbnail.jpg    README 等尺寸缩略图（画廊生成）
   sample.mp4       可播放视频样片（生视频必需）

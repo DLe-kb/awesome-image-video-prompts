@@ -12,59 +12,28 @@
 
 来源：[X `@MrLarus`；原帖发布日期：2026-07-12。作者称这是一次用 ChatGPT、Image2、Seedance、AI 配音与字幕制作的秦统一中国解说实验。](https://x.com/MrLarus/status/2076328854315032641)
 
-## 完整 Prompt
+## 制作拼贴关键帧
+
+### 完整提示词
 
 ```text
-## 输入卡
+为历史知识解说视频创建一幅竖版 9:16 的百科风格拼贴关键帧。
 
-` ` `text
-主题：[要解释的问题]
-目标观众：[观众已有认知]
-结论：[观众看完要理解的一句话]
-时长与画幅：[约 45 秒，9:16；可根据配音改动]
-可核查依据：[可靠来源及逐条事实]
-视觉元素：[地图 / 档案 / 人物 / 器物 / 数据]
-禁止误写的名称、数字与边界：[清单]
-旁白语言：[中文 / 英文 / 其他]
-` ` `
+主题：[单镜主题]
 
-## 1. 先拆叙事，不直接生视频
+风格：
+Vox 风格解说、剪贴簿拼贴、剪纸、层叠贴纸、撕纸、胶带、标签、地图、箭头、物件卡片、人物 / 建筑 / 文物、白色剪纸边缘、粗轮廓、纸张阴影、半色调纹理、旧纸颗粒、中国历史拼贴。
 
-将输入卡交给脚本助手，要求它输出九条分镜记录：`镜号、唯一事实命题、依据、5 秒以内的口播草稿、一个主视觉、最多三类辅助视觉、一个具体动画事件、画面文字、转场关系`。按“主角或问题 → 原有格局 → 转折 → 四个机制或证据 → 系统归纳 → 影响”排列。若事实不足，先停下查证，不编造地图、数字、引语或因果关系。
+重要要求：
+让画面像一页内容密集的历史参考资料，而不是干净的海报。
+使用大量可运动的视觉元素：人物、地图、钱币、文字、道路、印章、卡片、标签和小道具。
+让每个物件以剪纸边缘清晰分开，以便后续制作动画。
 
-## 2. 为每镜制作关键帧
-
-对每条分镜单独填入以下图像提示。此处主动收紧了作者原文“密集资料页”的要求，以便手机阅读；需要更贴近来源的表达，参见原文文件。
-
-` ` `text
-制作 9:16 的编辑式知识解说拼贴关键帧，主题：[本镜事实命题]。
-画面像一页可以活动的百科资料：纸张、剪纸白边、轻微纸影、地图、档案、器物和标签属于同一套视觉语言。
-主视觉：[一个清晰可辨的主体]；辅助元素：[最多 2-4 个相关物件]；空间关系：[前景/背景及阅读顺序]。
-为箭头、路线、贴纸或印章预留可发生动作的位置；所有物件边界清楚，主体不能被标签压住。
-沿用全片的色彩与纸张质感，但每镜只有一个主要结论。关键名称和数字留空位供后期精确覆字。
-避免写实 3D、企业演示文稿、无意义装饰、文字乱码与未经证实的地图细节。
-` ` `
-
-## 3. 每镜图生视频
-
-输入该镜已核查的关键帧。下面是项目适配的运动约束，并非作者实际逐镜提交的完整提示词。
-
-` ` `text
-以提供的参考图为唯一视觉基础，生成约 5 秒的 9:16 无声纸片拼贴动画。
-保持主体、地图与重要轮廓稳定。只让选定物件发生分步、可理解的局部动作：
-[主要事件，例如路线从 A 延伸到 B]；[辅助事件，例如两个节点依次亮起]。
-可有轻微纸张抖动、贴纸弹入或印章落下，但不要让整张图漂浮，也不要把纸片变成写实视频。
-保持为后期字幕和术语留出的区域清楚；不要生成新文字、虚构标签或改写地图边界。
-` ` `
-
-## 4. 组合与检查
-
-以旁白节奏为基准剪辑各段，后期加入校对过的术语、字幕和有使用权的音乐。逐镜检查“事实与画面一致、主要视觉一眼可读、动作有解释意义、文字无误、人物与地图不漂移、转场不打断逻辑”。来源样片中的“战国七雄 / SIX STATES”数量冲突尤其说明：画面生成后还必须逐项校对，不能只看整体氛围。
+避免：
+3D 渲染、照片级写实、整洁的企业海报、空白背景、单一主视觉主体、PPT 排版。
 ```
 
-## Image2 关键帧
-
-[原作者内容](https://x.com/MrLarus/status/2076329766261522741)
+### English Prompt
 
 ```text
 Create a vertical 9:16 encyclopedia-style collage keyframe for a history explainer video.
@@ -73,7 +42,7 @@ Topic: [scene topic]
 
 Style:
 
-Vox-style explainer, scrapbook collage, paper cutout, layered stickers, torn paper, tape, labels, maps, arrows, object cards,人物 / buildings / artifacts, white cutout edges, thick outlines, paper shadows, halftone texture, old paper grain, Chinese historical collage.
+Vox-style explainer, scrapbook collage, paper cutout, layered stickers, torn paper, tape, labels, maps, arrows, object cards, people / buildings / artifacts, white cutout edges, thick outlines, paper shadows, halftone texture, old paper grain, Chinese historical collage.
 
 Important:
 
@@ -88,9 +57,30 @@ Avoid:
 3D render, photorealism, clean corporate poster, empty background, one single hero object, PPT layout.
 ```
 
-## Seedance 视频
+## 生成纸片拼贴动画
 
-[原作者内容](https://x.com/MrLarus/status/2076330068331122881)
+### 完整提示词
+
+```text
+只以参考图作为视觉基础。
+
+生成一段 5 秒、竖版 9:16、无声的纸片拼贴动画。
+不要音乐、音效、配音或字幕。
+
+保持剪贴簿 / 剪纸 / 定格拼贴风格。
+为分离的剪纸元素制作动画，而不是让整张图一起运动。
+
+运动方式：
+纸张轻微抖动、贴纸弹跳、阶梯式定格运动、箭头移动、路线延伸、地图节点亮起、钱币旋转、标签卡入位置、印章盖下、纸边颤动、小物件沿清楚的路径位移。
+
+每个场景都应发生一件小事，而不是只有柔和的漂浮运动。
+
+保持主要构图和重要文字稳定。
+不要变成写实视频。
+不要做成 PPT 方块在画面中滑动。
+```
+
+### English Prompt
 
 ```text
 Use the reference image as the only visual base.

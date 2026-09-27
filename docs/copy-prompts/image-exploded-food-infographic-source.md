@@ -10,7 +10,7 @@
 
 来源：[@Strength04_X](https://x.com/Strength04_X/status/2056018963084226866)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 创建超写实的塔可（Taco）爆炸分解式竖版信息图。

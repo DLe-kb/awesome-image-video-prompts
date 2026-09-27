@@ -12,7 +12,7 @@
 
 可替换内容：`[cityDistrict]` · `[heroSubject]` · `[screenColorA]` · `[screenColorB]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 创建一张 4:5 竖版蓝调时刻城市街头摄影，地点为 `{cityDistrict}`。一块包裹高层建筑转角的弧形 LED 巨幕占据画面上方三分之二，屏幕中的 `{heroSubject}` 以摩天楼尺度呈现，并通过身体、手臂或物体越过屏幕边缘的透视关系，形成逼真的裸眼三维广告错觉。

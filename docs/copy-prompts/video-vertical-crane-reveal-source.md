@@ -14,33 +14,16 @@
 
 可替换内容：`[主体]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-整个镜头中，摄像机通过摇臂从 1.2 米高度平滑升至 9 米，同时持续轻柔向下俯仰，使[主体]始终固定在画面下三分之一位置，周围及上方的空间逐步展开。不得进行横向环绕、轨道侧移、变焦或速度渐变；使用一次连续的垂直揭示运动，并在高位缓慢减速后稳定停留。
+整个镜头中，摄像机通过摇臂从[1.2]米高度平滑升至[9]米，同时持续轻柔向下俯仰，使主体始终固定在画面[下三分之一]位置，周围及上方的空间逐步展开。不得进行横向环绕、轨道侧移、变焦或速度渐变；使用一次连续的垂直揭示运动，并在高位缓慢减速后稳定停留。
 ```
 
 ## English Prompt
 
 ```text
-A smooth jib rise from 1.2 meters to 9 meters altitude over the shot, with a gentle continuous downward tilt that keeps the [subject] anchored in the lower third of frame as the world opens above and around them. No lateral orbit, no truck, no zoom, no speed ramps; one continuous vertical reveal easing into a high hold.
-```
-
-## 来源记录（与使用版不同）
-
-```text
-## 原始英文提示词
-
 A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a gentle continuous downward tilt that keeps the subject anchored in [the lower third] of frame as the world opens above and around them. No lateral orbit, no truck, no zoom, no speed ramps; one continuous vertical reveal easing into a high hold.
-
-## 中文使用版
-
-整个镜头中，摄像机通过摇臂从[1.2]米高度平滑升至[9]米，同时持续轻柔向下俯仰，使主体始终固定在画面[下三分之一]位置，周围及上方的空间逐步展开。不得进行横向环绕、轨道侧移、变焦或速度渐变；使用一次连续的垂直揭示运动，并在高位缓慢减速后稳定停留。
-
-## 变量
-
-- `[1.2]`、`[9]`：摄像机起始与结束高度。
-- `[the lower third]` / `[下三分之一]`：主体在构图中的锚定区域，可按画面目的调整。
 ```
 
 [打开 style.json](../../styles/video-vertical-crane-reveal-source/style.json) · [打开条目目录](../../styles/video-vertical-crane-reveal-source/)

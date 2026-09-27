@@ -73,6 +73,7 @@ dialog::backdrop { background: #132018b3; }
 .detail-media > img, .detail-media > video { width: 100%; max-height: 76dvh; object-fit: contain; }
 .detail-copy { min-width: 0; padding: 32px 35px 36px; }
 .detail-copy h2 { margin: 9px 36px 10px 0; font-size: 24px; line-height: 1.35; }
+.detail-copy .workflow-step { margin: 28px 0 8px; padding-top: 16px; border-top: 1px solid #d6dfdb; font-size: 16px; line-height: 1.4; }
 .detail-copy .summary { color: #53675a; font-size: 14px; line-height: 1.6; }
 .detail-spec { margin: 15px 0; color: #67796c; font-size: 12px; }
 .attribution { color: #526458; font-size: 13px; }

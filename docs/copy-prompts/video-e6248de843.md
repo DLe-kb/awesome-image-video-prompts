@@ -12,33 +12,62 @@
 
 来源：[@Noor / YouMind](https://x.com/noorlewisx/status/2101902128986075593)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-一部具有电影感和写实风格的短片，主角是一位留着波浪状及肩深色头发的年轻东亚女性，展现她匆忙且疲惫的日常作息。采用柔和的大地色调，略带颗粒感的 35mm 胶片质感，自然光线，手持摄影，营造出安静而忧郁的氛围。
+拍摄一段具有电影感、写实风格的短片，讲述一位留着及肩波浪深色头发的年轻东亚女性忙碌而疲惫的一天。采用克制的大地色调、带轻微颗粒的 35mm 胶片质感、自然光和手持摄影，营造安静而忧郁的情绪。
 
-镜头序列：
-- 特写：放在磨损大理石床头柜上的智能手机，显示时间为 06:50 AM。
-- 她穿着碎花睡衣惊醒，双眼圆睁，头发凌乱。
-- 在昏暗的瓷砖浴室里洗脸，湿发垂下。
-- 黑暗空旷的走廊。
-- 伸手从拥挤的冰箱中取出一个容器。
-- 一边吃三明治，一边套上绿红相间的连帽衫。
-- 穿上灰色 New Balance 运动鞋。
-- 背着米色背包走在昏暗的走廊里。
-- 带有运动模糊效果的拥挤地铁车厢。
-- 站在列车上看手机。
-- 走上长长的瓷砖地铁楼梯。
-- 换上白色纽扣衬衫。
-- 在开放式办公室用笔记本电脑工作到深夜。
-- 特写：杂乱的电子表格。
-- 远景：夜晚黑暗空荡的办公室；她是最后离开的人。
-- 走出空荡荡的办公室。
-- 精疲力竭地倒在床上。
-- 穿着睡衣侧身入睡。
-- 最终黑屏：“18:50 AM”。
+镜头顺序：
+- 特写：磨损的大理石床头柜上的智能手机显示上午 06:50。
+- 她穿着花纹睡衣猛然醒来，眼睛睁大，头发凌乱。
+- 她在昏暗的瓷砖浴室洗脸，湿发垂下。
+- 昏暗空荡的走廊。
+- 她伸手到塞满东西的冰箱中取一个容器。
+- 她一边吃三明治，一边穿上一件绿色与栗色相间的连帽衫。
+- 她穿上灰色 New Balance 运动鞋。
+- 她背着米色双肩包走过昏暗的走廊。
+- 拥挤的地铁车厢，带有运动模糊。
+- 她站在列车里看手机。
+- 她走上一段很长的瓷砖地铁楼梯。
+- 她换上白色纽扣衬衫。
+- 她在开放式办公室里对着笔记本电脑工作到很晚。
+- 特写：一张杂乱的电子表格。
+- 广角：夜晚昏暗空荡的办公室，她是最后留下的人。
+- 她穿过空办公室离开。
+- 她疲惫地倒在床上。
+- 她穿着睡衣侧身入睡。
+- 最后出现黑屏，文字写着“18:50 AM”。
 
-风格：扎实的纪录片质感，自然的皮肤纹理，充满生活气息的空间，16:9 画幅，24fps，电影级调色。
+风格：扎根现实的纪录片质感、自然的皮肤纹理、有生活痕迹的空间、16:9、24 fps、电影感调色。
+```
+
+## English Prompt
+
+```text
+A cinematic, realistic short film of a young East Asian woman with wavy shoulder-length dark hair living a rushed, exhausted daily routine. Muted earthy tones, slightly grainy 35mm film look, natural lighting, handheld camera, quiet and melancholic mood.
+
+Shot sequence:
+- Close-up of a smartphone on a worn marble nightstand showing 06:50 AM.
+- She jolts awake in floral pajamas, eyes wide, messy hair.
+- Washing her face in a dim tiled bathroom, wet hair hanging down.
+- Dark empty hallway.
+- Reaching into a crowded fridge for a container.
+- Eating a sandwich while throwing on a green-and-maroon hoodie.
+- Putting on grey New Balance sneakers.
+- Walking down a dim hallway with a beige backpack.
+- Crowded subway car with motion blur.
+- Standing on the train looking at her phone.
+- Walking up a long tiled subway staircase.
+- Changing into a white button-down shirt.
+- Working late on a laptop in an open office.
+- Close-up of a messy spreadsheet.
+- Wide shot of a dark empty office at night; she is the last one there.
+- Walking out through the empty office.
+- Collapsing onto her bed exhausted.
+- Sleeping on her side in pajamas.
+- Final black screen: “18:50 AM”.
+
+Style: grounded documentary feel, natural skin texture, lived-in spaces, 16:9, 24fps, cinematic color grade.
 ```
 
 [打开 style.json](../../styles/video-e6248de843/style.json) · [打开条目目录](../../styles/video-e6248de843/)

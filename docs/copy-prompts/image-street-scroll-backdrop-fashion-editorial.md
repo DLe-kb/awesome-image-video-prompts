@@ -12,7 +12,7 @@
 
 可替换内容：`[subjectDescription]` · `[backdropColor]` · `[patternDescription]` · `[outfitDescription]` · `[skyColor]` · `[heroGarmentColor]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 创建一张竖版全身时尚广告摄影。人物 `{subjectDescription}` 居中站在一条空旷城市街道上，身后悬挂一张从高处垂落并铺到脚下的巨型手工卷轴布景。布景使用 `{backdropColor}` 与 `{patternDescription}`，像一个便携摄影棚被放进真实街道。

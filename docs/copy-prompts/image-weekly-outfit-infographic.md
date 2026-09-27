@@ -10,7 +10,7 @@
 
 来源：[@yyyole](https://x.com/yyyole)（作者主页）
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 {

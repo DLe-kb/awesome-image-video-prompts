@@ -12,10 +12,16 @@
 
 来源：[@Ayat / YouMind](https://x.com/aiwithaayat/status/2102331859657253174)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-创建一个电影感、逼真的教育视频，场景设定在现代大学物理实验室内。一位自信的男性物理教授手持咖啡杯和笔记本走进教室，学生们在大讲堂中专注地坐着。随后场景切换到一个动手操作的物理实验环节，教授与一组学生聚集在一个透明的倾斜轨道周围。一个小金属球被小心地放置在轨道上，清晰地展示了运动、重力、加速度和能量。展示透明轨道、金属球、近距离观察的学生以及教授用自然手势指导实验的详细特写镜头。使用平滑的摄像机移动、逼真的景深、自然的面部表情和真实的课堂互动，使实验感觉引人入胜且可信。包含具有柔和室内照明和透过大窗户进入的温暖阳光的电影级实验室灯光。最后以教授在黄金时刻的光线下在实验桌前工作结束，周围环绕着科学设备，营造出一种深思熟虑且鼓舞人心的学术氛围。
+创作一段设在现代大学物理实验室中的电影感写实教育视频。一位自信的男性物理教授手持咖啡杯和笔记本走进教室，学生们专注地坐在大型阶梯教室里。场景随后转到动手物理实验：教授和一组学生围在一条透明的倾斜轨道周围。将一枚小金属球小心地放在轨道上，清楚地演示运动、重力、加速度与能量。展示透明轨道、金属球、近距离观察的学生，以及教授以自然手势指导实验的细节特写。使用平滑的镜头运动、真实景深、自然的面部表情和可信的师生互动，让实验引人入胜且真实。实验室布光具有电影感，室内光线柔和，温暖日光从大窗户照入。结尾时教授在金色时段的光线下于实验台工作，身边环绕科学器材，营造沉思且鼓舞人的学术氛围。
+```
+
+## English Prompt
+
+```text
+Create a cinematic, realistic educational video set inside a modern university physics laboratory. A confident male physics professor walks into the classroom carrying a coffee cup and a notebook, while students sit attentively in a large lecture hall. The scene then transitions to a hands-on physics experiment where the professor and a group of students gather around a transparent inclined track. A small metallic ball is carefully placed on the track, creating a clear visual demonstration of motion, gravity, acceleration, and energy. Show detailed close-up shots of the transparent rail, metal ball, students observing closely, and the professor guiding the experiment with natural hand movements. Use smooth camera movements, realistic depth of field, natural facial expressions, and authentic classroom interactions to make the experiment feel engaging and believable. Include cinematic laboratory lighting with soft indoor illumination and warm sunlight entering through large windows. End with the professor working at a laboratory table during golden-hour lighting, surrounded by scientific equipment, creating a thoughtful and inspiring academic atmosphere.
 ```
 
 [打开 style.json](../../styles/video-8f1bbd26f7/style.json) · [打开条目目录](../../styles/video-8f1bbd26f7/)

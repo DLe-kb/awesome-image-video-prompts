@@ -14,7 +14,7 @@
 
 可替换内容：`[互动道具：一叠书]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 基于 `@Image1`创作一段 15 秒的写实风格温馨电影感视频。保持女性的面部特征、发型、开衫、首饰、身体比例、卧室、床、书籍、台灯、墙面装饰、灯光及整体构图完全一致。
@@ -46,22 +46,6 @@ Create a photorealistic, cozy 15-second cinematic video from this exact image. P
 12–15 sec: She looks directly toward the camera, smiles mischievously, and says softly, “That was close.” She places the book safely beside her.
 
 Natural human movement, realistic reaction timing, believable hand and finger movements, accurate interaction with the book, subtle hair movement, realistic cardigan fabric, natural facial expressions, cozy afternoon bedroom atmosphere, soft cinematic lighting, shallow depth of field, gentle handheld camera feel. The falling book must move naturally with gravity and be caught realistically. No exaggerated acting, no sudden camera movements, no extra people, no face changes, no outfit changes, no distorted hands, no object morphing.
-```
-
-## 来源记录（与使用版不同）
-
-```text
-基于此图片创作一段 15 秒的写实风格温馨电影感视频。保持女性的面部特征、发型、开衫、首饰、身体比例、卧室、床、书籍、台灯、墙面装饰、灯光及整体构图完全一致。
-
-- 0-4 秒：她舒适地坐在床上，看向镜头，表情柔和放松。她自然地眨眼和呼吸，随后看向身旁的一叠书。
-- 4-7 秒：她伸手去拿那一叠书，轻轻抽出其中一本。就在这时，另一本书突然从书堆中滑落，向地面掉去。
-- 7-10 秒：她反应迅速，身体前倾并伸手去接那本掉落的书。她在书落地前成功将其接住。
-- 10-12 秒：她坐回原位，拿着书，带着一丝惊讶的表情看着它，随后发出轻微的笑声。
-- 12-15 秒：她直视镜头，调皮地笑了笑，轻声说道：“好险。”随后将书稳妥地放在身旁。
-
-要求：自然的人类动作、逼真的反应时机、可信的手指动作、与书籍准确的交互、细微的发丝摆动、真实的开衫质感、自然的表情、温馨的午后卧室氛围、柔和的电影级灯光、浅景深效果、轻微的手持摄像机感。掉落的书籍必须符合重力规律，接书动作要真实。
-
-禁止夸张表演、禁止突兀的镜头移动、禁止出现其他人物、禁止面部变化、禁止服装变化、禁止手部畸变、禁止物体变形。
 ```
 
 [打开 style.json](../../styles/video-bedroom-falling-book-catch-source/style.json) · [打开条目目录](../../styles/video-bedroom-falling-book-catch-source/)

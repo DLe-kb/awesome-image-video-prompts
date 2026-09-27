@@ -10,7 +10,13 @@
 
 来源：[@一枚卓子（创意来源：aliailab）](https://www.douyin.com/video/7631071260739646650)
 
-## 完整 Prompt
+## 完整提示词
+
+```text
+提升肖像画质，同时严格保持人物身份和准确的面部几何结构。不要改变人物的表情或脸型。只允许细微修整面部细节，不得使人物变得不像本人。参考图的背景必须完全相同：不得替换、改动、添加新物体或改变布局。环境看起来必须与原图一致。重新制作后的图像应如同使用 Sony A1 相机和 85mm f1.4 镜头拍摄，拍摄参数为 f1.6、ISO 100、1/200 秒快门。
+```
+
+## English Prompt
 
 ```text
 Enhance the portrait while strictly preserving the subject's identity with accurate facial geometry. Do not change their expression or face shape. Only allow subtle feature cleanup without altering who they are. Keep the exact same background from the reference image. No replacements, no changes, no new objects, no layout shifts. The environment must look identical. The image must be recreated as if it was shot on a Sony A1, using an 85mm f1.4 lens, at f1.6, ISO 100, 1/200 shutter speed

@@ -12,7 +12,7 @@
 
 来源：[@Condz / YouMind](https://x.com/condzxyz/status/2093032563400987056)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 一句话总结：橡皮泥定格动画短片。深夜的小阁楼里，一个年轻的黏土创业者有了一个做app的点子，书桌上那个小小的银色黏土方盒（一台迷你电脑主机）的盖子像玩具箱一样打开，一群小机器人帮手爬出来，自动完成设计、写代码、画图标、测试和上线，让他只专注于最有趣的创意部分。app上线的那一刻，窗外整座黏土城市亮起来。30秒，多机位剪辑，无对白无旁白，全程拟音音效驱动，结尾出现黏土字幕。
@@ -37,9 +37,39 @@
 
 镜头7（25s-30s）结尾。切回阁楼桌面，机器人们向创业者挥手，一个接一个爬回梯子钻进方盒，梯子缩回去，顶盖一步一步合上。<倒放的爬梯脚步声> <盖子合上的轻柔"咔哒"> 创业者在后景虚化，双手抱头靠在椅背上，眉毛放松。镜头缓慢分步推近至银色方盒的英雄特写，暖色背光勾勒轮廓，底部绿光轻柔呼吸。方盒顶部的黏土字母像积木一样一个个从盖子上凸起成形，先是【meet the new Mac mini】，停顿一下，再在前方凸起一行较小的【made for builders】。<字母逐个凸起的软"啵"声> <一声温暖的余韵音，然后归于安静> 末状态：方盒居中，两行字幕清晰可读，定格保持1秒。
 
-灯光：主光是书桌上一盏黏土台灯的暖黄光，从左上方打下，硬边阴影，在银色方盒的圆角上留下柔和高光。窗外冷蓝色月光作为逆光 and 补光。方盒亮起后，底部的薄荷绿光成为第三个光源，映在创业者的眼镜上。镜头6城市亮起时，橙色窗光逐渐盖过蓝色月光。轻微的定格式亮度闪烁。三层色彩：基底为深蓝夜色与炭灰纸板，主体为灰色连帽衫的创业者和银色哑光方盒，点缀色为薄荷绿底光和橙色彗星与窗光。
+灯光：主光是书桌上一盏黏土台灯的暖黄光，从左上方打下，硬边阴影，在银色方盒的圆角上留下柔和高光。窗外冷蓝色月光作为逆光和补光。方盒亮起后，底部的薄荷绿光成为第三个光源，映在创业者的眼镜上。镜头6城市亮起时，橙色窗光逐渐盖过蓝色月光。轻微的定格式亮度闪烁。三层色彩：基底为深蓝夜色与炭灰纸板，主体为灰色连帽衫的创业者和银色哑光方盒，点缀色为薄荷绿底光和橙色彗星与窗光。
 
 全程保持：每个镜头只有一种机位行为，镜头之间硬切。所有运动分步、无平滑过渡。创业者、银色方盒、机器人和彗星的外形、颜色、大小全程一致。音频全程只有拟音音效和轻微的环境底噪。无对白、无旁白、无人声、无背景音乐。除结尾两行黏土字幕外，无任何文字、无品牌标志、无水印。
+```
+
+## English Prompt
+
+```text
+One-sentence summary: A clay stop-motion animated short. Late at night in a little attic, a young clay entrepreneur has an idea for an app. The lid of the small silver clay cube on his desk (a miniature computer) opens like a toy chest. A team of tiny robot assistants climbs out and automatically handles design, coding, icon drawing, testing, and launch, leaving him to focus only on the most enjoyable creative part. The moment the app goes live, the entire clay city outside his window lights up. Thirty seconds, edited from multiple camera positions, no dialogue or narration, driven throughout by Foley sound effects, with clay lettering appearing at the end.
+
+Core concept (as if explaining it to a ten-year-old): A group of little helpers lives inside this small cube. You have an idea and press a button; they crawl out and do all the troublesome work. You only need to think of the coolest thing.
+
+Style: Authentic handmade stop-motion texture, stepped movement at 12 frames per second rather than smooth interpolation. Communicate expressions through tiny movements of eyebrows and shoulders. Visible fingerprints and seams on the clay. Miniature set built from felt, corrugated cardboard, matchstick furniture, and cotton clouds. Shallow-depth-of-field tilt-shift look. Give each shot one clear camera behavior and use hard cuts when changing camera positions. Forbidden: photographic realism, glossy 3D CGI, any brand logos, watermarks, or text other than the specified lettering at the end.
+
+Characters and props: The entrepreneur is a tall, thin clay young man with messy brown hair, large round glasses, a gray hoodie, and thick expressive eyebrows. The computer is a palm-sized matte-silver clay cube with rounded corners, a small round button on the front, and a thin seam around its base. A tiny clay monitor stands beside it. The assistants are thumb-sized white clay robots with round heads, one antenna, and two thin legs; each holds a different tool: a paintbrush, tiny keyboard, magnifying glass, small stamp, or little horn. The app mascot is a smiling orange comet.
+
+Shot 1 (0–4s), setup. Extreme wide shot, front-facing symmetrical composition. A miniature attic late at night: sloping roof, small window, and a blue-black cardboard city silhouette beyond it. The entrepreneur sits at a small desk piled with crooked towers of clay sticky notes. The silver cube stands quietly beside the monitor. He stares at a blank piece of clay paper, eyebrows knotted. <Faint hum of the distant city> <Paper rubbing> Suddenly a yellow clay lightbulb bulges into shape above his head one step at a time; his eyebrows jump up. <A crisp "ding"> End state: he looks toward the silver cube.
+
+Shot 2 (4–8s), activation. Cut to a low angle at tabletop height. The silver cube occupies the lower foreground, with the entrepreneur blurred behind it. His finger reaches into frame and presses the little round button on the cube's front. <Mechanical "click"> The thin seam at the base glows mint green; rack focus from his face to the cube. Its top lid opens step by step like a toy chest. <Lid popping open> A tiny matchstick ladder extends from inside to the desk. Robots climb out one after another, line up on the tabletop, and raise their tools in unison. <Wooden creak as ladder extends> <Tiny footsteps on the ladder> <Tools clinking> End state: six robots face the camera in a row, the lid remains open, and light reflects in the entrepreneur's glasses in the background.
+
+Shot 3 (8–12s), automatic building. Cut to a straight-down overhead shot; the desktop resembles a game board. At a very fast stepped pace, robots assemble colorful thin clay sheets into neat rows of app interface elements: buttons, lists, and one large blank circle reserved for the icon. Another robot sits atop the cube typing on a miniature keyboard. A curling ribbon of clay code keeps growing from the cube's seam and spirals around the desk. <Rapid keyboard tapping> <Clay sheets snapping together> End state: interfaces are neatly laid out across the desk and the code ribbon has made one loop.
+
+Shot 4 (12–16s), he makes the fun part. Cut to a macro close-up with shallow depth of field. The entrepreneur holds a small piece of clay and slowly sculpts an orange comet, then presses in two eyes and a smiling mouth with his fingertip. <Soft clay kneading> <Two gentle taps> A paintbrush-carrying robot stands on tiptoe beside his hand to watch, antenna trembling with excitement. Rack focus from the comet to the robot's face and back. End state: the comet is complete and he places it inside the blank circle on the interface. <A perfectly fitting "click">
+
+Shot 5 (16–20s), automatic testing. Cut to a sideways tracking shot; the camera moves slowly to the right in stop-motion steps across three workstations. The first robot examines the interface on the monitor through a magnifying glass, notices a crooked button, and pushes it straight with a finger. The second swipes a miniature clay phone as the comet bounces around its screen. The third raises a small stamp and slams it onto a piece of clay paper. <Glass rubbing against the magnifier> <Button clicking into position> <Soft swiping rustle> <Stamp thudding> End state: all three robots give the entrepreneur a thumbs-up at once.
+
+Shot 6 (20–25s), launch. Cut back to the front-facing composition. The entrepreneur takes a deep breath, raises his shoulders, and slaps a large red clay button on the desk with his palm. <Dull thud of the button> The green glow under the cube brightens sharply and the monitor flashes white. <Rising "ding"> The camera begins a slow pullback, flies through the small window, and exits the attic. In the blue-black cardboard city, small windows light up orange one by one; inside each is a miniature clay screen where the smiling comet bounces. Points of light spread outward from the attic across the whole city like ripples. <Successive "pop" sounds as windows light, growing denser> <Warm chorus-like hum building> End state: extreme wide shot, the entire city illuminated, with the attic window in the center.
+
+Shot 7 (25–30s), ending. Cut back to the attic desk. The robots wave to the entrepreneur, climb the ladder one by one, and return to the cube. The ladder retracts and the lid closes step by step. <Footsteps climbing in reverse> <Soft "click" of the lid> The entrepreneur is blurred behind, leaning back with both hands behind his head and relaxed eyebrows. The camera advances slowly in steps to a hero close-up of the silver cube. Warm backlight traces its edges while the green base light breathes gently. Clay letters protrude from the top of the cube one by one like building blocks: first 【meet the new Mac mini】, then after a pause a smaller line in front reading 【made for builders】. <Soft "pop" for each emerging letter> <One warm lingering note, then silence> End state: the cube is centered, both lines of text are clearly legible, and the frame freezes for one second.
+
+Lighting: The key light is the warm yellow glow of a clay desk lamp from the upper left, making hard-edged shadows and gentle highlights on the rounded silver cube. Cold blue moonlight through the window serves as backlight and fill. Once the cube turns on, its mint-green base glow becomes a third light source, reflected in the entrepreneur's glasses. As the city lights up in shot 6, orange window light gradually overtakes the blue moonlight. Add slight stop-motion brightness flicker. Three color layers: a base of deep-blue night and charcoal cardboard; the entrepreneur in a gray hoodie and matte-silver cube as main subjects; mint-green base light and the orange comet and window light as accents.
+
+Maintain throughout: only one camera behavior in each shot, with hard cuts between shots. All movement must be stepped, with no smooth transitions. Keep the entrepreneur, silver cube, robots, and comet consistent in shape, color, and size throughout. Audio consists solely of Foley sounds and a faint ambient bed. No dialogue, narration, human voices, or background music. No text other than the two clay-letter lines at the end, no brand logos, and no watermarks.
 ```
 
 [打开 style.json](../../styles/video-69395c9b4c/style.json) · [打开条目目录](../../styles/video-69395c9b4c/)

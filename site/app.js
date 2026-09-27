@@ -96,26 +96,13 @@ async function openDetail(entry) {
   }
   if (style.model) content.append(el('p', 'detail-spec', `${style.model} · ${style.provider} · ${style.requestedSize} → ${style.size}`));
   if (style.inputs?.length) content.append(el('p', 'detail-spec', `可替换：${style.inputs.join(' · ')}`));
-  promptBlock(content, '完整 Prompt', style.prompt);
-  if (style.promptEn) {
+  for (const step of style.workflow ?? [style]) {
+    if (style.workflow) content.append(el('h3', 'workflow-step', step.title));
+    promptBlock(content, '完整提示词', step.prompt);
     const translation = el('details', 'translation');
     translation.append(el('summary', '', 'English Prompt（英文提示词）'));
-    promptBlock(translation, 'English Prompt', style.promptEn);
+    promptBlock(translation, 'English Prompt', step.promptEn);
     content.append(translation);
-  }
-  if (style.sourcePrompt) {
-    const sourceText = el('details', 'translation');
-    sourceText.append(el('summary', '', '来源记录（与使用版不同）'));
-    promptBlock(sourceText, '来源记录', style.sourcePrompt);
-    content.append(sourceText);
-  }
-  for (const extra of style.sourcePrompts ?? []) {
-    promptBlock(content, extra.title, extra.prompt);
-    const link = el('a', 'text-link', '查看原始出处 ↗');
-    link.href = extra.url;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    content.append(link);
   }
   if (style.tip) content.append(el('p', 'detail-tip', style.tip));
   const links = el('div', 'detail-links');

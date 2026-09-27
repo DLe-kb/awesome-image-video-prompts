@@ -12,32 +12,60 @@
 
 来源：[@Maverick | AI / YouMind](https://x.com/RizwanAly07/status/2101897414760411153)
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
-创建一个 30 秒、垂直 9:16 画幅的超写实微缩建筑延时视频，展示数百名微型工人正在火山谷中快速建造一座受保护的紧急疏散城市。
+创作一段 30 秒、竖版 9:16、超照片级写实的微缩建筑延时视频，展示数百名微型工人在火山谷地迅速建造一座受到保护的紧急疏散城市。
 
-背景中始终可见一座巨大的冒烟火山。数百名工人持续进行逼真的物理作业：挖掘、搬运材料、浇筑混凝土、堆叠砖块、固定钢材、操作起重机、安装管道和搭建结构。所有物体必须通过物理方式构建——没有任何东西是凭空出现的。
+背景中始终可见一座喷烟的巨大火山。数百名工人持续进行真实的体力施工：挖掘、搬运材料、浇筑混凝土、垒砌砖块、紧固钢材、操作起重机、安装管道和建造结构。每个物体都必须通过实体施工建成，不能凭空出现。
 
-0–4 秒：工人清理荒芜的火山谷，标记安全区域并修建主要疏散道路。
+0–4 秒：工人清理荒芜的火山谷地，划出安全区，修建主要疏散道路。
 
-4–8 秒：团队挖掘地基，逐层建造多栋紧急住房。
+4–8 秒：施工队挖掘地基，逐层建造多栋应急房屋。
 
-8–12 秒：工人安装结构梁、屋顶、窗户、门以及厚重的防护围墙。
+8–12 秒：工人安装结构梁、屋顶、窗户、门和一道厚实的防护围墙。
 
-12–16 秒：建造加固型地下避难所和带有小型停机坪的紧急医疗中心。
+12–16 秒：建造一座加固的地下避难所和紧急医疗中心，并设置一小块降落区。
 
-16–20 秒：安装水箱、地下管道、食品仓库和补给箱。
+16–20 秒：安装水箱、地下管道、食品储存仓库和物资箱。
 
-20–24 秒：组装高大的通信塔、疏散隧道、次要道路和观察塔。
+20–24 秒：组装高耸的通信塔、疏散隧道、第二条道路和瞭望塔。
 
-24–28 秒：应急卡车抵达，同时工人安装灯光、路障、警示标志、救援设备、树木和小片绿地。
+24–28 秒：应急车辆抵达；工人安装灯光、隔离栏、警示牌和救援设备，并种植树木、布置小型绿地。
 
-28–30 秒：镜头特写一名工人拧紧最后一颗螺栓，然后迅速向上拉远，展现完整的微缩疏散城市，包括数十个避难所、道路、隧道、医疗中心、塔楼、车辆和数百名忙碌的工人。背景中巨大的火山冒着烟，远处隐约可见熔岩的光芒。
+28–30 秒：先以一名工人拧紧最后一颗螺栓的近景开始，然后镜头迅速向上拉升，揭示完整的微缩疏散城市：数十座避难所、道路、隧道、医疗中心、高塔、车辆和仍在忙碌的数百名工人。远处巨大的火山持续喷烟，隐约透出遥远的熔岩红光。
 
-每 2 秒必须引入一个清晰可见的新建筑元素。在整个过程中保持工人密集且处于活跃工作状态。
+每隔 2 秒必须引入一个清楚可见的新建筑元素。全程让工人密集出现在画面中并积极施工。
 
-严格限制：禁止魔法般的建造、瞬间出现、传送、材料消失、悬浮工人、重复工人、巨人、卡通风格、玩具/塑料质感、奇幻建筑、CGI 外观、文字或水印。保持一致的比例、逼真的物理效果、自然光照、微距景深、4K HDR 和电影级照片写实感。
+严格禁止：魔法般的建造、物体瞬间出现、瞬移、材料消失、工人悬浮或复制、巨人、卡通、玩具或塑料质感、奇幻建筑、明显的 CGI 外观、文字和水印。保持一致的比例、真实物理效果、自然光照、微距景深、4K HDR 和电影感照片级写实。
+```
+
+## English Prompt
+
+```text
+Create a 30-second vertical 9:16 ultra-photorealistic miniature construction time-lapse of hundreds of tiny workers rapidly building a protected emergency evacuation city in a volcanic valley.
+
+A massive smoking volcano remains visible in the background throughout. Hundreds of workers continuously perform realistic physical tasks: digging, carrying materials, pouring concrete, stacking blocks, bolting steel, operating cranes, installing pipes and building structures. Every object must be physically constructed—nothing magically appears.
+
+0–4s: Workers clear the barren volcanic valley, mark the safe zone and build the main evacuation road.
+
+4–8s: Teams dig foundations and construct multiple emergency houses layer-by-layer.
+
+8–12s: Workers install structural beams, roofs, windows, doors and a thick protective perimeter wall.
+
+12–16s: Build a reinforced underground shelter and emergency medical center with a small landing area.
+
+16–20s: Install water tanks, underground pipes, food-storage warehouse and supply crates.
+
+20–24s: Assemble a tall communication tower, evacuation tunnel, secondary road and observation towers.
+
+24–28s: Emergency trucks arrive while workers install lights, barriers, warning signs, rescue equipment, trees and small green spaces.
+
+28–30s: Start close on a worker tightening the final bolt, then rapidly pull upward to reveal the complete miniature evacuation city with dozens of shelters, roads, tunnel, medical center, towers, vehicles and hundreds of active workers. The enormous volcano smokes in the background with subtle distant lava glow.
+
+Every 2 seconds must introduce a clearly visible new construction element. Keep workers densely visible and actively working throughout.
+
+STRICT: No magical construction, instant appearance, teleportation, disappearing materials, floating workers, duplicated workers, giant humans, cartoon, toy/plastic look, fantasy architecture, CGI appearance, text or watermark. Maintain consistent scale, realistic physics, natural lighting, macro depth of field, 4K HDR, cinematic photorealism.
 ```
 
 [打开 style.json](../../styles/video-19ceae29af/style.json) · [打开条目目录](../../styles/video-19ceae29af/)

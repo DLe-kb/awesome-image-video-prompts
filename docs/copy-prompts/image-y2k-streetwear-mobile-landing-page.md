@@ -12,7 +12,7 @@
 
 可替换内容：`[brandName]` · `[headline]` · `[collectionName]` · `[ctaText]`
 
-## 完整 Prompt
+## 完整提示词
 
 ```text
 创建一张 9:16 竖版、移动端优先的街头服饰品牌落地页，整体像一张可直接使用的全屏品牌海报。
