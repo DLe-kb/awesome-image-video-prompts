@@ -70,7 +70,7 @@ function render(kind) {
 validate();
 const readme = readFileSync(resolve(root, 'README.md'), 'utf8');
 for (const kind of Object.keys(kinds)) {
-  if (!readme.includes(`[全部${kinds[kind]}案例](showcase/${kind}.md)`)) throw new Error(`Missing gallery link: ${kind}`);
+  if (!readme.includes(`[all ${kind} cases](showcase/${kind}.md)`)) throw new Error(`Missing gallery link: ${kind}`);
 }
 const mode = process.argv[2] || '--check';
 if (!['--check', '--write'].includes(mode)) throw new Error('Use --check or --write');

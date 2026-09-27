@@ -1,155 +1,120 @@
-<h1 align="center">AI 生图与生视频 Prompt 灵感库</h1>
+<h1 align="center">AI Image &amp; Video Prompt Library</h1>
 
 <p align="center">Awesome Image &amp; Video Prompts</p>
 
-<p align="center"><a href="https://dingle-kb.github.io/awesome-image-video-prompts/"><img src="assets/previews/readme-gallery.jpg" alt="六张案例拼贴：旅行海报、植物汽水、植物图版、梨挞分镜、食物拆解信息图与照片速写回忆卡" width="720"></a></p>
+<p align="center"><a href="https://dingle-kb.github.io/awesome-image-video-prompts/"><img src="assets/previews/readme-gallery.jpg" alt="Six-case collage: travel poster, botanical soda, botanical plate, pear tart storyboard, food infographic, and photo-to-sketch card" width="720"></a></p>
 
-<h3 align="center">简体中文 | <a href="#user-content-english">English</a></h3>
+<p align="center">English | <a href="readme-zh.md">简体中文</a></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E7%94%9F%E5%9B%BE%E6%A1%88%E4%BE%8B-72-f15b72?style=for-the-badge&amp;labelColor=555555" alt="生图案例 72">
-  <img src="https://img.shields.io/badge/%E7%94%9F%E8%A7%86%E9%A2%91%E6%9D%A1%E7%9B%AE-48-36b7d6?style=for-the-badge&amp;labelColor=555555" alt="生视频条目 48">
-  <img src="https://img.shields.io/badge/%E5%8E%9F%E5%88%9B%E6%A8%A1%E6%9D%BF-20-222222?style=for-the-badge&amp;labelColor=555555" alt="原创填空模板 20">
-  <img src="https://img.shields.io/badge/%E9%85%8D%E5%A5%97_Prompt-92-e0ad00?style=for-the-badge&amp;labelColor=555555" alt="来源配套 Prompt 92">
+  <img src="https://img.shields.io/badge/image_cases-72-f15b72?style=for-the-badge&amp;labelColor=555555" alt="72 image cases">
+  <img src="https://img.shields.io/badge/video_entries-48-36b7d6?style=for-the-badge&amp;labelColor=555555" alt="48 video entries">
+  <img src="https://img.shields.io/badge/original_templates-20-222222?style=for-the-badge&amp;labelColor=555555" alt="20 original templates">
+  <img src="https://img.shields.io/badge/source_linked_prompts-92-e0ad00?style=for-the-badge&amp;labelColor=555555" alt="92 source-linked prompts">
 </p>
 
-<p align="center"><strong>先看效果，再复制完整 Prompt；换题材时，用填空模板改写。</strong></p>
+<p align="center"><strong>See the result, copy the full prompt, then use a fill-in template when you need a new subject.</strong></p>
 
-<p align="center">从产品广告、旅行海报到科普图版和镜头运动，点开案例即可查看预览或样片、完整提示词与原始出处。</p>
+<p align="center">From product ads and travel posters to educational graphics and camera moves: open a case for its preview or clip, full prompt, and original source.</p>
 
-<p align="center">由 <a href="https://github.com/dingle-kb">dingle</a> 整理与维护，来源案例保留原作者署名。无需安装，打开即可浏览。</p>
+<p align="center">Curated and maintained by <a href="https://github.com/dingle-kb">dingle</a>. Source cases credit their original creators. No installation needed.</p>
 
-<p align="center"><strong><a href="https://dingle-kb.github.io/awesome-image-video-prompts/">浏览在线图册</a></strong> · 或查看 <a href="showcase/index.md">完整案例目录</a>。</p>
+<p align="center"><strong><a href="https://dingle-kb.github.io/awesome-image-video-prompts/">Browse the visual gallery</a></strong> or open the <a href="showcase/index.md">complete case index</a>.</p>
 
-## 快速入口：按任务找案例
+## Quick links: start with your task
 
-不知道搜什么词，就从你要交付的作品开始。**想直接试：**打开案例复制完整 Prompt；**想换题材：**用右列的填空模板或来源配套 Prompt 改写。来源案例请同时查看原作者和出处。
+Start with the work you want to make. **To try an existing prompt:** open a case and copy its full text. **To change the subject:** use the fill-in template or source-linked prompt in the right column. For source cases, check the original creator and post as well.
 
-| 想做什么 | 先看案例或工作流 | 再拿可改写的 Prompt |
+| What you want to make | Case or workflow | Editable starting point |
 | --- | --- | --- |
-| 产品广告主视觉 | [植物汽水商业静物](showcase/image.md#botanical-soda) | [饮品商业静物填空模板](templates/image.md#beverage-still-life) |
-| 旅行与城市海报 | [虚构海岸城市旅行海报](showcase/image.md#coastal-poster) | [旅行主题海报填空模板](templates/image.md#travel-print-poster) |
-| 可阅读的科普图版 | [虚构植物科学图版](showcase/image.md#botanical-plate) | [植物科学图版填空模板](templates/image.md#botanical-editorial) |
-| 食品广告分镜 | [梨挞广告四镜头分镜](showcase/image.md#pear-tart-storyboard) | [食品广告四格分镜填空模板](templates/image.md#food-storyboard) |
-| 单件产品短片 | [固定主体与缓慢推近](showcase/video.md#product-reveal) | [产品单镜头推进填空模板](templates/video.md#single-shot-product) |
-| 镜头运动与空间感 | [推拉变焦空间扭曲样片](showcase/video.md#video-fa2e0ad821) | [对应来源配套 Prompt](templates/video.md#video-dolly-zoom-space-warp) |
+| Product advertising visual | [Botanical soda still life](showcase/image.md#botanical-soda) | [Beverage still-life fill-in template](templates/image.md#beverage-still-life) |
+| Travel or city poster | [Imaginary coastal city poster](showcase/image.md#coastal-poster) | [Travel poster fill-in template](templates/image.md#travel-print-poster) |
+| Readable educational plate | [Imaginary botanical plate](showcase/image.md#botanical-plate) | [Botanical plate fill-in template](templates/image.md#botanical-editorial) |
+| Food advertising storyboard | [Pear tart in four shots](showcase/image.md#pear-tart-storyboard) | [Food storyboard fill-in template](templates/image.md#food-storyboard) |
+| Single-product video | [Slow product reveal](showcase/video.md#product-reveal) | [Single-shot product video fill-in template](templates/video.md#single-shot-product) |
+| Camera movement and depth | [Dolly-zoom clip](showcase/video.md#video-fa2e0ad821) | [Source-linked prompt](templates/video.md#video-dolly-zoom-space-warp) |
 
-首屏拼贴中的六张图也可逐个查看： [旅行海报](showcase/image.md#coastal-poster) · [植物汽水](showcase/image.md#botanical-soda) · [植物图版](showcase/image.md#botanical-plate) · [梨挞分镜](showcase/image.md#pear-tart-storyboard) · [食物拆解](showcase/image.md#image-2be108496e) · [照片速写](showcase/image.md#image-2a8d580cf7)。
+The six images in the opening collage also lead to their cases: [travel poster](showcase/image.md#coastal-poster) | [botanical soda](showcase/image.md#botanical-soda) | [botanical plate](showcase/image.md#botanical-plate) | [pear tart storyboard](showcase/image.md#pear-tart-storyboard) | [food infographic](showcase/image.md#image-2be108496e) | [photo-to-sketch card](showcase/image.md#image-2a8d580cf7).
 
-更多入口：[全部生图案例](showcase/image.md) · [全部生视频案例](showcase/video.md) · [生图模板](templates/image.md) · [生视频模板](templates/video.md) · [画廊筛选](https://dingle-kb.github.io/awesome-image-video-prompts/)
+More ways in: [all image cases](showcase/image.md) | [all video cases](showcase/video.md) | [image prompts](templates/image.md) | [video prompts](templates/video.md) | [filter the gallery](https://dingle-kb.github.io/awesome-image-video-prompts/).
 
-## 为什么做这个库
+Case detail pages and original fill-in templates are primarily in Chinese; the 92 source-linked prompts include both Chinese and English versions.
 
-收藏一张好看的图很容易，真正要创作时却常找不到完整 Prompt、原作者和可改写的起点。这里按作品和任务整理生图、生视频案例：先看预览或样片，再读完整提示词与来源；想换成自己的题材时，可以从原创填空模板开始。
+## Why this collection exists
 
-## 完整示例：从 Prompt 到植物汽水主视觉
+It is easy to save a good-looking image, but harder to find its full prompt, creator, and an editable starting point when you want to make something. This library organizes image and video cases by work and task: see the preview or clip, read the full prompt and source, then use an original fill-in template for your own subject.
 
-下面展示的是[仓库原创案例](showcase/image.md#botanical-soda)中记录的完整 Prompt 和实际预览，不是改写模板的生成结果。
+## Complete example: prompt to botanical soda visual
 
-### 1. 输入：案例使用的完整 Prompt
+This is the **exact prompt** recorded in an [original repository case](showcase/image.md#botanical-soda), followed by its actual preview. The image is not the result of editing a separate template.
+
+### 1. Input: the full case prompt
 
 ```text
 A polished commercial still-life photograph for a fictional botanical soda called MIRA. One clear unbranded glass bottle with pale coral liquid on a vivid sea-green tabletop, condensation, sliced ruby grapefruit and a single leafy stem, directional late afternoon sunlight, sharp caustic shadows, premium beverage advertising composition with generous negative space, bright believable materials. No people, no visible words, no brand logos, no collage or mockup frame. Square image.
 ```
 
-### 2. 输出：该案例的实际预览
+### 2. Output: the actual case preview
 
-<a href="showcase/image.md#botanical-soda"><img src="assets/previews/beverage.webp" alt="植物汽水商业静物原创案例的实际预览" width="320"></a>
+<a href="showcase/image.md#botanical-soda"><img src="assets/previews/beverage.webp" alt="Actual preview of the original botanical soda still-life case" width="320"></a>
 
-案例记录：`gpt-image-2` · RightCodes · 请求 `1024×1024` · 实际输出 `1254×1254`。[查看完整案例与生成信息](showcase/image.md#botanical-soda)。
+Case details: `gpt-image-2` | RightCodes | requested `1024x1024` | output `1254x1254`. [Open the full case and generation details](showcase/image.md#botanical-soda).
 
-### 3. 换题材：使用独立的填空模板
+### 3. Change the subject with a separate fill-in template
 
-想制作自己的饮品主视觉，可打开[饮品商业静物填空模板](templates/image.md#beverage-still-life)，填写 `[产品描述]`、`[风味元素]`、`[主色]` 和 `[画幅]`。这是另一个可改写的起点；上面的图片只对应案例 Prompt，不代表填入新变量后的出图。
+For your own beverage campaign, open the [beverage still-life fill-in template](templates/image.md#beverage-still-life) and replace its product description, flavor elements, primary color, and format fields. This is a different editable starting point; the preview above belongs only to the original case prompt, not to a version with your variables filled in.
 
-## 先看这些来源案例
+## Featured source cases
 
-来源案例保留原作者和原帖链接。点击图片进入案例页查看作者与出处；下方可直接跳转完整 Prompt。视频案例页也提供样片播放入口。来源预览与样片不代表本仓库用配套 Prompt 重新生成的效果。
+Source cases retain creator credits and links to the original posts. Click an image to open its case and attribution; the links below each card go to its full prompt. Video cards also link directly to their clips. Source previews and clips are not results regenerated by this repository with the linked prompts.
 
-### 生图：广告、排版、知识视觉
-
-<table>
-  <tr>
-    <td width="33%" align="center" valign="top"><a href="showcase/image.md#image-828d8ade3e"><img src="assets/cases/image-828d8ade3e.jpg" alt="杯内鱼眼夏日冰饮广告，来源案例" width="240"></a><br><strong>杯内鱼眼夏日冰饮广告</strong><br><sub>从杯子内部建立特殊拍摄视角</sub><br><a href="showcase/image.md#image-828d8ade3e">完整 Prompt / 来源</a> · <a href="templates/image.md#image-inside-cup-fisheye-summer-drink-ad">配套 Prompt</a></td>
-    <td width="33%" align="center" valign="top"><a href="showcase/image.md#image-5efc7ec9c3"><img src="assets/cases/image-5efc7ec9c3.jpg" alt="分级英语杂志阅读页，来源案例" width="240"></a><br><strong>分级英语杂志阅读页</strong><br><sub>把语言等级与版式约束写进 Prompt</sub><br><a href="showcase/image.md#image-5efc7ec9c3">完整 Prompt / 来源</a> · <a href="templates/image.md#image-graded-english-magazine-reading-page">配套 Prompt</a></td>
-    <td width="33%" align="center" valign="top"><a href="showcase/image.md#image-9dc00fd4c2"><img src="assets/cases/image-9dc00fd4c2.jpg" alt="复古科学植物学海报，来源案例" width="240"></a><br><strong>复古科学植物学海报</strong><br><sub>解剖标注与图版式构图</sub><br><a href="showcase/image.md#image-9dc00fd4c2">完整 Prompt / 来源</a> · <a href="templates/image.md#image-vintage-scientific-botanical-poster">配套 Prompt</a></td>
-  </tr>
-</table>
-
-### 生视频：镜头、过程、解说
-
-**横屏 · 16:9**
+### Images: advertising, editorial layout, educational visuals
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-fa2e0ad821"><img src="assets/cases/video-fa2e0ad821.jpg" alt="推拉变焦空间扭曲样片封面，来源案例" width="240"></a><br><strong>推拉变焦空间扭曲</strong><br><sub>主体尺寸稳定，背景空间拉伸</sub><br><a href="assets/cases/video-fa2e0ad821.mp4">播放样片</a> · <a href="showcase/video.md#video-fa2e0ad821">完整 Prompt / 来源</a> · <a href="templates/video.md#video-dolly-zoom-space-warp">配套 Prompt</a></td>
-    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-a2196efe4e"><img src="assets/cases/video-a2196efe4e.jpg" alt="手绘变实物定格料理样片封面，来源案例" width="240"></a><br><strong>手绘变实物定格料理</strong><br><sub>食材从草图变成实物的过程</sub><br><a href="assets/cases/video-a2196efe4e.mp4">播放样片</a> · <a href="showcase/video.md#video-a2196efe4e">完整 Prompt / 来源</a></td>
-    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-bc1f9f0af1"><img src="assets/cases/video-bc1f9f0af1.jpg" alt="垂直升降揭示样片封面，来源案例" width="240"></a><br><strong>垂直升降揭示</strong><br><sub>镜头升高，逐步展开场景</sub><br><a href="assets/cases/video-bc1f9f0af1.mp4">播放样片</a> · <a href="showcase/video.md#video-bc1f9f0af1">完整 Prompt / 来源</a> · <a href="templates/video.md#video-vertical-crane-reveal">配套 Prompt</a></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/image.md#image-828d8ade3e"><img src="assets/cases/image-828d8ade3e.jpg" alt="Inside-the-cup fisheye summer drink ad, source case" width="240"></a><br><strong>Inside-the-cup summer drink ad</strong><br><sub>A fisheye viewpoint from inside the cup</sub><br><a href="showcase/image.md#image-828d8ade3e">Full prompt / source</a> | <a href="templates/image.md#image-inside-cup-fisheye-summer-drink-ad">Linked prompt</a></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/image.md#image-5efc7ec9c3"><img src="assets/cases/image-5efc7ec9c3.jpg" alt="Graded English magazine reading page, source case" width="240"></a><br><strong>Graded English reading page</strong><br><sub>Reading level and layout constraints in the prompt</sub><br><a href="showcase/image.md#image-5efc7ec9c3">Full prompt / source</a> | <a href="templates/image.md#image-graded-english-magazine-reading-page">Linked prompt</a></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/image.md#image-9dc00fd4c2"><img src="assets/cases/image-9dc00fd4c2.jpg" alt="Vintage scientific botanical poster, source case" width="240"></a><br><strong>Vintage botanical plate</strong><br><sub>Anatomical labels and scientific plate composition</sub><br><a href="showcase/image.md#image-9dc00fd4c2">Full prompt / source</a> | <a href="templates/image.md#image-vintage-scientific-botanical-poster">Linked prompt</a></td>
   </tr>
 </table>
 
-**竖屏 · 9:16**
+### Videos: camera moves, processes, explainers
+
+**Landscape | 16:9**
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-5d2a7780cd"><img src="assets/cases/video-5d2a7780cd.jpg" alt="海滩石像定格动画样片封面，来源案例" width="240"></a><br><strong>海滩石像定格动画</strong><br><sub>石块角色的动作与散落</sub><br><a href="assets/cases/video-5d2a7780cd.mp4">播放样片</a> · <a href="showcase/video.md#video-5d2a7780cd">完整 Prompt / 来源</a> · <a href="templates/video.md#video-beach-stone-stop-motion">配套 Prompt</a></td>
-    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-60b5dcaaac"><img src="assets/cases/video-60b5dcaaac.jpg" alt="食谱信息图转连续烹饪短片封面，来源案例" width="240"></a><br><strong>食谱图转烹饪短片</strong><br><sub>首段、续写与食材状态连续性</sub><br><a href="assets/cases/video-60b5dcaaac.mp4">播放样片</a> · <a href="showcase/video.md#video-60b5dcaaac">完整 Prompt / 来源</a> · <a href="templates/video.md#video-recipe-infographic-cooking-sequence">配套 Prompt</a></td>
-    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-53bf374a72"><img src="assets/cases/video-53bf374a72.jpg" alt="动态百科页拼贴解说样片封面，来源案例" width="240"></a><br><strong>动态百科页拼贴解说</strong><br><sub>把知识主题拆成视觉节拍</sub><br><a href="assets/cases/video-53bf374a72.mp4">播放样片</a> · <a href="showcase/video.md#video-53bf374a72">完整 Prompt / 来源</a></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-fa2e0ad821"><img src="assets/cases/video-fa2e0ad821.jpg" alt="Dolly-zoom space warp clip cover, source case" width="240"></a><br><strong>Dolly-zoom space warp</strong><br><sub>Stable subject size, stretching background</sub><br><a href="assets/cases/video-fa2e0ad821.mp4">Play clip</a> | <a href="showcase/video.md#video-fa2e0ad821">Full prompt / source</a> | <a href="templates/video.md#video-dolly-zoom-space-warp">Linked prompt</a></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-a2196efe4e"><img src="assets/cases/video-a2196efe4e.jpg" alt="Sketch-to-real stop-motion cooking clip cover, source case" width="240"></a><br><strong>Sketch-to-real cooking</strong><br><sub>Ingredients turn from drawings into real objects</sub><br><a href="assets/cases/video-a2196efe4e.mp4">Play clip</a> | <a href="showcase/video.md#video-a2196efe4e">Full prompt / source</a></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-bc1f9f0af1"><img src="assets/cases/video-bc1f9f0af1.jpg" alt="Vertical crane reveal clip cover, source case" width="240"></a><br><strong>Vertical crane reveal</strong><br><sub>A rising camera gradually reveals the scene</sub><br><a href="assets/cases/video-bc1f9f0af1.mp4">Play clip</a> | <a href="showcase/video.md#video-bc1f9f0af1">Full prompt / source</a> | <a href="templates/video.md#video-vertical-crane-reveal">Linked prompt</a></td>
   </tr>
 </table>
 
-## 这里的内容怎么区分
+**Portrait | 9:16**
 
-| 类型 | 能看到什么 | 使用时注意 |
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-5d2a7780cd"><img src="assets/cases/video-5d2a7780cd.jpg" alt="Beach stone stop-motion clip cover, source case" width="240"></a><br><strong>Beach stone stop-motion</strong><br><sub>A stone figure moves, then falls apart</sub><br><a href="assets/cases/video-5d2a7780cd.mp4">Play clip</a> | <a href="showcase/video.md#video-5d2a7780cd">Full prompt / source</a> | <a href="templates/video.md#video-beach-stone-stop-motion">Linked prompt</a></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-60b5dcaaac"><img src="assets/cases/video-60b5dcaaac.jpg" alt="Recipe infographic to cooking video clip cover, source case" width="240"></a><br><strong>Recipe to cooking video</strong><br><sub>Keep ingredients and stages consistent across clips</sub><br><a href="assets/cases/video-60b5dcaaac.mp4">Play clip</a> | <a href="showcase/video.md#video-60b5dcaaac">Full prompt / source</a> | <a href="templates/video.md#video-recipe-infographic-cooking-sequence">Linked prompt</a></td>
+    <td width="33%" align="center" valign="top"><a href="showcase/video.md#video-53bf374a72"><img src="assets/cases/video-53bf374a72.jpg" alt="Animated encyclopedia collage explainer clip cover, source case" width="240"></a><br><strong>Animated encyclopedia explainer</strong><br><sub>Break a knowledge topic into visual beats</sub><br><a href="assets/cases/video-53bf374a72.mp4">Play clip</a> | <a href="showcase/video.md#video-53bf374a72">Full prompt / source</a></td>
+  </tr>
+</table>
+
+## What is in this library
+
+| Type | What you get | Keep in mind |
 | --- | --- | --- |
-| **来源案例** | 68 个生图、46 个生视频；媒体、完整 Prompt、原作者与原帖链接 | 来源画面或样片不是本仓库重新生成的效果 |
-| **原创案例与工作流** | 4 个生图案例、2 个生视频工作流；生图案例附生成信息 | 原创案例预览不代表所有关联模板的生成结果 |
-| **来源配套 Prompt** | 67 套生图、25 套生视频；中英文版本及对应案例回链 | 有些是原提示词的整理或翻译，不一定有填空变量 |
-| **原创填空模板** | 生图、生视频各 10 套；列出变量与使用检查 | 只有部分模板附有原创预览；其他模板不暗示已有出图 |
+| **Source cases** | 68 image and 46 video cases with media, full prompts, creators, and original links | Source previews and clips are not regenerated by this repository |
+| **Original cases and workflows** | 4 image cases and 2 video workflows; image cases include generation details | An original preview is not a result for every related template |
+| **Source-linked prompts** | 67 image and 25 video prompts, each with Chinese and English versions and a case link | Some are edited or translated from source prompts and do not have fill-in variables |
+| **Original fill-in templates** | 10 image and 10 video templates with variables and usage checks | Only some templates have original previews; others do not imply an existing output |
 
-首屏拼贴中，前四张为原创案例，后两张为标注原作者的来源案例；拼贴不是替换填空模板变量后的生成结果。
+In the opening collage, the first four images are original cases and the last two are credited source cases. The collage does not show results generated after replacing fill-in template variables.
 
-按标题找内容可用[案例导航](showcase/index.md)；按题材和标签筛选可用[在线画廊](https://dingle-kb.github.io/awesome-image-video-prompts/)。
+Use the [case index](showcase/index.md) to browse by title or the [visual gallery](https://dingle-kb.github.io/awesome-image-video-prompts/) to filter by subject and tag.
 
-## 贡献与许可
+## Contributing and license
 
-欢迎修正原帖链接、作者署名、分类和失效媒体，或按[贡献指南](CONTRIBUTING.md)提交有明确来源的新案例。提交时请说明原作者、原始链接，以及预览或样片是否允许在仓库中再分发。
+Corrections to source links, creator credits, categories, and broken media are welcome. To propose a new case through the [contribution guide](CONTRIBUTING.md), include the creator, original URL, and whether its preview or clip can be redistributed in this repository.
 
-仓库原创内容与站点代码适用 [MIT License](LICENSE)。**来源预览、样片与第三方提示词不属于本仓库的 MIT 授权范围**；复用时请遵守原作者和来源平台的许可要求。
-
-<a id="english"></a>
-
-## English
-
-Browse visual examples, open a case for its full prompt and source credit, then adapt the prompt to your own subject. No installation is needed.
-
-[Open the visual gallery](https://dingle-kb.github.io/awesome-image-video-prompts/) · [Image cases](showcase/image.md) · [Video cases](showcase/video.md) · [Image prompts](templates/image.md) · [Video prompts](templates/video.md)
-
-### Find a starting point
-
-| Your task | Example | Editable prompt |
-| --- | --- | --- |
-| Product advertising | [Botanical soda](showcase/image.md#botanical-soda) | [Beverage still life](templates/image.md#beverage-still-life) |
-| Travel poster | [Imaginary coastal city](showcase/image.md#coastal-poster) | [Travel print poster](templates/image.md#travel-print-poster) |
-| Educational visual | [Botanical plate](showcase/image.md#botanical-plate) | [Botanical editorial plate](templates/image.md#botanical-editorial) |
-| Food storyboard | [Pear tart in four shots](showcase/image.md#pear-tart-storyboard) | [Food storyboard](templates/image.md#food-storyboard) |
-| Product video | [Slow product reveal](showcase/video.md#product-reveal) | [Single-shot product video](templates/video.md#single-shot-product) |
-| Camera movement | [Dolly-zoom example](showcase/video.md#video-fa2e0ad821) | [Source-linked prompt](templates/video.md#video-dolly-zoom-space-warp) |
-
-### Why this collection exists
-
-A good-looking preview is easy to save, but its full prompt, creator, and editable starting point are often harder to find later. This collection keeps cases, source credits, and fill-in templates within reach of each other.
-
-### Complete example: prompt to image
-
-The botanical soda walkthrough above shows the **exact prompt** and the **actual preview** from an original case. Copy the prompt to try it as written; to change the product or composition, open the separate [beverage still-life template](templates/image.md#beverage-still-life) and replace its bracketed fields. The preview is not an output from the edited template. [Open the full case and generation details](showcase/image.md#botanical-soda).
-
-### Featured source cases
-
-The featured image and video cards above link directly to complete case prompts and, where available, source-linked prompts. Video cards also link to playable clips. The video cases are grouped by format: 16:9 landscape and 9:16 portrait. Each case includes its creator and original source; third-party previews are not outputs regenerated by this repository.
-
-The [complete case index](showcase/index.md) lists 72 image cases and 48 video entries. There are also 20 original fill-in templates and 92 source-linked prompts with Chinese and English versions. The first four images in the collage are original case previews; the last two are credited third-party examples.
-
-### Credits and license
-
-Original repository content and site code are under the [MIT License](LICENSE). Third-party media and prompts are **not** covered by it; check each case for its creator and original link before reuse. Corrections and new cases with clear provenance are welcome through the [contribution guide](CONTRIBUTING.md).
+Original repository content and site code are under the [MIT License](LICENSE). **Third-party previews, clips, and prompts are not covered by this repository's MIT license.** Follow the original creator's and platform's terms before reusing them.
