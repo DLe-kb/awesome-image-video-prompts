@@ -1,0 +1,30 @@
+{
+  "style_version": "1.0",
+  "style_slug": "video-a2196efe4e",
+  "kind": "video",
+  "type": "source",
+  "legacyId": "video-a2196efe4e",
+  "title": "手绘变实物定格料理",
+  "category": "动画",
+  "summary": "以铅笔草图变为真实食材的机制制作混合现实料理短片。",
+  "tags": [
+    "动画",
+    "定格动画",
+    "横屏"
+  ],
+  "prompt": "创作一段视觉上令人满足的混合现实定格动画短片，展示 [DRAWN OBJECT/SKETCH] 无缝转换为 [REAL INGREDIENT/OBJECT] 的过程。视频中，一个人使用智能手机和彩色铅笔在 [SURFACE] 上进行创作，在每个物品通过流畅、无缝的变换魔法般地变为现实之前，先将其勾勒出来。展示 [INGREDIENTS] 被加入 [CONTAINER]，随后进行 [COOKING/BLENDING/PREPARATION ACTION]，最后盛入 [DISH]。结尾处，艺术家勾勒出 [TOPPINGS/FINAL DETAILS]，这些细节瞬间化为真实的食物，呈现出一道充满活力且摆盘精美的 [FINAL DISH]。使用逼真的纹理、自然的动作、令人舒适的定格动画节奏、简洁的构图、柔和的灯光，以及铅笔画与真实物体之间的无缝过渡。",
+  "source": {
+    "author": "@NoorAI / YouMind",
+    "url": "https://x.com/noorwithwifi/status/2087821976270450985"
+  },
+  "promptCredit": "来源提示词 / 翻译整理",
+  "catalog": {
+    "sourceLabel": "X · @noorwithwifi",
+    "related": {
+      "label": "YouMind 模板",
+      "url": "https://youmind.com/zh-CN/video-prompts/mixed-reality-stop-motion-9029"
+    }
+  },
+  "preview": "preview.jpg",
+  "sample": "sample.mp4"
+}

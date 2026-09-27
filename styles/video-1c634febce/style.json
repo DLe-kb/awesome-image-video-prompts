@@ -1,0 +1,30 @@
+{
+  "style_version": "1.0",
+  "style_slug": "video-1c634febce",
+  "kind": "video",
+  "type": "source",
+  "legacyId": "video-1c634febce",
+  "title": "喷泉时间静止与彩虹",
+  "category": "奇幻",
+  "summary": "通过冻结喷泉水流、人物互动与恢复时间形成超现实彩虹揭示。",
+  "tags": [
+    "奇幻",
+    "电影感",
+    "横屏"
+  ],
+  "prompt": "创建一个电影感、照片级逼真的场景，背景为欧洲广场，设有石制喷泉和露天咖啡馆。一名身穿深色西装的男子打了个响指，时间随之静止，巨大的喷泉水柱悬停在半空中纹丝不动。他从容地穿过水流，从一名静止的服务员手中取过一只酒杯，接住几滴水珠，加入柠檬片，并调整了一把遮阳伞。他将伞倾斜，再次打响指，时间恢复流动——水花在阳光下闪烁，在咖啡馆上方形成一道壮观的完整彩虹，周围人群惊叹不已。他轻啜一口饮品，直视镜头，用俄语说道：**“这样好多了”**（意为“Much better”）。",
+  "source": {
+    "author": "@lumiAI / YouMind",
+    "url": "https://x.com/aiwithlumi/status/2102406322008559857"
+  },
+  "promptCredit": "来源提示词 / 翻译整理",
+  "catalog": {
+    "sourceLabel": "X · @aiwithlumi",
+    "related": {
+      "label": "YouMind 模板",
+      "url": "https://youmind.com/zh-CN/video-prompts/time-freeze-fountain-rainbow-11161"
+    }
+  },
+  "preview": "preview.jpg",
+  "sample": "sample.mp4"
+}

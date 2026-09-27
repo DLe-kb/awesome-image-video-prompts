@@ -1,0 +1,15 @@
+{
+  "style_version": "1.0",
+  "style_slug": "botanical-plate",
+  "kind": "image",
+  "type": "original",
+  "title": "虚构植物科学图版",
+  "category": "科普与出版",
+  "summary": "以标本主图和局部放大图组织清晰的植物学图版。",
+  "model": "gpt-image-2",
+  "size": "1254x1254",
+  "requestedSize": "1024x1024",
+  "provider": "RightCodes",
+  "prompt": "Create a finished editorial scientific botanical plate for an original imaginary alpine plant named Luma fern. Vertical 3:4 composition. Large accurate-looking central botanical watercolor specimen, smaller enlarged seed pod and leaf detail drawings around it, fine leader lines, restrained moss green and vermilion ink with clean off-white paper. Elegant specimen label LUMA FERN and tiny serial number 08 in legible English. Premium museum publication photography, crisp fine details, no logos, no humans, no real brand, no web UI.",
+  "preview": "preview.webp"
+}

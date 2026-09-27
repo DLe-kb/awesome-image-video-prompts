@@ -1,0 +1,38 @@
+{
+  "style_version": "1.0",
+  "style_slug": "video-53bf374a72",
+  "kind": "video",
+  "type": "source",
+  "legacyId": "video-53bf374a72",
+  "title": "动态百科页拼贴解说",
+  "category": "动画",
+  "summary": "将一个知识主题拆成九个视觉节拍，以纸片拼贴关键帧、局部定格动画、旁白和字幕组成竖屏解释短片。",
+  "tags": [
+    "动画",
+    "定格动画",
+    "竖屏"
+  ],
+  "prompt": "## 输入卡\n\n```text\n主题：[要解释的问题]\n目标观众：[观众已有认知]\n结论：[观众看完要理解的一句话]\n时长与画幅：[约 45 秒，9:16；可根据配音改动]\n可核查依据：[可靠来源及逐条事实]\n视觉元素：[地图 / 档案 / 人物 / 器物 / 数据]\n禁止误写的名称、数字与边界：[清单]\n旁白语言：[中文 / 英文 / 其他]\n```\n\n## 1. 先拆叙事，不直接生视频\n\n将输入卡交给脚本助手，要求它输出九条分镜记录：`镜号、唯一事实命题、依据、5 秒以内的口播草稿、一个主视觉、最多三类辅助视觉、一个具体动画事件、画面文字、转场关系`。按“主角或问题 → 原有格局 → 转折 → 四个机制或证据 → 系统归纳 → 影响”排列。若事实不足，先停下查证，不编造地图、数字、引语或因果关系。\n\n## 2. 为每镜制作关键帧\n\n对每条分镜单独填入以下图像提示。此处主动收紧了作者原文“密集资料页”的要求，以便手机阅读；需要更贴近来源的表达，参见原文文件。\n\n```text\n制作 9:16 的编辑式知识解说拼贴关键帧，主题：[本镜事实命题]。\n画面像一页可以活动的百科资料：纸张、剪纸白边、轻微纸影、地图、档案、器物和标签属于同一套视觉语言。\n主视觉：[一个清晰可辨的主体]；辅助元素：[最多 2-4 个相关物件]；空间关系：[前景/背景及阅读顺序]。\n为箭头、路线、贴纸或印章预留可发生动作的位置；所有物件边界清楚，主体不能被标签压住。\n沿用全片的色彩与纸张质感，但每镜只有一个主要结论。关键名称和数字留空位供后期精确覆字。\n避免写实 3D、企业演示文稿、无意义装饰、文字乱码与未经证实的地图细节。\n```\n\n## 3. 每镜图生视频\n\n输入该镜已核查的关键帧。下面是项目适配的运动约束，并非作者实际逐镜提交的完整提示词。\n\n```text\n以提供的参考图为唯一视觉基础，生成约 5 秒的 9:16 无声纸片拼贴动画。\n保持主体、地图与重要轮廓稳定。只让选定物件发生分步、可理解的局部动作：\n[主要事件，例如路线从 A 延伸到 B]；[辅助事件，例如两个节点依次亮起]。\n可有轻微纸张抖动、贴纸弹入或印章落下，但不要让整张图漂浮，也不要把纸片变成写实视频。\n保持为后期字幕和术语留出的区域清楚；不要生成新文字、虚构标签或改写地图边界。\n```\n\n## 4. 组合与检查\n\n以旁白节奏为基准剪辑各段，后期加入校对过的术语、字幕和有使用权的音乐。逐镜检查“事实与画面一致、主要视觉一眼可读、动作有解释意义、文字无误、人物与地图不漂移、转场不打断逻辑”。来源样片中的“战国七雄 / SIX STATES”数量冲突尤其说明：画面生成后还必须逐项校对，不能只看整体氛围。",
+  "source": {
+    "author": "X `@MrLarus`；原帖发布日期：2026-07-12。作者称这是一次用 ChatGPT、Image2、Seedance、AI 配音与字幕制作的秦统一中国解说实验。",
+    "url": "https://x.com/MrLarus/status/2076328854315032641"
+  },
+  "promptCredit": "案例整理的多镜头工作流",
+  "sourcePrompts": [
+    {
+      "title": "Image2 关键帧",
+      "url": "https://x.com/MrLarus/status/2076329766261522741",
+      "prompt": "Create a vertical 9:16 encyclopedia-style collage keyframe for a history explainer video.\n\nTopic: [scene topic]\n\nStyle:\n\nVox-style explainer, scrapbook collage, paper cutout, layered stickers, torn paper, tape, labels, maps, arrows, object cards,人物 / buildings / artifacts, white cutout edges, thick outlines, paper shadows, halftone texture, old paper grain, Chinese historical collage.\n\nImportant:\n\nMake it feel like a dense history reference page, not a clean poster.\n\nUse many movable visual elements: people, maps, coins, scripts, roads, seals, cards, labels and small props.\n\nKeep each object clearly separated with cut-paper edges so it can animate later.\n\nAvoid:\n\n3D render, photorealism, clean corporate poster, empty background, one single hero object, PPT layout."
+    },
+    {
+      "title": "Seedance 视频",
+      "url": "https://x.com/MrLarus/status/2076330068331122881",
+      "prompt": "Use the reference image as the only visual base.\n\nGenerate a 5-second vertical 9:16 silent paper-collage animation.\n\nNo music, no sound effects, no voice, no subtitles.\n\nKeep the scrapbook / paper cutout / stop-motion collage style.\n\nAnimate the separated cutout elements, not the whole image.\n\nMotion style:\n\npaper jitter, sticker bounce, stepped stop-motion movement, moving arrows, route lines extending, map nodes lighting up, coins rotating, labels snapping into place, seals stamping, paper edges shaking, small objects shifting with clear paths.\n\nEach scene should have a small event, not just soft floating.\n\nKeep the main composition and important text stable.\n\nDo not turn it into realistic video.\n\nDo not make it look like PPT blocks sliding around."
+    }
+  ],
+  "catalog": {
+    "sourceLabel": "X · @MrLarus"
+  },
+  "preview": "preview.jpg",
+  "sample": "sample.mp4"
+}

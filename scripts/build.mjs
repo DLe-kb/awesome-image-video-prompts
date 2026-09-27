@@ -1,0 +1,182 @@
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
+import { dirname, extname, relative, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const mode = process.argv[2] ?? '--check';
+if (!['--write', '--check'].includes(mode)) throw new Error('Use --write or --check');
+const slugs = readdirSync(resolve(root, 'styles'), { withFileTypes: true })
+  .map(item => {
+    if (!item.isDirectory() || !/^[a-z0-9-]+$/.test(item.name)) throw new Error(`Invalid style folder: ${item.name}`);
+    return item.name;
+  }).sort();
+const styles = slugs.map(slug => JSON.parse(readFileSync(resolve(root, 'styles', slug, 'style.json'), 'utf8')));
+const bySlug = new Map(styles.map(style => [style.style_slug, style]));
+if (bySlug.size !== styles.length) throw new Error('Duplicate style slug');
+
+function assetPath(style, name) {
+  if (!style[name]) return null;
+  const path = resolve(root, 'styles', style.style_slug, style[name]);
+  if (!path.startsWith(`${resolve(root, 'styles')}/`) || !existsSync(path)) {
+    throw new Error(`Missing ${name}: ${style.style_slug}`);
+  }
+  return relative(root, path).replaceAll('\\', '/');
+}
+
+function escapeHtml(value) {
+  return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+}
+
+function escapedCode(value) {
+  return String(value).replace(/[ \t]+$/gm, '').replaceAll('```', '` ` `').trimEnd();
+}
+
+function writeGenerated(path, content) {
+  const target = resolve(root, path);
+  if (mode === '--write') {
+    mkdirSync(dirname(target), { recursive: true });
+    writeFileSync(target, content);
+  } else if (!existsSync(target) || readFileSync(target, 'utf8') !== content) {
+    throw new Error(`Outdated generated file: ${path}`);
+  }
+}
+
+for (const [position, style] of styles.entries()) {
+  const slug = style.style_slug;
+  if (style.style_version !== '1.0' || slug !== slugs[position] || !/^[a-z0-9-]+$/.test(slug) ||
+      !['image', 'video'].includes(style.kind) ||
+      !['source', 'original', 'adaptation', 'template'].includes(style.type) ||
+      !style.title?.trim() || !style.summary?.trim() || !style.category?.trim() || !style.prompt?.trim()) {
+    throw new Error(`Invalid style: ${slug}`);
+  }
+  const files = readdirSync(resolve(root, 'styles', slug)).sort();
+  const expected = ['style.json', ...(style.preview?.startsWith('../') ? [] : style.preview ? [style.preview] : []),
+    ...(style.sample?.startsWith('../') ? [] : style.sample ? [style.sample] : [])].sort();
+  if (JSON.stringify(files) !== JSON.stringify(expected)) throw new Error(`Unexpected files: ${slug}`);
+  if (style.preview && !/\.jpg$|\.webp$/.test(style.preview)) throw new Error(`Invalid preview: ${slug}`);
+  if (style.sample && extname(style.sample) !== '.mp4') throw new Error(`Invalid sample: ${slug}`);
+  assetPath(style, 'preview');
+  assetPath(style, 'sample');
+  if (style.relatedStyle && !bySlug.has(style.relatedStyle)) throw new Error(`Broken style relation: ${slug}`);
+  if (style.example && !bySlug.has(style.example)) throw new Error(`Broken example relation: ${slug}`);
+  if (style.type === 'source' && (!style.source?.author || !/^https:\/\//.test(style.source.url))) {
+    throw new Error(`Missing source: ${slug}`);
+  }
+  if (style.type === 'adaptation' && (!style.promptEn?.trim() || bySlug.get(style.relatedStyle)?.relatedStyle !== slug)) {
+    throw new Error(`Invalid adaptation: ${slug}`);
+  }
+  if (style.type === 'template' && (!Array.isArray(style.inputs) || style.inputs.some(input => !style.prompt.includes(`[${input}]`)))) {
+    throw new Error(`Invalid template inputs: ${slug}`);
+  }
+}
+if (!styles.length) throw new Error('Empty style library');
+
+const sorted = styles.toSorted((a, b) =>
+  (a.kind === b.kind ? a.title.localeCompare(b.title, 'zh-CN') : a.kind === 'image' ? -1 : 1));
+const visible = sorted.filter(style => style.type !== 'adaptation');
+const label = { source: '来源案例', original: '原创案例', adaptation: '配套 Prompt', template: '原创模板' };
+
+function renderCopy(style) {
+  const slug = style.style_slug;
+  const preview = assetPath(style, 'preview');
+  const sample = assetPath(style, 'sample');
+  const lines = [
+    `# ${style.title}`, '',
+    '[返回完整目录](../CATALOG.md)', '',
+    ...(preview ? [`![${style.title}](../../${preview})`, ''] : []),
+    ...(sample ? [`[播放样片](../../${sample})`, ''] : []),
+    style.summary, '',
+    `类型：${style.kind === 'image' ? '生图' : '生视频'} · ${label[style.type]} · ${style.category}`, '',
+    ...(style.source ? [`来源：[${style.source.author}](${style.source.url})`, ''] : []),
+    ...(style.catalog?.sourceUrl ? [`目录来源：[${style.catalog.sourceLabel}](${style.catalog.sourceUrl})`, ''] : []),
+    ...(style.catalog?.related ? [`相关链接：[${style.catalog.related.label}](${style.catalog.related.url})`, ''] : []),
+    ...(style.model ? [`生成信息：${style.model} · ${style.provider} · ${style.requestedSize} → ${style.size}`, ''] : []),
+    ...(style.inputs?.length ? [`可替换内容：${style.inputs.map(input => `\`[${input}]\``).join(' · ')}`, ''] : []),
+    '## 完整 Prompt', '', '```text', escapedCode(style.prompt), '```', '',
+    ...(style.promptEn ? ['## English Prompt', '', '```text', escapedCode(style.promptEn), '```', ''] : []),
+    ...(style.sourcePrompts ?? []).flatMap(extra => [
+      `## ${extra.title}`, '', `[原作者内容](${extra.url})`, '', '```text', escapedCode(extra.prompt), '```', '',
+    ]),
+    ...(style.tip ? [`使用检查：${style.tip}`, ''] : []),
+    ...(style.relatedStyle ? [`[查看关联 Prompt](../copy-prompts/${style.relatedStyle}.md)`, ''] : []),
+    ...(style.example ? [`[查看对应案例](../copy-prompts/${style.example}.md)`, ''] : []),
+    `[打开 style.json](../../styles/${slug}/style.json) · [打开条目目录](../../styles/${slug}/)`, '',
+    '<!-- Generated by scripts/build.mjs. -->', '',
+  ];
+  return lines.join('\n');
+}
+
+for (const style of styles) writeGenerated(`docs/copy-prompts/${style.style_slug}.md`, renderCopy(style));
+if (mode === '--check') {
+  const actual = readdirSync(resolve(root, 'docs/copy-prompts')).sort();
+  const expected = slugs.map(slug => `${slug}.md`).sort();
+  if (JSON.stringify(actual) !== JSON.stringify(expected)) throw new Error('Stale copy-prompt pages');
+}
+
+const catalog = ['# 完整 Prompt 目录', '', '[返回首页](../README-ZH.md) · [在线画廊](../site/)', ''];
+for (const [kind, title] of [['image', '生图'], ['video', '生视频']]) {
+  const group = visible.filter(style => style.kind === kind);
+  catalog.push(`## ${title}（${group.length}）`, '');
+  for (const style of group) {
+    const slug = style.style_slug;
+    const preview = assetPath(style, 'preview');
+    catalog.push(`### ${style.title}`, '',
+      ...(preview ? [`[![${style.title}](../${preview})](copy-prompts/${slug}.md)`, ''] : []),
+      `${style.summary} · ${label[style.type]}`, '',
+      `[复制 Prompt](copy-prompts/${slug}.md) · [style.json](../styles/${slug}/style.json)` +
+        (style.sample ? ` · [播放样片](../${assetPath(style, 'sample')})` : '') +
+        (style.relatedStyle ? ` · [配套版本](copy-prompts/${style.relatedStyle}.md)` : ''), '',
+    );
+  }
+}
+writeGenerated('docs/CATALOG.md', `${catalog.join('\n').trimEnd()}\n`);
+
+function gallery(lang) {
+  const zh = lang === 'zh';
+  const lines = [];
+  for (const [kind, title] of [['image', zh ? '生图' : 'Image'], ['video', zh ? '生视频' : 'Video']]) {
+    const group = visible.filter(style => style.kind === kind);
+    lines.push(`### ${title} (${group.length})`, '', '<table>');
+    for (let i = 0; i < group.length; i += 3) {
+      lines.push('<tr>');
+      for (const style of group.slice(i, i + 3)) {
+        const slug = style.style_slug;
+        const preview = assetPath(style, 'preview');
+        lines.push(`<td width="33%" valign="top">${preview ? `<a href="docs/copy-prompts/${slug}.md"><img src="${preview}" alt="${escapeHtml(style.title)}" width="240"></a><br>` : ''}<strong>${escapeHtml(style.title)}</strong><br><sub>${escapeHtml(style.summary)}</sub><br><a href="styles/${slug}/style.json">style.json</a> · <a href="docs/copy-prompts/${slug}.md">${zh ? '复制 Prompt' : 'Copy Prompt'}</a>${style.relatedStyle ? ` · <a href="docs/copy-prompts/${style.relatedStyle}.md">${zh ? '配套版本' : 'Linked Version'}</a>` : ''}</td>`);
+      }
+      lines.push('</tr>');
+    }
+    lines.push('</table>', '');
+  }
+  return lines.join('\n').trimEnd();
+}
+
+for (const [path, lang] of [['README-ZH.md', 'zh'], ['README.md', 'en']]) {
+  const content = readFileSync(resolve(root, path), 'utf8');
+  const start = '<!-- BEGIN GENERATED GALLERY -->';
+  const end = '<!-- END GENERATED GALLERY -->';
+  const first = content.indexOf(start);
+  const last = content.indexOf(end);
+  if (first < 0 || last < first || content.indexOf(start, first + 1) !== -1) throw new Error(`Missing gallery markers: ${path}`);
+  const rendered = `${content.slice(0, first + start.length)}\n${gallery(lang)}\n${content.slice(last)}`;
+  writeGenerated(path, rendered);
+}
+
+const manifest = sorted.map(style => ({
+  slug: style.style_slug,
+  kind: style.kind,
+  type: style.type,
+  title: style.title,
+  category: style.category,
+  summary: style.summary,
+  tags: style.tags ?? [],
+  inputs: style.inputs ?? [],
+  preview: assetPath(style, 'preview') ? `../${assetPath(style, 'preview')}` : null,
+  sample: assetPath(style, 'sample') ? `../${assetPath(style, 'sample')}` : null,
+  source: style.source ?? null,
+  json: `../styles/${style.style_slug}/style.json`,
+  copy: `../docs/copy-prompts/${style.style_slug}.md`,
+}));
+writeGenerated('site/styles-data.json', `${JSON.stringify({ version: 1, styles: manifest }, null, 2)}\n`);
+console.log(`Validated ${styles.length} style packages (${mode})`);

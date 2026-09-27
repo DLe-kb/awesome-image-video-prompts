@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f7f5" />
+    <meta name="description" content="浏览 180 份生图和生视频 Prompt，查看预览、来源与完整 JSON。" />
+    <title>AI 生图与生视频 Prompt 灵感库</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">✳</span><span>Image / Video <small>Prompts</small></span></a>
+        <nav aria-label="导航">
+          <a href="../README-ZH.md">仓库首页</a>
+          <a href="../docs/CATALOG.md">详细目录</a>
+          <a href="https://github.com/dingle-kb/awesome-image-video-prompts">GitHub ↗</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro container" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">IMAGE / VIDEO PROMPT LIBRARY</p>
+          <h1 id="page-title">生图与生视频 Prompt</h1>
+          <p class="intro-desc">从画面找到方向，打开完整 Prompt 与独立风格 JSON。</p>
+        </div>
+        <p class="total"><strong id="total">140</strong><span>个创作方向</span></p>
+      </section>
+
+      <div class="toolbar-wrap">
+        <div class="toolbar container">
+          <div class="segments" role="group" aria-label="媒体类型">
+            <button type="button" data-kind="all" aria-pressed="true">全部</button>
+            <button type="button" data-kind="image" aria-pressed="false">生图</button>
+            <button type="button" data-kind="video" aria-pressed="false">生视频</button>
+          </div>
+          <div class="tools">
+            <label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">搜索 Prompt</span><input id="search" type="search" placeholder="搜索题材、用途、作者…" autocomplete="off" /></label>
+            <label class="sr-only" for="category">分类</label>
+            <select id="category"><option value="all">所有分类</option></select>
+          </div>
+        </div>
+      </div>
+
+      <section class="container library" aria-labelledby="library-title">
+        <div class="section-heading"><h2 id="library-title">全部风格 <span id="result-count"></span></h2><a href="../docs/CATALOG.md">查看详细目录 ↗</a></div>
+        <div id="style-grid" class="style-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer><div class="container footer-inner"><span>Awesome Image &amp; Video Prompts</span><div><a href="../CONTRIBUTING.md">贡献</a><a href="../LICENSE">许可</a><a href="../README-ZH.md">仓库首页</a></div></div></footer>
+
+    <dialog id="detail" aria-labelledby="detail-title">
+      <div class="dialog-content">
+        <button type="button" id="close" class="close" aria-label="关闭" title="关闭">×</button>
+        <div id="detail-body"></div>
+      </div>
+    </dialog>
+    <div id="toast" role="status" aria-live="polite" class="toast" hidden></div>
+    <noscript><p class="container">请在<a href="../README-ZH.md">仓库首页</a>浏览全部风格。</p></noscript>
+  </body>
+</html>

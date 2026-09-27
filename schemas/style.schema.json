@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/dingle-kb/awesome-image-video-prompts/blob/main/schemas/style.schema.json",
+  "title": "Image and video prompt style",
+  "type": "object",
+  "required": ["style_version", "style_slug", "kind", "type", "title", "category", "summary", "prompt"],
+  "properties": {
+    "style_version": { "const": "1.0" },
+    "style_slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "kind": { "enum": ["image", "video"] },
+    "type": { "enum": ["source", "original", "adaptation", "template"] },
+    "title": { "type": "string", "minLength": 1 },
+    "category": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string", "minLength": 1 },
+    "prompt": { "type": "string", "minLength": 1 },
+    "promptEn": { "type": "string" },
+    "preview": { "type": "string" },
+    "sample": { "type": "string" },
+    "relatedStyle": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "example": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "inputs": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "source": {
+      "type": "object",
+      "required": ["author", "url"],
+      "properties": {
+        "author": { "type": "string" },
+        "url": { "type": "string", "format": "uri" }
+      }
+    }
+  }
+}
