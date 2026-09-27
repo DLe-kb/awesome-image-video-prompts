@@ -2,11 +2,11 @@
 
 按画面找提示词。收录生图、生视频案例的预览、完整 Prompt 与原作者链接，以及 92 套来源适配模板和 20 套原创通用模板。
 
-[在线画廊](https://dle-kb.github.io/awesome-image-video-prompts/) · [生图案例导航](showcase/image-index.md) · [全部生图案例](showcase/image.md) · [全部生视频案例](showcase/video.md) · [生图模板](templates/image.md) · [生视频模板](templates/video.md)
+[在线画廊](https://dle-kb.github.io/awesome-image-video-prompts/) · [案例导航](showcase/index.md) · [全部生图案例](showcase/image.md) · [全部生视频案例](showcase/video.md) · [生图模板](templates/image.md) · [生视频模板](templates/video.md)
 
 ## 生图案例
 
-点击预览查看完整提示词和来源；[按标题查找案例](showcase/image-index.md)或[浏览全部生图案例](showcase/image.md)。
+点击预览查看完整提示词和来源；[按标题查找案例](showcase/index.md#images)或[浏览全部生图案例](showcase/image.md)。
 
 <table>
   <tr>
@@ -23,7 +23,7 @@
 
 ## 生视频案例
 
-点击封面播放样片，或点击标题查看完整 Prompt 和原作者；[浏览全部生视频案例](showcase/video.md)。
+点击封面播放样片，或点击标题查看完整 Prompt 和原作者；[按标题查找案例](showcase/index.md#videos)或[浏览全部生视频案例](showcase/video.md)。
 
 <table>
   <tr>

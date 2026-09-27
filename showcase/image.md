@@ -1,6 +1,6 @@
 # 生图案例
 
-> [返回首页](../README.md) | [案例导航](image-index.md) | [浏览画廊](../index.html)
+> [返回首页](../README.md) | [案例导航](index.md) | [浏览画廊](../index.html)
 
 按画面浏览案例，下方对应完整提示词与来源。
 

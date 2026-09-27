@@ -1,6 +1,6 @@
 # 生视频案例
 
-[返回首页](../README.md) · [浏览画廊](../index.html)
+> [返回首页](../README.md) | [案例导航](index.md) | [浏览画廊](../index.html)
 
 按封面浏览视频案例，下方对应样片、完整提示词与来源。
 
@@ -12,57 +12,6 @@
 <tr><td width="33%" valign="top" align="center"><a href="../assets/cases/video-8f1bbd26f7.mp4"><img src="../assets/cases/video-8f1bbd26f7.jpg" alt="大学物理实验演示短片预览" width="220"></a><br><a href="#video-8f1bbd26f7">大学物理实验演示短片</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/video-849134cf4b.mp4"><img src="../assets/cases/video-849134cf4b.jpg" alt="电影级少林武僧动作大片预览" width="220"></a><br><a href="#video-849134cf4b">电影级少林武僧动作大片</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/video-967e1a17e1.mp4"><img src="../assets/cases/video-967e1a17e1.jpg" alt="复古插画微动效预览" width="220"></a><br><a href="#video-967e1a17e1">复古插画微动效</a></td></tr>
 <tr><td width="33%" valign="top" align="center"><a href="../assets/cases/video-f97cb22797.mp4"><img src="../assets/cases/video-f97cb22797.jpg" alt="第一人称视角：龙骑士电影级画面预览" width="220"></a><br><a href="#video-f97cb22797">第一人称视角：龙骑士电影级画面</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/video-53bf374a72.mp4"><img src="../assets/cases/video-53bf374a72.jpg" alt="动态百科页拼贴解说预览" width="220"></a><br><a href="#video-53bf374a72">动态百科页拼贴解说</a></td><td width="33%" valign="top" align="center"><a href="../assets/cases/video-e0fd6d34ba.mp4"><img src="../assets/cases/video-e0fd6d34ba.jpg" alt="高端香水UGC口播预览" width="220"></a><br><a href="#video-e0fd6d34ba">高端香水UGC口播</a></td></tr>
 </table>
-
-## 全部案例
-
-- [产品短片：固定主体与缓慢推近](#product-reveal)
-- [纸雕转场：从静态插画到微动效](#paper-cut-loop)
-- [90年代像素文字游戏](#video-3d40126f5f)
-- [巴黎街头时装变身](#video-50e620e4e4)
-- [垂直升降揭示](#video-bc1f9f0af1)
-- [粗野主义庭院武术动作](#video-37af5cd196)
-- [大学物理实验演示短片](#video-8f1bbd26f7)
-- [第一人称视角：龙骑士电影级画面](#video-f97cb22797)
-- [电影级动作轮滑序列](#video-df3924a259)
-- [电影级少林武僧动作大片](#video-849134cf4b)
-- [动态百科页拼贴解说](#video-53bf374a72)
-- [复古插画微动效](#video-967e1a17e1)
-- [高端香水UGC口播](#video-e0fd6d34ba)
-- [固定点向右横摇揭示](#video-8cf75d3afe)
-- [哈恰普里俯拍烹饪](#video-3207e9e8c2)
-- [海滩石像定格动画](#video-5d2a7780cd)
-- [航拍后拉升高揭示](#video-cbe24f7388)
-- [火山疏散城市建造延时](#video-19ceae29af)
-- [科幻摩托车动作场面](#video-59eafdce5b)
-- [立体书地图纸艺动画](#video-31ea8a7f7c)
-- [毛线娃娃早餐定格动画](#video-d2f1128753)
-- [黏土机器人创业故事](#video-69395c9b4c)
-- [纽约街头的动漫滑板追逐](#video-2bf5e5594d)
-- [纽约跑酷与蛛丝摆荡动作](#video-e7dcc94d27)
-- [喷泉时间静止与彩虹](#video-1c634febce)
-- [疲惫日常蒙太奇](#video-e6248de843)
-- [企业猫职场动画短片](#video-0a64266abe)
-- [前后景转移焦点](#video-ad4c3bf9c3)
-- [日本网红出门准备 UGC](#video-0c79e1fe07)
-- [山崖轮滑动作](#video-e24c102dab)
-- [烧烤美食微距短片](#video-1d6c1fec91)
-- [奢华护肤品水感广告](#video-512e7b9e27)
-- [奢华珠宝开箱广告](#video-ced1de556c)
-- [摄政时期电影蒙太奇](#video-dcc3d74eac)
-- [生物发光灯塔守望者](#video-b5fa2e6d3f)
-- [食谱信息图转连续烹饪短片](#video-60b5dcaaac)
-- [手绘变实物定格料理](#video-a2196efe4e)
-- [首尔周日 DV 家庭录像](#video-ac4f3a29c1)
-- [水彩素描跑酷追逐](#video-dc65c9f52f)
-- [水晶粒子厨房变身](#video-345a132c7a)
-- [推拉变焦空间扭曲](#video-fa2e0ad821)
-- [微型工人维修USB](#video-565c5a1550)
-- [卧室接住落书互动](#video-fce76e69a8)
-- [无人机环绕主体](#video-f953b9d317)
-- [野花四季微距延时](#video-aecc45705d)
-- [雨林神秘光源短片](#video-61094b8453)
-- [真人贴纸海报动效](#video-24c5f43c41)
-- [中国水墨无缝转场](#video-cdfbcca0a0)
 
 <a id="product-reveal"></a>
 

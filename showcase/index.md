@@ -1,8 +1,10 @@
-# 生图案例导航
+# 案例导航
 
-[返回首页](../README.md) · [查看案例正文](image.md) · [浏览画廊](../index.html)
+[返回首页](../README.md) · [生图案例](image.md) · [生视频案例](video.md) · [浏览画廊](../index.html)
 
-## 全部案例
+<a id="images"></a>
+
+## 生图案例（72）
 
 - [虚构植物科学图版](image.md#botanical-plate)
 - [植物汽水商业静物](image.md#botanical-soda)
@@ -76,3 +78,56 @@
 - [纸雕浮雕街区网格](image.md#image-24c5febb05)
 - [中文奢华美妆海报](image.md#image-ed6e569904)
 - [足球球员数据涂鸦海报](image.md#image-3ed96383d6)
+
+<a id="videos"></a>
+
+## 生视频案例（48）
+
+- [产品短片：固定主体与缓慢推近](video.md#product-reveal)
+- [纸雕转场：从静态插画到微动效](video.md#paper-cut-loop)
+- [90年代像素文字游戏](video.md#video-3d40126f5f)
+- [巴黎街头时装变身](video.md#video-50e620e4e4)
+- [垂直升降揭示](video.md#video-bc1f9f0af1)
+- [粗野主义庭院武术动作](video.md#video-37af5cd196)
+- [大学物理实验演示短片](video.md#video-8f1bbd26f7)
+- [第一人称视角：龙骑士电影级画面](video.md#video-f97cb22797)
+- [电影级动作轮滑序列](video.md#video-df3924a259)
+- [电影级少林武僧动作大片](video.md#video-849134cf4b)
+- [动态百科页拼贴解说](video.md#video-53bf374a72)
+- [复古插画微动效](video.md#video-967e1a17e1)
+- [高端香水UGC口播](video.md#video-e0fd6d34ba)
+- [固定点向右横摇揭示](video.md#video-8cf75d3afe)
+- [哈恰普里俯拍烹饪](video.md#video-3207e9e8c2)
+- [海滩石像定格动画](video.md#video-5d2a7780cd)
+- [航拍后拉升高揭示](video.md#video-cbe24f7388)
+- [火山疏散城市建造延时](video.md#video-19ceae29af)
+- [科幻摩托车动作场面](video.md#video-59eafdce5b)
+- [立体书地图纸艺动画](video.md#video-31ea8a7f7c)
+- [毛线娃娃早餐定格动画](video.md#video-d2f1128753)
+- [黏土机器人创业故事](video.md#video-69395c9b4c)
+- [纽约街头的动漫滑板追逐](video.md#video-2bf5e5594d)
+- [纽约跑酷与蛛丝摆荡动作](video.md#video-e7dcc94d27)
+- [喷泉时间静止与彩虹](video.md#video-1c634febce)
+- [疲惫日常蒙太奇](video.md#video-e6248de843)
+- [企业猫职场动画短片](video.md#video-0a64266abe)
+- [前后景转移焦点](video.md#video-ad4c3bf9c3)
+- [日本网红出门准备 UGC](video.md#video-0c79e1fe07)
+- [山崖轮滑动作](video.md#video-e24c102dab)
+- [烧烤美食微距短片](video.md#video-1d6c1fec91)
+- [奢华护肤品水感广告](video.md#video-512e7b9e27)
+- [奢华珠宝开箱广告](video.md#video-ced1de556c)
+- [摄政时期电影蒙太奇](video.md#video-dcc3d74eac)
+- [生物发光灯塔守望者](video.md#video-b5fa2e6d3f)
+- [食谱信息图转连续烹饪短片](video.md#video-60b5dcaaac)
+- [手绘变实物定格料理](video.md#video-a2196efe4e)
+- [首尔周日 DV 家庭录像](video.md#video-ac4f3a29c1)
+- [水彩素描跑酷追逐](video.md#video-dc65c9f52f)
+- [水晶粒子厨房变身](video.md#video-345a132c7a)
+- [推拉变焦空间扭曲](video.md#video-fa2e0ad821)
+- [微型工人维修USB](video.md#video-565c5a1550)
+- [卧室接住落书互动](video.md#video-fce76e69a8)
+- [无人机环绕主体](video.md#video-f953b9d317)
+- [野花四季微距延时](video.md#video-aecc45705d)
+- [雨林神秘光源短片](video.md#video-61094b8453)
+- [真人贴纸海报动效](video.md#video-24c5f43c41)
+- [中国水墨无缝转场](video.md#video-cdfbcca0a0)

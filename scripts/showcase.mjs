@@ -46,8 +46,8 @@ function previewGrid(entries, kind) {
   return ['## 精选预览', '', '<table>', ...rows, '</table>', ''];
 }
 
-function caseIndex(entries, destination = '') {
-  return ['## 全部案例', '', ...entries.map(entry => `- [${entry.title}](${destination}#${entry.id})`), ''];
+function caseIndex(entries, destination, heading) {
+  return [`## ${heading}（${entries.length}）`, '', ...entries.map(entry => `- [${entry.title}](${destination}#${entry.id})`), ''];
 }
 for (const [kind, entries] of [['image', cases.images], ['video', cases.videos]]) {
   for (const entry of entries) {
@@ -75,12 +75,15 @@ if (!recipe || !recipe.prompt.includes('阶段一：首段 10 秒') || !recipe.p
 }
 
 const pages = {
-  'showcase/image-index.md': [
-    '# 生图案例导航', '', '[返回首页](../README.md) · [查看案例正文](image.md) · [浏览画廊](../index.html)', '',
-    ...caseIndex([...data.images, ...cases.images], 'image.md'),
+  'showcase/index.md': [
+    '# 案例导航', '', '[返回首页](../README.md) · [生图案例](image.md) · [生视频案例](video.md) · [浏览画廊](../index.html)', '',
+    '<a id="images"></a>', '',
+    ...caseIndex([...data.images, ...cases.images], 'image.md', '生图案例'),
+    '<a id="videos"></a>', '',
+    ...caseIndex([...data.videos, ...cases.videos], 'video.md', '生视频案例'),
   ],
   'showcase/image.md': [
-    '# 生图案例', '', '> [返回首页](../README.md) | [案例导航](image-index.md) | [浏览画廊](../index.html)', '',
+    '# 生图案例', '', '> [返回首页](../README.md) | [案例导航](index.md) | [浏览画廊](../index.html)', '',
     '按画面浏览案例，下方对应完整提示词与来源。', '',
     ...previewGrid([...data.images, ...cases.images], 'image'),
     '## 完整案例', '',
@@ -104,10 +107,9 @@ const pages = {
     ]),
   ],
   'showcase/video.md': [
-    '# 生视频案例', '', '[返回首页](../README.md) · [浏览画廊](../index.html)', '',
+    '# 生视频案例', '', '> [返回首页](../README.md) | [案例导航](index.md) | [浏览画廊](../index.html)', '',
     '按封面浏览视频案例，下方对应样片、完整提示词与来源。', '',
     ...previewGrid(cases.videos, 'video'),
-    ...caseIndex([...data.videos, ...cases.videos]),
     ...data.videos.flatMap(entry => [
       `<a id="${entry.id}"></a>`, '',
       `## ${entry.title}`, '', `${entry.summary} · ${entry.category}`, '',
