@@ -97,8 +97,29 @@
 
 ## English
 
-Browse 72 image cases and 48 video entries, then open a case for its full prompt, preview or clip, and source credit. The collection also includes 20 original fill-in templates and 92 source-linked prompts with Chinese and English versions. No installation is needed.
+Browse visual examples, open a case for its full prompt and source credit, then adapt the prompt to your own subject. No installation is needed.
 
 [Open the visual gallery](https://dle-kb.github.io/awesome-image-video-prompts/) · [Image cases](showcase/image.md) · [Video cases](showcase/video.md) · [Image prompts](templates/image.md) · [Video prompts](templates/video.md)
 
-The first four images above are original case previews; the last two are credited third-party examples. Third-party media and prompts are not covered by this repository's [MIT License](LICENSE).
+### Get started
+
+1. Open the [botanical plate case](showcase/image.md#botanical-plate) to see its preview, full prompt, and generation details.
+2. Copy the [botanical fill-in template](templates/image.md#botanical-editorial) and replace the bracketed fields with your own subject.
+3. Generate with your preferred image tool, then check any visible text and subject-specific details. The preview above is not the result of your new variables.
+
+### Find a starting point
+
+| Your task | Example | Editable prompt |
+| --- | --- | --- |
+| Product advertising | [Botanical soda](showcase/image.md#botanical-soda) | [Beverage still life](templates/image.md#beverage-still-life) |
+| Travel poster | [Imaginary coastal city](showcase/image.md#coastal-poster) | [Travel print poster](templates/image.md#travel-print-poster) |
+| Educational visual | [Botanical plate](showcase/image.md#botanical-plate) | [Botanical editorial plate](templates/image.md#botanical-editorial) |
+| Food storyboard | [Pear tart in four shots](showcase/image.md#pear-tart-storyboard) | [Food storyboard](templates/image.md#food-storyboard) |
+| Product video | [Slow product reveal](showcase/video.md#product-reveal) | [Single-shot product video](templates/video.md#single-shot-product) |
+| Camera movement | [Dolly-zoom example](showcase/video.md#video-fa2e0ad821) | [Source-linked prompt](templates/video.md#video-dolly-zoom-space-warp) |
+
+The [complete case index](showcase/index.md) lists 72 image cases and 48 video entries. There are also 20 original fill-in templates and 92 source-linked prompts with Chinese and English versions. The first four images in the collage are original case previews; the last two are credited third-party examples.
+
+### Credits and license
+
+Original repository content and site code are under the [MIT License](LICENSE). Third-party media and prompts are **not** covered by it; check each case for its creator and original link before reuse. Corrections and new cases with clear provenance are welcome through the [contribution guide](CONTRIBUTING.md).
