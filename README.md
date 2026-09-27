@@ -17,7 +17,7 @@
 
 <p align="center">从产品广告、旅行海报到科普图版和镜头运动，点开案例即可查看预览或样片、完整提示词与原始出处。</p>
 
-<p align="center">由 <a href="https://github.com/DLe-kb">DLe-kb</a> 整理与维护，来源案例保留原作者署名。无需安装，打开即可浏览。</p>
+<p align="center">由 <a href="https://github.com/DLe-kb">dingle</a> 整理与维护，来源案例保留原作者署名。无需安装，打开即可浏览。</p>
 
 <p align="center"><strong><a href="https://dle-kb.github.io/awesome-image-video-prompts/">浏览在线图册</a></strong> · 或查看 <a href="showcase/index.md">完整案例目录</a>。</p>
 
