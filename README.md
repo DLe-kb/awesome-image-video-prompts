@@ -4,7 +4,7 @@
 
 <p align="center"><a href="https://dingle-kb.github.io/awesome-image-video-prompts/"><img src="assets/previews/readme-gallery.jpg" alt="Six-case collage: travel poster, botanical soda, botanical plate, pear tart storyboard, food infographic, and photo-to-sketch card" width="720"></a></p>
 
-<p align="center">English | <a href="readme-zh.md">简体中文</a></p>
+<p align="center">English | <a href="README-ZH.md">简体中文</a></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/image_cases-72-f15b72?style=for-the-badge&amp;labelColor=555555" alt="72 image cases">
