@@ -94,6 +94,7 @@ const pages = {
       `${entry.summary} · ${entry.category}`, '',
       `模型：${entry.model} · 服务：${entry.provider} · 请求尺寸：${entry.requestedSize} · 实际输出：${entry.size}`, '',
       '**完整提示词**', '', '```text', entry.prompt, '```', '',
+      `[查看结构化案例 JSON](../entries/original/image/${entry.id}/case.json)`, '',
       '**可复用模板**', '', '[浏览生图 Prompt 模板](../templates/image.md)', '',
     ]),
     '## 来源案例', '',
@@ -103,6 +104,8 @@ const pages = {
       `${entry.summary} · ${entry.category}`, '',
       `来源：[${entry.source.author}](${entry.source.url}) · ${entry.promptCredit}`, '',
       '**完整提示词**', '', '```text', entry.prompt, '```', '',
+      ...(existsSync(resolve(root, `entries/image/${entry.id}/case.json`))
+        ? [`[查看结构化案例 JSON](../entries/image/${entry.id}/case.json)`, ''] : []),
       '**可复用模板**', '', `[${entry.templateId ? '查看对应模板' : '浏览生图 Prompt 模板'}](../templates/image.md${entry.templateId ? `#${entry.templateId}` : ''})`, '',
     ]),
   ],
@@ -115,6 +118,7 @@ const pages = {
       `## ${entry.title}`, '', `${entry.summary} · ${entry.category}`, '',
       `- 输入：${entry.input}`, `- 建议格式：${entry.format}`, '',
       '**完整提示词**', '', '```text', entry.prompt, '```', '',
+      `[查看结构化案例 JSON](../entries/original/video/${entry.id}/case.json)`, '',
       '**可复用模板**', '', '[浏览生视频 Prompt 模板](../templates/video.md)', '',
     ]),
     '## 来源案例', '',
@@ -128,6 +132,8 @@ const pages = {
         `**${extra.title} · 原始提示词**`, '', `来源：[原作者公开内容](${extra.url})`, '',
         '```text', extra.prompt, '```', '',
       ])),
+      ...(existsSync(resolve(root, `entries/video/${entry.id}/case.json`))
+        ? [`[查看结构化案例 JSON](../entries/video/${entry.id}/case.json)`, ''] : []),
       '**可复用模板**', '', `[${entry.templateId ? '查看对应模板' : '浏览生视频 Prompt 模板'}](../templates/video.md${entry.templateId ? `#${entry.templateId}` : ''})`, '',
     ]),
   ],

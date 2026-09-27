@@ -36,7 +36,7 @@ Start with the work you want to make. **To try an existing prompt:** open a case
 
 The six images in the opening collage also lead to their cases: [travel poster](showcase/image.md#coastal-poster) | [botanical soda](showcase/image.md#botanical-soda) | [botanical plate](showcase/image.md#botanical-plate) | [pear tart storyboard](showcase/image.md#pear-tart-storyboard) | [food infographic](showcase/image.md#image-2be108496e) | [photo-to-sketch card](showcase/image.md#image-2a8d580cf7).
 
-More ways in: [all image cases](showcase/image.md) | [all video cases](showcase/video.md) | [image prompts](templates/image.md) | [video prompts](templates/video.md) | [filter the gallery](https://dingle-kb.github.io/awesome-image-video-prompts/).
+More ways in: [all image cases](showcase/image.md) | [all video cases](showcase/video.md) | [image prompts](templates/image.md) | [video prompts](templates/video.md) | [individual JSON entries](entries/INDEX-条目导航.md) | [filter the gallery](https://dingle-kb.github.io/awesome-image-video-prompts/).
 
 Case detail pages and original fill-in templates are primarily in Chinese; the 92 source-linked prompts include both Chinese and English versions.
 
@@ -112,6 +112,19 @@ Source cases retain creator credits and links to the original posts. Click an im
 In the opening collage, the first four images are original cases and the last two are credited source cases. The collage does not show results generated after replacing fill-in template variables.
 
 Use the [case index](showcase/index.md) to browse by title or the [visual gallery](https://dingle-kb.github.io/awesome-image-video-prompts/) to filter by subject and tag.
+
+## Individual JSON entries
+
+All 232 cases and prompts have their own JSON file under [entries/](entries/README.md), with a [title index](entries/INDEX-条目导航.md) for browsing. Source cases group the case and its linked prompt in one folder; original cases and fill-in templates have separate paths. Each detail page links to its JSON. Previews and clips stay in `assets/` rather than being copied into every folder.
+
+```text
+entries/image/<case-id>/case.json + prompt.json (when linked)
+entries/video/<case-id>/case.json + prompt.json (when linked)
+entries/original/<image|video>/<id>/case.json
+entries/original-templates/<id>.json
+```
+
+The files in `entries/` are the editing source. The complete collections in `data/` remain for the gallery and generated Markdown pages; [CONTRIBUTING.md](CONTRIBUTING.md) explains how to keep them synchronized.
 
 ## Contributing and license
 

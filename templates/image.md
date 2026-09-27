@@ -89,6 +89,8 @@
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2089997569829093688) · [查看来源案例](../showcase/image.md#image-5573ad414d)
 
+[查看结构化 Prompt JSON](../entries/image/image-5573ad414d/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -121,6 +123,8 @@ A small amount of simple text may be added: titles, theme words, object names, l
 <a href="../assets/cases/image-3c7b07b9df.jpg"><img src="../assets/cases/image-3c7b07b9df.jpg" alt="动画校园世界观参考面板预览" width="320"></a>
 
 来源：[@さんかくてん](https://x.com/sankakuten91256/status/2096447146614747210) · [查看来源案例](../showcase/image.md#image-3c7b07b9df)
+
+[查看结构化 Prompt JSON](../entries/image/image-3c7b07b9df/prompt.json)
 
 **中文 Prompt**
 
@@ -160,6 +164,8 @@ Constraints: Keep all 4 panels in the same illustration style and color palette.
 <a href="../assets/cases/image-05bd56fd6f.jpg"><img src="../assets/cases/image-05bd56fd6f.jpg" alt="建筑照片概念草图双联海报预览" width="320"></a>
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2096290195792642498) · [查看来源案例](../showcase/image.md#image-05bd56fd6f)
+
+[查看结构化 Prompt JSON](../entries/image/image-05bd56fd6f/prompt.json)
 
 **中文 Prompt**
 
@@ -202,6 +208,8 @@ Use text only as a very limited editorial intervention, in any language. A few w
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2096609211870576683) · [查看来源案例](../showcase/image.md#image-5b85051bd1)
 
+[查看结构化 Prompt JSON](../entries/image/image-5b85051bd1/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -241,6 +249,8 @@ Use Japanese konbini deli packaging aesthetics, packaged-food reinterpretation, 
 
 来源：[@Dua Fatima](https://x.com/DuaFatimaAi/status/2096555489073279173) · [查看来源案例](../showcase/image.md#image-25ed063581)
 
+[查看结构化 Prompt JSON](../entries/image/image-25ed063581/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -265,6 +275,8 @@ Create an ultra-realistic, high-end food photography scene in a bright, cozy mod
 <a href="../assets/cases/image-ee84e012bf.jpg"><img src="../assets/cases/image-ee84e012bf.jpg" alt="饮料食品营销主视觉预览" width="320"></a>
 
 来源：[@AI Guide-Note - 実務で使えるAI活用メディア](https://x.com/AIGuideNote/status/2097040165009252374) · [查看来源案例](../showcase/image.md#image-ee84e012bf)
+
+[查看结构化 Prompt JSON](../entries/image/image-ee84e012bf/prompt.json)
 
 **可替换内容：** `产品/包装` · `productName` · `subText` · `设计巧思` · `circleColor` · `图像质量、呈现与构图规范`
 
@@ -310,6 +322,8 @@ Create an ultra-realistic, high-end food photography scene in a bright, cozy mod
 <a href="../assets/cases/image-90154ddf7b.jpg"><img src="../assets/cases/image-90154ddf7b.jpg" alt="青花敦煌刺绣四拼海报预览" width="320"></a>
 
 来源：[@zhidawang219555](https://x.com/zhidawang219555/status/2090310144190218272) · [查看来源案例](../showcase/image.md#image-90154ddf7b)
+
+[查看结构化 Prompt JSON](../entries/image/image-90154ddf7b/prompt.json)
 
 **中文 Prompt**
 
@@ -358,6 +372,8 @@ Convert both subject and scene consistently into each layer's style. Be extremel
 
 来源：[@AI Guide-Note - 実務で使えるAI活用メディア](https://x.com/AIGuideNote/status/2096906819713081810) · [查看来源案例](../showcase/image.md#image-6b83c7fc5b)
 
+[查看结构化 Prompt JSON](../entries/image/image-6b83c7fc5b/prompt.json)
+
 **可替换内容：** `品牌/产品信息` · `brandName` · `collection` · `backpackPrice` · `图像质量、呈现与构图规范` · `布局与输出的严格限制（强制性）`
 
 **中文 Prompt**
@@ -399,6 +415,8 @@ Convert both subject and scene consistently into each layer's style. Be extremel
 <a href="../assets/cases/image-ed6e569904.jpg"><img src="../assets/cases/image-ed6e569904.jpg" alt="中文奢华美妆海报预览" width="320"></a>
 
 来源：[@panchaaan_2](https://x.com/panchaaan_2) · [查看来源案例](../showcase/image.md#image-ed6e569904)
+
+[查看结构化 Prompt JSON](../entries/image/image-ed6e569904/prompt.json)
 
 **中文 Prompt**
 
@@ -449,6 +467,8 @@ Limit the palette to champagne gold, warm white, pale beige, dark brown, and a l
 
 来源：[@karimsky_dev](https://higgsfield.ai/publications/4051f3f1-9e66-418d-aa75-024f2c5ffc62) · [查看来源案例](../showcase/image.md#image-5ad5dba080)
 
+[查看结构化 Prompt JSON](../entries/image/image-5ad5dba080/prompt.json)
+
 **可替换内容：** `worldSetting` · `battleLocation` · `playerClass` · `bossName` · `lightingCondition`
 
 **中文 Prompt**
@@ -488,6 +508,8 @@ Overlay a unified, readable, restrained HUD: character portrait and health, stam
 
 来源：[@gaziziz](https://higgsfield.ai/publications/4ca41020-ddce-4ddb-90b5-6e0aa5e91bc7) · [查看来源案例](../showcase/image.md#image-91099d2e69)
 
+[查看结构化 Prompt JSON](../entries/image/image-91099d2e69/prompt.json)
+
 **可替换内容：** `cityDistrict` · `heroSubject` · `screenColorA` · `screenColorB`
 
 **中文 Prompt**
@@ -522,6 +544,8 @@ Use an eye-level street-photography viewpoint, four depth layers, and clear scal
 <a href="../assets/cases/image-36c0a55d6b.jpg"><img src="../assets/cases/image-36c0a55d6b.jpg" alt="概念沙发研发板预览" width="320"></a>
 
 来源：[@ShamsAmin56](https://x.com/ShamsAmin56/status/2050281206139461780) · [查看来源案例](../showcase/image.md#image-36c0a55d6b)
+
+[查看结构化 Prompt JSON](../entries/image/image-36c0a55d6b/prompt.json)
 
 **中文 Prompt**
 
@@ -568,6 +592,8 @@ Stage 5: Final Prototyping & Material Finish Textural Replication: Apply a matte
 
 来源：[@M. Asif](https://x.com/meAsifAi/status/2095979782068666556) · [查看来源案例](../showcase/image.md#image-89e8a705fc)
 
+[查看结构化 Prompt JSON](../entries/image/image-89e8a705fc/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -603,6 +629,8 @@ Every object keeps its real position in the room so all four views describe one 
 
 来源：[@simeon-sanai](https://x.com/Naiknelofar788/status/2096823849702785331) · [查看来源案例](../showcase/image.md#image-05e87c8c9f)
 
+[查看结构化 Prompt JSON](../entries/image/image-05e87c8c9f/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -633,6 +661,8 @@ Do not simply reproduce the photograph. Transform its subject into an illustrate
 <a href="../assets/cases/image-dd9bf06fe9.jpg"><img src="../assets/cases/image-dd9bf06fe9.jpg" alt="可颂烘焙流程分镜板预览" width="320"></a>
 
 来源：[@TechieBySA](https://x.com/TechieBySA/status/2053523784481554759) · [查看来源案例](../showcase/image.md#image-dd9bf06fe9)
+
+[查看结构化 Prompt JSON](../entries/image/image-dd9bf06fe9/prompt.json)
 
 **中文 Prompt**
 
@@ -711,6 +741,8 @@ BAKER NOTES: one baker, one perfect croissant, one irresistible tear. The lamina
 
 来源：[@steampunk_donut_jade65](https://higgsfield.ai/publications/32410751-27ee-425f-aa0f-dbc0a67aaf34) · [查看来源案例](../showcase/image.md#image-c352a86ebd)
 
+[查看结构化 Prompt JSON](../entries/image/image-c352a86ebd/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -743,6 +775,8 @@ Use only natural ambient light, with no artificial flash. Keep the diver in shar
 <a href="../assets/cases/image-97796819d8.jpg"><img src="../assets/cases/image-97796819d8.jpg" alt="沙漠洗车电影感纪实摄影预览" width="320"></a>
 
 来源：[@institutional_butterflying](https://higgsfield.ai/publications/bdeaf74f-4300-4ebd-9125-7df4f37d2733) · [查看来源案例](../showcase/image.md#image-97796819d8)
+
+[查看结构化 Prompt JSON](../entries/image/image-97796819d8/prompt.json)
 
 **可替换内容：** `vehicleColor` · `relationshipDescription`
 
@@ -783,6 +817,8 @@ The palette includes faded pale paint, black tires, silver wheels, white foam, r
 
 来源：[@Abkr Sadiq](https://x.com/abs_uiux/status/2097210827652968512) · [查看来源案例](../showcase/image.md#image-60806a74e0)
 
+[查看结构化 Prompt JSON](../entries/image/image-60806a74e0/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -819,6 +855,8 @@ Emphasize realistic skin texture, detailed beard hairs, sharp eyes, natural eyeg
 <a href="../assets/cases/image-2be108496e.jpg"><img src="../assets/cases/image-2be108496e.jpg" alt="食物爆炸拆解信息图预览" width="320"></a>
 
 来源：[@Strength04_X](https://x.com/Strength04_X/status/2056018963084226866) · [查看来源案例](../showcase/image.md#image-2be108496e)
+
+[查看结构化 Prompt JSON](../entries/image/image-2be108496e/prompt.json)
 
 **中文 Prompt**
 
@@ -876,6 +914,8 @@ Ultra-detailed food textures, premium commercial aesthetic, 8K.
 <a href="../assets/cases/image-c7200c726a.jpg"><img src="../assets/cases/image-c7200c726a.jpg" alt="羊毛毡国家微缩世界预览" width="320"></a>
 
 来源：[@volkan_iras](https://x.com/volkan_iras/status/2051403524966141980) · [查看来源案例](../showcase/image.md#image-c7200c726a)
+
+[查看结构化 Prompt JSON](../entries/image/image-c7200c726a/prompt.json)
 
 **可替换内容：** `插入国家/地区名称`
 
@@ -988,6 +1028,8 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 
 来源：[Oleksa AI（X：@OleksaFrame）](https://x.com/OleksaFrame/status/2097669808800113040) · [查看来源案例](../showcase/image.md#image-231adaeba9)
 
+[查看结构化 Prompt JSON](../entries/image/image-231adaeba9/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -1085,6 +1127,8 @@ Soft natural window light enters from the left, with gentle fill from a light-co
 
 来源：[@🇻🇳 Gdragon_stk 🇸🇪](https://x.com/zaizai36077041/status/2097032853410197878) · [查看来源案例](../showcase/image.md#image-0d498d4702)
 
+[查看结构化 Prompt JSON](../entries/image/image-0d498d4702/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -1124,6 +1168,8 @@ Constraints: Keep the same woman consistent across all 5 panels. Use exactly the
 <a href="../assets/cases/image-3ed96383d6.jpg"><img src="../assets/cases/image-3ed96383d6.jpg" alt="足球球员数据涂鸦海报预览" width="320"></a>
 
 来源：[@ryanpp27](https://x.com/ryanpp27/status/2048602248524214542) · [查看来源案例](../showcase/image.md#image-3ed96383d6)
+
+[查看结构化 Prompt JSON](../entries/image/image-3ed96383d6/prompt.json)
 
 **可替换内容：** `PLAYER_NAME` · `PRIMARY_COLOR` · `NICKNAME/TITLE`
 
@@ -1184,6 +1230,8 @@ Important: all stats must be realistic and proportional to the player's real car
 
 来源：[@Taaruk_](https://x.com/Taaruk_/status/2059188921096085888) · [查看来源案例](../showcase/image.md#image-966a4fde71)
 
+[查看结构化 Prompt JSON](../entries/image/image-966a4fde71/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -1208,6 +1256,8 @@ Minimalist flat travel poster illustration series of iconic destinations around 
 <a href="../assets/cases/image-de6feddf44.jpg"><img src="../assets/cases/image-de6feddf44.jpg" alt="四格奶昔食谱过程拼图预览" width="320"></a>
 
 来源：[@Dua Fatima](https://x.com/DuaFatimaAi/status/2096033405259682193) · [查看来源案例](../showcase/image.md#image-de6feddf44)
+
+[查看结构化 Prompt JSON](../entries/image/image-de6feddf44/prompt.json)
 
 **中文 Prompt**
 
@@ -1254,6 +1304,8 @@ Warm natural kitchen lighting, realistic food textures, creamy pale-yellow smoot
 
 来源：[@bananaprompts](https://x.com/bananaprompts/status/2048541390900994476) · [查看来源案例](../showcase/image.md#image-617c5d786a)
 
+[查看结构化 Prompt JSON](../entries/image/image-617c5d786a/prompt.json)
+
 **可替换内容：** `MAIN TITLE` · `SUBTITLE` · `品牌名称/活动名称/即将推出/日期` · `TAGLINE`
 
 **中文 Prompt**
@@ -1289,6 +1341,8 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 
 来源：[@Christopher J. DiMarco](https://x.com/chrisjdimarco/status/2097067604531646936) · [查看来源案例](../showcase/image.md#image-f932193426)
 
+[查看结构化 Prompt JSON](../entries/image/image-f932193426/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -1313,6 +1367,8 @@ Create a serene biophilic architectural interior: a large sunken circular lounge
 <a href="../assets/cases/image-5efc7ec9c3.jpg"><img src="../assets/cases/image-5efc7ec9c3.jpg" alt="分级英语杂志阅读页预览" width="320"></a>
 
 来源：[knowledgefxg](https://x.com/knowledgefxg/status/2096249812194869289) · [查看来源案例](../showcase/image.md#image-5efc7ec9c3)
+
+[查看结构化 Prompt JSON](../entries/image/image-5efc7ec9c3/prompt.json)
 
 **中文 Prompt**
 
@@ -1453,6 +1509,8 @@ Important requirements:
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2089987808664719723) · [查看来源案例](../showcase/image.md#image-f1b82a90e6)
 
+[查看结构化 Prompt JSON](../entries/image/image-f1b82a90e6/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -1487,6 +1545,8 @@ Keep the composition simple, low-detail, and highly recognizable, with dark fiel
 <a href="../assets/cases/image-2a8d580cf7.jpg"><img src="../assets/cases/image-2a8d580cf7.jpg" alt="五五分混合媒介回忆卡预览" width="320"></a>
 
 来源：[@Sairah_0](https://x.com/Sairah_0/status/2093212900160868430) · [查看来源案例](../showcase/image.md#image-2a8d580cf7)
+
+[查看结构化 Prompt JSON](../entries/image/image-2a8d580cf7/prompt.json)
 
 **中文 Prompt**
 
@@ -1525,6 +1585,8 @@ Create a quiet, nostalgic Morandi-style aesthetic with generous negative space. 
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2089252321603862547) · [查看来源案例](../showcase/image.md#image-fda124aba7)
 
+[查看结构化 Prompt JSON](../entries/image/image-fda124aba7/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -1549,6 +1611,8 @@ Create an immediate visual anchor from a group of irregularly layered fluorescen
 <a href="../assets/cases/image-e60a5d30a1.jpg"><img src="../assets/cases/image-e60a5d30a1.jpg" alt="高定时尚杂志封面预览" width="320"></a>
 
 来源：[@SPEEDAI07](https://x.com/SPEEDAI07/status/2048573343066992919) · [查看来源案例](../showcase/image.md#image-e60a5d30a1)
+
+[查看结构化 Prompt JSON](../entries/image/image-e60a5d30a1/prompt.json)
 
 **中文 Prompt**
 
@@ -1598,6 +1662,8 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 <a href="../assets/cases/image-2b779f2991.jpg"><img src="../assets/cases/image-2b779f2991.jpg" alt="水墨双重曝光人物海报预览" width="320"></a>
 
 来源：[@Goodmanprotocol](https://x.com/Goodmanprotocol/status/2049002279051895243) · [查看来源案例](../showcase/image.md#image-2b779f2991)
+
+[查看结构化 Prompt JSON](../entries/image/image-2b779f2991/prompt.json)
 
 **可替换内容：** `SUBJECT`
 
@@ -1700,6 +1766,8 @@ OUTPUT:
 
 来源：[@wer](https://higgsfield.ai/publications/bf3260f9-7da3-4eda-a8b4-04ca42bed096) · [查看来源案例](../showcase/image.md#image-6160fd8cca)
 
+[查看结构化 Prompt JSON](../entries/image/image-6160fd8cca/prompt.json)
+
 **可替换内容：** `animalType` · `headline` · `supportingCopy` · `brandName`
 
 **中文 Prompt**
@@ -1738,6 +1806,8 @@ Favor kraft brown, sky blue, natural subject colors, charcoal, and soft gray. Th
 <a href="../assets/cases/image-828d8ade3e.jpg"><img src="../assets/cases/image-828d8ade3e.jpg" alt="杯内鱼眼夏日冰饮广告预览" width="320"></a>
 
 来源：[@lovimg_com](https://x.com/lovimg_com/status/2077036659028484375) · [查看来源案例](../showcase/image.md#image-828d8ade3e)
+
+[查看结构化 Prompt JSON](../entries/image/image-828d8ade3e/prompt.json)
 
 **中文 Prompt**
 
@@ -1808,6 +1878,8 @@ Real brand logos, readable lettering, reproduced trademarks, unnatural faces or 
 
 来源：[@Berryxia.AI](https://x.com/berryxia/status/2096158415894835518) · [查看来源案例](../showcase/image.md#image-797a09fdbc)
 
+[查看结构化 Prompt JSON](../entries/image/image-797a09fdbc/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -1832,6 +1904,8 @@ Create a highly detailed isometric 3D miniature diorama of a cozy American-style
 <a href="../assets/cases/image-d4e3564190.jpg"><img src="../assets/cases/image-d4e3564190.jpg" alt="奢华机械腕表技术图鉴预览" width="320"></a>
 
 来源：[@Gdgtify](https://x.com/Gdgtify/status/2056928396991488312) · [查看来源案例](../showcase/image.md#image-d4e3564190)
+
+[查看结构化 Prompt JSON](../entries/image/image-d4e3564190/prompt.json)
 
 **可替换内容：** `TIMEPIECE` · `MODEL REFERENCE` · `MANUFACTURE / COLLECTION`
 
@@ -1899,6 +1973,8 @@ class Haute_Horlogerie_DNA:
 
 来源：[@SimplyAnnisa](https://x.com/SimplyAnnisa/status/2062358269172101240) · [查看来源案例](../showcase/image.md#image-6f7c8e1479)
 
+[查看结构化 Prompt JSON](../entries/image/image-6f7c8e1479/prompt.json)
+
 **可替换内容：** `城市名称` · `车辆名称`
 
 **中文 Prompt**
@@ -1938,6 +2014,8 @@ Aspect ratio 1:1.
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2090123569984679990) · [查看来源案例](../showcase/image.md#image-ae6e4d57d6)
 
+[查看结构化 Prompt JSON](../entries/image/image-ae6e4d57d6/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -1975,6 +2053,8 @@ Please transform each photo I upload into an individual high-end design poster, 
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2089959872876228689) · [查看来源案例](../showcase/image.md#image-0b30d56a9e)
 
+[查看结构化 Prompt JSON](../entries/image/image-0b30d56a9e/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -2007,6 +2087,8 @@ Use very little text: short English theme words, numbers, locations, or an appro
 <a href="../assets/cases/image-de94c8b709.jpg"><img src="../assets/cases/image-de94c8b709.jpg" alt="现代艺术活动传单预览" width="320"></a>
 
 来源：[@AI Guide-Note - 実務で使えるAI活用メディア](https://x.com/AIGuideNote/status/2096710919900582307) · [查看来源案例](../showcase/image.md#image-de94c8b709)
+
+[查看结构化 Prompt JSON](../entries/image/image-de94c8b709/prompt.json)
 
 **可替换内容：** `活动信息` · `质量、方向与构图` · `严格的布局与输出限制（必填）`
 
@@ -2051,6 +2133,8 @@ Use very little text: short English theme words, numbers, locations, or an appro
 
 来源：[@Gadgetify](https://x.com/Gdgtify/status/2096022497791721564) · [查看来源案例](../showcase/image.md#image-24c5febb05)
 
+[查看结构化 Prompt JSON](../entries/image/image-24c5febb05/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -2075,6 +2159,8 @@ Use very little text: short English theme words, numbers, locations, or an appro
 <a href="../assets/cases/image-d0024a7f32.jpg"><img src="../assets/cases/image-d0024a7f32.jpg" alt="趣味陶瓷电商首页主视觉预览" width="320"></a>
 
 来源：[@impressionist_cookie_haze96](https://higgsfield.ai/publications/2f589a2f-cc4e-422c-9285-97d65fd49540) · [查看来源案例](../showcase/image.md#image-d0024a7f32)
+
+[查看结构化 Prompt JSON](../entries/image/image-d0024a7f32/prompt.json)
 
 **可替换内容：** `brandName` · `productType` · `collectionName` · `ctaText`
 
@@ -2115,6 +2201,8 @@ At the lower left, place a price, two to three lines of product description, and
 
 来源：[@M. Asif](https://x.com/meAsifAi/status/2095857760537805130) · [查看来源案例](../showcase/image.md#image-626facaf10)
 
+[查看结构化 Prompt JSON](../entries/image/image-626facaf10/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -2139,6 +2227,8 @@ Take the person from the reference image and create a single 2x2 grid showing th
 <a href="../assets/cases/image-7ebb9401a5.jpg"><img src="../assets/cases/image-7ebb9401a5.jpg" alt="高端食品商业广告分镜预览" width="320"></a>
 
 来源：[@ÀBDŪLLÂH](https://x.com/itxabdullaa/status/2096915887504982258) · [查看来源案例](../showcase/image.md#image-7ebb9401a5)
+
+[查看结构化 Prompt JSON](../entries/image/image-7ebb9401a5/prompt.json)
 
 **可替换内容：** `productName`
 
@@ -2213,6 +2303,8 @@ Ultra-realistic food advertising, realistic spread viscosity, glossy chocolate t
 
 来源：[小洁AI实战](https://www.douyin.com/video/7683887650173032805) · [查看来源案例](../showcase/image.md#image-81c5c8e11d)
 
+[查看结构化 Prompt JSON](../entries/image/image-81c5c8e11d/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -2249,6 +2341,8 @@ Preserve the main composition, object placement, and perspective, blending the r
 <a href="../assets/cases/image-ed61eb227d.jpg"><img src="../assets/cases/image-ed61eb227d.jpg" alt="反射式滑雪装备落地页预览" width="320"></a>
 
 来源：[@surreal_pencil_sage24](https://higgsfield.ai/publications/0a69afb4-50d7-4ed7-aa39-48b16353f4e2) · [查看来源案例](../showcase/image.md#image-ed61eb227d)
+
+[查看结构化 Prompt JSON](../entries/image/image-ed61eb227d/prompt.json)
 
 **可替换内容：** `brandName` · `productName` · `headline` · `subheadline`
 
@@ -2289,6 +2383,8 @@ Aim for high-performance, technological, youthful yet restrained commercial phot
 
 来源：[小洁AI实战](https://www.douyin.com/video/7624869691328485361) · [查看来源案例](../showcase/image.md#image-0cac842543)
 
+[查看结构化 Prompt JSON](../entries/image/image-0cac842543/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -2326,6 +2422,8 @@ Output only the illustration. Do not add headings, captions, logos, watermarks, 
 
 来源：[小洁AI实战](https://www.douyin.com/video/7624869691328485361) · [查看来源案例](../showcase/image.md#image-909ac5b599)
 
+[查看结构化 Prompt JSON](../entries/image/image-909ac5b599/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -2362,6 +2460,8 @@ Use supplied copy exactly. Otherwise use short subject-relevant descriptions wit
 <a href="../assets/cases/image-611724620e.jpg"><img src="../assets/cases/image-611724620e.jpg" alt="里约旅行票据纸雕立体海报预览" width="320"></a>
 
 来源：[@john_my07](https://x.com/john_my07/status/2091408386466214031) · [查看来源案例](../showcase/image.md#image-611724620e)
+
+[查看结构化 Prompt JSON](../entries/image/image-611724620e/prompt.json)
 
 **中文 Prompt**
 
@@ -2408,6 +2508,8 @@ The final image should feel like a premium collectible Rio de Janeiro travel pos
 
 来源：[@MahnoorAi12](https://x.com/MahnoorAi12/status/2092221482139349307) · [查看来源案例](../showcase/image.md#image-8e8bcb2b18)
 
+[查看结构化 Prompt JSON](../entries/image/image-8e8bcb2b18/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -2452,6 +2554,8 @@ Overall feel: a real travel photograph mounted beside a handmade field stamp in 
 <a href="../assets/cases/image-8c99b1b29f.jpg"><img src="../assets/cases/image-8c99b1b29f.jpg" alt="同一人脸十二款发型图鉴预览" width="320"></a>
 
 来源：[@Ciri_ai](https://x.com/Ciri_ai/status/2092452220768002400) · [查看来源案例](../showcase/image.md#image-8c99b1b29f)
+
+[查看结构化 Prompt JSON](../entries/image/image-8c99b1b29f/prompt.json)
 
 **中文 Prompt**
 
@@ -2534,6 +2638,8 @@ Each panel clearly numbered 1 to 12 in the top-left corner. Overall output aspec
 
 来源：[@ou_zhen599](https://x.com/ou_zhen599/status/2091160215928574397) · [查看来源案例](../showcase/image.md#image-a9d112ca87)
 
+[查看结构化 Prompt JSON](../entries/image/image-a9d112ca87/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -2585,6 +2691,8 @@ Style: luxury FMCG campaign, surreal miniature advertising photography, editoria
 
 来源：[@AI Guide-Note - 実務で使えるAI活用メディア](https://x.com/AIGuideNote/status/2097183473601569109) · [查看来源案例](../showcase/image.md#image-7c53920b6a)
 
+[查看结构化 Prompt JSON](../entries/image/image-7c53920b6a/prompt.json)
+
 **可替换内容：** `活动信息` · `campaignName` · `prizes` · `entrySteps` · `图像质量、呈现方式与构图规范` · `布局与输出的严格限制（强制执行）`
 
 **中文 Prompt**
@@ -2628,6 +2736,8 @@ Style: luxury FMCG campaign, surreal miniature advertising photography, editoria
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2089291663466508680) · [查看来源案例](../showcase/image.md#image-2d9c1779c7)
 
+[查看结构化 Prompt JSON](../entries/image/image-2d9c1779c7/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -2664,6 +2774,8 @@ Ratio 3:4
 
 来源：[@𝗦𝗮𝗻𝗶𝗮](https://x.com/saniaspeaks_/status/2097176979497791899) · [查看来源案例](../showcase/image.md#image-aa535c1f0d)
 
+[查看结构化 Prompt JSON](../entries/image/image-aa535c1f0d/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -2688,6 +2800,8 @@ Create a premium editorial art poster for every uploaded photograph, treating ea
 <a href="../assets/cases/image-89fc3234ea.jpg"><img src="../assets/cases/image-89fc3234ea.jpg" alt="街头卷轴背景时尚大片预览" width="320"></a>
 
 来源：[@renaissance_soda_warm52](https://higgsfield.ai/publications/e17319aa-0fd3-4868-b158-f7f16330c8e1) · [查看来源案例](../showcase/image.md#image-89fc3234ea)
+
+[查看结构化 Prompt JSON](../entries/image/image-89fc3234ea/prompt.json)
 
 **可替换内容：** `subjectDescription` · `backdropColor` · `patternDescription` · `outfitDescription` · `skyColor` · `heroGarmentColor`
 
@@ -2724,6 +2838,8 @@ Use natural golden-hour side light, with a soft long shadow to one side of the s
 
 来源：[@BLCNYY](https://x.com/BLCNYY/status/2090897198351368575) · [查看来源案例](../showcase/image.md#image-908d8579d8)
 
+[查看结构化 Prompt JSON](../entries/image/image-908d8579d8/prompt.json)
+
 **可替换内容：** `headline` · `questionText` · `productName`
 
 **中文 Prompt**
@@ -2750,6 +2866,8 @@ Create a high-impact YouTube tech review thumbnail in a 16:9 landscape format. O
 <a href="../assets/cases/image-540528c039.jpg"><img src="../assets/cases/image-540528c039.jpg" alt="旅行纪念珐琅徽章预览" width="320"></a>
 
 来源：[@Emmma__0](https://x.com/Emmma__0/status/2093194689222705645) · [查看来源案例](../showcase/image.md#image-540528c039)
+
+[查看结构化 Prompt JSON](../entries/image/image-540528c039/prompt.json)
 
 **中文 Prompt**
 
@@ -2796,6 +2914,8 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 
 来源：[@AlexAImaginator](https://x.com/TraffAlex/status/2095583733264879803) · [查看来源案例](../showcase/image.md#image-9dc00fd4c2)
 
+[查看结构化 Prompt JSON](../entries/image/image-9dc00fd4c2/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -2820,6 +2940,8 @@ A scientific botanical poster on cream paper. A single oversized forget-me-not p
 <a href="../assets/cases/image-efcccbca0c.jpg"><img src="../assets/cases/image-efcccbca0c.jpg" alt="界面交互设计图预览" width="320"></a>
 
 来源：[@wory37303852](https://x.com/wory37303852) · [查看来源案例](../showcase/image.md#image-efcccbca0c)
+
+[查看结构化 Prompt JSON](../entries/image/image-efcccbca0c/prompt.json)
 
 **中文 Prompt**
 
@@ -2914,6 +3036,8 @@ A scientific botanical poster on cream paper. A single oversized forget-me-not p
 
 来源：[@小小东](https://x.com/xiaoxiaodong01/status/2089893684527730867) · [查看来源案例](../showcase/image.md#image-9457327362)
 
+[查看结构化 Prompt JSON](../entries/image/image-9457327362/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -2948,6 +3072,8 @@ Use an off-white or light background and generous whitespace. Connect the upper 
 <a href="../assets/cases/image-054cd4752d.jpg"><img src="../assets/cases/image-054cd4752d.jpg" alt="一周穿搭信息图预览" width="320"></a>
 
 来源：[@yyyole](https://x.com/yyyole) · [查看来源案例](../showcase/image.md#image-054cd4752d)
+
+[查看结构化 Prompt JSON](../entries/image/image-054cd4752d/prompt.json)
 
 **中文 Prompt**
 
@@ -3055,6 +3181,8 @@ Use an off-white or light background and generous whitespace. Connect the upper 
 <a href="../assets/cases/image-bf146d83bb.jpg"><img src="../assets/cases/image-bf146d83bb.jpg" alt="武汉过早美食地图信息图预览" width="320"></a>
 
 来源：[@mm_zzm44854](https://x.com/mm_zzm44854) · [查看来源案例](../showcase/image.md#image-bf146d83bb)
+
+[查看结构化 Prompt JSON](../entries/image/image-bf146d83bb/prompt.json)
 
 **中文 Prompt**
 
@@ -3183,6 +3311,8 @@ Requirements: All Chinese text must be clear and accurate, with no garbled chara
 
 来源：[雪瑜（@xueyu1125）](https://x.com/xueyu1125/status/2094015423775994116) · [查看来源案例](../showcase/image.md#image-f466b7610c)
 
+[查看结构化 Prompt JSON](../entries/image/image-f466b7610c/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -3242,6 +3372,8 @@ No people, modern digital UI, neon, gradients, 3D plastic textures, or photo col
 
 来源：[@cezanne_cupcake_haze12](https://higgsfield.ai/publications/0bbfc974-900c-4a1e-8561-3d9ada80177a) · [查看来源案例](../showcase/image.md#image-d3a00a1ea9)
 
+[查看结构化 Prompt JSON](../entries/image/image-d3a00a1ea9/prompt.json)
+
 **可替换内容：** `brandName` · `headline` · `collectionName` · `ctaText`
 
 **中文 Prompt**
@@ -3284,6 +3416,8 @@ At the bottom, arrange a short headline, three to four lines of brand introducti
 <a href="../assets/cases/image-1587ef7030.jpg"><img src="../assets/cases/image-1587ef7030.jpg" alt="千禧虚拟试衣游戏界面预览" width="320"></a>
 
 来源：[@steampunk_donut_jade65](https://higgsfield.ai/publications/fb624032-7cc1-47b5-8df4-d8a8cfc5823e) · [查看来源案例](../showcase/image.md#image-1587ef7030)
+
+[查看结构化 Prompt JSON](../entries/image/image-1587ef7030/prompt.json)
 
 **可替换内容：** `brandName` · `headline` · `primaryCta` · `secondaryCta`
 
@@ -3343,6 +3477,8 @@ Along the bottom, arrange the two primary buttons "{primaryCta}" and "{secondary
 
 **使用检查：** 真实物种的形态与标注需要另行核对；图像模型生成的文字也要逐字复查。
 
+[查看结构化模板 JSON](../entries/original-templates/botanical-editorial.json)
+
 <a id="beverage-still-life"></a>
 
 ## 饮品商业静物
@@ -3358,6 +3494,8 @@ Along the bottom, arrange the two primary buttons "{primaryCta}" and "{secondary
 ```
 
 **使用检查：** 有真实包装时上传产品参考图，并检查标签、容量与外形是否被改写。
+
+[查看结构化模板 JSON](../entries/original-templates/beverage-still-life.json)
 
 <a id="travel-print-poster"></a>
 
@@ -3375,6 +3513,8 @@ Along the bottom, arrange the two primary buttons "{primaryCta}" and "{secondary
 
 **使用检查：** 如果使用真实城市地标，发布前核对地理细节；标题错误可后期排版。
 
+[查看结构化模板 JSON](../entries/original-templates/travel-print-poster.json)
+
 <a id="food-storyboard"></a>
 
 ## 食品广告四格分镜
@@ -3391,6 +3531,8 @@ Along the bottom, arrange the two primary buttons "{primaryCta}" and "{secondary
 
 **使用检查：** 分镜图不是实际成片；进入视频制作时仍需单独检查镜头连续性。
 
+[查看结构化模板 JSON](../entries/original-templates/food-storyboard.json)
+
 <a id="ecommerce-grid"></a>
 
 ## 电商商品系列图
@@ -3404,6 +3546,8 @@ Along the bottom, arrange the two primary buttons "{primaryCta}" and "{secondary
 ```
 
 **使用检查：** 有精确 SKU 或技术参数时，逐格比对原图，文字建议后期排版。
+
+[查看结构化模板 JSON](../entries/original-templates/ecommerce-grid.json)
 
 <a id="learning-infographic"></a>
 
@@ -3419,6 +3563,8 @@ Along the bottom, arrange the two primary buttons "{primaryCta}" and "{secondary
 
 **使用检查：** 先写好经核对的四步文案，再让模型生成图；复杂数据建议后期人工排版。
 
+[查看结构化模板 JSON](../entries/original-templates/learning-infographic.json)
+
 <a id="portrait-lighting-sheet"></a>
 
 ## 人像灯光方案对照
@@ -3432,6 +3578,8 @@ Along the bottom, arrange the two primary buttons "{primaryCta}" and "{secondary
 ```
 
 **使用检查：** 需要真人身份一致时优先使用获得许可的参考照并人工检查每格。
+
+[查看结构化模板 JSON](../entries/original-templates/portrait-lighting-sheet.json)
 
 <a id="character-turnaround"></a>
 
@@ -3447,6 +3595,8 @@ Along the bottom, arrange the two primary buttons "{primaryCta}" and "{secondary
 
 **使用检查：** 正式生产前逐视角核对细节，复杂配饰可拆成单独参考图。
 
+[查看结构化模板 JSON](../entries/original-templates/character-turnaround.json)
+
 <a id="interior-material-board"></a>
 
 ## 室内空间材质板
@@ -3461,6 +3611,8 @@ Along the bottom, arrange the two primary buttons "{primaryCta}" and "{secondary
 
 **使用检查：** 施工尺寸、材料规格和防火要求应以正式设计文件为准。
 
+[查看结构化模板 JSON](../entries/original-templates/interior-material-board.json)
+
 <a id="creator-cover"></a>
 
 ## 创作者视频封面
@@ -3474,3 +3626,5 @@ Along the bottom, arrange the two primary buttons "{primaryCta}" and "{secondary
 ```
 
 **使用检查：** 标题和标识需要精确时，用设计软件叠加文字而不是依赖生图模型。
+
+[查看结构化模板 JSON](../entries/original-templates/creator-cover.json)

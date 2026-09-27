@@ -1,0 +1,26 @@
+{
+  "id": "video-cdfbcca0a0",
+  "title": "中国水墨无缝转场",
+  "category": "动画",
+  "summary": "用水墨形态变换连续连接海浪、山峦、花枝和月夜场景。",
+  "tags": [
+    "动画",
+    "水彩",
+    "横屏"
+  ],
+  "image": "assets/cases/video-cdfbcca0a0.jpg",
+  "prompt": "一段无缝衔接的传统中国水墨水彩动画，始于深蓝色的海浪逐渐幻化为云雾缭绕的山峦，山间矗立着宝塔与石阶。绯红色的墨云横扫画面，场景随之过渡至平静的江面，一叶扁舟停泊在红叶树旁。红叶变幻为娇嫩的粉色樱花，花瓣围绕着一座小岛上孤零零的盆景式树木轻轻飘落。最终，一轮皎洁的满月从远山后升起，金色的月光倒映在宁静的水面上，画面渐渐融入静谧的夜晚。整体氛围诗意盎然，转场流畅自然，尽显优雅的中国画美学与柔和的水彩质感。",
+  "source": {
+    "author": "@NoorAI / YouMind",
+    "url": "https://x.com/noorwithwifi/status/2101683541629354348"
+  },
+  "promptCredit": "来源提示词 / 翻译整理",
+  "video": "assets/cases/video-cdfbcca0a0.mp4",
+  "catalog": {
+    "sourceLabel": "X · @noorwithwifi",
+    "related": {
+      "label": "YouMind 模板",
+      "url": "https://youmind.com/zh-CN/video-prompts/chinese-ink-wash-animation-seamless-11079"
+    }
+  }
+}

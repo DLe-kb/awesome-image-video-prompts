@@ -4,6 +4,7 @@ const detail = $("#detail");
 let images = [];
 let videos = [];
 let templates = [];
+let entryIndex = { cases: {}, prompts: {}, originalTemplates: {} };
 let toastTimer;
 
 function el(tag, className, text) {
@@ -140,6 +141,18 @@ function openDetail(entry, kind) {
     content.append(reusable);
   }
   if (entry.tip) content.append(el("p", "template-tip", entry.tip));
+  const jsonPath = entry.caseId
+    ? entryIndex.prompts[entry.id]
+    : kind === "template"
+      ? entryIndex.originalTemplates[entry.id]
+      : entryIndex.cases[entry.id] ?? entryIndex.originalCases[entry.id];
+  if (jsonPath) {
+    const structured = el("a", "reuse-link", "查看结构化 JSON ↗");
+    structured.href = jsonPath;
+    structured.target = "_blank";
+    structured.rel = "noopener noreferrer";
+    content.append(structured);
+  }
   layout.append(content);
   body.append(layout);
   detail.showModal();
@@ -276,18 +289,20 @@ function populateCategories() {
 
 async function start() {
   try {
-    const [showcaseResponse, templatesResponse, casesResponse, curatedResponse] = await Promise.all([
+    const [showcaseResponse, templatesResponse, casesResponse, curatedResponse, indexResponse] = await Promise.all([
       fetch("data/showcase.json"),
       fetch("data/templates.json"),
       fetch("data/cases.json"),
       fetch("data/curated-templates.json"),
+      fetch("data/entry-index.json"),
     ]);
-    if (!showcaseResponse.ok || !templatesResponse.ok || !casesResponse.ok || !curatedResponse.ok)
+    if (!showcaseResponse.ok || !templatesResponse.ok || !casesResponse.ok || !curatedResponse.ok || !indexResponse.ok)
       throw new Error("Data unavailable");
     const showcase = await showcaseResponse.json();
     const templateLibrary = await templatesResponse.json();
     const cases = await casesResponse.json();
     const curated = await curatedResponse.json();
+    entryIndex = await indexResponse.json();
     images = [...cases.images, ...showcase.images];
     videos = [...cases.videos, ...showcase.videos];
     templates = [...curated.entries, ...templateLibrary.entries];

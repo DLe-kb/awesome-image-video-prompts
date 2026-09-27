@@ -1,0 +1,26 @@
+{
+  "id": "image-2be108496e",
+  "title": "食物爆炸拆解信息图",
+  "category": "信息图表",
+  "summary": "把食物的不同组成部分按垂直顺序悬浮排列，生成写实爆炸拆解信息图。",
+  "tags": [
+    "信息图表",
+    "食品饮料",
+    "产品视觉"
+  ],
+  "image": "assets/cases/image-2be108496e.jpg",
+  "prompt": "Create a hyper-realistic exploded vertical infographic composition of tacos.\n\nTop → Bottom structure:\nFresh Lettuce (crisp green texture with natural folds)\n→ Tomato & Salsa Layer (juicy diced tomatoes and salsa mix)\n→ Melted Cheese (smooth cheddar texture)\n→ Grilled Meat Filling (juicy seasoned meat detail)\n→ Taco Shell Base (crispy golden shell texture)\nPerfect vertical alignment, rustic background, soft studio lighting, realistic shadows beneath each floating element.\n\nAdd clean infographic text labels with thin pointer lines using these exact labels:\n“Lettuce”\n“Salsa”\n“Cheese”\n“Meat”\n“Shell”\nUltra-detailed food textures, premium commercial aesthetic, 8K.",
+  "source": {
+    "author": "@Strength04_X",
+    "url": "https://x.com/Strength04_X/status/2056018963084226866"
+  },
+  "promptCredit": "来源提示词 / 翻译整理",
+  "templateId": "image-exploded-food-infographic",
+  "catalog": {
+    "sourceLabel": "X · @Strength04_X",
+    "related": {
+      "label": "GitHub 案例",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-443"
+    }
+  }
+}

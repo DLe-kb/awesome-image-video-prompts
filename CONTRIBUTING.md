@@ -12,22 +12,27 @@
 
 ## 修改条目
 
-编辑 [`data/catalog.json`](data/catalog.json) 和 [`data/cases.json`](data/cases.json)，保持一致的唯一 `id`、`kind`（`image` 或 `video`）、标题、用途、标签、来源与原作者。来源案例的预览放在 `assets/cases/`，视频附浏览器可播放的 MP4；原创案例放在 [`data/showcase.json`](data/showcase.json)。来源素材不自动获得本仓库的 MIT 许可。
+从 [`entries/`](entries/README.md) 找到对应的独立 JSON，再修改条目。来源案例在 `entries/image/<案例 ID>/case.json` 或 `entries/video/<案例 ID>/case.json`；有对应的中英文配套 Prompt 时，同目录还有 `prompt.json`。原创案例与工作流在 `entries/original/<image|video>/<ID>/case.json`，原创填空模板在 `entries/original-templates/<ID>.json`。新来源案例使用唯一的 `image-` 或 `video-` 加十位十六进制 ID，配套 Prompt 用 `caseId` 和案例的 `templateId` 双向关联。
+
+来源案例预览放在 `assets/cases/`，视频附浏览器可播放的 MP4；JSON 中只引用媒体路径。保留完整 Prompt、作者、原帖和提示词来源性质。`catalog.sourceLabel` 是案例索引中的来源名称；当索引链接与案例的 `source.url` 不同时，将索引链接保存在 `catalog.sourceUrl`，不要覆盖作者链接。来源素材不自动获得本仓库的 MIT 许可。
 
 ```bash
+node scripts/entries.mjs --write
 node scripts/catalog.mjs --write
 node scripts/showcase.mjs --write
+node scripts/templates.mjs --write
+node scripts/entries.mjs --check
 node scripts/catalog.mjs --check
 node scripts/showcase.mjs --check
+node scripts/templates.mjs --check
 ```
 
-生成的 `catalog/` 和 `showcase/` 页面应与数据文件一并提交。Pull Request（拉取请求）请说明原始来源及预览、样片的使用范围；移除来源内容可直接提交 Issue（问题反馈）。
+脚本会同步 `data/` 汇总与生成页面，不要再直接编辑汇总中的条目正文。新增条目时还要更新 README 中的人类可读数量和相应页面的数量校验。Pull Request（拉取请求）请说明原始来源及预览、样片的使用范围；移除来源内容可直接提交 Issue（问题反馈）。
 
 ## 贡献 Prompt 模板
 
-原创通用模板放在 [`data/templates.json`](data/templates.json)，填写类型、标题、用途、需要替换的变量、完整 Prompt 和使用检查。来源适配模板放在 [`data/curated-templates.json`](data/curated-templates.json)，提供对应案例 ID、中英文完整 Prompt、原作者与原始链接；预览沿用该案例的媒体，不把来源画面称作适配模板的生成结果。不要将第三方原文改几个词后作为原创模板提交。生成页面与校验命令：
+原创通用模板放在 `entries/original-templates/<ID>.json`，填写类型、标题、用途、需要替换的变量、完整 Prompt 和使用检查。来源配套 Prompt 放在对应案例的 `prompt.json`，提供案例 ID、中英文完整 Prompt、原作者与原始链接；预览沿用该案例的媒体，不把来源画面称作配套 Prompt 的生成结果。不要将第三方原文改几个词后作为原创模板提交。完成编辑后按上一节的顺序同步与校验；模板页也可以单独检查：
 
 ```bash
-node scripts/templates.mjs --write
 node scripts/templates.mjs --check
 ```

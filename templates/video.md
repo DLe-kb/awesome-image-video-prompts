@@ -47,6 +47,8 @@
 
 来源：[Higgsfield.AI Team](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control) · [查看来源案例](../showcase/video.md#video-cbe24f7388)
 
+[查看结构化 Prompt JSON](../entries/video/video-cbe24f7388/prompt.json)
+
 **可替换内容：** `主体` · `载具/场景`
 
 **中文 Prompt**
@@ -73,6 +75,8 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 <a href="../assets/cases/video-2bf5e5594d.mp4"><img src="../assets/cases/video-2bf5e5594d.jpg" alt="纽约街头的动漫滑板追逐预览" width="360"></a>
 
 来源：[Synthia（@AIwithSynthia）](https://x.com/AIwithSynthia/status/2088650163778961654) · [查看来源案例](../showcase/video.md#video-2bf5e5594d)
+
+[查看结构化 Prompt JSON](../entries/video/video-2bf5e5594d/prompt.json)
 
 **可替换内容：** `角色服装：红白运动短裙、修身短上衣和深蓝色运动鞋` · `故事场景：纽约繁华街道`
 
@@ -113,6 +117,8 @@ No photorealism, no 3D CGI, no identity drift, no outfit changes, no oversized c
 <a href="../assets/cases/video-5d2a7780cd.mp4"><img src="../assets/cases/video-5d2a7780cd.jpg" alt="海滩石像定格动画预览" width="360"></a>
 
 来源：[Marcos（@arsalannazir07）](https://x.com/arsalannazir07/status/2096791786807275583) · [查看来源案例](../showcase/video.md#video-5d2a7780cd)
+
+[查看结构化 Prompt JSON](../entries/video/video-5d2a7780cd/prompt.json)
 
 **可替换内容：** `主体：由天然平滑海滩石块组成的小型人形生物` · `场景：岩石海岸的浅潮汐池` · `表演动作：一段古怪的小舞`
 
@@ -179,6 +185,8 @@ Negative prompt: cartoon, plastic-looking stones, exaggerated facial features, s
 
 来源：[Ahmad Faraz（@iamahmedfaraz66）](https://x.com/iamahmedfaraz66/status/2095139680786493912) · [查看来源案例](../showcase/video.md#video-fce76e69a8)
 
+[查看结构化 Prompt JSON](../entries/video/video-fce76e69a8/prompt.json)
+
 **可替换内容：** `互动道具：一叠书`
 
 **中文 Prompt**
@@ -228,6 +236,8 @@ Natural human movement, realistic reaction timing, believable hand and finger mo
 
 来源：[Sarah（@SyntheSarah）](https://x.com/SyntheSarah/status/2097182529564365135) · [查看来源案例](../showcase/video.md#video-b5fa2e6d3f)
 
+[查看结构化 Prompt JSON](../entries/video/video-b5fa2e6d3f/prompt.json)
+
 **可替换内容：** `主角：饱经风霜的老灯塔守望者` · `场景：夜晚雾气弥漫的悬崖` · `奇观元素：几十个萤火虫般发光的漂浮球体`
 
 **中文 Prompt**
@@ -261,6 +271,8 @@ A weathered old lighthouse keeper stands on a foggy cliff at night, wearing a th
 
 来源：[Avelyrah（@AvelyrahnAI）](https://x.com/AvelyrahnAI/status/2088495522801942951) · [查看来源案例](../showcase/video.md#video-37af5cd196)
 
+[查看结构化 Prompt JSON](../entries/video/video-37af5cd196/prompt.json)
+
 **可替换内容：** `场景：粗野主义风格混凝土多层庭院` · `主角：身穿拼色棒球夹克、连帽衫及工装裤的年轻男性` · `对手：佩戴白色狐狸面具并手持武士刀的敏捷女刺客`
 
 **中文 Prompt**
@@ -287,6 +299,8 @@ Cinematic action sequence in a brutalist concrete multi-story courtyard. A young
 <a href="../assets/cases/video-df3924a259.mp4"><img src="../assets/cases/video-df3924a259.jpg" alt="电影级动作轮滑序列预览" width="360"></a>
 
 来源：[Smiling Khan（@AIwithkhan）](https://x.com/AIwithkhan/status/2088506532434743745) · [查看来源案例](../showcase/video.md#video-df3924a259)
+
+[查看结构化 Prompt JSON](../entries/video/video-df3924a259/prompt.json)
 
 **可替换内容：** `主角：穿着牛仔裤、短款上衣并佩戴防护装备的年轻女性` · `追逐场景：拥挤的市中心街道` · `追逐者：闪烁警灯的警车`
 
@@ -331,6 +345,8 @@ Negative prompt: No crashes into pedestrians, no injuries, no gore, no distorted
 
 来源：[Pierrick Chevallier（@CharaspowerAI）](https://x.com/CharaspowerAI/status/2086830115527250284) · [查看来源案例](../showcase/video.md#video-849134cf4b)
 
+[查看结构化 Prompt JSON](../entries/video/video-849134cf4b/prompt.json)
+
 **可替换内容：** `主角：身着藏红花色僧袍的健硕少林武僧` · `场景：广阔的废弃山间寺庙庭院` · `对手：四个高耸的原创石甲生物`
 
 **中文 Prompt**
@@ -371,6 +387,8 @@ Photorealistic martial-arts blockbuster, anamorphic cinematography, high-contras
 
 来源：[Sarah（@SyntheSarah）](https://x.com/SyntheSarah/status/2088122680142930199) · [查看来源案例](../showcase/video.md#video-e24c102dab)
 
+[查看结构化 Prompt JSON](../entries/video/video-e24c102dab/prompt.json)
+
 **可替换内容：** `主角：年轻女性` · `场景：危险的山地环境` · `角色服装：黑色专业户外服装`
 
 **中文 Prompt**
@@ -405,6 +423,8 @@ Negative: CGI appearance, cartoon look, artificial textures, unrealistic physics
 
 来源：[Higgsfield.AI Team](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control) · [查看来源案例](../showcase/video.md#video-fa2e0ad821)
 
+[查看结构化 Prompt JSON](../entries/video/video-fa2e0ad821/prompt.json)
+
 **可替换内容：** `主体` · `重复出现的背景元素`
 
 **中文 Prompt**
@@ -432,6 +452,8 @@ The camera physically dollies forward from [6] meters to [2.5] meters while the 
 
 来源：[Higgsfield.AI Team](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control) · [查看来源案例](../showcase/video.md#video-f953b9d317)
 
+[查看结构化 Prompt JSON](../entries/video/video-f953b9d317/prompt.json)
+
 **可替换内容：** `主体` · `右侧`
 
 **中文 Prompt**
@@ -458,6 +480,8 @@ A smooth constant-speed circular drone flight around the [subject] — [8]-meter
 <a href="../assets/cases/video-f97cb22797.mp4"><img src="../assets/cases/video-f97cb22797.jpg" alt="第一人称视角：龙骑士电影级画面预览" width="360"></a>
 
 来源：[Nexora（@frametheory058）](https://x.com/frametheory058/status/2087007818721423855) · [查看来源案例](../showcase/video.md#video-f97cb22797)
+
+[查看结构化 Prompt JSON](../entries/video/video-f97cb22797/prompt.json)
 
 **可替换内容：** `主角：巨大的原创黑曜石深红巨龙` · `起飞场景：潮湿的翡翠色海岸悬崖` · `飞行环境：灰绿色的海洋`
 
@@ -494,6 +518,8 @@ Make it indistinguishable from expensive real live-action cinema. No AI look, ca
 
 来源：[Higgsfield.AI Team](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control) · [查看来源案例](../showcase/video.md#video-8cf75d3afe)
 
+[查看结构化 Prompt JSON](../entries/video/video-8cf75d3afe/prompt.json)
+
 **可替换内容：** `起始构图 A` · `环境` · `落点主体`
 
 **中文 Prompt**
@@ -520,6 +546,8 @@ Rotate the camera horizontally from left to right from one fixed point, like a s
 <a href="../assets/cases/video-0c79e1fe07.mp4"><img src="../assets/cases/video-0c79e1fe07.jpg" alt="日本网红出门准备 UGC预览" width="360"></a>
 
 来源：[タナベ（@tanabe_fragm）](https://x.com/tanabe_fragm/status/2096136682055864564) · [查看来源案例](../showcase/video.md#video-0c79e1fe07)
+
+[查看结构化 Prompt JSON](../entries/video/video-0c79e1fe07/prompt.json)
 
 **可替换内容：** `角色：27 岁日本美妆/时尚网红` · `室内场景：紧凑的日本出租屋`
 
@@ -623,6 +651,8 @@ Do not add extra dialogue. One person only. Maintain identity throughout.
 
 来源：[ayzalnoor（@ayzalnooor24521）](https://x.com/ayzalnooor24521/status/2097194787564658942) · [查看来源案例](../showcase/video.md#video-ced1de556c)
 
+[查看结构化 Prompt JSON](../entries/video/video-ced1de556c/prompt.json)
+
 **可替换内容：** `场景：装饰精美的卧室` · `产品：高级珠宝礼盒` · `核心珠宝：闪耀的蓝色宝石吊坠`
 
 **中文 Prompt**
@@ -668,6 +698,8 @@ Soft cinematic lighting, warm golden tones, luxury commercial aesthetic, smooth 
 <a href="../assets/cases/video-e7dcc94d27.mp4"><img src="../assets/cases/video-e7dcc94d27.jpg" alt="纽约跑酷与蛛丝摆荡动作预览" width="360"></a>
 
 来源：[Elsa Ai（@ElsaSofia__AI）](https://x.com/ElsaSofia__AI/status/2089306746804375878) · [查看来源案例](../showcase/video.md#video-e7dcc94d27)
+
+[查看结构化 Prompt JSON](../entries/video/video-e7dcc94d27/prompt.json)
 
 **可替换内容：** `结束`
 
@@ -728,6 +760,8 @@ RED Monstro 8K, anamorphic, 165cm 47kg controlled athletic body throughout, phys
 
 来源：[Higgsfield.AI Team](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control) · [查看来源案例](../showcase/video.md#video-ad4c3bf9c3)
 
+[查看结构化 Prompt JSON](../entries/video/video-ad4c3bf9c3/prompt.json)
+
 **可替换内容：** `焦平面 A：远处锚点` · `焦平面 B：近处主体` · `最终主体构图`
 
 **中文 Prompt**
@@ -754,6 +788,8 @@ The camera hard-locked on a tripod with no pan, no tilt, no push, no drift; the 
 <a href="../assets/cases/video-61094b8453.mp4"><img src="../assets/cases/video-61094b8453.jpg" alt="雨林神秘光源短片预览" width="360"></a>
 
 来源：[Ahmad Faraz（@iamahmedfaraz66）](https://x.com/iamahmedfaraz66/status/2095362901326598521) · [查看来源案例](../showcase/video.md#video-61094b8453)
+
+[查看结构化 Prompt JSON](../entries/video/video-61094b8453/prompt.json)
 
 **可替换内容：** `神秘光源：一束微弱的暖光`
 
@@ -792,6 +828,8 @@ Create a photorealistic cinematic 15-second video from this exact image. Preserv
 
 来源：[小洁AI实战](https://www.douyin.com/video/7683887650173032805) · [查看来源案例](../showcase/video.md#video-24c5f43c41)
 
+[查看结构化 Prompt JSON](../entries/video/video-24c5f43c41/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -828,6 +866,8 @@ Lock the camera completely: no dolly, pan, zoom, or cuts. Preserve the person's 
 <a href="../assets/cases/video-60b5dcaaac.mp4"><img src="../assets/cases/video-60b5dcaaac.jpg" alt="食谱信息图转连续烹饪短片预览" width="360"></a>
 
 来源：[Oleksa AI（@OleksaFrame）](https://x.com/OleksaFrame/status/2097669808800113040) · [查看来源案例](../showcase/video.md#video-60b5dcaaac)
+
+[查看结构化 Prompt JSON](../entries/video/video-60b5dcaaac/prompt.json)
 
 **中文 Prompt**
 
@@ -982,6 +1022,8 @@ exit: the thick bubbling red surface fills the final frame; bubbling continues a
 
 来源：[小洁AI实战](https://www.douyin.com/video/7624869691328485361) · [查看来源案例](../showcase/video.md#video-967e1a17e1)
 
+[查看结构化 Prompt JSON](../entries/video/video-967e1a17e1/prompt.json)
+
 **中文 Prompt**
 
 ```text
@@ -1019,6 +1061,8 @@ Keep headings, letterforms, wording, text placement, and the background static. 
 
 来源：[Zyrella（@Zyrellix）](https://x.com/Zyrellix/status/2087846827475239167) · [查看来源案例](../showcase/video.md#video-59eafdce5b)
 
+[查看结构化 Prompt JSON](../entries/video/video-59eafdce5b/prompt.json)
+
 **可替换内容：** `场景：被摧毁且烟雾弥漫的高速公路` · `主角：留着深色卷发、身穿战术服装的运动型女性` · `载具：哑光黑色未来派摩托车`
 
 **中文 Prompt**
@@ -1045,6 +1089,8 @@ A high-octane cinematic sci-fi action sequence set on a destroyed, smoke-filled 
 <a href="../assets/cases/video-ac4f3a29c1.mp4"><img src="../assets/cases/video-ac4f3a29c1.jpg" alt="首尔周日 DV 家庭录像预览" width="360"></a>
 
 来源：[Smiling Khan（@AIwithkhan）](https://x.com/AIwithkhan/status/2096424933366931946) · [查看来源案例](../showcase/video.md#video-ac4f3a29c1)
+
+[查看结构化 Prompt JSON](../entries/video/video-ac4f3a29c1/prompt.json)
 
 **可替换内容：** `主角：韩国年轻女性` · `场景：首尔老城区` · `角色服装：淡蓝色短上衣和宽松米色长裤`
 
@@ -1089,6 +1135,8 @@ Create a 30-second, 1080p ultra-realistic early-2000s DV home video of a young K
 
 来源：[Higgsfield.AI Team](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control) · [查看来源案例](../showcase/video.md#video-bc1f9f0af1)
 
+[查看结构化 Prompt JSON](../entries/video/video-bc1f9f0af1/prompt.json)
+
 **可替换内容：** `主体`
 
 **中文 Prompt**
@@ -1115,6 +1163,8 @@ A smooth jib rise from 1.2 meters to 9 meters altitude over the shot, with a gen
 <a href="../assets/cases/video-dc65c9f52f.mp4"><img src="../assets/cases/video-dc65c9f52f.jpg" alt="水彩素描跑酷追逐预览" width="360"></a>
 
 来源：[おのもの（@user_monom）](https://x.com/user_monom/status/2086447224750530664) · [查看来源案例](../showcase/video.md#video-dc65c9f52f)
+
+[查看结构化 Prompt JSON](../entries/video/video-dc65c9f52f/prompt.json)
 
 **中文 Prompt**
 
@@ -1232,6 +1282,8 @@ Task: Dreamina Seedance 2.5 — Omni ReferenceDuration: 30 secondsAspect ratio: 
 
 **使用检查：** 先锁定首帧与产品真实外观，再检查末帧能否用作广告落版。
 
+[查看结构化模板 JSON](../entries/original-templates/single-shot-product.json)
+
 <a id="illustration-micro-loop"></a>
 
 ## 插画局部微动效
@@ -1245,6 +1297,8 @@ Task: Dreamina Seedance 2.5 — Omni ReferenceDuration: 30 secondsAspect ratio: 
 ```
 
 **使用检查：** 逐帧查看文字、面部和边缘是否漂移，循环点要在播放器中实际检查。
+
+[查看结构化模板 JSON](../entries/original-templates/illustration-micro-loop.json)
 
 <a id="creator-ugc-script"></a>
 
@@ -1260,6 +1314,8 @@ Task: Dreamina Seedance 2.5 — Omni ReferenceDuration: 30 secondsAspect ratio: 
 
 **使用检查：** 涉及功效的台词必须来自可证明的产品资料；生成画面不能代替真人实测。
 
+[查看结构化模板 JSON](../entries/original-templates/creator-ugc-script.json)
+
 <a id="camera-reveal"></a>
 
 ## 上升镜头环境揭示
@@ -1273,6 +1329,8 @@ Task: Dreamina Seedance 2.5 — Omni ReferenceDuration: 30 secondsAspect ratio: 
 ```
 
 **使用检查：** 用清楚的起点与终点定义镜头，避免同时要求互相冲突的运镜。
+
+[查看结构化模板 JSON](../entries/original-templates/camera-reveal.json)
 
 <a id="cooking-sequence"></a>
 
@@ -1288,6 +1346,8 @@ Task: Dreamina Seedance 2.5 — Omni ReferenceDuration: 30 secondsAspect ratio: 
 
 **使用检查：** 较长的制作流程应拆成多个短镜头分别生成，再人工核对衔接。
 
+[查看结构化模板 JSON](../entries/original-templates/cooking-sequence.json)
+
 <a id="science-motion-explainer"></a>
 
 ## 概念解释动效
@@ -1301,6 +1361,8 @@ Task: Dreamina Seedance 2.5 — Omni ReferenceDuration: 30 secondsAspect ratio: 
 ```
 
 **使用检查：** 先把科学关系写成三步并核对，再制作动画；字幕和数据宜后期叠加。
+
+[查看结构化模板 JSON](../entries/original-templates/science-motion-explainer.json)
 
 <a id="character-continuity"></a>
 
@@ -1316,6 +1378,8 @@ Task: Dreamina Seedance 2.5 — Omni ReferenceDuration: 30 secondsAspect ratio: 
 
 **使用检查：** 跨镜头叙事要分别固定角色设定、场景锚点与前后帧，不宜只靠一句总提示。
 
+[查看结构化模板 JSON](../entries/original-templates/character-continuity.json)
+
 <a id="before-after-reveal"></a>
 
 ## 前后状态揭示
@@ -1329,6 +1393,8 @@ Task: Dreamina Seedance 2.5 — Omni ReferenceDuration: 30 secondsAspect ratio: 
 ```
 
 **使用检查：** 用于真实功效传播时，前后素材与效果主张必须另行核实。
+
+[查看结构化模板 JSON](../entries/original-templates/before-after-reveal.json)
 
 <a id="travel-mini-film"></a>
 
@@ -1344,6 +1410,8 @@ Task: Dreamina Seedance 2.5 — Omni ReferenceDuration: 30 secondsAspect ratio: 
 
 **使用检查：** 真实地点的地标与文化细节应依据参考资料核对。
 
+[查看结构化模板 JSON](../entries/original-templates/travel-mini-film.json)
+
 <a id="object-match-cut"></a>
 
 ## 物体形状匹配转场
@@ -1357,3 +1425,5 @@ Task: Dreamina Seedance 2.5 — Omni ReferenceDuration: 30 secondsAspect ratio: 
 ```
 
 **使用检查：** 先制作两张构图对齐的关键帧，再生成镜头或在剪辑中完成匹配切点。
+
+[查看结构化模板 JSON](../entries/original-templates/object-match-cut.json)

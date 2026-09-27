@@ -82,6 +82,8 @@ function curatedSection(entries, kind) {
       `<a id="${entry.id}"></a>`, "", `### ${entry.title}`, "", entry.summary, "",
       `<a href="../${kind === "video" ? entry.video : entry.image}"><img src="../${entry.image}" alt="${html(entry.title)}预览" width="${kind === "video" ? 360 : 320}"></a>`, "",
       `来源：[${entry.source.author}](${entry.source.url}) · [查看来源案例](../showcase/${kind}.md#${entry.caseId})`, "",
+      ...(existsSync(resolve(root, `entries/${kind}/${entry.caseId}/prompt.json`))
+        ? [`[查看结构化 Prompt JSON](../entries/${kind}/${entry.caseId}/prompt.json)`, ""] : []),
       ...(entry.inputs.length ? [`**可替换内容：** ${entry.inputs.map(input => `\`${input}\``).join(" · ")}`, ""] : []),
       "**中文 Prompt**", "", "```text", entry.prompt.replace(/[ \t]+$/gm, ""), "```", "",
       "<details>", "<summary>English Prompt</summary>", "", "```text", entry.promptEn.replace(/[ \t]+$/gm, ""), "```", "", "</details>", "",
@@ -126,6 +128,8 @@ for (const [kind, title] of Object.entries(pages)) {
       "",
       `**使用检查：** ${entry.tip}`,
       "",
+      ...(existsSync(resolve(root, `entries/original-templates/${entry.id}.json`))
+        ? [`[查看结构化模板 JSON](../entries/original-templates/${entry.id}.json)`, ""] : []),
     ]),
   ];
   const path = resolve(root, `templates/${kind}.md`);

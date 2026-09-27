@@ -28,6 +28,8 @@
 以输入的产品参考图作为首帧。产品始终保持在画面中央，外观、颜色和标签在全片保持一致。摄影机从中景缓慢向前推进至近景；侧后方柔光逐渐勾勒瓶身轮廓，台面出现轻微真实反射。背景简洁，不增加人物、额外产品、变形文字或突兀转场。一个连续镜头，最后一秒稳定停在产品细节上。
 ```
 
+[查看结构化案例 JSON](../entries/original/video/product-reveal/case.json)
+
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
@@ -46,6 +48,8 @@
 ```text
 以上传的纸雕风格插画为首帧，保持原始人物、物体、文字和配色不变。前景纸片以极小幅度缓慢摆动，中景云朵平移，背景出现轻微视差，光线从左至右柔和变化。镜头固定，不旋转、不推拉、不新增元素。运动幅度克制，末帧自然衔接首帧，适合作为无缝循环的短动效。
 ```
+
+[查看结构化案例 JSON](../entries/original/video/paper-cut-loop/case.json)
 
 **可复用模板**
 
@@ -189,6 +193,8 @@ _ _ _ _ _
  “你能猜出 90 年代吗？”
 ```
 
+[查看结构化案例 JSON](../entries/video/video-3d40126f5f/case.json)
+
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
@@ -208,6 +214,8 @@ _ _ _ _ _
 ```text
 创作了一部具有电影质感的时尚变身视频，主角是一位美丽的年轻女子，漫步于优雅的巴黎街头。她起初身穿一件简洁的白色夏日连衣裙，自然地行走在时尚的城市人行道上，周围环绕着经典建筑、咖啡馆、商店和行人。镜头以逼真的电影运动感和浅景深平滑地跟随她。当她经过一家店面时，发光的红色光轨围绕她的身体旋转，营造出神奇的时尚过渡效果。她的服装无缝地从白色转变为精致的红色无袖连衣裙。接着是动态的街道视角镜头，展现她自信地穿过繁忙的巴黎十字路口。最后以一个美丽的特写镜头结束，她身穿红裙，轻轻拿着冰淇淋品尝，目光自然地望向镜头。具备照片级真实细节、优雅的时尚电影美学、自然日光、流畅过渡、逼真皮肤纹理、电影镜头、微妙的背景动感以及高端商业质感。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-50e620e4e4/case.json)
 
 **可复用模板**
 
@@ -240,6 +248,8 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 - `[the lower third]` / `[下三分之一]`：主体在构图中的锚定区域，可按画面目的调整。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-bc1f9f0af1/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/video.md#video-vertical-crane-reveal)
@@ -259,6 +269,8 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 ```text
 位于粗野主义风格混凝土多层庭院中的电影级动作序列。一位身穿牛仔红拼色棒球夹克、带有“T”字标志连帽衫及工装裤的年轻亚裔男性主角，被一群身着精致深红黑色服装、佩戴白色狐狸面具并手持武士刀的敏捷女刺客包围。动态武术编排，快节奏镜头运动，混凝土路面扬起的尘土，高张力电影级布光，超写实，4k 分辨率，60fps 动作摄影。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-37af5cd196/case.json)
 
 **可复用模板**
 
@@ -280,6 +292,8 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 创建一个电影感、逼真的教育视频，场景设定在现代大学物理实验室内。一位自信的男性物理教授手持咖啡杯和笔记本走进教室，学生们在大讲堂中专注地坐着。随后场景切换到一个动手操作的物理实验环节，教授与一组学生聚集在一个透明的倾斜轨道周围。一个小金属球被小心地放置在轨道上，清晰地展示了运动、重力、加速度和能量。展示透明轨道、金属球、近距离观察的学生以及教授用自然手势指导实验的详细特写镜头。使用平滑的摄像机移动、逼真的景深、自然的面部表情和真实的课堂互动，使实验感觉引人入胜且可信。包含具有柔和室内照明和透过大窗户进入的温暖阳光的电影级实验室灯光。最后以教授在黄金时刻的光线下在实验桌前工作结束，周围环绕着科学设备，营造出一种深思熟虑且鼓舞人心的学术氛围。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-8f1bbd26f7/case.json)
+
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
@@ -299,6 +313,8 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 ```text
 创作一段 30 秒、9:16 竖屏、24fps、8K 画质的写实风格奇幻影像，采用第一人称骑手视角。主角是一条巨大的原创黑曜石深红巨龙，拥有细节丰富的鳞片、暗色斑纹、熔岩金色的双眼、火山黑色的后掠角、刀锋般的背鳍、酒红色的半透明翅膀，以及遍布全身的微弱余烬裂纹。骑手佩戴黑色皮手套，身着深绿色袖子和风化的皮革护腕，手握磨损的棕色铆钉马鞍上的重型链条缰绳。 开场时，巨龙在潮湿的翡翠色海岸悬崖上平静地呼吸；它缓慢转向镜头，骑手轻轻抚摸它的脖子。随后它突然压低身体，在草地上助跑并从悬崖上一跃而下。向灰绿色的海洋陡峭俯冲，展开巨大的翅膀，展现逼真的翼膜运动，随后贴近水面飞行，水雾溅在镜头上。在海蚀柱周围进行一次戏剧性的高速转弯，然后直接潜入水下。短暂的深青色水下静谧，伴随气泡和微弱的深红光芒，随后强力冲出海面。结尾处，巨龙在雾气缭绕的水面上平稳滑翔，缓慢转头看向骑手。 运用物理精确的解剖结构、重量感、重力、翅膀空气动力学、水体物理、鳞片形变、风力及环境交互。采用自然的骑手挂载摄像机运动，逼真的动态模糊、镜头水滴、呼吸效应、细微的手持抖动、电影级景深、柔和的阴天光照、HDR、克制的胶片颗粒感以及自然的电影级调色。 音频：氛围低音 → 亲密的独奏大提琴 → 渐强的管弦乐张力 → 宏大的起飞/飞行配乐 → 转弯时的强烈打击乐 → 沉闷的水下音效 → 冲出水面时史诗般的管弦乐回归 → 柔和的大提琴/钢琴结尾。叠加细节丰富的 ASMR/SFX：巨龙呼吸声、鳞片摩擦声、皮革声、缰绳声、利爪抓地声、风声、拍翼声、水雾声、气泡声、入水冲击声以及深沉自然的龙吼声。 制作效果需达到与昂贵的真人实拍电影无法区分的程度。拒绝 AI 感、卡通、动漫、游戏 CGI、塑料质感、虚假物理效果、霓虹光效、过度饱和、解剖结构扭曲、多余肢体、文字或水印。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-f97cb22797/case.json)
 
 **可复用模板**
 
@@ -320,6 +336,8 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 创作一段超写实的电影级动作序列，主角是一名穿着修身蓝色牛仔裤、时尚短款上衣、运动鞋并佩戴防护装备的年轻女性，脚踩轮滑鞋。在整个视频中保持完美的人物一致性——相同的面部特征、发型、服装、身体比例和配饰。 视频以一个低角度追踪镜头开场，她正极速穿梭在拥挤的市中心街道上，在出租车、公交车、行人、自行车、街头小贩和送货车之间轻松穿行。她回头望去，发现身后有一辆闪烁着警灯的警车正在靠近。 她猛然加速。镜头与她并排疾驰，她完成了一个高难度的跳跃，越过一辆行驶中的汽车，平稳落地，随即又在不减速的情况下飞跃过一个街头小贩的摊位。她俯身穿过低矮的障碍物，转过街角，抓住栏杆，借力回旋，随后重新落回街道。 警车追逐愈演愈烈。当她穿过狭窄的侧街、拥挤的市场巷道、小路和行人密集的捷径时，两辆警车难以跟上。使用快速的 FPV 风格镜头移动、轮滑鞋旁的低位追踪镜头、极具张力的俯瞰视角、轮胎水平视角以及快速的甩镜头。保持动作的物理真实感，体现真实的动量、轮子摩擦力、身体重心和落地冲击力。 她最后完成了一次壮观的飞跃，越过一排停放的车辆，完美落地，并消失在一个急转弯处。警车在她身后停下。警官们走下车，精疲力竭，难以置信地望着空荡荡的街道。 一名警官缓缓摇头说道：“她太快了。”另一名警官喘着粗气，无奈地放弃了追捕，靠在车边。 结尾处采用电影级的慢动作英雄镜头，展示女孩滑向繁忙的城市深处，阳光反射在建筑物上，镜头随之升起并拉远。 风格：高级动作电影摄影，高能量城市追逐，写实特技编排，动态手持摄影，FPV 追踪，极具张力的低角度，平滑的稳定器镜头，真实的运动模糊，细节丰富的城市环境，自然光，物理精确的车辆和人物运动，电影级调色，照片级真实感，超高细节，4K HDR，24fps，1 负面提示词：无撞击行人，无受伤，无血腥，无畸形解剖结构，无多余肢体，无重复角色，无漂浮物体，无不真实的轮滑物理效果，无闪烁，无文字，无 Logo，无字幕，无水印。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-df3924a259/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/video.md#video-cinematic-roller-skating-action)
@@ -339,6 +357,8 @@ A smooth jib rise from [1.2] meters to [9] meters altitude over the shot, with a
 ```text
 超电影感日间武侠奇幻序列。一位身着风化藏红花色僧袍、剃着光头、体格健硕的少林武僧，站在一座广阔的废弃山间寺庙庭院内。四个高耸的原创石甲生物，长着细长的四肢和发光的眼睛，将他团团围住。 0–4 秒：武僧紧闭双眼的特写镜头。尘埃在阳光中漂浮。他的双眼猛然睁开，蓝白色的电流在他皮肤上游走。缓慢的推拉镜头展现出生物从四面八方冲来。 4–9 秒：时间戏剧性地变慢。生物的利爪从他脸颊旁几毫米处划过的微距特写，僧袍布料在空气中弯曲，细小的尘埃颗粒在他们周围静止。摄像机进行快速的 180 度环绕拍摄，同时武僧向后弯腰，做出一个不可思议但符合解剖学控制的闪避动作。 9–14 秒：瞬间恢复全速。激进的手持跟拍，武僧施展出迅猛的掌击、肘击和旋风踢。每次撞击都切换到史诗级的特写：紧握的拳头、在石头上扭转的脚掌、生物后仰的面部，以及向外迸发的电弧。 14–20 秒：超慢动作侧面轮廓。武僧在两个生物之间跳跃，摄像机围绕他悬空的身体进行 360 度旋转。他将一个生物引向另一个，水平旋转，随后单手着地，圆形的冲击波震散了灰尘和碎石。 20–26 秒：低角度近距离追拍。一个巨大的生物冲锋而来。武僧径直向它冲去，垂直跑上它的躯干，并在其头顶翻身。他双掌汇聚蓝白色能量的特写，随后是一次强有力的向下接触，空气随之扭曲，庭院地面出现同心圆状的裂纹。 26–30 秒：静谧的慢动作高潮。武僧面部的特写，闪电映照在他的眼中。他以深蹲姿势落地；摄像机迅速拉远至极广角的英雄镜头，四个生物环绕在他周围。 逼真的武侠大片，变形宽银幕摄影，高对比度阳光，戏剧性的变速特效，史诗级特写，清晰的动作编排，真实的动量，稳定的解剖结构，正常的比例且无拉伸，沉重的物理撞击声，石块碎裂声，布料撕裂声，雷鸣电闪。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-849134cf4b/case.json)
 
 **可复用模板**
 
@@ -458,6 +478,8 @@ Do not turn it into realistic video.
 Do not make it look like PPT blocks sliding around.
 ```
 
+[查看结构化案例 JSON](../entries/video/video-53bf374a72/case.json)
+
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
@@ -484,6 +506,8 @@ Do not make it look like PPT blocks sliding around.
 标题、字形、文案、文字位置和背景保持静止，文字不能重绘、漂移、扭曲或乱码，主体不能融化变形。动作柔和、节奏轻快，结尾尽量回到接近开头的状态，不添加转场、水印、教程字幕、对白或旁白。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-967e1a17e1/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/video.md#video-retro-illustration-micro-motion)
@@ -503,6 +527,8 @@ Do not make it look like PPT blocks sliding around.
 ```text
 创作一段超逼真的高端 UGC 香水广告，主角是一位美丽动人的年轻女性，身着优雅、大胆且前卫的时尚服装。她拥有自然迷人的外表、富有表现力的双眼、精致的妆容、透亮真实的皮肤质感以及精心打理的发型。她的造型显得成熟自信，而非过度华丽。场景：奢华的现代室内空间，配以温暖的环境光、柔和的阴影，营造出高端杂志大片的氛围。保持背景简洁并略微虚化，确保人物和香水始终是视觉焦点。服装：她穿着优雅大胆的晚装，剪裁精致，既前卫、考究又迷人，同时不失品位。服装应与香水的高端定位相得益彰。UGC 表演：她自然地拿着香水瓶，像是在向观众推荐自己真心喜爱的香水，并直接对着镜头说话。从一个随意的吸睛动作开始，然后将香水瓶靠近镜头展示，喷洒在手腕或颈部，闻一闻，并以自信的微笑做出反应。加入自然的手势、轻微的动作、真实的表情和放松的肢体语言。摄影：手持智能手机风格的 UGC 镜头，穿插少量精致的特写镜头。包含自然的微动作、真实的自动对焦、浅景深以及偶尔细微的推镜头。避免传统商业广告那种过度完美的观感。产品焦点：给予香水瓶几个高光时刻，确保焦点清晰、反射真实、玻璃和液体细节高级，同时保持品牌标签清晰可见且不失真。灯光与美学：温暖的奢华灯光，面部和头发上的柔和高光，真实的皮肤毛孔和细节，电影感但真实可信的曝光，高级的中性色调，高端美妆广告美学。视频风格：真实的高端 UGC × 奢华香水广告，自然且令人向往，自信的女性力量，照片级真实感，电影级写实，4K，逼真的动态，自然的表情，无 CGI 感，无美颜滤镜效果。结尾：她直视镜头，将香水举在脸庞旁，露出自信的微笑，并以自然的推荐式表情结束。避免夸张的表演、不自然的肢体动作、塑料感皮肤、过度修图、手部变形、香水瓶扭曲、虚假的反射或人工痕迹明显的面部表情。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-e0fd6d34ba/case.json)
 
 **可复用模板**
 
@@ -536,6 +562,8 @@ Rotate the camera horizontally from left to right from one fixed point, like a s
 - `[the landing subject]` / `[落点主体]`：镜头最终停留的主体。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-8cf75d3afe/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/video.md#video-fixed-point-pan-right-reveal)
@@ -555,6 +583,8 @@ Rotate the camera horizontally from left to right from one fixed point, like a s
 ```text
 创建一个 10 秒、16:9 比例的逼真哈恰普里（Khachapuri）烹饪视频，严格按顺序执行：静态 90° 俯视镜头，哑光黑色桌面，同一双戴黑手套的男性双手，仅使用硬切，无魔法或跳步：0.0-0.7 食材对称摆放，双手取面团 -> 0.7-1.5 将面团擀成椭圆形 -> 1.5-2.2 将长边向内卷起 -> 2.2-2.8 捏合两端形成船形 -> 2.8-3.6 均匀填入碎奶酪 -> 3.6-4.2 将生哈恰普里放在黑色烤盘上 -> 4.2-5.0 明显地将生哈恰普里滑入烤箱 -> 5.0-5.8 烤箱内快速逼真的延时摄影：面团膨胀并变成金黄色，奶酪融化起泡 -> 5.8-6.5 双手取出烤好的哈恰普里 -> 6.5-7.3 直接在中心打入一个鸡蛋 -> 7.3-8.0 放回烤箱，短时延摄影：蛋白略微凝固而蛋黄保持流动状态 -> 8.0-8.6 取出完成的哈恰普里并放在黑色桌面上 -> 8.6-9.2 在蛋黄旁添加黄油块，黄油开始融化 -> 9.2-10.0 双手退出画面，金色哈恰普里的特写镜头，配有融化的奶酪、光泽流动的蛋黄和正在融化的黄油。每个后续镜头必须从上一个镜头的确切食物状态继续；快速、精确、逼真的手部动作，无镜头移动，无悬浮、瞬移、瞬间烹饪、食材消失或重复现象。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-3207e9e8c2/case.json)
 
 **可复用模板**
 
@@ -600,6 +630,8 @@ Rotate the camera horizontally from left to right from one fixed point, like a s
 卡通，塑料质感的石头，夸张的面部特征，平滑的 CGI 角色，漂浮物体，不切实际的物理效果，多余的肢体，环境突变，镜头剪辑，文字，水印，色彩过饱和。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-5d2a7780cd/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/video.md#video-beach-stone-stop-motion)
@@ -631,6 +663,8 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 - `[40]`、`[25]`：结束距离和高度。
 - `[craft / scene]` / `[载具/场景]`：后拉后需要完整揭示并居中的整体对象。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-cbe24f7388/case.json)
 
 **可复用模板**
 
@@ -674,6 +708,8 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 严格限制：禁止魔法般的建造、瞬间出现、传送、材料消失、悬浮工人、重复工人、巨人、卡通风格、玩具/塑料质感、奇幻建筑、CGI 外观、文字或水印。保持一致的比例、逼真的物理效果、自然光照、微距景深、4K HDR 和电影级照片写实感。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-19ceae29af/case.json)
+
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
@@ -694,6 +730,8 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 一场高能电影感科幻动作场面，背景设定在阴沉压抑的天空下，一条被摧毁且烟雾弥漫的高速公路上。一位留着深色卷发、身穿橄榄绿背心和深色战术裤的运动型女性，骑着一辆哑光黑色未来派摩托车在混乱的车流中穿梭，摩托车配有双前置重型轮胎和发光的白色 LED 前大灯，她灵活地避开燃烧的汽车残骸和剧烈的爆炸。摩托车底盘精准地部署出双联装重型等离子加特林机枪，向上方巨大的悬浮三角形外星母舰开火，直至其在道路上方炸成一团耀眼的火球。摩托车冲上混凝土护栏坡道，在光束背景下完成了一次极具戏剧性的空中慢动作跳跃，落地时发生爆炸，骑手优雅地以超级英雄式的“三点着陆”姿势落在火焰环绕的沥青路面上。她站起身以超人的速度冲向一名身穿黑色皮夹克的金发女性对手，她那带有蓝色 LED 发光线条的未来派机械腿甲清晰可见。两人展开快节奏的武术近身格斗，她踢出强有力的一记动能踢，将对手击飞撞向一辆翻倒的卡车，卡车随即引发剧烈火爆。超写实真人电影美学，8k 分辨率，电影级布光，体积光束，爆炸特效，低角度追踪镜头，快节奏动作，动态运动模糊，35mm 镜头拍摄。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-59eafdce5b/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/video.md#video-sci-fi-motorcycle-action)
@@ -713,6 +751,8 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 ```text
 立体书纸艺动画，15 秒，16:9。大师级纸艺工程。多层地形纸艺设计，精致的剪纸景观，浮雕细节，金箔地图标记，移动的纸质机械结构，手工质感，电影级暖色调灯光，浅景深。所有物体均呈现为从古董地图集中浮现的实体纸张。无旁白。音频：翻页声、纸张摩擦声、微妙的管弦乐奇幻感。第一幕（0-4 秒）一本古老的地图集打开。一张宏伟的纸质地图在两页之间展开。山脉以分层纸浮雕的形式升起。森林、河流、桥梁、城市和船只从隐藏的折叠处浮现。微小的纸质云朵漂浮在景观上方。摄像机在地形上方低空掠过。第二幕（4-8 秒）翻页。地图开始自我重组。河流向上折叠变成道路。山脉变平并转化为海洋。城市在隐藏的纸质轨道上滑动。整个区域旋转并像巨大的机械拼图一样锁定在新的位置。第三幕（8-12 秒）再次翻页。地图变得愈发不可思议。新的大陆从现有大陆下方展开。桥梁横跨天空。浮岛从分层的机械结构中涌现。无尽的纸质地理景观向书本边缘之外延伸。第四幕（12-15 秒）最后一次翻页。整个世界通过数千个同步的纸张运动向内折叠，转化为一个由景观、城市、海洋和山脉组成的巨大华丽罗盘。罗盘扩展并展开成一张更大的、超出书本边缘的不可思议的地图。画面定格在变形完成的瞬间。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-31ea8a7f7c/case.json)
 
 **可复用模板**
 
@@ -745,6 +785,8 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 片段 4：享用早餐 (0:23 - 0:32)
 提示词：特写定格动画。毛线娃娃坐在小桌旁，用微型金属叉刀切开钩针编织盘子里的煎毛线蛋。柔和温馨的灯光，毛衣和围裙上精细的针织纹理，手工艺术美感。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-d2f1128753/case.json)
 
 **可复用模板**
 
@@ -790,6 +832,8 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 全程保持：每个镜头只有一种机位行为，镜头之间硬切。所有运动分步、无平滑过渡。创业者、银色方盒、机器人和彗星的外形、颜色、大小全程一致。音频全程只有拟音音效和轻微的环境底噪。无对白、无旁白、无人声、无背景音乐。除结尾两行黏土字幕外，无任何文字、无品牌标志、无水印。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-69395c9b4c/case.json)
+
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
@@ -809,6 +853,8 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 ```text
 请使用我上传的女孩参考图作为角色身份的唯一来源，创作一段电影级半写实动漫短片；需保留她的面部特征、发型、肤色和身体比例。 她身穿红白相间的运动短裙（内带短裤）、红白配色的修身短上衣、深蓝色 Nike 运动鞋，戴着米色“Cool”字样鸭舌帽、深蓝色双肩包、黑色电子手表，脖子上挂着耳机。 画面中需包含那只可爱的姜黄色配白色毛茸茸小猫，眼睛呈琥珀色，体型保持写实的家猫大小，高度约在女孩的小腿位置。 故事背景设定在充满活力的纽约繁华街道，包含砖砌建筑、店面、黄色出租车、地铁入口、交通信号灯、消防梯、街头小贩和人群。 女孩在曼哈顿街头极速滑行，小猫紧随其后，在行人、出租车和街头障碍物之间自然穿梭。 采用低机位的追逐镜头拍摄，运用快速跟拍、激进的甩镜头、强有力的剪辑、轮子高度的特写以及细微的手持抖动感。 她飞速掠过一个街头咖啡车，在不减速的情况下顺手拿走一杯外带咖啡，随后在保持高速滑行的同时迅速喝完。 她将空杯向后一扔，随即加速冲向一面布满涂鸦的墙壁，小猫始终与她并肩同行。 女孩表演了一个爆发力十足的滑板蹬墙跳，小猫在旁边与之完美同步跃起，两人同时落地。 场景无缝切换至纽约工业区，包含高架地铁轨道、钢结构桥梁、施工区域、仓库和屋顶建筑。 她用 ollie 动作跳上一条低矮的工业护栏，从桥下俯身穿过，与行驶中的地铁列车并肩竞速，随后跃上更高的钢结构平台。 结尾处，女孩与小猫从高架结构上同步跃下，跳入街面停车场，并以高速平稳落地。 保持顶级动漫游戏插画的画质，线条清晰，采用赛璐珞风格的绘画渲染，角色呈现细腻，灯光具有纽约电影质感，并加入动态动漫速度线。 拒绝写实风格，拒绝 3D CGI，严禁角色身份偏移、服装更换、猫咪体型过大、出现重复角色、人体结构扭曲、滑板变形，以及任何水印或文字。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-2bf5e5594d/case.json)
 
 **可复用模板**
 
@@ -830,6 +876,8 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 角色参考 — 强制要求：面部 — 参考图像 3。服装 — 深色短波波头，黑色修身短款夹克，做旧深色工装牛仔短裤，腰间系灰色连帽衫，青色缎面芭蕾舞足尖鞋，粉色连裤袜，双耳佩戴黑色耳机，白色手套。 关键 — 角色身体结构。不可商量：165cm，47kg。健美、精瘦、受控。绝无布娃娃物理效果。绝无瘫软。绝无松垮。核心始终收紧。每一个动作都有肌肉发力意图。她的动作像是一位恰好拥有超能力的专业体操运动员/舞者 — 精准、自然、毫不费力。尽量减少旋转。身体运动逻辑符合物理定律。 关键 — 与环境的物理接触。不可商量：她不是在空中飞行。她与城市有物理交互 — 双脚蹬墙，双手抓取壁架，身体擦过建筑表面。每一个接触点：膝盖缓冲冲击，肌肉发力，身体对表面做出反应。这是跑酷 + 蛛丝摆荡，而不是漂浮。 关键 — 不同动作类型的身体姿态： 蛛丝摆荡：双臂向前伸展抓握蛛丝，双腿并拢拖在身后，核心收紧，背部挺直，下巴微抬 — 标准的绳索摆荡运动员姿势 蹬墙起跳：双脚平踩在墙面上，膝盖深蹲缓冲，随后双腿爆发式完全伸展以起跳，双臂向前挥动以获得动量 墙面奔跑：身体向墙面倾斜 45 度，双脚以跑步姿态蹬踏表面，双臂摆动，头发和连帽衫因惯性向侧面飘动 自由飞行顶点：双臂自然向两侧张开，身体微微后仰，放松 — 不是摆拍，而是物理上的释放 街道奔跑：全速冲刺，双臂摆动，头部前倾，青色足尖鞋敲击路面，身体向行进方向倾斜 关键 — 真实感。不可商量：真实的好莱坞电影质感。RED Monstro 8K，变形镜头。真实的运动模糊，真实的织物物理效果，真实的纽约大气雾霾。真实。 关键 — 摄影机。不可商量：一次连续的无人机跟拍。零剪辑。零瞬移。倾斜、侧倾、翻滚均符合物理规律。广角镜头，始终同时展现她与环境。 15 秒连续无人机跟拍镜头。直接衔接 — 从黑屏开始。 0–1 秒：黑屏。随后 — 特写 — 白色手套的手。手指张开。手腕弹动。蛛丝射出。摄影机立即后拉。 1–4 秒：广角 — 纽约住宅街道。褐砂石建筑、消防梯、杂货店。她低空摆荡 — 距离街道 3 米。身体：双臂伸展抓握蛛丝，双腿并拢拖在身后，核心收紧，背部挺直。在摆荡弧线的底部，她的双脚掠过一辆停放车辆的车顶 — 产生短暂的物理接触，双脚轻盈弹起，她借力转向。摄影机侧倾 40 度。 4–7 秒：她在顶点释放蛛丝 — 身体舒展，双臂张开，双腿伸展。随后，她没有立即发射下一根蛛丝，而是沿着褐砂石墙面奔跑。双脚以真实的跑步姿态敲击砖墙表面 — 身体向墙面倾斜 45 度，双臂摆动，在垂直表面快速跑动 4–5 步 — 随后双脚用力蹬墙，膝盖完全伸展，并在半空中向宽阔十字路口的另一栋建筑发射新蛛丝。摆荡将她猛地拉向侧面 — 摄影机侧倾 60 度。 7–10 秒：她低空穿过一条挤满黄色出租车的狭窄街道。距离地面 2 米，身体呈流线型 — 双臂前伸，双腿像箭一样拖在身后。蛛丝释放。双脚着地 — 全速冲刺，身体前倾，双臂发力 — 她在出租车之间跑了 3–4 步，利用惯性，双脚敲击湿润的路面。一辆出租车鸣笛。她笑了。随后一只脚踩在出租车侧面，单脚爆发式蹬踏车顶，向高处建筑发射蛛丝，并如火箭般冲向高空。 “WOOHOO！” 10–15 秒：远景镜头 — 屋顶高度，不算太高。她悬停在顶点 — 双臂微张，身体自然后仰，在令人屏息的瞬间完全静止。黄金时刻的天空 — 地平线上温暖的橙色和粉色光芒。巨大的戏剧性云层被下方的金光照亮。她是一个位于巨大发光天空正中央的小小身影。城市屋顶、水塔、下方的街道。画面定格。她开始向下坠落。 [结束] 关键 — 情感与声音。不可商量：她在每一帧中都充满活力。不呆滞。不中立。不挂机。 她的面部和身体在整个过程中表达出真实的实时情感： 第一次摆荡时 — 双眼睁大，嘴角微扬，纯粹的专注 双脚掠过车顶时 — 快速的惊讶笑声，本能反应 墙面奔跑时 — 咬紧牙关，坚定，高度集中 低空穿过出租车时 — 露出牙齿，肾上腺素带来的笑容，身体前倾 出租车鸣笛时 — 她大声笑出来，头微微后仰 “WOOHOO！” — 完全不受控制，张开嘴，纯粹的喜悦尖叫 顶点处的最终远景 — 双臂张开，头后仰，闭上双眼，展现出纯粹自由的面容 — 不呆滞，不摆拍，只是一个人处于人生中最美好的时刻 音频：仅音效。无音乐。风声呼啸。蛛丝弹射与绷紧声。双脚敲击车顶声。双脚敲击路面 — 真实的撞击声。出租车喇叭声。她真实的笑声。“WOOHOO！”在建筑间回荡。上升时切割风声。随后 — 顶点处归于寂静。 RED Monstro 8K，变形镜头，165cm 47kg 受控健美体态，尽可能与墙壁/车辆/表面产生物理接触，针对不同动作类型（摆荡/奔跑/蹬墙/冲刺）的详细身体力学，无布娃娃物理效果，无漂浮感，摆荡时采用剧烈的荷兰式倾斜角度，黄金时刻日落天空，温暖的橙粉色调，戏剧性的体积云，主体位于屋顶高度而非高空，主体在最终广角画面中心显得渺小，纽约褐砂石住宅建筑，连续单镜头无人机跟拍，无剪辑，照片级真实感
 ```
 
+[查看结构化案例 JSON](../entries/video/video-e7dcc94d27/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/video.md#video-nyc-parkour-web-swing)
@@ -849,6 +897,8 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 ```text
 创建一个电影感、照片级逼真的场景，背景为欧洲广场，设有石制喷泉和露天咖啡馆。一名身穿深色西装的男子打了个响指，时间随之静止，巨大的喷泉水柱悬停在半空中纹丝不动。他从容地穿过水流，从一名静止的服务员手中取过一只酒杯，接住几滴水珠，加入柠檬片，并调整了一把遮阳伞。他将伞倾斜，再次打响指，时间恢复流动——水花在阳光下闪烁，在咖啡馆上方形成一道壮观的完整彩虹，周围人群惊叹不已。他轻啜一口饮品，直视镜头，用俄语说道：**“这样好多了”**（意为“Much better”）。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-1c634febce/case.json)
 
 **可复用模板**
 
@@ -893,6 +943,8 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 风格：扎实的纪录片质感，自然的皮肤纹理，充满生活气息的空间，16:9 画幅，24fps，电影级调色。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-e6248de843/case.json)
+
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
@@ -929,6 +981,8 @@ The camera starts [2.5] meters ahead of the subject at [3] meters altitude and f
 营造神秘、情感丰富且略带幽默的企业氛围，带有动画惊悚片或职场冒险的感觉。从始至终保持故事叙述的连贯性与电影感。无对白，无旁白，无字幕
 ```
 
+[查看结构化案例 JSON](../entries/video/video-0a64266abe/case.json)
+
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
@@ -960,6 +1014,8 @@ The camera hard-locked on a tripod with no pan, no tilt, no push, no drift; the 
 - `[plane B — the near subject]` / `[焦平面 B：近处主体]`：转焦后的近景主体。
 - `[the final subject framing]` / `[最终主体构图]`：结尾需要保持清晰的主体画面。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-ad4c3bf9c3/case.json)
 
 **可复用模板**
 
@@ -1026,6 +1082,8 @@ The camera hard-locked on a tripod with no pan, no tilt, no push, no drift; the 
 不要添加额外对话。仅限一人。全程保持角色形象一致。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-0c79e1fe07/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/video.md#video-japanese-influencer-get-ready-ugc)
@@ -1045,6 +1103,8 @@ The camera hard-locked on a tripod with no pan, no tilt, no push, no drift; the 
 ```text
 创作一段 15 秒的超写实电影级动作序列。一名年轻女性独自在极其危险的山地环境中轮滑。她身穿写实的黑色专业户外服装，佩戴防护手套、头盔，脚穿专业轮滑鞋。在整个视频中，她的面部、身体比例、服装和轮滑动作保持高度一致。 0–3 秒：广角航拍镜头，展示巨大的锯齿状山脉环绕着一条狭窄的山崖小路。路面仅容一人通过，一侧是深不见底、云雾缭绕的峡谷，垂直落差令人胆战心惊。乌云在山峰间快速移动，强风吹拂着山崖。 3–6 秒：低角度跟拍镜头，女子在靠近边缘的地方危险地滑行。她身旁的小石块滚落，坠入深渊。轮子对裂缝和不平整的路面做出真实的物理反应。她在强风中保持平衡，头发和衣物自然飘动。 6–9 秒：道路突然变得极窄，一侧是巨大的岩壁，另一侧是深渊。她从一块巨大的悬垂岩石下穿过，身后碎石滚落。镜头随她移动，展现出环境的宏大与压迫感。 9–12 秒：戏剧性的近距离跟拍，她接近山路的一处断裂带。路面横跨着一道大裂缝。她轮滑跳跃过裂缝，并真实地落在另一侧。撞击产生自然的尘土和碎石飞溅效果。 12–15 秒：镜头快速后拉至宏大的电影级广角镜头，展现女子独自在极其危险的山脊上滑行，周围环绕着巨大的悬崖、远处的瀑布、厚重的云层、薄雾以及下方深不见底的峡谷。 风格：纪录片级别的写实感，物理精准的人体动作，真实的轮滑物理效果，自然的表情，真实的皮肤纹理，清晰的发丝，细腻的织物，真实的岩石构造，大气透视，穿透云层的自然阳光，体积感山雾，真实的强风与尘土，细腻的手持摄影感，电影镜头，真实的景深，自然的动态模糊，高动态范围，4K 超写实，顶级真人电影摄影。 负面提示词：CGI 感，卡通感，人工纹理，不真实的物理效果，悬浮物体，解剖结构扭曲，多余的手指，多余的肢体，面部变化，身份变化，闪烁，轮子变形，物体复制，色彩过饱和，过度慢动作，不自然的镜头运动。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-e24c102dab/case.json)
 
 **可复用模板**
 
@@ -1066,6 +1126,8 @@ The camera hard-locked on a tripod with no pan, no tilt, no push, no drift; the 
 A cinematic close-up of a young Asian woman wearing a black hoodie and a dark head covering, standing beside a traditional outdoor barbecue grill. She slowly adjusts the cloth on her head with both hands while smoke rises around her. Cut to detailed macro shots of juicy pieces of grilled meat on metal skewers over glowing charcoal, sizzling and releasing thick aromatic smoke. Close-up of the meat being grilled over intense open flames, golden-orange firelight reflecting on the food, realistic smoke and heat distortion. Ultra-realistic food cinematography, cinematic lighting, shallow depth of field, dramatic warm tones, highly detailed textures, natural movement, realistic fire and smoke physics, 4K, 8K, professional DSLR camera, macro lens, smooth camera movement, photorealistic, immersive atmosphere.
 ```
 
+[查看结构化案例 JSON](../entries/video/video-1d6c1fec91/case.json)
+
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
@@ -1085,6 +1147,8 @@ A cinematic close-up of a young Asian woman wearing a black hoodie and a dark he
 ```text
 创作一段 15 秒的超写实奢华护肤品商业广告，主角是一个标有“AQUA LUXE – DEEP HYDRATION”字样的优雅玻璃罐，置于清凉蓝色、令人焕然一新的环境中。以柔和的蓝色氛围背景开场，轻柔的光束和细微的水粒子营造出洁净高端的格调。缓慢揭示立于光泽水面上的护肤罐，呈现逼真的倒影和电影般的景深效果。镜头逐渐拉近，柔和的高光在金属银色盖子和玻璃包装上缓缓滑动。让如丝绸般顺滑的白色乳霜状波浪优雅地环绕着罐体流动，营造奢华的护肤质感。添加漂浮的水珠和微小气泡，使其以符合真实物理规律的方式自然穿梭于场景中。过渡到清澈水晶般的水花戏剧性地包裹住产品，同时保持罐体完美清晰且居中。在水花周围引入精致的白花和新鲜绿叶，营造清新补水灵感氛围。最后以 AQUA LUXE DEEP HYDRATION 罐体的精美英雄镜头收尾，罐体居中置于蓝色背景前，周围环绕着水珠、花朵和柔和发光的光线，配合高端电影级布光和完美的产品焦点。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-512e7b9e27/case.json)
 
 **可复用模板**
 
@@ -1115,6 +1179,8 @@ A cinematic close-up of a young Asian woman wearing a black hoodie and a dark he
 
 柔和的电影级灯光、温暖的金色调、奢华商业美学、平滑的运镜、浅景深、照片级真实细节、9:16 竖屏格式。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-ced1de556c/case.json)
 
 **可复用模板**
 
@@ -1202,6 +1268,8 @@ A cinematic close-up of a young Asian woman wearing a black hoodie and a dark he
 在运动中切换，并利用反射和前景遮挡转场。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-dcc3d74eac/case.json)
+
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
@@ -1227,6 +1295,8 @@ A cinematic close-up of a young Asian woman wearing a black hoodie and a dark he
 
 青色与暖琥珀色的调色，超写实纹理，浅景深，胶片颗粒感，大气雾气，15 秒，平滑连续的镜头运动，无剪辑。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-b5fa2e6d3f/case.json)
 
 **可复用模板**
 
@@ -1404,6 +1474,8 @@ action_visual: finished shakshuka bubbles softly; steam curls through the window
 sound: gentle sauce bubbling, faint skillet sizzle, quiet kitchen room tone fading naturally at the final frame.
 ```
 
+[查看结构化案例 JSON](../entries/video/video-60b5dcaaac/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/video.md#video-recipe-infographic-cooking-sequence)
@@ -1423,6 +1495,8 @@ sound: gentle sauce bubbling, faint skillet sizzle, quiet kitchen room tone fadi
 ```text
 创作一段视觉上令人满足的混合现实定格动画短片，展示 [DRAWN OBJECT/SKETCH] 无缝转换为 [REAL INGREDIENT/OBJECT] 的过程。视频中，一个人使用智能手机和彩色铅笔在 [SURFACE] 上进行创作，在每个物品通过流畅、无缝的变换魔法般地变为现实之前，先将其勾勒出来。展示 [INGREDIENTS] 被加入 [CONTAINER]，随后进行 [COOKING/BLENDING/PREPARATION ACTION]，最后盛入 [DISH]。结尾处，艺术家勾勒出 [TOPPINGS/FINAL DETAILS]，这些细节瞬间化为真实的食物，呈现出一道充满活力且摆盘精美的 [FINAL DISH]。使用逼真的纹理、自然的动作、令人舒适的定格动画节奏、简洁的构图、柔和的灯光，以及铅笔画与真实物体之间的无缝过渡。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-a2196efe4e/case.json)
 
 **可复用模板**
 
@@ -1459,6 +1533,8 @@ sound: gentle sauce bubbling, faint skillet sizzle, quiet kitchen room tone fadi
 
 负面提示词：CGI 感、塑料感皮肤、外貌偏移、服装改变、物体瞬移、手部扭曲、多余手指、字幕、水印。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-ac4f3a29c1/case.json)
 
 **可复用模板**
 
@@ -1556,6 +1632,8 @@ sound: gentle sauce bubbling, faint skillet sizzle, quiet kitchen room tone fadi
 > 来源页面公开文本到此结束，后续内容缺失。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-dc65c9f52f/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/video.md#video-watercolor-sketch-parkour-chase)
@@ -1575,6 +1653,8 @@ sound: gentle sauce bubbling, faint skillet sizzle, quiet kitchen room tone fadi
 ```text
 一位年轻的东亚女性身穿深栗色吊带背心，搭配同色系分离式袖套和黑色工装裤，站在明亮的现代厨房中。当她触碰陶瓷马克杯、金属水壶、木质餐桌、置物架以及窗外的景色时，每个物品都会碎裂并转化为动态的水晶粒子。她周围的房间逐渐溶解并转变为一个时尚简约的工业风阁楼空间，拥有裸露的混凝土墙壁、可俯瞰明亮海滨城市港口的大窗户，以及围绕在她周围的专业视频制作设备。电影感的温暖阳光透过窗户洒入，照亮空气中漂浮的尘埃和闪烁的玻璃碎片，画面采用流畅的运镜和柔和的景深效果拍摄。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-345a132c7a/case.json)
 
 **可复用模板**
 
@@ -1607,6 +1687,8 @@ The camera physically dollies forward from [6] meters to [2.5] meters while the 
 - `[18]`、`[84]`：起始与结束视场角。
 - `[the repeating background elements]` / `[重复出现的背景元素]`：用于强化空间拉伸感的走廊、灯带、柱列等元素。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-fa2e0ad821/case.json)
 
 **可复用模板**
 
@@ -1648,6 +1730,8 @@ The camera physically dollies forward from [6] meters to [2.5] meters while the 
 }
 ```
 
+[查看结构化案例 JSON](../entries/video/video-565c5a1550/case.json)
+
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
@@ -1677,6 +1761,8 @@ The camera physically dollies forward from [6] meters to [2.5] meters while the 
 
 禁止夸张表演、禁止突兀的镜头移动、禁止出现其他人物、禁止面部变化、禁止服装变化、禁止手部畸变、禁止物体变形。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-fce76e69a8/case.json)
 
 **可复用模板**
 
@@ -1710,6 +1796,8 @@ A smooth constant-speed circular drone flight around the subject — [8]-meter r
 - `[right]` / `[右侧]`：画面运动方向，改变时应同步调整顺逆时针说明。
 - `[200]`：镜头覆盖的环绕角度。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-f953b9d317/case.json)
 
 **可复用模板**
 
@@ -1746,6 +1834,8 @@ A smooth constant-speed circular drone flight around the subject — [8]-meter r
 }
 ```
 
+[查看结构化案例 JSON](../entries/video/video-aecc45705d/case.json)
+
 **可复用模板**
 
 [浏览生视频 Prompt 模板](../templates/video.md)
@@ -1776,6 +1866,8 @@ A smooth constant-speed circular drone flight around the subject — [8]-meter r
 光线必须保持在远处并被树木部分遮挡；切勿揭示光源。无超自然生物，无其他人，无恐怖怪物，无惊吓镜头，无夸张反应，无场景切换，无面部改变，无服装改变，无手部变形，无画面扭曲。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-61094b8453/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/video.md#video-rainforest-mysterious-light)
@@ -1802,6 +1894,8 @@ A smooth constant-speed circular drone flight around the subject — [8]-meter r
 镜头完全固定不动，不推拉、不摇移、不缩放、不切镜。保持人物真实质感，不将人物贴纸化，不出现肢体崩坏、变形、融化或多余手指。不重构场景，不产生背景动画、文字漂移、画面闪烁或模糊。输出绝对静止的贴纸背景与自然而然的人物动作，不添加转场、水印、教程字幕、配音或音乐。
 ```
 
+[查看结构化案例 JSON](../entries/video/video-24c5f43c41/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/video.md#video-real-person-sticker-poster-motion)
@@ -1821,6 +1915,8 @@ A smooth constant-speed circular drone flight around the subject — [8]-meter r
 ```text
 一段无缝衔接的传统中国水墨水彩动画，始于深蓝色的海浪逐渐幻化为云雾缭绕的山峦，山间矗立着宝塔与石阶。绯红色的墨云横扫画面，场景随之过渡至平静的江面，一叶扁舟停泊在红叶树旁。红叶变幻为娇嫩的粉色樱花，花瓣围绕着一座小岛上孤零零的盆景式树木轻轻飘落。最终，一轮皎洁的满月从远山后升起，金色的月光倒映在宁静的水面上，画面渐渐融入静谧的夜晚。整体氛围诗意盎然，转场流畅自然，尽显优雅的中国画美学与柔和的水彩质感。
 ```
+
+[查看结构化案例 JSON](../entries/video/video-cdfbcca0a0/case.json)
 
 **可复用模板**
 

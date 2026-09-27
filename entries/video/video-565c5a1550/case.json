@@ -1,0 +1,26 @@
+{
+  "id": "video-565c5a1550",
+  "title": "微型工人维修USB",
+  "category": "动画",
+  "summary": "用微距小人协作逐步修复并改造损坏的 USB 闪存盘。",
+  "tags": [
+    "动画",
+    "定格动画",
+    "竖屏"
+  ],
+  "image": "assets/cases/video-565c5a1550.jpg",
+  "prompt": "{\n  \"title\": \"微型工人维修损坏的 USB 闪存盘\",\n  \"duration\": \"15 秒\",\n  \"style\": \"电影级微型定格动画，照片级真实感\",\n  \"prompt\": \"一个电影级的微距场景，展示一个损坏的 USB 闪存盘放在深色的木质桌面上。起初，USB 闪存盘表面有明显的裂痕、污垢，并覆盖着细小的碎片。几十个戴着彩色安全帽、穿着工作服的微型建筑工人聚集在周围，检查损坏情况并搬运微型工具和设备。他们积极地维修和重建 USB 闪存盘：一些工人清理碎片，另一些人焊接和组装微小组件，还有一些人在表面搬运零件。随着维修工作的进行，损坏的棕色外壳逐渐转变为干净、光滑的金属银色 USB 闪存盘。工人们继续打磨并检查成品设备。保持真实的微型比例、细腻的纹理、逼真的阴影、电影级的景深、细微的镜头运动、温暖的桌面照明以及高度精细的微距摄影效果。\",\n  \"camera\": {\n    \"shot\": \"微距特写\",\n    \"movement\": \"缓慢的电影级推镜头，伴随细微的横向移动\",\n    \"focus\": \"浅景深，聚焦于 USB 闪存盘和微型工人\"\n  },\n  \"lighting\": {\n    \"style\": \"柔和的电影级实用照明\",\n    \"details\": \"温暖的高光、金属上的逼真反射、自然的阴影\"\n  },\n  \"animation\": {\n    \"workers\": \"持续且协调的施工和维修活动\",\n    \"transformation\": \"从损坏的棕色 USB 外壳到抛光银色外壳的渐进式视觉过渡\",\n    \"motion\": \"微型工具移动、工人搬运零件、焊接火花、碎片被清理\"\n  },\n  \"negative_prompt\": \"大型人类、超大号工人、卡通风格、不真实的比例、漂浮物体、扭曲的 USB 闪存盘、过度的镜头抖动、模糊的细节、文字、徽标、水印\"\n}",
+  "source": {
+    "author": "@Martian / YouMind",
+    "url": "https://x.com/drzubi01/status/2090307471797780641"
+  },
+  "promptCredit": "来源提示词 / 翻译整理",
+  "video": "assets/cases/video-565c5a1550.mp4",
+  "catalog": {
+    "sourceLabel": "X · @drzubi01",
+    "related": {
+      "label": "YouMind 模板",
+      "url": "https://youmind.com/zh-CN/video-prompts/tiny-workers-usb-repair-9551"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "video-50e620e4e4",
+  "title": "巴黎街头时装变身",
+  "category": "广告",
+  "summary": "以行走跟拍和环绕光轨完成街头服装无缝变身。",
+  "tags": [
+    "广告",
+    "电影感",
+    "横屏"
+  ],
+  "image": "assets/cases/video-50e620e4e4.jpg",
+  "prompt": "创作了一部具有电影质感的时尚变身视频，主角是一位美丽的年轻女子，漫步于优雅的巴黎街头。她起初身穿一件简洁的白色夏日连衣裙，自然地行走在时尚的城市人行道上，周围环绕着经典建筑、咖啡馆、商店和行人。镜头以逼真的电影运动感和浅景深平滑地跟随她。当她经过一家店面时，发光的红色光轨围绕她的身体旋转，营造出神奇的时尚过渡效果。她的服装无缝地从白色转变为精致的红色无袖连衣裙。接着是动态的街道视角镜头，展现她自信地穿过繁忙的巴黎十字路口。最后以一个美丽的特写镜头结束，她身穿红裙，轻轻拿着冰淇淋品尝，目光自然地望向镜头。具备照片级真实细节、优雅的时尚电影美学、自然日光、流畅过渡、逼真皮肤纹理、电影镜头、微妙的背景动感以及高端商业质感。",
+  "source": {
+    "author": "@ayzalnoor / YouMind",
+    "url": "https://x.com/ayzalnooor24521/status/2100456445900710158"
+  },
+  "promptCredit": "来源提示词 / 翻译整理",
+  "video": "assets/cases/video-50e620e4e4.mp4",
+  "catalog": {
+    "sourceLabel": "X · @ayzalnooor24521",
+    "related": {
+      "label": "YouMind 模板",
+      "url": "https://youmind.com/zh-CN/video-prompts/parisian-fashion-transformation-10954"
+    }
+  }
+}

@@ -36,7 +36,7 @@
 
 首屏拼贴中的六张图也可逐个查看： [旅行海报](showcase/image.md#coastal-poster) · [植物汽水](showcase/image.md#botanical-soda) · [植物图版](showcase/image.md#botanical-plate) · [梨挞分镜](showcase/image.md#pear-tart-storyboard) · [食物拆解](showcase/image.md#image-2be108496e) · [照片速写](showcase/image.md#image-2a8d580cf7)。
 
-更多入口：[全部生图案例](showcase/image.md) · [全部生视频案例](showcase/video.md) · [生图模板](templates/image.md) · [生视频模板](templates/video.md) · [画廊筛选](https://dingle-kb.github.io/awesome-image-video-prompts/)
+更多入口：[全部生图案例](showcase/image.md) · [全部生视频案例](showcase/video.md) · [生图模板](templates/image.md) · [生视频模板](templates/video.md) · [独立 JSON 条目](entries/INDEX-条目导航.md) · [画廊筛选](https://dingle-kb.github.io/awesome-image-video-prompts/)
 
 案例详情与原创填空模板目前以中文为主；92 套来源配套 Prompt 同时提供中英文版本。
 
@@ -112,6 +112,19 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 首屏拼贴中，前四张为原创案例，后两张为标注原作者的来源案例；拼贴不是替换填空模板变量后的生成结果。
 
 按标题找内容可用[案例导航](showcase/index.md)；按题材和标签筛选可用[在线画廊](https://dingle-kb.github.io/awesome-image-video-prompts/)。
+
+## 独立 JSON 条目
+
+232 条案例与 Prompt 分别存放在 [entries/](entries/README.md)，可通过[中文标题导航](entries/INDEX-条目导航.md)逐条浏览。来源案例的完整 Prompt 与配套 Prompt 放在同一案例目录；原创案例和填空模板另行分类。每个详情页都能直达对应 JSON。预览和样片仍统一放在 `assets/`，不在每个目录里重复复制。
+
+```text
+entries/image/<案例ID>/case.json + prompt.json（有配套 Prompt 时）
+entries/video/<案例ID>/case.json + prompt.json（有配套 Prompt 时）
+entries/original/<image|video>/<ID>/case.json
+entries/original-templates/<ID>.json
+```
+
+编辑时以 `entries/` 中的单条文件为准；`data/` 保留供画廊和生成页面读取的完整汇总。同步方法见[贡献指南](CONTRIBUTING.md)。
 
 ## 贡献与许可
 

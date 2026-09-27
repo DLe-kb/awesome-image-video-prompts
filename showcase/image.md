@@ -31,6 +31,8 @@
 Create a finished editorial scientific botanical plate for an original imaginary alpine plant named Luma fern. Vertical 3:4 composition. Large accurate-looking central botanical watercolor specimen, smaller enlarged seed pod and leaf detail drawings around it, fine leader lines, restrained moss green and vermilion ink with clean off-white paper. Elegant specimen label LUMA FERN and tiny serial number 08 in legible English. Premium museum publication photography, crisp fine details, no logos, no humans, no real brand, no web UI.
 ```
 
+[查看结构化案例 JSON](../entries/original/image/botanical-plate/case.json)
+
 **可复用模板**
 
 [浏览生图 Prompt 模板](../templates/image.md)
@@ -50,6 +52,8 @@ Create a finished editorial scientific botanical plate for an original imaginary
 ```text
 A polished commercial still-life photograph for a fictional botanical soda called MIRA. One clear unbranded glass bottle with pale coral liquid on a vivid sea-green tabletop, condensation, sliced ruby grapefruit and a single leafy stem, directional late afternoon sunlight, sharp caustic shadows, premium beverage advertising composition with generous negative space, bright believable materials. No people, no visible words, no brand logos, no collage or mockup frame. Square image.
 ```
+
+[查看结构化案例 JSON](../entries/original/image/botanical-soda/case.json)
 
 **可复用模板**
 
@@ -71,6 +75,8 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 An original editorial travel poster for a fictional coastal city named SOLA. A sunlit terracotta stairway descends between white modernist houses toward a turquoise harbor, distant sailboat and hill, one small cyclist for scale. Sophisticated flat screen-print look with subtle paper grain, palette of coral red, cobalt, cream and sea green, strong geometric composition and negative space. One small readable heading SOLA at the top, no logos, no real place names, vertical 3:4 poster.
 ```
 
+[查看结构化案例 JSON](../entries/original/image/coastal-poster/case.json)
+
 **可复用模板**
 
 [浏览生图 Prompt 模板](../templates/image.md)
@@ -90,6 +96,8 @@ An original editorial travel poster for a fictional coastal city named SOLA. A s
 ```text
 A premium four-panel storyboard image for an original bakery campaign about a hand-made pear tart. Four distinct cinematic frames in a precise 2 by 2 grid: close-up flour dust falling over a pastry board; hands carefully arranging fresh pear slices; tart baking inside a warmly lit oven; finished golden pear tart served on a simple table. Photoreal food cinematography, coherent warm daylight and amber oven glow, cream and dark green art direction, clear shot progression and consistent tart, thin gutters between frames. No captions, no logos, no text, no real brands.
 ```
+
+[查看结构化案例 JSON](../entries/original/image/pear-tart-storyboard/case.json)
 
 **可复用模板**
 
@@ -135,6 +143,8 @@ A premium four-panel storyboard image for an original bakery campaign about a ha
 実在ブランドロゴ、読める文字、商標の再現、不自然な顔、不自然な視線、歯や唇の崩れ、ストローとの接触不良、余分な指、欠けた指、手足の融合、氷の浮遊、不自然な重力、誤った遠近法、光源と矛盾する影、文字化け、透かし、過度な美肌補正、プラスチックのような肌。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-828d8ade3e/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-inside-cup-fisheye-summer-drink-ad)
@@ -155,6 +165,8 @@ A premium four-panel storyboard image for an original bakery campaign about a ha
 请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用 3:4 竖版构图，上下两个区域高度严格 1:1，各占画面 50%。 上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。 下半部分提取照片中最具识别性的主体、轮廓、结构、姿态与叙事关系，重构为 Bento-fication / 饭盒化的便利店熟食包装视觉。不要逐物复制原图，而是理解原画面的核心视觉关系，将人物、建筑、植物、天空、水面、器物或其他元素进行食材语义映射与材质置换，用米饭、蔬菜、鸡蛋、水果、海苔、奶酪、酱汁、果冻、鱼籽、香草等食材重新组织，使人第一眼仍能认出原画面的灵魂，第二眼才发现所有内容其实都是食物。 所有视觉信息最终收纳进一个明确的透明便利店熟食盒、便当托盘或分格食品容器中。保留原图最重要的构图层级，但允许重新导演：删减无关背景，通过裁切、比例变化、位置重组、食材模块化和容器分区，让原本复杂或普通的画面重新变成一件成立的商品视觉。不要为了还原而塞满食材，只保留真正决定身份的元素。 下半部分以俯拍产品摄影 / top-view packaged-food photography 为主要视角，强调真实透明盒材质、食材颗粒、切面、湿润度、新鲜感和自然光感，使其像真正可以放在精品便利店货架上的商品。构图保持主体包装清晰、四周有充足留白，整体干净、精致、有呼吸感，不做拥挤的食物拼盘。 配色从上方照片中提取最有辨识度、最鲜活的颜色，再转换为自然食材色彩。颜色应明亮、清爽、诱人、有生活感，例如绿色可转化为蔬菜与香草，黄色转化为鸡蛋、玉米或水果，暖红转化为番茄、鱼籽或酱汁，冷色可通过果冻、包装、餐盒底纸或其他合理食材关系表达。避免灰暗、油腻、脏色和廉价食品广告感。 包装加入少量商品标签系统，可根据原图主题自由生成品名、短句、价格、重量、条码、保质信息或微型说明，不限制语种，也不要求固定字段。标签应像真实日系便利店或精品食品包装，层级清楚、尺寸克制，与透明盒和食材构图自然结合。 整体呈现 Japanese konbini deli packaging aesthetic / packaged-food reinterpretation / semantic food substitution / containerized composition / retail product visualization 的视觉语言。核心原则是：不是把照片画成食物，而是保留原画面的视觉灵魂，用食材、容器和商品包装重新导演一次。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-5b85051bd1/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-bento-food-packaging-concept)
@@ -174,6 +186,8 @@ A premium four-panel storyboard image for an original bakery campaign about a ha
 ```text
 请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用 3:4 竖版构图，上下两个区域高度严格1:1，各占画面50%。 上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有杂志摄影和艺术出版物质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。 下半部分提取照片中最具识别性的主体、轮廓、姿态与叙事关系，重构为极简纸感手绘封面插画。高度提炼并删减复杂细节，只保留最关键的视觉特征，以纤细、略带不稳定感的手绘线条和少量明确的丙烯平涂色块重新表达，让人一眼识别原始主题。主体保持小而集中，约占下半部分 10%–20%，四周大面积留白，背景以粗糙白纸或浅色纸张为主，仅用极少量线条或色面暗示环境。 配色从上方照片提取并压缩为不超过4种主要颜色，色块鲜明、完整、克制，保留纸张颗粒、手工涂抹和轻微不规则边缘。线条负责提示结构，色块负责建立主体。避免彩铅、蜡笔、水彩晕染、纯线稿、复杂写实、厚重油画、光滑数字插画和3D质感。 可加入少量简洁文字，根据照片内容灵活使用标题、主题词、对象名称、地点、年份、编号或短句，不局限于城市题材。文字排版疏朗克制，与留白和插画自然融合，具有艺术书封、独立出版物和儿童绘本式设计感。整体呈现小主体、大留白、强提炼、高识别度、安静、童趣、轻松、诗意而高级的视觉气质，避免商业卡通感、电商感和模板感。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-5573ad414d/case.json)
 
 **可复用模板**
 
@@ -201,6 +215,8 @@ Show large bold typography of "[CITY NAME]" printed directly on the map in the f
 Aspect ratio 1:1.
 ```
 
+[查看结构化案例 JSON](../entries/image/image-6f7c8e1479/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-miniature-city-map-travel-poster)
@@ -225,6 +241,8 @@ Aspect ratio 1:1.
 使用平视街拍角度、四层景深和清楚的尺度参照。巨幕人物面部或产品必须锐利，城市环境保持真实复杂但不抢主体。调色使用深钴蓝、洋红、青色、暖琥珀、少量酸绿和红色，保留阴影细节、轻微光晕与胶片颗粒。所有招牌使用虚构品牌或不可辨识通用文字，不复制真实城市地标标识。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-91099d2e69/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-city-corner-3d-billboard-photography)
@@ -244,6 +262,8 @@ Aspect ratio 1:1.
 ```text
 创建一个高度精细的等轴测 3D 微缩立体模型，呈现一个温馨的美式厨房角落，如同在 Blender 中渲染出的手工娃娃屋场景，并带有柔和的全局光照。房间为一个开放式立方体，两面米色壁纸墙在角落交汇，底部为凸起的方形瓷砖地板，顶部和护墙板高度处饰有温暖的中棕色木饰条。使用暖米色摄影棚背景，并采用 3/4 俯视角的正交相机。厨房风格怀旧、可爱且略带玩具感，具有圆润的边缘、抛光的木材、逼真的材质和整洁的微缩比例。包含 12 个主要的家具和固定装置元素：左侧 1 台带有 NORD 字样、彩色小圆磁铁和黄铜把手的奶油色复古冰箱；1 台带有黑色炉头和带盖锅具的薄荷绿燃气灶；右侧 1 组长条木质地柜，配有抽屉、镶板橱柜门、黄铜旋钮和水槽；水槽上方 1 扇双开窗，配有挂在银色杆上的米色系带窗帘；2 个壁挂式木质方盒搁板（分别位于炉灶上方和窗户右侧），内放书籍和白色罐子；中心 1 张铺有白绿格纹桌布的方形餐桌；桌边 3 把木椅；左侧墙上 1 幅小框画；以及 1 对带有圆形灯罩和淡粉色球形装饰的黄铜壁灯。添加 10 个清晰可见的桌面或台面配件：1 个放有面包的托盘、1 个木质砧板、1 个绿色小瓶、1 个装有木勺的餐具杯、1 个洗手液泵瓶、餐桌上 1 个蓝色茶壶或水壶、1 个装有红色顶部甜点的玻璃甜点罩、1 个小杯碟、1 个放有食物的小盘子，以及水槽旁 1 块矩形小海绵。材质应包括光泽奶油色珐琅、薄荷绿喷漆金属、清漆木纹、半透明玻璃、柔软织物窗帘、陶瓷砖和拉丝金属。光照应温暖柔和，伴有柔和的阴影和环境光遮蔽，以强调微缩比例和精细细节。配色方案：warm medium brown、奶油色、薄荷绿、米色、淡粉色、柔和的绿色、黄铜色和柔和的灰色瓷砖。画面中不包含人物，无水印，除复古冰箱和炉灶外无现代家电，立方体房间外无杂物。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-797a09fdbc/case.json)
 
 **可复用模板**
 
@@ -271,6 +291,8 @@ Aspect ratio 1:1.
 叠加统一、可读、不过度装饰的 HUD：左上角色头像与生命、耐力、能量；顶部中央首领名、阶段和生命条；右上小地图；左下四格物品栏；底部中央武器名与当前效果；右下操作提示；下方任务目标。所有名称、图标和数值使用原创设定。画面应像真实暂停的游戏实机截图，HUD 与场景透视一致，不引用现有游戏名称、角色或标志。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-5ad5dba080/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-cinematic-action-rpg-screenshot)
@@ -291,6 +313,8 @@ Aspect ratio 1:1.
 目标：创建一个 2x2 的对比拼贴画，展示四张为短视频概念生成的动漫风格参考图，背景为深炭灰色，并配有醒目的白色标签。 画布：横向 3:2 构图，尺寸约为 1200x900 像素。使用哑光黑/深灰色背景。将 4 个矩形图像面板整齐排列成网格，留出充足的边距和间隙。每个面板上方都有一个醒目的白色粗体标签：共 4 个标签，左上角为“@image1”，右上角为“@image2”，左下角为“@image3”，右下角为“@image4”。 整体视觉风格：柔和的手绘动漫插画，温暖柔和的色调，细腻的线条，微妙的水彩质感阴影，怀旧的日本校园氛围，简洁的角色设计，无写实感。核心人物为 一位可爱的日本初中女生，留着齐肩深棕色波浪卷发，简单的豆豆眼，带着浅浅的微笑，身穿水手服风格校服。她的服装在各面板中保持一致：奶油色短袖水手衫配海军蓝滚边，橙色领巾，深色格子百褶裙（带有橙色和青色线条），海军蓝中筒袜（带有橙色条纹），以及米色运动鞋。 面板 @image1：温暖米色背景上的单幅插画。展示 1 名女生坐在经典的学校课桌椅上，侧面四分之三视角，面向右侧。她姿态放松，双手放在桌面上，仿佛正在书写或阅读。包含 1 张课桌和 1 把椅子，带有细黑金属桌腿和木质座椅/靠背。她的双腿微微向前伸展，可见运动鞋。背景保持简洁明了。 面板 @image2：纯白背景上的角色三视图。展示 3 个相同女生的全身视图，均匀分布：左侧为正面，中间为侧面（面向左侧），右侧为背面。比例保持类似 Q 版但不过分夸张，大头小身，面部特征简洁。面板内不含额外道具或文字。 面板 @image3：一所小型日本郊区学校 的鸟瞰图插画。展示 1 栋主教学楼，矩形双层结构，带有深青色屋顶和成排的长窗。包含 1 个沙地操场（带有淡淡的白色球场标记）、1 堵围墙，以及周围的住宅区房屋、树木、狭窄街道、电线杆和温暖的午后光线。视角应为高空俯瞰/等轴测视图，类似于 3D 场景的参考图。 面板 @image4：透过大窗框看向教室内部的视角，仿佛观众从室外向内窥视。前景中，展示 1 名女生坐在窗边的课桌旁，略微面向右侧，桌上放着打开的书本或笔记本。在她身后，展示 6 名背景学生坐在各自的课桌前，经过柔化处理且简化，面向前方或低头，仿佛正在学习。包含温暖的阳光、窗户倒影、教室墙板和成排的课桌。窗框应清晰地勾勒出面板边缘，营造出电影般的镜头感。 约束条件：保持所有 4 个面板的插画风格和色调一致。除四个 @image 标签外，不得添加额外的面板、标签、水印、说明文字或徽标。拼贴画应看起来像是一篇展示四张 AI 生成参考图的社交媒体帖子。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-3c7b07b9df/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-animated-campus-world-reference-board)
@@ -310,6 +334,8 @@ Aspect ratio 1:1.
 ```text
 围绕 二十四节气之处暑 内容生成一张极窄长的竖版编辑视觉，让外部大色场、中央暖白纸页与纸页内缩的主题画窗构成三层清楚的平面空间。先从主题的状态对照与情绪温度中推导两种结构色，以一条硬水平分界覆盖画面绝大面积；在内嵌画窗中用相同方向和相近比例缩小复述这组分区，外场更明、更空，窗内更深、更密，纸白作为全画最高明度的隔层。画面重量集中在中段，上部保留宽阔标题区，下部留出舒展的情绪落点；纸页边缘平直，不使用厚重悬浮阴影，画窗下方保留宽阔注释带。 从主题的方向、过程、结构连接与时间变化中提取一条连续可识别的核心形态，把它组织成贯穿中段的单一斜轴，使其从画窗内部跨过至少两道边界，压住窗框、进入纸面留白并延伸到外部色场。跨界形态保持完整连续，越过边缘的端点保留最清楚的识别轮廓，内部细节适度压缩；局部形态沿斜轴由密到疏，其余辅助对象缩成安静的小型几何焦点，稳定留在画窗内部并靠近色场分界。让水平色界、竖向画幅、矩形纸页和内窗维持严格正交秩序，只有核心主题获得破格权，以准确遮挡关系建立空间，而不是依靠透视或戏剧投影。 在主题动势的一侧边缘布置少量同源回声：将核心形态放大、裁切、降低透明与对比，强烈失焦到只剩柔软色块，局部越出画布；中心主体保持清楚，另一侧保持干净，使平面色场获得浅层空气 and 记忆感。色彩保持清晰的面积秩序，两个结构色共同占据约八成画面，主题中介色跨越两场并缝合冷暖或状态差异，一个小面积强调色只在窗内视觉焦点与纸页外文字手势处远距离出现两次。具体色相随主题改变，但纸白最高、少量深轮廓压住结构、强调色以饱和度而非面积取胜的明度关系保持稳定。 文字系统延续图像的秩序与越界关系。主标题使用瘦长、细锐、笔画反差明显、端点精致的编辑衬线骨架，中文采用纤细而有书刊气质的字形，字距舒展；将一个关键词转化为连续自由的手写细线，轻轻穿过或邻接印刷标题，形成与主题斜轴呼应的私人笔迹。解释性信息缩进纸页下部，以两组中细小字 and 日期型微字分列；纸页外下方可用一组带长收笔的手写文字承接第二个强调色，最底边只保留极小元数据。让标题、图像、注释 and 页脚依次降低密度，不让文字压住核心识别边缘。 以无方向的柔和日光 and 低阴影处理对象，使主题保留有限的真实材质，却仍服从平面色块。全图覆盖极轻的艺术纸纤维、细印刷网点与低对比扫描颗粒，纸页 and 画幅中的纹理略明显，外部纯色场更克制；对象边缘允许微小印刷柔化与溢色，关键轮廓 and 字形仍保持清洁。最终画面第一眼呈现双色长幅中的白色纸窗 and 从窗内连续生长到窗外的主题形态，随后才显露失焦边影、精细题头、手写干预 and 微型注释，形成严格编辑秩序与鲜活时间感并存的现代纸印视觉。 主题：二十四节气之处暑 比例3:4
 ```
+
+[查看结构化案例 JSON](../entries/image/image-2d9c1779c7/case.json)
 
 **可复用模板**
 
@@ -334,6 +360,8 @@ Add supporting collage fragments such as a rainy European street, film-strip bor
 
 The final result should feel cinematic, intellectual, rebellious, and editorial — like a lost 1960s European film poster with a strong point of view. Keep it raw, tactile, printed, imperfect, and handmade. Avoid a glossy modern finish.
 ```
+
+[查看结构化案例 JSON](../entries/image/image-617c5d786a/case.json)
 
 **可复用模板**
 
@@ -361,6 +389,8 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 整体呈现高性能、科技感、年轻而克制的商业摄影。配色以冰蓝、雪白、琥珀金、洋红、自然肤色和深炭灰为主。确保反射场景可辨识、文字不压住眼镜主体，不出现真实品牌 Logo。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-ed61eb227d/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-reflective-ski-gear-landing-page)
@@ -380,6 +410,8 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 ```text
 为每一张上传的照片创作一张高级编辑艺术海报，将每张图像视为独立的构图，切勿将多张照片合并在一起。使用严格的 3:4 竖版格式，将画布水平平分为两等份：上半部分应保持对原始图像忠实且逼真的呈现，保留主体确切的身份、面部特征、比例、姿势、服装、物体、构图、光影、氛围和自然色彩，仅在必要时通过精致的编辑级调色和无缝的环境扩展进行增强；下半部分应将视觉叙事转化为完全不同的艺术诠释——在一个宽广且温暖的 ivory 留白空间中心，放置一件构图精巧、微小的手工混合媒介艺术品，其占下半部分的比例不超过 10%–20%。使用富有表现力的水墨素描、层叠的水粉色块、微妙的拼贴纹理、撕纸边缘、不完美的笔触、可见的纤维、柔和的颜料变化以及迷人的人文瑕疵，同时保留原始照片中最具辨识度的轮廓、姿态、物体和情感叙事。从每张照片中提取最多四种主导的和谐色彩，并以柔和、高级的色调重新诠释。仅在真正提升构图效果时添加偶尔出现的低调编辑排版，例如诗意的标题、地点、日期或单个单词。整体效果应如同可收藏的当代艺术出版物封面——极简、诗意、有质感、优雅、情感宁静、视觉独特，并与原始照片有着不可磨灭的联系。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-aa535c1f0d/case.json)
 
 **可复用模板**
 
@@ -458,6 +490,8 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 7. 更换第一行参数后，其余提示词无需修改即可重复使用。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-5efc7ec9c3/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-graded-english-magazine-reading-page)
@@ -477,6 +511,8 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 ```text
 一张印在米色纸张上的科学植物学海报。画面中心是一朵巨大的 勿忘我 水彩画，包含根部，茎和花瓣上带有细小的编号标签。顶部为斜体衬线字体标题："FORGET-ME-NOT"。副标题："A FIELD PLATE"。底部："PLATE VII · 1887"。边缘处有铅笔笔记。米色、靛蓝色、绿色，2:3 纵横比。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-9dc00fd4c2/case.json)
 
 **可复用模板**
 
@@ -504,6 +540,8 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 如果已提供具体文案，原样使用；否则只生成与图二主题一致的简短描述，不编造功效、价格或商业承诺。不出现图一的品牌、标志或水印，不输出参考图对比、教程字幕或分屏。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-909ac5b599/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-retro-scrapbook-poster)
@@ -529,6 +567,8 @@ The final result should feel cinematic, intellectual, rebellious, and editorial 
 
 仅输出插画，不添加标题、说明文字、标志、水印、海报边框或分屏对比。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-0cac842543/case.json)
 
 **可复用模板**
 
@@ -559,6 +599,8 @@ Stage 4: Structural Integration & Scaling Making the concept physically viable. 
 
 Stage 5: Final Prototyping & Material Finish Textural Replication: Apply a matte, slightly porous finish to the material to mimic the tactile feel of heavy-bond paper. Lighting Contrast: Use directional studio lighting in the final renders to emphasize the "tossed" shadows, making the chair look like a giant piece of discarded inspiration. Design Tip: To keep the "tossed" look authentic, avoid symmetry. The most compelling aspect of a crumpled paper ball is its unique irregularity—ensure the left and right sides of the chair are balance-equivalent but not identical
 ```
+
+[查看结构化案例 JSON](../entries/image/image-36c0a55d6b/case.json)
 
 **可复用模板**
 
@@ -592,6 +634,8 @@ Typography: large elegant serif masthead "Louis Vuitton" at the top, bold cover 
 Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy magazine print quality, cinematic color grading, luxury fashion photography, no nudity, tasteful and editorial.
 ```
 
+[查看结构化案例 JSON](../entries/image/image-e60a5d30a1/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-haute-couture-fashion-magazine-cover)
@@ -612,6 +656,8 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 标题： 高端 {productName} 产品商业项目 格式： • 单页高端项目 • 3:4 竖屏比例 • 奢华食品广告 • 8 个电影级产品特写场景 • 产品始终作为核心主角 • 高端广告代理商演示风格 页眉： • 优雅的衬线字体 • 信息卡片： - 时长：20 秒 - 风格：电影级美食广告 - 产品：{productName} - 音频：柔和的涂抹声 + 食物 ASMR • “为何这种风格有效”板块 • 温暖的棕色、奶油色和金色美学 • 极简的榛子装饰元素 项目： 1. 高端 {productName} 罐装产品放置在抛光的深色木质表面上 2. 极微距视角下的瓶盖开启瞬间 3. 奶油质感的 {productName} 从罐中缓慢涂抹而出 4. 巧克力酱在半空中形成光泽丝带状 5. {productName} 倾泻在松软的煎饼上 6. 展现浓郁巧克力质感与微小反光的极微距镜头 7. 煎饼塔与主角罐装产品及榛子环绕陈列 8. 带有戏剧性 {productName} 涂抹效果的最终奢华产品定格画面 每个面板： • 场景编号 • 时长标签 • 运镜方向 • 视觉画面 • 动作描述 • 产品细节 摄像机： 极微距、慢动作涂抹摄影、俯视食物拍摄、受控推入镜头、浅景深、电影级主角构图。 风格： 超写实食品广告、逼真的涂抹粘稠度、光泽巧克力质感、温暖的摄影棚灯光、高端玻璃包装、精致的美食呈现、8K 分辨率。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-7ebb9401a5/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-premium-food-commercial-storyboard)
@@ -631,6 +677,8 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 ```text
 请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%，并确保该表达方式可适配人物、动物、建筑、静物、自然场景等不同主题，而不限于城市题材。 上半部分保留原始照片，保持主体身份、动作、空间关系、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有杂志摄影与艺术出版物的质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭切或改变主体。 下半部分提取照片中最具识别性的主体、轮廓、姿态与叙事关系，重构为童话版画式手绘图像。不要机械描摹细节，而是将主体压缩为一两个清楚的大体块，以钝拙剪影、略微夸张的比例和少量关键边缘，保留原始对象的身份、动作、功能与情绪。画面从原图内容中提炼出一个大面积低明度或高反差的结构场，作为包裹主体的容器、路径、框架或密度层；背景像故事发生的外壳一样从原图空间与意义中生长出来，形成遮挡、裁切、吞没与局部露出的结构叙事。整体采用平面叙事透视和绘本页面式层级，可使用俯视压缩、侧向移动、正面框架、路径引导、尺度跳跃或边缘裁切组织阅读。 配色从上方照片提取，并保持明确的三层关系：大面积暗结构色负责重量与边界，适量浅色或留白负责呼吸，小面积高饱和情绪色负责读图路线与故事信号。最重要的信息仅以少量鲜明色块集中在面部、姿态、路径、器物功能点、环境标识或叙事焦点上，并始终被深色结构或浅色负形压住，让画面鲜艳但不平均。色相可随主题情绪调整，但面积比例与明度秩序保持稳定。 线条只在功能、路径、边界、纹理和识别处出现，保持稀疏、手绘、略不准的细线。所有色块保持平面化处理，同时保留干刷、颗粒、飞白、纸纹、喷点和轻微套印错位，呈现丝网印刷与粉蜡笔共同完成的手工质感，避免写实光影、复杂体积、光滑矢量边缘、3D渲染和塑料质感。 整体构图简洁、低细节、高识别，暗场包裹亮色信号，兼具可爱叙事与厚重版画感。若画面包含文字，可将文字处理为小标识、物体面板或边缘注释，数量精简，服从图形结构；字形圆钝，粗细略不均，密度低，带有自然手写感，使其像画面的一部分而不是后期贴上去的说明。整体参考童话绘本、手工版画、编辑插画与艺术出版物气质，呈现统一、鲜明、可迁移的作者化视觉语言。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-f1b82a90e6/case.json)
 
 **可复用模板**
 
@@ -664,6 +712,8 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 整体呈现真实摄影 × 抽象记忆 × 编辑排版的视觉气质，现代、安静、克制、精致、艺术化且具有收藏感，避免复杂拼贴、廉价装饰、商业模板感和无意义抽象。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-ae6e4d57d6/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-minimal-abstract-geometric-deconstruction-poster)
@@ -683,6 +733,8 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 ```text
 请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面 50%。 上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有杂志摄影、艺术出版物和公共议题影像的克制质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。 下半部分提取照片中最具识别性的主体、轮廓、姿态与叙事关系，重构为一幅极简、克制、带有公共议题气质的观念线条插画。不机械描边，不复制背景、光影和复杂细节，而是提炼原图中的方向、连接、矛盾、压力与转机，将其压缩成一组连续的黑色手绘线条。线条如被拉紧的细铁丝、路径、束缚或伤口，从画面边缘进入，在下方盘绕、交错、回折与收紧，再沿内在力量逐渐向上或向外抬升，并在运动中自然显露出与原主体有关的象征轮廓；保持一眼可感知原物，但不必完整封闭或直接解释。 画面以冷白、米白或低饱和浅色为底，大面积留白，主体偏下、偏侧或靠近边缘，不居中、不铺满。线条粗细略有变化，保留墨线的摩擦、迟疑、断裂与压力感；尖刺、结点、倒钩或短横仅出现在受力、交叉和方向改变的位置。整体安静而紧张，简洁却不轻松，意义在线条的缠绕、限制、穿越、收紧与释放之间逐渐显现。 文字只作极少量使用，可加入简短英文主题词、编号、地点或适配金句，但必须像线条系统中的一个微小痕迹，以纤细、克制、略带手工感的排版融入空白或线条转折处，不成为视觉中心，也不直接解释画面。整体参考现代主义观念海报、社会议题视觉、艺术出版物和实验编辑设计，避免复杂场景、写实光影、三维质感、多色填充、卡通感、商业广告感、装饰性曲线和无意义的视觉丰富。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-0b30d56a9e/case.json)
 
 **可复用模板**
 
@@ -704,6 +756,8 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用 3:4 竖版构图，上下两个区域高度严格 1:1，各占画面 50%。上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。下半部分只提取照片中最具识别性的主体、轮廓、结构、姿态与叙事关系，重构为建筑概念透视草图 / 建筑方案表现手绘。不要完整保留场景，不要逐物复制照片；主动删去大部分背景、配景和无关细节，只留下最能代表原始主题的核心形体、空间关系与视觉记忆点。下半部分重新做美术判断。哪怕原图构图差、背景乱、主体小，也要通过删减、重组、裁切、尺度变化和留白，把它救成一张成立的作品，真正赋予模型重新导演画面的权力。画风采用自由徒手透视线稿 + 少量选择性色块。线条松弛、克制、略带重复与停顿感，可保留少量辅助线、延长线、构造线与建筑手绘的几何参考线，形成明确的设计推敲感。色彩只在少数关键部位轻微铺陈，用于强调主体、结构层次、局部阴影或空间重点，其余区域尽量不画。画面必须以大量有意识的留白为核心。主体应更小、更精炼，其余空间大面积留空。留白不是空背景，而是构图的一部分，要与主体、线稿、参考线、阴影和少量色块共同形成呼吸感、空间感与节奏感。主体可偏心、贴边、局部裁切或缩小尺度；宁可少画，也不要填满。可加入少量几何阴影色块强化体量、进深与空间层次，但避免厚重渲染、复杂环境和写实效果图感。背景保持极简，只保留极少量必要的场地暗示。配色从上方照片中提取 2–4 种最具识别度和生命力的颜色，重新整理为更干净、克制、耐看的草图色系。整体可适度提亮、提纯、去灰，以米白、浅灰、暖灰、柔和绿色、淡木色、浅蓝灰等为主，局部保留少量更鲜明但不刺眼的点睛色。避免脏灰、暗沉、过度复古和廉价高饱和感。文字只作极少量编辑性介入，不限制语种。可根据主体、地点、动作或情绪生成少量字词、短句或注记，安静地落在留白区域，与画面形成克制的图文关系。整体呈现建筑概念手绘、自由线稿、几何参考线、少量色块、几何阴影、超大量留白与编辑式排版共同构成的高级视觉效果。避免完整场景保留、逐物复制、复杂背景、满幅上色、写实效果图、粗重描边、卡通感、3D感和模板化表现。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-05bd56fd6f/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-architecture-photo-concept-sketch-diptych)
@@ -723,6 +777,8 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 ```text
 在明亮舒适的现代厨房中，创作一张超写实的高端食品摄影作品。左侧的白色圆桌上，垂直摆放着一组 鲜艳浓郁的粉色浆果冰沙，盛装在 三个小型透明玻璃罐叠放 中。冰沙质地浓稠细腻，带有细微的浆果颗粒和光泽感。右侧放置一个带有绿色盖子的透明 有机花生酱 罐，里面装满了金棕色的奶油花生酱。请准确还原产品包装、标签位置、颜色和比例。在罐子旁边自然地散落几颗完整的花生。前景处放置一个装有混合烤花生的小陶瓷碗，以及一个米色陶瓷盘，盘中放着一把盛有满满一勺奶油花生酱的勺子。在冰沙旁点缀几枝精致的绿色香草。背景：整洁的白色地铁砖厨房墙面，侧面照射的柔和自然光，微妙的阴影，营造出温暖舒适的氛围。将食物放置在一个小型木制项目上，下方垫着一张复古印花纸。在左上角添加优雅的手写风格白色文字“Smoothies”，下方配以较小的草书文字“Tingi Kalori”。垂直 9:16 构图，高端商业食品摄影，逼真的质感，自然日光，浅景深，柔和的背景虚化，清晰的产品细节，平衡的构图，温暖的生活方式美学，照片级真实感，高分辨率，无人物。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-25ed063581/case.json)
 
 **可复用模板**
 
@@ -747,6 +803,8 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 
 采用黄金时段自然侧光，人物一侧形成柔和长影，背景略带绘画感柔焦，人物保持锐利。使用中画幅胶片质感、轻微颗粒和柔和高光过渡。配色以 `{skyColor}`、`{backdropColor}`、`{heroGarmentColor}`、黑色和一个鞋履点缀色为主。整体对称、克制、具有 1990 年代时尚杂志大片气质，重点表现“户外实景与棚拍背景并存”的空间错位。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-89fc3234ea/case.json)
 
 **可复用模板**
 
@@ -802,6 +860,8 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 }
 ```
 
+[查看结构化案例 JSON](../entries/image/image-efcccbca0c/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-vr-headset-exploded-interface-diagram)
@@ -822,6 +882,8 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 [品牌/产品信息] - 品牌名称：{brandName} - 系列名称：{collection} - 典型商品价格：{backpackPrice} [图像质量、呈现与构图规范] - 风格：适用于日本时尚/生活方式品牌电商网站的极简且精致的 Lookbook 照片。 - 构图：在自然光照射的摄影棚内，将服装单品（包袋、外套、鞋履等）整齐地平铺或有序排列在硬木地板或水泥地面上。 - 排版布局（适用于 GPT-image / Nano Banana Pro）：在画布角落隐约呈现品牌名称 {brandName}、{collection} 文字以及价格标注 {backpackPrice}，并使用超细字体。 - 灯光/色彩：如阴天自然光般柔和，低对比度，以大地色系（米色、橄榄绿、炭灰色、灰白色）为主的沉稳色调。 [布局与输出的严格限制（强制性）] - 输出成品设计本身，并填满整个画布。设计内部的背景和场景描绘（墙壁、空间、阴影）可遵循正文中的说明。 - 禁止事项：带相框的海报照片、贴在墙上的海报照片、放置在桌子或纸张上的样机照片、纸张边缘的透视变形或投影。 - 输出成品 2D 平面设计本身，并填满整个画布。允许包含上述描述的场景元素（墙壁、房间、阴影）。绝对禁止任何海报样机效果：不得出现相框、不得出现贴在墙上或放在桌上的照片、不得出现艺术品边缘的透视变形或投影。 - 宽高比："--ar 1:1" 或 "--ar 4:3"
 ```
 
+[查看结构化案例 JSON](../entries/image/image-6b83c7fc5b/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-boutique-ecommerce-product-flatlay-grid)
@@ -841,6 +903,8 @@ Ultra-realistic, hyper-detailed skin texture, 8K resolution, sharp focus, glossy
 ```text
 制作一张 16:9 横屏格式、视觉冲击力强的 YouTube 科技评测缩略图。在右半部分，展示一位留着深色短卷发年轻男性的特写人像，他佩戴着大型浅灰色头戴式耳机，自信地看向镜头，下巴微抬，带着一丝微妙的微笑；采用胸部以上构图，确保耳机清晰可见。在左半部分，顶部放置醒目的粗体缩略图文本 {headline}，使用白色大写字母；下方放置一个红色矩形横幅，内含亮黄色大写文本 {questionText}，并带有强烈的投影和略微倾斜的动态布局。在主文本下方，添加较小的白色产品文本 {productName}。添加一个粗体手绘白色弯曲箭头，从文本区域指向耳机。左侧背景使用深海军蓝至黑色的渐变，带有微妙的圆点半调纹理；右侧人物背后呈现暖米色径向光晕。设计需清晰、色彩饱和且具有点击吸引力，具备戏剧性的对比度、摄影棚灯光、锐利的面部细节、干净的抠图边缘，且不含任何多余的 Logo、水印或其他文本。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-908d8579d8/case.json)
 
 **可复用模板**
 
@@ -888,6 +952,8 @@ LIGHT & STYLE: warm golden French bakery morning light, buttery cream tones, flo
 BAKER NOTES: one baker, one perfect croissant, one irresistible tear. The lamination layers and the final tear are everything — make them stunning.
 ```
 
+[查看结构化案例 JSON](../entries/image/image-dd9bf06fe9/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-croissant-baking-storyboard)
@@ -907,6 +973,8 @@ BAKER NOTES: one baker, one perfect croissant, one irresistible tear. The lamina
 ```text
 Enhance the portrait while strictly preserving the subject's identity with accurate facial geometry. Do not change their expression or face shape. Only allow subtle feature cleanup without altering who they are. Keep the exact same background from the reference image. No replacements, no changes, no new objects, no layout shifts. The environment must look identical. The image must be recreated as if it was shot on a Sony A1, using an 85mm f1.4 lens, at f1.6, ISO 100, 1/200 shutter speed
 ```
+
+[查看结构化案例 JSON](../entries/image/image-326b2a7f37/case.json)
 
 **可复用模板**
 
@@ -937,6 +1005,8 @@ Keep the composition refined rather than crowded. Blend realistic miniature phot
 
 The final image should feel like a premium collectible Rio de Janeiro travel postcard transformed into a physical miniature world, with the central diorama sharply detailed and the surrounding illustrations slightly softer. Highly realistic human hand and fingers, believable miniature materials, cinematic product photography, editorial travel-magazine aesthetic, shallow depth of field, ultra-fine textures, photorealistic 3D details, vertical 4:5 composition, 8K quality.
 ```
+
+[查看结构化案例 JSON](../entries/image/image-611724620e/case.json)
 
 **可复用模板**
 
@@ -1003,6 +1073,8 @@ Negative prompt:
 copied text, Chinese text, existing brand names, cartoon style, toy-like figure, grotesque oversized head, deformed anatomy, extra fingers, missing fingers, fused fingers, twisted wrists, broken limbs, distorted feet, AI plastic skin, over-smoothed skin, fake citrus texture, unrealistic juice physics, muddy lemon pulp, cloudy glass, weak product focus, inconsistent lighting, inconsistent horizon, messy grid, cluttered props, meme aesthetic, cheap humor, childish illustration, low-resolution detail, oversaturated colors, dead black patches, distorted giant hand perspective
 ```
 
+[查看结构化案例 JSON](../entries/image/image-a9d112ca87/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-six-panel-miniature-beverage-ad)
@@ -1033,6 +1105,8 @@ Background: flat dark navy coarse linen texture. Badge centered, filling about 6
 Avoid: black silhouette figure, blacked-out face, dark featureless head, portrait close-up, detailed facial features, person dominating the badge, cropping out the landscape, three-quarter angle, macro product photography, heavy specular glare, cartoon, realistic scene, text, watermark.
 ```
 
+[查看结构化案例 JSON](../entries/image/image-540528c039/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-travel-souvenir-enamel-pin)
@@ -1052,6 +1126,8 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 ```text
 将主体转化为一个视觉故事，通过 4–6 个小型插画帧 进行呈现。在保持主体可辨识度的同时，将其重新诠释为迷人的手绘序列，展示其食材、准备过程、质地和最终形态。 使用 暖色调奶油纸背景、精致的墨水轮廓、微妙的手写注释、微小的箭头、食材草图、测量标记以及不完美的印刷纹理。 构图应呈现出 古老烹饪速写本 页面的质感——充满艺术感、灵动、怀旧且经过精心策划。 不要仅仅复制照片，而是将主体转化为一段插画视觉叙事。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-05e87c8c9f/case.json)
 
 **可复用模板**
 
@@ -1081,6 +1157,8 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 底部依次排布：短标题、3 至 4 行品牌介绍、醒目的 `{ctaText}` 按钮、极细品牌信息条。确保文字层级清楚、按钮可辨识、人物不遮挡主要文案。配色锁定为深蓝、金盏花黄、奶油白、炭黑和一个高饱和点缀色。整体呈现千禧年滑板与冲浪街头文化、复古丝网印刷和高完成度电商视觉，不出现真实品牌 Logo 或现成卡通角色。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-d3a00a1ea9/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-y2k-streetwear-mobile-landing-page)
@@ -1106,6 +1184,8 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 
 底部安排“{primaryCta}”与“{secondaryCta}”两个主按钮、数据统计面板、小地图式导航和极细滚动信息条。配色使用深青蓝、亮洋红、荧光青、镀铬银、像素绿和白色。界面信息丰富但分区清楚，所有文字与按钮可辨识，不使用任何真实游戏、平台或服装品牌标识。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-1587ef7030/case.json)
 
 **可复用模板**
 
@@ -1137,6 +1217,8 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 每一层需将主体与场景统一转换为对应风格，整体表达极度克制与简化，只保留最核心的一个主体符号及其基本轮廓关系，删除一切非必要的背景元素、装饰细节与陪衬物；人物之间的关键位置关系、互动方向与姿态特征需保留，但应抽象为可识别的轮廓关系，做到“元素越少、关系越清晰”。色彩均从原图中提取归纳，每层严格控制在2-4种主色以内。四个区域的高度比例须严格保持1:1:1:1（各占25%），不可出现拼接错位或比例偏差。整体避免朋克/赛博朋克风格、写实照片质感强行叠加、卡通风格、3D渲染感、商业海报感、复杂背景堆砌、元素过多或画面拥挤、相邻两层风格雷同，以及任何文字、Logo、水印或标题。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-90154ddf7b/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-blue-white-dunhuang-embroidery-quadriptych)
@@ -1163,6 +1245,8 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 左下角放置价格、两至三行产品介绍和“{ctaText}”按钮；右下角放置页码与系列季节信息；底部使用极细服务信息条。整体配色包含暖粉、炭黑、陶土橙、鼠尾草绿、钴蓝、灰粉和奶油黄。文字准确、间距克制、产品不遮挡关键界面信息，不出现真实品牌 Logo。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-d0024a7f32/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-playful-ceramic-ecommerce-hero)
@@ -1182,6 +1266,8 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 ```text
 选取参考图像中的人物，创建一个 2x2 的网格，展示同一张特写肖像在四种不同专业灯光设置下的效果。身份锁定：每个面板中的面部、表情（冷静中性）、发型、深色上衣、头部大小和拍摄角度必须完全一致，仅改变灯光。面板 1 伦勃朗光 (REMBRANDT)：主光位于左上方 45 度，阴影侧脸颊呈现小三角形光斑，光影过渡富有质感。面板 2 蝴蝶光 (BUTTERFLY)：主光位于相机正上方，鼻下形成柔和对称的阴影，呈现美妆肖像光泽。面板 3 侧光 (SPLIT)：主光完全从侧面照射，半边脸受光，另半边处于黑暗中。面板 4 轮廓光 (RIM)：主光位于主体后方，勾勒出头发和肩膀的明亮轮廓，面部仅由微弱的补光提亮，营造近乎剪影的戏剧感。全程使用相同的 medium-gray 背景，85mm 镜头感，焦点清晰对准眼睛。每个面板下方标注白色小标签：“REMBRANDT”、“BUTTERFLY”、“SPLIT”、“RIM”。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-626facaf10/case.json)
 
 **可复用模板**
 
@@ -1208,6 +1294,8 @@ Avoid: black silhouette figure, blacked-out face, dark featureless head, portrai
 
 配色包含褪色浅色车漆、黑色轮胎、银色轮毂、白色泡沫、红色尾灯、尘土黄沙地、浅蓝天空和一处高饱和水管色。焦点落在备胎、后窗水幕和水柱，使用细腻胶片颗粒、暖高光、冷阴影和轻微水雾。画面要像偶然捕捉到的夏季公路旅行故事，不出现车标、品牌文字或摄影师模仿要求。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-97796819d8/case.json)
 
 **可复用模板**
 
@@ -1260,6 +1348,8 @@ class Haute_Horlogerie_DNA:
         )
 ```
 
+[查看结构化案例 JSON](../entries/image/image-d4e3564190/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-luxury-mechanical-watch-technical-guide)
@@ -1279,6 +1369,8 @@ class Haute_Horlogerie_DNA:
 ```text
 [活动信息] - 活动名称：{campaignName} - 奖品列表：{prizes} - 参与条件/步骤：{entrySteps} [图像质量、呈现方式与构图规范] - 风格：流行、明亮且友好的社交媒体宣传横幅。设计引人注目。 - 主体：{prizes} 的插画或真实产品照片从礼盒中弹出，周围环绕着华丽的丝带和星星装饰，位于画面中心。 - 色彩/色调：采用明亮的粉色、黄色、浅蓝色等柔和色调，营造兴奋感。 - 文字信息（适用于 GPT-image / Nano Banana Pro）：屏幕顶部的文字 {campaignName} 和底部的简易参与步骤 {entrySteps} 需使用粗体、可爱的圆体字清晰排版。 - 光照：扁平、均匀、明亮的光照，带有柔和的阴影。 [布局与输出的严格限制（强制执行）] - 输出成品设计本身，填满整个画布。设计内部的背景和场景描绘（墙壁、空间、阴影）可遵循正文说明。 - 禁止事项：带相框的海报照片、贴在墙上的海报照片、放置在桌子或纸张上的样机照片、纸张边缘的透视变形或投影。 - 输出成品扁平 2D 设计本身，填满整个画布。允许使用上述描述的设计内部场景元素。绝对禁止海报样机照片：不得包含相框、不得拍摄贴在墙上或桌上的海报、不得在艺术品边缘出现透视变形或投影。 - 宽高比："--ar 1:1" 或 "--ar 16:9"
 ```
+
+[查看结构化案例 JSON](../entries/image/image-7c53920b6a/case.json)
 
 **可复用模板**
 
@@ -1303,6 +1395,8 @@ class Haute_Horlogerie_DNA:
 
 仅使用自然环境光，不使用人工闪光。潜水者清晰对焦，深处具有柔和水雾与颗粒感。配色锁定为钴蓝、藏蓝、银白、哑光黑和少量自然肤色。画面真实、安静、具有高端户外与探险摄影品质，不出现装备品牌、水印或不合理发光效果。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-c352a86ebd/case.json)
 
 **可复用模板**
 
@@ -1360,6 +1454,8 @@ class Haute_Horlogerie_DNA:
 - 不把同一张照片复制到多个步骤格；每格构图和动作必须与对应步骤匹配。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-231adaeba9/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-fifteen-step-photorealistic-recipe)
@@ -1396,6 +1492,8 @@ Add clean infographic text labels with thin pointer lines using these exact labe
 Ultra-detailed food textures, premium commercial aesthetic, 8K.
 ```
 
+[查看结构化案例 JSON](../entries/image/image-2be108496e/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-exploded-food-infographic)
@@ -1415,6 +1513,8 @@ Ultra-detailed food textures, premium commercial aesthetic, 8K.
 ```text
 创建一个由一组不规则层叠的荧光撕纸标题块组成的视觉焦点：主标题 巨大且居中，分为错落的几行，由粗犷的笔刷字体和剪纸形式组合而成，具有厚重的笔触、参差不齐的边缘、夸张的转角、不均匀的字怀，以及轻微的局部套印不准，使文字看起来像是手工印刷的图形形状，而非整齐的排版。围绕标题构建一个圆形、松散但引导清晰的活动信息系统，周围分布着几个蓝白轮廓的手绘贴纸徽章；每个徽章将主题相关的小插图、位置标记或符号连接到白色标签上，大小和方向各异，呈现出随意粘贴在纸上的感觉。主体和标签共享鲜艳的蓝色外轮廓和黄色填充，形成统一的跨元素描边。背景使用温暖的纤维纸和陈旧海报质感，大面积的 赭褐色 区域保留纸张纹理、压痕、细微的色彩变化和印刷溢色；用深棕色手绘虚线、弧线、箭头和少量英文字母几何图形来组织留白，且不与主要信息产生视觉竞争。将主色调锁定为赭棕色、亮黄色、鲜艳蓝色和暖米白色，使用平涂填充和有限的色彩重叠，不使用现代渐变、玻璃效果或过度润色的数字阴影。赋予每个图形、文字、贴纸和背景同样略显不稳定的手工轮廓、丝网印刷套印偏差、多变的笔触粗细和局部磨损感，保留不完美的制作痕迹；保持信息层级清晰，中心标题权重最高，周围模块营造节奏感和呼吸空间，使整幅作品看起来像是一张由拼贴、手绘、丝网印刷和陈旧纸张组装而成的城市文化活动海报。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-fda124aba7/case.json)
 
 **可复用模板**
 
@@ -1436,6 +1536,8 @@ Ultra-detailed food textures, premium commercial aesthetic, 8K.
 创作一张超写实的特写摄影棚肖像，主角是一位神情自信、深思熟虑的成年男性，采用高端现代编辑风格，取景范围从胸部以上。 他留着浓密且打理整齐的黑色短发，顶部自然蓬松，两侧修剪利落。配以修剪精致、边缘自然锐利的络腮胡和八字胡。他戴着透明的长方形眼镜，镜片上带有摄影棚灯光的细微反光。 他身穿修身黑色高领毛衣，外搭一件剪裁考究、翻领结构分明的黑色西装外套。整体造型保持极简的单色风格，不佩戴任何珠宝或多余配饰。 让他呈现微微侧身面对镜头的姿态，头部轻微上扬，双眼望向画面的右上角，营造出冷静、睿智且富有抱负的氛围。 使用戏剧性的双色调摄影棚灯光：鲜艳的品红色/紫色轮廓光照亮他左侧的头发和脸部，充满活力的电光蓝/青色光照亮右侧。脸部保持柔和的中性正面补光，确保皮肤质感真实、细节丰富且曝光准确。 背景采用模糊的未来感摄影棚设计，呈现从左侧深紫色和品红色过渡到右侧电光蓝的丰富渐变。在左下角背景中添加一条发光的对角线霓虹品红色光条，以增加视觉深度。 强调真实的皮肤纹理、细致的胡须毛发、锐利的双眼、自然的眼镜反光、清晰的织物纹理、电影级对比度、浅景深、平滑的彩色虚化效果、高端个人品牌摄影、高端企业编辑美学、超写实主义、85mm 肖像镜头感、f/1.8 光圈、8K 细节、4:5 竖构图。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-60806a74e0/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-duotone-studio-commercial-portrait)
@@ -1455,6 +1557,8 @@ Ultra-detailed food textures, premium commercial aesthetic, 8K.
 ```text
 请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。 上半部分保留原始照片，准确保持主体身份、情绪、姿态、空间关系、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有时尚杂志、艺术出版物与展览摄影质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。 下半部分提取照片中最具识别性的主体、轮廓、姿态与叙事关系，重构为轻盈、稚拙、复古的手绘编辑插画。不要机械复刻细节，以概括造型、适度夸张比例、符号化特征和幽默视觉隐喻重新表达，同时保持原物一眼可辨。融合现代主义编辑插画、包豪斯平面构成、儿童绘本、稚拙艺术与时尚速写气质，形体简练，轮廓略带迟疑与手工误差，局部特征可适度放大，让画面兼具故事感、时尚感与俏皮感。 配色从上方照片中提取，采用高明度、低至中等饱和度的柔和有限色盘，以近似色统一氛围，小面积互补色制造视觉跳点。使用水彩、水粉、彩铅、粉蜡笔与干刷混合质感，保留纸张颗粒、透底、笔触断裂、边缘毛糙、轻微脏色与旧印刷套色偏差。背景大面积留白，仅以松散淡彩、局部斜线或简单几何元素承托主体，避免复杂场景堆积、写实光影、光滑矢量、3D渲染和过度精修。 文字从照片的地点、人物、场景或主题中提炼少量英文关键词、标题、编号或适配金句，并延续下半部分的手绘编辑语言。主标题采用略带稚拙与复古感的手写艺术字，辅助文字使用克制温和的无衬线或衬线字体，可轻微错位、倾斜、拉伸、叠色或产生旧印刷套色偏移，让文字像插画的一部分自然生长在画面中，而不是后期贴上的排版元素。 整体使用米白或浅色背景与大量留白，上下画面通过相同的主体特征、色彩、姿态和视觉符号形成呼应。整体气质轻松、俏皮、复古、温柔、聪明、时髦、幽默、浪漫、松弛，略带笨拙与古怪自信，像一页被精心保存的旧时尚绘本与现代艺术杂志。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-9457327362/case.json)
 
 **可复用模板**
 
@@ -1513,6 +1617,8 @@ OUTPUT:
 9:16 aspect ratio, poster-ready composition.
 ```
 
+[查看结构化案例 JSON](../entries/image/image-2b779f2991/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-ink-double-exposure-portrait-poster)
@@ -1532,6 +1638,8 @@ OUTPUT:
 ```text
 Minimalist flat travel poster illustration series of iconic destinations around the world, clean vector art style, Scandinavian color palette, soft pastel tones, calm atmospheric scenery, Hallstatt Austria lakeside village with alpine mountains and reflections, Bergen Norway colorful harbor houses with fjord background, Kyoto Japan traditional riverside town with cherry blossoms and pagoda, Santorini Greece white architecture with blue domes overlooking the sea, ultra clean composition, geometric landscape shapes, smooth gradients, elegant typography with destination names, modern tourism poster aesthetic, serene travel mood, crisp vector lines, cinematic wide-angle scenery, peaceful skies with stylized clouds, highly detailed environment art, contemporary flat illustration, premium editorial travel design, balanced composition, minimal shadows, dreamy vacation atmosphere, soft morning lighting, high-end Airbnb poster vibe, Behance trending style, 4k, ultra detailed
 ```
+
+[查看结构化案例 JSON](../entries/image/image-966a4fde71/case.json)
 
 **可复用模板**
 
@@ -1562,6 +1670,8 @@ Minimalist flat travel poster illustration series of iconic destinations around 
 
 温暖的自然厨房光线，逼真的食物质感，奶油般的淡黄色奶昔，透明玻璃器皿，浅景深，乡村木质背景，构图简洁，专业美食摄影，高度细节，逼真的手部细节，自然阴影，4K 写实感，无文字，无标签，无水印。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-de6feddf44/case.json)
 
 **可复用模板**
 
@@ -1611,6 +1721,8 @@ Shot on a Canon EOS R5 with an 85mm f/1.4 lens, studio portrait lighting (soft k
 Each panel clearly numbered 1 to 12 in the top-left corner. Overall output aspect ratio 4:5.
 ```
 
+[查看结构化案例 JSON](../entries/image/image-8c99b1b29f/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-same-face-twelve-hairstyles)
@@ -1631,6 +1743,8 @@ Each panel clearly numbered 1 to 12 in the top-left corner. Overall output aspec
 创建一个宁静的未来感亲生物室内休息室，采用温暖的中性色调，位于一个 大型穹顶状中庭 内，顶部设有由三角形切面组成的几何玻璃木格栅屋顶。使用高角度广角建筑摄影视角，俯瞰圆形的下沉式休息区。空间具有流畅的有机建筑风格：浅色灰泥弧形墙壁、浅橡木垂直木镶板、圆润的坡道和分层的圆形挡土墙，右前方有一面醒目的赤陶色弧形墙壁。中心是一个圆形谈话坑，周围环绕着 3 张奶油色弧形组合沙发、2 张圆形奶油色脚凳咖啡桌、1 张小型圆形边桌，以及 4 个可见的柔和桃色、米色、橄榄色和棕褐色装饰靠垫。休息室周围环绕着茂密的绿色苔藓床和蕨类植物，分为 4 个种植区：一个大型左侧花园床、一个狭窄的后部苔藓床、一个小型抬高式后部花槽和一个右前方弧形花槽。营造宁静、舒适、奢华且与自然融合的氛围，天窗透出柔和的漫射日光，无人像，无文字，无杂物，超写实渲染，触感光滑的材质，柔和的阴影，建筑文摘风格，超广角构图，浅橡木和温暖灰泥，柔和赤陶色，宁静的避风港。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-f932193426/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-futuristic-biophilic-atrium)
@@ -1650,6 +1764,8 @@ Each panel clearly numbered 1 to 12 in the top-left corner. Overall output aspec
 ```text
 目标：为 LINH NHI 创建一张写实的社交媒体风格照片拼贴画。她是位年轻的东亚咖啡馆生活方式网红，画面包含五张抓拍肖像，采用柔和暖光，展现自然的皮肤纹理，留着棕色长发和空气刘海，身穿舒适的米色开衫/连帽衫，佩戴精致项链，穿着女性化的休闲背心。氛围可爱、俏皮、略带梦幻且亲密，如同个人的 Instagram 照片集。 画布：垂直 4:5 拼贴画，尺寸约为 1000 x 1250 像素，面板间有细白分割线。采用写实的智能手机摄影风格，浅景深，温馨的室内咖啡馆和卧室灯光，细腻的胶片颗粒感，以及柔和的调色。 布局：使用 5 个照片面板。顶行有 2 个等宽的大面板。底行有 3 个等宽的小垂直面板。在多个面板的左下角添加一个小水印：一个蓝点，后跟手写白色文字“LINHNHI”。 面板数量及内容： 1. 左上角面板：卧室自拍视角。女子身穿米色针织开衫，内搭浅色碎花吊带，坐在床边和墙面照片旁，眼神看向一侧，表情羞涩，手指轻触嘴唇。背景包括台灯、鲜花、床上用品、墙面小画，以及一张写有“Good Things Take Time”并带有爱心的便签。 2. 右上角面板：窗边的咖啡馆餐桌肖像。她身穿带有微小“alo”标志的白色罗纹背心，浅灰色拉链连帽衫滑落至一侧肩头。她眨眼，轻微吐舌，对着镜头比出大大的剪刀手。面前是一杯印有“Good Coffee Better Days”字样和爱心的冰咖啡。背景窗户上的文字写着“Coffee Brunch Lifestyle”并带有爱心。 3. 左下角面板：餐桌旁的咖啡馆肖像。她身穿灰色开衫，单手托腮，眼神看向一侧，表情无聊或沉思。前景可见笔记本电脑边缘，背景经过柔焦处理。 4. 中下角面板：餐厅/咖啡馆晚餐场景。她身穿米色开衫，双手捂住嘴巴和脸颊，眼神看向一侧，表情害羞。底部边缘可见一碗食物、筷子和饮料；身后是温暖的焦外成像灯光。 5. 右下角面板：车内或靠窗座位肖像。她身穿米色连帽衫，内搭粉色吊带，闭眼或低头，一只手放在额头上，仿佛疲惫或沉思。窗外透进柔和日光，背景为黑色座椅和模糊的城市景观。 视觉风格：超写实的亚洲网红摄影，经过柔和的美颜处理但真实可信，自然的面部表情，温暖的米色和奶油色调，舒适的咖啡馆美学，光泽感秀发，淡淡的腮红，无强硬阴影，无夸张的影棚灯光。 约束条件：确保 5 个面板中的女性形象保持一致。严格使用列出的 5 种姿势，采用 2 上 3 下的拼贴结构，细白边框，以及重复出现的小蓝点“LINHNHI”水印。避免出现多余面板、多余人物、手部畸形、主要文字无法辨认或卡通/动漫风格。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-0d498d4702/case.json)
 
 **可复用模板**
 
@@ -1676,6 +1792,8 @@ Redraw the main subjects as a simple dark wax-crayon sketch with loose, imperfec
 
 Create a quiet, nostalgic Morandi-style aesthetic with generous negative space. Do not add extra elements or copy the reference composition exactly.
 ```
+
+[查看结构化案例 JSON](../entries/image/image-2a8d580cf7/case.json)
 
 **可复用模板**
 
@@ -1713,6 +1831,8 @@ Create a quiet, nostalgic Morandi-style aesthetic with generous negative space. 
 
 画面中不包含人物，不使用现代数字 UI，不使用霓虹、渐变、3D 塑料质感或照片拼贴，无边框，无水印，无品牌标志。确保地图、河流与地标之间层级清楚，武汉长江大桥必须跨越长江，地标不能漂浮在地图轮廓之外。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-f466b7610c/case.json)
 
 **可复用模板**
 
@@ -1785,6 +1905,8 @@ Create a quiet, nostalgic Morandi-style aesthetic with generous negative space. 
 要求：中文文字清晰准确，不出现乱码，不增加未指定的店名、品牌、英文和无意义文字。保持水彩墨线手绘、复古旅行地图、轻松亲切、信息丰富但不拥挤的视觉效果。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-bf146d83bb/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-wuhan-breakfast-food-map-infographic)
@@ -1804,6 +1926,8 @@ Create a quiet, nostalgic Morandi-style aesthetic with generous negative space. 
 ```text
 [活动信息] - 活动名称：Margin and Structure - 日期与时间：2026 年 10 月 12 日 – 11 月 24 日 - 地点：国家现代艺术博物馆 [质量、方向与构图] - 风格：当代艺术展览或现代设计活动海报，采用干净、极简的编辑排版。 - 视觉元素：构图精美的摄影作品，包含几何抽象艺术品或混凝土与玻璃建筑空间，营造出宁静与智慧的氛围。 - 排版位置（适用于 GPT-image / Nano Banana Pro）：活动名称“Margin and Structure”、日期“2026 年 10 月 12 日 – 11 月 24 日”以及地点信息“国家现代艺术博物馆”需使用精致的现代无衬线字体，优美地排布在留白处。文字应与图像和谐共存，且不破坏整体美感。 - 光影与色彩：以干净的白色为主基调，采用冷色调自然光及柔和的光影渐变，配色以中性色为主，辅以点缀色（如海军蓝或深灰色）。 [严格的布局与输出限制（必填）] - 输出成品设计本身，并填满整个画布。设计内部的场景描述（墙壁、空间、阴影等）可遵循主要说明。 - 禁止事项：禁止输出相框中的海报照片、贴在墙上的海报照片、放置在桌面或纸张上的样机照片、纸张边缘的透视变形或投影。 - 输出成品平面 2D 设计本身，并填满整个画布。允许包含上述描述的设计内部场景元素（墙壁、房间、阴影）。绝对禁止任何海报样机效果：禁止画框、禁止墙上海报或桌上海报的拍摄视角、禁止艺术品边缘的透视变形或投影。 - 宽高比：--ar 3:4
 ```
+
+[查看结构化案例 JSON](../entries/image/image-de94c8b709/case.json)
 
 **可复用模板**
 
@@ -1830,6 +1954,8 @@ Create a quiet, nostalgic Morandi-style aesthetic with generous negative space. 
 
 配色以牛皮纸棕、天空蓝、自然主体色、炭黑和柔和灰为主。整体要像成熟创意广告：概念一眼可懂、留白充足、文字可读、摄影质感真实，不出现真实品牌或水印。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-6160fd8cca/case.json)
 
 **可复用模板**
 
@@ -1985,6 +2111,8 @@ Avoid
 Obvious dividing lines, circular seals, postage-stamp borders, perforations, wax seals, sticker layouts, souvenir-card designs, generic travel templates, smooth vector logos, polished digital illustrations, cartoon styling, 3D rendering, plastic textures, glossy gradients, excessive saturation, HDR effects, excessive text, decorative clutter, overly clean geometry, perfectly aligned ink layers, dense miniature architecture, or any alteration/redrawing of the original photograph.
 ```
 
+[查看结构化案例 JSON](../entries/image/image-8e8bcb2b18/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-rubber-stamp-travel-field-notes)
@@ -2047,6 +2175,8 @@ output_goal:
 A single, cohesive felt diorama world that instantly conveys the identity and atmosphere of the chosen country through integrated landscape, culture, and daily life
 ```
 
+[查看结构化案例 JSON](../entries/image/image-c7200c726a/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-felt-country-miniature-world)
@@ -2066,6 +2196,8 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 ```text
 请以附带的照片作为该房间的精确参考，创建一个分为 2x2 网格的单张图像，包含四个相等的面板。每个面板均为从不同墙面拍摄的同一房间的写实广角视图，要求家具、颜色、米色地毯、灰白色墙面、平淡的阴天窗外光线以及 35mm 胶片质感保持完全一致，且所有面板中均不得出现人物。 面板 1（左上）—— 参考视图：站在门口看向窗户所在的墙面；木制梳妆台上放着电视，左侧是黑色迷你冰箱，右侧墙边是铺得凌乱的深蓝色被子，近右角处放着洗衣篮和椅子。 面板 2（右上）—— 看向右侧墙面：从侧面看床，床头靠墙，木制床头柜上放着蓝色台灯、咖啡杯和一叠信件，上方挂着带框的老鹰海报，窗户现在位于画面左边缘。 面板 3（左下）—— 看向左侧墙面：木制梳妆台上放着旧式大头电视、麦片碗和游戏手柄，旁边是黑色迷你冰箱，窗户现在位于画面右边缘，床尾可见于最右侧。 面板 4（右下）—— 回看房门所在的墙面，即参考视图的反向角度：打开的卧室门带有黄铜门把手，洗衣篮和放着法兰绒衬衫的椅子现在位于左侧，梳妆台和电视现在位于右侧，床尾位于近处前景。 每个物体都需保持其在房间内的真实位置，以确保所有四个视图共同描述一个空间一致的场景。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-89e8a705fc/case.json)
 
 **可复用模板**
 
@@ -2128,6 +2260,8 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 }
 ```
 
+[查看结构化案例 JSON](../entries/image/image-054cd4752d/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-weekly-outfit-infographic)
@@ -2147,6 +2281,8 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 ```text
 [产品/包装] - 产品名称/类型：{productName} - 吸引力/宣传语：{subText} [设计巧思] - 背景视觉元素：{circleColor} [图像质量、呈现与构图规范] - 风格：流行且生动的日本便利店或食品制造商营销主视觉。具有强烈的诱人感与视觉冲击力。 - 主体：将 {productName} 的罐装、瓶装或包装放置在中心。冰块碎片、水滴、水花或新鲜原材料（如茶叶或水果）在周围动态飞溅。 - 背景：高对比度、清晰的纯色或渐变背景，以 {circleColor} 作为主要图形元素。 - 排版（适用于 GPT-image / Nano Banana Pro）：文案 {subText} 使用粗体、充满活力的字体，放置在不遮挡产品的位置。 - 灯光/色彩：明亮生动的摄影棚灯光、晶莹剔透的反射效果以及充满活力的色彩构成。 [布局与输出的严格限制（强制执行）] - 输出成品设计本身，填满整个画布。设计内部的背景和场景描绘（墙壁、空间、阴影）可遵循正文中的说明。 - 禁止事项：带边框的海报照片、贴在墙上的海报照片、放置在桌子或纸张上的样机照片、纸张边缘的透视变形或投影。 - 输出成品平面 2D 设计本身，填满整个画布。允许使用上述描述的设计内部场景元素。绝对禁止海报样机照片：不得包含相框、不得拍摄贴在墙上或桌上的海报，不得出现艺术品边缘的透视变形或投影。 - 长宽比：--ar 16:9
 ```
+
+[查看结构化案例 JSON](../entries/image/image-ee84e012bf/case.json)
 
 **可复用模板**
 
@@ -2174,6 +2310,8 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 保留原图的主要构图、物体位置与透视关系，让真实人物与二维贴纸背景自然融合。仅转换原场景中已有的环境元素，不新增无关物品、人物、标题、标语、商业主张、水印或教程字幕。人物和物品边界清晰，纸张及裁切边自然，不出现多余肢体、融化或模糊。
 ```
 
+[查看结构化案例 JSON](../entries/image/image-81c5c8e11d/case.json)
+
 **可复用模板**
 
 [查看对应模板](../templates/image.md#image-real-person-die-cut-sticker-poster)
@@ -2193,6 +2331,8 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 ```text
 2x2 网格，16:9，选择 4 个街区 并展现其全貌： PAPER_RELIEF(TOPIC) ::= layer_00 = 平面衬纸层 layer_01 = 宽幅剪影层 layer_02 = 主要面部 / 物体平面层 layer_03 = 内部轮廓线层 layer_04 = 符号化物体与图表层 layer_05 = 流动卷轴与丝带层 layer_06 = 立体标题排版层 layer_07 = 微小压印细节层 规则： - 每一层都投射出柔和可见的阴影 - 边缘应呈现出物理切割、堆叠、折叠或卷曲的效果 - 细节密度在焦点区域附近增加 - 背景保持简洁且具有纸张质感 - 所有深度均源自真实的材质分层，而非数字渐变
 ```
+
+[查看结构化案例 JSON](../entries/image/image-24c5febb05/case.json)
 
 **可复用模板**
 
@@ -2225,6 +2365,8 @@ A single, cohesive felt diorama world that instantly conveys the identity and at
 
 整体配色限定为香槟金、暖白、浅米色、深棕和少量金色。保持留白、对称平衡、精致克制、奢华但不过度装饰。产品罐必须是视觉焦点，材质真实，玻璃、金属、大理石和丝绸质感清晰。所有可见文字必须为上述中文，不出现日文、英文、乱码、额外品牌、水印或无意义小字。
 ```
+
+[查看结构化案例 JSON](../entries/image/image-ed6e569904/case.json)
 
 **可复用模板**
 
@@ -2261,6 +2403,8 @@ Style: modern football poster x notebook aesthetic, clean but energetic, slightl
 
 Important: all stats must be realistic and proportional to the player's real career.
 ```
+
+[查看结构化案例 JSON](../entries/image/image-3ed96383d6/case.json)
 
 **可复用模板**
 
