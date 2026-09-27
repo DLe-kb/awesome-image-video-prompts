@@ -8,12 +8,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/image_cases-72-f15b72?style=for-the-badge&amp;labelColor=555555" alt="72 image cases">
-  <img src="https://img.shields.io/badge/video_entries-48-36b7d6?style=for-the-badge&amp;labelColor=555555" alt="48 video entries">
-  <img src="https://img.shields.io/badge/original_templates-20-222222?style=for-the-badge&amp;labelColor=555555" alt="20 original templates">
+  <img src="https://img.shields.io/badge/video_cases-46-36b7d6?style=for-the-badge&amp;labelColor=555555" alt="46 video cases">
+  <img src="https://img.shields.io/badge/individual_JSON-158-222222?style=for-the-badge&amp;labelColor=555555" alt="158 individual JSON files">
   <img src="https://img.shields.io/badge/source_linked_prompts-92-e0ad00?style=for-the-badge&amp;labelColor=555555" alt="92 source-linked prompts">
 </p>
 
-<p align="center"><strong>See the result, copy the full prompt, then use a fill-in template when you need a new subject.</strong></p>
+<p align="center"><strong>See the result, copy the full prompt or JSON, then create in the same visual direction.</strong></p>
 
 <p align="center">From product ads and travel posters to educational graphics and camera moves: open a case for its preview or clip, full prompt, and original source.</p>
 
@@ -23,30 +23,30 @@
 
 ## Quick links: start with your task
 
-Start with the work you want to make. **To try an existing prompt:** open a case and copy its full text. **To change the subject:** use the fill-in template or source-linked prompt in the right column. For source cases, check the original creator and post as well.
+Start with the work you want to make. Open a case to see its preview or clip, copy the full prompt, or open its JSON. For source cases, check the original creator and post as well.
 
-| What you want to make | Case or workflow | Editable starting point |
+| What you want to make | Case with preview | Full prompt and JSON |
 | --- | --- | --- |
-| Product advertising visual | [Botanical soda still life](docs/copy-prompts/botanical-soda.md) | [Beverage still-life fill-in template](docs/copy-prompts/beverage-still-life.md) |
-| Travel or city poster | [Imaginary coastal city poster](docs/copy-prompts/coastal-poster.md) | [Travel poster fill-in template](docs/copy-prompts/travel-print-poster.md) |
-| Readable educational plate | [Imaginary botanical plate](docs/copy-prompts/botanical-plate.md) | [Botanical plate fill-in template](docs/copy-prompts/botanical-editorial.md) |
-| Food advertising storyboard | [Pear tart in four shots](docs/copy-prompts/pear-tart-storyboard.md) | [Food storyboard fill-in template](docs/copy-prompts/food-storyboard.md) |
-| Single-product video | [Slow product reveal](docs/copy-prompts/product-reveal.md) | [Single-shot product video fill-in template](docs/copy-prompts/single-shot-product.md) |
-| Camera movement and depth | [Dolly-zoom clip](docs/copy-prompts/video-dolly-zoom-space-warp-source.md) | [Source-linked prompt](docs/copy-prompts/video-dolly-zoom-space-warp.md) |
+| Product advertising visual | [Botanical soda still life](docs/copy-prompts/botanical-soda.md) | [style.json](styles/botanical-soda/style.json) |
+| Travel or city poster | [Imaginary coastal city poster](docs/copy-prompts/coastal-poster.md) | [style.json](styles/coastal-poster/style.json) |
+| Readable educational plate | [Imaginary botanical plate](docs/copy-prompts/botanical-plate.md) | [style.json](styles/botanical-plate/style.json) |
+| Food advertising storyboard | [Pear tart in four shots](docs/copy-prompts/pear-tart-storyboard.md) | [style.json](styles/pear-tart-storyboard/style.json) |
+| Product video | [Luxury jewelry unboxing](docs/copy-prompts/video-luxury-jewelry-unboxing-source.md) | [style.json](styles/video-luxury-jewelry-unboxing-source/style.json) |
+| Camera movement and depth | [Dolly-zoom clip](docs/copy-prompts/video-dolly-zoom-space-warp-source.md) | [style.json](styles/video-dolly-zoom-space-warp-source/style.json) |
 
 The six images in the opening collage also lead to their cases: [travel poster](docs/copy-prompts/coastal-poster.md) | [botanical soda](docs/copy-prompts/botanical-soda.md) | [botanical plate](docs/copy-prompts/botanical-plate.md) | [pear tart storyboard](docs/copy-prompts/pear-tart-storyboard.md) | [food infographic](docs/copy-prompts/image-exploded-food-infographic-source.md) | [photo-to-sketch card](docs/copy-prompts/image-half-photo-half-crayon-memory-card-source.md).
 
 More ways in: [complete catalog](docs/CATALOG.md) | [individual style folders](styles/) | [filter the gallery](https://dingle-kb.github.io/awesome-image-video-prompts/).
 
-Case detail pages and original fill-in templates are primarily in Chinese; the 92 source-linked prompts include both Chinese and English versions.
+Case detail pages are primarily in Chinese; the 92 source-linked prompts include both Chinese and English versions.
 
 ## Why this collection exists
 
-It is easy to save a good-looking image, but harder to find its full prompt, creator, and an editable starting point when you want to make something. This library organizes image and video cases by work and task: see the preview or clip, read the full prompt and source, then use an original fill-in template for your own subject.
+It is easy to save a good-looking image, but harder to find its full prompt, creator, and an editable starting point when you want to make something. This library organizes image and video cases by work and task: see the preview or clip, read the full prompt and source, then adapt the prompt for your own subject.
 
 ## Complete example: prompt to botanical soda visual
 
-This is the **exact prompt** recorded in an [original repository case](docs/copy-prompts/botanical-soda.md), followed by its actual preview. The image is not the result of editing a separate template.
+This is the **exact prompt** recorded in an [original repository case](docs/copy-prompts/botanical-soda.md), followed by its actual preview.
 
 ### 1. Input: the full case prompt
 
@@ -60,9 +60,9 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 
 Case details: `gpt-image-2` | RightCodes | requested `1024x1024` | output `1254x1254`. [Open the full case and generation details](docs/copy-prompts/botanical-soda.md).
 
-### 3. Change the subject with a separate fill-in template
+### 3. Use the complete case file
 
-For your own beverage campaign, open the [beverage still-life fill-in template](docs/copy-prompts/beverage-still-life.md) and replace its product description, flavor elements, primary color, and format fields. This is a different editable starting point; the preview above belongs only to the original case prompt, not to a version with your variables filled in.
+Open the [case style.json](styles/botanical-soda/style.json) for the complete prompt and generation details. The preview above belongs to this exact case; changing the product or composition creates a new variation.
 
 ## Featured source cases
 
@@ -105,24 +105,23 @@ Source cases retain creator credits and links to the original posts. Click an im
 | Type | What you get | Keep in mind |
 | --- | --- | --- |
 | **Source cases** | 68 image and 46 video cases with media, full prompts, creators, and original links | Source previews and clips are not regenerated by this repository |
-| **Original cases and workflows** | 4 image cases and 2 video workflows; image cases include generation details | An original preview is not a result for every related template |
+| **Original cases** | 4 image cases with their prompts, previews, and generation details | Open the case JSON for the prompt corresponding to its preview |
 | **Source-linked prompts** | 67 image and 25 video prompts, each with Chinese and English versions and a case link | Some are edited or translated from source prompts and do not have fill-in variables |
-| **Original fill-in templates** | 10 image and 10 video templates with variables and usage checks | Only some templates have original previews; others do not imply an existing output |
 
-In the opening collage, the first four images are original cases and the last two are credited source cases. The collage does not show results generated after replacing fill-in template variables.
+In the opening collage, the first four images are original cases and the last two are credited source cases.
 
 Use the [case index](docs/CATALOG.md) to browse by title or the [visual gallery](https://dingle-kb.github.io/awesome-image-video-prompts/) to filter by subject and tag.
 
 ## Individual JSON entries
 
-The library covers 120 cases and workflows, 92 source-linked prompts, and 20 fill-in templates. Identical case and linked prompts share one file, while distinct versions have their own linked folders: 180 individual JSON files in [styles/](styles/), with a [title index](docs/CATALOG.md) for browsing. Each detail page links to its JSON. Previews and clips live beside the corresponding style rather than being copied into multiple folders.
+The library covers 118 cases and 92 source-linked prompts. Identical case and linked prompts share one file, while 40 distinct linked versions have their own folders: 158 individual JSON files in [styles/](styles/), with a [title index](docs/CATALOG.md) for browsing. Each case links to its JSON. Previews and clips live beside the corresponding style rather than being copied into multiple folders.
 
 ```text
 styles/<slug>/
   style.json       Complete prompt, source, category, and related versions
-  preview.jpg      Image preview or video poster (when available)
-  thumbnail.jpg    Fixed-size README preview (when available)
-  sample.mp4       Video clip (when available)
+  preview.jpg      Image preview or video poster (required; some use WebP)
+  thumbnail.jpg    Fixed-size README preview (generated for gallery cards)
+  sample.mp4       Playable clip (required for video)
 ```
 
 Some original previews are WebP files. The individual `style.json` files are the editing source; [CONTRIBUTING.md](CONTRIBUTING.md) explains how to generate the catalog, gallery, and copy-ready pages from them.
@@ -135,10 +134,10 @@ Original repository content and site code are under the [MIT License](LICENSE). 
 
 ## All Styles at a Glance
 
-Browse the 140 current case and template directions below. Linked versions open from their case. Entries without preview images follow each visual section. All 180 distinct prompts are also available through the [online gallery](https://dingle-kb.github.io/awesome-image-video-prompts/) and [full catalog](docs/CATALOG.md).
+Browse all 118 cases with previews below. Distinct linked versions open from their case. All 158 individual JSON files are also available through the [online gallery](https://dingle-kb.github.io/awesome-image-video-prompts/) and [full catalog](docs/CATALOG.md).
 
 <!-- BEGIN GENERATED GALLERY -->
-### Image (82)
+### Image (72)
 
 <table width="100%">
 <tr>
@@ -251,20 +250,7 @@ Browse the 140 current case and template directions below. Linked versions open 
 </tr>
 </table>
 
-#### Entries without preview images
-
-- [创作者视频封面](docs/copy-prompts/creator-cover.md) · [style.json](styles/creator-cover/style.json)
-- [电商商品系列图](docs/copy-prompts/ecommerce-grid.md) · [style.json](styles/ecommerce-grid/style.json)
-- [角色设定多视角板](docs/copy-prompts/character-turnaround.md) · [style.json](styles/character-turnaround/style.json)
-- [旅行主题丝网印刷海报](docs/copy-prompts/travel-print-poster.md) · [style.json](styles/travel-print-poster/style.json)
-- [人像灯光方案对照](docs/copy-prompts/portrait-lighting-sheet.md) · [style.json](styles/portrait-lighting-sheet/style.json)
-- [食品广告四格分镜](docs/copy-prompts/food-storyboard.md) · [style.json](styles/food-storyboard/style.json)
-- [室内空间材质板](docs/copy-prompts/interior-material-board.md) · [style.json](styles/interior-material-board/style.json)
-- [饮品商业静物](docs/copy-prompts/beverage-still-life.md) · [style.json](styles/beverage-still-life/style.json)
-- [知识解释信息图](docs/copy-prompts/learning-infographic.md) · [style.json](styles/learning-infographic/style.json)
-- [植物科学图版](docs/copy-prompts/botanical-editorial.md) · [style.json](styles/botanical-editorial/style.json)
-
-### Video (58)
+### Video (46)
 
 <table width="100%">
 <tr>
@@ -338,19 +324,4 @@ Browse the 140 current case and template directions below. Linked versions open 
 <td colspan="2" width="50%" valign="top" align="center"><a href="docs/copy-prompts/video-cdfbcca0a0.md"><img src="styles/video-cdfbcca0a0/thumbnail.jpg" alt="中国水墨无缝转场" width="220" height="138"></a><br><strong>中国水墨无缝转场</strong><br><a href="styles/video-cdfbcca0a0/style.json">style.json</a> · <a href="docs/copy-prompts/video-cdfbcca0a0.md">Copy Prompt</a></td>
 </tr>
 </table>
-
-#### Entries without preview images
-
-- [插画局部微动效](docs/copy-prompts/illustration-micro-loop.md) · [style.json](styles/illustration-micro-loop/style.json)
-- [产品单镜头推进](docs/copy-prompts/single-shot-product.md) · [style.json](styles/single-shot-product/style.json)
-- [产品短片：固定主体与缓慢推近](docs/copy-prompts/product-reveal.md) · [style.json](styles/product-reveal/style.json)
-- [地点氛围三段短片](docs/copy-prompts/travel-mini-film.md) · [style.json](styles/travel-mini-film/style.json)
-- [概念解释动效](docs/copy-prompts/science-motion-explainer.md) · [style.json](styles/science-motion-explainer/style.json)
-- [角色连续动作短片](docs/copy-prompts/character-continuity.md) · [style.json](styles/character-continuity/style.json)
-- [料理过程三镜头](docs/copy-prompts/cooking-sequence.md) · [style.json](styles/cooking-sequence/style.json)
-- [前后状态揭示](docs/copy-prompts/before-after-reveal.md) · [style.json](styles/before-after-reveal/style.json)
-- [上升镜头环境揭示](docs/copy-prompts/camera-reveal.md) · [style.json](styles/camera-reveal/style.json)
-- [竖屏体验型 UGC](docs/copy-prompts/creator-ugc-script.md) · [style.json](styles/creator-ugc-script/style.json)
-- [物体形状匹配转场](docs/copy-prompts/object-match-cut.md) · [style.json](styles/object-match-cut/style.json)
-- [纸雕转场：从静态插画到微动效](docs/copy-prompts/paper-cut-loop.md) · [style.json](styles/paper-cut-loop/style.json)
 <!-- END GENERATED GALLERY -->

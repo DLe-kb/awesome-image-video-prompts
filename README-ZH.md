@@ -8,12 +8,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/%E7%94%9F%E5%9B%BE%E6%A1%88%E4%BE%8B-72-f15b72?style=for-the-badge&amp;labelColor=555555" alt="生图案例 72">
-  <img src="https://img.shields.io/badge/%E7%94%9F%E8%A7%86%E9%A2%91%E6%9D%A1%E7%9B%AE-48-36b7d6?style=for-the-badge&amp;labelColor=555555" alt="生视频条目 48">
-  <img src="https://img.shields.io/badge/%E5%8E%9F%E5%88%9B%E6%A8%A1%E6%9D%BF-20-222222?style=for-the-badge&amp;labelColor=555555" alt="原创填空模板 20">
+  <img src="https://img.shields.io/badge/%E7%94%9F%E8%A7%86%E9%A2%91%E6%A1%88%E4%BE%8B-46-36b7d6?style=for-the-badge&amp;labelColor=555555" alt="生视频案例 46">
+  <img src="https://img.shields.io/badge/%E7%8B%AC%E7%AB%8B_JSON-158-222222?style=for-the-badge&amp;labelColor=555555" alt="独立 JSON 158">
   <img src="https://img.shields.io/badge/%E9%85%8D%E5%A5%97_Prompt-92-e0ad00?style=for-the-badge&amp;labelColor=555555" alt="来源配套 Prompt 92">
 </p>
 
-<p align="center"><strong>先看效果，再复制完整 Prompt；换题材时，用填空模板改写。</strong></p>
+<p align="center"><strong>先看效果，再复制完整 Prompt 或 JSON，沿同一视觉方向创作。</strong></p>
 
 <p align="center">从产品广告、旅行海报到科普图版和镜头运动，点开案例即可查看预览或样片、完整提示词与原始出处。</p>
 
@@ -23,30 +23,30 @@
 
 ## 快速入口：按任务找案例
 
-不知道搜什么词，就从你要交付的作品开始。**想直接试：**打开案例复制完整 Prompt；**想换题材：**用右列的填空模板或来源配套 Prompt 改写。来源案例请同时查看原作者和出处。
+不知道搜什么词，就从你要交付的作品开始。打开案例先看预览或样片，再复制完整 Prompt，也可以直接打开 JSON。来源案例请同时查看原作者和出处。
 
-| 想做什么 | 先看案例或工作流 | 再拿可改写的 Prompt |
+| 想做什么 | 先看带预览的案例 | 完整 Prompt 与 JSON |
 | --- | --- | --- |
-| 产品广告主视觉 | [植物汽水商业静物](docs/copy-prompts/botanical-soda.md) | [饮品商业静物填空模板](docs/copy-prompts/beverage-still-life.md) |
-| 旅行与城市海报 | [虚构海岸城市旅行海报](docs/copy-prompts/coastal-poster.md) | [旅行主题海报填空模板](docs/copy-prompts/travel-print-poster.md) |
-| 可阅读的科普图版 | [虚构植物科学图版](docs/copy-prompts/botanical-plate.md) | [植物科学图版填空模板](docs/copy-prompts/botanical-editorial.md) |
-| 食品广告分镜 | [梨挞广告四镜头分镜](docs/copy-prompts/pear-tart-storyboard.md) | [食品广告四格分镜填空模板](docs/copy-prompts/food-storyboard.md) |
-| 单件产品短片 | [固定主体与缓慢推近](docs/copy-prompts/product-reveal.md) | [产品单镜头推进填空模板](docs/copy-prompts/single-shot-product.md) |
-| 镜头运动与空间感 | [推拉变焦空间扭曲样片](docs/copy-prompts/video-dolly-zoom-space-warp-source.md) | [对应来源配套 Prompt](docs/copy-prompts/video-dolly-zoom-space-warp.md) |
+| 产品广告主视觉 | [植物汽水商业静物](docs/copy-prompts/botanical-soda.md) | [style.json](styles/botanical-soda/style.json) |
+| 旅行与城市海报 | [虚构海岸城市旅行海报](docs/copy-prompts/coastal-poster.md) | [style.json](styles/coastal-poster/style.json) |
+| 可阅读的科普图版 | [虚构植物科学图版](docs/copy-prompts/botanical-plate.md) | [style.json](styles/botanical-plate/style.json) |
+| 食品广告分镜 | [梨挞广告四镜头分镜](docs/copy-prompts/pear-tart-storyboard.md) | [style.json](styles/pear-tart-storyboard/style.json) |
+| 产品短片 | [奢华珠宝开箱广告](docs/copy-prompts/video-luxury-jewelry-unboxing-source.md) | [style.json](styles/video-luxury-jewelry-unboxing-source/style.json) |
+| 镜头运动与空间感 | [推拉变焦空间扭曲样片](docs/copy-prompts/video-dolly-zoom-space-warp-source.md) | [style.json](styles/video-dolly-zoom-space-warp-source/style.json) |
 
 首屏拼贴中的六张图也可逐个查看： [旅行海报](docs/copy-prompts/coastal-poster.md) · [植物汽水](docs/copy-prompts/botanical-soda.md) · [植物图版](docs/copy-prompts/botanical-plate.md) · [梨挞分镜](docs/copy-prompts/pear-tart-storyboard.md) · [食物拆解](docs/copy-prompts/image-exploded-food-infographic-source.md) · [照片速写](docs/copy-prompts/image-half-photo-half-crayon-memory-card-source.md)。
 
 更多入口：[完整目录](docs/CATALOG.md) · [独立风格目录](styles/) · [画廊筛选](https://dingle-kb.github.io/awesome-image-video-prompts/)
 
-案例详情与原创填空模板目前以中文为主；92 套来源配套 Prompt 同时提供中英文版本。
+案例详情目前以中文为主；92 套来源配套 Prompt 同时提供中英文版本。
 
 ## 为什么做这个库
 
-收藏一张好看的图很容易，真正要创作时却常找不到完整 Prompt、原作者和可改写的起点。这里按作品和任务整理生图、生视频案例：先看预览或样片，再读完整提示词与来源；想换成自己的题材时，可以从原创填空模板开始。
+收藏一张好看的图很容易，真正要创作时却常找不到完整 Prompt、原作者和可改写的起点。这里按作品和任务整理生图、生视频案例：先看预览或样片，再读完整提示词与来源，按需要改写自己的题材。
 
 ## 完整示例：从 Prompt 到植物汽水主视觉
 
-下面展示的是[仓库原创案例](docs/copy-prompts/botanical-soda.md)中记录的完整 Prompt 和实际预览，不是改写模板的生成结果。
+下面展示的是[仓库原创案例](docs/copy-prompts/botanical-soda.md)中记录的完整 Prompt 和实际预览。
 
 ### 1. 输入：案例使用的完整 Prompt
 
@@ -60,9 +60,9 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 
 案例记录：`gpt-image-2` · RightCodes · 请求 `1024×1024` · 实际输出 `1254×1254`。[查看完整案例与生成信息](docs/copy-prompts/botanical-soda.md)。
 
-### 3. 换题材：使用独立的填空模板
+### 3. 使用完整案例文件
 
-想制作自己的饮品主视觉，可打开[饮品商业静物填空模板](docs/copy-prompts/beverage-still-life.md)，填写 `[产品描述]`、`[风味元素]`、`[主色]` 和 `[画幅]`。这是另一个可改写的起点；上面的图片只对应案例 Prompt，不代表填入新变量后的出图。
+打开[案例 style.json](styles/botanical-soda/style.json)，可获取完整 Prompt 和生成信息。上方预览对应这份案例 Prompt；更换产品或构图后会产生新的变体。
 
 ## 先看这些来源案例
 
@@ -105,24 +105,23 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 | 类型 | 能看到什么 | 使用时注意 |
 | --- | --- | --- |
 | **来源案例** | 68 个生图、46 个生视频；媒体、完整 Prompt、原作者与原帖链接 | 来源画面或样片不是本仓库重新生成的效果 |
-| **原创案例与工作流** | 4 个生图案例、2 个生视频工作流；生图案例附生成信息 | 原创案例预览不代表所有关联模板的生成结果 |
+| **原创案例** | 4 个生图案例；均附完整 Prompt、预览及生成信息 | 打开对应 JSON 使用与预览匹配的 Prompt |
 | **来源配套 Prompt** | 67 套生图、25 套生视频；中英文版本及对应案例回链 | 有些是原提示词的整理或翻译，不一定有填空变量 |
-| **原创填空模板** | 生图、生视频各 10 套；列出变量与使用检查 | 只有部分模板附有原创预览；其他模板不暗示已有出图 |
 
-首屏拼贴中，前四张为原创案例，后两张为标注原作者的来源案例；拼贴不是替换填空模板变量后的生成结果。
+首屏拼贴中，前四张为原创案例，后两张为标注原作者的来源案例。
 
 按标题找内容可用[案例导航](docs/CATALOG.md)；按题材和标签筛选可用[在线画廊](https://dingle-kb.github.io/awesome-image-video-prompts/)。
 
 ## 独立 JSON 条目
 
-本库覆盖 120 个案例与工作流、92 套来源配套 Prompt、20 套填空模板。同文的案例与配套 Prompt 共用一份文件，内容不同的版本互相关联，共有 180 份独立 JSON，存放在 [styles/](styles/)；也可以通过[中文标题导航](docs/CATALOG.md)逐条浏览。每个详情页都能直达对应 JSON。预览和样片放在对应风格目录中，不在不同目录间重复复制。
+本库覆盖 118 个案例和 92 套来源配套 Prompt。同文的案例与配套 Prompt 共用一份文件，另外 40 份不同正文的配套版本互相关联，共有 158 份独立 JSON，存放在 [styles/](styles/)；也可以通过[中文标题导航](docs/CATALOG.md)逐条浏览。每个案例都能直达对应 JSON。预览和样片放在对应风格目录中，不在不同目录间重复复制。
 
 ```text
 styles/<名称>/
   style.json       完整 Prompt、来源、分类及关联版本
-  preview.jpg      图像预览或视频封面（有媒体时）
-  thumbnail.jpg    README 等尺寸缩略图（有预览时）
-  sample.mp4       视频样片（有样片时）
+  preview.jpg      图像预览或视频封面（必需；部分使用 WebP）
+  thumbnail.jpg    README 等尺寸缩略图（画廊生成）
+  sample.mp4       可播放视频样片（生视频必需）
 ```
 
 部分原图预览使用 WebP 格式。编辑时以单条 `style.json` 为准；由它生成详细目录、画廊和可复制页面，方法见[贡献指南](CONTRIBUTING.md)。
@@ -135,10 +134,10 @@ styles/<名称>/
 
 ## 全部风格画面浏览
 
-下方按画面浏览当前 140 个案例与模板方向；配套版本在对应条目中打开。部分模板没有预览图，列在各类画面之后。全部 180 份独立 Prompt 也可通过[在线画廊](https://dingle-kb.github.io/awesome-image-video-prompts/)与[完整目录](docs/CATALOG.md)查找。
+下方按画面浏览全部 118 个案例；不同正文的配套版本从对应案例进入。全部 158 份独立 JSON 也可通过[在线画廊](https://dingle-kb.github.io/awesome-image-video-prompts/)与[完整目录](docs/CATALOG.md)查找。
 
 <!-- BEGIN GENERATED GALLERY -->
-### 生图 (82)
+### 生图 (72)
 
 <table width="100%">
 <tr>
@@ -251,20 +250,7 @@ styles/<名称>/
 </tr>
 </table>
 
-#### 暂无预览图的条目
-
-- [创作者视频封面](docs/copy-prompts/creator-cover.md) · [style.json](styles/creator-cover/style.json)
-- [电商商品系列图](docs/copy-prompts/ecommerce-grid.md) · [style.json](styles/ecommerce-grid/style.json)
-- [角色设定多视角板](docs/copy-prompts/character-turnaround.md) · [style.json](styles/character-turnaround/style.json)
-- [旅行主题丝网印刷海报](docs/copy-prompts/travel-print-poster.md) · [style.json](styles/travel-print-poster/style.json)
-- [人像灯光方案对照](docs/copy-prompts/portrait-lighting-sheet.md) · [style.json](styles/portrait-lighting-sheet/style.json)
-- [食品广告四格分镜](docs/copy-prompts/food-storyboard.md) · [style.json](styles/food-storyboard/style.json)
-- [室内空间材质板](docs/copy-prompts/interior-material-board.md) · [style.json](styles/interior-material-board/style.json)
-- [饮品商业静物](docs/copy-prompts/beverage-still-life.md) · [style.json](styles/beverage-still-life/style.json)
-- [知识解释信息图](docs/copy-prompts/learning-infographic.md) · [style.json](styles/learning-infographic/style.json)
-- [植物科学图版](docs/copy-prompts/botanical-editorial.md) · [style.json](styles/botanical-editorial/style.json)
-
-### 生视频 (58)
+### 生视频 (46)
 
 <table width="100%">
 <tr>
@@ -338,19 +324,4 @@ styles/<名称>/
 <td colspan="2" width="50%" valign="top" align="center"><a href="docs/copy-prompts/video-cdfbcca0a0.md"><img src="styles/video-cdfbcca0a0/thumbnail.jpg" alt="中国水墨无缝转场" width="220" height="138"></a><br><strong>中国水墨无缝转场</strong><br><a href="styles/video-cdfbcca0a0/style.json">style.json</a> · <a href="docs/copy-prompts/video-cdfbcca0a0.md">复制 Prompt</a></td>
 </tr>
 </table>
-
-#### 暂无预览图的条目
-
-- [插画局部微动效](docs/copy-prompts/illustration-micro-loop.md) · [style.json](styles/illustration-micro-loop/style.json)
-- [产品单镜头推进](docs/copy-prompts/single-shot-product.md) · [style.json](styles/single-shot-product/style.json)
-- [产品短片：固定主体与缓慢推近](docs/copy-prompts/product-reveal.md) · [style.json](styles/product-reveal/style.json)
-- [地点氛围三段短片](docs/copy-prompts/travel-mini-film.md) · [style.json](styles/travel-mini-film/style.json)
-- [概念解释动效](docs/copy-prompts/science-motion-explainer.md) · [style.json](styles/science-motion-explainer/style.json)
-- [角色连续动作短片](docs/copy-prompts/character-continuity.md) · [style.json](styles/character-continuity/style.json)
-- [料理过程三镜头](docs/copy-prompts/cooking-sequence.md) · [style.json](styles/cooking-sequence/style.json)
-- [前后状态揭示](docs/copy-prompts/before-after-reveal.md) · [style.json](styles/before-after-reveal/style.json)
-- [上升镜头环境揭示](docs/copy-prompts/camera-reveal.md) · [style.json](styles/camera-reveal/style.json)
-- [竖屏体验型 UGC](docs/copy-prompts/creator-ugc-script.md) · [style.json](styles/creator-ugc-script/style.json)
-- [物体形状匹配转场](docs/copy-prompts/object-match-cut.md) · [style.json](styles/object-match-cut/style.json)
-- [纸雕转场：从静态插画到微动效](docs/copy-prompts/paper-cut-loop.md) · [style.json](styles/paper-cut-loop/style.json)
 <!-- END GENERATED GALLERY -->

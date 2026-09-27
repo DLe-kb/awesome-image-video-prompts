@@ -2,7 +2,7 @@
 
 [返回首页](../README-ZH.md) · [在线画廊](../site/)
 
-## 生图（82）
+## 生图（72）
 
 ### 杯内鱼眼夏日冰饮广告
 
@@ -44,12 +44,6 @@
 
 [复制 Prompt](copy-prompts/image-city-corner-3d-billboard-photography.md) · [style.json](../styles/image-city-corner-3d-billboard-photography/style.json)
 
-### 创作者视频封面
-
-优先保证主题识别与手机端标题可读性。 · 原创模板
-
-[复制 Prompt](copy-prompts/creator-cover.md) · [style.json](../styles/creator-cover/style.json)
-
 ### 等轴测微缩厨房
 
 [![等轴测微缩厨房](../styles/image-isometric-miniature-kitchen/preview.jpg)](copy-prompts/image-isometric-miniature-kitchen.md)
@@ -57,12 +51,6 @@
 生成等轴测视角的完整微缩厨房空间。 · 来源案例
 
 [复制 Prompt](copy-prompts/image-isometric-miniature-kitchen.md) · [style.json](../styles/image-isometric-miniature-kitchen/style.json)
-
-### 电商商品系列图
-
-让同一商品的多角度图像保持材质和色彩一致。 · 原创模板
-
-[复制 Prompt](copy-prompts/ecommerce-grid.md) · [style.json](../styles/ecommerce-grid/style.json)
 
 ### 电影级动作角色扮演游戏截图
 
@@ -208,12 +196,6 @@
 
 [复制 Prompt](copy-prompts/image-berry-smoothie-commercial-photo.md) · [style.json](../styles/image-berry-smoothie-commercial-photo/style.json)
 
-### 角色设定多视角板
-
-把形象、服装和道具固定在正面、侧面与背面。 · 原创模板
-
-[复制 Prompt](copy-prompts/character-turnaround.md) · [style.json](../styles/character-turnaround/style.json)
-
 ### 街头卷轴背景时尚大片
 
 [![街头卷轴背景时尚大片](../styles/image-street-scroll-backdrop-fashion-editorial/preview.jpg)](copy-prompts/image-street-scroll-backdrop-fashion-editorial.md)
@@ -294,12 +276,6 @@
 
 [复制 Prompt](copy-prompts/image-travel-souvenir-enamel-pin-source.md) · [style.json](../styles/image-travel-souvenir-enamel-pin-source/style.json) · [配套版本](copy-prompts/image-travel-souvenir-enamel-pin.md)
 
-### 旅行主题丝网印刷海报
-
-用地标、路线和有限色版构建目的地识别度。 · 原创模板
-
-[复制 Prompt](copy-prompts/travel-print-poster.md) · [style.json](../styles/travel-print-poster/style.json)
-
 ### 烹饪速写插画叙事
 
 [![烹饪速写插画叙事](../styles/image-cooking-sketch-illustration-story/preview.jpg)](copy-prompts/image-cooking-sketch-illustration-story.md)
@@ -339,12 +315,6 @@
 生成横版电商首页主视觉，用悬浮陶瓷产品、超大字标和克制网页信息结构展示一组具有统一角色语言的商品。 · 来源案例
 
 [复制 Prompt](copy-prompts/image-playful-ceramic-ecommerce-hero.md) · [style.json](../styles/image-playful-ceramic-ecommerce-hero/style.json)
-
-### 人像灯光方案对照
-
-同一人物与机位下比较四种布光，不混淆人物特征。 · 原创模板
-
-[复制 Prompt](copy-prompts/portrait-lighting-sheet.md) · [style.json](../styles/portrait-lighting-sheet/style.json)
 
 ### 人像摄影灯光方案网格
 
@@ -394,12 +364,6 @@
 
 [复制 Prompt](copy-prompts/image-fifteen-step-photorealistic-recipe.md) · [style.json](../styles/image-fifteen-step-photorealistic-recipe/style.json)
 
-### 食品广告四格分镜
-
-从原料到成品，把一支短广告压缩到一页。 · 原创模板
-
-[复制 Prompt](copy-prompts/food-storyboard.md) · [style.json](../styles/food-storyboard/style.json)
-
 ### 食物爆炸拆解信息图
 
 [![食物爆炸拆解信息图](../styles/image-exploded-food-infographic-source/preview.jpg)](copy-prompts/image-exploded-food-infographic-source.md)
@@ -407,12 +371,6 @@
 把食物的不同组成部分按垂直顺序悬浮排列，生成写实爆炸拆解信息图。 · 来源案例
 
 [复制 Prompt](copy-prompts/image-exploded-food-infographic-source.md) · [style.json](../styles/image-exploded-food-infographic-source/style.json) · [配套版本](copy-prompts/image-exploded-food-infographic.md)
-
-### 室内空间材质板
-
-空间主视图与材质细节在一页内建立对应关系。 · 原创模板
-
-[复制 Prompt](copy-prompts/interior-material-board.md) · [style.json](../styles/interior-material-board/style.json)
 
 ### 手工撕纸海报风格
 
@@ -582,12 +540,6 @@
 
 [复制 Prompt](copy-prompts/image-beverage-food-marketing-hero.md) · [style.json](../styles/image-beverage-food-marketing-hero/style.json)
 
-### 饮品商业静物
-
-把包装、材质、光线和留白整合成可放文案的主视觉。 · 原创模板
-
-[复制 Prompt](copy-prompts/beverage-still-life.md) · [style.json](../styles/beverage-still-life/style.json)
-
 ### 真人切模贴纸海报
 
 [![真人切模贴纸海报](../styles/image-real-person-die-cut-sticker-poster/preview.jpg)](copy-prompts/image-real-person-die-cut-sticker-poster.md)
@@ -595,18 +547,6 @@
 上传人物照片，保留真人摄影质感，将环境改为带白色裁切边的黑白手绘贴纸。 · 来源案例
 
 [复制 Prompt](copy-prompts/image-real-person-die-cut-sticker-poster.md) · [style.json](../styles/image-real-person-die-cut-sticker-poster/style.json)
-
-### 知识解释信息图
-
-把一条知识链拆成几个可快速扫读的视觉步骤。 · 原创模板
-
-[复制 Prompt](copy-prompts/learning-infographic.md) · [style.json](../styles/learning-infographic/style.json)
-
-### 植物科学图版
-
-标本主图、局部放大与短标签组成一张可阅读的图版。 · 原创模板
-
-[复制 Prompt](copy-prompts/botanical-editorial.md) · [style.json](../styles/botanical-editorial/style.json)
 
 ### 植物汽水商业静物
 
@@ -640,7 +580,7 @@
 
 [复制 Prompt](copy-prompts/image-football-player-stats-doodle-poster-source.md) · [style.json](../styles/image-football-player-stats-doodle-poster-source/style.json) · [配套版本](copy-prompts/image-football-player-stats-doodle-poster.md)
 
-## 生视频（58）
+## 生视频（46）
 
 ### 90年代像素文字游戏
 
@@ -657,24 +597,6 @@
 以行走跟拍和环绕光轨完成街头服装无缝变身。 · 来源案例
 
 [复制 Prompt](copy-prompts/video-50e620e4e4.md) · [style.json](../styles/video-50e620e4e4/style.json) · [播放样片](../styles/video-50e620e4e4/sample.mp4)
-
-### 插画局部微动效
-
-保留画面构图，只让指定层轻微运动。 · 原创模板
-
-[复制 Prompt](copy-prompts/illustration-micro-loop.md) · [style.json](../styles/illustration-micro-loop/style.json)
-
-### 产品单镜头推进
-
-固定产品外观，以一次缓慢推近完成五秒展示。 · 原创模板
-
-[复制 Prompt](copy-prompts/single-shot-product.md) · [style.json](../styles/single-shot-product/style.json)
-
-### 产品短片：固定主体与缓慢推近
-
-适合单件产品的五秒竖屏镜头设计。 · 原创案例
-
-[复制 Prompt](copy-prompts/product-reveal.md) · [style.json](../styles/product-reveal/style.json)
 
 ### 垂直升降揭示
 
@@ -699,12 +621,6 @@
 以教授和学生参与的斜轨小球实验组织课堂教育视频。 · 来源案例
 
 [复制 Prompt](copy-prompts/video-8f1bbd26f7.md) · [style.json](../styles/video-8f1bbd26f7/style.json) · [播放样片](../styles/video-8f1bbd26f7/sample.mp4)
-
-### 地点氛围三段短片
-
-用远景、行动和细节建立一个具体地点的记忆点。 · 原创模板
-
-[复制 Prompt](copy-prompts/travel-mini-film.md) · [style.json](../styles/travel-mini-film/style.json)
 
 ### 第一人称视角：龙骑士电影级画面
 
@@ -745,12 +661,6 @@
 上传完成的插画或海报，以固定镜头生成局部微动效，保持主体、文字与布局稳定。 · 来源案例
 
 [复制 Prompt](copy-prompts/video-retro-illustration-micro-motion.md) · [style.json](../styles/video-retro-illustration-micro-motion/style.json) · [播放样片](../styles/video-retro-illustration-micro-motion/sample.mp4)
-
-### 概念解释动效
-
-从一个可见动作解释一个机制，不塞入过多概念。 · 原创模板
-
-[复制 Prompt](copy-prompts/science-motion-explainer.md) · [style.json](../styles/science-motion-explainer/style.json)
 
 ### 高端香水UGC口播
 
@@ -800,12 +710,6 @@
 
 [复制 Prompt](copy-prompts/video-19ceae29af.md) · [style.json](../styles/video-19ceae29af/style.json) · [播放样片](../styles/video-19ceae29af/sample.mp4)
 
-### 角色连续动作短片
-
-角色、服装和道具在动作前后保持同一状态。 · 原创模板
-
-[复制 Prompt](copy-prompts/character-continuity.md) · [style.json](../styles/character-continuity/style.json)
-
 ### 科幻摩托车动作场面
 
 [![科幻摩托车动作场面](../styles/video-sci-fi-motorcycle-action-source/preview.jpg)](copy-prompts/video-sci-fi-motorcycle-action-source.md)
@@ -821,12 +725,6 @@
 让地图集中的纸艺地形随翻页重组并最终折叠成罗盘。 · 来源案例
 
 [复制 Prompt](copy-prompts/video-31ea8a7f7c.md) · [style.json](../styles/video-31ea8a7f7c/style.json) · [播放样片](../styles/video-31ea8a7f7c/sample.mp4)
-
-### 料理过程三镜头
-
-原料、关键动作、成品之间保持物体状态连续。 · 原创模板
-
-[复制 Prompt](copy-prompts/cooking-sequence.md) · [style.json](../styles/cooking-sequence/style.json)
 
 ### 毛线娃娃早餐定格动画
 
@@ -892,12 +790,6 @@
 
 [复制 Prompt](copy-prompts/video-rack-focus-foreground-background-source.md) · [style.json](../styles/video-rack-focus-foreground-background-source/style.json) · [播放样片](../styles/video-rack-focus-foreground-background-source/sample.mp4) · [配套版本](copy-prompts/video-rack-focus-foreground-background.md)
 
-### 前后状态揭示
-
-在不替换主体的前提下展示一种可观察的状态变化。 · 原创模板
-
-[复制 Prompt](copy-prompts/before-after-reveal.md) · [style.json](../styles/before-after-reveal/style.json)
-
 ### 日本网红出门准备 UGC
 
 [![日本网红出门准备 UGC](../styles/video-japanese-influencer-get-ready-ugc-source/preview.jpg)](copy-prompts/video-japanese-influencer-get-ready-ugc-source.md)
@@ -913,12 +805,6 @@
 生成一名女性在危险山崖道路轮滑的超写实动作序列，重点控制环境尺度、身体平衡和轮滑物理。 · 来源案例
 
 [复制 Prompt](copy-prompts/video-cliffside-roller-skating-source.md) · [style.json](../styles/video-cliffside-roller-skating-source/style.json) · [播放样片](../styles/video-cliffside-roller-skating-source/sample.mp4) · [配套版本](copy-prompts/video-cliffside-roller-skating.md)
-
-### 上升镜头环境揭示
-
-主体位置稳定，镜头升高时逐步交代空间关系。 · 原创模板
-
-[复制 Prompt](copy-prompts/camera-reveal.md) · [style.json](../styles/camera-reveal/style.json)
 
 ### 烧烤美食微距短片
 
@@ -984,12 +870,6 @@
 
 [复制 Prompt](copy-prompts/video-seoul-sunday-dv-home-video-source.md) · [style.json](../styles/video-seoul-sunday-dv-home-video-source/style.json) · [播放样片](../styles/video-seoul-sunday-dv-home-video-source/sample.mp4) · [配套版本](copy-prompts/video-seoul-sunday-dv-home-video.md)
 
-### 竖屏体验型 UGC
-
-口播、操作和结果三个节拍组成自然的产品体验。 · 原创模板
-
-[复制 Prompt](copy-prompts/creator-ugc-script.md) · [style.json](../styles/creator-ugc-script/style.json)
-
 ### 水彩素描跑酷追逐
 
 [![水彩素描跑酷追逐](../styles/video-watercolor-sketch-parkour-chase-source/preview.jpg)](copy-prompts/video-watercolor-sketch-parkour-chase-source.md)
@@ -1038,12 +918,6 @@
 
 [复制 Prompt](copy-prompts/video-drone-orbit-subject-source.md) · [style.json](../styles/video-drone-orbit-subject-source/style.json) · [播放样片](../styles/video-drone-orbit-subject-source/sample.mp4) · [配套版本](copy-prompts/video-drone-orbit-subject.md)
 
-### 物体形状匹配转场
-
-用相同轮廓完成两种场景间的流畅切换。 · 原创模板
-
-[复制 Prompt](copy-prompts/object-match-cut.md) · [style.json](../styles/object-match-cut/style.json)
-
 ### 野花四季微距延时
 
 [![野花四季微距延时](../styles/video-aecc45705d/preview.jpg)](copy-prompts/video-aecc45705d.md)
@@ -1067,12 +941,6 @@
 上传真人贴纸海报，固定镜头与背景，只让真实人物自然活动。 · 来源案例
 
 [复制 Prompt](copy-prompts/video-real-person-sticker-poster-motion.md) · [style.json](../styles/video-real-person-sticker-poster-motion/style.json) · [播放样片](../styles/video-real-person-sticker-poster-motion/sample.mp4)
-
-### 纸雕转场：从静态插画到微动效
-
-保持原插画构图，分层加入细微景深与环境运动。 · 原创案例
-
-[复制 Prompt](copy-prompts/paper-cut-loop.md) · [style.json](../styles/paper-cut-loop/style.json)
 
 ### 中国水墨无缝转场
 

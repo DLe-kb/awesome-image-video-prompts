@@ -83,6 +83,9 @@ for (const [position, style] of styles.entries()) {
   if (JSON.stringify(files) !== JSON.stringify(expected)) throw new Error(`Unexpected files: ${slug}`);
   if (style.preview && !/\.jpg$|\.webp$/.test(style.preview)) throw new Error(`Invalid preview: ${slug}`);
   if (style.sample && extname(style.sample) !== '.mp4') throw new Error(`Invalid sample: ${slug}`);
+  if (!style.preview || (style.kind === 'video' && !style.sample)) {
+    throw new Error(`Preview and video sample required: ${slug}`);
+  }
   assetPath(style, 'preview');
   assetPath(style, 'sample');
   if (style.relatedStyle && !bySlug.has(style.relatedStyle)) throw new Error(`Broken style relation: ${slug}`);
@@ -164,11 +167,9 @@ function gallery(lang) {
   const lines = [];
   for (const [kind, title] of [['image', zh ? '生图' : 'Image'], ['video', zh ? '生视频' : 'Video']]) {
     const group = visible.filter(style => style.kind === kind);
-    const pictured = group.filter(style => style.preview);
-    const withoutPreview = group.filter(style => !style.preview);
     lines.push(`### ${title} (${group.length})`, '', '<table width="100%">');
-    for (let i = 0; i < pictured.length; i += 4) {
-      const row = pictured.slice(i, i + 4);
+    for (let i = 0; i < group.length; i += 4) {
+      const row = group.slice(i, i + 4);
       lines.push('<tr>');
       for (const style of row) {
         const slug = style.style_slug;
@@ -178,13 +179,6 @@ function gallery(lang) {
       lines.push('</tr>');
     }
     lines.push('</table>', '');
-    if (withoutPreview.length) {
-      lines.push(`#### ${zh ? '暂无预览图的条目' : 'Entries without preview images'}`, '');
-      for (const style of withoutPreview) {
-        lines.push(`- [${style.title}](docs/copy-prompts/${style.style_slug}.md) · [style.json](styles/${style.style_slug}/style.json)`);
-      }
-      lines.push('');
-    }
   }
   return lines.join('\n').trimEnd();
 }

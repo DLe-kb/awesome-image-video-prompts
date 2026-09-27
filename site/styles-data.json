@@ -141,26 +141,6 @@
       "copy": "../docs/copy-prompts/image-city-corner-3d-billboard-photography.md"
     },
     {
-      "slug": "creator-cover",
-      "kind": "image",
-      "type": "template",
-      "title": "创作者视频封面",
-      "category": "海报与编辑",
-      "summary": "优先保证主题识别与手机端标题可读性。",
-      "tags": [],
-      "inputs": [
-        "视频主题",
-        "主物或人物",
-        "标题",
-        "平台比例"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/creator-cover/style.json",
-      "copy": "../docs/copy-prompts/creator-cover.md"
-    },
-    {
       "slug": "image-isometric-miniature-kitchen",
       "kind": "image",
       "type": "source",
@@ -181,26 +161,6 @@
       },
       "json": "../styles/image-isometric-miniature-kitchen/style.json",
       "copy": "../docs/copy-prompts/image-isometric-miniature-kitchen.md"
-    },
-    {
-      "slug": "ecommerce-grid",
-      "kind": "image",
-      "type": "template",
-      "title": "电商商品系列图",
-      "category": "产品与广告",
-      "summary": "让同一商品的多角度图像保持材质和色彩一致。",
-      "tags": [],
-      "inputs": [
-        "商品参考图",
-        "材质与颜色",
-        "展示角度",
-        "背景色"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/ecommerce-grid/style.json",
-      "copy": "../docs/copy-prompts/ecommerce-grid.md"
     },
     {
       "slug": "image-cinematic-action-rpg-screenshot",
@@ -683,26 +643,6 @@
       "copy": "../docs/copy-prompts/image-berry-smoothie-commercial-photo.md"
     },
     {
-      "slug": "character-turnaround",
-      "kind": "image",
-      "type": "template",
-      "title": "角色设定多视角板",
-      "category": "角色与叙事",
-      "summary": "把形象、服装和道具固定在正面、侧面与背面。",
-      "tags": [],
-      "inputs": [
-        "角色设定",
-        "服装与配件",
-        "主色",
-        "风格"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/character-turnaround/style.json",
-      "copy": "../docs/copy-prompts/character-turnaround.md"
-    },
-    {
       "slug": "image-street-scroll-backdrop-fashion-editorial",
       "kind": "image",
       "type": "source",
@@ -1022,26 +962,6 @@
       "copy": "../docs/copy-prompts/image-travel-souvenir-enamel-pin-source.md"
     },
     {
-      "slug": "travel-print-poster",
-      "kind": "image",
-      "type": "template",
-      "title": "旅行主题丝网印刷海报",
-      "category": "海报与编辑",
-      "summary": "用地标、路线和有限色版构建目的地识别度。",
-      "tags": [],
-      "inputs": [
-        "目的地",
-        "两个辨识元素",
-        "标题",
-        "配色"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/travel-print-poster/style.json",
-      "copy": "../docs/copy-prompts/travel-print-poster.md"
-    },
-    {
       "slug": "image-cooking-sketch-illustration-story",
       "kind": "image",
       "type": "source",
@@ -1165,26 +1085,6 @@
       },
       "json": "../styles/image-playful-ceramic-ecommerce-hero/style.json",
       "copy": "../docs/copy-prompts/image-playful-ceramic-ecommerce-hero.md"
-    },
-    {
-      "slug": "portrait-lighting-sheet",
-      "kind": "image",
-      "type": "template",
-      "title": "人像灯光方案对照",
-      "category": "摄影与写实",
-      "summary": "同一人物与机位下比较四种布光，不混淆人物特征。",
-      "tags": [],
-      "inputs": [
-        "人物参考图",
-        "四种灯光",
-        "背景",
-        "服装"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/portrait-lighting-sheet/style.json",
-      "copy": "../docs/copy-prompts/portrait-lighting-sheet.md"
     },
     {
       "slug": "image-portrait-lighting-scheme-grid",
@@ -1354,26 +1254,6 @@
       "copy": "../docs/copy-prompts/image-fifteen-step-photorealistic-recipe.md"
     },
     {
-      "slug": "food-storyboard",
-      "kind": "image",
-      "type": "template",
-      "title": "食品广告四格分镜",
-      "category": "分镜与叙事",
-      "summary": "从原料到成品，把一支短广告压缩到一页。",
-      "tags": [],
-      "inputs": [
-        "食品",
-        "关键制作动作",
-        "成品场景",
-        "光线"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/food-storyboard/style.json",
-      "copy": "../docs/copy-prompts/food-storyboard.md"
-    },
-    {
       "slug": "image-exploded-food-infographic",
       "kind": "image",
       "type": "adaptation",
@@ -1416,26 +1296,6 @@
       },
       "json": "../styles/image-exploded-food-infographic-source/style.json",
       "copy": "../docs/copy-prompts/image-exploded-food-infographic-source.md"
-    },
-    {
-      "slug": "interior-material-board",
-      "kind": "image",
-      "type": "template",
-      "title": "室内空间材质板",
-      "category": "建筑与空间",
-      "summary": "空间主视图与材质细节在一页内建立对应关系。",
-      "tags": [],
-      "inputs": [
-        "空间类型",
-        "三种主材",
-        "使用场景",
-        "光线时段"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/interior-material-board/style.json",
-      "copy": "../docs/copy-prompts/interior-material-board.md"
     },
     {
       "slug": "image-hand-torn-paper-poster",
@@ -2037,26 +1897,6 @@
       "copy": "../docs/copy-prompts/image-beverage-food-marketing-hero.md"
     },
     {
-      "slug": "beverage-still-life",
-      "kind": "image",
-      "type": "template",
-      "title": "饮品商业静物",
-      "category": "产品与广告",
-      "summary": "把包装、材质、光线和留白整合成可放文案的主视觉。",
-      "tags": [],
-      "inputs": [
-        "产品描述",
-        "风味元素",
-        "主色",
-        "画幅"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/beverage-still-life/style.json",
-      "copy": "../docs/copy-prompts/beverage-still-life.md"
-    },
-    {
       "slug": "image-real-person-die-cut-sticker-poster",
       "kind": "image",
       "type": "source",
@@ -2077,46 +1917,6 @@
       },
       "json": "../styles/image-real-person-die-cut-sticker-poster/style.json",
       "copy": "../docs/copy-prompts/image-real-person-die-cut-sticker-poster.md"
-    },
-    {
-      "slug": "learning-infographic",
-      "kind": "image",
-      "type": "template",
-      "title": "知识解释信息图",
-      "category": "科普与出版",
-      "summary": "把一条知识链拆成几个可快速扫读的视觉步骤。",
-      "tags": [],
-      "inputs": [
-        "主题",
-        "目标读者",
-        "四个步骤",
-        "关键术语"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/learning-infographic/style.json",
-      "copy": "../docs/copy-prompts/learning-infographic.md"
-    },
-    {
-      "slug": "botanical-editorial",
-      "kind": "image",
-      "type": "template",
-      "title": "植物科学图版",
-      "category": "科普与出版",
-      "summary": "标本主图、局部放大与短标签组成一张可阅读的图版。",
-      "tags": [],
-      "inputs": [
-        "植物名称",
-        "形态特征",
-        "需要标注的部位",
-        "画幅"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/botanical-editorial/style.json",
-      "copy": "../docs/copy-prompts/botanical-editorial.md"
     },
     {
       "slug": "botanical-soda",
@@ -2270,61 +2070,6 @@
       "copy": "../docs/copy-prompts/video-50e620e4e4.md"
     },
     {
-      "slug": "illustration-micro-loop",
-      "kind": "video",
-      "type": "template",
-      "title": "插画局部微动效",
-      "category": "插画动画",
-      "summary": "保留画面构图，只让指定层轻微运动。",
-      "tags": [],
-      "inputs": [
-        "插画首帧",
-        "允许运动的元素",
-        "循环时长",
-        "禁止改动的元素"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/illustration-micro-loop/style.json",
-      "copy": "../docs/copy-prompts/illustration-micro-loop.md"
-    },
-    {
-      "slug": "single-shot-product",
-      "kind": "video",
-      "type": "template",
-      "title": "产品单镜头推进",
-      "category": "产品广告",
-      "summary": "固定产品外观，以一次缓慢推近完成五秒展示。",
-      "tags": [],
-      "inputs": [
-        "产品首帧",
-        "产品关键细节",
-        "背景与光线",
-        "时长"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/single-shot-product/style.json",
-      "copy": "../docs/copy-prompts/single-shot-product.md"
-    },
-    {
-      "slug": "product-reveal",
-      "kind": "video",
-      "type": "original",
-      "title": "产品短片：固定主体与缓慢推近",
-      "category": "产品广告",
-      "summary": "适合单件产品的五秒竖屏镜头设计。",
-      "tags": [],
-      "inputs": [],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/product-reveal/style.json",
-      "copy": "../docs/copy-prompts/product-reveal.md"
-    },
-    {
       "slug": "video-vertical-crane-reveal",
       "kind": "video",
       "type": "adaptation",
@@ -2439,26 +2184,6 @@
       },
       "json": "../styles/video-8f1bbd26f7/style.json",
       "copy": "../docs/copy-prompts/video-8f1bbd26f7.md"
-    },
-    {
-      "slug": "travel-mini-film",
-      "kind": "video",
-      "type": "template",
-      "title": "地点氛围三段短片",
-      "category": "旅行与城市",
-      "summary": "用远景、行动和细节建立一个具体地点的记忆点。",
-      "tags": [],
-      "inputs": [
-        "地点",
-        "地标",
-        "人物行动",
-        "环境声音"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/travel-mini-film/style.json",
-      "copy": "../docs/copy-prompts/travel-mini-film.md"
     },
     {
       "slug": "video-first-person-dragon-rider",
@@ -2647,26 +2372,6 @@
       },
       "json": "../styles/video-retro-illustration-micro-motion/style.json",
       "copy": "../docs/copy-prompts/video-retro-illustration-micro-motion.md"
-    },
-    {
-      "slug": "science-motion-explainer",
-      "kind": "video",
-      "type": "template",
-      "title": "概念解释动效",
-      "category": "知识解释",
-      "summary": "从一个可见动作解释一个机制，不塞入过多概念。",
-      "tags": [],
-      "inputs": [
-        "概念",
-        "三个对象",
-        "因果顺序",
-        "背景风格"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/science-motion-explainer/style.json",
-      "copy": "../docs/copy-prompts/science-motion-explainer.md"
     },
     {
       "slug": "video-e0fd6d34ba",
@@ -2878,26 +2583,6 @@
       "copy": "../docs/copy-prompts/video-19ceae29af.md"
     },
     {
-      "slug": "character-continuity",
-      "kind": "video",
-      "type": "template",
-      "title": "角色连续动作短片",
-      "category": "角色与叙事",
-      "summary": "角色、服装和道具在动作前后保持同一状态。",
-      "tags": [],
-      "inputs": [
-        "角色参考图",
-        "初始动作",
-        "结束动作",
-        "场景锚点"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/character-continuity/style.json",
-      "copy": "../docs/copy-prompts/character-continuity.md"
-    },
-    {
       "slug": "video-sci-fi-motorcycle-action",
       "kind": "video",
       "type": "adaptation",
@@ -2966,26 +2651,6 @@
       },
       "json": "../styles/video-31ea8a7f7c/style.json",
       "copy": "../docs/copy-prompts/video-31ea8a7f7c.md"
-    },
-    {
-      "slug": "cooking-sequence",
-      "kind": "video",
-      "type": "template",
-      "title": "料理过程三镜头",
-      "category": "食品与生活",
-      "summary": "原料、关键动作、成品之间保持物体状态连续。",
-      "tags": [],
-      "inputs": [
-        "菜品",
-        "关键动作",
-        "固定器皿",
-        "时长"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/cooking-sequence/style.json",
-      "copy": "../docs/copy-prompts/cooking-sequence.md"
     },
     {
       "slug": "video-d2f1128753",
@@ -3239,26 +2904,6 @@
       "copy": "../docs/copy-prompts/video-rack-focus-foreground-background-source.md"
     },
     {
-      "slug": "before-after-reveal",
-      "kind": "video",
-      "type": "template",
-      "title": "前后状态揭示",
-      "category": "产品广告",
-      "summary": "在不替换主体的前提下展示一种可观察的状态变化。",
-      "tags": [],
-      "inputs": [
-        "同主体的前后参考图",
-        "变化区域",
-        "固定背景",
-        "过渡方式"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/before-after-reveal/style.json",
-      "copy": "../docs/copy-prompts/before-after-reveal.md"
-    },
-    {
       "slug": "video-japanese-influencer-get-ready-ugc",
       "kind": "video",
       "type": "adaptation",
@@ -3352,26 +2997,6 @@
       },
       "json": "../styles/video-cliffside-roller-skating-source/style.json",
       "copy": "../docs/copy-prompts/video-cliffside-roller-skating-source.md"
-    },
-    {
-      "slug": "camera-reveal",
-      "kind": "video",
-      "type": "template",
-      "title": "上升镜头环境揭示",
-      "category": "镜头运动",
-      "summary": "主体位置稳定，镜头升高时逐步交代空间关系。",
-      "tags": [],
-      "inputs": [
-        "开场主体",
-        "环境",
-        "终点画面",
-        "时长"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/camera-reveal/style.json",
-      "copy": "../docs/copy-prompts/camera-reveal.md"
     },
     {
       "slug": "video-1d6c1fec91",
@@ -3650,26 +3275,6 @@
       "copy": "../docs/copy-prompts/video-seoul-sunday-dv-home-video-source.md"
     },
     {
-      "slug": "creator-ugc-script",
-      "kind": "video",
-      "type": "template",
-      "title": "竖屏体验型 UGC",
-      "category": "创作者内容",
-      "summary": "口播、操作和结果三个节拍组成自然的产品体验。",
-      "tags": [],
-      "inputs": [
-        "人物设定",
-        "产品",
-        "真实体验",
-        "目标时长"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/creator-ugc-script/style.json",
-      "copy": "../docs/copy-prompts/creator-ugc-script.md"
-    },
-    {
       "slug": "video-watercolor-sketch-parkour-chase",
       "kind": "video",
       "type": "adaptation",
@@ -3898,26 +3503,6 @@
       "copy": "../docs/copy-prompts/video-drone-orbit-subject-source.md"
     },
     {
-      "slug": "object-match-cut",
-      "kind": "video",
-      "type": "template",
-      "title": "物体形状匹配转场",
-      "category": "镜头运动",
-      "summary": "用相同轮廓完成两种场景间的流畅切换。",
-      "tags": [],
-      "inputs": [
-        "物体 A",
-        "物体 B",
-        "共同轮廓",
-        "前后场景"
-      ],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/object-match-cut/style.json",
-      "copy": "../docs/copy-prompts/object-match-cut.md"
-    },
-    {
       "slug": "video-aecc45705d",
       "kind": "video",
       "type": "source",
@@ -4006,21 +3591,6 @@
       },
       "json": "../styles/video-real-person-sticker-poster-motion/style.json",
       "copy": "../docs/copy-prompts/video-real-person-sticker-poster-motion.md"
-    },
-    {
-      "slug": "paper-cut-loop",
-      "kind": "video",
-      "type": "original",
-      "title": "纸雕转场：从静态插画到微动效",
-      "category": "插画动画",
-      "summary": "保持原插画构图，分层加入细微景深与环境运动。",
-      "tags": [],
-      "inputs": [],
-      "preview": null,
-      "sample": null,
-      "source": null,
-      "json": "../styles/paper-cut-loop/style.json",
-      "copy": "../docs/copy-prompts/paper-cut-loop.md"
     },
     {
       "slug": "video-cdfbcca0a0",

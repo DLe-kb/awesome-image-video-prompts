@@ -3,7 +3,13 @@
   "$id": "https://github.com/dingle-kb/awesome-image-video-prompts/blob/main/schemas/style.schema.json",
   "title": "Image and video prompt style",
   "type": "object",
-  "required": ["style_version", "style_slug", "kind", "type", "title", "category", "summary", "prompt"],
+  "required": ["style_version", "style_slug", "kind", "type", "title", "category", "summary", "prompt", "preview"],
+  "allOf": [
+    {
+      "if": { "properties": { "kind": { "const": "video" } }, "required": ["kind"] },
+      "then": { "required": ["sample"] }
+    }
+  ],
   "properties": {
     "style_version": { "const": "1.0" },
     "style_slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
