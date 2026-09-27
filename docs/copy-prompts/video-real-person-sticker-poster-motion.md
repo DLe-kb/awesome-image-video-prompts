@@ -1,18 +1,46 @@
-# 真人贴纸海报动效
+# 复古ins贴纸海报
 
 [返回完整目录](../CATALOG.md)
 
-![真人贴纸海报动效](../../styles/video-real-person-sticker-poster-motion/preview.jpg)
+![复古ins贴纸海报](../../styles/video-real-person-sticker-poster-motion/preview.jpg)
 
 [播放样片（在线播放器）](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-real-person-sticker-poster-motion)
 
-上传真人贴纸海报，固定镜头与背景，只让真实人物自然活动。
+先用人物照片制作复古切模贴纸海报，再以海报为参考生成固定镜头的人物动效。
 
 类型：生视频 · 来源案例 · 动画
 
 来源：[小洁AI实战](https://www.douyin.com/video/7683887650173032805)
 
-## 完整提示词
+## 制作复古ins贴纸海报
+
+### 完整提示词
+
+```text
+以上传的人物照片为唯一主体与场景参考，生成一张真人与手绘切模贴纸背景结合的复古海报。
+
+原图中的真实人物主体完整保留，严格保持人物身份、五官长相、原有姿态、可见四肢、服装及鞋子细节，以及人物手中拿着的物品。人物始终保留真实、清晰的高清摄影质感，不将人物漫画化、插画化或贴纸化，不改变人数，不补造原图未显示的身体部位。
+
+将原照片中的环境背景，包括人物实际坐着的椅子等非人物元素，转换为极简黑白单线轮廓的切模贴纸：粗黑色轮廓、少量纯黑色块阴影、纯黑白无渐变。背景贴纸自带一圈白色裁切边，呈现手账贴纸叠加效果、扁平极简手绘与 ins 简约涂鸦风。人物边缘可有白色裁切边，但人物内部仍为真实摄影，不绘制成平面人物。
+
+保留原图的主要构图、物体位置与透视关系，让真实人物与二维贴纸背景自然融合。仅转换原场景中已有的环境元素，不新增无关物品、人物、标题、标语、商业主张、水印或教程字幕。人物和物品边界清晰，纸张及裁切边自然，不出现多余肢体、融化或模糊。
+```
+
+### English Prompt
+
+```text
+Use the uploaded portrait photo as the sole subject and scene reference. Create a retro poster combining a real photographed person with a hand-drawn die-cut sticker environment.
+
+Preserve the original person completely: identity, facial features, existing pose, visible limbs, clothing and shoes, and any item held in their hands. Keep the person sharp and photorealistic. Do not turn the person into a cartoon, illustration, or flat sticker; change the number of people; or invent body parts absent from the photo.
+
+Convert the original surroundings, including the chair the person is actually sitting on and other non-person elements, into minimal black-and-white single-line die-cut stickers. Use thick black outlines, sparse solid-black shadow shapes, and strictly monochrome colors without gradients. Give the background stickers a white cut border, layered scrapbook-sticker treatment, flat minimal hand drawing, and a simple Instagram doodle aesthetic. A white cut border may surround the person, but their interior must remain photographic.
+
+Preserve the main composition, object placement, and perspective, blending the real person naturally into the 2D sticker setting. Transform only existing surroundings. Do not add unrelated objects, people, headings, slogans, commercial claims, watermarks, or tutorial captions. Keep boundaries clean and paper cut edges natural, without extra limbs, melting, or blur.
+```
+
+## 生成贴纸海报人物动效
+
+### 完整提示词
 
 ```text
 以上传的完成版真人贴纸海报为首帧参考，生成一段 4 秒动态视频。
@@ -24,7 +52,7 @@
 镜头完全固定不动，不推拉、不摇移、不缩放、不切镜。保持人物真实质感，不将人物贴纸化，不出现肢体崩坏、变形、融化或多余手指。不重构场景，不产生背景动画、文字漂移、画面闪烁或模糊。输出绝对静止的贴纸背景与自然而然的人物动作，不添加转场、水印、教程字幕、配音或音乐。
 ```
 
-## English Prompt
+### English Prompt
 
 ```text
 Use the uploaded finished real-person sticker poster as the first-frame reference for a 4-second video.
@@ -35,6 +63,8 @@ Animate only the real person with restrained, natural, continuous movements chos
 
 Lock the camera completely: no dolly, pan, zoom, or cuts. Preserve the person's photographic appearance without stickerization, broken anatomy, warping, melting, or extra fingers. Do not rebuild the scene or animate the background, drift text, flicker, or blur. Output an absolutely still sticker setting with natural human motion, without transitions, watermarks, tutorial captions, narration, or music.
 ```
+
+使用检查：预览是海报阶段的示例画面，尚未核实它是否为留存视频样片的实际首帧。样片是 1.7 秒片段；第二步提示词中的 4 秒为制作设定。
 
 [打开 style.json](../../styles/video-real-person-sticker-poster-motion/style.json) · [打开条目目录](../../styles/video-real-person-sticker-poster-motion/)
 

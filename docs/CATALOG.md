@@ -2,7 +2,7 @@
 
 [返回首页](../README-ZH.md) · [在线画廊](../site/)
 
-## 生图（72）
+## 生图（71）
 
 ### 杯内鱼眼夏日冰饮广告
 
@@ -540,14 +540,6 @@
 
 [复制 Prompt](copy-prompts/image-beverage-food-marketing-hero.md) · [style.json](../styles/image-beverage-food-marketing-hero/style.json)
 
-### 真人切模贴纸海报
-
-[![真人切模贴纸海报](../styles/image-real-person-die-cut-sticker-poster/preview.jpg)](copy-prompts/image-real-person-die-cut-sticker-poster.md)
-
-上传人物照片，保留真人摄影质感，将环境改为带白色裁切边的黑白手绘贴纸。 · 来源案例
-
-[复制 Prompt](copy-prompts/image-real-person-die-cut-sticker-poster.md) · [style.json](../styles/image-real-person-die-cut-sticker-poster/style.json)
-
 ### 植物汽水商业静物
 
 [![植物汽水商业静物](../styles/botanical-soda/preview.webp)](copy-prompts/botanical-soda.md)
@@ -661,6 +653,14 @@
 上传完成的插画或海报，以固定镜头生成局部微动效，保持主体、文字与布局稳定。 · 来源案例
 
 [复制 Prompt](copy-prompts/video-retro-illustration-micro-motion.md) · [style.json](../styles/video-retro-illustration-micro-motion/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-retro-illustration-micro-motion)
+
+### 复古ins贴纸海报
+
+[![复古ins贴纸海报](../styles/video-real-person-sticker-poster-motion/preview.jpg)](copy-prompts/video-real-person-sticker-poster-motion.md)
+
+先用人物照片制作复古切模贴纸海报，再以海报为参考生成固定镜头的人物动效。 · 来源案例
+
+[复制 Prompt](copy-prompts/video-real-person-sticker-poster-motion.md) · [style.json](../styles/video-real-person-sticker-poster-motion/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-real-person-sticker-poster-motion)
 
 ### 高端香水UGC口播
 
@@ -933,14 +933,6 @@
 基于雨林人物首帧生成女性察觉远处暖光、靠近后光芒消失的氛围悬念短片。 · 来源案例
 
 [复制 Prompt](copy-prompts/video-rainforest-mysterious-light-source.md) · [style.json](../styles/video-rainforest-mysterious-light-source/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-rainforest-mysterious-light-source)
-
-### 真人贴纸海报动效
-
-[![真人贴纸海报动效](../styles/video-real-person-sticker-poster-motion/preview.jpg)](copy-prompts/video-real-person-sticker-poster-motion.md)
-
-上传真人贴纸海报，固定镜头与背景，只让真实人物自然活动。 · 来源案例
-
-[复制 Prompt](copy-prompts/video-real-person-sticker-poster-motion.md) · [style.json](../styles/video-real-person-sticker-poster-motion/style.json) · [播放样片](https://dingle-kb.github.io/awesome-image-video-prompts/?style=video-real-person-sticker-poster-motion)
 
 ### 中国水墨无缝转场
 

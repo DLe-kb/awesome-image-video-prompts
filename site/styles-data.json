@@ -1548,28 +1548,6 @@
       "copy": "../docs/copy-prompts/image-beverage-food-marketing-hero.md"
     },
     {
-      "slug": "image-real-person-die-cut-sticker-poster",
-      "kind": "image",
-      "type": "source",
-      "title": "真人切模贴纸海报",
-      "category": "图片转绘",
-      "summary": "上传人物照片，保留真人摄影质感，将环境改为带白色裁切边的黑白手绘贴纸。",
-      "tags": [
-        "图片转绘",
-        "海报设计",
-        "拼贴设计"
-      ],
-      "inputs": [],
-      "preview": "../styles/image-real-person-die-cut-sticker-poster/preview.jpg",
-      "sample": null,
-      "source": {
-        "author": "小洁AI实战",
-        "url": "https://www.douyin.com/video/7683887650173032805"
-      },
-      "json": "../styles/image-real-person-die-cut-sticker-poster/style.json",
-      "copy": "../docs/copy-prompts/image-real-person-die-cut-sticker-poster.md"
-    },
-    {
       "slug": "botanical-soda",
       "kind": "image",
       "type": "unverified",
@@ -1892,6 +1870,29 @@
       },
       "json": "../styles/video-retro-illustration-micro-motion/style.json",
       "copy": "../docs/copy-prompts/video-retro-illustration-micro-motion.md"
+    },
+    {
+      "slug": "video-real-person-sticker-poster-motion",
+      "kind": "video",
+      "type": "source",
+      "title": "复古ins贴纸海报",
+      "category": "动画",
+      "summary": "先用人物照片制作复古切模贴纸海报，再以海报为参考生成固定镜头的人物动效。",
+      "tags": [
+        "动画",
+        "图生视频",
+        "真人贴纸",
+        "海报设计"
+      ],
+      "inputs": [],
+      "preview": "../styles/video-real-person-sticker-poster-motion/preview.jpg",
+      "sample": "../styles/video-real-person-sticker-poster-motion/sample.mp4",
+      "source": {
+        "author": "小洁AI实战",
+        "url": "https://www.douyin.com/video/7683887650173032805"
+      },
+      "json": "../styles/video-real-person-sticker-poster-motion/style.json",
+      "copy": "../docs/copy-prompts/video-real-person-sticker-poster-motion.md"
     },
     {
       "slug": "video-e0fd6d34ba",
@@ -2693,28 +2694,6 @@
       },
       "json": "../styles/video-rainforest-mysterious-light-source/style.json",
       "copy": "../docs/copy-prompts/video-rainforest-mysterious-light-source.md"
-    },
-    {
-      "slug": "video-real-person-sticker-poster-motion",
-      "kind": "video",
-      "type": "source",
-      "title": "真人贴纸海报动效",
-      "category": "动画",
-      "summary": "上传真人贴纸海报，固定镜头与背景，只让真实人物自然活动。",
-      "tags": [
-        "动画",
-        "图生视频",
-        "真人贴纸"
-      ],
-      "inputs": [],
-      "preview": "../styles/video-real-person-sticker-poster-motion/preview.jpg",
-      "sample": "../styles/video-real-person-sticker-poster-motion/sample.mp4",
-      "source": {
-        "author": "小洁AI实战",
-        "url": "https://www.douyin.com/video/7683887650173032805"
-      },
-      "json": "../styles/video-real-person-sticker-poster-motion/style.json",
-      "copy": "../docs/copy-prompts/video-real-person-sticker-poster-motion.md"
     },
     {
       "slug": "video-cdfbcca0a0",
