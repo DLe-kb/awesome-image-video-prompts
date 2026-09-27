@@ -1,6 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { dirname, extname, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { spawnSync } from 'node:child_process';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const mode = process.argv[2] ?? '--check';
@@ -42,6 +43,30 @@ function writeGenerated(path, content) {
   }
 }
 
+const thumbnailCache = new Set();
+function galleryThumbnail(style) {
+  const preview = assetPath(style, 'preview');
+  if (!preview) return null;
+  const path = `styles/${style.style_slug}/thumbnail.jpg`;
+  const target = resolve(root, path);
+  if (mode === '--write' && !thumbnailCache.has(path)) {
+    const result = spawnSync('ffmpeg', ['-y', '-hide_banner', '-loglevel', 'error',
+      '-i', resolve(root, preview), '-vf',
+      '[0:v]split=2[background][foreground];' +
+      '[background]scale=480:300:force_original_aspect_ratio=increase,crop=480:300,boxblur=20:1[back];' +
+      '[foreground]scale=480:300:force_original_aspect_ratio=decrease[front];' +
+      '[back][front]overlay=(W-w)/2:(H-h)/2:format=auto',
+      '-frames:v', '1', target], { encoding: 'utf8' });
+    if (result.error || result.status !== 0) {
+      throw new Error(`Could not create thumbnail for ${style.style_slug}: ${result.stderr || result.error}`);
+    }
+    thumbnailCache.add(path);
+  } else if (!existsSync(target)) {
+    throw new Error(`Missing gallery thumbnail: ${path}`);
+  }
+  return path;
+}
+
 for (const [position, style] of styles.entries()) {
   const slug = style.style_slug;
   if (style.style_version !== '1.0' || slug !== slugs[position] || !/^[a-z0-9-]+$/.test(slug) ||
@@ -50,9 +75,11 @@ for (const [position, style] of styles.entries()) {
       !style.title?.trim() || !style.summary?.trim() || !style.category?.trim() || !style.prompt?.trim()) {
     throw new Error(`Invalid style: ${slug}`);
   }
+  if (style.type !== 'adaptation' && style.preview) galleryThumbnail(style);
   const files = readdirSync(resolve(root, 'styles', slug)).sort();
   const expected = ['style.json', ...(style.preview?.startsWith('../') ? [] : style.preview ? [style.preview] : []),
-    ...(style.sample?.startsWith('../') ? [] : style.sample ? [style.sample] : [])].sort();
+    ...(style.sample?.startsWith('../') ? [] : style.sample ? [style.sample] : []),
+    ...(style.type !== 'adaptation' && style.preview ? ['thumbnail.jpg'] : [])].sort();
   if (JSON.stringify(files) !== JSON.stringify(expected)) throw new Error(`Unexpected files: ${slug}`);
   if (style.preview && !/\.jpg$|\.webp$/.test(style.preview)) throw new Error(`Invalid preview: ${slug}`);
   if (style.sample && extname(style.sample) !== '.mp4') throw new Error(`Invalid sample: ${slug}`);
@@ -137,17 +164,25 @@ function gallery(lang) {
   const lines = [];
   for (const [kind, title] of [['image', zh ? '生图' : 'Image'], ['video', zh ? '生视频' : 'Video']]) {
     const group = visible.filter(style => style.kind === kind);
+    const pictured = group.filter(style => style.preview);
+    const withoutPreview = group.filter(style => !style.preview);
     lines.push(`### ${title} (${group.length})`, '', '<table>');
-    for (let i = 0; i < group.length; i += 3) {
+    for (let i = 0; i < pictured.length; i += 2) {
       lines.push('<tr>');
-      for (const style of group.slice(i, i + 3)) {
+      for (const style of pictured.slice(i, i + 2)) {
         const slug = style.style_slug;
-        const preview = assetPath(style, 'preview');
-        lines.push(`<td width="33%" valign="top">${preview ? `<a href="docs/copy-prompts/${slug}.md"><img src="${preview}" alt="${escapeHtml(style.title)}" width="240"></a><br>` : ''}<strong>${escapeHtml(style.title)}</strong><br><sub>${escapeHtml(style.summary)}</sub><br><a href="styles/${slug}/style.json">style.json</a> · <a href="docs/copy-prompts/${slug}.md">${zh ? '复制 Prompt' : 'Copy Prompt'}</a>${style.relatedStyle ? ` · <a href="docs/copy-prompts/${style.relatedStyle}.md">${zh ? '配套版本' : 'Linked Version'}</a>` : ''}</td>`);
+        lines.push(`<td width="50%" valign="top" align="center"><a href="docs/copy-prompts/${slug}.md"><img src="${galleryThumbnail(style)}" alt="${escapeHtml(style.title)}" width="240" height="150"></a><br><strong>${escapeHtml(style.title)}</strong><br><a href="styles/${slug}/style.json">style.json</a> · <a href="docs/copy-prompts/${slug}.md">${zh ? '复制 Prompt' : 'Copy Prompt'}</a>${style.relatedStyle ? ` · <a href="docs/copy-prompts/${style.relatedStyle}.md">${zh ? '配套版本' : 'Linked Version'}</a>` : ''}</td>`);
       }
       lines.push('</tr>');
     }
     lines.push('</table>', '');
+    if (withoutPreview.length) {
+      lines.push(`#### ${zh ? '暂无预览图的条目' : 'Entries without preview images'}`, '');
+      for (const style of withoutPreview) {
+        lines.push(`- [${style.title}](docs/copy-prompts/${style.style_slug}.md) · [style.json](styles/${style.style_slug}/style.json)`);
+      }
+      lines.push('');
+    }
   }
   return lines.join('\n').trimEnd();
 }

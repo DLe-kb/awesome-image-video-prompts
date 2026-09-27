@@ -6,9 +6,9 @@
 
 1. 在 `styles/<名称>/` 创建一个目录，名称采用小写英文和连字符。
 2. 放入唯一的 `style.json`，填写 `style_version`、`style_slug`、`kind`（`image` 或 `video`）、`type`、标题、摘要、分类和完整 `prompt`。`style_slug` 与目录名需保持一致，字段说明见 [`schemas/style.schema.json`](schemas/style.schema.json)。
-3. 有预览或样片时，与 JSON 放在同一目录，命名为 `preview.jpg`、`preview.webp` 或 `sample.mp4`。在 JSON 中用相对文件名引用；关联其他条目的媒体可以使用相对路径，不复制一份。
+3. 有预览或样片时，与 JSON 放在同一目录，命名为 `preview.jpg`、`preview.webp` 或 `sample.mp4`。在 JSON 中用相对文件名引用；关联其他条目的媒体可以使用相对路径，不复制一份。带预览的条目构建后还会生成 `thumbnail.jpg`，供 README 等尺寸展示使用。
 4. 来源内容填写作者和原始链接；关联版本使用 `relatedStyle` 指向另一条风格目录。翻译可放在 `promptEn`，填空模板需列出 `inputs`。
-5. 运行下列命令生成画廊、详细目录与可复制页面，并检查生成文件与 JSON 一致。
+5. 安装 FFmpeg 后，运行下列命令生成画廊缩略图、详细目录与可复制页面，并检查生成文件与 JSON 一致。
 
 ```bash
 node scripts/build.mjs --write
