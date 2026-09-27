@@ -4,7 +4,7 @@
 
 <p align="center"><a href="https://dle-kb.github.io/awesome-image-video-prompts/"><img src="assets/previews/readme-gallery.jpg" alt="六张案例拼贴：旅行海报、植物汽水、植物图版、梨挞分镜、食物拆解信息图与照片速写回忆卡" width="720"></a></p>
 
-<h3 align="center">简体中文 | <a href="#english">English</a></h3>
+<h3 align="center">简体中文 | <a href="#user-content-english">English</a></h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/%E7%94%9F%E5%9B%BE%E6%A1%88%E4%BE%8B-72-f15b72?style=for-the-badge&amp;labelColor=555555" alt="生图案例 72">
