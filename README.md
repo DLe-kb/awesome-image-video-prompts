@@ -7,10 +7,10 @@
 <h3 align="center">简体中文 | <a href="#english">English</a></h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E7%94%9F%E5%9B%BE%E6%A1%88%E4%BE%8B-72-f15b72?style=flat-square&amp;labelColor=555555" alt="生图案例 72" height="28">
-  <img src="https://img.shields.io/badge/%E7%94%9F%E8%A7%86%E9%A2%91%E6%9D%A1%E7%9B%AE-48-36b7d6?style=flat-square&amp;labelColor=555555" alt="生视频条目 48" height="28">
-  <img src="https://img.shields.io/badge/%E5%8E%9F%E5%88%9B%E6%A8%A1%E6%9D%BF-20-222222?style=flat-square&amp;labelColor=555555" alt="原创填空模板 20" height="28">
-  <img src="https://img.shields.io/badge/%E9%85%8D%E5%A5%97_Prompt-92-e0ad00?style=flat-square&amp;labelColor=555555" alt="来源配套 Prompt 92" height="28">
+  <img src="https://img.shields.io/badge/%E7%94%9F%E5%9B%BE%E6%A1%88%E4%BE%8B-72-f15b72?style=for-the-badge&amp;labelColor=555555" alt="生图案例 72">
+  <img src="https://img.shields.io/badge/%E7%94%9F%E8%A7%86%E9%A2%91%E6%9D%A1%E7%9B%AE-48-36b7d6?style=for-the-badge&amp;labelColor=555555" alt="生视频条目 48">
+  <img src="https://img.shields.io/badge/%E5%8E%9F%E5%88%9B%E6%A8%A1%E6%9D%BF-20-222222?style=for-the-badge&amp;labelColor=555555" alt="原创填空模板 20">
+  <img src="https://img.shields.io/badge/%E9%85%8D%E5%A5%97_Prompt-92-e0ad00?style=for-the-badge&amp;labelColor=555555" alt="来源配套 Prompt 92">
 </p>
 
 <p align="center"><strong>先看效果，再复制完整 Prompt；换题材时，用填空模板改写。</strong></p>
