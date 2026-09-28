@@ -4,8 +4,12 @@
   "kind": "image",
   "type": "unverified",
   "title": "虚构海岸城市旅行海报",
-  "category": "海报与编辑",
+  "category": "海报设计",
   "summary": "以大色块、几何建筑和丝网印刷肌理构成旅行海报。",
+  "tags": [
+    "旅行城市",
+    "编辑设计"
+  ],
   "model": "gpt-image-2",
   "size": "1254x1254",
   "requestedSize": "1024x1024",

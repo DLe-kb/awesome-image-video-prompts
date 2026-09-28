@@ -8,7 +8,9 @@
 
 同步执行摄像机前移和镜头变广，在保持主体尺寸不变的同时拉伸背景空间。
 
-类型：生视频 · 来源案例 · 镜头运动
+类型：生视频 · 来源案例
+
+**镜头运动** 滑动变焦 横屏
 
 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control)
 

@@ -147,7 +147,10 @@ async function openDetail(entry) {
   const title = el('h2', '', entry.title);
   title.id = 'detail-title';
   content.append(title, el('p', 'summary', entry.summary));
-  content.append(el('p', 'detail-spec', entry.category));
+  const taxonomy = el('p', 'detail-taxonomy');
+  taxonomy.setAttribute('aria-label', '分类与标签，首项为主分类');
+  taxonomy.append(el('strong', '', entry.category), ...entry.tags.map(tag => el('span', '', tag)));
+  content.append(taxonomy);
   if (style.source) {
     const source = el('p', 'attribution', '来源：');
     const link = el('a', '', style.source.author);
@@ -247,7 +250,7 @@ function render() {
     reset.addEventListener('click', () => {
       state.kind = 'all'; state.category = 'all'; state.query = '';
       $('#search').value = '';
-      $('#category').value = 'all';
+      renderCategories();
       updateFilters();
     });
     empty.append(reset);
@@ -258,36 +261,30 @@ function render() {
 }
 
 function renderCategories() {
-  const strip = $('#category-strip');
-  strip.replaceChildren();
-  const counts = new Map();
-  for (const entry of styles) counts.set(entry.category, (counts.get(entry.category) || 0) + 1);
-  const popular = [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'zh-CN')).slice(0, 9);
-  for (const category of ['all', ...popular.map(([name]) => name)]) {
-    const button = el('button', '', category === 'all' ? '所有分类' : category);
-    button.type = 'button';
-    button.dataset.category = category;
-    button.setAttribute('aria-pressed', String(state.category === category));
-    button.addEventListener('click', () => {
-      state.category = category;
-      $('#category').value = category;
-      updateFilters();
-    });
-    strip.append(button);
+  const select = $('#category');
+  select.replaceChildren();
+  const categories = new Set();
+  for (const entry of styles.filter(item => state.kind === 'all' || item.kind === state.kind)) {
+    categories.add(entry.category);
   }
+  for (const category of ['all', ...[...categories].sort((a, b) => a.localeCompare(b, 'zh-CN'))]) {
+    const option = el('option', '', category === 'all' ? '所有分类' : category);
+    option.value = category;
+    select.append(option);
+  }
+  select.value = state.category;
 }
 
 function updateFilters() {
   document.documentElement.dataset.filtered = String(state.kind !== 'all' || state.category !== 'all' || Boolean(state.query));
   document.querySelectorAll('.segments button').forEach(button =>
     button.setAttribute('aria-pressed', String(button.dataset.kind === state.kind)));
-  document.querySelectorAll('.category-strip button').forEach(button =>
-    button.setAttribute('aria-pressed', String(button.dataset.category === state.category)));
   const params = new URLSearchParams(location.search);
   for (const [key, value] of [['kind', state.kind], ['category', state.category], ['search', $('#search').value.trim()]]) {
     if (!value || value === 'all') params.delete(key);
     else params.set(key, value);
   }
+  params.delete('tag');
   params.delete('style');
   history.replaceState(null, '', `${location.pathname}${params.size ? `?${params}` : ''}${location.hash}`);
   render();
@@ -295,7 +292,7 @@ function updateFilters() {
 
 async function start() {
   try {
-    const response = await fetch('styles-data.json');
+    const response = await fetch('styles-data.json?v=single-category-20260928');
     if (!response.ok) throw new Error('Catalog unavailable');
     const data = await response.json();
     if (data.version !== 1 || !Array.isArray(data.styles)) throw new Error('Invalid catalog');
@@ -304,18 +301,13 @@ async function start() {
     $('#image-total').textContent = String(styles.filter(entry => entry.kind === 'image').length);
     $('#video-total').textContent = String(styles.filter(entry => entry.kind === 'video').length);
     const select = $('#category');
-    const categories = [...new Set(styles.map(entry => entry.category))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
-    for (const category of categories) {
-      const option = el('option', '', category);
-      option.value = category;
-      select.append(option);
-    }
     const params = new URLSearchParams(location.search);
     state.kind = ['image', 'video'].includes(params.get('kind')) ? params.get('kind') : 'all';
-    state.category = categories.includes(params.get('category')) ? params.get('category') : 'all';
-    state.query = (params.get('search') ?? '').trim().toLocaleLowerCase();
-    $('#search').value = params.get('search') ?? '';
-    select.value = state.category;
+    const scoped = styles.filter(item => state.kind === 'all' || item.kind === state.kind);
+    state.category = scoped.some(item => item.category === params.get('category')) ? params.get('category') : 'all';
+    const search = params.get('search') ?? params.get('tag') ?? '';
+    state.query = search.trim().toLocaleLowerCase();
+    $('#search').value = search;
     renderCategories();
     const picks = featuredSlugs.map(slug => styles.find(entry => entry.slug === slug)).filter(Boolean);
     $('#featured-grid').replaceChildren(...picks.map(card));
@@ -324,6 +316,9 @@ async function start() {
       button.setAttribute('aria-pressed', String(button.dataset.kind === state.kind));
       button.addEventListener('click', () => {
         state.kind = button.dataset.kind;
+        const scoped = styles.filter(item => state.kind === 'all' || item.kind === state.kind);
+        if (!scoped.some(item => item.category === state.category)) state.category = 'all';
+        renderCategories();
         updateFilters();
       });
     });

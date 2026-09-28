@@ -11,15 +11,15 @@
         document.documentElement.dataset.theme = localStorage.getItem('visual-prompts-theme') || 'dark';
       } catch { document.documentElement.dataset.theme = 'dark'; }
       const filters = new URLSearchParams(location.search);
-      if (filters.has('kind') || filters.has('category') || filters.has('search')) {
+      if (filters.has('kind') || filters.has('category') || filters.has('search') || filters.has('tag')) {
         document.documentElement.dataset.filtered = 'true';
       }
       if (document.documentElement.dataset.theme === 'light') {
         document.querySelector('meta[name="theme-color"]').content = '#f6f6f5';
       }
     </script>
-    <link rel="stylesheet" href="styles.css?v=neutral-palette-20260928" />
-    <script type="module" src="app.js?v=neutral-palette-20260928"></script>
+    <link rel="stylesheet" href="styles.css?v=single-taxonomy-20260928" />
+    <script type="module" src="app.js?v=single-taxonomy-20260928"></script>
   </head>
   <body>
     <header class="site-header">
@@ -51,7 +51,7 @@
       <div class="toolbar-wrap">
         <div class="toolbar container">
           <div class="toolbar-main">
-            <label class="search"><span class="search-icon" aria-hidden="true">⌕</span><span class="sr-only">搜索 Prompt</span><input id="search" type="search" placeholder="搜索风格、题材、用途、作者" autocomplete="off" /></label>
+            <label class="search"><span class="search-icon" aria-hidden="true">⌕</span><span class="sr-only">搜索 Prompt</span><input id="search" type="search" placeholder="搜索风格、标签、用途、作者" autocomplete="off" /></label>
             <div class="segments" role="group" aria-label="媒体类型">
               <button type="button" data-kind="all" aria-pressed="true">全部</button>
               <button type="button" data-kind="image" aria-pressed="false">生图</button>
@@ -59,7 +59,6 @@
             </div>
             <label class="category-select"><span class="sr-only">所有分类</span><select id="category"><option value="all">所有分类</option></select></label>
           </div>
-          <div id="category-strip" class="category-strip" role="group" aria-label="快捷分类"></div>
         </div>
       </div>
 

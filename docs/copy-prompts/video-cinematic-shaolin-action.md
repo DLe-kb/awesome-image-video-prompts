@@ -8,7 +8,9 @@
 
 生成少林武僧与石甲生物对决的武侠奇幻动作序列，包含分段动作编排、变速和电光效果。
 
-类型：生视频 · 来源案例 · 动作
+类型：生视频 · 来源案例
+
+**动作** 电影感 奇幻
 
 来源：[Pierrick Chevallier | IA（X：`@CharaspowerAI`）](https://x.com/CharaspowerAI/status/2086830115527250284)
 

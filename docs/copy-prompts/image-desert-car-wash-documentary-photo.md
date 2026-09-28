@@ -6,7 +6,9 @@
 
 生成沙漠露天洗车场的电影感纪实画面，通过车尾备胎、水柱、泡沫玻璃和车内人物形成多层叙事。
 
-类型：生图 · 来源案例 · 商业广告
+类型：生图 · 来源案例
+
+**商业广告** 人像摄影 创意摄影
 
 来源：[@institutional_butterflying](https://higgsfield.ai/publications/bdeaf74f-4300-4ebd-9125-7df4f37d2733)
 

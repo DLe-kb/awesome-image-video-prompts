@@ -8,7 +8,9 @@
 
 让摄像机保持原地不位移，只向右水平旋转并在结尾主体上稳定停留。
 
-类型：生视频 · 来源案例 · 镜头运动
+类型：生视频 · 来源案例
+
+**镜头运动** 向右摇摄 横屏
 
 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control)
 

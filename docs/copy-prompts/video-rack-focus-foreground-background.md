@@ -8,7 +8,9 @@
 
 保持机位和构图完全固定，只在远景锚点与近景主体之间进行一次平滑转焦。
 
-类型：生视频 · 来源案例 · 镜头运动
+类型：生视频 · 来源案例
+
+**镜头运动** 焦点切换 横屏
 
 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control)
 

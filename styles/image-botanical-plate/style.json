@@ -4,8 +4,12 @@
   "kind": "image",
   "type": "unverified",
   "title": "虚构植物科学图版",
-  "category": "科普与出版",
+  "category": "教育科普",
   "summary": "以标本主图和局部放大图组织清晰的植物学图版。",
+  "tags": [
+    "自然植物",
+    "水彩"
+  ],
   "model": "gpt-image-2",
   "size": "1254x1254",
   "requestedSize": "1024x1024",

@@ -8,7 +8,9 @@
 
 让地图集中的纸艺地形随翻页重组并最终折叠成罗盘。
 
-类型：生视频 · 来源案例 · 动画
+类型：生视频 · 来源案例
+
+**动画** 定格动画 横屏
 
 来源：[@Alexandra Aisling / YouMind](https://x.com/AllaAisling/status/2091584001282900033)
 

@@ -6,7 +6,9 @@
 
 生成一张把虚拟试衣服务设计成千禧年主机游戏角色选择界面的横版网页视觉。
 
-类型：生图 · 来源案例 · 网页界面
+类型：生图 · 来源案例
+
+**网页界面** 时尚美妆 未来科技
 
 来源：[@steampunk_donut_jade65](https://higgsfield.ai/publications/fb624032-7cc1-47b5-8df4-d8a8cfc5823e)
 

@@ -4,8 +4,12 @@
   "kind": "image",
   "type": "unverified",
   "title": "梨挞广告四镜头分镜",
-  "category": "分镜与叙事",
+  "category": "影视叙事",
   "summary": "四格镜头从原料、制作、烘烤过渡到成品。",
+  "tags": [
+    "食品饮料",
+    "商业广告"
+  ],
   "model": "gpt-image-2",
   "size": "1254x1254",
   "requestedSize": "1024x1024",

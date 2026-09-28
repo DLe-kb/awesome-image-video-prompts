@@ -14,6 +14,13 @@ const slugs = readdirSync(resolve(root, 'styles'), { withFileTypes: true })
 const styles = slugs.map(slug => JSON.parse(readFileSync(resolve(root, 'styles', slug, 'style.json'), 'utf8')));
 const bySlug = new Map(styles.map(style => [style.style_slug, style]));
 if (bySlug.size !== styles.length) throw new Error('Duplicate style slug');
+const taxonomy = JSON.parse(readFileSync(resolve(root, 'data/taxonomy.json'), 'utf8'));
+const categories = new Set(taxonomy.categories);
+const replacedTerms = new Set(Object.keys(taxonomy.replacedTerms));
+if (categories.size !== taxonomy.categories.length ||
+    [...categories].some(category => !category.trim() || replacedTerms.has(category))) {
+  throw new Error('Invalid category taxonomy');
+}
 
 function assetPath(style, name) {
   if (!style[name]) return null;
@@ -74,6 +81,9 @@ for (const [position, style] of styles.entries()) {
       !['image', 'video'].includes(style.kind) ||
       !['source', 'unverified'].includes(style.type) ||
       !style.title?.trim() || !style.summary?.trim() || !style.category?.trim() ||
+      !categories.has(style.category) || !Array.isArray(style.tags) || !style.tags.length ||
+      new Set(style.tags).size !== style.tags.length ||
+      style.tags.some(tag => typeof tag !== 'string' || !tag.trim() || tag !== tag.trim() || tag === style.category || replacedTerms.has(tag)) ||
       !((style.prompt?.trim() && style.promptEn?.trim() && !style.workflow) ||
         (!style.prompt && !style.promptEn && Array.isArray(style.workflow) && style.workflow.length >= 2 &&
           style.workflow.every(step => step.title?.trim() && step.prompt?.trim() && step.promptEn?.trim()))) ||
@@ -132,7 +142,8 @@ function renderCopy(style) {
     ...(preview ? [`![${style.title}](../../${preview})`, ''] : []),
     ...(sample ? [`[播放样片（在线播放器）](${playbackUrl(slug)})`, ''] : []),
     style.summary, '',
-    `类型：${style.kind === 'image' ? '生图' : '生视频'} · ${label[style.type]} · ${style.category}`, '',
+    `类型：${style.kind === 'image' ? '生图' : '生视频'} · ${label[style.type]}`, '',
+    `**${style.category}** ${style.tags.join(' ')}`, '',
     ...(style.source ? [`来源：[${style.source.author}](${style.source.url})${style.source.linkType === 'profile' ? '（作者主页）' : ''}`, ''] : []),
     ...(style.model ? [`生成信息：${style.model} · ${style.provider} · ${style.requestedSize} → ${style.size}`, ''] : []),
     ...(style.inputs?.length ? [`可替换内容：${style.inputs.map(input => `\`[${input}]\``).join(' · ')}`, ''] : []),

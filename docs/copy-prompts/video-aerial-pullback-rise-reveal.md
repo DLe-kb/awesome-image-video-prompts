@@ -8,7 +8,9 @@
 
 让摄像机沿主体轴线同时后退和升高，从近景主体逐步揭示完整载具或大场景。
 
-类型：生视频 · 来源案例 · 镜头运动
+类型：生视频 · 来源案例
+
+**镜头运动** 航拍 横屏
 
 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control)
 

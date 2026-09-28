@@ -8,7 +8,9 @@
 
 让无人机以固定半径和高度匀速环绕主体，利用地平线旋转和视差建立空间感。
 
-类型：生视频 · 来源案例 · 镜头运动
+类型：生视频 · 来源案例
+
+**镜头运动** 无人机环绕 横屏
 
 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control)
 

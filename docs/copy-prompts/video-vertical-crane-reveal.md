@@ -8,7 +8,9 @@
 
 通过摇臂垂直升高并持续向下俯仰，在固定主体位置的同时逐步揭示环境规模。
 
-类型：生视频 · 来源案例 · 镜头运动
+类型：生视频 · 来源案例
+
+**镜头运动** 上升摇臂 横屏
 
 来源：[Higgsfield.AI Team。](https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control)
 
