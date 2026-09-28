@@ -114,6 +114,31 @@
       "copy": "../docs/copy-prompts/image/image-city-corner-3d-billboard-photography.md"
     },
     {
+      "slug": "image-pet-driver-movie-poster-swap",
+      "kind": "image",
+      "type": "source",
+      "title": "宠物驾车电影海报换角",
+      "category": "海报设计",
+      "summary": "把电影海报中的驾驶员替换为宠物、乘客替换为指定人物。预览为原创示意，未按三图输入复测。",
+      "tags": [
+        "宠物换角",
+        "照片合成"
+      ],
+      "inputs": [
+        "图一：有权使用的双人驾车海报底图",
+        "图二：小狗照片",
+        "图三：人物角色照片"
+      ],
+      "preview": "../styles/image/image-pet-driver-movie-poster-swap/preview.jpg",
+      "sample": null,
+      "source": {
+        "author": "数字生命卡兹克 (@Khazix0918)",
+        "url": "https://x.com/Khazix0918/status/2104401048324743646"
+      },
+      "json": "../styles/image/image-pet-driver-movie-poster-swap/style.json",
+      "copy": "../docs/copy-prompts/image/image-pet-driver-movie-poster-swap.md"
+    },
+    {
       "slug": "image-isometric-miniature-kitchen",
       "kind": "image",
       "type": "source",
@@ -715,6 +740,53 @@
       "copy": "../docs/copy-prompts/image/image-travel-souvenir-enamel-pin.md"
     },
     {
+      "slug": "image-travel-memory-suitcase-stickers",
+      "kind": "image",
+      "type": "source",
+      "title": "旅行碎片行李箱贴纸",
+      "category": "旅行城市",
+      "summary": "从多张旅行照片提取建筑、风景和美食，转成铺满展开行李箱内衬的水彩贴纸。预览为自制示意，未按十二图输入复测。",
+      "tags": [
+        "多图拼贴",
+        "水彩贴纸"
+      ],
+      "inputs": [
+        "图一：有权使用的空行李箱展开俯视图",
+        "图二至图十二：同一段旅程的 11 张有权使用的照片"
+      ],
+      "preview": "../styles/image/image-travel-memory-suitcase-stickers/preview.jpg",
+      "sample": null,
+      "source": {
+        "author": "数字生命卡兹克 (@Khazix0918)",
+        "url": "https://x.com/Khazix0918/status/2104401048324743646"
+      },
+      "json": "../styles/image/image-travel-memory-suitcase-stickers/style.json",
+      "copy": "../docs/copy-prompts/image/image-travel-memory-suitcase-stickers.md"
+    },
+    {
+      "slug": "image-polaroid-clay-travel-portrait",
+      "kind": "image",
+      "type": "source",
+      "title": "拍立得公仔旅行打卡",
+      "category": "旅行城市",
+      "summary": "将旅行合照中的人物变成突破拍立得相纸边框的 Q 版黏土公仔。预览为自制示意，未用原帖照片编辑复测。",
+      "tags": [
+        "3D公仔",
+        "照片合成"
+      ],
+      "inputs": [
+        "一张有权使用的人物与景点合照"
+      ],
+      "preview": "../styles/image/image-polaroid-clay-travel-portrait/preview.jpg",
+      "sample": null,
+      "source": {
+        "author": "数字生命卡兹克 (@Khazix0918)",
+        "url": "https://x.com/Khazix0918/status/2104401048324743646"
+      },
+      "json": "../styles/image/image-polaroid-clay-travel-portrait/style.json",
+      "copy": "../docs/copy-prompts/image/image-polaroid-clay-travel-portrait.md"
+    },
+    {
       "slug": "image-cooking-sketch-illustration-story",
       "kind": "image",
       "type": "source",
@@ -833,6 +905,31 @@
       },
       "json": "../styles/image/image-playful-ceramic-ecommerce-hero/style.json",
       "copy": "../docs/copy-prompts/image/image-playful-ceramic-ecommerce-hero.md"
+    },
+    {
+      "slug": "image-vintage-city-travel-collage-portrait",
+      "kind": "image",
+      "type": "source",
+      "title": "人物城市旅行拼贴海报",
+      "category": "旅行城市",
+      "summary": "围绕上传人物与指定城市，制作带地标、美食、地图、票据和邮戳的复古旅行拼贴海报。预览为自制示意，未用原帖照片编辑复测。",
+      "tags": [
+        "人物海报",
+        "撕纸拼贴"
+      ],
+      "inputs": [
+        "一张已获肖像使用同意的人物照片",
+        "城市中文名 {cityName}",
+        "英文标题 {cityNameEn}"
+      ],
+      "preview": "../styles/image/image-vintage-city-travel-collage-portrait/preview.jpg",
+      "sample": null,
+      "source": {
+        "author": "数字生命卡兹克 (@Khazix0918)",
+        "url": "https://x.com/Khazix0918/status/2104401048324743646"
+      },
+      "json": "../styles/image/image-vintage-city-travel-collage-portrait/style.json",
+      "copy": "../docs/copy-prompts/image/image-vintage-city-travel-collage-portrait.md"
     },
     {
       "slug": "image-portrait-lighting-scheme-grid",
@@ -954,6 +1051,30 @@
       "copy": "../docs/copy-prompts/image/image-deep-sea-freediving-adventure-photo.md"
     },
     {
+      "slug": "image-handwritten-photo-annotations",
+      "kind": "image",
+      "type": "source",
+      "title": "生活照片手写涂鸦注释",
+      "category": "社交媒体",
+      "summary": "在生活照片留白处添加白色手写标题、短句和少量箭头星星，保留实景质感。",
+      "tags": [
+        "手写排版",
+        "照片注释"
+      ],
+      "inputs": [
+        "一张有适当留白的生活照片",
+        "可选：真实标题与一句简短文案"
+      ],
+      "preview": "../styles/image/image-handwritten-photo-annotations/preview.jpg",
+      "sample": null,
+      "source": {
+        "author": "数字生命卡兹克 (@Khazix0918)",
+        "url": "https://x.com/Khazix0918/status/2104401048324743646"
+      },
+      "json": "../styles/image/image-handwritten-photo-annotations/style.json",
+      "copy": "../docs/copy-prompts/image/image-handwritten-photo-annotations.md"
+    },
+    {
       "slug": "image-fifteen-step-photorealistic-recipe",
       "kind": "image",
       "type": "source",
@@ -972,6 +1093,29 @@
       },
       "json": "../styles/image/image-fifteen-step-photorealistic-recipe/style.json",
       "copy": "../docs/copy-prompts/image/image-fifteen-step-photorealistic-recipe.md"
+    },
+    {
+      "slug": "image-inplace-landmark-travel-sticker",
+      "kind": "image",
+      "type": "source",
+      "title": "实景建筑原位贴纸",
+      "category": "旅行城市",
+      "summary": "只把照片中的核心建筑重绘成原位覆盖的白边手绘旅行贴纸，其他区域仍是实景。预览为自制示意，未做局部编辑复测。",
+      "tags": [
+        "局部编辑",
+        "模切贴纸"
+      ],
+      "inputs": [
+        "一张有权使用且含突出建筑的实景照片"
+      ],
+      "preview": "../styles/image/image-inplace-landmark-travel-sticker/preview.jpg",
+      "sample": null,
+      "source": {
+        "author": "数字生命卡兹克 (@Khazix0918)",
+        "url": "https://x.com/Khazix0918/status/2104401048324743646"
+      },
+      "json": "../styles/image/image-inplace-landmark-travel-sticker/style.json",
+      "copy": "../docs/copy-prompts/image/image-inplace-landmark-travel-sticker.md"
     },
     {
       "slug": "image-exploded-food-infographic",
@@ -993,6 +1137,29 @@
       },
       "json": "../styles/image/image-exploded-food-infographic/style.json",
       "copy": "../docs/copy-prompts/image/image-exploded-food-infographic.md"
+    },
+    {
+      "slug": "image-food-splash-freeze-frame",
+      "kind": "image",
+      "type": "source",
+      "title": "手持美食飞溅定格",
+      "category": "社交媒体",
+      "summary": "仅增强镜头前的手持食物或饮品，形成超写实食材腾空飞溅的高速摄影效果。",
+      "tags": [
+        "美食摄影",
+        "高速定格"
+      ],
+      "inputs": [
+        "一张人物手持食物或饮品并靠近镜头的照片"
+      ],
+      "preview": "../styles/image/image-food-splash-freeze-frame/preview.jpg",
+      "sample": null,
+      "source": {
+        "author": "数字生命卡兹克 (@Khazix0918)",
+        "url": "https://x.com/Khazix0918/status/2104401048324743646"
+      },
+      "json": "../styles/image/image-food-splash-freeze-frame/style.json",
+      "copy": "../docs/copy-prompts/image/image-food-splash-freeze-frame.md"
     },
     {
       "slug": "image-hand-torn-paper-poster",
@@ -1056,6 +1223,30 @@
       },
       "json": "../styles/image/image-watercolor-editorial-illustration-poster/style.json",
       "copy": "../docs/copy-prompts/image/image-watercolor-editorial-illustration-poster.md"
+    },
+    {
+      "slug": "image-watercolor-travel-postcard",
+      "kind": "image",
+      "type": "source",
+      "title": "水彩旅行手账明信片",
+      "category": "旅行城市",
+      "summary": "把景点照片转成右侧水彩插画、左侧留白排版的横版旅行明信片。预览为自制示意，未用原帖照片编辑复测。",
+      "tags": [
+        "明信片",
+        "水彩插画"
+      ],
+      "inputs": [
+        "一张无第三方水印且有使用权的景点照片",
+        "地点名称与日期（可选）"
+      ],
+      "preview": "../styles/image/image-watercolor-travel-postcard/preview.jpg",
+      "sample": null,
+      "source": {
+        "author": "数字生命卡兹克 (@Khazix0918)",
+        "url": "https://x.com/Khazix0918/status/2104401048324743646"
+      },
+      "json": "../styles/image/image-watercolor-travel-postcard/style.json",
+      "copy": "../docs/copy-prompts/image/image-watercolor-travel-postcard.md"
     },
     {
       "slug": "image-ink-double-exposure-portrait-poster",
@@ -1249,6 +1440,29 @@
       "copy": "../docs/copy-prompts/image/image-wuhan-breakfast-food-map-infographic.md"
     },
     {
+      "slug": "image-object-word-doodle-overlay",
+      "kind": "image",
+      "type": "source",
+      "title": "物体文字涂鸦原位替换",
+      "category": "社交媒体",
+      "summary": "只把照片中的椅子和玩偶转成由 Chair、Cat 单词笔画组成的手绘涂鸦。",
+      "tags": [
+        "文字涂鸦",
+        "局部编辑"
+      ],
+      "inputs": [
+        "一张包含椅子与椅上玩偶的照片"
+      ],
+      "preview": "../styles/image/image-object-word-doodle-overlay/preview.jpg",
+      "sample": null,
+      "source": {
+        "author": "数字生命卡兹克 (@Khazix0918)",
+        "url": "https://x.com/Khazix0918/status/2104401048324743646"
+      },
+      "json": "../styles/image/image-object-word-doodle-overlay/style.json",
+      "copy": "../docs/copy-prompts/image/image-object-word-doodle-overlay.md"
+    },
+    {
       "slug": "image-modern-art-event-flyer",
       "kind": "image",
       "type": "source",
@@ -1355,6 +1569,30 @@
       "source": null,
       "json": "../styles/image/image-botanical-plate/style.json",
       "copy": "../docs/copy-prompts/image/image-botanical-plate.md"
+    },
+    {
+      "slug": "image-concert-confetti-perspective-photo",
+      "kind": "image",
+      "type": "source",
+      "title": "演唱会彩带广角氛围照",
+      "category": "人像摄影",
+      "summary": "用现场人物照和彩带参考照合成低机位、应援棒贴近镜头的演唱会氛围画面。",
+      "tags": [
+        "演唱会",
+        "广角透视"
+      ],
+      "inputs": [
+        "图一：人物与演唱会现场照片",
+        "图二：同场演出的彩带氛围参考照"
+      ],
+      "preview": "../styles/image/image-concert-confetti-perspective-photo/preview.jpg",
+      "sample": null,
+      "source": {
+        "author": "数字生命卡兹克 (@Khazix0918)",
+        "url": "https://x.com/Khazix0918/status/2104401048324743646"
+      },
+      "json": "../styles/image/image-concert-confetti-perspective-photo/style.json",
+      "copy": "../docs/copy-prompts/image/image-concert-confetti-perspective-photo.md"
     },
     {
       "slug": "image-felt-country-miniature-world",

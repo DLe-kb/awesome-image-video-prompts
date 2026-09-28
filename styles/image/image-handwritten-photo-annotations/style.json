@@ -1,0 +1,17 @@
+{
+  "style_version": "1.0",
+  "style_slug": "image-handwritten-photo-annotations",
+  "kind": "image",
+  "type": "source",
+  "title": "生活照片手写涂鸦注释",
+  "category": "社交媒体",
+  "summary": "在生活照片留白处添加白色手写标题、短句和少量箭头星星，保留实景质感。",
+  "tags": ["手写排版", "照片注释"],
+  "prompt": "为照片添加ins风手绘涂鸦排版，保留原照片内容、构图与真实质感。根据画面内容，在空白处添加醒目的白色手写标题和一句简短俏皮的文案，笔画圆润、略带不规则感。搭配少量手绘箭头、星星、闪光、弧线与呼应主题的小图案，以白色为主、其他颜色做点缀。文字与涂鸦自然穿插，活泼随性、疏朗有留白，像亲手记录的生活照片。避开人物面部与重要主体，不堆满装饰，不将照片转成插画，不添加水印。",
+  "promptEn": "Add Instagram-style hand-drawn doodle typography to the photograph while preserving its original content, composition and realistic texture. Based on what the picture actually shows, place a prominent white handwritten title and one short playful line in available negative space, using rounded and slightly irregular strokes. Add just a few hand-drawn arrows, stars, sparkles, curved lines and small subject-related motifs, mostly in white with restrained color accents. Let the writing and doodles weave naturally through the photograph, lively and casual yet spacious, like a personal record of everyday life. Avoid faces and important subjects; do not fill every space, turn the photograph into an illustration or add a watermark.",
+  "inputs": ["一张有适当留白的生活照片", "可选：真实标题与一句简短文案"],
+  "source": {"author": "数字生命卡兹克 (@Khazix0918)", "url": "https://x.com/Khazix0918/status/2104401048324743646"},
+  "promptCredit": "来源长文第 12 项的中文原文与英文翻译；预览为原帖两组前后对比。",
+  "tip": "预览来自作者原帖，非本仓库重新生成；生成标题与短句时应核对事实，避免虚构地点、日期或人物经历。",
+  "preview": "preview.jpg"
+}

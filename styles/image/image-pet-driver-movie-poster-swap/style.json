@@ -1,0 +1,17 @@
+{
+  "style_version": "1.0",
+  "style_slug": "image-pet-driver-movie-poster-swap",
+  "kind": "image",
+  "type": "source",
+  "title": "宠物驾车电影海报换角",
+  "category": "海报设计",
+  "summary": "把电影海报中的驾驶员替换为宠物、乘客替换为指定人物。预览为原创示意，未按三图输入复测。",
+  "tags": ["宠物换角", "照片合成"],
+  "prompt": "仅将图一左侧人物替换为图二中的「小狗」，让「小狗」坐在驾驶位开车，右侧人物包括服装则替换为图三中的「角色」。",
+  "promptEn": "Replace only the person on the left in Image 1 with the dog from Image 2, seating the dog in the driver's position as if it is driving. Replace the person on the right, including their clothing, with the character from Image 3.",
+  "inputs": ["图一：有权使用的双人驾车海报底图", "图二：小狗照片", "图三：人物角色照片"],
+  "source": {"author": "数字生命卡兹克 (@Khazix0918)", "url": "https://x.com/Khazix0918/status/2104401048324743646"},
+  "promptCredit": "来源长文第 8 项附加变体的中文原文与英文翻译；预览为自制原创海报示意，不是原帖效果图。",
+  "tip": "使用前须提供有权编辑的双人驾车海报和角色照片。预览由独立文字生图展示视觉方向，没有用原文三张图片完成换角复测；不使用《绿皮书》原海报或演员肖像。",
+  "preview": "preview.jpg"
+}

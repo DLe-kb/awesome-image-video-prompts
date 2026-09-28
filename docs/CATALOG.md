@@ -2,7 +2,7 @@
 
 [返回首页](../README-ZH.md) · [在线画廊](../site/)
 
-## 生图（69）
+## 生图（79）
 
 ### 杯内鱼眼夏日冰饮广告
 
@@ -43,6 +43,14 @@
 生成蓝调时刻城市街头摄影，核心是一块包裹建筑转角、具有裸眼三维错觉的巨型户外广告屏。 · 来源案例
 
 [复制 Prompt](copy-prompts/image/image-city-corner-3d-billboard-photography.md) · [style.json](../styles/image/image-city-corner-3d-billboard-photography/style.json)
+
+### 宠物驾车电影海报换角
+
+[![宠物驾车电影海报换角](../styles/image/image-pet-driver-movie-poster-swap/preview.jpg)](copy-prompts/image/image-pet-driver-movie-poster-swap.md)
+
+把电影海报中的驾驶员替换为宠物、乘客替换为指定人物。预览为原创示意，未按三图输入复测。 · 来源案例
+
+[复制 Prompt](copy-prompts/image/image-pet-driver-movie-poster-swap.md) · [style.json](../styles/image/image-pet-driver-movie-poster-swap/style.json)
 
 ### 等轴测微缩厨房
 
@@ -260,6 +268,22 @@
 
 [复制 Prompt](copy-prompts/image/image-travel-souvenir-enamel-pin.md) · [style.json](../styles/image/image-travel-souvenir-enamel-pin/style.json)
 
+### 旅行碎片行李箱贴纸
+
+[![旅行碎片行李箱贴纸](../styles/image/image-travel-memory-suitcase-stickers/preview.jpg)](copy-prompts/image/image-travel-memory-suitcase-stickers.md)
+
+从多张旅行照片提取建筑、风景和美食，转成铺满展开行李箱内衬的水彩贴纸。预览为自制示意，未按十二图输入复测。 · 来源案例
+
+[复制 Prompt](copy-prompts/image/image-travel-memory-suitcase-stickers.md) · [style.json](../styles/image/image-travel-memory-suitcase-stickers/style.json)
+
+### 拍立得公仔旅行打卡
+
+[![拍立得公仔旅行打卡](../styles/image/image-polaroid-clay-travel-portrait/preview.jpg)](copy-prompts/image/image-polaroid-clay-travel-portrait.md)
+
+将旅行合照中的人物变成突破拍立得相纸边框的 Q 版黏土公仔。预览为自制示意，未用原帖照片编辑复测。 · 来源案例
+
+[复制 Prompt](copy-prompts/image/image-polaroid-clay-travel-portrait.md) · [style.json](../styles/image/image-polaroid-clay-travel-portrait/style.json)
+
 ### 烹饪速写插画叙事
 
 [![烹饪速写插画叙事](../styles/image/image-cooking-sketch-illustration-story/preview.jpg)](copy-prompts/image/image-cooking-sketch-illustration-story.md)
@@ -299,6 +323,14 @@
 生成横版电商首页主视觉，用悬浮陶瓷产品、超大字标和克制网页信息结构展示一组具有统一角色语言的商品。 · 来源案例
 
 [复制 Prompt](copy-prompts/image/image-playful-ceramic-ecommerce-hero.md) · [style.json](../styles/image/image-playful-ceramic-ecommerce-hero/style.json)
+
+### 人物城市旅行拼贴海报
+
+[![人物城市旅行拼贴海报](../styles/image/image-vintage-city-travel-collage-portrait/preview.jpg)](copy-prompts/image/image-vintage-city-travel-collage-portrait.md)
+
+围绕上传人物与指定城市，制作带地标、美食、地图、票据和邮戳的复古旅行拼贴海报。预览为自制示意，未用原帖照片编辑复测。 · 来源案例
+
+[复制 Prompt](copy-prompts/image/image-vintage-city-travel-collage-portrait.md) · [style.json](../styles/image/image-vintage-city-travel-collage-portrait/style.json)
 
 ### 人像摄影灯光方案网格
 
@@ -340,6 +372,14 @@
 
 [复制 Prompt](copy-prompts/image/image-deep-sea-freediving-adventure-photo.md) · [style.json](../styles/image/image-deep-sea-freediving-adventure-photo/style.json)
 
+### 生活照片手写涂鸦注释
+
+[![生活照片手写涂鸦注释](../styles/image/image-handwritten-photo-annotations/preview.jpg)](copy-prompts/image/image-handwritten-photo-annotations.md)
+
+在生活照片留白处添加白色手写标题、短句和少量箭头星星，保留实景质感。 · 来源案例
+
+[复制 Prompt](copy-prompts/image/image-handwritten-photo-annotations.md) · [style.json](../styles/image/image-handwritten-photo-annotations/style.json)
+
 ### 十五步写实食谱信息图
 
 [![十五步写实食谱信息图](../styles/image/image-fifteen-step-photorealistic-recipe/preview.jpg)](copy-prompts/image/image-fifteen-step-photorealistic-recipe.md)
@@ -348,6 +388,14 @@
 
 [复制 Prompt](copy-prompts/image/image-fifteen-step-photorealistic-recipe.md) · [style.json](../styles/image/image-fifteen-step-photorealistic-recipe/style.json)
 
+### 实景建筑原位贴纸
+
+[![实景建筑原位贴纸](../styles/image/image-inplace-landmark-travel-sticker/preview.jpg)](copy-prompts/image/image-inplace-landmark-travel-sticker.md)
+
+只把照片中的核心建筑重绘成原位覆盖的白边手绘旅行贴纸，其他区域仍是实景。预览为自制示意，未做局部编辑复测。 · 来源案例
+
+[复制 Prompt](copy-prompts/image/image-inplace-landmark-travel-sticker.md) · [style.json](../styles/image/image-inplace-landmark-travel-sticker/style.json)
+
 ### 食物爆炸拆解信息图
 
 [![食物爆炸拆解信息图](../styles/image/image-exploded-food-infographic/preview.jpg)](copy-prompts/image/image-exploded-food-infographic.md)
@@ -355,6 +403,14 @@
 把食物的不同组成部分按垂直顺序悬浮排列，生成写实爆炸拆解信息图。 · 来源案例
 
 [复制 Prompt](copy-prompts/image/image-exploded-food-infographic.md) · [style.json](../styles/image/image-exploded-food-infographic/style.json)
+
+### 手持美食飞溅定格
+
+[![手持美食飞溅定格](../styles/image/image-food-splash-freeze-frame/preview.jpg)](copy-prompts/image/image-food-splash-freeze-frame.md)
+
+仅增强镜头前的手持食物或饮品，形成超写实食材腾空飞溅的高速摄影效果。 · 来源案例
+
+[复制 Prompt](copy-prompts/image/image-food-splash-freeze-frame.md) · [style.json](../styles/image/image-food-splash-freeze-frame/style.json)
 
 ### 手工撕纸海报风格
 
@@ -379,6 +435,14 @@
 将照片转化为上半部真实摄影、下半部复古水彩编辑插画的 3:4 分屏海报。 · 来源案例
 
 [复制 Prompt](copy-prompts/image/image-watercolor-editorial-illustration-poster.md) · [style.json](../styles/image/image-watercolor-editorial-illustration-poster/style.json)
+
+### 水彩旅行手账明信片
+
+[![水彩旅行手账明信片](../styles/image/image-watercolor-travel-postcard/preview.jpg)](copy-prompts/image/image-watercolor-travel-postcard.md)
+
+把景点照片转成右侧水彩插画、左侧留白排版的横版旅行明信片。预览为自制示意，未用原帖照片编辑复测。 · 来源案例
+
+[复制 Prompt](copy-prompts/image/image-watercolor-travel-postcard.md) · [style.json](../styles/image/image-watercolor-travel-postcard/style.json)
 
 ### 水墨双重曝光人物海报
 
@@ -452,6 +516,14 @@
 
 [复制 Prompt](copy-prompts/image/image-wuhan-breakfast-food-map-infographic.md) · [style.json](../styles/image/image-wuhan-breakfast-food-map-infographic/style.json)
 
+### 物体文字涂鸦原位替换
+
+[![物体文字涂鸦原位替换](../styles/image/image-object-word-doodle-overlay/preview.jpg)](copy-prompts/image/image-object-word-doodle-overlay.md)
+
+只把照片中的椅子和玩偶转成由 Chair、Cat 单词笔画组成的手绘涂鸦。 · 来源案例
+
+[复制 Prompt](copy-prompts/image/image-object-word-doodle-overlay.md) · [style.json](../styles/image/image-object-word-doodle-overlay/style.json)
+
 ### 现代艺术活动传单
 
 [![现代艺术活动传单](../styles/image/image-modern-art-event-flyer/preview.jpg)](copy-prompts/image/image-modern-art-event-flyer.md)
@@ -491,6 +563,14 @@
 以标本主图和局部放大图组织清晰的植物学图版。 · 来源待核实
 
 [复制 Prompt](copy-prompts/image/image-botanical-plate.md) · [style.json](../styles/image/image-botanical-plate/style.json)
+
+### 演唱会彩带广角氛围照
+
+[![演唱会彩带广角氛围照](../styles/image/image-concert-confetti-perspective-photo/preview.jpg)](copy-prompts/image/image-concert-confetti-perspective-photo.md)
+
+用现场人物照和彩带参考照合成低机位、应援棒贴近镜头的演唱会氛围画面。 · 来源案例
+
+[复制 Prompt](copy-prompts/image/image-concert-confetti-perspective-photo.md) · [style.json](../styles/image/image-concert-confetti-perspective-photo/style.json)
 
 ### 羊毛毡国家微缩世界
 
