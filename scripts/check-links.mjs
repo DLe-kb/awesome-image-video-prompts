@@ -4,7 +4,8 @@ import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const pages = ['README.md', 'README-ZH.md', 'CONTRIBUTING.md', 'docs/CATALOG.md',
-  ...readdirSync(resolve(root, 'docs/copy-prompts')).map(name => `docs/copy-prompts/${name}`),
+  ...['image', 'video'].flatMap(kind => readdirSync(resolve(root, 'docs/copy-prompts', kind))
+    .map(name => `docs/copy-prompts/${kind}/${name}`)),
   'index.html', 'site/index.html'];
 let checked = 0;
 

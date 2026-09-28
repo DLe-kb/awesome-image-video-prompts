@@ -13,14 +13,14 @@
         "创意摄影"
       ],
       "inputs": [],
-      "preview": "../styles/image-inside-cup-fisheye-summer-drink-ad/preview.jpg",
+      "preview": "../styles/image/image-inside-cup-fisheye-summer-drink-ad/preview.jpg",
       "sample": null,
       "source": {
         "author": "@lovimg_com",
         "url": "https://x.com/lovimg_com/status/2077036659028484375"
       },
-      "json": "../styles/image-inside-cup-fisheye-summer-drink-ad/style.json",
-      "copy": "../docs/copy-prompts/image-inside-cup-fisheye-summer-drink-ad.md"
+      "json": "../styles/image/image-inside-cup-fisheye-summer-drink-ad/style.json",
+      "copy": "../docs/copy-prompts/image/image-inside-cup-fisheye-summer-drink-ad.md"
     },
     {
       "slug": "image-bento-food-packaging-concept",
@@ -34,14 +34,14 @@
         "图片转绘"
       ],
       "inputs": [],
-      "preview": "../styles/image-bento-food-packaging-concept/preview.jpg",
+      "preview": "../styles/image/image-bento-food-packaging-concept/preview.jpg",
       "sample": null,
       "source": {
         "author": "@小小东",
         "url": "https://x.com/xiaoxiaodong01/status/2096609211870576683"
       },
-      "json": "../styles/image-bento-food-packaging-concept/style.json",
-      "copy": "../docs/copy-prompts/image-bento-food-packaging-concept.md"
+      "json": "../styles/image/image-bento-food-packaging-concept/style.json",
+      "copy": "../docs/copy-prompts/image/image-bento-food-packaging-concept.md"
     },
     {
       "slug": "image-acrylic-hand-painted-split-poster",
@@ -55,14 +55,14 @@
         "手绘插画"
       ],
       "inputs": [],
-      "preview": "../styles/image-acrylic-hand-painted-split-poster/preview.jpg",
+      "preview": "../styles/image/image-acrylic-hand-painted-split-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@小小东",
         "url": "https://x.com/xiaoxiaodong01/status/2089997569829093688"
       },
-      "json": "../styles/image-acrylic-hand-painted-split-poster/style.json",
-      "copy": "../docs/copy-prompts/image-acrylic-hand-painted-split-poster.md"
+      "json": "../styles/image/image-acrylic-hand-painted-split-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-acrylic-hand-painted-split-poster.md"
     },
     {
       "slug": "image-miniature-city-map-travel-poster",
@@ -79,14 +79,14 @@
         "城市名称",
         "车辆名称"
       ],
-      "preview": "../styles/image-miniature-city-map-travel-poster/preview.jpg",
+      "preview": "../styles/image/image-miniature-city-map-travel-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@SimplyAnnisa",
         "url": "https://x.com/SimplyAnnisa/status/2062358269172101240"
       },
-      "json": "../styles/image-miniature-city-map-travel-poster/style.json",
-      "copy": "../docs/copy-prompts/image-miniature-city-map-travel-poster.md"
+      "json": "../styles/image/image-miniature-city-map-travel-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-miniature-city-map-travel-poster.md"
     },
     {
       "slug": "image-city-corner-3d-billboard-photography",
@@ -104,14 +104,14 @@
         "screenColorA",
         "screenColorB"
       ],
-      "preview": "../styles/image-city-corner-3d-billboard-photography/preview.jpg",
+      "preview": "../styles/image/image-city-corner-3d-billboard-photography/preview.jpg",
       "sample": null,
       "source": {
         "author": "@gaziziz",
         "url": "https://higgsfield.ai/publications/4ca41020-ddce-4ddb-90b5-6e0aa5e91bc7"
       },
-      "json": "../styles/image-city-corner-3d-billboard-photography/style.json",
-      "copy": "../docs/copy-prompts/image-city-corner-3d-billboard-photography.md"
+      "json": "../styles/image/image-city-corner-3d-billboard-photography/style.json",
+      "copy": "../docs/copy-prompts/image/image-city-corner-3d-billboard-photography.md"
     },
     {
       "slug": "image-isometric-miniature-kitchen",
@@ -125,14 +125,14 @@
         "微缩场景"
       ],
       "inputs": [],
-      "preview": "../styles/image-isometric-miniature-kitchen/preview.jpg",
+      "preview": "../styles/image/image-isometric-miniature-kitchen/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Berryxia.AI",
         "url": "https://x.com/berryxia/status/2096158415894835518"
       },
-      "json": "../styles/image-isometric-miniature-kitchen/style.json",
-      "copy": "../docs/copy-prompts/image-isometric-miniature-kitchen.md"
+      "json": "../styles/image/image-isometric-miniature-kitchen/style.json",
+      "copy": "../docs/copy-prompts/image/image-isometric-miniature-kitchen.md"
     },
     {
       "slug": "image-cinematic-action-rpg-screenshot",
@@ -152,14 +152,14 @@
         "bossName",
         "lightingCondition"
       ],
-      "preview": "../styles/image-cinematic-action-rpg-screenshot/preview.jpg",
+      "preview": "../styles/image/image-cinematic-action-rpg-screenshot/preview.jpg",
       "sample": null,
       "source": {
         "author": "@karimsky_dev",
         "url": "https://higgsfield.ai/publications/4051f3f1-9e66-418d-aa75-024f2c5ffc62"
       },
-      "json": "../styles/image-cinematic-action-rpg-screenshot/style.json",
-      "copy": "../docs/copy-prompts/image-cinematic-action-rpg-screenshot.md"
+      "json": "../styles/image/image-cinematic-action-rpg-screenshot/style.json",
+      "copy": "../docs/copy-prompts/image/image-cinematic-action-rpg-screenshot.md"
     },
     {
       "slug": "image-animated-campus-world-reference-board",
@@ -173,14 +173,14 @@
         "多视角一致性"
       ],
       "inputs": [],
-      "preview": "../styles/image-animated-campus-world-reference-board/preview.jpg",
+      "preview": "../styles/image/image-animated-campus-world-reference-board/preview.jpg",
       "sample": null,
       "source": {
         "author": "@さんかくてん",
         "url": "https://x.com/sankakuten91256/status/2096447146614747210"
       },
-      "json": "../styles/image-animated-campus-world-reference-board/style.json",
-      "copy": "../docs/copy-prompts/image-animated-campus-world-reference-board.md"
+      "json": "../styles/image/image-animated-campus-world-reference-board/style.json",
+      "copy": "../docs/copy-prompts/image/image-animated-campus-world-reference-board.md"
     },
     {
       "slug": "image-solar-terms-editorial-visual",
@@ -194,14 +194,14 @@
         "编辑设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-solar-terms-editorial-visual/preview.jpg",
+      "preview": "../styles/image/image-solar-terms-editorial-visual/preview.jpg",
       "sample": null,
       "source": {
         "author": "@小小东",
         "url": "https://x.com/xiaoxiaodong01/status/2089291663466508680"
       },
-      "json": "../styles/image-solar-terms-editorial-visual/style.json",
-      "copy": "../docs/copy-prompts/image-solar-terms-editorial-visual.md"
+      "json": "../styles/image/image-solar-terms-editorial-visual/style.json",
+      "copy": "../docs/copy-prompts/image/image-solar-terms-editorial-visual.md"
     },
     {
       "slug": "image-french-new-wave-torn-paper-poster",
@@ -220,14 +220,14 @@
         "品牌名称/活动名称/即将推出/日期",
         "TAGLINE"
       ],
-      "preview": "../styles/image-french-new-wave-torn-paper-poster/preview.jpg",
+      "preview": "../styles/image/image-french-new-wave-torn-paper-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@bananaprompts",
         "url": "https://x.com/bananaprompts/status/2048541390900994476"
       },
-      "json": "../styles/image-french-new-wave-torn-paper-poster/style.json",
-      "copy": "../docs/copy-prompts/image-french-new-wave-torn-paper-poster.md"
+      "json": "../styles/image/image-french-new-wave-torn-paper-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-french-new-wave-torn-paper-poster.md"
     },
     {
       "slug": "image-reflective-ski-gear-landing-page",
@@ -246,14 +246,14 @@
         "headline",
         "subheadline"
       ],
-      "preview": "../styles/image-reflective-ski-gear-landing-page/preview.jpg",
+      "preview": "../styles/image/image-reflective-ski-gear-landing-page/preview.jpg",
       "sample": null,
       "source": {
         "author": "@surreal_pencil_sage24",
         "url": "https://higgsfield.ai/publications/0a69afb4-50d7-4ed7-aa39-48b16353f4e2"
       },
-      "json": "../styles/image-reflective-ski-gear-landing-page/style.json",
-      "copy": "../docs/copy-prompts/image-reflective-ski-gear-landing-page.md"
+      "json": "../styles/image/image-reflective-ski-gear-landing-page/style.json",
+      "copy": "../docs/copy-prompts/image/image-reflective-ski-gear-landing-page.md"
     },
     {
       "slug": "image-split-canvas-editorial-art-poster",
@@ -267,14 +267,14 @@
         "编辑设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-split-canvas-editorial-art-poster/preview.jpg",
+      "preview": "../styles/image/image-split-canvas-editorial-art-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@𝗦𝗮𝗻𝗶𝗮",
         "url": "https://x.com/saniaspeaks_/status/2097176979497791899"
       },
-      "json": "../styles/image-split-canvas-editorial-art-poster/style.json",
-      "copy": "../docs/copy-prompts/image-split-canvas-editorial-art-poster.md"
+      "json": "../styles/image/image-split-canvas-editorial-art-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-split-canvas-editorial-art-poster.md"
     },
     {
       "slug": "image-graded-english-magazine-reading-page",
@@ -288,14 +288,14 @@
         "编辑设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-graded-english-magazine-reading-page/preview.jpg",
+      "preview": "../styles/image/image-graded-english-magazine-reading-page/preview.jpg",
       "sample": null,
       "source": {
         "author": "knowledgefxg",
         "url": "https://x.com/knowledgefxg/status/2096249812194869289"
       },
-      "json": "../styles/image-graded-english-magazine-reading-page/style.json",
-      "copy": "../docs/copy-prompts/image-graded-english-magazine-reading-page.md"
+      "json": "../styles/image/image-graded-english-magazine-reading-page/style.json",
+      "copy": "../docs/copy-prompts/image/image-graded-english-magazine-reading-page.md"
     },
     {
       "slug": "image-vintage-scientific-botanical-poster",
@@ -309,14 +309,14 @@
         "手绘插画"
       ],
       "inputs": [],
-      "preview": "../styles/image-vintage-scientific-botanical-poster/preview.jpg",
+      "preview": "../styles/image/image-vintage-scientific-botanical-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@AlexAImaginator",
         "url": "https://x.com/TraffAlex/status/2095583733264879803"
       },
-      "json": "../styles/image-vintage-scientific-botanical-poster/style.json",
-      "copy": "../docs/copy-prompts/image-vintage-scientific-botanical-poster.md"
+      "json": "../styles/image/image-vintage-scientific-botanical-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-vintage-scientific-botanical-poster.md"
     },
     {
       "slug": "image-concept-sofa-development-board",
@@ -330,14 +330,14 @@
         "工业设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-concept-sofa-development-board/preview.jpg",
+      "preview": "../styles/image/image-concept-sofa-development-board/preview.jpg",
       "sample": null,
       "source": {
         "author": "@ShamsAmin56",
         "url": "https://x.com/ShamsAmin56/status/2050281206139461780"
       },
-      "json": "../styles/image-concept-sofa-development-board/style.json",
-      "copy": "../docs/copy-prompts/image-concept-sofa-development-board.md"
+      "json": "../styles/image/image-concept-sofa-development-board/style.json",
+      "copy": "../docs/copy-prompts/image/image-concept-sofa-development-board.md"
     },
     {
       "slug": "image-haute-couture-fashion-magazine-cover",
@@ -351,14 +351,14 @@
         "编辑设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-haute-couture-fashion-magazine-cover/preview.jpg",
+      "preview": "../styles/image/image-haute-couture-fashion-magazine-cover/preview.jpg",
       "sample": null,
       "source": {
         "author": "@SPEEDAI07",
         "url": "https://x.com/SPEEDAI07/status/2048573343066992919"
       },
-      "json": "../styles/image-haute-couture-fashion-magazine-cover/style.json",
-      "copy": "../docs/copy-prompts/image-haute-couture-fashion-magazine-cover.md"
+      "json": "../styles/image/image-haute-couture-fashion-magazine-cover/style.json",
+      "copy": "../docs/copy-prompts/image/image-haute-couture-fashion-magazine-cover.md"
     },
     {
       "slug": "image-premium-food-commercial-storyboard",
@@ -374,14 +374,14 @@
       "inputs": [
         "productName"
       ],
-      "preview": "../styles/image-premium-food-commercial-storyboard/preview.jpg",
+      "preview": "../styles/image/image-premium-food-commercial-storyboard/preview.jpg",
       "sample": null,
       "source": {
         "author": "@ÀBDŪLLÂH",
         "url": "https://x.com/itxabdullaa/status/2096915887504982258"
       },
-      "json": "../styles/image-premium-food-commercial-storyboard/style.json",
-      "copy": "../docs/copy-prompts/image-premium-food-commercial-storyboard.md"
+      "json": "../styles/image/image-premium-food-commercial-storyboard/style.json",
+      "copy": "../docs/copy-prompts/image/image-premium-food-commercial-storyboard.md"
     },
     {
       "slug": "image-grimm-fairy-tale-woodcut-poster",
@@ -395,14 +395,14 @@
         "手工材质"
       ],
       "inputs": [],
-      "preview": "../styles/image-grimm-fairy-tale-woodcut-poster/preview.jpg",
+      "preview": "../styles/image/image-grimm-fairy-tale-woodcut-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@小小东",
         "url": "https://x.com/xiaoxiaodong01/status/2089987808664719723"
       },
-      "json": "../styles/image-grimm-fairy-tale-woodcut-poster/style.json",
-      "copy": "../docs/copy-prompts/image-grimm-fairy-tale-woodcut-poster.md"
+      "json": "../styles/image/image-grimm-fairy-tale-woodcut-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-grimm-fairy-tale-woodcut-poster.md"
     },
     {
       "slug": "image-minimal-abstract-geometric-deconstruction-poster",
@@ -416,14 +416,14 @@
         "编辑设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-minimal-abstract-geometric-deconstruction-poster/preview.jpg",
+      "preview": "../styles/image/image-minimal-abstract-geometric-deconstruction-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@小小东",
         "url": "https://x.com/xiaoxiaodong01/status/2090123569984679990"
       },
-      "json": "../styles/image-minimal-abstract-geometric-deconstruction-poster/style.json",
-      "copy": "../docs/copy-prompts/image-minimal-abstract-geometric-deconstruction-poster.md"
+      "json": "../styles/image/image-minimal-abstract-geometric-deconstruction-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-minimal-abstract-geometric-deconstruction-poster.md"
     },
     {
       "slug": "image-minimal-conceptual-line-art-poster",
@@ -437,14 +437,14 @@
         "概念艺术"
       ],
       "inputs": [],
-      "preview": "../styles/image-minimal-conceptual-line-art-poster/preview.jpg",
+      "preview": "../styles/image/image-minimal-conceptual-line-art-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@小小东",
         "url": "https://x.com/xiaoxiaodong01/status/2089959872876228689"
       },
-      "json": "../styles/image-minimal-conceptual-line-art-poster/style.json",
-      "copy": "../docs/copy-prompts/image-minimal-conceptual-line-art-poster.md"
+      "json": "../styles/image/image-minimal-conceptual-line-art-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-minimal-conceptual-line-art-poster.md"
     },
     {
       "slug": "image-architecture-photo-concept-sketch-diptych",
@@ -458,14 +458,14 @@
         "图片转绘"
       ],
       "inputs": [],
-      "preview": "../styles/image-architecture-photo-concept-sketch-diptych/preview.jpg",
+      "preview": "../styles/image/image-architecture-photo-concept-sketch-diptych/preview.jpg",
       "sample": null,
       "source": {
         "author": "@小小东",
         "url": "https://x.com/xiaoxiaodong01/status/2096290195792642498"
       },
-      "json": "../styles/image-architecture-photo-concept-sketch-diptych/style.json",
-      "copy": "../docs/copy-prompts/image-architecture-photo-concept-sketch-diptych.md"
+      "json": "../styles/image/image-architecture-photo-concept-sketch-diptych/style.json",
+      "copy": "../docs/copy-prompts/image/image-architecture-photo-concept-sketch-diptych.md"
     },
     {
       "slug": "image-berry-smoothie-commercial-photo",
@@ -479,14 +479,14 @@
         "产品摄影"
       ],
       "inputs": [],
-      "preview": "../styles/image-berry-smoothie-commercial-photo/preview.jpg",
+      "preview": "../styles/image/image-berry-smoothie-commercial-photo/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Dua Fatima",
         "url": "https://x.com/DuaFatimaAi/status/2096555489073279173"
       },
-      "json": "../styles/image-berry-smoothie-commercial-photo/style.json",
-      "copy": "../docs/copy-prompts/image-berry-smoothie-commercial-photo.md"
+      "json": "../styles/image/image-berry-smoothie-commercial-photo/style.json",
+      "copy": "../docs/copy-prompts/image/image-berry-smoothie-commercial-photo.md"
     },
     {
       "slug": "image-street-scroll-backdrop-fashion-editorial",
@@ -507,14 +507,14 @@
         "skyColor",
         "heroGarmentColor"
       ],
-      "preview": "../styles/image-street-scroll-backdrop-fashion-editorial/preview.jpg",
+      "preview": "../styles/image/image-street-scroll-backdrop-fashion-editorial/preview.jpg",
       "sample": null,
       "source": {
         "author": "@renaissance_soda_warm52",
         "url": "https://higgsfield.ai/publications/e17319aa-0fd3-4868-b158-f7f16330c8e1"
       },
-      "json": "../styles/image-street-scroll-backdrop-fashion-editorial/style.json",
-      "copy": "../docs/copy-prompts/image-street-scroll-backdrop-fashion-editorial.md"
+      "json": "../styles/image/image-street-scroll-backdrop-fashion-editorial/style.json",
+      "copy": "../docs/copy-prompts/image/image-street-scroll-backdrop-fashion-editorial.md"
     },
     {
       "slug": "image-vr-headset-exploded-interface-diagram",
@@ -528,15 +528,15 @@
         "工业设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-vr-headset-exploded-interface-diagram/preview.jpg",
+      "preview": "../styles/image/image-vr-headset-exploded-interface-diagram/preview.jpg",
       "sample": null,
       "source": {
         "author": "@wory37303852",
         "url": "https://x.com/wory37303852",
         "linkType": "profile"
       },
-      "json": "../styles/image-vr-headset-exploded-interface-diagram/style.json",
-      "copy": "../docs/copy-prompts/image-vr-headset-exploded-interface-diagram.md"
+      "json": "../styles/image/image-vr-headset-exploded-interface-diagram/style.json",
+      "copy": "../docs/copy-prompts/image/image-vr-headset-exploded-interface-diagram.md"
     },
     {
       "slug": "image-boutique-ecommerce-product-flatlay-grid",
@@ -557,14 +557,14 @@
         "图像质量、呈现与构图规范",
         "布局与输出的严格限制（强制性）"
       ],
-      "preview": "../styles/image-boutique-ecommerce-product-flatlay-grid/preview.jpg",
+      "preview": "../styles/image/image-boutique-ecommerce-product-flatlay-grid/preview.jpg",
       "sample": null,
       "source": {
         "author": "@AI Guide-Note - 実務で使えるAI活用メディア",
         "url": "https://x.com/AIGuideNote/status/2096906819713081810"
       },
-      "json": "../styles/image-boutique-ecommerce-product-flatlay-grid/style.json",
-      "copy": "../docs/copy-prompts/image-boutique-ecommerce-product-flatlay-grid.md"
+      "json": "../styles/image/image-boutique-ecommerce-product-flatlay-grid/style.json",
+      "copy": "../docs/copy-prompts/image/image-boutique-ecommerce-product-flatlay-grid.md"
     },
     {
       "slug": "image-tech-product-review-thumbnail",
@@ -582,14 +582,14 @@
         "questionText",
         "productName"
       ],
-      "preview": "../styles/image-tech-product-review-thumbnail/preview.jpg",
+      "preview": "../styles/image/image-tech-product-review-thumbnail/preview.jpg",
       "sample": null,
       "source": {
         "author": "@BLCNYY",
         "url": "https://x.com/BLCNYY/status/2090897198351368575"
       },
-      "json": "../styles/image-tech-product-review-thumbnail/style.json",
-      "copy": "../docs/copy-prompts/image-tech-product-review-thumbnail.md"
+      "json": "../styles/image/image-tech-product-review-thumbnail/style.json",
+      "copy": "../docs/copy-prompts/image/image-tech-product-review-thumbnail.md"
     },
     {
       "slug": "image-croissant-baking-storyboard",
@@ -603,14 +603,14 @@
         "商业广告"
       ],
       "inputs": [],
-      "preview": "../styles/image-croissant-baking-storyboard/preview.jpg",
+      "preview": "../styles/image/image-croissant-baking-storyboard/preview.jpg",
       "sample": null,
       "source": {
         "author": "@TechieBySA",
         "url": "https://x.com/TechieBySA/status/2053523784481554759"
       },
-      "json": "../styles/image-croissant-baking-storyboard/style.json",
-      "copy": "../docs/copy-prompts/image-croissant-baking-storyboard.md"
+      "json": "../styles/image/image-croissant-baking-storyboard/style.json",
+      "copy": "../docs/copy-prompts/image/image-croissant-baking-storyboard.md"
     },
     {
       "slug": "image-faithful-vintage-portrait-restoration",
@@ -624,14 +624,14 @@
         "怀旧"
       ],
       "inputs": [],
-      "preview": "../styles/image-faithful-vintage-portrait-restoration/preview.jpg",
+      "preview": "../styles/image/image-faithful-vintage-portrait-restoration/preview.jpg",
       "sample": null,
       "source": {
         "author": "@一枚卓子（创意来源：aliailab）",
         "url": "https://www.douyin.com/video/7631071260739646650"
       },
-      "json": "../styles/image-faithful-vintage-portrait-restoration/style.json",
-      "copy": "../docs/copy-prompts/image-faithful-vintage-portrait-restoration.md"
+      "json": "../styles/image/image-faithful-vintage-portrait-restoration/style.json",
+      "copy": "../docs/copy-prompts/image/image-faithful-vintage-portrait-restoration.md"
     },
     {
       "slug": "image-pear-tart-storyboard",
@@ -645,11 +645,11 @@
         "商业广告"
       ],
       "inputs": [],
-      "preview": "../styles/image-pear-tart-storyboard/preview.webp",
+      "preview": "../styles/image/image-pear-tart-storyboard/preview.webp",
       "sample": null,
       "source": null,
-      "json": "../styles/image-pear-tart-storyboard/style.json",
-      "copy": "../docs/copy-prompts/image-pear-tart-storyboard.md"
+      "json": "../styles/image/image-pear-tart-storyboard/style.json",
+      "copy": "../docs/copy-prompts/image/image-pear-tart-storyboard.md"
     },
     {
       "slug": "image-rio-travel-ticket-paper-diorama-poster",
@@ -663,14 +663,14 @@
         "手工材质"
       ],
       "inputs": [],
-      "preview": "../styles/image-rio-travel-ticket-paper-diorama-poster/preview.jpg",
+      "preview": "../styles/image/image-rio-travel-ticket-paper-diorama-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@john_my07",
         "url": "https://x.com/john_my07/status/2091408386466214031"
       },
-      "json": "../styles/image-rio-travel-ticket-paper-diorama-poster/style.json",
-      "copy": "../docs/copy-prompts/image-rio-travel-ticket-paper-diorama-poster.md"
+      "json": "../styles/image/image-rio-travel-ticket-paper-diorama-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-rio-travel-ticket-paper-diorama-poster.md"
     },
     {
       "slug": "image-six-panel-miniature-beverage-ad",
@@ -684,14 +684,14 @@
         "微缩场景"
       ],
       "inputs": [],
-      "preview": "../styles/image-six-panel-miniature-beverage-ad/preview.jpg",
+      "preview": "../styles/image/image-six-panel-miniature-beverage-ad/preview.jpg",
       "sample": null,
       "source": {
         "author": "@ou_zhen599",
         "url": "https://x.com/ou_zhen599/status/2091160215928574397"
       },
-      "json": "../styles/image-six-panel-miniature-beverage-ad/style.json",
-      "copy": "../docs/copy-prompts/image-six-panel-miniature-beverage-ad.md"
+      "json": "../styles/image/image-six-panel-miniature-beverage-ad/style.json",
+      "copy": "../docs/copy-prompts/image/image-six-panel-miniature-beverage-ad.md"
     },
     {
       "slug": "image-travel-souvenir-enamel-pin",
@@ -705,14 +705,14 @@
         "手工材质"
       ],
       "inputs": [],
-      "preview": "../styles/image-travel-souvenir-enamel-pin/preview.jpg",
+      "preview": "../styles/image/image-travel-souvenir-enamel-pin/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Emmma__0",
         "url": "https://x.com/Emmma__0/status/2093194689222705645"
       },
-      "json": "../styles/image-travel-souvenir-enamel-pin/style.json",
-      "copy": "../docs/copy-prompts/image-travel-souvenir-enamel-pin.md"
+      "json": "../styles/image/image-travel-souvenir-enamel-pin/style.json",
+      "copy": "../docs/copy-prompts/image/image-travel-souvenir-enamel-pin.md"
     },
     {
       "slug": "image-cooking-sketch-illustration-story",
@@ -726,14 +726,14 @@
         "手绘插画"
       ],
       "inputs": [],
-      "preview": "../styles/image-cooking-sketch-illustration-story/preview.jpg",
+      "preview": "../styles/image/image-cooking-sketch-illustration-story/preview.jpg",
       "sample": null,
       "source": {
         "author": "@simeon-sanai",
         "url": "https://x.com/Naiknelofar788/status/2096823849702785331"
       },
-      "json": "../styles/image-cooking-sketch-illustration-story/style.json",
-      "copy": "../docs/copy-prompts/image-cooking-sketch-illustration-story.md"
+      "json": "../styles/image/image-cooking-sketch-illustration-story/style.json",
+      "copy": "../docs/copy-prompts/image/image-cooking-sketch-illustration-story.md"
     },
     {
       "slug": "image-y2k-streetwear-mobile-landing-page",
@@ -752,14 +752,14 @@
         "collectionName",
         "ctaText"
       ],
-      "preview": "../styles/image-y2k-streetwear-mobile-landing-page/preview.jpg",
+      "preview": "../styles/image/image-y2k-streetwear-mobile-landing-page/preview.jpg",
       "sample": null,
       "source": {
         "author": "@cezanne_cupcake_haze12",
         "url": "https://higgsfield.ai/publications/0bbfc974-900c-4a1e-8561-3d9ada80177a"
       },
-      "json": "../styles/image-y2k-streetwear-mobile-landing-page/style.json",
-      "copy": "../docs/copy-prompts/image-y2k-streetwear-mobile-landing-page.md"
+      "json": "../styles/image/image-y2k-streetwear-mobile-landing-page/style.json",
+      "copy": "../docs/copy-prompts/image/image-y2k-streetwear-mobile-landing-page.md"
     },
     {
       "slug": "image-y2k-virtual-try-on-game-ui",
@@ -778,14 +778,14 @@
         "primaryCta",
         "secondaryCta"
       ],
-      "preview": "../styles/image-y2k-virtual-try-on-game-ui/preview.jpg",
+      "preview": "../styles/image/image-y2k-virtual-try-on-game-ui/preview.jpg",
       "sample": null,
       "source": {
         "author": "@steampunk_donut_jade65",
         "url": "https://higgsfield.ai/publications/fb624032-7cc1-47b5-8df4-d8a8cfc5823e"
       },
-      "json": "../styles/image-y2k-virtual-try-on-game-ui/style.json",
-      "copy": "../docs/copy-prompts/image-y2k-virtual-try-on-game-ui.md"
+      "json": "../styles/image/image-y2k-virtual-try-on-game-ui/style.json",
+      "copy": "../docs/copy-prompts/image/image-y2k-virtual-try-on-game-ui.md"
     },
     {
       "slug": "image-blue-white-dunhuang-embroidery-quadriptych",
@@ -799,14 +799,14 @@
         "手工材质"
       ],
       "inputs": [],
-      "preview": "../styles/image-blue-white-dunhuang-embroidery-quadriptych/preview.jpg",
+      "preview": "../styles/image/image-blue-white-dunhuang-embroidery-quadriptych/preview.jpg",
       "sample": null,
       "source": {
         "author": "@zhidawang219555",
         "url": "https://x.com/zhidawang219555/status/2090310144190218272"
       },
-      "json": "../styles/image-blue-white-dunhuang-embroidery-quadriptych/style.json",
-      "copy": "../docs/copy-prompts/image-blue-white-dunhuang-embroidery-quadriptych.md"
+      "json": "../styles/image/image-blue-white-dunhuang-embroidery-quadriptych/style.json",
+      "copy": "../docs/copy-prompts/image/image-blue-white-dunhuang-embroidery-quadriptych.md"
     },
     {
       "slug": "image-playful-ceramic-ecommerce-hero",
@@ -825,14 +825,14 @@
         "collectionName",
         "ctaText"
       ],
-      "preview": "../styles/image-playful-ceramic-ecommerce-hero/preview.jpg",
+      "preview": "../styles/image/image-playful-ceramic-ecommerce-hero/preview.jpg",
       "sample": null,
       "source": {
         "author": "@impressionist_cookie_haze96",
         "url": "https://higgsfield.ai/publications/2f589a2f-cc4e-422c-9285-97d65fd49540"
       },
-      "json": "../styles/image-playful-ceramic-ecommerce-hero/style.json",
-      "copy": "../docs/copy-prompts/image-playful-ceramic-ecommerce-hero.md"
+      "json": "../styles/image/image-playful-ceramic-ecommerce-hero/style.json",
+      "copy": "../docs/copy-prompts/image/image-playful-ceramic-ecommerce-hero.md"
     },
     {
       "slug": "image-portrait-lighting-scheme-grid",
@@ -846,14 +846,14 @@
         "多视角一致性"
       ],
       "inputs": [],
-      "preview": "../styles/image-portrait-lighting-scheme-grid/preview.jpg",
+      "preview": "../styles/image/image-portrait-lighting-scheme-grid/preview.jpg",
       "sample": null,
       "source": {
         "author": "@M. Asif",
         "url": "https://x.com/meAsifAi/status/2095857760537805130"
       },
-      "json": "../styles/image-portrait-lighting-scheme-grid/style.json",
-      "copy": "../docs/copy-prompts/image-portrait-lighting-scheme-grid.md"
+      "json": "../styles/image/image-portrait-lighting-scheme-grid/style.json",
+      "copy": "../docs/copy-prompts/image/image-portrait-lighting-scheme-grid.md"
     },
     {
       "slug": "image-desert-car-wash-documentary-photo",
@@ -870,14 +870,14 @@
         "vehicleColor",
         "relationshipDescription"
       ],
-      "preview": "../styles/image-desert-car-wash-documentary-photo/preview.jpg",
+      "preview": "../styles/image/image-desert-car-wash-documentary-photo/preview.jpg",
       "sample": null,
       "source": {
         "author": "@institutional_butterflying",
         "url": "https://higgsfield.ai/publications/bdeaf74f-4300-4ebd-9125-7df4f37d2733"
       },
-      "json": "../styles/image-desert-car-wash-documentary-photo/style.json",
-      "copy": "../docs/copy-prompts/image-desert-car-wash-documentary-photo.md"
+      "json": "../styles/image/image-desert-car-wash-documentary-photo/style.json",
+      "copy": "../docs/copy-prompts/image/image-desert-car-wash-documentary-photo.md"
     },
     {
       "slug": "image-luxury-mechanical-watch-technical-guide",
@@ -895,14 +895,14 @@
         "MODEL REFERENCE",
         "MANUFACTURE / COLLECTION"
       ],
-      "preview": "../styles/image-luxury-mechanical-watch-technical-guide/preview.jpg",
+      "preview": "../styles/image/image-luxury-mechanical-watch-technical-guide/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Gdgtify",
         "url": "https://x.com/Gdgtify/status/2056928396991488312"
       },
-      "json": "../styles/image-luxury-mechanical-watch-technical-guide/style.json",
-      "copy": "../docs/copy-prompts/image-luxury-mechanical-watch-technical-guide.md"
+      "json": "../styles/image/image-luxury-mechanical-watch-technical-guide/style.json",
+      "copy": "../docs/copy-prompts/image/image-luxury-mechanical-watch-technical-guide.md"
     },
     {
       "slug": "image-social-media-giveaway-banner",
@@ -923,14 +923,14 @@
         "图像质量、呈现方式与构图规范",
         "布局与输出的严格限制（强制执行）"
       ],
-      "preview": "../styles/image-social-media-giveaway-banner/preview.jpg",
+      "preview": "../styles/image/image-social-media-giveaway-banner/preview.jpg",
       "sample": null,
       "source": {
         "author": "@AI Guide-Note - 実務で使えるAI活用メディア",
         "url": "https://x.com/AIGuideNote/status/2097183473601569109"
       },
-      "json": "../styles/image-social-media-giveaway-banner/style.json",
-      "copy": "../docs/copy-prompts/image-social-media-giveaway-banner.md"
+      "json": "../styles/image/image-social-media-giveaway-banner/style.json",
+      "copy": "../docs/copy-prompts/image/image-social-media-giveaway-banner.md"
     },
     {
       "slug": "image-deep-sea-freediving-adventure-photo",
@@ -944,14 +944,14 @@
         "创意摄影"
       ],
       "inputs": [],
-      "preview": "../styles/image-deep-sea-freediving-adventure-photo/preview.jpg",
+      "preview": "../styles/image/image-deep-sea-freediving-adventure-photo/preview.jpg",
       "sample": null,
       "source": {
         "author": "@steampunk_donut_jade65",
         "url": "https://higgsfield.ai/publications/32410751-27ee-425f-aa0f-dbc0a67aaf34"
       },
-      "json": "../styles/image-deep-sea-freediving-adventure-photo/style.json",
-      "copy": "../docs/copy-prompts/image-deep-sea-freediving-adventure-photo.md"
+      "json": "../styles/image/image-deep-sea-freediving-adventure-photo/style.json",
+      "copy": "../docs/copy-prompts/image/image-deep-sea-freediving-adventure-photo.md"
     },
     {
       "slug": "image-fifteen-step-photorealistic-recipe",
@@ -964,14 +964,14 @@
         "食品饮料"
       ],
       "inputs": [],
-      "preview": "../styles/image-fifteen-step-photorealistic-recipe/preview.jpg",
+      "preview": "../styles/image/image-fifteen-step-photorealistic-recipe/preview.jpg",
       "sample": null,
       "source": {
         "author": "Oleksa AI（X：`@OleksaFrame`）。",
         "url": "https://x.com/OleksaFrame/status/2097669808800113040"
       },
-      "json": "../styles/image-fifteen-step-photorealistic-recipe/style.json",
-      "copy": "../docs/copy-prompts/image-fifteen-step-photorealistic-recipe.md"
+      "json": "../styles/image/image-fifteen-step-photorealistic-recipe/style.json",
+      "copy": "../docs/copy-prompts/image/image-fifteen-step-photorealistic-recipe.md"
     },
     {
       "slug": "image-exploded-food-infographic",
@@ -985,14 +985,14 @@
         "产品视觉"
       ],
       "inputs": [],
-      "preview": "../styles/image-exploded-food-infographic/preview.jpg",
+      "preview": "../styles/image/image-exploded-food-infographic/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Strength04_X",
         "url": "https://x.com/Strength04_X/status/2056018963084226866"
       },
-      "json": "../styles/image-exploded-food-infographic/style.json",
-      "copy": "../docs/copy-prompts/image-exploded-food-infographic.md"
+      "json": "../styles/image/image-exploded-food-infographic/style.json",
+      "copy": "../docs/copy-prompts/image/image-exploded-food-infographic.md"
     },
     {
       "slug": "image-hand-torn-paper-poster",
@@ -1006,14 +1006,14 @@
         "拼贴设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-hand-torn-paper-poster/preview.jpg",
+      "preview": "../styles/image/image-hand-torn-paper-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@小小东",
         "url": "https://x.com/xiaoxiaodong01/status/2089252321603862547"
       },
-      "json": "../styles/image-hand-torn-paper-poster/style.json",
-      "copy": "../docs/copy-prompts/image-hand-torn-paper-poster.md"
+      "json": "../styles/image/image-hand-torn-paper-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-hand-torn-paper-poster.md"
     },
     {
       "slug": "image-duotone-studio-commercial-portrait",
@@ -1027,14 +1027,14 @@
         "创意摄影"
       ],
       "inputs": [],
-      "preview": "../styles/image-duotone-studio-commercial-portrait/preview.jpg",
+      "preview": "../styles/image/image-duotone-studio-commercial-portrait/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Abkr Sadiq",
         "url": "https://x.com/abs_uiux/status/2097210827652968512"
       },
-      "json": "../styles/image-duotone-studio-commercial-portrait/style.json",
-      "copy": "../docs/copy-prompts/image-duotone-studio-commercial-portrait.md"
+      "json": "../styles/image/image-duotone-studio-commercial-portrait/style.json",
+      "copy": "../docs/copy-prompts/image/image-duotone-studio-commercial-portrait.md"
     },
     {
       "slug": "image-watercolor-editorial-illustration-poster",
@@ -1048,14 +1048,14 @@
         "手绘插画"
       ],
       "inputs": [],
-      "preview": "../styles/image-watercolor-editorial-illustration-poster/preview.jpg",
+      "preview": "../styles/image/image-watercolor-editorial-illustration-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@小小东",
         "url": "https://x.com/xiaoxiaodong01/status/2089893684527730867"
       },
-      "json": "../styles/image-watercolor-editorial-illustration-poster/style.json",
-      "copy": "../docs/copy-prompts/image-watercolor-editorial-illustration-poster.md"
+      "json": "../styles/image/image-watercolor-editorial-illustration-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-watercolor-editorial-illustration-poster.md"
     },
     {
       "slug": "image-ink-double-exposure-portrait-poster",
@@ -1071,14 +1071,14 @@
       "inputs": [
         "SUBJECT"
       ],
-      "preview": "../styles/image-ink-double-exposure-portrait-poster/preview.jpg",
+      "preview": "../styles/image/image-ink-double-exposure-portrait-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Goodmanprotocol",
         "url": "https://x.com/Goodmanprotocol/status/2049002279051895243"
       },
-      "json": "../styles/image-ink-double-exposure-portrait-poster/style.json",
-      "copy": "../docs/copy-prompts/image-ink-double-exposure-portrait-poster.md"
+      "json": "../styles/image/image-ink-double-exposure-portrait-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-ink-double-exposure-portrait-poster.md"
     },
     {
       "slug": "image-four-city-minimal-travel-poster-series",
@@ -1092,14 +1092,14 @@
         "系列视觉"
       ],
       "inputs": [],
-      "preview": "../styles/image-four-city-minimal-travel-poster-series/preview.jpg",
+      "preview": "../styles/image/image-four-city-minimal-travel-poster-series/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Taaruk_",
         "url": "https://x.com/Taaruk_/status/2059188921096085888"
       },
-      "json": "../styles/image-four-city-minimal-travel-poster-series/style.json",
-      "copy": "../docs/copy-prompts/image-four-city-minimal-travel-poster-series.md"
+      "json": "../styles/image/image-four-city-minimal-travel-poster-series/style.json",
+      "copy": "../docs/copy-prompts/image/image-four-city-minimal-travel-poster-series.md"
     },
     {
       "slug": "image-four-panel-milkshake-recipe",
@@ -1112,14 +1112,14 @@
         "食品饮料"
       ],
       "inputs": [],
-      "preview": "../styles/image-four-panel-milkshake-recipe/preview.jpg",
+      "preview": "../styles/image/image-four-panel-milkshake-recipe/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Dua Fatima",
         "url": "https://x.com/DuaFatimaAi/status/2096033405259682193"
       },
-      "json": "../styles/image-four-panel-milkshake-recipe/style.json",
-      "copy": "../docs/copy-prompts/image-four-panel-milkshake-recipe.md"
+      "json": "../styles/image/image-four-panel-milkshake-recipe/style.json",
+      "copy": "../docs/copy-prompts/image/image-four-panel-milkshake-recipe.md"
     },
     {
       "slug": "image-same-face-twelve-hairstyles",
@@ -1133,14 +1133,14 @@
         "多视角一致性"
       ],
       "inputs": [],
-      "preview": "../styles/image-same-face-twelve-hairstyles/preview.jpg",
+      "preview": "../styles/image/image-same-face-twelve-hairstyles/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Ciri_ai",
         "url": "https://x.com/Ciri_ai/status/2092452220768002400"
       },
-      "json": "../styles/image-same-face-twelve-hairstyles/style.json",
-      "copy": "../docs/copy-prompts/image-same-face-twelve-hairstyles.md"
+      "json": "../styles/image/image-same-face-twelve-hairstyles/style.json",
+      "copy": "../docs/copy-prompts/image/image-same-face-twelve-hairstyles.md"
     },
     {
       "slug": "image-futuristic-biophilic-atrium",
@@ -1154,14 +1154,14 @@
         "未来科技"
       ],
       "inputs": [],
-      "preview": "../styles/image-futuristic-biophilic-atrium/preview.jpg",
+      "preview": "../styles/image/image-futuristic-biophilic-atrium/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Christopher J. DiMarco",
         "url": "https://x.com/chrisjdimarco/status/2097067604531646936"
       },
-      "json": "../styles/image-futuristic-biophilic-atrium/style.json",
-      "copy": "../docs/copy-prompts/image-futuristic-biophilic-atrium.md"
+      "json": "../styles/image/image-futuristic-biophilic-atrium/style.json",
+      "copy": "../docs/copy-prompts/image/image-futuristic-biophilic-atrium.md"
     },
     {
       "slug": "image-five-panel-cafe-character-collage",
@@ -1175,14 +1175,14 @@
         "拼贴设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-five-panel-cafe-character-collage/preview.jpg",
+      "preview": "../styles/image/image-five-panel-cafe-character-collage/preview.jpg",
       "sample": null,
       "source": {
         "author": "@🇻🇳 Gdragon_stk 🇸🇪",
         "url": "https://x.com/zaizai36077041/status/2097032853410197878"
       },
-      "json": "../styles/image-five-panel-cafe-character-collage/style.json",
-      "copy": "../docs/copy-prompts/image-five-panel-cafe-character-collage.md"
+      "json": "../styles/image/image-five-panel-cafe-character-collage/style.json",
+      "copy": "../docs/copy-prompts/image/image-five-panel-cafe-character-collage.md"
     },
     {
       "slug": "image-half-photo-half-crayon-memory-card",
@@ -1196,14 +1196,14 @@
         "拼贴设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-half-photo-half-crayon-memory-card/preview.jpg",
+      "preview": "../styles/image/image-half-photo-half-crayon-memory-card/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Sairah_0",
         "url": "https://x.com/Sairah_0/status/2093212900160868430"
       },
-      "json": "../styles/image-half-photo-half-crayon-memory-card/style.json",
-      "copy": "../docs/copy-prompts/image-half-photo-half-crayon-memory-card.md"
+      "json": "../styles/image/image-half-photo-half-crayon-memory-card/style.json",
+      "copy": "../docs/copy-prompts/image/image-half-photo-half-crayon-memory-card.md"
     },
     {
       "slug": "image-wuhan-vintage-map-poster",
@@ -1217,14 +1217,14 @@
         "地图视觉"
       ],
       "inputs": [],
-      "preview": "../styles/image-wuhan-vintage-map-poster/preview.jpg",
+      "preview": "../styles/image/image-wuhan-vintage-map-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "雪瑜（@xueyu1125）",
         "url": "https://x.com/xueyu1125/status/2094015423775994116"
       },
-      "json": "../styles/image-wuhan-vintage-map-poster/style.json",
-      "copy": "../docs/copy-prompts/image-wuhan-vintage-map-poster.md"
+      "json": "../styles/image/image-wuhan-vintage-map-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-wuhan-vintage-map-poster.md"
     },
     {
       "slug": "image-wuhan-breakfast-food-map-infographic",
@@ -1238,15 +1238,15 @@
         "地图视觉"
       ],
       "inputs": [],
-      "preview": "../styles/image-wuhan-breakfast-food-map-infographic/preview.jpg",
+      "preview": "../styles/image/image-wuhan-breakfast-food-map-infographic/preview.jpg",
       "sample": null,
       "source": {
         "author": "@mm_zzm44854",
         "url": "https://x.com/mm_zzm44854",
         "linkType": "profile"
       },
-      "json": "../styles/image-wuhan-breakfast-food-map-infographic/style.json",
-      "copy": "../docs/copy-prompts/image-wuhan-breakfast-food-map-infographic.md"
+      "json": "../styles/image/image-wuhan-breakfast-food-map-infographic/style.json",
+      "copy": "../docs/copy-prompts/image/image-wuhan-breakfast-food-map-infographic.md"
     },
     {
       "slug": "image-modern-art-event-flyer",
@@ -1264,14 +1264,14 @@
         "质量、方向与构图",
         "严格的布局与输出限制（必填）"
       ],
-      "preview": "../styles/image-modern-art-event-flyer/preview.jpg",
+      "preview": "../styles/image/image-modern-art-event-flyer/preview.jpg",
       "sample": null,
       "source": {
         "author": "@AI Guide-Note - 実務で使えるAI活用メディア",
         "url": "https://x.com/AIGuideNote/status/2096710919900582307"
       },
-      "json": "../styles/image-modern-art-event-flyer/style.json",
-      "copy": "../docs/copy-prompts/image-modern-art-event-flyer.md"
+      "json": "../styles/image/image-modern-art-event-flyer/style.json",
+      "copy": "../docs/copy-prompts/image/image-modern-art-event-flyer.md"
     },
     {
       "slug": "image-inside-box-farm-ad-poster",
@@ -1290,14 +1290,14 @@
         "supportingCopy",
         "brandName"
       ],
-      "preview": "../styles/image-inside-box-farm-ad-poster/preview.jpg",
+      "preview": "../styles/image/image-inside-box-farm-ad-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@wer",
         "url": "https://higgsfield.ai/publications/bf3260f9-7da3-4eda-a8b4-04ca42bed096"
       },
-      "json": "../styles/image-inside-box-farm-ad-poster/style.json",
-      "copy": "../docs/copy-prompts/image-inside-box-farm-ad-poster.md"
+      "json": "../styles/image/image-inside-box-farm-ad-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-inside-box-farm-ad-poster.md"
     },
     {
       "slug": "image-rubber-stamp-travel-field-notes",
@@ -1311,14 +1311,14 @@
         "手工材质"
       ],
       "inputs": [],
-      "preview": "../styles/image-rubber-stamp-travel-field-notes/preview.jpg",
+      "preview": "../styles/image/image-rubber-stamp-travel-field-notes/preview.jpg",
       "sample": null,
       "source": {
         "author": "@MahnoorAi12",
         "url": "https://x.com/MahnoorAi12/status/2092221482139349307"
       },
-      "json": "../styles/image-rubber-stamp-travel-field-notes/style.json",
-      "copy": "../docs/copy-prompts/image-rubber-stamp-travel-field-notes.md"
+      "json": "../styles/image/image-rubber-stamp-travel-field-notes/style.json",
+      "copy": "../docs/copy-prompts/image/image-rubber-stamp-travel-field-notes.md"
     },
     {
       "slug": "image-coastal-poster",
@@ -1332,11 +1332,11 @@
         "编辑设计"
       ],
       "inputs": [],
-      "preview": "../styles/image-coastal-poster/preview.webp",
+      "preview": "../styles/image/image-coastal-poster/preview.webp",
       "sample": null,
       "source": null,
-      "json": "../styles/image-coastal-poster/style.json",
-      "copy": "../docs/copy-prompts/image-coastal-poster.md"
+      "json": "../styles/image/image-coastal-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-coastal-poster.md"
     },
     {
       "slug": "image-botanical-plate",
@@ -1350,11 +1350,11 @@
         "水彩"
       ],
       "inputs": [],
-      "preview": "../styles/image-botanical-plate/preview.webp",
+      "preview": "../styles/image/image-botanical-plate/preview.webp",
       "sample": null,
       "source": null,
-      "json": "../styles/image-botanical-plate/style.json",
-      "copy": "../docs/copy-prompts/image-botanical-plate.md"
+      "json": "../styles/image/image-botanical-plate/style.json",
+      "copy": "../docs/copy-prompts/image/image-botanical-plate.md"
     },
     {
       "slug": "image-felt-country-miniature-world",
@@ -1370,14 +1370,14 @@
       "inputs": [
         "插入国家/地区名称"
       ],
-      "preview": "../styles/image-felt-country-miniature-world/preview.jpg",
+      "preview": "../styles/image/image-felt-country-miniature-world/preview.jpg",
       "sample": null,
       "source": {
         "author": "@volkan_iras",
         "url": "https://x.com/volkan_iras/status/2051403524966141980"
       },
-      "json": "../styles/image-felt-country-miniature-world/style.json",
-      "copy": "../docs/copy-prompts/image-felt-country-miniature-world.md"
+      "json": "../styles/image/image-felt-country-miniature-world/style.json",
+      "copy": "../docs/copy-prompts/image/image-felt-country-miniature-world.md"
     },
     {
       "slug": "image-consistent-interior-multiview-grid",
@@ -1391,14 +1391,14 @@
         "多视角一致性"
       ],
       "inputs": [],
-      "preview": "../styles/image-consistent-interior-multiview-grid/preview.jpg",
+      "preview": "../styles/image/image-consistent-interior-multiview-grid/preview.jpg",
       "sample": null,
       "source": {
         "author": "@M. Asif",
         "url": "https://x.com/meAsifAi/status/2095979782068666556"
       },
-      "json": "../styles/image-consistent-interior-multiview-grid/style.json",
-      "copy": "../docs/copy-prompts/image-consistent-interior-multiview-grid.md"
+      "json": "../styles/image/image-consistent-interior-multiview-grid/style.json",
+      "copy": "../docs/copy-prompts/image/image-consistent-interior-multiview-grid.md"
     },
     {
       "slug": "image-weekly-outfit-infographic",
@@ -1412,15 +1412,15 @@
         "系列视觉"
       ],
       "inputs": [],
-      "preview": "../styles/image-weekly-outfit-infographic/preview.jpg",
+      "preview": "../styles/image/image-weekly-outfit-infographic/preview.jpg",
       "sample": null,
       "source": {
         "author": "@yyyole",
         "url": "https://x.com/yyyole",
         "linkType": "profile"
       },
-      "json": "../styles/image-weekly-outfit-infographic/style.json",
-      "copy": "../docs/copy-prompts/image-weekly-outfit-infographic.md"
+      "json": "../styles/image/image-weekly-outfit-infographic/style.json",
+      "copy": "../docs/copy-prompts/image/image-weekly-outfit-infographic.md"
     },
     {
       "slug": "image-beverage-food-marketing-hero",
@@ -1441,14 +1441,14 @@
         "circleColor",
         "图像质量、呈现与构图规范"
       ],
-      "preview": "../styles/image-beverage-food-marketing-hero/preview.jpg",
+      "preview": "../styles/image/image-beverage-food-marketing-hero/preview.jpg",
       "sample": null,
       "source": {
         "author": "@AI Guide-Note - 実務で使えるAI活用メディア",
         "url": "https://x.com/AIGuideNote/status/2097040165009252374"
       },
-      "json": "../styles/image-beverage-food-marketing-hero/style.json",
-      "copy": "../docs/copy-prompts/image-beverage-food-marketing-hero.md"
+      "json": "../styles/image/image-beverage-food-marketing-hero/style.json",
+      "copy": "../docs/copy-prompts/image/image-beverage-food-marketing-hero.md"
     },
     {
       "slug": "image-botanical-soda",
@@ -1462,11 +1462,11 @@
         "产品视觉"
       ],
       "inputs": [],
-      "preview": "../styles/image-botanical-soda/preview.webp",
+      "preview": "../styles/image/image-botanical-soda/preview.webp",
       "sample": null,
       "source": null,
-      "json": "../styles/image-botanical-soda/style.json",
-      "copy": "../docs/copy-prompts/image-botanical-soda.md"
+      "json": "../styles/image/image-botanical-soda/style.json",
+      "copy": "../docs/copy-prompts/image/image-botanical-soda.md"
     },
     {
       "slug": "image-paper-relief-neighborhood-grid",
@@ -1480,14 +1480,14 @@
         "手工材质"
       ],
       "inputs": [],
-      "preview": "../styles/image-paper-relief-neighborhood-grid/preview.jpg",
+      "preview": "../styles/image/image-paper-relief-neighborhood-grid/preview.jpg",
       "sample": null,
       "source": {
         "author": "@Gadgetify",
         "url": "https://x.com/Gdgtify/status/2096022497791721564"
       },
-      "json": "../styles/image-paper-relief-neighborhood-grid/style.json",
-      "copy": "../docs/copy-prompts/image-paper-relief-neighborhood-grid.md"
+      "json": "../styles/image/image-paper-relief-neighborhood-grid/style.json",
+      "copy": "../docs/copy-prompts/image/image-paper-relief-neighborhood-grid.md"
     },
     {
       "slug": "image-chinese-luxury-beauty-poster",
@@ -1501,15 +1501,15 @@
         "产品视觉"
       ],
       "inputs": [],
-      "preview": "../styles/image-chinese-luxury-beauty-poster/preview.jpg",
+      "preview": "../styles/image/image-chinese-luxury-beauty-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@panchaaan_2",
         "url": "https://x.com/panchaaan_2",
         "linkType": "profile"
       },
-      "json": "../styles/image-chinese-luxury-beauty-poster/style.json",
-      "copy": "../docs/copy-prompts/image-chinese-luxury-beauty-poster.md"
+      "json": "../styles/image/image-chinese-luxury-beauty-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-chinese-luxury-beauty-poster.md"
     },
     {
       "slug": "image-football-player-stats-doodle-poster",
@@ -1527,14 +1527,14 @@
         "PRIMARY_COLOR",
         "NICKNAME/TITLE"
       ],
-      "preview": "../styles/image-football-player-stats-doodle-poster/preview.jpg",
+      "preview": "../styles/image/image-football-player-stats-doodle-poster/preview.jpg",
       "sample": null,
       "source": {
         "author": "@ryanpp27",
         "url": "https://x.com/ryanpp27/status/2048602248524214542"
       },
-      "json": "../styles/image-football-player-stats-doodle-poster/style.json",
-      "copy": "../docs/copy-prompts/image-football-player-stats-doodle-poster.md"
+      "json": "../styles/image/image-football-player-stats-doodle-poster/style.json",
+      "copy": "../docs/copy-prompts/image/image-football-player-stats-doodle-poster.md"
     },
     {
       "slug": "video-1990s-pixel-text-game",
@@ -1548,14 +1548,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-1990s-pixel-text-game/preview.jpg",
-      "sample": "../styles/video-1990s-pixel-text-game/sample.mp4",
+      "preview": "../styles/video/video-1990s-pixel-text-game/preview.jpg",
+      "sample": "../styles/video/video-1990s-pixel-text-game/sample.mp4",
       "source": {
         "author": "@BMX / YouMind",
         "url": "https://x.com/bmx_ai13/status/2101593507232387096"
       },
-      "json": "../styles/video-1990s-pixel-text-game/style.json",
-      "copy": "../docs/copy-prompts/video-1990s-pixel-text-game.md"
+      "json": "../styles/video/video-1990s-pixel-text-game/style.json",
+      "copy": "../docs/copy-prompts/video/video-1990s-pixel-text-game.md"
     },
     {
       "slug": "video-paris-street-fashion-transformation",
@@ -1569,14 +1569,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-paris-street-fashion-transformation/preview.jpg",
-      "sample": "../styles/video-paris-street-fashion-transformation/sample.mp4",
+      "preview": "../styles/video/video-paris-street-fashion-transformation/preview.jpg",
+      "sample": "../styles/video/video-paris-street-fashion-transformation/sample.mp4",
       "source": {
         "author": "@ayzalnoor / YouMind",
         "url": "https://x.com/ayzalnooor24521/status/2100456445900710158"
       },
-      "json": "../styles/video-paris-street-fashion-transformation/style.json",
-      "copy": "../docs/copy-prompts/video-paris-street-fashion-transformation.md"
+      "json": "../styles/video/video-paris-street-fashion-transformation/style.json",
+      "copy": "../docs/copy-prompts/video/video-paris-street-fashion-transformation.md"
     },
     {
       "slug": "video-vertical-crane-reveal",
@@ -1592,14 +1592,14 @@
       "inputs": [
         "主体"
       ],
-      "preview": "../styles/video-vertical-crane-reveal/preview.jpg",
-      "sample": "../styles/video-vertical-crane-reveal/sample.mp4",
+      "preview": "../styles/video/video-vertical-crane-reveal/preview.jpg",
+      "sample": "../styles/video/video-vertical-crane-reveal/sample.mp4",
       "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
-      "json": "../styles/video-vertical-crane-reveal/style.json",
-      "copy": "../docs/copy-prompts/video-vertical-crane-reveal.md"
+      "json": "../styles/video/video-vertical-crane-reveal/style.json",
+      "copy": "../docs/copy-prompts/video/video-vertical-crane-reveal.md"
     },
     {
       "slug": "video-brutalist-courtyard-martial-arts",
@@ -1617,14 +1617,14 @@
         "主角：身穿拼色棒球夹克、连帽衫及工装裤的年轻男性",
         "对手：佩戴白色狐狸面具并手持武士刀的敏捷女刺客"
       ],
-      "preview": "../styles/video-brutalist-courtyard-martial-arts/preview.jpg",
-      "sample": "../styles/video-brutalist-courtyard-martial-arts/sample.mp4",
+      "preview": "../styles/video/video-brutalist-courtyard-martial-arts/preview.jpg",
+      "sample": "../styles/video/video-brutalist-courtyard-martial-arts/sample.mp4",
       "source": {
         "author": "Avelyrah（X：`@AvelyrahnAI`）",
         "url": "https://x.com/AvelyrahnAI/status/2088495522801942951"
       },
-      "json": "../styles/video-brutalist-courtyard-martial-arts/style.json",
-      "copy": "../docs/copy-prompts/video-brutalist-courtyard-martial-arts.md"
+      "json": "../styles/video/video-brutalist-courtyard-martial-arts/style.json",
+      "copy": "../docs/copy-prompts/video/video-brutalist-courtyard-martial-arts.md"
     },
     {
       "slug": "video-college-physics-experiment",
@@ -1638,14 +1638,14 @@
         "文生视频"
       ],
       "inputs": [],
-      "preview": "../styles/video-college-physics-experiment/preview.jpg",
-      "sample": "../styles/video-college-physics-experiment/sample.mp4",
+      "preview": "../styles/video/video-college-physics-experiment/preview.jpg",
+      "sample": "../styles/video/video-college-physics-experiment/sample.mp4",
       "source": {
         "author": "@Ayat / YouMind",
         "url": "https://x.com/aiwithaayat/status/2102331859657253174"
       },
-      "json": "../styles/video-college-physics-experiment/style.json",
-      "copy": "../docs/copy-prompts/video-college-physics-experiment.md"
+      "json": "../styles/video/video-college-physics-experiment/style.json",
+      "copy": "../docs/copy-prompts/video/video-college-physics-experiment.md"
     },
     {
       "slug": "video-first-person-dragon-rider",
@@ -1663,14 +1663,14 @@
         "起飞场景：潮湿的翡翠色海岸悬崖",
         "飞行环境：灰绿色的海洋"
       ],
-      "preview": "../styles/video-first-person-dragon-rider/preview.jpg",
-      "sample": "../styles/video-first-person-dragon-rider/sample.mp4",
+      "preview": "../styles/video/video-first-person-dragon-rider/preview.jpg",
+      "sample": "../styles/video/video-first-person-dragon-rider/sample.mp4",
       "source": {
         "author": "Nexora（X：`@frametheory058`）",
         "url": "https://x.com/frametheory058/status/2087007818721423855"
       },
-      "json": "../styles/video-first-person-dragon-rider/style.json",
-      "copy": "../docs/copy-prompts/video-first-person-dragon-rider.md"
+      "json": "../styles/video/video-first-person-dragon-rider/style.json",
+      "copy": "../docs/copy-prompts/video/video-first-person-dragon-rider.md"
     },
     {
       "slug": "video-cinematic-roller-skating-action",
@@ -1688,14 +1688,14 @@
         "追逐场景：拥挤的市中心街道",
         "追逐者：闪烁警灯的警车"
       ],
-      "preview": "../styles/video-cinematic-roller-skating-action/preview.jpg",
-      "sample": "../styles/video-cinematic-roller-skating-action/sample.mp4",
+      "preview": "../styles/video/video-cinematic-roller-skating-action/preview.jpg",
+      "sample": "../styles/video/video-cinematic-roller-skating-action/sample.mp4",
       "source": {
         "author": "Smiling Khan（X：`@AIwithkhan`）",
         "url": "https://x.com/AIwithkhan/status/2088506532434743745"
       },
-      "json": "../styles/video-cinematic-roller-skating-action/style.json",
-      "copy": "../docs/copy-prompts/video-cinematic-roller-skating-action.md"
+      "json": "../styles/video/video-cinematic-roller-skating-action/style.json",
+      "copy": "../docs/copy-prompts/video/video-cinematic-roller-skating-action.md"
     },
     {
       "slug": "video-cinematic-shaolin-action",
@@ -1713,14 +1713,14 @@
         "场景：广阔的废弃山间寺庙庭院",
         "对手：四个高耸的原创石甲生物"
       ],
-      "preview": "../styles/video-cinematic-shaolin-action/preview.jpg",
-      "sample": "../styles/video-cinematic-shaolin-action/sample.mp4",
+      "preview": "../styles/video/video-cinematic-shaolin-action/preview.jpg",
+      "sample": "../styles/video/video-cinematic-shaolin-action/sample.mp4",
       "source": {
         "author": "Pierrick Chevallier | IA（X：`@CharaspowerAI`）",
         "url": "https://x.com/CharaspowerAI/status/2086830115527250284"
       },
-      "json": "../styles/video-cinematic-shaolin-action/style.json",
-      "copy": "../docs/copy-prompts/video-cinematic-shaolin-action.md"
+      "json": "../styles/video/video-cinematic-shaolin-action/style.json",
+      "copy": "../docs/copy-prompts/video/video-cinematic-shaolin-action.md"
     },
     {
       "slug": "video-animated-encyclopedia-collage-explainer",
@@ -1734,14 +1734,14 @@
         "竖屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-animated-encyclopedia-collage-explainer/preview.jpg",
-      "sample": "../styles/video-animated-encyclopedia-collage-explainer/sample.mp4",
+      "preview": "../styles/video/video-animated-encyclopedia-collage-explainer/preview.jpg",
+      "sample": "../styles/video/video-animated-encyclopedia-collage-explainer/sample.mp4",
       "source": {
         "author": "X `@MrLarus`；原帖发布日期：2026-07-12。作者称这是一次用 ChatGPT、Image2、Seedance、AI 配音与字幕制作的秦统一中国解说实验。",
         "url": "https://x.com/MrLarus/status/2076328854315032641"
       },
-      "json": "../styles/video-animated-encyclopedia-collage-explainer/style.json",
-      "copy": "../docs/copy-prompts/video-animated-encyclopedia-collage-explainer.md"
+      "json": "../styles/video/video-animated-encyclopedia-collage-explainer/style.json",
+      "copy": "../docs/copy-prompts/video/video-animated-encyclopedia-collage-explainer.md"
     },
     {
       "slug": "video-retro-illustration-micro-motion",
@@ -1757,14 +1757,14 @@
         "海报设计"
       ],
       "inputs": [],
-      "preview": "../styles/video-retro-illustration-micro-motion/preview.jpg",
-      "sample": "../styles/video-retro-illustration-micro-motion/sample.mp4",
+      "preview": "../styles/video/video-retro-illustration-micro-motion/preview.jpg",
+      "sample": "../styles/video/video-retro-illustration-micro-motion/sample.mp4",
       "source": {
         "author": "小洁AI实战",
         "url": "https://www.douyin.com/video/7624869691328485361"
       },
-      "json": "../styles/video-retro-illustration-micro-motion/style.json",
-      "copy": "../docs/copy-prompts/video-retro-illustration-micro-motion.md"
+      "json": "../styles/video/video-retro-illustration-micro-motion/style.json",
+      "copy": "../docs/copy-prompts/video/video-retro-illustration-micro-motion.md"
     },
     {
       "slug": "video-real-person-sticker-poster-motion",
@@ -1779,14 +1779,14 @@
         "海报设计"
       ],
       "inputs": [],
-      "preview": "../styles/video-real-person-sticker-poster-motion/preview.jpg",
-      "sample": "../styles/video-real-person-sticker-poster-motion/sample.mp4",
+      "preview": "../styles/video/video-real-person-sticker-poster-motion/preview.jpg",
+      "sample": "../styles/video/video-real-person-sticker-poster-motion/sample.mp4",
       "source": {
         "author": "小洁AI实战",
         "url": "https://www.douyin.com/video/7683887650173032805"
       },
-      "json": "../styles/video-real-person-sticker-poster-motion/style.json",
-      "copy": "../docs/copy-prompts/video-real-person-sticker-poster-motion.md"
+      "json": "../styles/video/video-real-person-sticker-poster-motion/style.json",
+      "copy": "../docs/copy-prompts/video/video-real-person-sticker-poster-motion.md"
     },
     {
       "slug": "video-luxury-perfume-ugc-review",
@@ -1800,14 +1800,14 @@
         "竖屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-luxury-perfume-ugc-review/preview.jpg",
-      "sample": "../styles/video-luxury-perfume-ugc-review/sample.mp4",
+      "preview": "../styles/video/video-luxury-perfume-ugc-review/preview.jpg",
+      "sample": "../styles/video/video-luxury-perfume-ugc-review/sample.mp4",
       "source": {
         "author": "@Meem / YouMind",
         "url": "https://x.com/mehvishs25/status/2094785997460660622"
       },
-      "json": "../styles/video-luxury-perfume-ugc-review/style.json",
-      "copy": "../docs/copy-prompts/video-luxury-perfume-ugc-review.md"
+      "json": "../styles/video/video-luxury-perfume-ugc-review/style.json",
+      "copy": "../docs/copy-prompts/video/video-luxury-perfume-ugc-review.md"
     },
     {
       "slug": "video-fixed-point-pan-right-reveal",
@@ -1825,14 +1825,14 @@
         "环境",
         "落点主体"
       ],
-      "preview": "../styles/video-fixed-point-pan-right-reveal/preview.jpg",
-      "sample": "../styles/video-fixed-point-pan-right-reveal/sample.mp4",
+      "preview": "../styles/video/video-fixed-point-pan-right-reveal/preview.jpg",
+      "sample": "../styles/video/video-fixed-point-pan-right-reveal/sample.mp4",
       "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
-      "json": "../styles/video-fixed-point-pan-right-reveal/style.json",
-      "copy": "../docs/copy-prompts/video-fixed-point-pan-right-reveal.md"
+      "json": "../styles/video/video-fixed-point-pan-right-reveal/style.json",
+      "copy": "../docs/copy-prompts/video/video-fixed-point-pan-right-reveal.md"
     },
     {
       "slug": "video-khachapuri-overhead-cooking",
@@ -1846,14 +1846,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-khachapuri-overhead-cooking/preview.jpg",
-      "sample": "../styles/video-khachapuri-overhead-cooking/sample.mp4",
+      "preview": "../styles/video/video-khachapuri-overhead-cooking/preview.jpg",
+      "sample": "../styles/video/video-khachapuri-overhead-cooking/sample.mp4",
       "source": {
         "author": "@999 / YouMind",
         "url": "https://x.com/999shinobi/status/2102142574848798798"
       },
-      "json": "../styles/video-khachapuri-overhead-cooking/style.json",
-      "copy": "../docs/copy-prompts/video-khachapuri-overhead-cooking.md"
+      "json": "../styles/video/video-khachapuri-overhead-cooking/style.json",
+      "copy": "../docs/copy-prompts/video/video-khachapuri-overhead-cooking.md"
     },
     {
       "slug": "video-beach-stone-stop-motion",
@@ -1871,14 +1871,14 @@
         "场景：岩石海岸的浅潮汐池",
         "表演动作：一段古怪的小舞"
       ],
-      "preview": "../styles/video-beach-stone-stop-motion/preview.jpg",
-      "sample": "../styles/video-beach-stone-stop-motion/sample.mp4",
+      "preview": "../styles/video/video-beach-stone-stop-motion/preview.jpg",
+      "sample": "../styles/video/video-beach-stone-stop-motion/sample.mp4",
       "source": {
         "author": "Marcos（X：`@arsalannazir07`）。",
         "url": "https://x.com/arsalannazir07/status/2096791786807275583"
       },
-      "json": "../styles/video-beach-stone-stop-motion/style.json",
-      "copy": "../docs/copy-prompts/video-beach-stone-stop-motion.md"
+      "json": "../styles/video/video-beach-stone-stop-motion/style.json",
+      "copy": "../docs/copy-prompts/video/video-beach-stone-stop-motion.md"
     },
     {
       "slug": "video-aerial-pullback-rise-reveal",
@@ -1895,14 +1895,14 @@
         "主体",
         "载具/场景"
       ],
-      "preview": "../styles/video-aerial-pullback-rise-reveal/preview.jpg",
-      "sample": "../styles/video-aerial-pullback-rise-reveal/sample.mp4",
+      "preview": "../styles/video/video-aerial-pullback-rise-reveal/preview.jpg",
+      "sample": "../styles/video/video-aerial-pullback-rise-reveal/sample.mp4",
       "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
-      "json": "../styles/video-aerial-pullback-rise-reveal/style.json",
-      "copy": "../docs/copy-prompts/video-aerial-pullback-rise-reveal.md"
+      "json": "../styles/video/video-aerial-pullback-rise-reveal/style.json",
+      "copy": "../docs/copy-prompts/video/video-aerial-pullback-rise-reveal.md"
     },
     {
       "slug": "video-volcano-evacuation-city-build-timelapse",
@@ -1916,14 +1916,14 @@
         "文生视频"
       ],
       "inputs": [],
-      "preview": "../styles/video-volcano-evacuation-city-build-timelapse/preview.jpg",
-      "sample": "../styles/video-volcano-evacuation-city-build-timelapse/sample.mp4",
+      "preview": "../styles/video/video-volcano-evacuation-city-build-timelapse/preview.jpg",
+      "sample": "../styles/video/video-volcano-evacuation-city-build-timelapse/sample.mp4",
       "source": {
         "author": "@Maverick | AI / YouMind",
         "url": "https://x.com/RizwanAly07/status/2101897414760411153"
       },
-      "json": "../styles/video-volcano-evacuation-city-build-timelapse/style.json",
-      "copy": "../docs/copy-prompts/video-volcano-evacuation-city-build-timelapse.md"
+      "json": "../styles/video/video-volcano-evacuation-city-build-timelapse/style.json",
+      "copy": "../docs/copy-prompts/video/video-volcano-evacuation-city-build-timelapse.md"
     },
     {
       "slug": "video-sci-fi-motorcycle-action",
@@ -1941,14 +1941,14 @@
         "主角：留着深色卷发、身穿战术服装的运动型女性",
         "载具：哑光黑色未来派摩托车"
       ],
-      "preview": "../styles/video-sci-fi-motorcycle-action/preview.jpg",
-      "sample": "../styles/video-sci-fi-motorcycle-action/sample.mp4",
+      "preview": "../styles/video/video-sci-fi-motorcycle-action/preview.jpg",
+      "sample": "../styles/video/video-sci-fi-motorcycle-action/sample.mp4",
       "source": {
         "author": "Zyrella（X：`@Zyrellix`）",
         "url": "https://x.com/Zyrellix/status/2087846827475239167"
       },
-      "json": "../styles/video-sci-fi-motorcycle-action/style.json",
-      "copy": "../docs/copy-prompts/video-sci-fi-motorcycle-action.md"
+      "json": "../styles/video/video-sci-fi-motorcycle-action/style.json",
+      "copy": "../docs/copy-prompts/video/video-sci-fi-motorcycle-action.md"
     },
     {
       "slug": "video-pop-up-atlas-paper-animation",
@@ -1962,14 +1962,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-pop-up-atlas-paper-animation/preview.jpg",
-      "sample": "../styles/video-pop-up-atlas-paper-animation/sample.mp4",
+      "preview": "../styles/video/video-pop-up-atlas-paper-animation/preview.jpg",
+      "sample": "../styles/video/video-pop-up-atlas-paper-animation/sample.mp4",
       "source": {
         "author": "@Alexandra Aisling / YouMind",
         "url": "https://x.com/AllaAisling/status/2091584001282900033"
       },
-      "json": "../styles/video-pop-up-atlas-paper-animation/style.json",
-      "copy": "../docs/copy-prompts/video-pop-up-atlas-paper-animation.md"
+      "json": "../styles/video/video-pop-up-atlas-paper-animation/style.json",
+      "copy": "../docs/copy-prompts/video/video-pop-up-atlas-paper-animation.md"
     },
     {
       "slug": "video-knitted-doll-breakfast-stop-motion",
@@ -1983,14 +1983,14 @@
         "竖屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-knitted-doll-breakfast-stop-motion/preview.jpg",
-      "sample": "../styles/video-knitted-doll-breakfast-stop-motion/sample.mp4",
+      "preview": "../styles/video/video-knitted-doll-breakfast-stop-motion/preview.jpg",
+      "sample": "../styles/video/video-knitted-doll-breakfast-stop-motion/sample.mp4",
       "source": {
         "author": "@Maya / YouMind",
         "url": "https://x.com/MayaAiCreator/status/2098365565781917862"
       },
-      "json": "../styles/video-knitted-doll-breakfast-stop-motion/style.json",
-      "copy": "../docs/copy-prompts/video-knitted-doll-breakfast-stop-motion.md"
+      "json": "../styles/video/video-knitted-doll-breakfast-stop-motion/style.json",
+      "copy": "../docs/copy-prompts/video/video-knitted-doll-breakfast-stop-motion.md"
     },
     {
       "slug": "video-clay-robot-startup-story",
@@ -2004,14 +2004,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-clay-robot-startup-story/preview.jpg",
-      "sample": "../styles/video-clay-robot-startup-story/sample.mp4",
+      "preview": "../styles/video/video-clay-robot-startup-story/preview.jpg",
+      "sample": "../styles/video/video-clay-robot-startup-story/sample.mp4",
       "source": {
         "author": "@Condz / YouMind",
         "url": "https://x.com/condzxyz/status/2093032563400987056"
       },
-      "json": "../styles/video-clay-robot-startup-story/style.json",
-      "copy": "../docs/copy-prompts/video-clay-robot-startup-story.md"
+      "json": "../styles/video/video-clay-robot-startup-story/style.json",
+      "copy": "../docs/copy-prompts/video/video-clay-robot-startup-story.md"
     },
     {
       "slug": "video-anime-skateboard-chase-nyc",
@@ -2028,14 +2028,14 @@
         "角色服装：红白运动短裙、修身短上衣和深蓝色运动鞋",
         "故事场景：纽约繁华街道"
       ],
-      "preview": "../styles/video-anime-skateboard-chase-nyc/preview.jpg",
-      "sample": "../styles/video-anime-skateboard-chase-nyc/sample.mp4",
+      "preview": "../styles/video/video-anime-skateboard-chase-nyc/preview.jpg",
+      "sample": "../styles/video/video-anime-skateboard-chase-nyc/sample.mp4",
       "source": {
         "author": "Synthia（X：`@AIwithSynthia`）",
         "url": "https://x.com/AIwithSynthia/status/2088650163778961654"
       },
-      "json": "../styles/video-anime-skateboard-chase-nyc/style.json",
-      "copy": "../docs/copy-prompts/video-anime-skateboard-chase-nyc.md"
+      "json": "../styles/video/video-anime-skateboard-chase-nyc/style.json",
+      "copy": "../docs/copy-prompts/video/video-anime-skateboard-chase-nyc.md"
     },
     {
       "slug": "video-nyc-parkour-web-swing",
@@ -2051,14 +2051,14 @@
       "inputs": [
         "结束"
       ],
-      "preview": "../styles/video-nyc-parkour-web-swing/preview.jpg",
-      "sample": "../styles/video-nyc-parkour-web-swing/sample.mp4",
+      "preview": "../styles/video/video-nyc-parkour-web-swing/preview.jpg",
+      "sample": "../styles/video/video-nyc-parkour-web-swing/sample.mp4",
       "source": {
         "author": "Elsa Ai（X：`@ElsaSofia__AI`）",
         "url": "https://x.com/ElsaSofia__AI/status/2089306746804375878"
       },
-      "json": "../styles/video-nyc-parkour-web-swing/style.json",
-      "copy": "../docs/copy-prompts/video-nyc-parkour-web-swing.md"
+      "json": "../styles/video/video-nyc-parkour-web-swing/style.json",
+      "copy": "../docs/copy-prompts/video/video-nyc-parkour-web-swing.md"
     },
     {
       "slug": "video-frozen-fountain-rainbow-reveal",
@@ -2072,14 +2072,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-frozen-fountain-rainbow-reveal/preview.jpg",
-      "sample": "../styles/video-frozen-fountain-rainbow-reveal/sample.mp4",
+      "preview": "../styles/video/video-frozen-fountain-rainbow-reveal/preview.jpg",
+      "sample": "../styles/video/video-frozen-fountain-rainbow-reveal/sample.mp4",
       "source": {
         "author": "@lumiAI / YouMind",
         "url": "https://x.com/aiwithlumi/status/2102406322008559857"
       },
-      "json": "../styles/video-frozen-fountain-rainbow-reveal/style.json",
-      "copy": "../docs/copy-prompts/video-frozen-fountain-rainbow-reveal.md"
+      "json": "../styles/video/video-frozen-fountain-rainbow-reveal/style.json",
+      "copy": "../docs/copy-prompts/video/video-frozen-fountain-rainbow-reveal.md"
     },
     {
       "slug": "video-exhausted-daily-life-montage",
@@ -2093,14 +2093,14 @@
         "文生视频"
       ],
       "inputs": [],
-      "preview": "../styles/video-exhausted-daily-life-montage/preview.jpg",
-      "sample": "../styles/video-exhausted-daily-life-montage/sample.mp4",
+      "preview": "../styles/video/video-exhausted-daily-life-montage/preview.jpg",
+      "sample": "../styles/video/video-exhausted-daily-life-montage/sample.mp4",
       "source": {
         "author": "@Noor / YouMind",
         "url": "https://x.com/noorlewisx/status/2101902128986075593"
       },
-      "json": "../styles/video-exhausted-daily-life-montage/style.json",
-      "copy": "../docs/copy-prompts/video-exhausted-daily-life-montage.md"
+      "json": "../styles/video/video-exhausted-daily-life-montage/style.json",
+      "copy": "../docs/copy-prompts/video/video-exhausted-daily-life-montage.md"
     },
     {
       "slug": "video-office-cat-workday-animation",
@@ -2114,14 +2114,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-office-cat-workday-animation/preview.jpg",
-      "sample": "../styles/video-office-cat-workday-animation/sample.mp4",
+      "preview": "../styles/video/video-office-cat-workday-animation/preview.jpg",
+      "sample": "../styles/video/video-office-cat-workday-animation/sample.mp4",
       "source": {
         "author": "@Aynelle / YouMind",
         "url": "https://x.com/aynellex/status/2102604800341000457"
       },
-      "json": "../styles/video-office-cat-workday-animation/style.json",
-      "copy": "../docs/copy-prompts/video-office-cat-workday-animation.md"
+      "json": "../styles/video/video-office-cat-workday-animation/style.json",
+      "copy": "../docs/copy-prompts/video/video-office-cat-workday-animation.md"
     },
     {
       "slug": "video-rack-focus-foreground-background",
@@ -2139,14 +2139,14 @@
         "焦平面 B：近处主体",
         "最终主体构图"
       ],
-      "preview": "../styles/video-rack-focus-foreground-background/preview.jpg",
-      "sample": "../styles/video-rack-focus-foreground-background/sample.mp4",
+      "preview": "../styles/video/video-rack-focus-foreground-background/preview.jpg",
+      "sample": "../styles/video/video-rack-focus-foreground-background/sample.mp4",
       "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
-      "json": "../styles/video-rack-focus-foreground-background/style.json",
-      "copy": "../docs/copy-prompts/video-rack-focus-foreground-background.md"
+      "json": "../styles/video/video-rack-focus-foreground-background/style.json",
+      "copy": "../docs/copy-prompts/video/video-rack-focus-foreground-background.md"
     },
     {
       "slug": "video-japanese-influencer-get-ready-ugc",
@@ -2163,14 +2163,14 @@
         "角色：27 岁日本美妆/时尚网红",
         "室内场景：紧凑的日本出租屋"
       ],
-      "preview": "../styles/video-japanese-influencer-get-ready-ugc/preview.jpg",
-      "sample": "../styles/video-japanese-influencer-get-ready-ugc/sample.mp4",
+      "preview": "../styles/video/video-japanese-influencer-get-ready-ugc/preview.jpg",
+      "sample": "../styles/video/video-japanese-influencer-get-ready-ugc/sample.mp4",
       "source": {
         "author": "タナベ | AI動画 × マーケティング（X：`@tanabe_fragm`）。",
         "url": "https://x.com/tanabe_fragm/status/2096136682055864564"
       },
-      "json": "../styles/video-japanese-influencer-get-ready-ugc/style.json",
-      "copy": "../docs/copy-prompts/video-japanese-influencer-get-ready-ugc.md"
+      "json": "../styles/video/video-japanese-influencer-get-ready-ugc/style.json",
+      "copy": "../docs/copy-prompts/video/video-japanese-influencer-get-ready-ugc.md"
     },
     {
       "slug": "video-cliffside-roller-skating",
@@ -2188,14 +2188,14 @@
         "场景：危险的山地环境",
         "角色服装：黑色专业户外服装"
       ],
-      "preview": "../styles/video-cliffside-roller-skating/preview.jpg",
-      "sample": "../styles/video-cliffside-roller-skating/sample.mp4",
+      "preview": "../styles/video/video-cliffside-roller-skating/preview.jpg",
+      "sample": "../styles/video/video-cliffside-roller-skating/sample.mp4",
       "source": {
         "author": "Sarah（X：`@SyntheSarah`）",
         "url": "https://x.com/SyntheSarah/status/2088122680142930199"
       },
-      "json": "../styles/video-cliffside-roller-skating/style.json",
-      "copy": "../docs/copy-prompts/video-cliffside-roller-skating.md"
+      "json": "../styles/video/video-cliffside-roller-skating/style.json",
+      "copy": "../docs/copy-prompts/video/video-cliffside-roller-skating.md"
     },
     {
       "slug": "video-barbecue-macro-food-film",
@@ -2209,14 +2209,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-barbecue-macro-food-film/preview.jpg",
-      "sample": "../styles/video-barbecue-macro-food-film/sample.mp4",
+      "preview": "../styles/video/video-barbecue-macro-food-film/preview.jpg",
+      "sample": "../styles/video/video-barbecue-macro-food-film/sample.mp4",
       "source": {
         "author": "@Zoya / YouMind",
         "url": "https://x.com/Zoyavelle/status/2102641743669961207"
       },
-      "json": "../styles/video-barbecue-macro-food-film/style.json",
-      "copy": "../docs/copy-prompts/video-barbecue-macro-food-film.md"
+      "json": "../styles/video/video-barbecue-macro-food-film/style.json",
+      "copy": "../docs/copy-prompts/video/video-barbecue-macro-food-film.md"
     },
     {
       "slug": "video-luxury-skincare-water-ad",
@@ -2230,14 +2230,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-luxury-skincare-water-ad/preview.jpg",
-      "sample": "../styles/video-luxury-skincare-water-ad/sample.mp4",
+      "preview": "../styles/video/video-luxury-skincare-water-ad/preview.jpg",
+      "sample": "../styles/video/video-luxury-skincare-water-ad/sample.mp4",
       "source": {
         "author": "@Maha / YouMind",
         "url": "https://x.com/Aiwithmaha/status/2101887507059351894"
       },
-      "json": "../styles/video-luxury-skincare-water-ad/style.json",
-      "copy": "../docs/copy-prompts/video-luxury-skincare-water-ad.md"
+      "json": "../styles/video/video-luxury-skincare-water-ad/style.json",
+      "copy": "../docs/copy-prompts/video/video-luxury-skincare-water-ad.md"
     },
     {
       "slug": "video-luxury-jewelry-unboxing",
@@ -2255,14 +2255,14 @@
         "产品：高级珠宝礼盒",
         "核心珠宝：闪耀的蓝色宝石吊坠"
       ],
-      "preview": "../styles/video-luxury-jewelry-unboxing/preview.jpg",
-      "sample": "../styles/video-luxury-jewelry-unboxing/sample.mp4",
+      "preview": "../styles/video/video-luxury-jewelry-unboxing/preview.jpg",
+      "sample": "../styles/video/video-luxury-jewelry-unboxing/sample.mp4",
       "source": {
         "author": "ayzalnoor（X：`@ayzalnooor24521`）。",
         "url": "https://x.com/ayzalnooor24521/status/2097194787564658942"
       },
-      "json": "../styles/video-luxury-jewelry-unboxing/style.json",
-      "copy": "../docs/copy-prompts/video-luxury-jewelry-unboxing.md"
+      "json": "../styles/video/video-luxury-jewelry-unboxing/style.json",
+      "copy": "../docs/copy-prompts/video/video-luxury-jewelry-unboxing.md"
     },
     {
       "slug": "video-regency-film-montage",
@@ -2276,14 +2276,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-regency-film-montage/preview.jpg",
-      "sample": "../styles/video-regency-film-montage/sample.mp4",
+      "preview": "../styles/video/video-regency-film-montage/preview.jpg",
+      "sample": "../styles/video/video-regency-film-montage/sample.mp4",
       "source": {
         "author": "@anj / YouMind",
         "url": "https://x.com/anjmaxx/status/2102052600426504362"
       },
-      "json": "../styles/video-regency-film-montage/style.json",
-      "copy": "../docs/copy-prompts/video-regency-film-montage.md"
+      "json": "../styles/video/video-regency-film-montage/style.json",
+      "copy": "../docs/copy-prompts/video/video-regency-film-montage.md"
     },
     {
       "slug": "video-bioluminescent-lighthouse-keeper",
@@ -2301,14 +2301,14 @@
         "场景：夜晚雾气弥漫的悬崖",
         "奇观元素：几十个萤火虫般发光的漂浮球体"
       ],
-      "preview": "../styles/video-bioluminescent-lighthouse-keeper/preview.jpg",
-      "sample": "../styles/video-bioluminescent-lighthouse-keeper/sample.mp4",
+      "preview": "../styles/video/video-bioluminescent-lighthouse-keeper/preview.jpg",
+      "sample": "../styles/video/video-bioluminescent-lighthouse-keeper/sample.mp4",
       "source": {
         "author": "Sarah（X：`@SyntheSarah`）。",
         "url": "https://x.com/SyntheSarah/status/2097182529564365135"
       },
-      "json": "../styles/video-bioluminescent-lighthouse-keeper/style.json",
-      "copy": "../docs/copy-prompts/video-bioluminescent-lighthouse-keeper.md"
+      "json": "../styles/video/video-bioluminescent-lighthouse-keeper/style.json",
+      "copy": "../docs/copy-prompts/video/video-bioluminescent-lighthouse-keeper.md"
     },
     {
       "slug": "video-recipe-infographic-cooking-sequence",
@@ -2322,14 +2322,14 @@
         "参考图片"
       ],
       "inputs": [],
-      "preview": "../styles/video-recipe-infographic-cooking-sequence/preview.jpg",
-      "sample": "../styles/video-recipe-infographic-cooking-sequence/sample.mp4",
+      "preview": "../styles/video/video-recipe-infographic-cooking-sequence/preview.jpg",
+      "sample": "../styles/video/video-recipe-infographic-cooking-sequence/sample.mp4",
       "source": {
         "author": "Oleksa AI（X：`@OleksaFrame`）。",
         "url": "https://x.com/OleksaFrame/status/2097669808800113040"
       },
-      "json": "../styles/video-recipe-infographic-cooking-sequence/style.json",
-      "copy": "../docs/copy-prompts/video-recipe-infographic-cooking-sequence.md"
+      "json": "../styles/video/video-recipe-infographic-cooking-sequence/style.json",
+      "copy": "../docs/copy-prompts/video/video-recipe-infographic-cooking-sequence.md"
     },
     {
       "slug": "video-sketch-to-real-stop-motion-cooking",
@@ -2343,14 +2343,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-sketch-to-real-stop-motion-cooking/preview.jpg",
-      "sample": "../styles/video-sketch-to-real-stop-motion-cooking/sample.mp4",
+      "preview": "../styles/video/video-sketch-to-real-stop-motion-cooking/preview.jpg",
+      "sample": "../styles/video/video-sketch-to-real-stop-motion-cooking/sample.mp4",
       "source": {
         "author": "@NoorAI / YouMind",
         "url": "https://x.com/noorwithwifi/status/2087821976270450985"
       },
-      "json": "../styles/video-sketch-to-real-stop-motion-cooking/style.json",
-      "copy": "../docs/copy-prompts/video-sketch-to-real-stop-motion-cooking.md"
+      "json": "../styles/video/video-sketch-to-real-stop-motion-cooking/style.json",
+      "copy": "../docs/copy-prompts/video/video-sketch-to-real-stop-motion-cooking.md"
     },
     {
       "slug": "video-seoul-sunday-dv-home-video",
@@ -2368,14 +2368,14 @@
         "场景：首尔老城区",
         "角色服装：淡蓝色短上衣和宽松米色长裤"
       ],
-      "preview": "../styles/video-seoul-sunday-dv-home-video/preview.jpg",
-      "sample": "../styles/video-seoul-sunday-dv-home-video/sample.mp4",
+      "preview": "../styles/video/video-seoul-sunday-dv-home-video/preview.jpg",
+      "sample": "../styles/video/video-seoul-sunday-dv-home-video/sample.mp4",
       "source": {
         "author": "@Smiling Khan（X：`@AIwithkhan`）",
         "url": "https://x.com/AIwithkhan/status/2096424933366931946"
       },
-      "json": "../styles/video-seoul-sunday-dv-home-video/style.json",
-      "copy": "../docs/copy-prompts/video-seoul-sunday-dv-home-video.md"
+      "json": "../styles/video/video-seoul-sunday-dv-home-video/style.json",
+      "copy": "../docs/copy-prompts/video/video-seoul-sunday-dv-home-video.md"
     },
     {
       "slug": "video-watercolor-sketch-parkour-chase",
@@ -2389,14 +2389,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-watercolor-sketch-parkour-chase/preview.jpg",
-      "sample": "../styles/video-watercolor-sketch-parkour-chase/sample.mp4",
+      "preview": "../styles/video/video-watercolor-sketch-parkour-chase/preview.jpg",
+      "sample": "../styles/video/video-watercolor-sketch-parkour-chase/sample.mp4",
       "source": {
         "author": "おのもの | AIコンテンツを作るサラリーマン（X：`@user_monom`）",
         "url": "https://x.com/user_monom/status/2086447224750530664"
       },
-      "json": "../styles/video-watercolor-sketch-parkour-chase/style.json",
-      "copy": "../docs/copy-prompts/video-watercolor-sketch-parkour-chase.md"
+      "json": "../styles/video/video-watercolor-sketch-parkour-chase/style.json",
+      "copy": "../docs/copy-prompts/video/video-watercolor-sketch-parkour-chase.md"
     },
     {
       "slug": "video-crystal-particle-kitchen-transformation",
@@ -2410,14 +2410,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-crystal-particle-kitchen-transformation/preview.jpg",
-      "sample": "../styles/video-crystal-particle-kitchen-transformation/sample.mp4",
+      "preview": "../styles/video/video-crystal-particle-kitchen-transformation/preview.jpg",
+      "sample": "../styles/video/video-crystal-particle-kitchen-transformation/sample.mp4",
       "source": {
         "author": "@Lavinia / YouMind",
         "url": "https://x.com/laviniavelle/status/2100431886543978896"
       },
-      "json": "../styles/video-crystal-particle-kitchen-transformation/style.json",
-      "copy": "../docs/copy-prompts/video-crystal-particle-kitchen-transformation.md"
+      "json": "../styles/video/video-crystal-particle-kitchen-transformation/style.json",
+      "copy": "../docs/copy-prompts/video/video-crystal-particle-kitchen-transformation.md"
     },
     {
       "slug": "video-dolly-zoom-space-warp",
@@ -2434,14 +2434,14 @@
         "主体",
         "重复出现的背景元素"
       ],
-      "preview": "../styles/video-dolly-zoom-space-warp/preview.jpg",
-      "sample": "../styles/video-dolly-zoom-space-warp/sample.mp4",
+      "preview": "../styles/video/video-dolly-zoom-space-warp/preview.jpg",
+      "sample": "../styles/video/video-dolly-zoom-space-warp/sample.mp4",
       "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
-      "json": "../styles/video-dolly-zoom-space-warp/style.json",
-      "copy": "../docs/copy-prompts/video-dolly-zoom-space-warp.md"
+      "json": "../styles/video/video-dolly-zoom-space-warp/style.json",
+      "copy": "../docs/copy-prompts/video/video-dolly-zoom-space-warp.md"
     },
     {
       "slug": "video-miniature-workers-usb-repair",
@@ -2455,14 +2455,14 @@
         "竖屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-miniature-workers-usb-repair/preview.jpg",
-      "sample": "../styles/video-miniature-workers-usb-repair/sample.mp4",
+      "preview": "../styles/video/video-miniature-workers-usb-repair/preview.jpg",
+      "sample": "../styles/video/video-miniature-workers-usb-repair/sample.mp4",
       "source": {
         "author": "@Martian / YouMind",
         "url": "https://x.com/drzubi01/status/2090307471797780641"
       },
-      "json": "../styles/video-miniature-workers-usb-repair/style.json",
-      "copy": "../docs/copy-prompts/video-miniature-workers-usb-repair.md"
+      "json": "../styles/video/video-miniature-workers-usb-repair/style.json",
+      "copy": "../docs/copy-prompts/video/video-miniature-workers-usb-repair.md"
     },
     {
       "slug": "video-bedroom-falling-book-catch",
@@ -2478,14 +2478,14 @@
       "inputs": [
         "互动道具：一叠书"
       ],
-      "preview": "../styles/video-bedroom-falling-book-catch/preview.jpg",
-      "sample": "../styles/video-bedroom-falling-book-catch/sample.mp4",
+      "preview": "../styles/video/video-bedroom-falling-book-catch/preview.jpg",
+      "sample": "../styles/video/video-bedroom-falling-book-catch/sample.mp4",
       "source": {
         "author": "Ahmad Faraz（X：`@iamahmedfaraz66`）。",
         "url": "https://x.com/iamahmedfaraz66/status/2095139680786493912"
       },
-      "json": "../styles/video-bedroom-falling-book-catch/style.json",
-      "copy": "../docs/copy-prompts/video-bedroom-falling-book-catch.md"
+      "json": "../styles/video/video-bedroom-falling-book-catch/style.json",
+      "copy": "../docs/copy-prompts/video/video-bedroom-falling-book-catch.md"
     },
     {
       "slug": "video-drone-orbit-subject",
@@ -2502,14 +2502,14 @@
         "主体",
         "右侧"
       ],
-      "preview": "../styles/video-drone-orbit-subject/preview.jpg",
-      "sample": "../styles/video-drone-orbit-subject/sample.mp4",
+      "preview": "../styles/video/video-drone-orbit-subject/preview.jpg",
+      "sample": "../styles/video/video-drone-orbit-subject/sample.mp4",
       "source": {
         "author": "Higgsfield.AI Team。",
         "url": "https://higgsfield.ai/academy/how-to-use/turn-your-video-into-cinema-using-wan-camera-control"
       },
-      "json": "../styles/video-drone-orbit-subject/style.json",
-      "copy": "../docs/copy-prompts/video-drone-orbit-subject.md"
+      "json": "../styles/video/video-drone-orbit-subject/style.json",
+      "copy": "../docs/copy-prompts/video/video-drone-orbit-subject.md"
     },
     {
       "slug": "video-wildflower-seasons-macro-timelapse",
@@ -2523,14 +2523,14 @@
         "文生视频"
       ],
       "inputs": [],
-      "preview": "../styles/video-wildflower-seasons-macro-timelapse/preview.jpg",
-      "sample": "../styles/video-wildflower-seasons-macro-timelapse/sample.mp4",
+      "preview": "../styles/video/video-wildflower-seasons-macro-timelapse/preview.jpg",
+      "sample": "../styles/video/video-wildflower-seasons-macro-timelapse/sample.mp4",
       "source": {
         "author": "@Mr Das / YouMind",
         "url": "https://x.com/MrDasOnX/status/2096453993371422748"
       },
-      "json": "../styles/video-wildflower-seasons-macro-timelapse/style.json",
-      "copy": "../docs/copy-prompts/video-wildflower-seasons-macro-timelapse.md"
+      "json": "../styles/video/video-wildflower-seasons-macro-timelapse/style.json",
+      "copy": "../docs/copy-prompts/video/video-wildflower-seasons-macro-timelapse.md"
     },
     {
       "slug": "video-rainforest-mysterious-light",
@@ -2546,14 +2546,14 @@
       "inputs": [
         "神秘光源：一束微弱的暖光"
       ],
-      "preview": "../styles/video-rainforest-mysterious-light/preview.jpg",
-      "sample": "../styles/video-rainforest-mysterious-light/sample.mp4",
+      "preview": "../styles/video/video-rainforest-mysterious-light/preview.jpg",
+      "sample": "../styles/video/video-rainforest-mysterious-light/sample.mp4",
       "source": {
         "author": "Ahmad Faraz（X：`@iamahmedfaraz66`）。",
         "url": "https://x.com/iamahmedfaraz66/status/2095362901326598521"
       },
-      "json": "../styles/video-rainforest-mysterious-light/style.json",
-      "copy": "../docs/copy-prompts/video-rainforest-mysterious-light.md"
+      "json": "../styles/video/video-rainforest-mysterious-light/style.json",
+      "copy": "../docs/copy-prompts/video/video-rainforest-mysterious-light.md"
     },
     {
       "slug": "video-chinese-ink-seamless-transitions",
@@ -2567,14 +2567,14 @@
         "横屏"
       ],
       "inputs": [],
-      "preview": "../styles/video-chinese-ink-seamless-transitions/preview.jpg",
-      "sample": "../styles/video-chinese-ink-seamless-transitions/sample.mp4",
+      "preview": "../styles/video/video-chinese-ink-seamless-transitions/preview.jpg",
+      "sample": "../styles/video/video-chinese-ink-seamless-transitions/sample.mp4",
       "source": {
         "author": "@NoorAI / YouMind",
         "url": "https://x.com/noorwithwifi/status/2101683541629354348"
       },
-      "json": "../styles/video-chinese-ink-seamless-transitions/style.json",
-      "copy": "../docs/copy-prompts/video-chinese-ink-seamless-transitions.md"
+      "json": "../styles/video/video-chinese-ink-seamless-transitions/style.json",
+      "copy": "../docs/copy-prompts/video/video-chinese-ink-seamless-transitions.md"
     }
   ]
 }

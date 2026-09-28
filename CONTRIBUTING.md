@@ -4,7 +4,7 @@
 
 ## 新增风格
 
-1. 在 `styles/image-<模板名>/` 或 `styles/video-<模板名>/` 创建目录。模板名用小写英文和连字符描述内容，不使用随机 ID 或 `-source` 后缀；来源类型由 JSON 的 `type` 字段记录。
+1. 在 `styles/image/image-<模板名>/` 或 `styles/video/video-<模板名>/` 创建目录。模板名用小写英文和连字符描述内容，不使用随机 ID 或 `-source` 后缀；来源类型由 JSON 的 `type` 字段记录。`docs/copy-prompts/image/` 和 `docs/copy-prompts/video/` 下的页面会自动生成，不需手动创建。
 2. 放入唯一的 `style.json`，填写 `style_version`、`style_slug`、`kind`（`image` 或 `video`）、`type`、标题、摘要、分类、标签和提示词。`style_slug` 与目录名需保持一致，字段说明见 [`schemas/style.schema.json`](schemas/style.schema.json)。
 3. 每个条目都要有对应的 `preview.jpg` 或 `preview.webp`；生视频条目还必须有可播放的 `sample.mp4`。媒体须对应所记录的来源案例，不能用无关画面充当结果；改写版的 Prompt 不应被描述成已用来源媒体重新验证。构建后会生成 `thumbnail.jpg`，供 README 等尺寸展示使用。
 4. 来源内容填写原作者和具体作品链接；暂时找不到作品链接时可用作者主页，设置 `source.linkType` 为 `profile`，页面会标明“作者主页”。YouMind 整理页或其他 GitHub 汇编不能替代作者来源。连作者来源也没有时标为 `unverified`（来源待核实），不可标为原创。同一案例只保留一份 `style.json`：单段案例的 `prompt` 保留来源原语言全文（英文原文则放中文译文），`promptEn` 保留英文原文或完整英译。多阶段工作流使用有序的 `workflow`，每个步骤分别填写 `title`、`prompt` 和 `promptEn`，不得将不同阶段强行合并或删减为摘要。不要另设第三份公开提示词，也不要创建互相关联的第二个案例。

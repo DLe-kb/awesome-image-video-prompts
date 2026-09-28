@@ -210,7 +210,7 @@ function card(entry) {
     button.addEventListener('click', () => openDetail(entry));
     if (entry.preview) {
       const image = el('img', 'card-preview');
-      image.src = `../styles/${entry.slug}/thumbnail.jpg`;
+      image.src = `../styles/${entry.kind}/${entry.slug}/thumbnail.jpg`;
       image.alt = '';
       image.loading = 'lazy';
       image.width = 480;

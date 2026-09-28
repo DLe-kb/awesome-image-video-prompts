@@ -1,0 +1,99 @@
+# 复古手账插画
+
+[返回完整目录](../../CATALOG.md)
+
+![复古手账插画](../../../styles/video/video-retro-illustration-micro-motion/preview.jpg)
+
+[播放样片（在线播放器）](https://dingle-kb.github.io/awesome-visual-prompts/?style=video-retro-illustration-micro-motion)
+
+将照片转为复古网点插画，排版成手账海报，再以固定镜头生成局部微动效。
+
+类型：生视频 · 来源案例
+
+**动画** 图生视频 怀旧 手绘插画 海报设计
+
+来源：[小洁AI实战](https://www.douyin.com/video/7624869691328485361)
+
+## 将照片转为复古网点插画
+
+### 完整提示词
+
+```text
+将上传的原照片转绘为复古网点插画。以照片中的主体为依据，保持主体身份、数量、主要轮廓、姿态、视角和关键结构，不添加无关对象。
+
+采用矢量平面插画般的二维造型、波普艺术、复古漫画与儿童绘本风格，带有怀旧 1950 至 1960 年代印刷艺术质感。轮廓使用粗黑线，线条清晰，造型简洁、可爱俏皮、高对比。使用鲜艳饱和但有限的配色，不使用渐变，通过半色调网点的密度表现明暗，不使用写实光影。
+
+突出点状纹理、粗糙印刷质感和略有不规则的手绘痕迹，不追求机械地完美一致。背景为白色细腻颗粒纹理纸，主体完整、清晰，四周留出适度空白。
+
+仅输出插画，不添加标题、说明文字、标志、水印、海报边框或分屏对比。
+```
+
+### English Prompt
+
+```text
+Redraw the uploaded photo as a retro halftone illustration. Use the photo as the subject reference, preserving the subject's identity, count, main silhouette, pose, viewing angle, and key structures. Do not add unrelated objects.
+
+Use vector-like flat 2D shapes, pop art, vintage comics, and playful children's-book illustration with a nostalgic 1950s-to-1960s print aesthetic. Keep outlines bold and black, lines clear, shapes simple, and contrast high. Use vivid, saturated but limited colors. No gradients: represent shading with halftone dot density rather than photorealistic lighting.
+
+Emphasize dotted textures, rough print grain, and slightly irregular hand-drawn marks rather than mechanically perfect lines. Use white, finely grained paper as the background. Keep the entire subject clear and leave modest breathing room.
+
+Output only the illustration. Do not add headings, captions, logos, watermarks, poster frames, or split-screen comparisons.
+```
+
+## 制作复古手账海报
+
+### 完整提示词
+
+```text
+输入约定：图一为海报排版与文字风格参考，图二为已经完成的复古插画主体。只有图二的主体可以出现在最终海报中，不复制图一的角色、产品、品牌或其他具体素材。
+
+参考图一的标题层级、字形气质、排版节奏、留白比例和装饰图案风格，为图二生成一张新的竖版复古手账海报。严格保持图二主体的身份、轮廓、姿态、关键结构、网点纹理和绘画风格，不重新设计主体。
+
+标题、简短副标题、底部说明和小型装饰围绕图二主题展开，文案与配色根据图二内容对应调整。使用粗体复古展示字、少量手写感辅助字、相关的小图标和纸张印刷纹理。文字清晰可读，不遮挡主体，整体层级明确、留白合理。
+
+如果已提供具体文案，原样使用；否则只生成与图二主题一致的简短描述，不编造功效、价格或商业承诺。不出现图一的品牌、标志或水印，不输出参考图对比、教程字幕或分屏。
+```
+
+### English Prompt
+
+```text
+Input roles: image 1 is the poster layout and typography reference; image 2 is the finished retro subject illustration. Only the subject of image 2 may appear in the final poster. Do not copy characters, products, brands, or other concrete assets from image 1.
+
+Use image 1's heading hierarchy, type character, layout rhythm, spacing, and decorative style to create a new portrait retro scrapbook poster for image 2. Preserve image 2's subject identity, silhouette, pose, key structures, halftone texture, and illustration style. Do not redesign the subject.
+
+Make the title, short subtitle, footer copy, and small decorations relevant to image 2. Adapt the copy and colors to its content. Use bold vintage display type, a little handwritten supporting type, relevant small icons, and paper print grain. Keep text legible and away from the subject, with clear hierarchy and balanced whitespace.
+
+Use supplied copy exactly. Otherwise use short subject-relevant descriptions without inventing benefits, prices, or commercial claims. Do not include image 1's branding, logos, watermarks, reference comparisons, tutorial captions, or split screens.
+```
+
+## 生成海报局部微动效
+
+### 完整提示词
+
+```text
+将上传的完成版插画或海报作为首帧视觉参考，生成一段轻快、活泼有趣的 MG 动画，也就是平面图形微动效。
+
+全程固定镜头，不推拉、不摇移、不缩放、不切镜。保持参考图的主体身份、轮廓、位置、配色、粗黑线条、半色调网点、纸张纹理和整体排版，不转换为写实摄影或三维渲染。
+
+只让与画面内容相关的少量局部元素做幅度克制的周期性运动，例如音箱中的磁带卷轴缓慢转动、音乐符号轻轻跳动，或插画动物自然眨眼。根据上传画面的实际内容选择动作，不添加原图中不存在的角色、物品或装饰。
+
+标题、字形、文案、文字位置和背景保持静止，文字不能重绘、漂移、扭曲或乱码，主体不能融化变形。动作柔和、节奏轻快，结尾尽量回到接近开头的状态，不添加转场、水印、教程字幕、对白或旁白。
+```
+
+### English Prompt
+
+```text
+Use the uploaded finished illustration or poster as the first-frame visual reference. Create a cheerful, playful motion-graphics clip with subtle local animation.
+
+Keep the camera fixed throughout: no dolly, pan, zoom, or cuts. Preserve the reference subject's identity, silhouette, placement, colors, bold black lines, halftone dots, paper texture, and overall layout. Do not switch to photorealism or 3D rendering.
+
+Animate only a few relevant local elements with restrained periodic movement, such as slowly rotating cassette reels, gently bouncing music symbols, or an illustrated animal blinking. Choose actions from the actual uploaded content. Do not add characters, objects, or decorations absent from the reference.
+
+Keep headings, letterforms, wording, text placement, and the background static. Never redraw, drift, warp, or corrupt text, or melt the subject. Use soft, cheerful motion and end near the starting state where possible. No transitions, watermarks, tutorial captions, dialogue, or narration.
+```
+
+使用检查：按照片转绘、海报排版、图生视频的顺序使用。第二步需要排版参考图和第一步插画两张输入图；预览为海报阶段示例，尚未核实它是否为样片实际首帧。
+
+[打开 style.json](../../../styles/video/video-retro-illustration-micro-motion/style.json) · [打开条目目录](../../../styles/video/video-retro-illustration-micro-motion/)
+
+<!-- Generated by scripts/build.mjs. -->
