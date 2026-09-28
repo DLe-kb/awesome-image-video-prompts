@@ -2,7 +2,7 @@
 
 <p align="center">Awesome Visual Prompts</p>
 
-<p align="center"><a href="https://dingle-kb.github.io/awesome-visual-prompts/"><img src="assets/previews/readme-gallery.jpg" alt="六张案例拼贴：四张来源待核实画面、食物拆解信息图与照片速写回忆卡" width="720"></a></p>
+<p align="center"><a href="https://dingle-kb.github.io/awesome-visual-prompts/"><img src="assets/previews/readme-gallery.jpg" alt="六张案例拼贴：海报、产品视觉、食物拆解信息图与照片速写回忆卡" width="720"></a></p>
 
 <p align="center">简体中文 | <a href="README.md">English</a></p>
 
@@ -10,20 +10,28 @@
   <img src="https://img.shields.io/badge/%E7%94%9F%E5%9B%BE%E6%A1%88%E4%BE%8B-69-f15b72?style=for-the-badge&amp;labelColor=555555" alt="生图案例 69">
   <img src="https://img.shields.io/badge/%E7%94%9F%E8%A7%86%E9%A2%91%E6%A1%88%E4%BE%8B-46-36b7d6?style=for-the-badge&amp;labelColor=555555" alt="生视频案例 46">
   <img src="https://img.shields.io/badge/%E7%8B%AC%E7%AB%8B_JSON-115-222222?style=for-the-badge&amp;labelColor=555555" alt="独立 JSON 115">
-  <img src="https://img.shields.io/badge/%E9%85%8D%E5%A5%97_Prompt-92-e0ad00?style=for-the-badge&amp;labelColor=555555" alt="来源配套 Prompt 92">
 </p>
 
 <p align="center"><strong>先看效果，再复制完整 Prompt 或 JSON，沿同一视觉方向创作。</strong></p>
 
 <p align="center">从产品广告、旅行海报到科普图版和镜头运动，点开案例可查看预览或样片、完整提示词及来源；暂无具体作品链接时标明作者主页。</p>
 
-<p align="center">由 <a href="https://github.com/dingle-kb">dingle</a> 整理与维护，来源案例保留原作者署名。无需安装，打开即可浏览。</p>
+<p align="center">由 <a href="https://github.com/dingle-kb">dingle</a> 整理与维护；引用第三方作品时保留作者署名。无需安装，打开即可浏览。</p>
 
 <p align="center"><strong><a href="https://dingle-kb.github.io/awesome-visual-prompts/">浏览在线图册</a></strong> · 或查看 <a href="docs/CATALOG.md">完整案例目录</a>。</p>
 
+## 按类型浏览
+
+| 类型 | 可复制的完整 Prompt | JSON 与预览／样片 |
+| --- | --- | --- |
+| 生图（69 条） | [生图 Prompt 目录](docs/copy-prompts/image/) | [生图案例目录](styles/image/) |
+| 生视频（46 条） | [生视频 Prompt 目录](docs/copy-prompts/video/) | [生视频案例目录](styles/video/) |
+
+按作品题材和标签筛选请使用[在线画廊](https://dingle-kb.github.io/awesome-visual-prompts/)；按中文标题浏览请使用[完整案例目录](docs/CATALOG.md)。
+
 ## 快速入口：按任务找案例
 
-不知道搜什么词，就从你要交付的作品开始。打开案例先看预览或样片，再复制完整 Prompt，也可以直接打开 JSON。来源案例请同时查看原作者和出处。
+不知道搜什么词，就从你要交付的作品开始。打开案例先看预览或样片，再复制完整 Prompt，也可以直接打开 JSON；引用他人作品时请查看作者与出处。
 
 | 想做什么 | 先看带预览的案例 | 完整 Prompt 与 JSON |
 | --- | --- | --- |
@@ -36,9 +44,7 @@
 
 首屏拼贴中的六张图也可逐个查看： [旅行海报](docs/copy-prompts/image/image-coastal-poster.md) · [植物汽水](docs/copy-prompts/image/image-botanical-soda.md) · [植物图版](docs/copy-prompts/image/image-botanical-plate.md) · [梨挞分镜](docs/copy-prompts/image/image-pear-tart-storyboard.md) · [食物拆解](docs/copy-prompts/image/image-exploded-food-infographic.md) · [照片速写](docs/copy-prompts/image/image-half-photo-half-crayon-memory-card.md)。
 
-更多入口：[完整目录](docs/CATALOG.md) · [独立风格目录](styles/) · [画廊筛选](https://dingle-kb.github.io/awesome-visual-prompts/)
-
-案例详情目前以中文为主；92 套配套 Prompt 同时提供中英文版本，其中 4 套关联案例仅有作者主页链接。
+GitHub 首页提供中英文两版（见顶部切换链接）；在线画廊和可复制案例页目前使用中文界面。115 条案例均附完整提示词及英文版本。
 
 ## 为什么做这个库
 
@@ -46,7 +52,7 @@
 
 ## 完整示例：从 Prompt 到植物汽水主视觉
 
-下面展示的是[来源待核实案例](docs/copy-prompts/image/image-botanical-soda.md)中记录的完整 Prompt 和对应预览。这只说明仓库保存了这次生成的输入与输出，不能证明 Prompt 的外部出处。
+下面展示[植物汽水案例](docs/copy-prompts/image/image-botanical-soda.md)记录的完整 Prompt 和对应预览。
 
 ### 1. 输入：案例使用的完整 Prompt
 
@@ -56,25 +62,25 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 
 ### 2. 输出：该案例的实际预览
 
-<a href="docs/copy-prompts/image/image-botanical-soda.md"><img src="styles/image/image-botanical-soda/preview.webp" alt="植物汽水商业静物来源待核实案例的实际预览" width="320"></a>
+<a href="docs/copy-prompts/image/image-botanical-soda.md"><img src="styles/image/image-botanical-soda/preview.webp" alt="植物汽水商业静物的案例预览" width="320"></a>
 
-案例记录：`gpt-image-2` · RightCodes · 请求 `1024×1024` · 实际输出 `1254×1254`。[查看完整案例与生成信息](docs/copy-prompts/image/image-botanical-soda.md)。
+案例记录：`gpt-image-2` · 请求 `1024×1024` · 实际输出 `1254×1254`。[查看完整案例与生成信息](docs/copy-prompts/image/image-botanical-soda.md)。
 
 ### 3. 使用完整案例文件
 
 打开[案例 style.json](styles/image/image-botanical-soda/style.json)，可获取完整 Prompt 和生成信息。上方预览对应这份案例 Prompt；更换产品或构图后会产生新的变体。
 
-## 先看这些来源案例
+## 先看这些案例
 
-列有作品链接的案例保留作者和作品地址；仅有作者主页时在案例页明确标注。点击图片进入案例页查看来源；视频样片请通过“播放样片”进入在线画廊播放器，直接打开 GitHub 的 MP4 文件页可能只提供下载。来源预览与样片不代表本仓库用配套 Prompt 重新生成的效果。
+点击图片可查看完整提示词与案例注明的作者链接；视频点击“播放样片”可在在线画廊观看。直接打开 GitHub 的 MP4 文件页可能只提供下载。预览与样片用于展示对应案例，复用或转载前请核对素材来源与授权。
 
 ### 生图：广告、排版、知识视觉
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/image/image-inside-cup-fisheye-summer-drink-ad.md"><img src="styles/image/image-inside-cup-fisheye-summer-drink-ad/thumbnail.jpg" alt="杯内鱼眼夏日冰饮广告，来源案例" width="240" height="150"></a><br><strong>杯内鱼眼夏日冰饮广告</strong><br><sub>从杯子内部建立特殊拍摄视角</sub><br><a href="docs/copy-prompts/image/image-inside-cup-fisheye-summer-drink-ad.md">完整 Prompt / 来源</a></td>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/image/image-graded-english-magazine-reading-page.md"><img src="styles/image/image-graded-english-magazine-reading-page/thumbnail.jpg" alt="分级英语杂志阅读页，来源案例" width="240" height="150"></a><br><strong>分级英语杂志阅读页</strong><br><sub>把语言等级与版式约束写进 Prompt</sub><br><a href="docs/copy-prompts/image/image-graded-english-magazine-reading-page.md">完整 Prompt / 来源</a></td>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/image/image-vintage-scientific-botanical-poster.md"><img src="styles/image/image-vintage-scientific-botanical-poster/thumbnail.jpg" alt="复古科学植物学海报，来源案例" width="240" height="150"></a><br><strong>复古科学植物学海报</strong><br><sub>解剖标注与图版式构图</sub><br><a href="docs/copy-prompts/image/image-vintage-scientific-botanical-poster.md">完整 Prompt / 来源</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/image/image-inside-cup-fisheye-summer-drink-ad.md"><img src="styles/image/image-inside-cup-fisheye-summer-drink-ad/thumbnail.jpg" alt="杯内鱼眼夏日冰饮广告" width="240" height="150"></a><br><strong>杯内鱼眼夏日冰饮广告</strong><br><sub>从杯子内部建立特殊拍摄视角</sub><br><a href="docs/copy-prompts/image/image-inside-cup-fisheye-summer-drink-ad.md">完整 Prompt / 来源</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/image/image-graded-english-magazine-reading-page.md"><img src="styles/image/image-graded-english-magazine-reading-page/thumbnail.jpg" alt="分级英语杂志阅读页" width="240" height="150"></a><br><strong>分级英语杂志阅读页</strong><br><sub>把语言等级与版式约束写进 Prompt</sub><br><a href="docs/copy-prompts/image/image-graded-english-magazine-reading-page.md">完整 Prompt / 来源</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/image/image-vintage-scientific-botanical-poster.md"><img src="styles/image/image-vintage-scientific-botanical-poster/thumbnail.jpg" alt="复古科学植物学海报" width="240" height="150"></a><br><strong>复古科学植物学海报</strong><br><sub>解剖标注与图版式构图</sub><br><a href="docs/copy-prompts/image/image-vintage-scientific-botanical-poster.md">完整 Prompt / 来源</a></td>
   </tr>
 </table>
 
@@ -84,9 +90,9 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-dolly-zoom-space-warp.md"><img src="styles/video/video-dolly-zoom-space-warp/thumbnail.jpg" alt="推拉变焦空间扭曲样片封面，来源案例" width="240" height="150"></a><br><strong>推拉变焦空间扭曲</strong><br><sub>主体尺寸稳定，背景空间拉伸</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-dolly-zoom-space-warp">播放样片</a> · <a href="docs/copy-prompts/video/video-dolly-zoom-space-warp.md">完整 Prompt / 来源</a></td>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-sketch-to-real-stop-motion-cooking.md"><img src="styles/video/video-sketch-to-real-stop-motion-cooking/thumbnail.jpg" alt="手绘变实物定格料理样片封面，来源案例" width="240" height="150"></a><br><strong>手绘变实物定格料理</strong><br><sub>食材从草图变成实物的过程</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-sketch-to-real-stop-motion-cooking">播放样片</a> · <a href="docs/copy-prompts/video/video-sketch-to-real-stop-motion-cooking.md">完整 Prompt / 来源</a></td>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-vertical-crane-reveal.md"><img src="styles/video/video-vertical-crane-reveal/thumbnail.jpg" alt="垂直升降揭示样片封面，来源案例" width="240" height="150"></a><br><strong>垂直升降揭示</strong><br><sub>镜头升高，逐步展开场景</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-vertical-crane-reveal">播放样片</a> · <a href="docs/copy-prompts/video/video-vertical-crane-reveal.md">完整 Prompt / 来源</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-dolly-zoom-space-warp.md"><img src="styles/video/video-dolly-zoom-space-warp/thumbnail.jpg" alt="推拉变焦空间扭曲样片封面" width="240" height="150"></a><br><strong>推拉变焦空间扭曲</strong><br><sub>主体尺寸稳定，背景空间拉伸</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-dolly-zoom-space-warp">播放样片</a> · <a href="docs/copy-prompts/video/video-dolly-zoom-space-warp.md">完整 Prompt / 来源</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-sketch-to-real-stop-motion-cooking.md"><img src="styles/video/video-sketch-to-real-stop-motion-cooking/thumbnail.jpg" alt="手绘变实物定格料理样片封面" width="240" height="150"></a><br><strong>手绘变实物定格料理</strong><br><sub>食材从草图变成实物的过程</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-sketch-to-real-stop-motion-cooking">播放样片</a> · <a href="docs/copy-prompts/video/video-sketch-to-real-stop-motion-cooking.md">完整 Prompt / 来源</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-vertical-crane-reveal.md"><img src="styles/video/video-vertical-crane-reveal/thumbnail.jpg" alt="垂直升降揭示样片封面" width="240" height="150"></a><br><strong>垂直升降揭示</strong><br><sub>镜头升高，逐步展开场景</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-vertical-crane-reveal">播放样片</a> · <a href="docs/copy-prompts/video/video-vertical-crane-reveal.md">完整 Prompt / 来源</a></td>
   </tr>
 </table>
 
@@ -94,43 +100,39 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-beach-stone-stop-motion.md"><img src="styles/video/video-beach-stone-stop-motion/thumbnail.jpg" alt="海滩石像定格动画样片封面，来源案例" width="240" height="150"></a><br><strong>海滩石像定格动画</strong><br><sub>石块角色的动作与散落</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-beach-stone-stop-motion">播放样片</a> · <a href="docs/copy-prompts/video/video-beach-stone-stop-motion.md">完整 Prompt / 来源</a></td>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-recipe-infographic-cooking-sequence.md"><img src="styles/video/video-recipe-infographic-cooking-sequence/thumbnail.jpg" alt="食谱信息图转连续烹饪短片封面，来源案例" width="240" height="150"></a><br><strong>食谱图转烹饪短片</strong><br><sub>首段、续写与食材状态连续性</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-recipe-infographic-cooking-sequence">播放样片</a> · <a href="docs/copy-prompts/video/video-recipe-infographic-cooking-sequence.md">完整 Prompt / 来源</a></td>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-animated-encyclopedia-collage-explainer.md"><img src="styles/video/video-animated-encyclopedia-collage-explainer/thumbnail.jpg" alt="动态百科页拼贴解说样片封面，来源案例" width="240" height="150"></a><br><strong>动态百科页拼贴解说</strong><br><sub>把知识主题拆成视觉节拍</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-animated-encyclopedia-collage-explainer">播放样片</a> · <a href="docs/copy-prompts/video/video-animated-encyclopedia-collage-explainer.md">完整 Prompt / 来源</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-beach-stone-stop-motion.md"><img src="styles/video/video-beach-stone-stop-motion/thumbnail.jpg" alt="海滩石像定格动画样片封面" width="240" height="150"></a><br><strong>海滩石像定格动画</strong><br><sub>石块角色的动作与散落</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-beach-stone-stop-motion">播放样片</a> · <a href="docs/copy-prompts/video/video-beach-stone-stop-motion.md">完整 Prompt / 来源</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-recipe-infographic-cooking-sequence.md"><img src="styles/video/video-recipe-infographic-cooking-sequence/thumbnail.jpg" alt="食谱信息图转连续烹饪短片封面" width="240" height="150"></a><br><strong>食谱图转烹饪短片</strong><br><sub>首段、续写与食材状态连续性</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-recipe-infographic-cooking-sequence">播放样片</a> · <a href="docs/copy-prompts/video/video-recipe-infographic-cooking-sequence.md">完整 Prompt / 来源</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-animated-encyclopedia-collage-explainer.md"><img src="styles/video/video-animated-encyclopedia-collage-explainer/thumbnail.jpg" alt="动态百科页拼贴解说样片封面" width="240" height="150"></a><br><strong>动态百科页拼贴解说</strong><br><sub>把知识主题拆成视觉节拍</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-animated-encyclopedia-collage-explainer">播放样片</a> · <a href="docs/copy-prompts/video/video-animated-encyclopedia-collage-explainer.md">完整 Prompt / 来源</a></td>
   </tr>
 </table>
 
-## 这里的内容怎么区分
-
-| 类型 | 能看到什么 | 使用时注意 |
-| --- | --- | --- |
-| **来源案例** | 65 个生图、46 个生视频；媒体、完整 Prompt、作者与来源链接 | 其中 4 个只提供作者主页，不能当作具体作品链接 |
-| **来源待核实** | 4 个生图案例仅有生成记录 | 暂不将其称为原创或已有外部来源 |
-| **双版本 Prompt** | 115 个案例均有英文版；原语言为中文、英文或日文 | 其中 4 个视频工作流按步骤分别提供两版；来源核实程度因案例而异 |
-
-首屏拼贴中，前四张来源待核实；后两张保留来源链接。
-
-按标题找内容可用[案例导航](docs/CATALOG.md)；按题材和标签筛选可用[在线画廊](https://dingle-kb.github.io/awesome-visual-prompts/)。
-
 ## 独立 JSON 条目
 
-本库覆盖 115 个案例，每个案例只保留一份 JSON，存放在 [styles/](styles/)。每段提示词提供“完整提示词”和“English Prompt”；原文为英文时，前者为中文译文。4 个视频工作流保留独立的生成阶段，每个阶段分别提供两版。4 个案例尚无外部来源，另 4 个仅有作者主页。画面与样片属于来源案例，不能据此认定整理或翻译后的 Prompt 已重新生成同样结果。
+本库覆盖 115 个案例，每个案例只保留一份 JSON，按生图、生视频存放在 [styles/](styles/) 下。每段提示词提供“完整提示词”和“English Prompt”；原文为英文时，前者为中文译文。4 个视频工作流保留独立的生成阶段，每个阶段分别提供两版。预览与样片记录案例画面，不代表更改后的 Prompt 也会产生相同结果。
 
 ```text
-styles/<image|video>/<名称>/
-  style.json       原语言／中文译文、英文 Prompt、来源和分类；工作流按步骤存储
-  preview.jpg      图像预览或视频封面（必需；部分使用 WebP）
-  thumbnail.jpg    README 等尺寸缩略图（画廊生成）
-  sample.mp4       可播放视频样片（生视频必需）
+styles/
+  image/image-botanical-soda/
+    style.json       提示词、来源和分类
+    preview.webp     案例预览
+    thumbnail.jpg    画廊缩略图
+  video/video-dolly-zoom-space-warp/
+    style.json
+    preview.jpg      视频封面
+    thumbnail.jpg
+    sample.mp4       视频样片
+docs/copy-prompts/
+  image/image-botanical-soda.md
+  video/video-dolly-zoom-space-warp.md
 ```
 
-部分预览使用 WebP 格式。点击 GitHub 文件树中的 `sample.mp4` 仍可能下载；请用案例页或目录里的“播放样片”进入在线播放器。编辑时以单条 `style.json` 为准；由它生成详细目录、画廊和可复制页面，方法见[贡献指南](CONTRIBUTING.md)。
+每个案例目录名保留 `image-` 或 `video-` 前缀；预览可为 JPEG 或 WebP，视频案例还必须有 `sample.mp4`。点击 GitHub 文件树中的 `sample.mp4` 仍可能下载；请用案例页或目录里的“播放样片”进入在线播放器。编辑时以单条 `style.json` 为准；`docs/copy-prompts/`、详细目录和画廊由它生成，方法见[贡献指南](CONTRIBUTING.md)。
 
 ## 贡献与许可
 
 欢迎修正原帖链接、作者署名、分类和失效媒体，或按[贡献指南](CONTRIBUTING.md)提交有明确来源的新案例。提交时请说明原作者、原始链接，以及预览或样片是否允许在仓库中再分发。
 
-仓库自写的站点代码与说明适用 [MIT License](LICENSE)。**来源预览、样片、第三方提示词及来源待核实的案例不因收录而获得 MIT 授权**；复用时请遵守原作者和来源平台的许可要求。
+仓库自写的站点代码与说明适用 [MIT License](LICENSE)。**案例预览、样片和第三方提示词不因收录而获得 MIT 授权**；复用时请遵守原作者和来源平台的许可要求。未注明外部作品链接的素材也不因此获得复用授权。
 
 ## 全部风格画面浏览
 

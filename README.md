@@ -2,7 +2,7 @@
 
 <p align="center">Awesome Visual Prompts</p>
 
-<p align="center"><a href="https://dingle-kb.github.io/awesome-visual-prompts/"><img src="assets/previews/readme-gallery.jpg" alt="Six-case collage: four cases awaiting source verification, a food infographic, and a photo-to-sketch card" width="720"></a></p>
+<p align="center"><a href="https://dingle-kb.github.io/awesome-visual-prompts/"><img src="assets/previews/readme-gallery.jpg" alt="Six-case collage: posters, product visuals, a food infographic, and a photo-to-sketch card" width="720"></a></p>
 
 <p align="center">English | <a href="README-ZH.md">简体中文</a></p>
 
@@ -10,20 +10,28 @@
   <img src="https://img.shields.io/badge/image_cases-69-f15b72?style=for-the-badge&amp;labelColor=555555" alt="69 image cases">
   <img src="https://img.shields.io/badge/video_cases-46-36b7d6?style=for-the-badge&amp;labelColor=555555" alt="46 video cases">
   <img src="https://img.shields.io/badge/individual_JSON-115-222222?style=for-the-badge&amp;labelColor=555555" alt="115 individual JSON files">
-  <img src="https://img.shields.io/badge/source_linked_prompts-92-e0ad00?style=for-the-badge&amp;labelColor=555555" alt="92 source-linked prompts">
 </p>
 
 <p align="center"><strong>See the result, copy the full prompt or JSON, then create in the same visual direction.</strong></p>
 
 <p align="center">From product ads and travel posters to educational graphics and camera moves: open a case for its preview or clip, full prompt, and source. Author profiles are labeled when a specific work link is unavailable.</p>
 
-<p align="center">Curated and maintained by <a href="https://github.com/dingle-kb">dingle</a>. Source cases credit their original creators. No installation needed.</p>
+<p align="center">Curated and maintained by <a href="https://github.com/dingle-kb">dingle</a>. Original creators are credited where their work is included. No installation needed.</p>
 
 <p align="center"><strong><a href="https://dingle-kb.github.io/awesome-visual-prompts/">Browse the visual gallery</a></strong> or open the <a href="docs/CATALOG.md">complete case index</a>.</p>
 
+## Browse by format
+
+| Format | Copy-ready full prompts | JSON and previews/clips |
+| --- | --- | --- |
+| Images (69) | [Image prompt pages](docs/copy-prompts/image/) | [Image case folders](styles/image/) |
+| Videos (46) | [Video prompt pages](docs/copy-prompts/video/) | [Video case folders](styles/video/) |
+
+Use the [visual gallery](https://dingle-kb.github.io/awesome-visual-prompts/) to filter by subject and tag, or the [complete case index](docs/CATALOG.md) to browse by title.
+
 ## Quick links: start with your task
 
-Start with the work you want to make. Open a case to see its preview or clip, copy the full prompt, or open its JSON. For source cases, check the original creator and post as well.
+Start with the work you want to make. Open a case to see its preview or clip, copy the full prompt, or open its JSON. Check the creator and source before reusing someone else's work.
 
 | What you want to make | Case with preview | Full prompt and JSON |
 | --- | --- | --- |
@@ -36,9 +44,7 @@ Start with the work you want to make. Open a case to see its preview or clip, co
 
 The six images in the opening collage also lead to their cases: [travel poster](docs/copy-prompts/image/image-coastal-poster.md) | [botanical soda](docs/copy-prompts/image/image-botanical-soda.md) | [botanical plate](docs/copy-prompts/image/image-botanical-plate.md) | [pear tart storyboard](docs/copy-prompts/image/image-pear-tart-storyboard.md) | [food infographic](docs/copy-prompts/image/image-exploded-food-infographic.md) | [photo-to-sketch card](docs/copy-prompts/image/image-half-photo-half-crayon-memory-card.md).
 
-More ways in: [complete catalog](docs/CATALOG.md) | [individual style folders](styles/) | [filter the gallery](https://dingle-kb.github.io/awesome-visual-prompts/).
-
-Case detail pages are primarily in Chinese; the 92 companion prompts include Chinese and English versions. Four linked cases have only author profiles.
+This English README is the default GitHub homepage; use the link above for the Chinese version. The visual gallery and copy-ready case pages currently have a Chinese interface, while all 115 cases include full prompts and English versions.
 
 ## Why this collection exists
 
@@ -46,7 +52,7 @@ It is easy to save a good-looking image, but harder to find its full prompt, cre
 
 ## Complete example: prompt to botanical soda visual
 
-This is the **exact prompt** recorded in a [case awaiting source verification](docs/copy-prompts/image/image-botanical-soda.md), followed by its preview. The generation record does not establish an external source for the prompt.
+Here is the full prompt recorded for the [botanical soda case](docs/copy-prompts/image/image-botanical-soda.md), followed by its preview.
 
 ### 1. Input: the full case prompt
 
@@ -56,25 +62,25 @@ A polished commercial still-life photograph for a fictional botanical soda calle
 
 ### 2. Output: the actual case preview
 
-<a href="docs/copy-prompts/image/image-botanical-soda.md"><img src="styles/image/image-botanical-soda/preview.webp" alt="Actual preview of the botanical soda still-life case awaiting source verification" width="320"></a>
+<a href="docs/copy-prompts/image/image-botanical-soda.md"><img src="styles/image/image-botanical-soda/preview.webp" alt="Preview of the botanical soda still-life case" width="320"></a>
 
-Case details: `gpt-image-2` | RightCodes | requested `1024x1024` | output `1254x1254`. [Open the full case and generation details](docs/copy-prompts/image/image-botanical-soda.md).
+Case details: `gpt-image-2` | requested `1024x1024` | output `1254x1254`. [Open the full case and generation details](docs/copy-prompts/image/image-botanical-soda.md).
 
 ### 3. Use the complete case file
 
 Open the [case style.json](styles/image/image-botanical-soda/style.json) for the complete prompt and generation details. The preview above belongs to this exact case; changing the product or composition creates a new variation.
 
-## Featured source cases
+## More cases to explore
 
-Cases with links to specific works retain creator credits and work URLs. Cases with only an author profile are labeled accordingly. Click an image to open its case and source. Use “Play clip” to open the player in the online gallery; GitHub's MP4 file page may only offer a download. Source previews and clips are not results regenerated by this repository with the companion prompts.
+Click an image for its full prompt and credited creator link. Use “Play clip” to watch a video in the online gallery; GitHub's MP4 file page may only offer a download. Previews and clips show the recorded cases; check the source and reuse rights before republishing any media.
 
 ### Images: advertising, editorial layout, educational visuals
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/image/image-inside-cup-fisheye-summer-drink-ad.md"><img src="styles/image/image-inside-cup-fisheye-summer-drink-ad/thumbnail.jpg" alt="Inside-the-cup fisheye summer drink ad, source case" width="240" height="150"></a><br><strong>Inside-the-cup summer drink ad</strong><br><sub>A fisheye viewpoint from inside the cup</sub><br><a href="docs/copy-prompts/image/image-inside-cup-fisheye-summer-drink-ad.md">Full prompt / source</a></td>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/image/image-graded-english-magazine-reading-page.md"><img src="styles/image/image-graded-english-magazine-reading-page/thumbnail.jpg" alt="Graded English magazine reading page, source case" width="240" height="150"></a><br><strong>Graded English reading page</strong><br><sub>Reading level and layout constraints in the prompt</sub><br><a href="docs/copy-prompts/image/image-graded-english-magazine-reading-page.md">Full prompt / source</a></td>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/image/image-vintage-scientific-botanical-poster.md"><img src="styles/image/image-vintage-scientific-botanical-poster/thumbnail.jpg" alt="Vintage scientific botanical poster, source case" width="240" height="150"></a><br><strong>Vintage botanical plate</strong><br><sub>Anatomical labels and scientific plate composition</sub><br><a href="docs/copy-prompts/image/image-vintage-scientific-botanical-poster.md">Full prompt / source</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/image/image-inside-cup-fisheye-summer-drink-ad.md"><img src="styles/image/image-inside-cup-fisheye-summer-drink-ad/thumbnail.jpg" alt="Inside-the-cup fisheye summer drink ad" width="240" height="150"></a><br><strong>Inside-the-cup summer drink ad</strong><br><sub>A fisheye viewpoint from inside the cup</sub><br><a href="docs/copy-prompts/image/image-inside-cup-fisheye-summer-drink-ad.md">Full prompt / source</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/image/image-graded-english-magazine-reading-page.md"><img src="styles/image/image-graded-english-magazine-reading-page/thumbnail.jpg" alt="Graded English magazine reading page" width="240" height="150"></a><br><strong>Graded English reading page</strong><br><sub>Reading level and layout constraints in the prompt</sub><br><a href="docs/copy-prompts/image/image-graded-english-magazine-reading-page.md">Full prompt / source</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/image/image-vintage-scientific-botanical-poster.md"><img src="styles/image/image-vintage-scientific-botanical-poster/thumbnail.jpg" alt="Vintage scientific botanical poster" width="240" height="150"></a><br><strong>Vintage botanical plate</strong><br><sub>Anatomical labels and scientific plate composition</sub><br><a href="docs/copy-prompts/image/image-vintage-scientific-botanical-poster.md">Full prompt / source</a></td>
   </tr>
 </table>
 
@@ -84,9 +90,9 @@ Cases with links to specific works retain creator credits and work URLs. Cases w
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-dolly-zoom-space-warp.md"><img src="styles/video/video-dolly-zoom-space-warp/thumbnail.jpg" alt="Dolly-zoom space warp clip cover, source case" width="240" height="150"></a><br><strong>Dolly-zoom space warp</strong><br><sub>Stable subject size, stretching background</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-dolly-zoom-space-warp">Play clip</a> | <a href="docs/copy-prompts/video/video-dolly-zoom-space-warp.md">Full prompt / source</a></td>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-sketch-to-real-stop-motion-cooking.md"><img src="styles/video/video-sketch-to-real-stop-motion-cooking/thumbnail.jpg" alt="Sketch-to-real stop-motion cooking clip cover, source case" width="240" height="150"></a><br><strong>Sketch-to-real cooking</strong><br><sub>Ingredients turn from drawings into real objects</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-sketch-to-real-stop-motion-cooking">Play clip</a> | <a href="docs/copy-prompts/video/video-sketch-to-real-stop-motion-cooking.md">Full prompt / source</a></td>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-vertical-crane-reveal.md"><img src="styles/video/video-vertical-crane-reveal/thumbnail.jpg" alt="Vertical crane reveal clip cover, source case" width="240" height="150"></a><br><strong>Vertical crane reveal</strong><br><sub>A rising camera gradually reveals the scene</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-vertical-crane-reveal">Play clip</a> | <a href="docs/copy-prompts/video/video-vertical-crane-reveal.md">Full prompt / source</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-dolly-zoom-space-warp.md"><img src="styles/video/video-dolly-zoom-space-warp/thumbnail.jpg" alt="Dolly-zoom space warp clip cover" width="240" height="150"></a><br><strong>Dolly-zoom space warp</strong><br><sub>Stable subject size, stretching background</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-dolly-zoom-space-warp">Play clip</a> | <a href="docs/copy-prompts/video/video-dolly-zoom-space-warp.md">Full prompt / source</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-sketch-to-real-stop-motion-cooking.md"><img src="styles/video/video-sketch-to-real-stop-motion-cooking/thumbnail.jpg" alt="Sketch-to-real stop-motion cooking clip cover" width="240" height="150"></a><br><strong>Sketch-to-real cooking</strong><br><sub>Ingredients turn from drawings into real objects</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-sketch-to-real-stop-motion-cooking">Play clip</a> | <a href="docs/copy-prompts/video/video-sketch-to-real-stop-motion-cooking.md">Full prompt / source</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-vertical-crane-reveal.md"><img src="styles/video/video-vertical-crane-reveal/thumbnail.jpg" alt="Vertical crane reveal clip cover" width="240" height="150"></a><br><strong>Vertical crane reveal</strong><br><sub>A rising camera gradually reveals the scene</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-vertical-crane-reveal">Play clip</a> | <a href="docs/copy-prompts/video/video-vertical-crane-reveal.md">Full prompt / source</a></td>
   </tr>
 </table>
 
@@ -94,43 +100,39 @@ Cases with links to specific works retain creator credits and work URLs. Cases w
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-beach-stone-stop-motion.md"><img src="styles/video/video-beach-stone-stop-motion/thumbnail.jpg" alt="Beach stone stop-motion clip cover, source case" width="240" height="150"></a><br><strong>Beach stone stop-motion</strong><br><sub>A stone figure moves, then falls apart</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-beach-stone-stop-motion">Play clip</a> | <a href="docs/copy-prompts/video/video-beach-stone-stop-motion.md">Full prompt / source</a></td>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-recipe-infographic-cooking-sequence.md"><img src="styles/video/video-recipe-infographic-cooking-sequence/thumbnail.jpg" alt="Recipe infographic to cooking video clip cover, source case" width="240" height="150"></a><br><strong>Recipe to cooking video</strong><br><sub>Keep ingredients and stages consistent across clips</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-recipe-infographic-cooking-sequence">Play clip</a> | <a href="docs/copy-prompts/video/video-recipe-infographic-cooking-sequence.md">Full prompt / source</a></td>
-    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-animated-encyclopedia-collage-explainer.md"><img src="styles/video/video-animated-encyclopedia-collage-explainer/thumbnail.jpg" alt="Animated encyclopedia collage explainer clip cover, source case" width="240" height="150"></a><br><strong>Animated encyclopedia explainer</strong><br><sub>Break a knowledge topic into visual beats</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-animated-encyclopedia-collage-explainer">Play clip</a> | <a href="docs/copy-prompts/video/video-animated-encyclopedia-collage-explainer.md">Full prompt / source</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-beach-stone-stop-motion.md"><img src="styles/video/video-beach-stone-stop-motion/thumbnail.jpg" alt="Beach stone stop-motion clip cover" width="240" height="150"></a><br><strong>Beach stone stop-motion</strong><br><sub>A stone figure moves, then falls apart</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-beach-stone-stop-motion">Play clip</a> | <a href="docs/copy-prompts/video/video-beach-stone-stop-motion.md">Full prompt / source</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-recipe-infographic-cooking-sequence.md"><img src="styles/video/video-recipe-infographic-cooking-sequence/thumbnail.jpg" alt="Recipe infographic to cooking video clip cover" width="240" height="150"></a><br><strong>Recipe to cooking video</strong><br><sub>Keep ingredients and stages consistent across clips</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-recipe-infographic-cooking-sequence">Play clip</a> | <a href="docs/copy-prompts/video/video-recipe-infographic-cooking-sequence.md">Full prompt / source</a></td>
+    <td width="33%" align="center" valign="top"><a href="docs/copy-prompts/video/video-animated-encyclopedia-collage-explainer.md"><img src="styles/video/video-animated-encyclopedia-collage-explainer/thumbnail.jpg" alt="Animated encyclopedia collage explainer clip cover" width="240" height="150"></a><br><strong>Animated encyclopedia explainer</strong><br><sub>Break a knowledge topic into visual beats</sub><br><a href="https://dingle-kb.github.io/awesome-visual-prompts/?style=video-animated-encyclopedia-collage-explainer">Play clip</a> | <a href="docs/copy-prompts/video/video-animated-encyclopedia-collage-explainer.md">Full prompt / source</a></td>
   </tr>
 </table>
 
-## What is in this library
-
-| Type | What you get | Keep in mind |
-| --- | --- | --- |
-| **Source cases** | 65 image and 46 video cases with media, full prompts, creators, and source links | Four links lead to author profiles, not specific works |
-| **Source unverified** | 4 image cases have only generation records | No external source or originality claim is made for them |
-| **Bilingual prompts** | All 115 cases include Chinese and English versions | Four video workflows retain both versions for every stage; source verification varies by case |
-
-In the opening collage, the first four images await source verification; the last two retain source links.
-
-Use the [case index](docs/CATALOG.md) to browse by title or the [visual gallery](https://dingle-kb.github.io/awesome-visual-prompts/) to filter by subject and tag.
-
 ## Individual JSON entries
 
-The library has 115 cases, each with a complete prompt and an English version in a single JSON file under [styles/](styles/). The original language is preserved when it is Chinese or Japanese; English originals have a Chinese translation. Four video workflows retain their separate generation stages, each with both language versions. Four cases have no external source; four others link only to author profiles. Source media does not prove that an edited or translated prompt regenerated the same result.
+The library has 115 cases, each with a complete prompt and an English version in a single JSON file under [styles/](styles/), grouped by image or video. The original language is preserved when it is Chinese or Japanese; English originals have a Chinese translation. Four video workflows retain their separate generation stages, each with both language versions. Previews and clips record the cases; changing a prompt does not guarantee the same output.
 
 ```text
-styles/<image|video>/<slug>/
-  style.json       Original-language/Chinese and English prompts, source, and category; workflows retain steps
-  preview.jpg      Image preview or video poster (required; some use WebP)
-  thumbnail.jpg    Fixed-size README preview (generated for gallery cards)
-  sample.mp4       Playable clip (required for video)
+styles/
+  image/image-botanical-soda/
+    style.json       Prompts, source, and category
+    preview.webp     Case preview
+    thumbnail.jpg    Gallery thumbnail
+  video/video-dolly-zoom-space-warp/
+    style.json
+    preview.jpg      Video poster
+    thumbnail.jpg
+    sample.mp4       Video clip
+docs/copy-prompts/
+  image/image-botanical-soda.md
+  video/video-dolly-zoom-space-warp.md
 ```
 
-Some previews are WebP files. Clicking `sample.mp4` in GitHub's file tree may still download it; use “Play clip” in a case page or the catalog for the online player. The individual `style.json` files are the editing source; [CONTRIBUTING.md](CONTRIBUTING.md) explains how to generate the catalog, gallery, and copy-ready pages from them.
+Each case folder keeps its `image-` or `video-` slug prefix. Previews can be JPEG or WebP; video cases also require `sample.mp4`. Clicking `sample.mp4` in GitHub's file tree may still download it; use “Play clip” in a case page or the catalog for the online player. The individual `style.json` files are the editing source; `docs/copy-prompts/`, the case index, and gallery are generated from them as explained in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Contributing and license
 
 Corrections to source links, creator credits, categories, and broken media are welcome. To propose a new case through the [contribution guide](CONTRIBUTING.md), include the creator, original URL, and whether its preview or clip can be redistributed in this repository.
 
-Repository-authored site code and explanatory text are under the [MIT License](LICENSE). **Source media, third-party prompts, and cases awaiting source verification do not become MIT-licensed by being included here.** Follow the original creator's and platform's terms before reusing them.
+Repository-authored site code and explanatory text are under the [MIT License](LICENSE). **Case previews, clips, and third-party prompts do not become MIT-licensed by being included here.** Follow the original creator's and platform's terms before reusing them. A case without an external work link does not grant reuse rights either.
 
 ## All Styles at a Glance
 
