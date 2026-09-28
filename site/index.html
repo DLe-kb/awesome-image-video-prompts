@@ -3,60 +3,94 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f6f7f5" />
+    <meta name="theme-color" content="#171717" />
     <meta name="description" content="浏览 115 个生图和生视频案例，查看预览、来源与完整 Prompt。" />
     <title>AI 生图与生视频 Prompt 灵感库</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="app.js"></script>
+    <script>
+      try {
+        document.documentElement.dataset.theme = localStorage.getItem('visual-prompts-theme') || 'dark';
+      } catch { document.documentElement.dataset.theme = 'dark'; }
+      const filters = new URLSearchParams(location.search);
+      if (filters.has('kind') || filters.has('category') || filters.has('search')) {
+        document.documentElement.dataset.filtered = 'true';
+      }
+      if (document.documentElement.dataset.theme === 'light') {
+        document.querySelector('meta[name="theme-color"]').content = '#f6f6f5';
+      }
+    </script>
+    <link rel="stylesheet" href="styles.css?v=neutral-palette-20260928" />
+    <script type="module" src="app.js?v=neutral-palette-20260928"></script>
   </head>
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">✳</span><span>Image / Video <small>Prompts</small></span></a>
+        <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">✳</span><span>Image / Video <strong>Prompts</strong></span></a>
         <nav aria-label="导航">
           <a href="../README-ZH.md">仓库首页</a>
           <a href="../docs/CATALOG.md">详细目录</a>
           <a href="https://github.com/dingle-kb/awesome-visual-prompts">GitHub ↗</a>
         </nav>
+        <label class="theme-control" title="切换浅色外观"><input id="theme-toggle" type="checkbox" aria-label="浅色外观" /><span class="theme-track" aria-hidden="true"></span><span class="theme-label">浅色</span></label>
       </div>
     </header>
 
     <main>
-      <section class="intro container" aria-labelledby="page-title">
-        <div>
-          <p class="eyebrow">IMAGE / VIDEO PROMPT LIBRARY</p>
-          <h1 id="page-title">生图与生视频 Prompt</h1>
-          <p class="intro-desc">从画面找到方向，打开完整 Prompt 与独立风格 JSON。</p>
+      <section class="hero container" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">AWESOME VISUAL PROMPTS</p>
+          <h1 id="page-title">生图与生视频<br />Prompt 灵感库<span class="title-mark">.</span></h1>
+          <p class="intro-desc">从画面找到创作方向，查看来源、样片与完整提示词。</p>
+          <div class="hero-stats"><span><strong id="total">115</strong> 个创作方向</span><span><strong id="image-total">69</strong> 生图</span><span><strong id="video-total">46</strong> 生视频</span></div>
         </div>
-        <p class="total"><strong id="total">115</strong><span>个创作方向</span></p>
+        <button class="hero-preview" type="button" data-open-style="image-miniature-city-map-travel-poster">
+          <img src="../styles/image-miniature-city-map-travel-poster/thumbnail.jpg" alt="" width="480" height="300" fetchpriority="high" />
+          <span>城市地图微缩旅行海报 <span aria-hidden="true">↗</span></span>
+        </button>
       </section>
 
       <div class="toolbar-wrap">
         <div class="toolbar container">
-          <div class="segments" role="group" aria-label="媒体类型">
-            <button type="button" data-kind="all" aria-pressed="true">全部</button>
-            <button type="button" data-kind="image" aria-pressed="false">生图</button>
-            <button type="button" data-kind="video" aria-pressed="false">生视频</button>
+          <div class="toolbar-main">
+            <label class="search"><span class="search-icon" aria-hidden="true">⌕</span><span class="sr-only">搜索 Prompt</span><input id="search" type="search" placeholder="搜索风格、题材、用途、作者" autocomplete="off" /></label>
+            <div class="segments" role="group" aria-label="媒体类型">
+              <button type="button" data-kind="all" aria-pressed="true">全部</button>
+              <button type="button" data-kind="image" aria-pressed="false">生图</button>
+              <button type="button" data-kind="video" aria-pressed="false">生视频</button>
+            </div>
+            <label class="category-select"><span class="sr-only">所有分类</span><select id="category"><option value="all">所有分类</option></select></label>
           </div>
-          <div class="tools">
-            <label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">搜索 Prompt</span><input id="search" type="search" placeholder="搜索题材、用途、作者…" autocomplete="off" /></label>
-            <label class="sr-only" for="category">分类</label>
-            <select id="category"><option value="all">所有分类</option></select>
-          </div>
+          <div id="category-strip" class="category-strip" role="group" aria-label="快捷分类"></div>
         </div>
       </div>
 
+      <section id="featured" class="container featured-section" aria-labelledby="featured-title">
+        <div class="section-heading"><div><h2 id="featured-title">精选风格</h2></div><span>跨越生图与生视频</span></div>
+        <div id="featured-grid" class="featured-grid" aria-busy="true">
+          <div class="style-card skeleton" aria-hidden="true"><div class="skeleton-media"></div><div class="skeleton-copy"></div><div class="skeleton-actions"></div></div>
+          <div class="style-card skeleton" aria-hidden="true"><div class="skeleton-media"></div><div class="skeleton-copy"></div><div class="skeleton-actions"></div></div>
+          <div class="style-card skeleton" aria-hidden="true"><div class="skeleton-media"></div><div class="skeleton-copy"></div><div class="skeleton-actions"></div></div>
+          <div class="style-card skeleton" aria-hidden="true"><div class="skeleton-media"></div><div class="skeleton-copy"></div><div class="skeleton-actions"></div></div>
+          <div class="style-card skeleton" aria-hidden="true"><div class="skeleton-media"></div><div class="skeleton-copy"></div><div class="skeleton-actions"></div></div>
+          <div class="style-card skeleton" aria-hidden="true"><div class="skeleton-media"></div><div class="skeleton-copy"></div><div class="skeleton-actions"></div></div>
+        </div>
+      </section>
+
       <section class="container library" aria-labelledby="library-title">
-        <div class="section-heading"><h2 id="library-title">全部风格 <span id="result-count"></span></h2><a href="../docs/CATALOG.md">查看详细目录 ↗</a></div>
-        <div id="style-grid" class="style-grid" aria-live="polite"></div>
+        <div class="section-heading"><div><h2 id="library-title">全部风格</h2><p id="result-count" class="result-count" role="status" aria-live="polite"></p></div><a href="../docs/CATALOG.md">查看详细目录 ↗</a></div>
+        <div id="style-grid" class="style-grid" aria-busy="true">
+          <div class="style-card skeleton" aria-hidden="true"><div class="skeleton-media"></div><div class="skeleton-copy"></div><div class="skeleton-actions"></div></div>
+          <div class="style-card skeleton" aria-hidden="true"><div class="skeleton-media"></div><div class="skeleton-copy"></div><div class="skeleton-actions"></div></div>
+          <div class="style-card skeleton" aria-hidden="true"><div class="skeleton-media"></div><div class="skeleton-copy"></div><div class="skeleton-actions"></div></div>
+          <div class="style-card skeleton" aria-hidden="true"><div class="skeleton-media"></div><div class="skeleton-copy"></div><div class="skeleton-actions"></div></div>
+        </div>
       </section>
     </main>
 
     <footer><div class="container footer-inner"><span>Awesome Visual Prompts</span><div><a href="../CONTRIBUTING.md">贡献</a><a href="../LICENSE">许可</a><a href="../README-ZH.md">仓库首页</a></div></div></footer>
 
     <dialog id="detail" aria-labelledby="detail-title">
-      <div class="dialog-content">
-        <button type="button" id="close" class="close" aria-label="关闭" title="关闭">×</button>
+      <div class="dialog-shell">
+        <div class="dialog-toolbar"><span>风格详情</span><div><button type="button" id="previous" class="dialog-nav" aria-label="上一个风格" title="上一个风格">←</button><button type="button" id="next" class="dialog-nav" aria-label="下一个风格" title="下一个风格">→</button><button type="button" id="close" class="close" aria-label="关闭详情" title="关闭详情">×</button></div></div>
         <div id="detail-body"></div>
       </div>
     </dialog>

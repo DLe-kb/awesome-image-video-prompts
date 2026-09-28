@@ -3,8 +3,16 @@ const state = { kind: 'all', category: 'all', query: '' };
 const detail = $('#detail');
 const cache = new Map();
 const labels = { source: '来源案例', unverified: '来源待核实' };
+const featuredSlugs = [
+  'image-miniature-city-map-travel-poster',
+  'image-french-new-wave-torn-paper-poster',
+  'image-city-corner-3d-billboard-photography',
+  'video-1990s-pixel-text-game',
+  'video-animated-encyclopedia-collage-explainer',
+  'image-graded-english-magazine-reading-page',
+];
 let styles = [];
-let visible = [];
+let filtered = [];
 let requestId = 0;
 let toastTimer;
 
@@ -23,13 +31,40 @@ function notify(message) {
   toastTimer = setTimeout(() => { toast.hidden = true; }, 2500);
 }
 
-async function copy(text) {
+async function copy(text, message = '已复制 Prompt') {
   try {
     await navigator.clipboard.writeText(text);
-    notify('已复制 Prompt');
+    notify(message);
   } catch {
-    notify('复制失败，请手动选取文本');
+    const field = el('textarea');
+    field.value = text;
+    field.style.position = 'fixed';
+    field.style.opacity = '0';
+    document.body.append(field);
+    field.select();
+    const copied = document.execCommand('copy');
+    field.remove();
+    notify(copied ? message : '复制失败，请手动选取文本');
   }
+}
+
+async function loadStyle(entry) {
+  if (cache.has(entry.slug)) return cache.get(entry.slug);
+  const response = await fetch(entry.json);
+  if (!response.ok) throw new Error('Style unavailable');
+  const style = await response.json();
+  cache.set(entry.slug, style);
+  return style;
+}
+
+async function copyPrompt(entry) {
+  try {
+    const style = await loadStyle(entry);
+    const value = style.workflow
+      ? style.workflow.map(step => `${step.title}\n${step.prompt}`).join('\n\n')
+      : style.prompt;
+    await copy(value);
+  } catch { notify('无法读取 Prompt，请稍后重试'); }
 }
 
 function promptBlock(container, title, value) {
@@ -44,22 +79,33 @@ function promptBlock(container, title, value) {
 
 async function openDetail(entry) {
   const current = ++requestId;
-  let style = cache.get(entry.slug);
-  if (!style) {
-    try {
-      const response = await fetch(entry.json);
-      if (!response.ok) throw new Error('Style unavailable');
-      style = await response.json();
-      cache.set(entry.slug, style);
-    } catch {
-      notify('无法读取 Prompt，请稍后重试');
-      return;
-    }
+  detail.dataset.slug = entry.slug;
+  const body = $('#detail-body');
+  body.querySelector('video')?.pause();
+  const loading = el('div', 'detail-loading');
+  const loadingTitle = el('h2', '', '正在读取风格');
+  loadingTitle.id = 'detail-title';
+  loading.append(loadingTitle, el('p', '', '正在读取完整提示词…'));
+  body.replaceChildren(loading);
+  if (!detail.open) detail.showModal();
+  detail.scrollTop = 0;
+  $('#previous').disabled = true;
+  $('#next').disabled = true;
+  let style;
+  try { style = await loadStyle(entry); }
+  catch {
+    if (current !== requestId) return;
+    loadingTitle.textContent = '暂时无法读取这个风格';
+    loading.lastChild.textContent = '请检查网络连接后重试。';
+    const retry = el('button', 'retry', '重试');
+    retry.type = 'button';
+    retry.addEventListener('click', () => openDetail(entry));
+    loading.append(retry);
+    return;
   }
   if (current !== requestId) return;
-  const body = $('#detail-body');
   body.replaceChildren();
-  const layout = el('div', entry.preview ? 'detail-layout' : 'detail-layout no-media');
+  const layout = el('div', 'detail-layout');
   if (entry.preview) {
     const media = el('div', 'detail-media');
     if (entry.sample) {
@@ -69,6 +115,24 @@ async function openDetail(entry) {
       video.controls = true;
       video.preload = 'none';
       video.playsInline = true;
+      video.classList.add('video-loading');
+      const poster = new Image();
+      poster.onload = () => {
+        video.width = poster.naturalWidth;
+        video.height = poster.naturalHeight;
+        video.classList.remove('video-loading');
+      };
+      poster.onerror = () => {
+        video.preload = 'metadata';
+        video.classList.remove('video-loading');
+      };
+      video.addEventListener('loadedmetadata', () => {
+        if (video.videoWidth && video.videoHeight) {
+          video.width = video.videoWidth;
+          video.height = video.videoHeight;
+        }
+      });
+      poster.src = entry.preview;
       media.append(video);
     } else {
       const image = el('img');
@@ -114,9 +178,15 @@ async function openDetail(entry) {
   page.href = entry.copy;
   links.append(json, page);
   content.append(links);
+  const share = el('button', 'share-link', '复制此风格链接');
+  share.type = 'button';
+  share.addEventListener('click', () => copy(location.href, '已复制链接'));
+  content.append(share);
   layout.append(content);
   body.append(layout);
-  if (!detail.open) detail.showModal();
+  const position = filtered.findIndex(item => item.slug === entry.slug);
+  $('#previous').disabled = position <= 0;
+  $('#next').disabled = position < 0 || position >= filtered.length - 1;
   const params = new URLSearchParams(location.search);
   params.set('style', entry.slug);
   history.replaceState(null, '', `${location.pathname}?${params}${location.hash}`);
@@ -130,38 +200,97 @@ function matches(entry) {
   return words.includes(state.query);
 }
 
-function render() {
-  const grid = $('#style-grid');
-  grid.replaceChildren();
-  const filtered = visible.filter(matches);
-  $('#result-count').textContent = `(${filtered.length})`;
-  if (!filtered.length) {
-    grid.append(el('p', 'empty', '没有找到匹配的 Prompt。'));
-    return;
-  }
-  for (const entry of filtered) {
+function card(entry) {
     const card = el('article', 'style-card');
     const button = el('button', 'card-open');
     button.type = 'button';
-    button.setAttribute('aria-label', `查看${entry.title}及完整 Prompt`);
     button.addEventListener('click', () => openDetail(entry));
     if (entry.preview) {
       const image = el('img', 'card-preview');
-      image.src = entry.preview;
-      image.alt = entry.title;
+      image.src = `../styles/${entry.slug}/thumbnail.jpg`;
+      image.alt = '';
       image.loading = 'lazy';
-      image.width = 600;
+      image.width = 480;
+      image.height = 300;
       button.append(image);
-    } else {
-      button.append(el('div', 'card-placeholder', entry.kind === 'image' ? '生图' : '生视频'));
     }
     const meta = el('div', 'card-meta');
-    meta.append(el('span', 'kicker', `${entry.kind === 'image' ? '生图' : '生视频'} · ${labels[entry.type]}`),
+    meta.append(el('span', 'kicker', `${entry.kind === 'image' ? '生图' : '生视频'} / ${entry.category}`),
       el('h3', '', entry.title), el('p', '', entry.summary));
     button.append(meta);
     card.append(button);
-    grid.append(card);
+    const actions = el('div', 'card-actions');
+    const copyButton = el('button', '', '复制 Prompt');
+    copyButton.type = 'button';
+    copyButton.addEventListener('click', () => copyPrompt(entry));
+    const detailButton = el('button', '', '查看详情');
+    detailButton.type = 'button';
+    detailButton.addEventListener('click', () => openDetail(entry));
+    actions.append(copyButton, detailButton);
+    card.append(actions);
+    return card;
+}
+
+function render() {
+  filtered = styles.filter(matches);
+  $('#result-count').textContent = `显示 ${filtered.length} / ${styles.length} 个风格`;
+  const featured = $('#featured');
+  featured.hidden = state.kind !== 'all' || state.category !== 'all' || Boolean(state.query);
+  const grid = $('#style-grid');
+  grid.setAttribute('aria-busy', 'false');
+  grid.replaceChildren();
+  if (!filtered.length) {
+    const empty = el('div', 'empty');
+    empty.append(el('strong', '', '没有找到匹配的 Prompt'), el('span', '', '试试其他关键词或清除筛选。'));
+    const reset = el('button', 'retry', '清除筛选');
+    reset.type = 'button';
+    reset.addEventListener('click', () => {
+      state.kind = 'all'; state.category = 'all'; state.query = '';
+      $('#search').value = '';
+      $('#category').value = 'all';
+      updateFilters();
+    });
+    empty.append(reset);
+    grid.append(empty);
+    return;
   }
+  grid.append(...filtered.map(card));
+}
+
+function renderCategories() {
+  const strip = $('#category-strip');
+  strip.replaceChildren();
+  const counts = new Map();
+  for (const entry of styles) counts.set(entry.category, (counts.get(entry.category) || 0) + 1);
+  const popular = [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'zh-CN')).slice(0, 9);
+  for (const category of ['all', ...popular.map(([name]) => name)]) {
+    const button = el('button', '', category === 'all' ? '所有分类' : category);
+    button.type = 'button';
+    button.dataset.category = category;
+    button.setAttribute('aria-pressed', String(state.category === category));
+    button.addEventListener('click', () => {
+      state.category = category;
+      $('#category').value = category;
+      updateFilters();
+    });
+    strip.append(button);
+  }
+}
+
+function updateFilters() {
+  document.documentElement.dataset.filtered = String(state.kind !== 'all' || state.category !== 'all' || Boolean(state.query));
+  document.querySelectorAll('.segments button').forEach(button =>
+    button.setAttribute('aria-pressed', String(button.dataset.kind === state.kind)));
+  document.querySelectorAll('.category-strip button').forEach(button =>
+    button.setAttribute('aria-pressed', String(button.dataset.category === state.category)));
+  const params = new URLSearchParams(location.search);
+  for (const [key, value] of [['kind', state.kind], ['category', state.category], ['search', $('#search').value.trim()]]) {
+    if (!value || value === 'all') params.delete(key);
+    else params.set(key, value);
+  }
+  params.delete('style');
+  history.replaceState(null, '', `${location.pathname}${params.size ? `?${params}` : ''}${location.hash}`);
+  render();
 }
 
 async function start() {
@@ -171,8 +300,9 @@ async function start() {
     const data = await response.json();
     if (data.version !== 1 || !Array.isArray(data.styles)) throw new Error('Invalid catalog');
     styles = data.styles;
-    visible = styles;
-    $('#total').textContent = String(visible.length);
+    $('#total').textContent = String(styles.length);
+    $('#image-total').textContent = String(styles.filter(entry => entry.kind === 'image').length);
+    $('#video-total').textContent = String(styles.filter(entry => entry.kind === 'video').length);
     const select = $('#category');
     const categories = [...new Set(styles.map(entry => entry.category))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
     for (const category of categories) {
@@ -182,35 +312,69 @@ async function start() {
     }
     const params = new URLSearchParams(location.search);
     state.kind = ['image', 'video'].includes(params.get('kind')) ? params.get('kind') : 'all';
+    state.category = categories.includes(params.get('category')) ? params.get('category') : 'all';
     state.query = (params.get('search') ?? '').trim().toLocaleLowerCase();
     $('#search').value = params.get('search') ?? '';
+    select.value = state.category;
+    renderCategories();
+    const picks = featuredSlugs.map(slug => styles.find(entry => entry.slug === slug)).filter(Boolean);
+    $('#featured-grid').replaceChildren(...picks.map(card));
+    $('#featured-grid').setAttribute('aria-busy', 'false');
     document.querySelectorAll('.segments button').forEach(button => {
       button.setAttribute('aria-pressed', String(button.dataset.kind === state.kind));
       button.addEventListener('click', () => {
         state.kind = button.dataset.kind;
-        document.querySelectorAll('.segments button').forEach(item =>
-          item.setAttribute('aria-pressed', String(item === button)));
-        render();
+        updateFilters();
       });
     });
     $('#search').addEventListener('input', event => {
       state.query = event.target.value.trim().toLocaleLowerCase();
-      render();
+      updateFilters();
     });
-    select.addEventListener('change', event => { state.category = event.target.value; render(); });
+    select.addEventListener('change', event => { state.category = event.target.value; updateFilters(); });
     render();
     const selected = styles.find(entry => entry.slug === params.get('style'));
     if (selected) openDetail(selected);
   } catch {
-    $('#style-grid').append(el('p', 'empty', '画廊暂时无法加载，请在仓库首页浏览 Prompt。'));
+    $('#featured').hidden = true;
+    $('#featured-grid').replaceChildren();
+    $('#featured-grid').setAttribute('aria-busy', 'false');
+    const grid = $('#style-grid');
+    grid.setAttribute('aria-busy', 'false');
+    grid.replaceChildren(el('p', 'empty', '画廊暂时无法加载，请在仓库首页浏览 Prompt。'));
   }
 }
 
+document.querySelector('[data-open-style]').addEventListener('click', event => {
+  const entry = styles.find(item => item.slug === event.currentTarget.dataset.openStyle);
+  if (entry) openDetail(entry);
+});
+const themeToggle = $('#theme-toggle');
+themeToggle.checked = document.documentElement.dataset.theme === 'light';
+themeToggle.addEventListener('change', () => {
+  const theme = themeToggle.checked ? 'light' : 'dark';
+  document.documentElement.dataset.theme = theme;
+  document.querySelector('meta[name="theme-color"]').content = theme === 'light' ? '#f6f6f5' : '#171717';
+  try { localStorage.setItem('visual-prompts-theme', theme); } catch {}
+});
+function moveDetail(direction) {
+  const position = filtered.findIndex(item => item.slug === detail.dataset.slug);
+  if (filtered[position + direction]) openDetail(filtered[position + direction]);
+}
+$('#previous').addEventListener('click', () => moveDetail(-1));
+$('#next').addEventListener('click', () => moveDetail(1));
 $('#close').addEventListener('click', () => detail.close());
 detail.addEventListener('click', event => { if (event.target === detail) detail.close(); });
 detail.addEventListener('close', () => {
+  requestId++;
+  detail.querySelector('video')?.pause();
   const params = new URLSearchParams(location.search);
   params.delete('style');
   history.replaceState(null, '', `${location.pathname}${params.size ? `?${params}` : ''}${location.hash}`);
+});
+detail.addEventListener('keydown', event => {
+  if (event.target.closest('input, textarea, video, pre')) return;
+  if (event.key === 'ArrowLeft') moveDetail(-1);
+  if (event.key === 'ArrowRight') moveDetail(1);
 });
 start();
